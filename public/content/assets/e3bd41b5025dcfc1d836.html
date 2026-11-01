@@ -1,0 +1,210 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    // justify-content: center;
+    font-family: lato, sans-serif;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.done-btn{
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    margin-top: 10;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+input{
+    text-align: center;
+    border: 1px solid;
+    border-color: #808080;
+    width: 80px;
+    height: 20px;
+    background: #CCCCCC;
+    color: #45597E;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+.container2{
+    background: #F8F8F8;
+    width: 646px;
+    border-radius: 10px 10px 10px 10px;
+    // margin-top: 10px;
+}
+input:focus, button:focus{
+    outline: none;
+}
+h4{
+    font-size: 18px;
+    color: #45597E;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.test{
+    background: #FFCC00;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+<html>
+ <head>
+ </head>
+ <body>
+   <div class = "container">
+      <div class = "container2">
+      <label><span style='color: #3DC4AB'>INPUT </span>distance:</label>
+       <input id="userInput1" type="number">
+       <label>consumption:</label>
+       <input id="userInput2" type="number">
+       <label>cost_per_liter:</label>
+       <input id="userInput3" type="number">
+       <p id="lit">liters_required = distance / consumption</p>
+       <p id ="total">total_cost = liters_required * cost_per_liter</p>
+       <p id = "fin"><span style='color: #3DC4AB'>OUTPUT </span>total_cost</p>
+       <p id = "output">Output: </p>
+       </div>
+      <button class = "done-btn">Done</button> 
+  <div>
+ </body>
+</html>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const input2 = document.getElementById("userInput2");
+const input3 = document.getElementById("userInput3");
+const donebtn = document.querySelector(".done-btn");
+var flag = 0;
+input1.value = 40;
+input2.value = 20;
+input3.value = 2;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        maxi();
+    }else{
+        init();
+    }
+
+});
+function init(){
+    //show and enable the done button
+    input1.value = 40;
+    input2.value = 20;
+    input3.value = 2;
+    donebtn.innerHTML = "Done";
+    flag = 0;
+    // enable number input
+    input1.disabled = false;
+    input2.disabled = false;
+    input3.disabled = false;
+    var lit = document.getElementById("lit");
+    var total = document.getElementById("total");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    lit.style.background = "#F8F8F8";
+    total.style.background = "#F8F8F8";
+    fin.style.background = "#F8F8F8";
+    input1.style.background = "#CCCCCC";
+    input2.style.background = "#CCCCCC";
+    input3.style.background = "#CCCCCC";
+    lit.innerHTML = "liters_required = distance / consumption";
+    total.innerHTML = "total_cost = liters_required * cost_per_liter";
+    out.innerHTML = "OUTPUT: ";
+}
+function maxi(){
+    //disable the done button and hide it
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    input2.disabled = true;
+    input3.disabled = true;
+    var lit = document.getElementById("lit");
+    var total = document.getElementById("total");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    var t = input1.value;
+    var t2 = input2.value;
+    var t3 = input3.value;
+    if(isNaN(parseFloat(t)) || parseFloat(t) < 1 || parseFloat(t) > 10000) {
+        //console.log("Invalid input");
+        input1.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else if(isNaN(parseFloat(t2)) || parseFloat(t2) < 1 || parseFloat(t2) > 10000) {
+        //console.log("Invalid input");
+        input2.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else if(isNaN(parseFloat(t3)) || parseFloat(t3) < 1 || parseFloat(t3) > 10000){
+        input3.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }
+    else{
+        var l = parseFloat(t)/parseFloat(t2);
+        var to = l * parseFloat(t3);
+        setTimeout(function(){
+            lit.style.background = "#FFCC00";
+            lit.innerHTML = "litres_required = " + l.toString();
+        },1000)
+        setTimeout(function(){
+            total.style.background = "#FFCC00";
+            total.innerHTML = "total_cost = " + to.toString();
+        },2000)
+        setTimeout(function(){
+            fin.style.background = "#FFCC00";
+        },3000)
+        setTimeout(function(){
+        out.innerHTML = "OUTPUT: " + to.toString();
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 1;
+        },4000);
+    }
+}
+
+
+</script>
+        

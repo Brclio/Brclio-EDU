@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 470.5 299.48)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -53.93 20.62)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 21.02)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >(</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.93 -20.71)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -20.31)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >[</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.66 -20.71)"  >
+<polygon style="stroke: rgb(255,255,255); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  points="22.3,-14.5 -22.3,-14.5 -22.3,14.5 22.3,14.5 22.3,-14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.74 -19.78)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.4" y="5.03" >top</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 31.59 -20.66)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-105.08, 46)" d="M 92.1926 -46 C 101.2499 -46 110.2409 -46 117.9611 -46" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 7.53 -20.68)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  points="5,3.5 -5,0 5,-3.5 5,3.5 " />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 116.91 127.18)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-86.41" y="22.62" style="font-family: 'courier'; font-size: 72px; font-weight: normal; ">([])</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 103.28 44.06)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-72" y="7.54" style="stroke-width: 1; font-family: 'courier'; font-size: 24px; font-weight: normal; fill: rgb(152,0,0); ">平衡括号示例</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 78.5 251.92)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-70" y="-19.93" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(0,0,0); ">遍历这个字符串</tspan><tspan x="-70" y="6.28" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(0,0,0); ">如果它是开括号</tspan><tspan x="-70" y="32.5" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(0,0,0); ">则推到栈中</tspan></text>
+</g>
+</svg>

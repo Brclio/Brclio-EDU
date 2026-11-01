@@ -1,0 +1,229 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.container2{
+    display: flex;
+    //flex-direction: inline-block;
+}
+body{
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+h4{
+    padding: 16px;
+    font-size: 18px;
+    color: #45597E;
+}
+input{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 145px;
+    height: 100px;
+    font-size: 40px;
+    //padding: 10px;
+    background: #F8F8F8;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    
+}
+.iut{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 145px;
+    height: 100px;
+    font-size: 40px;
+    //padding: 10px;
+    background: #F8F8F8;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    
+}
+.done-btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+.reset-btn{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+
+}
+input:focus, button:focus{
+    outline: none;
+}
+label{
+    color: #45597E;
+    font-weight: bold;
+    display: block;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+</style>
+<div class = "container">
+  <h4 id= "hfour">Enter two numbers to swap</h4>
+  <div class = "container2">
+    <div style="float:left;margin-right:10px;">
+      <label>n1:</label>
+      <input id="userInput1" type="number">
+    </div>
+    <div style="float:left;margin-right:10px;">
+      <label>n2:</label>
+      <input id="userInput2" type="number">
+    </div>
+  </div>
+  <button class = "done-btn">Done</button> 
+</div>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const input2 = document.getElementById("userInput2");
+const donebtn = document.querySelector(".done-btn");
+const h4 = document.getElementById("hfour");
+var flag = 0;
+input1.value = 10;
+input2.value = 20;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        swap();
+    }else if(flag ==1){
+        init();
+    }else{
+        clear();
+    }
+
+});
+function init(){
+    //delete all the stuff created in swap
+    input1.value = 10;
+    input2.value = 20;
+    // var tempvar = document.getElementById("divi");
+    // var node = document.querySelector(".container2");
+    // var node2 = document.querySelector(".container");
+    // node.removeChild(tempvar);
+    //show and enable the done button
+    donebtn.innerHTML = "Done";
+    flag = 0;
+    // enable text input
+    input1.disabled = false;
+    input2.disabled = false;
+    // change the colour to grey
+    input1.style.background = "#F8F8F8";
+    input2.style.background = "#F8F8F8";
+    // change h4
+    h4.innerHTML = "Enter two numbers to swap"
+}
+function clear(){
+    // input1.style.borderWidth = "10px";
+    input1.style.background = "#F8F8F8";
+    input2.style.background = "#F8F8F8";
+    input1.value = 10;
+    input2.value = 20;
+    donebtn.innerHTML = "Done";
+    flag = 0;
+}
+function swap(){
+    var v = input1.value;
+    var v2 = input2.value;
+    if(!v || parseFloat(v) < -10000 || parseFloat(v) > 10000){
+        //console.log("caught");
+        input1.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 2;
+    }else if(!v2 || parseFloat(v2) < -10000 || parseFloat(v2) > 10000){
+        //console.log("caught2");
+        input2.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 2;
+    }else{
+        h4.innerHTML = "Swapping numbers";
+        //disable the done button and hide it
+        donebtn.disabled = true;
+        donebtn.style.visibility = "hidden";
+        // create div and input for temp
+        var div = document.createElement("div");
+        div.style.float = "left";
+        div.id = "divi";
+        var x = document.createElement("INPUT");
+        x.setAttribute("type", "number");
+        x.id = "temp";
+        // disable input in the input fields
+        x.disabled = true;
+        input1.disabled = true;
+        input2.disabled = true;
+        // add a label to temp
+        var newLabel = document.createElement("label");
+        newLabel.innerHTML = 'temp';
+        newLabel.id = "lab";
+        // append newly created objects 
+        var node = document.querySelector(".container2");
+        node.appendChild(div);
+        var divi = document.getElementById("divi");
+        divi.appendChild(newLabel);
+        divi.appendChild(x);
+        // temp = n1
+        setTimeout(function(){x.style.background = "#FFCC00"; x.value = input1.value;},1000)
+        // n1 = n2
+        setTimeout(function(){input1.style.background = "#FFCC00"; input1.value = input2.value;},2000)
+        //n2 = temp
+        setTimeout(function(){input2.style.background = "#FFCC00"; input2.value = x.value;},3000)
+        //changing h4
+        setTimeout(function(){h4.innerHTML = "Numbers swapped!";
+        var tempvar = document.getElementById("divi");
+        var node = document.querySelector(".container2");
+        var node2 = document.querySelector(".container");
+        node.removeChild(tempvar);
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 1;
+        x.style.background = "#F8F8F8";
+        },4000);
+        }
+
+}
+
+
+</script>
+        

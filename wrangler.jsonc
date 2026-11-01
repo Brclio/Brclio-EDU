@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "brclio-edu",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  // Set GITHUB_REPOSITORY to the private learning-record repository, e.g. owner/repo.
+  // GITHUB_APP_PRIVATE_KEY and SESSION_SECRET belong in Wrangler secrets.
+  "vars": {
+    "GITHUB_REPOSITORY": "BrclioData/Brclio-EDU-Data",
+    "GITHUB_BRANCH": "main",
+    "GITHUB_APP_ID": "5566305",
+    "GITHUB_APP_CLIENT_ID": "Iv23liTCIgK88FqA1wPz",
+    "GITHUB_INSTALLATION_ID": "177497492"
+  }
+}

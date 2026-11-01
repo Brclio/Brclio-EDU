@@ -1,0 +1,229 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    // justify-content: center;
+    font-family: lato, sans-serif;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.done-btn{
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    margin-top: 10;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+input{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 80px;
+    height: 20px;
+    background: #CCCCCC;
+    color: #45597E;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+.container2{
+    background: #F8F8F8;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    // margin-top: 10px;
+}
+input:focus, button:focus{
+    outline: none;
+}
+h4{
+    padding: 10px;
+    font-size: 25px;
+    color: #45597E;
+}
+label{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.test{
+    background: #FFCC00;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+<html>
+ <head>
+ </head>
+ <body>
+   <div class = "container">
+      <div class = "container2">
+      <label><span style='color: #3DC4AB'>INPUT</span> bmi:</label>
+       <input id="userInput1" type="number">
+       <p id="iff"><span style='color: #3DC4AB'>IF</span> bmi >= 30</p>
+       <p id = "ob" style = "text-indent: 10px;"><span style='color: #3DC4AB'>OUTPUT</span> obese</p>
+       <p id ="elsifov"><span style='color: #3DC4AB'>ELSE-IF </span> bmi >= 25</p>
+       <p id = "ov" style = "text-indent: 10px;"><span style='color: #3DC4AB'>OUTPUT</span> overweight</p>
+       <p id ="elsifhw"><span style='color: #3DC4AB'>ELSE-IF </span> bmi >= 18.5</p>
+       <p id = "hw" style = "text-indent: 10px;"><span style='color: #3DC4AB'>OUTPUT</span> healthy</p>
+       <p id = "els"><span style='color: #3DC4AB'>ELSE</span></p>
+       <p id = "un" style = "text-indent: 10px;"><span style='color: #3DC4AB'>OUTPUT </span> underweight</p>
+       <p id = "output">Output: </p>
+       </div>
+      <button class = "done-btn">Done</button> 
+  <div>
+ </body>
+</html>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const donebtn = document.querySelector(".done-btn");
+var flag = 0;
+input1.value = 10;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        bmi();
+    }else{
+        init();
+    }
+
+});
+function init(){
+    //show and enable the done button
+    input1.value = 10;
+    donebtn.innerHTML = "Done";
+    flag = 0;
+    // enable number input
+    input1.disabled = false;
+    var iff = document.getElementById("iff");
+    var ob = document.getElementById("ob");
+    var elsifov = document.getElementById("elsifov");
+    var ov = document.getElementById("ov");
+    var elsifhw = document.getElementById("elsifhw");
+    var hw = document.getElementById("hw");
+    var els = document.getElementById("els");
+    var un = document.getElementById("un");
+    var out = document.getElementById("output");
+    iff.style.background = "#F8F8F8";
+    ob.style.background = "#F8F8F8";
+    elsifov.style.background = "#F8F8F8";
+    ov.style.background = "#F8F8F8";
+    elsifhw.style.background = "#F8F8F8";
+    hw.style.background = "#F8F8F8";
+    els.style.background = "#F8F8F8";
+    un.style.background = "#F8F8F8";
+    input1.style.background = "#CCCCCC";
+    out.innerHTML = "Output: ";
+}
+function bmi(){
+    //disable the done button and hide it
+    console.log("entered");
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    var iff = document.getElementById("iff");
+    var ob = document.getElementById("ob");
+    var elsifov = document.getElementById("elsifov");
+    var ov = document.getElementById("ov");
+    var elsifhw = document.getElementById("elsifhw");
+    var hw = document.getElementById("hw");
+    var els = document.getElementById("els");
+    var un = document.getElementById("un");
+    var out = document.getElementById("output");
+    var t = input1.value;
+    if(isNaN(parseFloat(t)) || parseFloat(t) < 0 || parseFloat(t) > 100) {
+        //console.log("Invalid input");
+        input1.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else{
+        setTimeout(function(){
+            iff.style.background = "#FFCC00";
+        },1000)
+        setTimeout(function(){
+            if(parseFloat(t) >= 30.0){
+                ob.style.background = "#FFCC00";
+            }else{
+                elsifov.style.background = "#FFCC00";
+            }
+        },2000)
+        setTimeout(function(){
+            if(parseFloat(t) >= 30.0){
+                out.innerHTML = "Output: obese";
+                donebtn.innerHTML = "Reset";
+                donebtn.disabled = false;
+                donebtn.style.visibility = "visible";
+                flag = 1;
+            }else if(parseFloat(t) >= 25.0){
+                ov.style.background = "#FFCC00";
+                setTimeout(function(){
+                    out.innerHTML = "Output: overweight";
+                    donebtn.innerHTML = "Reset";
+                    donebtn.disabled = false;
+                    donebtn.style.visibility = "visible";
+                    flag = 1;
+                },1000);
+            }else if(parseFloat(t) >= 18.5){
+                elsifhw.style.background = "#FFCC00";
+                setTimeout(function(){
+                    hw.style.background = "#FFCC00";
+                },1000);
+                setTimeout(function(){
+                    out.innerHTML = "Output: healthy";
+                    donebtn.innerHTML = "Reset";
+                    donebtn.disabled = false;
+                    donebtn.style.visibility = "visible";
+                    flag = 1;
+                },2000);  
+            }else{
+                elsifhw.style.background = "#FFCC00";
+                setTimeout(function(){
+                    un.style.background = "#FFCC00";
+                },1000);
+                setTimeout(function(){
+                    out.innerHTML = "Output: underweight";
+                    donebtn.innerHTML = "Reset";
+                    donebtn.disabled = false;
+                    donebtn.style.visibility = "visible";
+                    flag = 1;
+                },2000);
+            }   
+        },3000)
+        }
+}
+
+
+</script>
+        

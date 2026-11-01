@@ -1,0 +1,12 @@
+* text=auto
+*.svg text
+*.json text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.wasm binary
+*.whl binary
+*.bin binary
+*.zip binary

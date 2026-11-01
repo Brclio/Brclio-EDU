@@ -1,0 +1,15 @@
+{
+  "http://api.pythontip.com/course/fake_baidu": {
+    "path": "/content/fixtures/fake-baidu.html",
+    "source": "024-1327 / Code 385251ae-5d0c-3646-a8b6-e56dfe04bdff"
+  },
+  "http://api.pythontip.com/course/hello_html": {
+    "path": "/content/fixtures/hello-html.html",
+    "reconstructed": true,
+    "source": "Exact visible DOM from original course screenshot 024-1328; page title and appearance confirmed by screenshot 024-1326.",
+    "evidence": [
+      "/content/assets/3d15310d283264478709.png",
+      "/content/assets/092b5a8fd988c6c75643.png"
+    ]
+  }
+}

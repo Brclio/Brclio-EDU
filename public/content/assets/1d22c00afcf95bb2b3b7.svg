@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="250" viewBox="0 0 600 250" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 342.41 112)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIzNnB4IiB2ZXJzaW9uPSIxLjEiPjxkZWZzLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjUsMC41KSI+PHBhdGggZD0iTSA3IDI3IEwgNyAxMy4zNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHBvaW50ZXItZXZlbnRzPSJub25lIi8+PHBhdGggZD0iTSA3IDguMTIgTCAxMC41IDE1LjEyIEwgNyAxMy4zNyBMIDMuNSAxNS4xMiBaIiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9Im5vbmUiLz48L2c+PC9zdmc+" x="-8" y="-18" width="16" height="36"></image>
+</g>
+<g transform="matrix(1 0 0 1 300 78)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -88.05 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -88.27 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >1</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -44.06 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  points="-17.6,14.5 -17.6,-14.5 17.6,-14.5 17.6,14.5 -17.6,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -44 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >-3</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -0.05 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -0.27 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >0</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 43.94 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  points="-17.6,14.5 -17.6,-14.5 17.6,-14.5 17.6,14.5 -17.6,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 44 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >55</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 87.95 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 87.73 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >3</tspan></text>
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 300 217.84)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 0.05 0.04)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(136,158,175); fill-rule: nonzero; opacity: 1;"  points="-17.6,14.5 -17.6,-14.5 17.6,-14.5 17.6,14.5 -17.6,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 0 0.94)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >55</tspan></text>
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 319.61 21.54)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-66.22" y="5.03" style="stroke-width: 1; font-family: 'helvetica'; font-size: 16px; font-weight: normal; fill: rgb(0,0,0); ">在下面列表中查找,</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 282.3 172.54)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32" y="5.03" style="stroke-width: 1; font-family: 'helvetica'; font-size: 16px; font-weight: normal; fill: rgb(0,0,0); ">查找数字</tspan></text>
+</g>
+</svg>

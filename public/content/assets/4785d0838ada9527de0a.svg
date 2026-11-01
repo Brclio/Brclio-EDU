@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 300 168.62)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-115.22" y="15.08" style="font-family: 'courier'; font-size: 48px; font-weight: normal; ">taco cat</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 301.37 44.06)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-48" y="7.54" style="font-family: 'courier'; font-size: 24px; fill: rgb(152,0,0); ">回文例子</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 299.96 318.91)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-40" y="-6.83" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); ">仔细观察</tspan><tspan x="-120" y="19.39" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); ">看看能否观察出回文的模式</tspan></text>
+</g>
+</svg>

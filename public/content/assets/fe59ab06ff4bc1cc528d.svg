@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 305.33 126.84)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -100.05 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -100.27 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >0</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -60.05 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -60.27 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >2</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -20.05 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(244,204,204); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -20.27 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >5</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 19.95 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 19.73 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >5</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 59.95 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 59.73 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >5</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 99.95 -0.05)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 99.73 0.89)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >5</tspan></text>
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 134.9 49.93)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-103.4" y="6.91" style="stroke-width: 1; font-family: 'courier'; font-size: 22px; font-weight: normal; fill: rgb(152,0,0); ">寻找不动点 : 例子3</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 314.97 251.12)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-78.01" y="-33.04" style="font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); white-space: pre; ">Midpoint = 5 </tspan><tspan x="-130" y="-6.83" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); ">现在考虑数字可能重复的情况</tspan><tspan x="-6" y="19.39" style="font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); white-space: pre; "> </tspan><tspan x="-6" y="45.61" style="font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(152,0,0); white-space: pre; "> </tspan></text>
+</g>
+</svg>

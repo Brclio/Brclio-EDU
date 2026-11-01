@@ -1,0 +1,227 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10;
+}
+.container2{
+    display: flex;
+    //flex-direction: inline-block;
+}
+body{
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+h4{
+    padding: 16px;
+    font-size: 25px;
+    color: #45597E;
+}
+.inp{
+    text-align: center;
+    border: 0px solid;
+    width: 145px;
+    height: 100px;
+    font-size: 30px;
+    //padding: 10px;
+    //background: #CCCCCC;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    background: #F8F8F8;
+    //border-radius: 10px 10px 10px 10px;
+    
+}
+.inp1{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 145px;
+    height: 100px;
+    font-size: 30px;
+    //padding: 10px;
+    //background: #CCCCCC;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    background: #F8F8F8;
+    //border-radius: 10px 10px 10px 10px;
+    
+}
+.done-btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+.reset-btn{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+
+}
+input:focus, button:focus{
+    outline: none;
+}
+.lab{
+    color: #45597E;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+.siz{
+    font-size: 80px;
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+.labb{
+    color: #45597E;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.inpp{
+    text-align: center;
+    border: 0px solid;
+    width: 70px;
+    height: 20px;
+    background: #CCCCCC;
+    color: #45597E;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+</style>
+<div class = "container">
+  <div class = "container2">
+    <div style="float:left;margin-right:10px;">
+      <label class ="lab">n:</label>
+      <input id="userInput1" type="number" class = "inp1">
+    </div>
+   <div style="float:left;margin-right:10px;">
+      <label class = "lab">i</label>
+      <input id="i" type="text" class = "inp">
+    </div>
+    <div style="float:left;margin-right:10px;">
+      <label class = "lab">rem</label>
+      <input id="rem" type="text" class = "inp">
+    </div>
+    <div style="float:left;margin-right:10px;">
+      <label class = "lab">answer</label>
+      <input id="final" type="text" class = "inp">
+    </div>
+  </div>
+  <button class = "done-btn">Done</button> 
+</div>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const donebtn = document.querySelector(".done-btn");
+const rem = document.getElementById("rem");
+const final = document.getElementById("final");
+const i = document.getElementById("i");
+var flag = 0;
+input1.value = 11;
+final.value = "prime";
+i.value = "2";
+rem.disabled = true;
+final.disabled = true;
+i.disabled = true;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        show();
+    }else{
+        init();
+    }
+
+});
+function init(){
+  input1.style.background = "#F8F8F8";
+  donebtn.innerHTML = "Done";
+  flag = 0;
+  input1.disabled = false;
+  input1.value = 11;
+  rem.value = "";
+  i.value = "2";
+  final.value = "prime";
+}
+function show(){
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    var t = input1.value;
+    if(t.indexOf('.') !== -1 || isNaN(parseInt(t)) || parseInt(t) < 4 || parseInt(t) > 100) {
+    input1.style.background = "red";
+    donebtn.innerHTML = "Reset";
+    flag = 1;
+    donebtn.disabled = false;
+    donebtn.style.visibility = "visible";
+    }else{
+    var inp = parseInt(input1.value);
+    var check = Math.trunc(inp / 2);
+    var ii = 2;
+    var f = 0;
+  // store the interval id to clear in future
+    var intr = setInterval(function() {
+    var rem2 = inp % ii;
+    //rem.style.background = "#FFCC00";
+    rem.value = rem2.toString();
+    if (rem2 == 0){
+      //final.style.background = "#FFCC00";
+      final.value = "not prime";
+      f = 1;
+    }
+    //i.style.background = "#FFCC00";
+    i.value = ii.toString();
+    ii = ii + 1;
+    // setTimeout(function(){
+    //   rem.style.background = "#F8F8F8";
+    //   final.style.background = "#F8F8F8";
+    //   i.style.background = "#F8F8F8";
+    // }, 1000);
+
+    // clear the interval if `i` reached 100
+    if (ii == (check + 1) || f == 1) {
+      clearInterval(intr);
+      //console.log("Done");
+      donebtn.innerHTML = "Reset";
+      donebtn.disabled = false;
+      donebtn.style.visibility = "visible";
+      flag = 1;
+    }
+    }, 2000)
+    }
+    
+}
+</script>
+        

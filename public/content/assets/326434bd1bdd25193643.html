@@ -1,0 +1,209 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    // justify-content: center;
+    font-family: lato, sans-serif;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.done-btn{
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    margin-top: 10;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+input{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 80px;
+    height: 20px;
+    background: #CCCCCC;
+    color: #45597E;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+.container2{
+    background: #F8F8F8;
+    width: 289px;
+    border-radius: 10px 10px 10px 10px;
+    // margin-top: 10px;
+}
+input:focus, button:focus{
+    outline: none;
+}
+h4{
+    font-size: 18px;
+    color: #45597E;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.test{
+    background: #FFCC00;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+<html>
+ <head>
+ </head>
+ <body>
+   <div class = "container">
+      <div class = "container2">
+      <label><span style='color: #3DC4AB'>INPUT </span>n1:</label>
+       <input id="userInput1" type="number">
+       <label>n2:</label>
+       <input id="userInput2" type="number">
+       <p id="iff"><span style='color: #3DC4AB'>IF</span> n1 > n2</p>
+       <p id = "odd" style = "text-indent: 10px;">max = n1</p>
+       <p id ="els"><span style='color: #3DC4AB'>ELSE</span></p>
+       <p id = "even" style = "text-indent: 10px;">max = n2</p>
+       <p id = "fin"><span style='color: #3DC4AB'>OUTPUT</span> max</p>
+       <p id = "output">Output: </p>
+       </div>
+      <button class = "done-btn">Done</button> 
+  <div>
+ </body>
+</html>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const input2 = document.getElementById("userInput2");
+const donebtn = document.querySelector(".done-btn");
+var flag = 0;
+input1.value = 10;
+input2.value = 20;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        maxi();
+    }else{
+        init();
+    }
+
+});
+function init(){
+    //show and enable the done button
+    input1.value = 10;
+    input2.value = 20;
+    donebtn.innerHTML = "Done";
+    flag = 0;
+    // enable number input
+    input1.disabled = false;
+    input2.disabled = false;
+    var iff = document.getElementById("iff");
+    var odd = document.getElementById("odd");
+    var even = document.getElementById("even");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    iff.style.background = "#F8F8F8";
+    odd.style.background = "#F8F8F8";
+    even.style.background = "#F8F8F8";
+    fin.style.background = "#F8F8F8";
+    input1.style.background = "#CCCCCC";
+    input2.style.background = "#CCCCCC";
+    iff.innerHTML = "IF n1 > n2";
+    odd.innerHTML = "max = n1";
+    even.innerHTML = "max = n2";
+    out.innerHTML = "Output: ";
+}
+function maxi(){
+    //disable the done button and hide it
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    input2.disabled = true;
+    var iff = document.getElementById("iff");
+    var odd = document.getElementById("odd");
+    var els = document.getElementById("els");
+    var even = document.getElementById("even");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    var t = input1.value;
+    var t2 = input2.value;
+    if(t.indexOf('.') !== -1 || isNaN(parseInt(t)) || parseInt(t) < -10000 || parseInt(t) > 10000) {
+        //console.log("Invalid input");
+        input1.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else if(t2.indexOf('.') !== -1 || isNaN(parseInt(t2)) || parseInt(t2) < -10000 || parseInt(t2) > 10000) {
+        //console.log("Invalid input");
+        input2.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else{
+        setTimeout(function(){
+            iff.style.background = "#FFCC00";
+            // iff.innerHTML = "IF " + t + " > " + t2;
+            odd.innerHTML = "max = " + t;
+            even.innerHTML = "max = " + t2;
+        },1000)
+        setTimeout(function(){
+            if(parseInt(t) > parseInt(t2)){odd.style.background = "#FFCC00";
+            //odd.innerHTML = "max = " + t;
+            }else{
+                // els.style.background = "#FFCC00";
+                even.style.background = "#FFCC00";
+                //even.innerHTML = "max = " + t2;
+            }
+            },2000)
+        setTimeout(function(){fin.style.background = "#FFCC00";},3000)
+        //changing h4
+        setTimeout(function(){
+            if (parseInt(t) > parseInt(t2)){
+                out.innerHTML = "Output: " + t;
+            }else{
+                out.innerHTML = "Output: " + t2;
+            }
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 1;
+        },4000);
+        }
+}
+
+
+</script>
+        

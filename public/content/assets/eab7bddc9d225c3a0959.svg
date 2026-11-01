@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="800" height="400" viewBox="0 0 800 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 206.13 203.32)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-153.63" y="-162.76" style="font-family: 'courier'; font-size: 16px; font-weight: normal; ">def convert_int_to_bin(dec_num):</tspan><tspan x="-153.63" y="-141.78" style="font-family: 'courier'; white-space: pre; ">    </tspan><tspan x="-153.63" y="-120.81" style="stroke-width: 1; font-family: 'courier'; font-size: 16px; font-weight: normal; fill: rgb(0,0,0); white-space: pre; ">    if dec_num == 0:</tspan><tspan x="-153.63" y="-99.84" style="stroke-width: 1; font-family: 'courier'; font-size: 16px; font-weight: normal; fill: rgb(0,0,0); white-space: pre; ">        return 0</tspan><tspan x="-153.63" y="-78.86" style="font-family: 'courier'; white-space: pre; "> </tspan><tspan x="-153.63" y="-57.89" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">    s = Stack()</tspan><tspan x="-153.63" y="-15.95" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">    while dec_num &gt; 0:</tspan><tspan x="-153.63" y="5.03" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">        remainder = dec_num % 2</tspan><tspan x="-153.63" y="26" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">        s.push(remainder)</tspan><tspan x="-153.63" y="46.97" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">        dec_num = dec_num // 2</tspan><tspan x="-153.63" y="88.92" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">    bin_num = &quot;&quot;</tspan><tspan x="-153.63" y="109.89" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">    while not s.is_empty():</tspan><tspan x="-153.63" y="130.86" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">        bin_num += str(s.pop())</tspan><tspan x="-153.63" y="172.81" style="font-family: 'courier'; font-size: 16px; font-weight: normal; white-space: pre; ">    return bin_num</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 614.51 355.86)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-84.01" y="-30.78" style="font-family: 'courier'; font-size: 20px; font-weight: normal; ">dec_num = 0</tspan><tspan x="-84.01" y="-4.57" style="font-family: 'courier'; font-size: 20px; font-weight: normal; ">remainder = 1</tspan><tspan x="-84.01" y="21.65" style="font-family: 'courier'; font-size: 20px; font-weight: normal; white-space: pre; ">bin_num = &quot;1&quot; </tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 644.5 185.15)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -53.79 41.33)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 41.72)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >0</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 0)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 0.39)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >1</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -41.33)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -40.95)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >0</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.73 -41.33)"  >
+<polygon style="stroke: rgb(255,255,255); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  points="22.3,-14.5 -22.3,-14.5 -22.3,14.5 22.3,14.5 22.3,-14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.74 -40.41)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.4" y="5.03" >top</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 31.64 -41.33)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-105.08, 77)" d="M 92.1926 -77 C 101.2499 -77 110.2409 -77 117.9611 -77" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 7.54 -41.33)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  points="5,3.5 -5,0 5,-3.5 5,3.5 " />
+</g>
+</g>
+</g>
+<g transform="matrix(0.41 0 0 1 62.7 329.82)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAxcHgiIGhlaWdodD0iMzFweCIgdmVyc2lvbj0iMS4xIj48ZGVmcy8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41LDAuNSkiPjxwYXRoIGQ9Ik0gMCAxMC41IEwgODAgMTAuNSBMIDgwIDAgTCAxMDAgMTUgTCA4MCAzMCBMIDgwIDE5LjUgTCAwIDE5LjUgWiIgZmlsbD0iI2NjMDAwMCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHBvaW50ZXItZXZlbnRzPSJub25lIi8+PC9nPjwvc3ZnPg==" x="-50.5" y="-15.5" width="101" height="31"></image>
+</g>
+<g transform="matrix(1.42 0 0 1.42 405.84 214.24)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNHB4IiBoZWlnaHQ9IjI0NHB4IiB2ZXJzaW9uPSIxLjEiPjxkZWZzLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjUsMC41KSI+PHBhdGggZD0iTSAxIDI0MSBMIDEgMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iOSA5IiBwb2ludGVyLWV2ZW50cz0ibm9uZSIvPjwvZz48L3N2Zz4=" x="-2" y="-122" width="4" height="244"></image>
+</g>
+</svg>

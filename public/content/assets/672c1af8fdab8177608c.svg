@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1300" height="600" viewBox="0 0 1300 600" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 0.5 0.5)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(1 0 0 1 0.5 0.5)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMXB4IiBoZWlnaHQ9IjFweCIgdmVyc2lvbj0iMS4xIj48ZGVmcy8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41LDAuNSkiLz48L3N2Zz4=" x="-0.5" y="-0.5" width="1" height="1"></image>
+</g>
+<g transform="matrix(1 0 0 1 801.16 25.84)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 0 0)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(225,58,85); fill-rule: nonzero; opacity: 1;"  transform=" translate(-36.8, 15)" d="M 9.6667 -0.5 C 9.6667 -0.5 63.9237 -0.5 63.9237 -0.5 C 68.7571 -0.5 73.5904 -5.3333 73.5904 -10.1667 C 73.5904 -10.1667 73.5904 -19.8333 73.5904 -19.8333 C 73.5904 -24.6667 68.7571 -29.5 63.9237 -29.5 C 63.9237 -29.5 9.6667 -29.5 9.6667 -29.5 C 4.8333 -29.5 0 -24.6667 0 -19.8333 C 0 -19.8333 0 -10.1667 0 -10.1667 C 0 -5.3333 4.8333 -0.5 9.6667 -0.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 0.01 0.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.8" y="5.03" >fib(6)</tspan></text>
+</g>
+</g>
+</g>
+</svg>

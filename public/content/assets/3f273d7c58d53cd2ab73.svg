@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="300" viewBox="0 0 600 300" xml:space="preserve">
+<desc>Created with Fabric.js 1.6.0-rc.1</desc>
+<defs></defs>
+<g style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(92.99999999999997 145.16)" >
+	<polygon points="0,-0.5 0,-29.5 29,-29.5 29,-0.5 0,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="9.5" y="-10.72" fill="#000000">0</tspan>
+		</text>
+	</g>
+	<polygon points="30,-0.5 30,-29.5 59,-29.5 59,-0.5 30,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="39.5" y="-10.72" fill="#000000">1</tspan>
+		</text>
+	</g>
+	<polygon points="60,-0.5 60,-29.5 89,-29.5 89,-0.5 60,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="69.5" y="-10.72" fill="#000000">1</tspan>
+		</text>
+	</g>
+	<polygon points="90,-0.5 90,-29.5 119,-29.5 119,-0.5 90,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="99.5" y="-10.72" fill="#000000">2</tspan>
+		</text>
+	</g>
+	<polygon points="120,-0.5 120,-29.5 149,-29.5 149,-0.5 120,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="129.5" y="-10.72" fill="#000000">3</tspan>
+		</text>
+	</g>
+	<polygon points="150,-0.5 150,-29.5 179,-29.5 179,-0.5 150,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="159.5" y="-10.72" fill="#000000">5</tspan>
+		</text>
+	</g>
+	<polygon points="180,-0.5 180,-29.5 209,-29.5 209,-0.5 180,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="189.5" y="-10.72" fill="#000000">8</tspan>
+		</text>
+	</g>
+	<polygon points="209.9,-0.5 209.9,-29.5 245.1,-29.5 245.1,-0.5 209.9,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="217.9" y="-10.72" fill="#000000">13</tspan>
+		</text>
+	</g>
+	<polygon points="245.9,-0.5 245.9,-29.5 281.1,-29.5 281.1,-0.5 245.9,-0.5 " style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #e13a55; fill-rule: nonzero; opacity: 1;" transform="  matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) "/>
+		<g transform=" matrix(1.3328721319036088 0 0 1.3328721319036088 5.331488527614435 45.3176524847227) ">
+		<text font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;" >
+			<tspan x="253.9" y="-10.72" fill="#000000">21</tspan>
+		</text>
+	</g>
+</g>
+<g transform="translate(228.68 171) rotate(359.95) scale(1.18 1)">
+<image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTI0cHgiIGhlaWdodD0iMTg2cHgiIHZlcnNpb249IjEuMSI+PGRlZnMvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSwwLjUpIj48cGF0aCBkPSJNIDE1IDM4LjUgTCA0NyAzOC41IEwgNDcgMzUgTCA1NSA0MCBMIDQ3IDQ1IEwgNDcgNDEuNSBMIDE1IDQxLjUgWiIgZmlsbD0iIzI2MmI4MCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNDApc2NhbGUoMSwtMSl0cmFuc2xhdGUoMCwtNDApcm90YXRlKC05MCwzNSw0MCkiIHBvaW50ZXItZXZlbnRzPSJub25lIi8+PHBhdGggZD0iTSA4MyAzOC41IEwgMTE1IDM4LjUgTCAxMTUgMzUgTCAxMjMgNDAgTCAxMTUgNDUgTCAxMTUgNDEuNSBMIDgzIDQxLjUgWiIgZmlsbD0iIzI2MmI4MCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNDApc2NhbGUoMSwtMSl0cmFuc2xhdGUoMCwtNDApcm90YXRlKC05MCwxMDMsNDApIiBwb2ludGVyLWV2ZW50cz0ibm9uZSIvPjxwYXRoIGQ9Ik0gNTAgMTQzLjUgTCA4MiAxNDMuNSBMIDgyIDE0MCBMIDkwIDE0NSBMIDgyIDE1MCBMIDgyIDE0Ni41IEwgNTAgMTQ2LjUgWiIgZmlsbD0iIzI2MmI4MCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsMTQ1KXNjYWxlKDEsLTEpdHJhbnNsYXRlKDAsLTE0NSlyb3RhdGUoOTAsNzAsMTQ1KSIgcG9pbnRlci1ldmVudHM9Im5vbmUiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC41LDMuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3Qgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7IiBwb2ludGVyLWV2ZW50cz0iYWxsIiB3aWR0aD0iNzAiIGhlaWdodD0iMTIiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgZm9udC1zaXplOiAxMnB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDAsIDAsIDApOyBsaW5lLWhlaWdodDogMS4yOyB2ZXJ0aWNhbC1hbGlnbjogdG9wOyB3aWR0aDogNzBweDsgd2hpdGUtc3BhY2U6IG5vd3JhcDsgb3ZlcmZsb3ctd3JhcDogbm9ybWFsOyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7dGV4dC1hbGlnbjppbmhlcml0O3RleHQtZGVjb3JhdGlvbjppbmhlcml0OyI+PGI+c2Vjb25kX2xhc3Q8L2I+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjM1IiB5PSIxMiIgZmlsbD0iIzAwMDAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMnB4IiBmb250LWZhbWlseT0iSGVsdmV0aWNhIj4mbHQ7YiZndDtzZWNvbmRfbGFzdCZsdDsvYiZndDs8L3RleHQ+PC9zd2l0Y2g+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkyLjUsMy41KSI+PHN3aXRjaD48Zm9yZWlnbk9iamVjdCBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTsiIHBvaW50ZXItZXZlbnRzPSJhbGwiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMiIgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHZlcnRpY2FsLWFsaWduOiB0b3A7IHdpZHRoOiAyMnB4OyB3aGl0ZS1zcGFjZTogbm93cmFwOyBvdmVyZmxvdy13cmFwOiBub3JtYWw7IHRleHQtYWxpZ246IGNlbnRlcjsiPjxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHN0eWxlPSJkaXNwbGF5OmlubGluZS1ibG9jazt0ZXh0LWFsaWduOmluaGVyaXQ7dGV4dC1kZWNvcmF0aW9uOmluaGVyaXQ7Ij48Yj5sYXN0PC9iPjwvZGl2PjwvZGl2PjwvZm9yZWlnbk9iamVjdD48dGV4dCB4PSIxMCIgeT0iMTIiIGZpbGw9IiMwMDAwMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTJweCIgZm9udC1mYW1pbHk9IkhlbHZldGljYSI+W05vdCBzdXBwb3J0ZWQgYnkgdmlld2VyXTwvdGV4dD48L3N3aXRjaD48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDguNSwxNjguNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3Qgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7IiBwb2ludGVyLWV2ZW50cz0iYWxsIiB3aWR0aD0iNDIiIGhlaWdodD0iMTIiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgZm9udC1zaXplOiAxMnB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDAsIDAsIDApOyBsaW5lLWhlaWdodDogMS4yOyB2ZXJ0aWNhbC1hbGlnbjogdG9wOyB3aWR0aDogNDJweDsgd2hpdGUtc3BhY2U6IG5vd3JhcDsgb3ZlcmZsb3ctd3JhcDogbm9ybWFsOyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7dGV4dC1hbGlnbjppbmhlcml0O3RleHQtZGVjb3JhdGlvbjppbmhlcml0OyI+PGI+Y3VycmVudDwvYj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMjEiIHk9IjEyIiBmaWxsPSIjMDAwMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEycHgiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiPiZsdDtiJmd0O2N1cnJlbnQmbHQ7L2ImZ3Q7PC90ZXh0Pjwvc3dpdGNoPjwvZz48L2c+PC9zdmc+" x="-62" y="-93" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" width="124" height="186" preserveAspectRatio="none"></image>
+</g>
+</svg>

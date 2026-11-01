@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="800" height="250" viewBox="0 0 800 250" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(1 0 0 1 400 100)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -350.05 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -350.29 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >0</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -310.07 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-14.5,14.5 -14.5,-14.5 14.5,-14.5 14.5,14.5 -14.5,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -310.32 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >1</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -259.45 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-22.4,14.5 -22.4,-14.5 22.4,-14.5 22.4,14.5 -22.4,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -259.43 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.4" y="5.03" >...</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -191.5 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-27.2,14.5 -27.2,-14.5 27.2,-14.5 27.2,14.5 -27.2,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -191.48 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.2" y="5.03" >left</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -111.55 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-32,14.5 -32,-14.5 32,-14.5 32,14.5 -32,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -111.53 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24" y="5.03" >right</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -38.23 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-22.4,14.5 -22.4,-14.5 22.4,-14.5 22.4,14.5 -22.4,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -38.21 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.4" y="5.03" >...</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 98.88 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-79.99,14.5 -79.99,-14.5 79.99,-14.5 79.99,14.5 -79.99,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 98.9 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-72.01" y="5.03" >nums.length - 1</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 288.16 -0.02)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,153,0); fill-rule: nonzero; opacity: 1;"  points="-60.79,14.5 -60.79,-14.5 60.79,-14.5 60.79,14.5 -60.79,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 288.18 -0.29)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-52.81" y="5.03" >nums.length</tspan></text>
+</g>
+</g>
+</g>
+<g transform="matrix(1.01 0 0 1 138.08 36)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIyMTZweCIgaGVpZ2h0PSI3MnB4IiB2aWV3Qm94PSItMC41IC0wLjUgMjE2IDcyIj48ZGVmcy8+PGc+PHBhdGggZD0iTSAxMjcuMjUgLTU2LjI1IEwgMTE3LjI1IC01Ni4yNSBRIDEwNy4yNSAtNTYuMjUgMTA3LjI1IC00Ni4yNSBMIDEwNy4yNSA0MCBRIDEwNy4yNSA1MCA5Ny4yNSA1MCBMIDkyLjI1IDUwIFEgODcuMjUgNTAgOTcuMjUgNTAgTCAxMDIuMjUgNTAgUSAxMDcuMjUgNTAgMTA3LjI1IDYwIEwgMTA3LjI1IDE0Ni4yNSBRIDEwNy4yNSAxNTYuMjUgMTE3LjI1IDE1Ni4yNSBMIDEyNy4yNSAxNTYuMjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI3NGUxMyIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHRyYW5zZm9ybT0icm90YXRlKC0yNzAsMTA3LjI1LDUwKSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjU3LjI1IiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjIwIiBmaWxsPSJub25lIiBzdHJva2U9Im5vbmUiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC41IC0wLjUpIj48c3dpdGNoPjxmb3JlaWduT2JqZWN0IHN0eWxlPSJvdmVyZmxvdzogdmlzaWJsZTsgdGV4dC1hbGlnbjogbGVmdDsiIHBvaW50ZXItZXZlbnRzPSJub25lIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiByZXF1aXJlZEZlYXR1cmVzPSJodHRwOi8vd3d3LnczLm9yZy9UUi9TVkcxMS9mZWF0dXJlI0V4dGVuc2liaWxpdHkiPjxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHN0eWxlPSJkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogdW5zYWZlIGZsZXgtc3RhcnQ7IGp1c3RpZnktY29udGVudDogdW5zYWZlIGNlbnRlcjsgd2lkdGg6IDFweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiAzcHg7IG1hcmdpbi1sZWZ0OiAxMDdweDsiPjxkaXYgc3R5bGU9ImJveC1zaXppbmc6IGJvcmRlci1ib3g7IGZvbnQtc2l6ZTogMDsgdGV4dC1hbGlnbjogY2VudGVyOyAiPjxkaXYgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgZm9udC1zaXplOiAxOHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogIzI3NEUxMzsgbGluZS1oZWlnaHQ6IDEuMjsgcG9pbnRlci1ldmVudHM6IGFsbDsgd2hpdGUtc3BhY2U6IG5vd3JhcDsgIj48YiBzdHlsZT0iZm9udC1zaXplOiAxOHB4Ij5yZXR1cm4gbGVmdDwvYj48L2Rpdj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMTA3IiB5PSIyMSIgZmlsbD0iIzI3NEUxMyIgZm9udC1mYW1pbHk9IkhlbHZldGljYSIgZm9udC1zaXplPSIxOHB4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5yZXR1cm4gbGVmdDwvdGV4dD48L3N3aXRjaD48L2c+PC9nPjxzd2l0Y2g+PGcgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5Ii8+PGEgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtNSkiIHhsaW5rOmhyZWY9Imh0dHBzOi8vZGVzay5kcmF3LmlvL3N1cHBvcnQvc29sdXRpb25zL2FydGljbGVzLzE2MDAwMDQyNDg3IiB0YXJnZXQ9Il9ibGFuayI+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMHB4IiB4PSI1MCUiIHk9IjEwMCUiPlZpZXdlciBkb2VzIG5vdCBzdXBwb3J0IGZ1bGwgU1ZHIDEuMTwvdGV4dD48L2E+PC9zd2l0Y2g+PC9zdmc+" x="-108" y="-36" width="216" height="72"></image>
+</g>
+<g transform="matrix(1 0 0 1 506 169)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1MjhweCIgaGVpZ2h0PSI3NnB4IiB2aWV3Qm94PSItMC41IC0wLjUgNTI4IDc2Ij48ZGVmcy8+PGc+PHBhdGggZD0iTSAyODMuNSAtMjQxLjUgTCAyNzMuNSAtMjQxLjUgUSAyNjMuNSAtMjQxLjUgMjYzLjUgLTIzMS41IEwgMjYzLjUgMTEgUSAyNjMuNSAyMSAyNTMuNSAyMSBMIDI0OC41IDIxIFEgMjQzLjUgMjEgMjUzLjUgMjEgTCAyNTguNSAyMSBRIDI2My41IDIxIDI2My41IDMxIEwgMjYzLjUgMjczLjUgUSAyNjMuNSAyODMuNSAyNzMuNSAyODMuNSBMIDI4My41IDI4My41IiBmaWxsPSJub25lIiBzdHJva2U9IiNjYzAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB0cmFuc2Zvcm09InJvdGF0ZSgtOTAsMjYzLjUsMjEpIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHJlY3QgeD0iMjA4LjUiIHk9IjUxIiB3aWR0aD0iMTEwIiBoZWlnaHQ9IjIwIiBmaWxsPSJub25lIiBzdHJva2U9Im5vbmUiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC41IC0wLjUpIj48c3dpdGNoPjxmb3JlaWduT2JqZWN0IHN0eWxlPSJvdmVyZmxvdzogdmlzaWJsZTsgdGV4dC1hbGlnbjogbGVmdDsiIHBvaW50ZXItZXZlbnRzPSJub25lIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiByZXF1aXJlZEZlYXR1cmVzPSJodHRwOi8vd3d3LnczLm9yZy9UUi9TVkcxMS9mZWF0dXJlI0V4dGVuc2liaWxpdHkiPjxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHN0eWxlPSJkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogdW5zYWZlIGZsZXgtc3RhcnQ7IGp1c3RpZnktY29udGVudDogdW5zYWZlIGNlbnRlcjsgd2lkdGg6IDFweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiA1NHB4OyBtYXJnaW4tbGVmdDogMjY0cHg7Ij48ZGl2IHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDA7IHRleHQtYWxpZ246IGNlbnRlcjsgIj48ZGl2IHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IGZvbnQtc2l6ZTogMThweDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6ICNDQzAwMDA7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7ICI+PGIgc3R5bGU9ImZvbnQtc2l6ZTogMThweCI+cmV0dXJuIHJpZ2h0PC9iPjwvZGl2PjwvZGl2PjwvZGl2PjwvZm9yZWlnbk9iamVjdD48dGV4dCB4PSIyNjQiIHk9IjcyIiBmaWxsPSIjQ0MwMDAwIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIiBmb250LXNpemU9IjE4cHgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPnJldHVybiByaWdodDwvdGV4dD48L3N3aXRjaD48L2c+PC9nPjxzd2l0Y2g+PGcgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5Ii8+PGEgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtNSkiIHhsaW5rOmhyZWY9Imh0dHBzOi8vZGVzay5kcmF3LmlvL3N1cHBvcnQvc29sdXRpb25zL2FydGljbGVzLzE2MDAwMDQyNDg3IiB0YXJnZXQ9Il9ibGFuayI+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMHB4IiB4PSI1MCUiIHk9IjEwMCUiPlZpZXdlciBkb2VzIG5vdCBzdXBwb3J0IGZ1bGwgU1ZHIDEuMTwvdGV4dD48L2E+PC9zd2l0Y2g+PC9zdmc+" x="-264" y="-38" width="528" height="76"></image>
+</g>
+</svg>

@@ -1,0 +1,194 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    // justify-content: center;
+    font-family: lato, sans-serif;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.done-btn{
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    margin-top: 10;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+input{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 80px;
+    height: 20px;
+    background: #CCCCCC;
+    color: #45597E;
+    font-weight: bold; 
+    font-size: 18px; 
+}
+.container2{
+    background: #F8F8F8;
+    width: 260px;
+    border-radius: 10px 10px 10px 10px;
+    // margin-top: 10px;
+}
+input:focus, button:focus{
+    outline: none;
+}
+h4{
+    padding: 10px;
+    font-size: 25px;
+    color: #45597E;
+}
+label{
+    font-size: 18px;
+    color: #45597E;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.test{
+    background: #FFCC00;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+<html>
+ <head>
+ </head>
+ <body>
+   <div class = "container">
+      <div class = "container2">
+      <label> <span style='color: #3DC4AB'>INPUT </span>n:</label>
+       <input id="userInput1" type="number">
+       <p id="rem">Remainder = n mod 2</p>
+       <p id="iff"><span style='color: #3DC4AB'>IF </span>Remainder is not equal to 0</p>
+       <p id = "odd" style = "text-indent: 10px;">answer = odd</p>
+       <p id ="els"><span style='color: #3DC4AB'>ELSE</span></p>
+       <p id = "even" style = "text-indent: 10px;">answer = even</p>
+       <p id = "fin"><span style='color: #3DC4AB'>OUTPUT </span> answer </p>
+       <p id = "output">Output: </p>
+       </div>
+      <button class = "done-btn">Done</button> 
+  <div>
+ </body>
+</html>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const donebtn = document.querySelector(".done-btn");
+var flag = 0;
+input1.value = 10;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        oddoreven();
+    }else{
+        init();
+    }
+
+});
+function init(){
+    //show and enable the done button
+    input1.value = 10;
+    donebtn.innerHTML = "Done";
+    flag = 0;
+    // enable number input, reset style and text
+    input1.disabled = false;
+    var rem = document.getElementById("rem");
+    var iff = document.getElementById("iff");
+    var odd = document.getElementById("odd");
+    var even = document.getElementById("even");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    rem.style.background = "#F8F8F8";
+    iff.style.background = "#F8F8F8";
+    odd.style.background = "#F8F8F8";
+    even.style.background = "#F8F8F8";
+    fin.style.background = "#F8F8F8";
+    input1.style.background = "#CCCCCC";
+    rem.innerHTML = "Remainder = N mod 2";
+    out.innerHTML = "Output: ";
+}
+function oddoreven(){
+    //disable the done button and hide it
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    var rem = document.getElementById("rem");
+    var iff = document.getElementById("iff");
+    var odd = document.getElementById("odd");
+    var els = document.getElementById("els");
+    var even = document.getElementById("even");
+    var fin = document.getElementById("fin");
+    var out = document.getElementById("output");
+    var t = input1.value;
+    // checking for invalid and out of bounds input
+    if(t.indexOf('.') !== -1 || isNaN(parseInt(t)) || parseInt(t) < -10000 || parseInt(t) > 10000) {
+        input1.style.background = "red";
+        donebtn.innerHTML = "Reset";
+        flag = 1;
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+    }else{
+        var remainder = parseInt(input1.value) % 2;
+        // highlight reminder
+        setTimeout(function(){
+            rem.style.background = "#FFCC00"; 
+            rem.innerHTML = "Remainder = " + remainder.toString();},1000)
+        //highlight if
+        setTimeout(function(){iff.style.background = "#FFCC00";},2000)
+        // highlight code in if or else
+        setTimeout(function(){
+            if(remainder != 0){odd.style.background = "#FFCC00"}else{
+                even.style.background = "#FFCC00";
+            }
+            },3000)
+        setTimeout(function(){fin.style.background = "#FFCC00";},4000)
+        //changing output
+        setTimeout(function(){
+            if (remainder!=0){
+                out.innerHTML = "Output: odd";
+            }else{
+                out.innerHTML = "Output: even";
+            }
+        // making the button visible
+        donebtn.innerHTML = "Reset";
+        donebtn.disabled = false;
+        donebtn.style.visibility = "visible";
+        flag = 1;
+        },5000);
+        }
+}
+
+
+</script>
+        

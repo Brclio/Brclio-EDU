@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 164.32 100.84)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-118.82" y="11.31" style="font-family: 'courier'; font-size: 36px; font-weight: normal; ">&quot;H e l l o&quot;</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 144.3 44.54)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.8" y="5.03" style="font-family: 'courier'; font-size: 16px; font-weight: bold; fill: rgb(152,0,0); ">String</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 424.5 44.54)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24" y="5.03" style="font-family: 'courier'; font-size: 16px; font-weight: bold; fill: rgb(152,0,0); ">Stack</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 152.71 169.54)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.21" y="5.03" style="font-family: 'courier'; font-size: 16px; font-weight: bold; fill: rgb(152,0,0); ">Reverse String</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 474.5 167.83)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -53.79 62)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 62.39)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >H</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 20.67)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 21.05)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >e</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -20.67)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -20.28)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >l</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -62)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  points="-41,14.5 -41,-14.5 41,-14.5 41,14.5 -41,14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -53.79 -61.61)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >l</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.73 -62)"  >
+<polygon style="stroke: rgb(255,255,255); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  points="22.3,-14.5 -22.3,-14.5 -22.3,14.5 22.3,14.5 22.3,-14.5 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 78.74 -61.08)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.4" y="5.03" >top</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 31.64 -62)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-105.08, 108)" d="M 92.1926 -108 C 101.2499 -108 110.2409 -108 117.9611 -108" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 7.54 -62)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  points="5,3.5 -5,0 5,-3.5 5,3.5 " />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 152.72 230.84)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.41" y="11.31" style="font-family: 'courier'; font-size: 36px; font-weight: normal; ">&quot;o&quot;</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 183.5 341.8)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-158" y="6.28" style="stroke-width: 1; font-family: 'courier'; font-size: 20px; font-weight: normal; fill: rgb(0,0,0); ">栈中弹出&apos;o&apos;，并追加到反转字符串</tspan></text>
+</g>
+</svg>

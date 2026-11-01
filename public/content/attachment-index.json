@@ -1,0 +1,75 @@
+{
+  "attachment_instances": 50,
+  "files": {
+    "/content/attachments/e0e2c0f0f12402572d2c-mymodule.py": {
+      "file_name": "mymodule.py",
+      "sha256": "e0e2c0f0f12402572d2c5e8dd87257c3196b4b98ad4655a37008f43a0c35f512",
+      "bytes": 29
+    },
+    "/content/attachments/48b830e11feee5572525-auto-mpg.data": {
+      "file_name": "auto-mpg.data",
+      "sha256": "48b830e11feee5572525f8f1691ddb9d38d3d7b7063edcd8fca672c2a5e17d8d",
+      "bytes": 30286
+    },
+    "/content/attachments/c1f310b4fe99364c5a23-sample.csv": {
+      "file_name": "sample.csv",
+      "sha256": "c1f310b4fe99364c5a23f7894aa16dd7449512d776f330af77725c35b16589fa",
+      "bytes": 368
+    },
+    "/content/attachments/09d1b5a4e266902cc8d4-fake_fruit.json": {
+      "file_name": "fake_fruit.json",
+      "sha256": "09d1b5a4e266902cc8d442acb27bf87fee206627e4b32889227521127f6c1aa8",
+      "bytes": 173
+    },
+    "/content/attachments/41d02e24b4997055a521-auto-mpg.data": {
+      "file_name": "auto-mpg.data",
+      "sha256": "41d02e24b4997055a521834546bfe8581bdf72f15495ca18c78abe4b2ff461ed",
+      "bytes": 30285
+    },
+    "/content/attachments/644285c766227a2ec599-stack.py": {
+      "file_name": "stack.py",
+      "sha256": "644285c766227a2ec599b3cee3073d9ca18cede96772c410d23287c568e669ef",
+      "bytes": 389
+    },
+    "/content/attachments/839cb89ebee3e6c5fe81-adult.data": {
+      "file_name": "adult.data",
+      "sha256": "839cb89ebee3e6c5fe818fe7de40655460bb4bbcf819a51132218421629f48e6",
+      "bytes": 121895
+    },
+    "/content/attachments/eed9979879be4d18c162-hello.py": {
+      "file_name": "hello.py",
+      "sha256": "eed9979879be4d18c16286d9439a2fc7d8744bb887d78bd2987e7fbadeb84a57",
+      "bytes": 20
+    },
+    "/content/attachments/2ceb78d95bf373041b99-sample1.csv": {
+      "file_name": "sample1.csv",
+      "sha256": "2ceb78d95bf373041b993d105112361423f5f274a678ae24d21331db0a7d795a",
+      "bytes": 187
+    },
+    "/content/attachments/28b8fd0fcda559e6e752-type.csv": {
+      "file_name": "type.csv",
+      "sha256": "28b8fd0fcda559e6e7520ca8ad72724266154b697b786b92cb1ddce038db7539",
+      "bytes": 48
+    },
+    "/content/attachments/403f51801347027fd50f-stack.py": {
+      "file_name": "stack.py",
+      "sha256": "403f51801347027fd50f397486b803d7ed70a6ee18506343515badb2c9e27c5a",
+      "bytes": 419
+    },
+    "/content/attachments/48b830e11feee5572525-auto-mgp.data": {
+      "file_name": "auto-mgp.data",
+      "sha256": "48b830e11feee5572525f8f1691ddb9d38d3d7b7063edcd8fca672c2a5e17d8d",
+      "bytes": 30286
+    },
+    "/content/attachments/2ceb78d95bf373041b99-sample2.csv": {
+      "file_name": "sample2.csv",
+      "sha256": "2ceb78d95bf373041b993d105112361423f5f274a678ae24d21331db0a7d795a",
+      "bytes": 187
+    },
+    "/content/attachments/e8951f27276ba40de5d1-sample1.csv": {
+      "file_name": "sample1.csv",
+      "sha256": "e8951f27276ba40de5d17919f0da56858c49bda0f8cd2a8ec8a8809e371cd923",
+      "bytes": 98
+    }
+  }
+}

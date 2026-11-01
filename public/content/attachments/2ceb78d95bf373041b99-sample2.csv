@@ -1,0 +1,13 @@
+name,price,width,category
+cat,102,2.3,A
+dog,34,7.8,A
+cat,125,8.9,B
+dog,45,3.3,A
+cat,212,3.0,B
+dog,67,8.1,B
+cat,102,2.3,A
+dog,34,7.8,B
+cat,125,8.9,B
+dog,45,3.3,A
+cat,212,3.0,B
+dog,67,8.1,A

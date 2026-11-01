@@ -1,0 +1,181 @@
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10;
+}
+.container2{
+    display: flex;
+    //flex-direction: inline-block;
+}
+body{
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+h4{
+    padding: 16px;
+    font-size: 25px;
+    color: #45597E;
+}
+.inp{
+    text-align: center;
+    border: 0px solid;
+    width: 145px;
+    height: 100px;
+    font-size: 30px;
+    //padding: 10px;
+    //background: #CCCCCC;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    background: #F8F8F8;
+    //border-radius: 10px 10px 10px 10px;
+    
+}
+.inp1{
+    text-align: center;
+    border: 1px solid;
+    border-color:#808080;
+    width: 145px;
+    height: 100px;
+    font-size: 30px;
+    //padding: 10px;
+    //background: #CCCCCC;
+    margin-left: 10;
+    margin-right: 10;
+    color: #45597E;
+    background: #F8F8F8;
+    //border-radius: 10px 10px 10px 10px;
+    
+}
+.done-btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+    background: #F0F0F0;
+    font-size: 14px;
+
+}
+.reset-btn{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    color: #45597E;
+    font-weight: bold;
+
+}
+input:focus, button:focus{
+    outline: none;
+}
+.lab{
+    color: #45597E;
+    font-weight: bold;
+    display: block;
+}
+.done-btn:hover{
+   background: #CCCCCC;
+}
+.siz{
+    font-size: 80px;
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+</style>
+<div class = "container">
+  <div class = "container2">
+  <div style="float:left;margin-right:10px;">
+   <label class ="lab">ASCII code:</label>
+  <input id="userInput1" type="number" class = "inp1">
+  </div>
+   <div style="float:left;margin-right:10px;">
+      <label class = "lab">character</label>
+      <input id="chara" type="text" class = "inp">
+    </div>
+    <div style="float:left;margin-right:10px;">
+      <label class = "lab">binary equivalent</label>
+      <input id="bin" type="text" class = "inp">
+    </div>
+  </div>
+  <button class = "done-btn">Done</button> 
+</div>
+<script type="text/javascript">
+const input1 = document.getElementById("userInput1");
+const donebtn = document.querySelector(".done-btn");
+const chara = document.getElementById("chara");
+const bin = document.getElementById("bin");
+var flag = 0;
+input1.value = 40;
+chara.disabled = true;
+bin.disabled = true;
+donebtn.addEventListener("click", function(){
+    if(flag == 0){
+        show();
+    }else{
+        init();
+    }
+
+});
+function init(){
+  input1.style.background = "#F8F8F8";
+  donebtn.innerHTML = "Done";
+  flag = 0;
+  input1.disabled = false;
+  //input1.value = 40;
+  chara.value = "";
+  bin.value = "";
+}
+function show(){
+    donebtn.disabled = true;
+    donebtn.style.visibility = "hidden";
+    input1.disabled = true;
+    var t = input1.value;
+    if(t.indexOf('.') !== -1 || isNaN(parseInt(t)) || parseInt(t) < 32 || parseInt(t) > 127) {
+    input1.style.background = "red";
+    donebtn.innerHTML = "Reset";
+    flag = 1;
+    donebtn.disabled = false;
+    donebtn.style.visibility = "visible";
+    }else{
+    var code = parseInt(input1.value);
+    if(code == 32){
+        chara.value = "space";
+    }else if(code == 127){
+        chara.value = "DEL";
+    }else{
+        chara.value = String.fromCharCode(code);
+    }
+    //console.log(code,(code).toString(2) )
+    bin.value = (code).toString(2);
+    donebtn.innerHTML = "Reset";
+    donebtn.disabled = false;
+    donebtn.style.visibility = "visible";
+    flag = 1;
+    }
+  
+    
+}
+</script>
+        

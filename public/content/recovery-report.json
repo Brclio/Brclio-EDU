@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "downloaded_original_files": 3,
+    "exported_original_html": 1,
+    "reconstructed_from_original_evidence": 2,
+    "unresolved_required_resources": 0
+  },
+  "recovered": [
+    {
+      "originals": [
+        "https://cdn.py2fun.com/course/spider/03/img/biqnet.mp4",
+        "https://cdn.py2fun.com/course/spider/03/img/bignet.mp4",
+        "https://cdn.py2fun.com/course/spider/03/img/bi\tqnet.mp4"
+      ],
+      "path": "/content/dependencies/biqnet.mp4",
+      "page": "024-1329",
+      "method": "Browser URL normalization removes an embedded tab from bi\\tqnet.mp4; the lesson HTML copy had the separate bignet typo.",
+      "reconstructed": false,
+      "retrieved_from": "https://cdn.py2fun.com/course/spider/03/img/biqnet.mp4",
+      "bytes": 18911084,
+      "sha256": "2184398f4b26d5d2a1192fcc9597f3bae3ce914ee3740911ac2c04b703c8a451",
+      "mime": "video/mp4"
+    },
+    {
+      "originals": [
+        "https://img3.doubanio.com/f/book/e87e3a06f234a06e09ded94a5855bc6f50390ccd/css/book/master.css"
+      ],
+      "path": "/content/dependencies/douban.css",
+      "page": "024-1325",
+      "method": "Original CSS restored from Internet Archive snapshot 2021-03-17.",
+      "reconstructed": false,
+      "retrieved_from": "https://web.archive.org/web/20210317012743id_/https://img3.doubanio.com/f/book/e87e3a06f234a06e09ded94a5855bc6f50390ccd/css/book/master.css",
+      "bytes": 149244,
+      "sha256": "91f7dbd1365a75ed9c432432f1331a6734a91bce78fb14c6160d6e91c68aa274",
+      "mime": "text/css"
+    },
+    {
+      "originals": [
+        "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg"
+      ],
+      "path": "/content/dependencies/wallpaper.jpg",
+      "page": "024-1334",
+      "method": "Original JPEG restored from Internet Archive snapshot 2020-11-23.",
+      "reconstructed": false,
+      "retrieved_from": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+      "bytes": 37385,
+      "sha256": "0f0135ffe55bbed8ac9e5143c85c9af1cad3790e991f30057230c5b1639e504f",
+      "mime": "image/jpeg"
+    },
+    {
+      "originals": [
+        "https://190621-dot-educative-hesive.appspot.com/api/collection/10370001/5474278013140992/page/5420466032345088/image/5723261830692864"
+      ],
+      "path": "/content/recovered/stack-push-arrow.svg",
+      "page": "004-119",
+      "method": "Re-rendered from original frame objects_dict mxGraph model and official Slender Left Arrow stencil, preserving geometry, rotation, colors and stroke. This is a reconstruction, not the lost source file.",
+      "reconstructed": true,
+      "stencil_source": "https://raw.githubusercontent.com/jgraph/drawio/v20.8.16/src/main/webapp/stencils/arrows.xml",
+      "patched_svg_assets": [
+        "/content/assets/8fe6487098cd43fa8857.svg",
+        "/content/assets/9b971c9df295b0159b93.svg",
+        "/content/assets/32d9fe307a8cdd3fc2f1.svg",
+        "/content/assets/991e3b268e59baacf59c.svg",
+        "/content/assets/bdfb91a3c94e576d294c.svg"
+      ]
+    },
+    {
+      "originals": [
+        "http://api.pythontip.com/course/hello_html"
+      ],
+      "path": "/content/fixtures/hello-html.html",
+      "pages": [
+        "024-1326",
+        "024-1328"
+      ],
+      "method": "Exact visible DOM from original course screenshot 024-1328; page title and appearance confirmed by screenshot 024-1326.",
+      "reconstructed": true
+    },
+    {
+      "originals": [
+        "http://api.pythontip.com/course/fake_baidu"
+      ],
+      "path": "/content/fixtures/fake-baidu.html",
+      "page": "024-1327",
+      "method": "Exported the complete HTML already present in the original lesson Code component; no replacement text invented.",
+      "reconstructed": false,
+      "recovery_type": "exported_original_html"
+    }
+  ],
+  "fixture_map": {
+    "http://api.pythontip.com/course/fake_baidu": {
+      "path": "/content/fixtures/fake-baidu.html",
+      "source": "024-1327 / Code 385251ae-5d0c-3646-a8b6-e56dfe04bdff"
+    },
+    "http://api.pythontip.com/course/hello_html": {
+      "path": "/content/fixtures/hello-html.html",
+      "reconstructed": true,
+      "source": "Exact visible DOM from original course screenshot 024-1328; page title and appearance confirmed by screenshot 024-1326.",
+      "evidence": [
+        "/content/assets/3d15310d283264478709.png",
+        "/content/assets/092b5a8fd988c6c75643.png"
+      ]
+    }
+  },
+  "changed_pages": [],
+  "remaining_required_resource_failures": [],
+  "unused_dependencies": [
+    {
+      "asset": "/content/dependencies/douban.css",
+      "count": 103,
+      "type": "site-wide CSS icon URLs",
+      "evidence": "Chromium computed styles checked every original HTML example DOM element and ::before/::after; backgroundImage/listStyleImage/borderImageSource/maskImage/content/cursor contained zero URL usages. These icons are not used by the supplied author-introduction example."
+    }
+  ],
+  "external_web_scraping": "Live crawling examples keep original target URLs. Their target websites are not course assets; browser sandbox/runtime network support is a separate execution constraint.",
+  "reproduce": "python3 scripts/import-courses.py (full pipeline); python3 scripts/import-recover-resources.py (recover only, no course refetch); python3 scripts/import-verify.py (local integrity check)"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 315.5 180.84)"  >
+<g style=""   >
+		<g transform="matrix(1.33 0 0 1.33 -4.06 -132)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-85.5, 213)" d="M 80.6667 -198.5 C 80.6667 -198.5 90.3333 -198.5 90.3333 -198.5 C 95.1667 -198.5 100 -203.3333 100 -208.1667 C 100 -208.1667 100 -217.8333 100 -217.8333 C 100 -222.6667 95.1667 -227.5 90.3333 -227.5 C 90.3333 -227.5 80.6667 -227.5 80.6667 -227.5 C 75.8333 -227.5 71 -222.6667 71 -217.8333 C 71 -217.8333 71 -208.1667 71 -208.1667 C 71 -203.3333 75.8333 -198.5 80.6667 -198.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -4.33 -131.08)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >8</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -37.4 -44)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-60.5, 147)" d="M 55.6667 -132.5 C 55.6667 -132.5 65.3333 -132.5 65.3333 -132.5 C 70.1667 -132.5 75 -137.3333 75 -142.1667 C 75 -142.1667 75 -151.8333 75 -151.8333 C 75 -156.6667 70.1667 -161.5 65.3333 -161.5 C 65.3333 -161.5 55.6667 -161.5 55.6667 -161.5 C 50.8333 -161.5 46 -156.6667 46 -151.8333 C 46 -151.8333 46 -142.1667 46 -142.1667 C 46 -137.3333 50.8333 -132.5 55.6667 -132.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -37.66 -43.08)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >3</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -18.81 -93.07)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-74.44, 183.81)" d="M 79.9517 -198.3525 C 76.715 -189.8077 72.5666 -178.8558 68.9328 -169.2626" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -26.39 -69.12)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.73,-2.25 -2.73,4.24 -2.51,-4.24 2.73,-2.25 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 29.27 -44)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-110.5, 147)" d="M 102.5683 -132.5 C 102.5683 -132.5 118.4317 -132.5 118.4317 -132.5 C 123.2651 -132.5 128.0984 -137.3333 128.0984 -142.1667 C 128.0984 -142.1667 128.0984 -151.8333 128.0984 -151.8333 C 128.0984 -156.6667 123.2651 -161.5 118.4317 -161.5 C 118.4317 -161.5 102.5683 -161.5 102.5683 -161.5 C 97.7349 -161.5 92.9016 -156.6667 92.9016 -151.8333 C 92.9016 -151.8333 92.9016 -142.1667 92.9016 -142.1667 C 92.9016 -137.3333 97.7349 -132.5 102.5683 -132.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 29.27 -43.08)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >10</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 10.68 -93.07)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-96.56, 183.81)" d="M 91.0483 -198.3525 C 94.285 -189.8077 98.4334 -178.8558 102.0672 -169.2626" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 18.25 -69.12)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.51,-4.24 2.73,4.24 -2.73,-2.25 2.51,-4.24 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -98.73 44)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-14.5, 81)" d="M 9.6667 -66.5 C 9.6667 -66.5 19.3333 -66.5 19.3333 -66.5 C 24.1667 -66.5 29 -71.3333 29 -76.1667 C 29 -76.1667 29 -85.8333 29 -85.8333 C 29 -90.6667 24.1667 -95.5 19.3333 -95.5 C 19.3333 -95.5 9.6667 -95.5 9.6667 -95.5 C 4.8333 -95.5 0 -90.6667 0 -85.8333 C 0 -85.8333 0 -76.1667 0 -76.1667 C 0 -71.3333 4.8333 -66.5 9.6667 -66.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -99 44.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >1</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -64.92 -4.5)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-39.85, 117.38)" d="M 50.2911 -132.3525 C 44.157 -123.5513 36.243 -112.1965 29.4173 -102.403" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -80.58 19.08)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="3.44,-0.88 -3.44,4.08 -1.16,-4.08 3.44,-0.88 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -36.06 44)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-61.5, 81)" d="M 56.6667 -66.5 C 56.6667 -66.5 66.3333 -66.5 66.3333 -66.5 C 71.1667 -66.5 76 -71.3333 76 -76.1667 C 76 -76.1667 76 -85.8333 76 -85.8333 C 76 -90.6667 71.1667 -95.5 66.3333 -95.5 C 66.3333 -95.5 56.6667 -95.5 56.6667 -95.5 C 51.8333 -95.5 47 -90.6667 47 -85.8333 C 47 -85.8333 47 -76.1667 47 -76.1667 C 47 -71.3333 51.8333 -66.5 56.6667 -66.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -36.33 44.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >6</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -36.82 -5.46)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-60.94, 118.1)" d="M 60.7219 -132.3525 C 60.8488 -123.9786 61.0107 -113.2929 61.1539 -103.8398" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -36.52 19.16)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.8,-4.02 0.12,4.02 -2.8,-3.94 2.8,-4.02 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -68.06 132)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-37.5, 15)" d="M 32.6667 -0.5 C 32.6667 -0.5 42.3333 -0.5 42.3333 -0.5 C 47.1667 -0.5 52 -5.3333 52 -10.1667 C 52 -10.1667 52 -19.8333 52 -19.8333 C 52 -24.6667 47.1667 -29.5 42.3333 -29.5 C 42.3333 -29.5 32.6667 -29.5 32.6667 -29.5 C 27.8333 -29.5 23 -24.6667 23 -19.8333 C 23 -19.8333 23 -10.1667 23 -10.1667 C 23 -5.3333 27.8333 -0.5 32.6667 -0.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -68.33 132.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >4</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -50.21 82.93)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-50.88, 51.81)" d="M 56.1736 -66.3525 C 53.0664 -57.8077 49.0839 -46.8558 45.5955 -37.2626" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -57.41 106.88)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.68,-2.32 -2.68,4.24 -2.58,-4.24 2.68,-2.32 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -5.4 132)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-84.5, 15)" d="M 79.6667 -0.5 C 79.6667 -0.5 89.3333 -0.5 89.3333 -0.5 C 94.1667 -0.5 99 -5.3333 99 -10.1667 C 99 -10.1667 99 -19.8333 99 -19.8333 C 99 -24.6667 94.1667 -29.5 89.3333 -29.5 C 89.3333 -29.5 79.6667 -29.5 79.6667 -29.5 C 74.8333 -29.5 70 -24.6667 70 -19.8333 C 70 -19.8333 70 -10.1667 70 -10.1667 C 70 -5.3333 74.8333 -0.5 79.6667 -0.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -5.66 132.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-4.8" y="5.03" >7</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -22.51 82.93)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-71.67, 51.81)" d="M 66.6044 -66.3525 C 69.5822 -57.8077 73.3987 -46.8558 76.7418 -37.2626" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 -15.7 106.88)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.64,-4.24 2.63,4.24 -2.64,-2.4 2.64,-4.24 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 94.6 44)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-159.5, 81)" d="M 151.5683 -66.5 C 151.5683 -66.5 167.4317 -66.5 167.4317 -66.5 C 172.2651 -66.5 177.0984 -71.3333 177.0984 -76.1667 C 177.0984 -76.1667 177.0984 -85.8333 177.0984 -85.8333 C 177.0984 -90.6667 172.2651 -95.5 167.4317 -95.5 C 167.4317 -95.5 151.5683 -95.5 151.5683 -95.5 C 146.7349 -95.5 141.9016 -90.6667 141.9016 -85.8333 C 141.9016 -85.8333 141.9016 -76.1667 141.9016 -76.1667 C 141.9016 -71.3333 146.7349 -66.5 151.5683 -66.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 94.6 44.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >14</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 58.73 -4.31)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-132.6, 117.24)" d="M 121.3747 -132.3525 C 127.9723 -123.4659 136.5028 -111.9758 143.8213 -102.1182" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 75.47 19.13)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="0.99,-4.05 3.51,4.05 -3.51,-0.71 0.99,-4.05 " />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 77.27 132)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(191,239,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-146.5, 15)" d="M 138.5683 -0.5 C 138.5683 -0.5 154.4317 -0.5 154.4317 -0.5 C 159.2651 -0.5 164.0984 -5.3333 164.0984 -10.1667 C 164.0984 -10.1667 164.0984 -19.8333 164.0984 -19.8333 C 164.0984 -24.6667 159.2651 -29.5 154.4317 -29.5 C 154.4317 -29.5 138.5683 -29.5 138.5683 -29.5 C 133.7349 -29.5 128.9016 -24.6667 128.9016 -19.8333 C 128.9016 -19.8333 128.9016 -10.1667 128.9016 -10.1667 C 128.9016 -5.3333 133.7349 -0.5 138.5683 -0.5" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 77.27 132.92)" style=""  >
+		<text xml:space="preserve" font-family="Courier,monospace" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.6" y="5.03" >13</tspan></text>
+</g>
+		<g transform="matrix(1.33 0 0 1.33 86.97 82.73)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-153.78, 51.95)" d="M 156.6149 -66.3525 C 154.9486 -57.8931 152.8177 -47.0746 150.9418 -37.5508" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1.33 0 0 1.33 83.17 106.93)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(64,64,64); fill-rule: nonzero; opacity: 1;"  points="2.75,-3.11 -1.55,4.2 -2.75,-4.2 2.75,-3.11 " />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 324.48 365.8)" style=""  >
+		<text xml:space="preserve" font-family="helvetica" font-size="16" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-50" y="6.28" style="font-family: 'courier'; font-size: 20px; fill: rgb(152,0,0); ">二叉搜索树</tspan></text>
+</g>
+</svg>
