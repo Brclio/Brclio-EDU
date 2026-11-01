@@ -85,3 +85,7 @@ npx wrangler deploy --secrets-file .env.production
 - [Worker 密钥](https://developers.cloudflare.com/workers/configuration/secrets/)
 
 `public/_headers` 只应用于静态资源；API 响应头由 Worker 设置。SPA fallback 已在 Wrangler 中启用，因此无需 `_redirects` 通配规则，避免把 API 请求改写为页面。
+
+## 已部署正式域名
+
+正式访问地址为 https://edu.brclio.com/ ，通过 `wrangler.jsonc` 的 `routes[].custom_domain` 管理。`workers.dev` 地址仅保留作为备用访问入口。两个域名的浏览器匿名身份独立，学习时请固定使用正式域名。

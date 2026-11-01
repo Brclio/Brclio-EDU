@@ -1,9 +1,9 @@
 # 上线验收（2026-11-01）
 
-- 站点：https://brclio-edu.aiyuechuang.workers.dev/
+- 站点：https://edu.brclio.com/
 - 源码及课程文件：https://github.com/Brclio/Brclio-EDU
 - 学习记录私有仓库：BrclioData/Brclio-EDU-Data
-- 最终部署版本：40a0aa2d-265f-4550-b7fd-c2e67ce472d1
+- 最终部署版本：44ed4718-6514-4f38-8975-7fb426f1a99e
 
 ## 内容完整性
 
@@ -19,6 +19,10 @@
 - Python 核心及29个依赖包在本站加载；实测 Worker 资源请求无第三方 CDN。
 - requests / urllib 对原固定教学网页 URL 使用本地保留件；024-1327 原始 BeautifulSoup 代码全文运行通过。
 - 公开测试用例验证正确及错误输出，原站未公开的判题数据不会被伪造。
+
+## 正式域名
+
+`edu.brclio.com` 已绑定 Worker Custom Domain；DNS A/AAAA 已生效，HTTPS 证书校验通过（curl verify result=0），首页返回200。在正式域名再次完成匿名记录保存、读取、身份隔离与GitHub实际文件核验，测试文件已清理。
 
 ## 云端学习记录与视频
 

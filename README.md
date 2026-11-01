@@ -1,6 +1,6 @@
 # Brclio EDU
 
-[在线学习](https://brclio-edu.aiyuechuang.workers.dev/) · [上线验收](docs/verification.md)
+[在线学习](https://edu.brclio.com/) · [上线验收](docs/verification.md)
 
 基于 edu.py2fun.com 公开课程内容的开放学习站，运行于 Cloudflare Workers + Static Assets。访客无需注册或登录；课程、题目和配图随网站部署，学习记录通过 Worker 写入 GitHub 私有仓库。
 
