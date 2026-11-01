@@ -1,0 +1,16 @@
+{
+  "source": "https://edu.py2fun.com/api/course/code/execute",
+  "originalFontLookups": "SongTi = /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf\nxkcd = /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf\nxkcd Script = /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf\nHumor Sans = /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf\n",
+  "originalFontWarnings": "findfont: Could not match :family=SongTi:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0. Returning /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.\nfindfont: Could not match :family=xkcd:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0. Returning /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.\nfindfont: Could not match :family=xkcd Script:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0. Returning /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.\nfindfont: Could not match :family=Humor Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0. Returning /usr/local/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.\n",
+  "originalFallbackSha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "localBundledFont": {
+    "wheel": "matplotlib-3.10.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+    "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+    "bytes": 756072,
+    "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+  },
+  "identicalBytes": true,
+  "adaptation": "Aliases are registered for absent SongTi/xkcd family names, using the exact DejaVuSans bytes already chosen by the original server; no new substitute font is introduced.",
+  "lookupCode": "from matplotlib import font_manager\nfor family in ['SongTi', 'xkcd', 'xkcd Script', 'Humor Sans']:\n    print(family, '=', font_manager.findfont(family, fallback_to_default=False))",
+  "hashCode": "import hashlib\nfrom matplotlib import font_manager\nprint(hashlib.sha256(open(font_manager.findfont('DejaVu Sans'), 'rb').read()).hexdigest())"
+}

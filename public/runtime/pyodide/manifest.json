@@ -1,7 +1,7 @@
 {
   "version": "314.0.7",
   "source": "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/",
-  "importedAt": "2026-11-01T13:45:04.146Z",
+  "importedAt": "2026-11-01T15:13:27.423Z",
   "packages": [
     {
       "name": "numpy",
@@ -188,6 +188,18 @@
         "pandas",
         "matplotlib"
       ]
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "dependencies": [
+        "et-xmlfile"
+      ]
     }
   ],
   "files": [
@@ -220,6 +232,12 @@
       "bytes": 8321,
       "sha256": "8ee450085f15b47f78b034d60059af6a3649e98fa5dde073363437742cc0b4ea",
       "source": "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/cycler-0.12.1-py3-none-any.whl"
+    },
+    {
+      "file": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+      "source": "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl"
     },
     {
       "file": "fonttools-4.62.1-py3-none-any.whl",
@@ -268,6 +286,12 @@
       "bytes": 2960568,
       "sha256": "a292c1f5d7d8a2208cd5e94fc467604c131cabcd2fc14fed6eefde121e7fabdf",
       "source": "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl"
+    },
+    {
+      "file": "openpyxl-3.1.5-py2.py3-none-any.whl",
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+      "source": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl"
     },
     {
       "file": "packaging-26.1-py3-none-any.whl",

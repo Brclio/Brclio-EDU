@@ -1,0 +1,13 @@
+[Unit]
+Description=Renew only the Brclio EDU runner TLS certificate
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/www/wwwroot/brclio-edu-runner/server-certbot-renew.sh
+MemoryMax=192M
+CPUQuota=15%
+Nice=15
+TimeoutStartSec=1200
+PrivateTmp=true

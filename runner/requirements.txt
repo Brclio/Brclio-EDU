@@ -1,0 +1,1 @@
+# No third-party Python packages. The host service uses Python 3.10+ standard library only.

@@ -11,5 +11,397 @@
       "/content/assets/3d15310d283264478709.png",
       "/content/assets/092b5a8fd988c6c75643.png"
     ]
+  },
+  "https://baidu.com": {
+    "path": "/content/fixtures/network/57dccbd875bb1b745520.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "b82694155b2a76b16eff8143daf884d46d73cc34706bae3b253905588aefb8ec",
+    "capturedAt": "2026-11-01T15:58:09.475840+00:00",
+    "bytes": 741459,
+    "finalUrl": "https://www.baidu.com/",
+    "source": "https://baidu.com",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/?view=cloud": {
+    "path": "/content/fixtures/network/2375ec30725b4296b065.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "27b32a1923a7400f580d15fa68b4c63be65fbad199be13a27792e92237982116",
+    "capturedAt": "2026-11-01T15:58:09.476923+00:00",
+    "bytes": 29750,
+    "finalUrl": "https://book.douban.com/tag/?view=cloud",
+    "source": "https://book.douban.com/tag/?view=cloud",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://edu.py2fun.com/learn#/course/list": {
+    "path": "/content/fixtures/network/f22d7ee2045b683bc73e.html",
+    "contentType": "text/html",
+    "sha256": "ea3487efb92fa6a52ad76d8768c28a16455286b8992a5971613fcd28e74226c6",
+    "capturedAt": "2026-11-01T15:58:09.912492+00:00",
+    "bytes": 1935,
+    "finalUrl": "https://edu.py2fun.com/learn#/course/list",
+    "source": "https://edu.py2fun.com/learn#/course/list",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/subject/26829016/": {
+    "path": "/content/fixtures/network/5970c516d1ac8600a00d.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "b49ebd2c682614e16912a609c8db6f6350244a0741329b3024484e750ed0dc42",
+    "capturedAt": "2026-11-01T15:58:10.063539+00:00",
+    "bytes": 150449,
+    "finalUrl": "https://book.douban.com/subject/26829016/",
+    "source": "https://book.douban.com/subject/26829016/",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "http://sj.zol.com.cn": {
+    "path": "/content/fixtures/network/48cef96d90b49575bd3b.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "79364e51695b094f8a7d5518b6a3350b586eac293d3611d669a03ddd5ddb52a2",
+    "capturedAt": "2026-11-01T15:58:10.290094+00:00",
+    "bytes": 77640,
+    "finalUrl": "https://sj.zol.com.cn/",
+    "source": "http://sj.zol.com.cn",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "http://www.jd.com": {
+    "path": "/content/fixtures/network/9c34a8a33e2143a2216a.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "acbf545679d7746d40bd9c3736f334b11b737f63b8caba0f1053ae6dd2214fb7",
+    "capturedAt": "2026-11-01T15:58:14.157431+00:00",
+    "bytes": 196501,
+    "finalUrl": "https://www.jd.com/",
+    "source": "http://www.jd.com",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T": {
+    "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "5d052267e5f4e29093ce264b188a0c6f299d9cd642d9403de049604c977c541d",
+    "capturedAt": "2026-11-01T15:58:50.789530+00:00",
+    "bytes": 59380,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/编程?start=0&type=T": {
+    "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "5d052267e5f4e29093ce264b188a0c6f299d9cd642d9403de049604c977c541d",
+    "capturedAt": "2026-11-01T15:58:50.789530+00:00",
+    "bytes": 59380,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T": {
+    "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "ccb85b2304fde383a4ff9fecea91c6e2986a5ca2cfc84654085c7c46b13021a7",
+    "capturedAt": "2026-11-01T15:58:51.610027+00:00",
+    "bytes": 56934,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/编程?start=20&type=T": {
+    "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "ccb85b2304fde383a4ff9fecea91c6e2986a5ca2cfc84654085c7c46b13021a7",
+    "capturedAt": "2026-11-01T15:58:51.610027+00:00",
+    "bytes": 56934,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T": {
+    "path": "/content/fixtures/network/278682050980f84c06b5.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "3113def8305fa3ff6a13840036ac9b6874d4dd16daa85189c3183677ee3f8f37",
+    "capturedAt": "2026-11-01T15:58:52.716066+00:00",
+    "bytes": 57859,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/编程?start=40&type=T": {
+    "path": "/content/fixtures/network/278682050980f84c06b5.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "3113def8305fa3ff6a13840036ac9b6874d4dd16daa85189c3183677ee3f8f37",
+    "capturedAt": "2026-11-01T15:58:52.716066+00:00",
+    "bytes": 57859,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T": {
+    "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "6bf0b5887fbb937122352afc79d71180c5e93930427cbbcb271b261cd51325f2",
+    "capturedAt": "2026-11-01T15:58:53.765312+00:00",
+    "bytes": 56635,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/编程?start=60&type=T": {
+    "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "6bf0b5887fbb937122352afc79d71180c5e93930427cbbcb271b261cd51325f2",
+    "capturedAt": "2026-11-01T15:58:53.765312+00:00",
+    "bytes": 56635,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T": {
+    "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "1ac8a6da63436f6ac7934d4e56ec748fa2b89027c5c20bab4d9bed8d0943ec6f",
+    "capturedAt": "2026-11-01T15:58:54.321511+00:00",
+    "bytes": 57685,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "https://book.douban.com/tag/编程?start=80&type=T": {
+    "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "1ac8a6da63436f6ac7934d4e56ec748fa2b89027c5c20bab4d9bed8d0943ec6f",
+    "capturedAt": "2026-11-01T15:58:54.321511+00:00",
+    "bytes": 57685,
+    "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "recovered": true,
+    "capture": "Current anonymous public response; original historical layout is not assumed."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/1.html": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "89975f703a7d4ed900cf72c9193e3f3c4d0231b324e36a0d932e9c425d344afb",
+    "capturedAt": "2026-11-01T16:20:15.287904+00:00",
+    "bytes": 51727,
+    "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true,
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "89975f703a7d4ed900cf72c9193e3f3c4d0231b324e36a0d932e9c425d344afb",
+    "capturedAt": "2026-11-01T16:20:15.287904+00:00",
+    "bytes": 51727,
+    "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true,
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "89975f703a7d4ed900cf72c9193e3f3c4d0231b324e36a0d932e9c425d344afb",
+    "capturedAt": "2026-11-01T16:20:15.287904+00:00",
+    "bytes": 51727,
+    "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true,
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+  },
+  "http://sj.zol.com.cn/bizhi/detail_10981_121155.html": {
+    "path": "/content/fixtures/network/efc1a4914aaae0c70d3a.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "bb91c7237924f135b5f143e4d76eca8209b499afa904987e316ac966049c51f0",
+    "capturedAt": "2026-11-01T16:20:15.296927+00:00",
+    "bytes": 19366,
+    "finalUrl": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+    "source": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+    "recovered": true,
+    "capture": "Exact original detail page bytes from public archive."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/2.html": {
+    "path": "/content/fixtures/network/5c4734ffbd0845242c1e.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "9dc379e00313a074b905ccf7005611181a048fcd216fdb4b966e6406662fcdbf",
+    "capturedAt": "2026-11-01T16:20:15.297852+00:00",
+    "bytes": 50656,
+    "finalUrl": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+    "source": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/3.html": {
+    "path": "/content/fixtures/network/f038c847f7012d5ad72f.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "187c427cfae40fbcccd691a7029b92e97d7a8877105f0ecdecdfd770ba26960e",
+    "capturedAt": "2026-11-01T16:20:15.298372+00:00",
+    "bytes": 50713,
+    "finalUrl": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+    "source": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/4.html": {
+    "path": "/content/fixtures/network/98ba8855c26e620fa318.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "72079029cfd93747398be06c6cd0ac201c205e9565efe7ec10ad0af1c85869fb",
+    "capturedAt": "2026-11-01T16:20:15.298804+00:00",
+    "bytes": 50934,
+    "finalUrl": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+    "source": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/5.html": {
+    "path": "/content/fixtures/network/a7d90c777b22a856c21a.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "016f763073aa6e491432936cec89d749daf37ea4a194a0629a4fa2c9677a1737",
+    "capturedAt": "2026-11-01T16:20:15.299956+00:00",
+    "bytes": 50987,
+    "finalUrl": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+    "source": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/6.html": {
+    "path": "/content/fixtures/network/87b77a0feb74f8c7f9b2.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "2da22389bc6a399926fdadd3c5bd52e774078daf4e57f07b6921786cbfcd0a93",
+    "capturedAt": "2026-11-01T16:20:15.301875+00:00",
+    "bytes": 51000,
+    "finalUrl": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+    "source": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/7.html": {
+    "path": "/content/fixtures/network/f3180851fd1ece9bfd4f.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "30956600f13565d1761a90348dc98af3515a5390340a730f05f3a6745d86f6d3",
+    "capturedAt": "2026-11-01T16:20:15.302490+00:00",
+    "bytes": 50764,
+    "finalUrl": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+    "source": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/8.html": {
+    "path": "/content/fixtures/network/5442ee4e9d59844d5162.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "b59cd82f5d7aa49529f0ad60a613ec8c75b78e42dd982f147c759ff10b86034f",
+    "capturedAt": "2026-11-01T16:20:15.302940+00:00",
+    "bytes": 49983,
+    "finalUrl": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+    "source": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/9.html": {
+    "path": "/content/fixtures/network/1735e38a7bfe38cf5e6e.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "1873a0ab3fe9e8702c828c8f740f434be1eddcd06aaf86703da544a09229cc66",
+    "capturedAt": "2026-11-01T16:20:15.305524+00:00",
+    "bytes": 49943,
+    "finalUrl": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+    "source": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/10.html": {
+    "path": "/content/fixtures/network/76afeb3a9439f60c905b.html",
+    "contentType": "text/html; charset=gbk",
+    "sha256": "b63ea98616e8c3c176e7fb19e3f3cabb4bb22f1ea8c4c770c4d380b0990e7aa1",
+    "capturedAt": "2026-11-01T16:20:15.305320+00:00",
+    "bytes": 49900,
+    "finalUrl": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+    "source": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+    "recovered": true,
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg": {
+    "path": "/content/fixtures/network/bdcad9125dbbc4af245d.jpg",
+    "contentType": "image/jpeg",
+    "sha256": "0f0135ffe55bbed8ac9e5143c85c9af1cad3790e991f30057230c5b1639e504f",
+    "capturedAt": "2026-11-01T16:20:15.308004+00:00",
+    "bytes": 37385,
+    "finalUrl": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+    "source": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+    "recovered": true,
+    "capture": "Exact archived original image, previously restored for this course."
+  },
+  "https://www.biqukan.cc/article/30067/": {
+    "path": "/content/fixtures/network/biqukan-index-teaching-gbk.html",
+    "contentType": "text/html; charset=gbk",
+    "bytes": 5655,
+    "sha256": "ae6950337cb9f82a9679467273cce4e10c7ce8c5fb5575b375af9b8372349be6",
+    "source": "https://www.biqukan.cc/article/30067/",
+    "recovered": false,
+    "adapted": true,
+    "raw": {
+      "path": "/content/fixtures/network/644529fe396dbeb81ba5.html",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "421b4fba5b1a6b4b7a1f3fc670a91ded93b4e55e27ec3a87edf7245eac7d997e",
+      "capturedAt": "2026-11-01T16:51:52.187657+00:00",
+      "bytes": 35735,
+      "finalUrl": "https://www.biqukan.cc/article/30067/",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "recovered": true,
+      "capture": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+    },
+    "capture": "Explicit teaching compatibility adaptation from the captured current real response. Not claimed to be historical original HTML.",
+    "details": {
+      "chapterLinks": 100,
+      "chapterLinkSha256": "6134d5b58966827a7d5c9cb5796e0dbc521e404cc943efdd4c0ce5afd5bce590",
+      "adaptations": [
+        "Wrap current main section-list in the historical mulu_list selector.",
+        "Convert only the /article/30067/ URL prefix to relative filenames, matching original target+href code.",
+        "Transcode UTF-8 source text to strict GBK; no replacement characters."
+      ],
+      "scope": "Exactly the 100 entries on this captured current index page; not the entire historical novel catalogue."
+    }
+  },
+  "https://www.biqukan.cc/article/30067/17748491.html": {
+    "path": "/content/fixtures/network/biqukan-chapter-teaching-gbk.html",
+    "contentType": "text/html; charset=gbk",
+    "bytes": 3811,
+    "sha256": "9296419afb90abb9697b64635767bf7aacc525494bd8bc4a64441af264d1a48d",
+    "source": "https://www.biqukan.cc/article/30067/17748491.html",
+    "recovered": false,
+    "adapted": true,
+    "raw": {
+      "path": "/content/fixtures/network/cc1311886ebe3c0373c4.html",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "d3c07ced35be6bd198b0d477bf2a7b525098272cceb86c9a82de4cdb1107ce31",
+      "capturedAt": "2026-11-01T16:51:52.189828+00:00",
+      "bytes": 21347,
+      "finalUrl": "https://www.biqukan.cc/article/30067/17748491.html",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "recovered": true,
+      "capture": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+    },
+    "capture": "Explicit teaching compatibility adaptation from the captured current real response. Not claimed to be historical original HTML.",
+    "details": {
+      "paragraphs": 31,
+      "decodedParagraphSha256": "3fa9913c8c3c845a9413d6f0ddc53fcb7d1551864327bf11a357f4de76a06902",
+      "adaptations": [
+        "Decode public, inline qsbs.bb Base64 paragraph payloads already present in the response; no extra requests or access-control changes.",
+        "Place those existing paragraphs under historical htmlContent/chapter-content selectors with the lesson four-NBSP paragraph delimiter.",
+        "Transcode UTF-8 source text to strict GBK; no replacement characters."
+      ],
+      "scope": "Only 第一章 狐女 第1页 captured at the exact original URL. The current website splits this chapter across pages; no missing paragraphs are invented."
+    }
   }
 }

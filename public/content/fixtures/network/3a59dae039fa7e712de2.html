@@ -1,0 +1,2591 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="ua-windows ua-webkit book-new-nav">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>
+  豆瓣图书标签: 编程
+</title>
+  <script>
+!function(doc){
+
+var setCookie = function(dict, days, path) {
+  var date = new Date(), expires, key;
+  days = days || 30;
+  path = path || '/';
+  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  expires = '; expires=' + date.toGMTString();
+  for (key in dict){
+    doc.cookie = key + '=' + dict[key] + expires + '; path=' + path;
+  }
+},
+
+getCookie = function(name) {
+  var na = name + '=', c, i, len, ca = doc.cookie.split(';');
+  for (i = 0, len = ca.length; i < len; i++) {
+    c = ca[i].replace(/^\s+|\s+$/g, '');
+    if (c.indexOf(na) == 0) {
+      return c.substring(na.length, c.length).replace(/\"/g, '');
+    }
+  }
+  return null;
+},
+
+origWrite = doc.write,
+
+whiteList = {
+  'douban.com': 1,
+  'douban.fm': 1,
+  'google.com': 1,
+  'google.cn': 1,
+  'googleapis.com': 1,
+  'gmaptiles.co.kr': 1,
+  'gstatic.com': 1,
+  'gstatic.cn': 1,
+  'google-analytics.com': 1,
+  'googleadservices.com': 1
+},
+
+report = function(reason, env) {
+  var img = new Image();
+  img.onload = function(){};
+  img.src = 'https://www.douban.com/j/except_report?kind=ra022&reason='
+    + encodeURIComponent(reason)
+    + '&environment=' + encodeURIComponent(env);
+},
+
+write = function(value) {
+  try {
+    origWrite.call(doc, value);
+  } catch (_e) {
+    origWrite(value);
+  }
+},
+
+_RE_SCRIPTS = /<script.*?src\=["']?([^"'\s>]+)/ig,
+_RE_DOMAIN = /http:\/\/(.+?)\.([^\/]+).+/i;
+
+doc.writeln = doc.write = function(value) {
+  var fileUrl = _RE_SCRIPTS.exec(value), fileDomain;
+
+  // 若不是打印script跳过
+  if (!fileUrl) {
+    write(value);
+    return;
+  }
+
+  // 若是本地地址跳过
+  fileDomain = _RE_DOMAIN.exec(fileUrl[1]);
+  if (!fileDomain) {
+    write(value);
+    return;
+  }
+
+  // 白名单域下文件跳过
+  if (whiteList[fileDomain[2]]) {
+    write(value);
+    return;
+  }
+
+  if (getCookie('hj') === 'tqs') {
+    return;
+  }
+
+  // 被劫持状态
+  report(fileUrl[1], location.href);
+
+  // 保存状态并自动刷新页面
+  setCookie({'hj': 'tqs'}, 1);
+  setTimeout(function() {
+    location.replace(location.href);
+  }, 50);
+};
+
+}(document);
+</script>
+
+  
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+  <meta name="referrer" content="always">
+  <meta name="renderer" content="webkit">
+  
+  <script>var _head_start = new Date();</script>
+  
+  <link href="https://img3.doubanio.com/f/vendors/fae7e145bf16b2f427ba0fe7ef3d47c04af3a6c0/css/douban.css" rel="stylesheet" type="text/css">
+  <link href="https://asset.doubanio.com/cuphead/book-static/common/master.6198c.css" rel="stylesheet" type="text/css">
+
+  <link href="https://asset.doubanio.com/cuphead/book-static/base/init.e399f.css" rel="stylesheet">
+  <style type="text/css"></style>
+  <script src="https://img3.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js"></script>
+  <script src="https://img3.doubanio.com/f/vendors/e258329ca4b2122b4efe53fddc418967441e0e7f/js/douban.js"></script>
+  <script src="https://asset.doubanio.com/cuphead/book-static/common/master.ca055.js"></script>
+  
+
+  
+  <script>  </script>
+  <style type="text/css">
+    .ebook-link a:link,
+    .ebook-link a:visited {
+      color: #973f31;
+    }
+    .ebook-link a:hover {
+      color: #fff;
+      background: #973f31;
+    }
+  </style>
+
+  <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script>var _body_start = new Date();</script>
+    
+  
+
+
+
+    <link href="//asset.doubanio.com/cuphead/nav/2.0.0/shire/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+<div class="top-nav-info">
+  <a href="https://accounts.douban.com/passport/login?source=book" class="nav-login" rel="nofollow">登录/注册</a>
+</div>
+
+
+    <div class="top-nav-doubanapp">
+  <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+  <div id="doubanapp-tip">
+    <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 <span class="version">6.0</span> 全新发布</a>
+    <a href="javascript: void 0;" class="tip-close">×</a>
+  </div>
+  <div id="top-nav-appintro" class="more-items">
+    <p class="appintro-title">豆瓣</p>
+    <p class="qrcode">扫码直接下载</p>
+    <div class="download">
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=iOS">iPhone</a>
+      <span>·</span>
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=Android" class="download-android">Android</a>
+    </div>
+  </div>
+</div>
+
+    
+
+
+<div class="global-nav-items">
+  <ul>
+    <li class="">
+      <a href="https://www.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-main&quot;,&quot;uid&quot;:&quot;0&quot;}">豆瓣</a>
+    </li>
+    <li class="on">
+      <a href="https://book.douban.com"  data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-book&quot;,&quot;uid&quot;:&quot;0&quot;}">读书</a>
+    </li>
+    <li class="">
+      <a href="https://movie.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-movie&quot;,&quot;uid&quot;:&quot;0&quot;}">电影</a>
+    </li>
+    <li class="">
+      <a href="https://music.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-music&quot;,&quot;uid&quot;:&quot;0&quot;}">音乐</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/podcast/" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-podcast&quot;,&quot;uid&quot;:&quot;0&quot;}">播客</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/location" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-location&quot;,&quot;uid&quot;:&quot;0&quot;}">同城</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/group" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-group&quot;,&quot;uid&quot;:&quot;0&quot;}">小组</a>
+    </li>
+    <li class="">
+      <a href="https://read.douban.com&#47;?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-read&quot;,&quot;uid&quot;:&quot;0&quot;}">阅读</a>
+    </li>
+    <li class="">
+      <a href="https://fm.douban.com&#47;?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-fm&quot;,&quot;uid&quot;:&quot;0&quot;}">FM</a>
+    </li>
+    <li class="">
+      <a href="https://time.douban.com&#47;?dt_time_source=douban-web_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-time&quot;,&quot;uid&quot;:&quot;0&quot;}">时间</a>
+    </li>
+    <li class="">
+      <a href="https://market.douban.com&#47;?utm_campaign=douban_top_nav&amp;utm_source=douban&amp;utm_medium=pc_web" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-market&quot;,&quot;uid&quot;:&quot;0&quot;}">豆品</a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</div>
+<script>
+  ;window._GLOBAL_NAV = {
+    DOUBAN_URL: "https://www.douban.com",
+    N_NEW_NOTIS: 0,
+    N_NEW_DOUMAIL: 0
+  };
+</script>
+
+
+
+    <script src="//asset.doubanio.com/cuphead/nav/2.0.0/shire/bundle.js" defer="defer"></script>
+
+
+
+
+  
+
+
+    <link href="//asset.doubanio.com/cuphead/nav/2.0.0/book/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+
+<div id="db-nav-book" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https:&#47;&#47;book.douban.com">豆瓣读书</a>
+    </div>
+    <div class="nav-search">
+      <form action="https:&#47;&#47;search.douban.com&#47;book/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">
+          </label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" placeholder="书名、作者、ISBN" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1001" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+
+<div class="nav-items">
+  <ul>
+    <li    ><a href="https://book.douban.com/cart/"
+     >购书单</a>
+    </li>
+    <li    ><a href="https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban"
+            target="_blank"
+     >电子图书</a>
+    </li>
+    <li    ><a href="https://book.douban.com/annual/2025/?fullscreen=1&dt_from=navigation"
+            target="_blank"
+     >2025年度榜单</a>
+    </li>
+    <li    ><a href="https://c9.douban.com/app/standbyme-2025/?autorotate=false&fullscreen=true&hidenav=true&monitor_screenshot=true&dt_from=web_navigation"
+            target="_blank"
+     >2025年度报告</a>
+    </li>
+  </ul>
+</div>
+
+    <a href="https://book.douban.com/annual/2025/?fullscreen=1&&dt_from=book_navigation" class="bookannual"></a>
+  </div>
+</div>
+
+<script id="suggResult" type="text/x-jquery-tmpl">
+  <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'book_search_sugg', query:'{{= keyword }}', subject_id:'{{= id}}', i: '{{= index}}', type: '{{= type}}'})">
+            <img src="{{= pic}}" width="40" />
+            <div>
+                <em>{{= title}}</em>
+                {{if year}}
+                    <span>{{= year}}</span>
+                {{/if}}
+                <p>
+                {{if type == "b"}}
+                    {{= author_name}}
+                {{else type == "a" }}
+                    {{if en_name}}
+                        {{= en_name}}
+                    {{/if}}
+                {{/if}}
+                 </p>
+            </div>
+        </a>
+        </li>
+  </script>
+
+
+
+
+    <script src="//asset.doubanio.com/cuphead/nav/2.0.0/book/bundle.js" defer="defer"></script>
+
+
+
+
+    <div id="wrapper">
+        
+        
+  <div id="content">
+    
+    <h1>豆瓣图书标签: 编程</h1>
+
+    <div class="grid-16-8 clearfix">
+      
+      <div class="article">
+  <div id="subject_list">
+
+      
+  
+  
+  <div class="clearfix">
+    <span class="rr greyinput">
+
+          综合排序
+          &nbsp;/&nbsp;
+
+          <a href="/tag/%E7%BC%96%E7%A8%8B?type=R">按出版日期排序</a>
+          &nbsp;/&nbsp;
+
+          <a href="/tag/%E7%BC%96%E7%A8%8B?type=S">按评价排序</a>
+    </span>
+  </div>
+
+
+
+    
+  
+  <link rel="stylesheet" href="https://asset.doubanio.com/cuphead/book-static/common/subject_list.624f4.css">
+  <ul class="subject-list">
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/30819104/" 
+  onclick="moreurl(this,{i:'0',query:'',subject_id:'30819104',from:'book_subject_search'})">
+        <img src="https://img2.doubanio.com/view/subject/s/public/s33845361.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/30819104/" title="数据模型记分卡" 
+  onclick="moreurl(this,{i:'0',query:'',subject_id:'30819104',from:'book_subject_search'})">
+
+    数据模型记分卡
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美]Steve Hoberman 霍伯曼 / 人民邮电出版社 / 59元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+
+    <span class="pl">
+        (少于10人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/30819104/buylinks">
+        纸质版 30.63元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/30359954/" 
+  onclick="moreurl(this,{i:'1',query:'',subject_id:'30359954',from:'book_subject_search'})">
+        <img src="https://img9.doubanio.com/view/subject/s/public/s34701116.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/30359954/" title="鸟哥的Linux私房菜 基础学习篇 第四版" 
+  onclick="moreurl(this,{i:'1',query:'',subject_id:'30359954',from:'book_subject_search'})">
+
+    鸟哥的Linux私房菜 基础学习篇 第四版
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  鸟哥 / 人民邮电出版社 / 2018-10 / 118.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar40"></span>
+      <span class="rating_nums">8.3</span>
+
+    <span class="pl">
+        (431人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书是知名度颇高的Linux入门书《鸟哥的Linux私房菜基础学习篇》的新版，全面而详细地介绍了Linux操作系统。
+全书分为五部分：第一部分着重说明计算机... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/30359954/buylinks">
+        纸质版 55.17元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/35556889/" 
+  onclick="moreurl(this,{i:'2',query:'',subject_id:'35556889',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s33964410.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/35556889/" title="Go语言底层原理剖析" 
+  onclick="moreurl(this,{i:'2',query:'',subject_id:'35556889',from:'book_subject_search'})">
+
+    Go语言底层原理剖析
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  郑建勋 / 电子工业出版社 / 2021-8 / 99.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar35"></span>
+      <span class="rating_nums">7.2</span>
+
+    <span class="pl">
+        (345人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>Go语言是一门年轻、简捷，但是强大、高效、充满潜力的服务器语言。本书使用浅显易懂的语言与大量图片深入介绍了Go语言编译时、类型系统、语法特性、函数调用规范、... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/35556889/buylinks">
+        纸质版 77.20元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+    
+    
+  <div class="ebook-link">
+    <a target="_blank" href="https://read.douban.com/ebook/336450115/?dcs=tag-buylink&amp;dcm=douban&amp;dct=35556889">去看电子版</a>
+  </div>
+  
+
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/36112304/" 
+  onclick="moreurl(this,{i:'3',query:'',subject_id:'36112304',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34323099.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/36112304/" title="编程女孩" 
+  onclick="moreurl(this,{i:'3',query:'',subject_id:'36112304',from:'book_subject_search'})">
+
+    编程女孩
+
+
+    
+      <span style="font-size:12px;"> : 学编程的女孩改变世界 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美]拉什玛·萨贾尼 / 刘钰卓 / 电子工业出版社 / 68.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar00"></span>
+      <span class="rating_nums"></span>
+
+    <span class="pl">
+        (30人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>只有男孩才适合编程吗？
+这本书教你如何成长为一个优秀的编程女孩，实现令人耳目一新的创造成果。你将学到编程的基本原理，初步了解一些编程项目，了解女性对计算机技... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/36112304/buylinks">
+        纸质版 29.48元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/36429791/" 
+  onclick="moreurl(this,{i:'4',query:'',subject_id:'36429791',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34568328.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/36429791/" title="科研论文配图绘制指南——基于Python" 
+  onclick="moreurl(this,{i:'4',query:'',subject_id:'36429791',from:'book_subject_search'})">
+
+    科研论文配图绘制指南——基于Python
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  宁海涛 / 人民邮电出版社 / 2023-6 / 109.80元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar40"></span>
+      <span class="rating_nums">7.7</span>
+
+    <span class="pl">
+        (19人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>◆《科研论文配图绘制指南——基于Python》全彩印刷，图表案例精彩呈现；
+◆浙江大学计算机学院副院长陈为教授，图表大咖张杰、张敏和阿里云技术专家石璞东联名... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/36429791/buylinks">
+        纸质版 54.90元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/37033704/" 
+  onclick="moreurl(this,{i:'5',query:'',subject_id:'37033704',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34953658.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/37033704/" title="数据有道" 
+  onclick="moreurl(this,{i:'5',query:'',subject_id:'37033704',from:'book_subject_search'})">
+
+    数据有道
+
+
+    
+      <span style="font-size:12px;"> : 数据分析+图论与网络+微课+Python编程 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  姜伟生 / 清华大学出版社 / 2024-10 / 238元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">9.1</span>
+
+    <span class="pl">
+        (29人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>《数据有道 : 数据分析 图论与网络 微课 Python编程》是“鸢尾花数学大系—从加减乘除到机器学习”丛书的第三板块 ( 实践板块 ) 中的一本关于数据 ... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/37033704/buylinks">
+        纸质版 178.50元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/37119755/" 
+  onclick="moreurl(this,{i:'6',query:'',subject_id:'37119755',from:'book_subject_search'})">
+        <img src="https://img9.doubanio.com/view/subject/s/public/s35009254.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/37119755/" title="软件设计的哲学" 
+  onclick="moreurl(this,{i:'6',query:'',subject_id:'37119755',from:'book_subject_search'})">
+
+    软件设计的哲学
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美]约翰·奥斯特豪特（John Ousterhout） / 茹炳晟 / 人民邮电出版社 / 2024-11 / 69.80元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">9.0</span>
+
+    <span class="pl">
+        (200人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书深入探讨了软件设计中的核心问题：如何将复杂的软件系统分解为可以相对独立实现的模块（例如类和方法），从而降低其复杂性并提高开发效率。本书首先介绍了软件设计... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/37119755/buylinks">
+        纸质版 42.33元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/20275979/" 
+  onclick="moreurl(this,{i:'7',query:'',subject_id:'20275979',from:'book_subject_search'})">
+        <img src="https://img9.doubanio.com/view/subject/s/public/s24412746.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/20275979/" title="高质量程序设计指南" 
+  onclick="moreurl(this,{i:'7',query:'',subject_id:'20275979',from:'book_subject_search'})">
+
+    高质量程序设计指南
+
+
+    
+      <span style="font-size:12px;"> : C++/C语言 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  林锐、韩永泉 / 电子工业出版社 / 2012-10 / 65.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">9.0</span>
+
+    <span class="pl">
+        (50人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>《高质量程序设计指南:C++/C语言(第3版)(修订版)》以轻松幽默的笔调向读者论述了高质量软件开发方法与C++／C编程规范，而这也是作者多年从事软件开发工... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/20275979/buylinks">
+        纸质版 42.50元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/37059627/" 
+  onclick="moreurl(this,{i:'8',query:'',subject_id:'37059627',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s35349163.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/37059627/" title="整洁架构之道" 
+  onclick="moreurl(this,{i:'8',query:'',subject_id:'37059627',from:'book_subject_search'})">
+
+    整洁架构之道
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美] 罗伯特·C.马丁 / 机械工业出版社 / 2024-9
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+
+    <span class="pl">
+        (少于10人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>这是一本关于如何设计更整洁、更高效的软件架构的全面、实用性指南，阐述了软件架构师的角色和目标，软件架构设计的核心原则，如何为Web、数据库、客户端、控制台和... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/37059627/buylinks">
+        纸质版 70.90元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/30443578/" 
+  onclick="moreurl(this,{i:'9',query:'',subject_id:'30443578',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s33549340.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/30443578/" title="软件架构设计" 
+  onclick="moreurl(this,{i:'9',query:'',subject_id:'30443578',from:'book_subject_search'})">
+
+    软件架构设计
+
+
+    
+      <span style="font-size:12px;"> : 大型网站技术架构与业务架构融合之道 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  余春龙 / 电子工业出版社 / 2019-2 / 79
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">8.9</span>
+
+    <span class="pl">
+        (272人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>《软件架构设计：大型网站技术架构与业务架构融合之道》围绕软件架构设计，系统化地梳理技术架构与业务架构的方法论与实践。《软件架构设计：大型网站技术架构与业务架... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/35731315/" 
+  onclick="moreurl(this,{i:'10',query:'',subject_id:'35731315',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34091379.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/35731315/" title="架构设计2.0：大型分布式系统架构方法论与实践" 
+  onclick="moreurl(this,{i:'10',query:'',subject_id:'35731315',from:'book_subject_search'})">
+
+    架构设计2.0：大型分布式系统架构方法论与实践
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  余春龙 / 电子工业出版社 / 2022-1 / 105
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar40"></span>
+      <span class="rating_nums">7.5</span>
+
+    <span class="pl">
+        (20人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>《架构设计2.0：大型分布式系统架构方法论与实践》深刻总结了作者在大型互联网公司长期的实战经验，系统阐述了构建大型分布式系统所需要的技术架构与业务架构方法论... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/35731315/buylinks">
+        纸质版 87.94元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/36853153/" 
+  onclick="moreurl(this,{i:'11',query:'',subject_id:'36853153',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34835807.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/36853153/" title="Effective Rust" 
+  onclick="moreurl(this,{i:'11',query:'',subject_id:'36853153',from:'book_subject_search'})">
+
+    Effective Rust
+
+
+    
+      <span style="font-size:12px;"> : 35 Specific Ways to Improve Your Rust Code </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  David Drysdale / Oreilly &amp; Associates Inc / 2024-4-30 / USD 59.99
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar00"></span>
+      <span class="rating_nums"></span>
+
+    <span class="pl">
+        (15人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>Rust&#39;s popularity is growing, due in part to features like memory safety, type... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/36853153/buylinks">
+        纸质版 541.00元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/26197294/" 
+  onclick="moreurl(this,{i:'12',query:'',subject_id:'26197294',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s29419939.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/26197294/" title="Designing Data-Intensive Applications" 
+  onclick="moreurl(this,{i:'12',query:'',subject_id:'26197294',from:'book_subject_search'})">
+
+    Designing Data-Intensive Applications
+
+
+    
+      <span style="font-size:12px;"> : The Big Ideas Behind Reliable, Scalable, and Maintainable Systems </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  Martin Kleppmann / O&#39;Reilly Media / 2017-4-2 / USD 44.99
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar50"></span>
+      <span class="rating_nums">9.8</span>
+
+    <span class="pl">
+        (1200人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>Data is at the center of many challenges in system design today. Difficult iss... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/37487325/" 
+  onclick="moreurl(this,{i:'13',query:'',subject_id:'37487325',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s35231117.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/37487325/" title="Designing Data-Intensive Applications, 2nd Edition" 
+  onclick="moreurl(this,{i:'13',query:'',subject_id:'37487325',from:'book_subject_search'})">
+
+    Designing Data-Intensive Applications, 2nd Edition
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  Martin Kleppmann、Chris Riccomini / O&#39;Reilly Media / 2026-3-24 / USD 69.99
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar00"></span>
+      <span class="rating_nums"></span>
+
+    <span class="pl">
+        (12人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>Data is at the center of many challenges in system design today. Difficult iss... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/35876639/" 
+  onclick="moreurl(this,{i:'14',query:'',subject_id:'35876639',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34202497.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/35876639/" title="因果论 (原书第2版)" 
+  onclick="moreurl(this,{i:'14',query:'',subject_id:'35876639',from:'book_subject_search'})">
+
+    因果论 (原书第2版)
+
+
+    
+      <span style="font-size:12px;"> : 模型、推理和推断 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美] 朱迪亚·珀尔 / 刘礼、杨矫云、廖军、李廉 / 机械工业出版社 / 2022-4
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">9.2</span>
+
+    <span class="pl">
+        (63人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书第1版曾获2001年拉卡托斯奖，作者朱迪亚·珀尔是2011年图灵奖得主。本书的出版将有利于中国的广大学者、学生和各领域研究人员了解和掌握因果模型、推理和... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/35876639/buylinks">
+        纸质版 123.19元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/5301287/" 
+  onclick="moreurl(this,{i:'15',query:'',subject_id:'5301287',from:'book_subject_search'})">
+        <img src="https://img9.doubanio.com/view/subject/s/public/s4499666.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/5301287/" title=".NET 4.0面向对象编程漫谈" 
+  onclick="moreurl(this,{i:'15',query:'',subject_id:'5301287',from:'book_subject_search'})">
+
+    .NET 4.0面向对象编程漫谈
+
+
+    
+      <span style="font-size:12px;"> : 基础篇 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  金旭亮 / 电子工业出版社 / 2010-10 / 45.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">8.8</span>
+
+    <span class="pl">
+        (42人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书《基础篇》以面向对象理论为指导，从.NET平台的各项技术中精选出一些亮点进行深入的剖析和讲解，并展示出它们在实际开发中的具体应用实例，不仅让读者能“知其... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/5319799/" 
+  onclick="moreurl(this,{i:'16',query:'',subject_id:'5319799',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s4533358.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/5319799/" title="NET 4.0面向对象编程漫谈" 
+  onclick="moreurl(this,{i:'16',query:'',subject_id:'5319799',from:'book_subject_search'})">
+
+    NET 4.0面向对象编程漫谈
+
+
+    
+      <span style="font-size:12px;"> : 应用篇 </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  金旭亮 / 电子工业出版社 / 2010-10 / 45.00元
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+      <span class="allstar45"></span>
+      <span class="rating_nums">8.7</span>
+
+    <span class="pl">
+        (23人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书《应用篇》选取在实际开发中有着广泛应用前景、同时又在.NET 4.0中有重要创新的“进程通信”、“多线程与并行计算”、“代码协定”、“托管可扩展性框架”... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/5319799/buylinks">
+        纸质版 12.00元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/37300961/" 
+  onclick="moreurl(this,{i:'17',query:'',subject_id:'37300961',from:'book_subject_search'})">
+        <img src="https://asset.doubanio.com/cuphead/book-static/pics/book-default-lpic.gif"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/37300961/" title="深入C#函数式编程" 
+  onclick="moreurl(this,{i:'17',query:'',subject_id:'37300961',from:'book_subject_search'})">
+
+    深入C#函数式编程
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  (英) 西蒙·J.潘特 / 周子衿 / 清华大学出版社 / 2025-3 / 119.0
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+
+    <span class="pl">
+        (少于10人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>本书阐述了函数式编程的历史背景、基本概念和实践，展示了如何借助于C＃语言和函数式编程来增强代码的可读性和可维护性以及提高代码的质量。书中还探讨了C＃语言中非... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/37300961/buylinks">
+        纸质版 57.60元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/36464905/" 
+  onclick="moreurl(this,{i:'18',query:'',subject_id:'36464905',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s34578622.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/36464905/" title="C#函数式编程（第2版）" 
+  onclick="moreurl(this,{i:'18',query:'',subject_id:'36464905',from:'book_subject_search'})">
+
+    C#函数式编程（第2版）
+
+
+    
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  [美]恩里科·博南诺(Enrico Buonanno) / 张骏温 / 清华大学出版社 / 2023-6 / 128
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+
+    <span class="pl">
+        (少于10人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>函数式编程将改变你思考代码的方式！利用良好的FP技术，C#开发人员可极大地提升软件的并发处理、状态管理和事件处理能力，以及软件的可维护性。本书介绍了在C#编... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+    <span class="buy-info">
+      <a href="https://book.douban.com/subject/36464905/buylinks">
+        纸质版 93.70元
+      </a>
+    </span>
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+      
+      
+  
+  <li class="subject-item">
+    <div class="pic">
+      <a class="nbg" href="https://book.douban.com/subject/38612903/" 
+  onclick="moreurl(this,{i:'19',query:'',subject_id:'38612903',from:'book_subject_search'})">
+        <img src="https://img3.doubanio.com/view/subject/s/public/s35601439.jpg"
+          width="90">
+      </a>
+    </div>
+    <div class="info">
+      <h2>
+        
+  
+  <a href="https://book.douban.com/subject/38612903/" title="The Art of Code" 
+  onclick="moreurl(this,{i:'19',query:'',subject_id:'38612903',from:'book_subject_search'})">
+
+    The Art of Code
+
+
+    
+      <span style="font-size:12px;"> : The surprising power of beauty in software development </span>
+
+  </a>
+
+      </h2>
+      <div class="pub">
+        
+  
+  Sandrine Banas / Manning / 2026-8-25 / USD 47.99
+
+      </div>
+
+
+        
+  
+  
+  
+  <div class="star clearfix">
+
+    <span class="pl">
+        (目前无人评价)
+    </span>
+  </div>
+
+
+
+        
+  
+  
+  
+    <p>Software development is an inherently creative activity, and yet we regularly ... </p>
+
+
+
+
+
+
+      <div class="ft">
+          
+  <div class="collect-info">
+  </div>
+
+
+          <div class="cart-actions">
+            
+                
+  
+
+
+          </div>
+
+            
+            
+  
+
+      </div>
+
+    </div>
+  </li>
+
+  </ul>
+
+
+      
+    
+    
+    
+        <div class="paginator">
+        <span class="prev">
+            <link rel="prev" href="/tag/编程?start=40&amp;type=T"/>
+            <a href="/tag/编程?start=40&amp;type=T" >&lt;前页</a>
+        </span>
+        
+        
+
+                
+            <a href="/tag/编程?start=0&amp;type=T" >1</a>
+        
+                
+            <a href="/tag/编程?start=20&amp;type=T" >2</a>
+        
+                
+            <a href="/tag/编程?start=40&amp;type=T" >3</a>
+        
+                <span class="thispage">4</span>
+                
+            <a href="/tag/编程?start=80&amp;type=T" >5</a>
+        
+                
+            <a href="/tag/编程?start=100&amp;type=T" >6</a>
+        
+                
+            <a href="/tag/编程?start=120&amp;type=T" >7</a>
+        
+                
+            <a href="/tag/编程?start=140&amp;type=T" >8</a>
+        
+        <span class="next">
+            <link rel="next" href="/tag/编程?start=80&amp;type=T"/>
+            <a href="/tag/编程?start=80&amp;type=T" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+  </div>
+</div>
+      <div class="aside">
+        
+  <br/>
+  <div id="dale_book_tag_top_right"></div>
+
+    
+  
+
+  <h2>
+    <span>相关的标签</span>
+      &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+
+  </h2>
+
+
+    
+  <div class="tags-list">
+      <a href="/tag/Programming">Programming</a>
+      <a href="/tag/计算机">计算机</a>
+      <a href="/tag/程序设计">程序设计</a>
+      <a href="/tag/C++">C++</a>
+      <a href="/tag/programming">programming</a>
+      <a href="/tag/软件开发">软件开发</a>
+      <a href="/tag/计算机科学">计算机科学</a>
+      <a href="/tag/C#">C#</a>
+  </div>
+
+
+  
+  <form name="tsp_form" action="/tag/" method="GET">
+    <input name="search_text" class="j a_search_text" type="text" size="24" maxlength="36" title="去其他标签" value=""/>
+    <input class="butt" type="submit" value="进入"/>
+  </form>
+  <br/>
+  <br/>
+
+
+  <p class="pl2 mb30">
+    &gt; <a href="/tag/">浏览全部图书标签</a>
+  </p>
+
+    
+  
+
+  <h2>
+    <span>&#34;编程&#34;相关豆列</span>
+      &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+
+  </h2>
+
+
+    
+
+<ul class="bs">
+  <li>
+    <a href="https://www.douban.com/doulist/336424/">编程C语言,Python等类书籍+知乎话题</a>
+      <span class="pl">(IVAN)</span>
+  </li>
+  <li>
+    <a href="https://www.douban.com/doulist/430092/">数学计算机专业书籍</a>
+      <span class="pl">(万籁君)</span>
+  </li>
+  <li>
+    <a href="https://www.douban.com/doulist/172288/">计算机理论</a>
+      <span class="pl">(mashan_snail)</span>
+  </li>
+  <li>
+    <a href="https://www.douban.com/doulist/1525602/">Hack的技术与艺术</a>
+      <span class="pl">(lyb)</span>
+  </li>
+</ul>
+
+
+    <br/>
+    <br/>
+    
+<div class="block5 movie_show">
+    <h2>最近受关注的书-编程</h2>
+    <div class="content clearfix" id="book_rec">
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/38445510/"><img src="https://img3.doubanio.com/view/subject/s/public/s35485557.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/38445510/">Claude Code实战 Harness工程之道</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/36365320/"><img src="https://img3.doubanio.com/view/subject/s/public/s34505252.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/36365320/">Python编程 ：从入门到实践(第3版)</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/20432061/"><img src="https://img9.doubanio.com/view/subject/s/public/s25648004.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/20432061/">算法导论（原书第3版）</a>
+                </dd>
+            </dl>
+            <div class="clearfix rr" style="width:100%"></div>
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/30468597/"><img src="https://img3.doubanio.com/view/subject/s/public/s30014452.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/30468597/">重构（第2版）</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/38236657/"><img src="https://img9.doubanio.com/view/subject/s/public/s35401584.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/38236657/">AI工程</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/1291204/"><img src="https://img3.doubanio.com/view/subject/s/public/s1789059.jpg"
+                class="m_sub_img" /></a></dt>
+                <dd><a onclick="moreurl(this, {'r1001':'book-tag-top'})"
+                href="https://book.douban.com/subject/1291204/">哥德尔、艾舍尔、巴赫</a>
+                </dd>
+            </dl>
+            <div class="clearfix rr" style="width:100%"></div>
+    </div>
+</div>
+
+
+
+  
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'W0eprWCTfWo',
+            criteria = '3:/tag/编程?start=60&amp;type=T',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_book_tag_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'https://asset.doubanio.com/ghRUN1bHFBdC9kYWUvc3RhdGljbmcvZi9hZGpzLzY1OWViYjU1MzEyNWFiOGE4MjhlNDY5ZGJmMzM3ZDNjOWQwY2M0NjAvYWQucmVsZWFzZS5qcw');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+      </div>
+      <div class="extra">
+        
+      </div>
+    </div>
+  </div>
+
+        
+  <div id="footer">
+    
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2026 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about/legal">法律声明</a>
+    
+    · <a href="https://help.douban.com/?app=book" target="_blank">帮助中心</a>
+    · <a href="https://book.douban.com/library_invitation">图书馆合作</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+</span>
+
+  </div>
+
+    </div>
+      
+
+    <!-- COLLECTED JS -->
+    <!-- mako -->
+    
+  <script>
+    $(function () {
+      function update_tags(current) {
+        html = $.map(current, function(o) {return '<span class="tags-name">' + o + '</span><sup class="tags-del"></sup> '}).join('<span class="tags-add">+</span>');
+        $('h1').html('<span class="name">电影标签：</span>' + html);
+      };
+
+      function get_current_tags() {
+        var r = [];
+        $('.tags-name').each(function() {r.push($(this).text())});
+        return r;
+      };
+
+      function get_current_sort_type() {
+        url = location.href;
+        array = url.split("?")
+        if (array.length == 1) {
+          return "";
+        }
+        query = array[1];
+        arr = query.split("&");
+        for (var i = 0; i < arr.length; i++) {
+          arr2 = arr[i].split('=');
+          if (arr2[0] == "type") {
+            if (arr2.length == 1) {
+              return "";
+            }
+            return arr2[1];
+          }
+        }
+        return "";
+      };
+
+      function update_subject_list(current, sort_type) {
+        $('#subject_list').html('<span class="pl">载入中，请稍候...</span>');
+        $('#subject_list').load_withck('/j/tag/j_subject_list', {tags:current.join(' '), type:sort_type}, function() {});
+      };
+
+      function update_related_tags_and_subject(current, sort_type) {
+        update_related_tags(current, sort_type);
+        // update_subject_list(current, sort_type);
+      };
+
+      function update_related_tags(current, sort_type) {
+        $('#related_tags').load_withck('/j/tag/j_related_tag', {tags:current.join(' '), type:sort_type}, function() {
+          $('.more').toggle(
+            function () {
+              $('.tags-hide').css('display', 'inline');
+              $(this).text('收起▲');
+            },
+            function () {
+              $('.tags-hide').hide();
+              $(this).text('更多▼');
+            }
+          );
+          $('.tags-del').click(function () {
+            if($(this).prev().prev().text() == '+') {
+              $(this).prev().prev().remove();
+            } else if ($(this).next().text() == '+') {
+              $(this).next().remove();
+            }
+            $(this).prev().remove().end().remove();
+            current = get_current_tags();
+            if (current.length == 0){
+              document.location.href = '/tag/';
+            } else {
+              sort_type = get_current_sort_type();
+              location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+            }
+          });
+          $('.add-tag').click(function () {
+            current = get_current_tags();
+            current.push($(this).text());
+            update_tags(current);
+            sort_type = get_current_sort_type();
+            location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+          });
+          $('.tagsInput').keypress(function (e) {
+            if (e.which == 13) {
+              current = get_current_tags();
+              current.push($(this).val());
+              update_tags(current);
+              sort_type = get_current_sort_type();
+              location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+            }
+          });
+          checkInput($('.tagsInput'));
+        });
+      };
+
+      current = get_current_tags();
+      sort_type = get_current_sort_type();
+      update_related_tags_and_subject(current, sort_type);
+
+      function checkInput (o) {
+        if (!o.val() || o.val() == o.attr('title')) {
+          o.addClass('greyinput');
+          o.val(o.attr('title'));
+        }
+        o.focus(function(){
+          o.removeClass('greyinput');
+          if(o.val() == o.attr('title')) o.val('');
+        });
+        o.blur(function(){
+          if(!o.val()){
+            o.addClass('greyinput');
+            o.val(o.attr('title'));
+          }
+        });
+      }
+
+  });
+  </script>
+
+    
+  
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://s.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-16', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id])
+
+      
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+    <!-- dae-web-book--default-dfc9bbd85-2nc74-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

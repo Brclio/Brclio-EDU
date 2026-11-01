@@ -1,0 +1,950 @@
+{
+  "startedAt": "2026-11-01T15:29:44.381Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "dependencies": [
+        "et-xmlfile"
+      ]
+    }
+  ],
+  "workerHashBefore": "c7a5ea69a4b5a14c636ef160503aed47ceb156def28bf60b7a85bec5687a3ec4",
+  "selected": 12,
+  "results": [
+    {
+      "key": "/content/pages/008-356.json:6085e12f-9b4d-4377-ba93-ddaf66b3c676",
+      "page": "008-356",
+      "id": "6085e12f-9b4d-4377-ba93-ddaf66b3c676",
+      "course": "008",
+      "code_sha256": "5344d2637c3ad57749917e87be77bc7f9a846602e31f5eddfa2f81e0e7f45b77",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3943,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:17: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:17: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 48606,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-356.json:26a28c0e-817a-438e-b57a-a3cca84c1e93",
+      "page": "008-356",
+      "id": "26a28c0e-817a-438e-b57a-a3cca84c1e93",
+      "course": "008",
+      "code_sha256": "ba51083f9ae57054faf7970a35cdf97faa3230d7b12f47ace8c37a90e26fb1be",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3976,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:17: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:17: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 111850,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-358.json:7f95e1b1-3786-4a5d-9608-f8fe9ea10387",
+      "page": "008-358",
+      "id": "7f95e1b1-3786-4a5d-9608-f8fe9ea10387",
+      "course": "008",
+      "code_sha256": "45a153ba6a1215fe10b93b421a7f9c18ee5b02450425fb69babf058ed5d640a0",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3999,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 333502,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 13, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:fc3e6450-7a57-44a3-9298-63a390433c76",
+      "page": "008-358",
+      "id": "fc3e6450-7a57-44a3-9298-63a390433c76",
+      "course": "008",
+      "code_sha256": "c2aef551f51f7d1ee94fb5458868fb95138a109d22d189b8b15d72d153f0bdb5",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4137,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 238342,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 13, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:57096498-82b3-4efc-b960-f2168af52de7",
+      "page": "008-358",
+      "id": "57096498-82b3-4efc-b960-f2168af52de7",
+      "course": "008",
+      "code_sha256": "a21b443b78e56b2737220a91c537bcf9bbc14a760f3a742152d086da6c8caf30",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3940,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:13: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:13: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 424554,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 14, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:ae3a6f65-151e-4b14-8259-c5dd9e8978c2",
+      "page": "008-358",
+      "id": "ae3a6f65-151e-4b14-8259-c5dd9e8978c2",
+      "course": "008",
+      "code_sha256": "3b6fb15bf30838076026bb81a087cafdbd74fa285b7e2dec4b99b95cbdc4ed84",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4431,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:33: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:33: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 794350,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-363.json:a33a2733-d147-42ca-8571-070731712eb0",
+      "page": "008-363",
+      "id": "a33a2733-d147-42ca-8571-070731712eb0",
+      "course": "008",
+      "code_sha256": "ee3b95f69b47e33917a7e8492839eb5845e86859c929a670a5bc8c9c45fa5b52",
+      "imports": [
+        "matplotlib.pyplot",
+        "mpl_toolkits.mplot3d",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4490,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:18: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:18: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 1952614,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-363.json:422bbe9c-e5cd-47fd-b0d3-5f80944fb8bb",
+      "page": "008-363",
+      "id": "422bbe9c-e5cd-47fd-b0d3-5f80944fb8bb",
+      "course": "008",
+      "code_sha256": "f19fceebd405c71529db6b77df4c59cbd44a581d5f42e332a1bfd0a352553432",
+      "imports": [
+        "matplotlib.pyplot",
+        "mpl_toolkits.mplot3d",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4337,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:19: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:19: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 2215942,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-398.json:32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "page": "009-398",
+      "id": "32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "course": "009",
+      "code_sha256": "f4d25cc4b164d225be51270ae741c028a6542c38e3e10d459bb8800d63878d1e",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "seaborn-positional",
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5297,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 28754,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-399.json:7f354b21-648a-40a9-b062-85cdf30b55c6",
+      "page": "009-399",
+      "id": "7f354b21-648a-40a9-b062-85cdf30b55c6",
+      "course": "009",
+      "code_sha256": "4e16523d02cd34ba78c6567b01c079a5f4db48178f041e679fa70e11fb8d7833",
+      "imports": [
+        "matplotlib.pyplot",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "pandas-pivot-positional",
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5404,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 148978,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-400.json:43c3ece4-aa5a-4672-93c9-d991f48d8054",
+      "page": "009-400",
+      "id": "43c3ece4-aa5a-4672-93c9-d991f48d8054",
+      "course": "009",
+      "code_sha256": "88aad74c5f8d7ff734845b779f72e5002a8f2cf8f86359c0bfebe182cfbed644",
+      "imports": [
+        "matplotlib.pyplot",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5657,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:16: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:16: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 92418,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-400.json:c532918a-c65b-48d1-b6f6-82f5aab8ed7b",
+      "page": "009-400",
+      "id": "c532918a-c65b-48d1-b6f6-82f5aab8ed7b",
+      "course": "009",
+      "code_sha256": "2a534b57fb706b2c41a08fb5c6494be8b1e2f4eee296127b86a3e70304ef930b",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn",
+        "sklearn.datasets"
+      ],
+      "compatibilityCandidates": [
+        "removed-load-boston"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 9071,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:21: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:21: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 65042,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution only covers the selected records listed below.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted; visual equivalence of generated charts is not asserted.",
+    "Challenge templates are statically inventoried but not executed as completed solutions."
+  ],
+  "workerHashAfter": "c7a5ea69a4b5a14c636ef160503aed47ceb156def28bf60b7a85bec5687a3ec4",
+  "finishedAt": "2026-11-01T15:30:15.776Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 12,
+    "status": {
+      "done": 9,
+      "error": 3
+    },
+    "withAttachments": 0,
+    "plots": 12,
+    "workerChangedDuringAudit": false
+  }
+}

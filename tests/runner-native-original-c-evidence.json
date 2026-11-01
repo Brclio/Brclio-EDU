@@ -1,0 +1,89 @@
+[
+  {
+    "id": "a84468b8b281f468ad02ffd773aeffc2eec7a601d682b14f22bd5a8d3ea028d5",
+    "origin": {
+      "file": "/content/pages/021-1124.json",
+      "title": "变量类型Data Type",
+      "context": "你也可以在一条语句中同时声明和**初始化**变量的量。",
+      "componentId": "b737b0b0-983f-36e2-a1f2-bd59873060f8",
+      "language": "c",
+      "variant": "runnable_lesson_example",
+      "teachingErrorCandidate": false,
+      "testBatch": 1
+    },
+    "response": {
+      "code": 0,
+      "msg": "ok",
+      "data": {
+        "files": [],
+        "status": 300,
+        "stderr": "/usr/lib/x86_64-linux-gnu/crt1.o: In function `_start':\n(.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "stdout": "",
+        "format": "text",
+        "reason": "Failed",
+        "st_time": 1793583491.970125,
+        "et_time": 1793583492.062652,
+        "time": "0.09s",
+        "run_uuid": "pyedu_c_02088ad0-d61b-11f1-9c4c-00163e08945e"
+      }
+    }
+  },
+  {
+    "id": "e9e880a6998caeccf597e566c237840c48fc916314708b2413b82d187426d224",
+    "origin": {
+      "file": "/content/pages/021-1159.json",
+      "title": "读写文件",
+      "context": "**stdio.h**库还包括用于从打开的文件读取的函数。\n\n一个文件可以一次读取一个字符，也可以将整个字符串读入字符缓冲区，该缓冲区通常是用于临时存储的`char`数组。\n\n- `getc(fp)` 返回fp指向的文件中的下一个字符。如果已到达文件末尾，则返回EOF。\n\n- `fgets(buff, n, fp)` fgets函数功能为从指定的流中读取数据，每次读取一行。其原型为：`char *fgets(char *str, int n, FILE *stream);`从指定的流 `stream` 读取一行，并把它存储在 `str` 所指向的字符串内。当读取到第 `(n-1)` 个字符时，或者读取到换行符时，或者到达文件末尾时，它会停止，具体视情况而定。\n\n- `fscanf(fp, conversion_specifiers, vars)` 从fp指向的文件中读取字符，并使用`conversion_specifiers`将输入分配给变量指针`vars`列表。与`scanf`一样，遇到空格或换行符时，`fscanf`会停止读取字符串。\n\n\n下面的程序演示了从一个文件中读取数据:\n",
+      "componentId": "53072bfa-f689-3414-8051-8f59afb7bf7f",
+      "language": "c",
+      "variant": "runnable_lesson_example",
+      "teachingErrorCandidate": false,
+      "testBatch": 1
+    },
+    "response": {
+      "code": 0,
+      "msg": "ok",
+      "data": {
+        "files": [],
+        "status": 300,
+        "stderr": "Segmentation fault (core dumped)\n",
+        "stdout": "",
+        "format": "text",
+        "reason": "Failed",
+        "st_time": 1793583491.977793,
+        "et_time": 1793583492.091695,
+        "time": "0.11s",
+        "run_uuid": "pyedu_c_020b4fee-d61b-11f1-810a-00163e08945e"
+      }
+    }
+  },
+  {
+    "id": "ea550e1326cd63b98e153e5928a6a12193189f1d5d99668a9f266e5ff941868a",
+    "origin": {
+      "file": "/content/pages/021-1162.json",
+      "title": "使用错误代码",
+      "context": "一些库函数，如`fopen()`，当它们没有按预期执行时，会设置一个错误代码。错误代码设置在名为**errno**的全局变量中，它被定义在**errno.h**头文件中。当使用**errno**时，你应该在调用库函数之前将其设置为0。\n\n为了输出存储在errno中的错误代码，你可以使用fprintf打印到**stderr**文件流，即标准错误输出到屏幕上。使用**stderr**是一个约定俗成的习惯，也是一个良好的编程实践。\n\n也可以通过其他方式输出errno，但如果你只使用stderr来处理错误信息，会更容易跟踪你的异常处理。\n\n要使用errno，你需要在程序的顶部用**extern int errno;**语句声明它（或者也可以包括**errno.h**头文件）。\n\n**例如：**",
+      "componentId": "2c6a7fdf-b1b7-3650-931a-ebcc74587639",
+      "language": "c",
+      "variant": "runnable_lesson_example",
+      "teachingErrorCandidate": false,
+      "testBatch": 1
+    },
+    "response": {
+      "code": 0,
+      "msg": "ok",
+      "data": {
+        "files": [],
+        "status": 300,
+        "stderr": "/usr/bin/ld: errno: TLS definition in /lib/x86_64-linux-gnu/libc.so.6 section .tbss mismatches non-TLS reference in /tmp/cctRtm0r.o\n/lib/x86_64-linux-gnu/libc.so.6: error adding symbols: Bad value\ncollect2: error: ld returned 1 exit status\n",
+        "stdout": "",
+        "format": "text",
+        "reason": "Failed",
+        "st_time": 1793583491.812204,
+        "et_time": 1793583491.900538,
+        "time": "0.09s",
+        "run_uuid": "pyedu_c_01f4c496-d61b-11f1-ba5f-00163e08945e"
+      }
+    }
+  }
+]

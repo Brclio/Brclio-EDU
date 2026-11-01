@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "deduplicatedTasks": 2,
+    "publicTestCases": 2,
+    "byLanguage": {
+      "c": 2
+    }
+  },
+  "tasks": [
+    {
+      "id": "cd4b70668373b5b089e7cfbbaf7a1f1695b32c6e9a52183f7e27dbe441756fc5",
+      "language": "c",
+      "publicTestCount": 1,
+      "request": {
+        "language": "c",
+        "code": "\n\n\n#include <stdio.h>\n\nint main() {\n    int x;\n    float num;\n    char text[20];\n    scanf(\"%d %f %s\", &x, &num, text);\n}\n\n\n",
+        "stdin": "10 22.5 abcd\n",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": "source-sample",
+            "stdin": "10 22.5 abcd\n",
+            "expected_output": ""
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "52c6f124-a6ea-37cf-8213-70d7316550ba",
+          "title": "输入及输出",
+          "variant": "explicit_lesson_stdin_sample",
+          "evidence": "同页紧随代码的 MarkdownEditor 文本明确“输入10 22.5 abcd，然后按回车键”；代码只有scanf，不输出内容。"
+        }
+      ]
+    },
+    {
+      "id": "4e05b7bf51bf684ccc9b9d69dc041de82e01cd2c0069bffb56a0013217cdad1b",
+      "language": "c",
+      "publicTestCount": 1,
+      "request": {
+        "language": "c",
+        "code": "\n\n\n#include <stdio.h>\n\nint main() {\n    int x, y;\n    char text[20];\n\n    scanf(\"%2d %d %*f %5s\", &x, &y, text);\n    /* input: 1234  5.7  elephant */\n    printf(\"%d  %d  %s\", x, y, text);\n    /* output: 12  34  eleph */\n\n    return 0;\n} \n\n\n",
+        "stdin": "1234  5.7  elephant\n",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": "source-sample",
+            "stdin": "1234  5.7  elephant\n",
+            "expected_output": "12  34  eleph"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "385dc73d-9f82-3dc1-b437-dd1bce00a06f",
+          "title": "输入及输出",
+          "variant": "explicit_lesson_stdin_sample",
+          "evidence": "原代码注释明确 /* input: 1234  5.7  elephant */ 和 /* output: 12  34  eleph */；printf为%d  %d  %s。"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Only exact stdin and output documented by the source lesson are used; other input examples remain explicitly untested."
+  ]
+}

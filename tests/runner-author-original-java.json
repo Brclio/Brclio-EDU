@@ -1,0 +1,34 @@
+{
+  "url": "https://edu.py2fun.com/api/course/code/judge",
+  "status": 200,
+  "request": {
+    "language": "java",
+    "source_code": "class Solution {\n  static int duplicateNumber(int[] nums) {\n    int left = 0;\n    int right = nums.length;\n\n    while (left + 1 < right) {\n      int mid = (right + left) / 2;\n\n      if (nums[mid] == nums[mid - 1]) {\n        return nums[mid];\n      } else if (nums[mid] > mid) {\n        left = mid;\n      } else {\n        right = mid;\n      }\n    }\n\n    return nums[left];\n  }\n}",
+    "additional_files": "[]",
+    "entry_filename": "main.java",
+    "time_limit": 30,
+    "comp_id": "tab_code_1_01111524439711ecbe523af9d3c2d1d5",
+    "stdin": "",
+    "course_no": "006",
+    "page_id": 263
+  },
+  "response": {
+    "code": 0,
+    "msg": "ok",
+    "data": {
+      "execution_result": {
+        "files": [],
+        "status": 300,
+        "stderr": "EdTestRunner.java:9: error: cannot find symbol\n      test_results[i].input = \"duplicateNumber(\" + Arrays.toString(inputs[i]) + \")\";\n                                                   ^\n  symbol:   variable Arrays\n  location: class EdTestRunner\n1 error\n",
+        "stdout": "",
+        "format": "text",
+        "reason": "Failed",
+        "st_time": 1793585093.178004,
+        "et_time": 1793585094.270425,
+        "time": "1.09s",
+        "run_uuid": "pyedu_java_bcadb1ff-d61e-11f1-acc0-00163e08945e"
+      },
+      "test_results": []
+    }
+  }
+}

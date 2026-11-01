@@ -1,0 +1,3284 @@
+{
+  "startedAt": "2026-11-01T17:25:54.272Z",
+  "base": "http://127.0.0.1:5173",
+  "sourceHashBefore": "7ea6c74694e1e509315e1470bf2f13fa948fb1c167bdb5c81a34ec0547fbaad1",
+  "navigation": [
+    {
+      "course": "019",
+      "errors": [],
+      "lesson": "#/course/019/page/1061",
+      "heading": "进阶介绍"
+    },
+    {
+      "course": "015",
+      "errors": [],
+      "lesson": "#/course/015/page/936",
+      "heading": "介绍"
+    },
+    {
+      "course": "002",
+      "errors": [],
+      "lesson": "#/course/002/page/11",
+      "heading": "什么是Python？"
+    },
+    {
+      "course": "018",
+      "errors": [],
+      "lesson": "#/course/018/page/1037",
+      "heading": "什么是数据结构？"
+    },
+    {
+      "course": "027",
+      "errors": [],
+      "lesson": "#/course/027/page/1431",
+      "heading": "Python面试问题"
+    },
+    {
+      "course": "035",
+      "errors": [],
+      "lesson": "#/course/035/page/1551",
+      "heading": "课程介绍"
+    },
+    {
+      "course": "005",
+      "errors": [],
+      "lesson": "#/course/005/page/204",
+      "heading": "面向对象入门介绍"
+    },
+    {
+      "course": "004",
+      "errors": [],
+      "lesson": "#/course/004/page/116",
+      "heading": "数据结构与算法介绍"
+    },
+    {
+      "course": "011",
+      "errors": [],
+      "lesson": "#/course/011/page/558",
+      "heading": "如何学python"
+    },
+    {
+      "course": "010",
+      "errors": [],
+      "lesson": "#/course/010/page/404",
+      "heading": "算法课介绍"
+    },
+    {
+      "course": "013",
+      "errors": [],
+      "lesson": "#/course/013/page/656",
+      "heading": "课程介绍"
+    },
+    {
+      "course": "017",
+      "errors": [],
+      "lesson": "#/course/017/page/1013",
+      "heading": "为什么是Python"
+    },
+    {
+      "course": "009",
+      "errors": [],
+      "lesson": "#/course/009/page/370",
+      "heading": "介绍"
+    },
+    {
+      "course": "008",
+      "errors": [],
+      "lesson": "#/course/008/page/338",
+      "heading": "关于本课程"
+    },
+    {
+      "course": "006",
+      "errors": [],
+      "lesson": "#/course/006/page/261",
+      "heading": "什么是二分查找"
+    },
+    {
+      "course": "007",
+      "errors": [],
+      "lesson": "#/course/007/page/295",
+      "heading": "介绍"
+    },
+    {
+      "course": "001",
+      "errors": [],
+      "lesson": "#/course/001/page/1",
+      "heading": "Python Hello World"
+    },
+    {
+      "course": "003",
+      "errors": [],
+      "lesson": "#/course/003/page/86",
+      "heading": "计算机入门课程介绍"
+    },
+    {
+      "course": "020",
+      "errors": [],
+      "lesson": "#/course/020/page/1095",
+      "heading": "数据库介绍"
+    },
+    {
+      "course": "021",
+      "errors": [],
+      "lesson": "#/course/021/page/1122",
+      "heading": "什么是C语言"
+    },
+    {
+      "course": "023",
+      "errors": [],
+      "lesson": "#/course/023/page/1235",
+      "heading": "C++欢迎你"
+    },
+    {
+      "course": "016",
+      "errors": [],
+      "lesson": "#/course/016/page/975",
+      "heading": "Go 欢迎你"
+    },
+    {
+      "course": "022",
+      "errors": [],
+      "lesson": "#/course/022/page/1176",
+      "heading": "认识Javascript"
+    },
+    {
+      "course": "025",
+      "errors": [],
+      "lesson": "#/course/025/page/1352",
+      "heading": "编程第一课"
+    },
+    {
+      "course": "026",
+      "errors": [],
+      "lesson": "#/course/026/page/1416",
+      "heading": "为什么学习递归"
+    },
+    {
+      "course": "034",
+      "errors": [],
+      "lesson": "#/course/034/page/1532",
+      "heading": "Numpy 介绍"
+    },
+    {
+      "course": "037",
+      "errors": [],
+      "lesson": "#/course/037/page/1606",
+      "heading": "课程介绍"
+    },
+    {
+      "course": "024",
+      "errors": [],
+      "lesson": "#/course/024/page/1314",
+      "heading": "Python爬虫 欢迎你"
+    }
+  ],
+  "flows": [
+    {
+      "lesson": "015-936",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "026-1418",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-937",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-938",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-940",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "016-994",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-936",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "026-1418",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-937",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-938",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "015-940",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    },
+    {
+      "lesson": "016-994",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "mobile footer clickable; last answer clears footer",
+        "correct unlocks continue",
+        "last step marks actual stored lesson completed",
+        "completion and last step survive reload"
+      ],
+      "errors": []
+    }
+  ],
+  "questionRefs": [
+    {
+      "page": "011-559",
+      "id": "d4320523-a6d8-3b78-9668-81a59802dac8",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-559",
+      "id": "6be1f5cb-edba-36eb-b29c-931633257b4e",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-560",
+      "id": "ede5a11f-e789-320b-8b56-f8170d607ecc",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-561",
+      "id": "b07a32c8-1369-32c3-af52-5ae3f4229b35",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-561",
+      "id": "0acbfcd8-766f-34d4-b144-499e9cc9adb3",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-561",
+      "id": "7ab19a2b-c03b-31df-9681-6e49d42d6f10",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-562",
+      "id": "bc5b31e2-eacb-33f9-b5f2-9c83d2e77c19",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-562",
+      "id": "2da2933e-5c9f-3d41-9a64-2117e026695b",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-563",
+      "id": "4423f196-ab04-3e54-88f1-865396633dcc",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-562",
+      "id": "23726ecb-d385-3ab1-b055-da985e2551d3",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-563",
+      "id": "7d61e338-8faf-3be7-84a1-204c437b2c67",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-563",
+      "id": "67632ba2-dbac-3a2d-8a36-56e4d5a99be1",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-564",
+      "id": "bd806cbf-7457-322b-ae65-cb02d71c7ff3",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-564",
+      "id": "05880f40-563d-3d56-8b74-fc88b98e9089",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-565",
+      "id": "53dcab73-13ef-3752-826e-121a8936481b",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "eaa93fb8-0ee4-30de-9e42-aa46e661e39a",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "7dec7ec6-c44f-33ef-b86a-c047786d2e73",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "52a941fe-2b28-32e9-b278-36c34477468e",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "6a9c3ae2-2515-30f0-a90f-0e43aac26152",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "64048956-ac0c-3270-8f13-49922f966aae",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-569",
+      "id": "ebb4752f-0c2b-3630-ac23-6fbd23dd8706",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-569",
+      "id": "b6048e28-961b-3653-9232-0747743ce1d7",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-569",
+      "id": "05c846f2-7f24-35bd-b6d1-42469403b530",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-569",
+      "id": "7e7c6970-2a58-3cbf-af9f-802c8a9481e8",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-571",
+      "id": "13eca131-4413-39a2-849d-6bf16d302469",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-570",
+      "id": "c7f25617-cd7c-3910-ab1b-71ef47654dad",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-572",
+      "id": "d0c6cbf6-a907-3558-8c6f-293b597797db",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-572",
+      "id": "d78a6255-14cf-3ac9-a57c-116a389ec6c8",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-575",
+      "id": "98bc0503-5997-3e61-8cff-5b946cc1df21",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-575",
+      "id": "b7c35d34-cd19-3f9a-9e4a-e7e8966e2823",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-575",
+      "id": "2958e871-891a-36d9-b349-35fa6f61f4f5",
+      "step": 14,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-576",
+      "id": "86b749cd-7d40-327f-a3c8-82cb7e6da9e7",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-580",
+      "id": "3ae5a9f4-22e5-3e90-b9e6-256eec632d9f",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-580",
+      "id": "e9aa4677-d0ae-34a3-bc6d-416328dd785d",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-580",
+      "id": "8baf3278-0788-3195-9807-0409aa797527",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-580",
+      "id": "51a07a8e-e427-367c-93bf-d937edc519b5",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-581",
+      "id": "bb929e1d-e8cc-33ff-ba63-ea73b1ad6601",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-582",
+      "id": "be4c2b4e-8c9d-3f13-b710-3ce7ab411c96",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-581",
+      "id": "2ea66163-0c7c-3acd-9040-8be2c2e98a0b",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-582",
+      "id": "c366adb6-1c70-36d5-ab7d-c6fd93bb4e52",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-583",
+      "id": "0009f1da-2b67-3521-9a73-7118c8cf6b21",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-584",
+      "id": "188cd59c-4d55-376e-acce-4ce7f1cae373",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-584",
+      "id": "768b72a1-96e7-3fd4-b40c-cadcb1b1390a",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-585",
+      "id": "a890ba42-eedd-3763-b447-c28eae9b323b",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-588",
+      "id": "9a6f03d6-a95c-3375-9805-ae650b9e20e3",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-586",
+      "id": "88614de8-2e84-3135-acf2-17a2339da9bc",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-590",
+      "id": "75d17a2e-ed95-3ab1-b2fd-99378a0cc99f",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-589",
+      "id": "a86b59cb-f334-3f62-a2ca-4ff16485477c",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-662",
+      "id": "7f8cd7d8-e16c-306c-8def-25759dde31a6",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-659",
+      "id": "a43651f5-ccec-3d5c-975f-7d70065908d4",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-662",
+      "id": "75b66f88-1b97-3a2a-af84-bacf62a21d53",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-663",
+      "id": "bb857805-282f-372d-9164-8e4ec2ef70d5",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-663",
+      "id": "f0e0a44f-0c12-3f54-ad07-fd42a544adf7",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-663",
+      "id": "da967048-f413-3cdf-9f69-f3ff29423f60",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-663",
+      "id": "a1f21f3c-749d-34b3-8532-30f9597adb99",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-665",
+      "id": "d7b08bef-7923-35c8-8cc6-a635cee4b15b",
+      "step": 1,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-665",
+      "id": "a68ccfa2-352f-3a5d-9c6b-33b9c59fede7",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-665",
+      "id": "686c519b-a988-36bd-8cbb-d81de7d56a53",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-668",
+      "id": "fab38997-1b3f-31b9-8c10-60109fb04488",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-668",
+      "id": "a88e3211-d6ed-3fdb-9f1b-e996f48612a8",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-668",
+      "id": "375f1830-7f19-3024-a819-222a1956ed73",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-670",
+      "id": "4c1efbae-54cf-3312-8626-a3ba5cb46745",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-670",
+      "id": "4bd6827c-770f-30eb-b799-91675decc56f",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-672",
+      "id": "4dc6eae9-a355-355e-a908-f630bab6224b",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-673",
+      "id": "d43b3c3b-c7c3-3e06-bc0b-06c3242b8b45",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1417",
+      "id": "9fcad32c-5a6c-39a0-aad3-5b63cd1f143b",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1417",
+      "id": "5620b8b9-8825-3d0f-8d33-51503980a349",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1417",
+      "id": "f7c3cc95-eaba-3b66-a846-09da70a5f56e",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1418",
+      "id": "8b00301d-6748-339e-8f84-b9f12ee0c0cb",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1420",
+      "id": "81d00e40-3c46-36ef-95b7-f7ee04295c17",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1422",
+      "id": "bcb03d51-f819-3bad-9d48-8c61f7fc6dec",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "026-1422",
+      "id": "97470eb2-565e-36ac-8e2c-0fdca0d4e7bf",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1533",
+      "id": "4ce6cdab-7f9b-366a-aae4-ac7a7c02cdab",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1533",
+      "id": "c5d425e4-54c4-3d4c-960f-baa8d1c23bca",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1533",
+      "id": "b257621e-d1a7-37f3-b00e-55b651524b23",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1534",
+      "id": "4b712e18-083d-3235-b6cd-f1b81a2244fc",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1534",
+      "id": "810ba243-c03f-3472-9eee-0cfdaa5c580b",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1534",
+      "id": "2839498a-d4a9-3463-add6-3a6a0e80a240",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1535",
+      "id": "94ccd382-d117-3602-801b-8f4bbaf27319",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1535",
+      "id": "d822e5a2-4d81-3473-855b-1cee11f63278",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1535",
+      "id": "60ee062f-8a95-3cfe-bec8-51c0409d0aa6",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1535",
+      "id": "65035ea0-0722-3396-ad35-7f4a6b9c1126",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1536",
+      "id": "3d71f597-4d4b-3b6c-85a9-458c664b6d50",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1536",
+      "id": "d8774fa3-0527-3b8f-8c76-6c1994c93f71",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1537",
+      "id": "67810867-a581-3d7f-845f-02e948cbdf66",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1538",
+      "id": "cdec8645-96bc-3a29-b511-75cc9b631264",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1539",
+      "id": "f523022f-ca1c-35af-b9d8-c12397975f84",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1539",
+      "id": "e54b5a04-050e-3b62-b072-5fd4b70ef54a",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1540",
+      "id": "a1cede24-b260-351d-b2a5-9f65009c5402",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1540",
+      "id": "8d70b3a9-ce6d-3934-a9bd-1023d26d60ce",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1540",
+      "id": "39614343-4f14-3914-8fc6-6e0ec9183902",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1541",
+      "id": "1d18d4c7-6642-355b-bc41-f20350ea57e1",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1542",
+      "id": "639a6dc2-b992-328d-875d-db326af74830",
+      "step": 1,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1542",
+      "id": "1bbd9416-ddf5-3aaf-b6b9-d213d3ecf056",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1544",
+      "id": "3208f2a4-78cd-3505-b57e-73a4890f3c01",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1544",
+      "id": "d089d139-7ed0-3050-b3b6-c3f08dbbd2f1",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1544",
+      "id": "a7599573-c9f7-3649-b85e-5141ac2958ce",
+      "step": 20,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1545",
+      "id": "83272f7e-a672-36c4-8be2-21fca90cf28a",
+      "step": 6,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1546",
+      "id": "d585bc8f-029c-384d-8517-9d92a7ff0560",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1546",
+      "id": "2f3ecc32-2e43-3e98-86fe-9d494a32794d",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1546",
+      "id": "bc78d7fa-57ad-3f16-bbab-94ece51bf2b1",
+      "step": 13,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1547",
+      "id": "b8db584f-d114-36f6-851b-56f334ae8f83",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1547",
+      "id": "d7c5294c-31c3-38be-ae25-4f05b0bd42ae",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1548",
+      "id": "2aeac5ab-1bfb-3580-8f68-28b189089c02",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1548",
+      "id": "1912433d-e645-30d1-8b81-2f8888274534",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1551",
+      "id": "8443cf3b-64e7-3653-8e89-47784fcca126",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1551",
+      "id": "4f18fd40-4390-3a81-9930-0102cb6922b8",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1557",
+      "id": "1790d393-b00a-36bd-a6a1-927c01557f12",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1556",
+      "id": "f3af2b04-73e4-3511-99c1-742b53f5fd67",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1557",
+      "id": "16d60e9c-76db-3343-ae62-fdbc33d1d4db",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1558",
+      "id": "d6d0454f-5c9a-309d-8cd2-e002b70ce019",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1558",
+      "id": "2be6c825-10d8-3646-aadf-6cd833d2606e",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1559",
+      "id": "055f3b6b-6be9-3c06-916b-6d31cb667888",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1560",
+      "id": "9c0a7984-573e-39ae-97f2-a3c512e73773",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1560",
+      "id": "61e5f1d1-1a16-315c-9cba-047252929db3",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1561",
+      "id": "13846ff9-1990-3707-aaad-0502f34c2e9f",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1561",
+      "id": "3b9ebc40-76b6-39bb-a5d8-05fed7b98c59",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1564",
+      "id": "bce40929-57e1-3f3d-971a-ec0978fbd663",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1565",
+      "id": "40c1f37e-3bda-3d0d-bdcd-681e81b6e7e6",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1565",
+      "id": "817648a5-af7a-32c3-b06e-dff0d845bd5b",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "c8398107-afbe-3032-b34e-73cd12523210",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "8879edd1-dd12-3457-af9e-248e890aa70f",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "d405d98a-4188-391b-819d-04a67e19c4f5",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "26f3aa65-59d7-3542-9636-8bd66dd0a295",
+      "step": 14,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "93508df1-b74a-3d72-92b8-4ced8247071c",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "99909cf3-5d98-350b-8d53-c9fac5588cd9",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "c1f22ae0-884e-3a8e-9da8-3ef4dafae0bc",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "bdc78af8-0a57-3402-a330-5df95e04f120",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "66f51392-cab3-3980-9401-cccd2588d4d8",
+      "step": 32,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "69cf5836-c00b-366e-935f-f882de4d21ee",
+      "step": 26,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "c8a6a666-0cc6-3ca2-b1e7-faba76b052d9",
+      "step": 33,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "c88d8399-950a-3048-90d5-f6d0479c1787",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "c1bc704b-cdbc-3c32-89c5-2208a4a281b0",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "acaa70d3-df3c-3430-9f9e-8ac2a5eb5099",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "1b08990e-59a2-3fee-a0da-b483e19744bf",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "52a16184-ccfa-3d84-9ca8-ffff71e9d2a3",
+      "step": 17,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "1dff5640-df8a-31c4-b95e-09dc696e4a12",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "f4708920-a65c-38c4-81b3-bfcc9dede662",
+      "step": 13,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "1529cdb2-4d84-31ce-94cb-47a43af7ae51",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "dabfbe04-7439-3d2d-989a-9905e3ff2a61",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "3526e617-6290-342d-986c-d1dd06bb41b5",
+      "step": 19,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1572",
+      "id": "9c07af06-bc8c-3bcf-8210-0bef88c3e01e",
+      "step": 24,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1573",
+      "id": "b5c2d18d-5085-34c4-ac31-42a9d879e01a",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1573",
+      "id": "5e6a56a4-a769-39b4-817d-1e7c9d844d63",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1573",
+      "id": "eb52ac23-6715-35aa-9e30-f3f7ac3ef6ad",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1573",
+      "id": "70e1eedf-dded-3969-b3a7-bd0a221e9323",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1574",
+      "id": "808f102c-0cf5-3f43-bcee-9125fac75a67",
+      "step": 1,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1575",
+      "id": "2b545584-6b76-369c-9910-58a72545bad3",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1574",
+      "id": "151a8262-fd3f-3db0-bb1d-90fe4f9188db",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1575",
+      "id": "c24d19e1-f41b-309d-b5d4-0ef07fa1030f",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1576",
+      "id": "4ba0be73-867c-3825-9d61-0f4c70376ea7",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1577",
+      "id": "e16f423e-6199-36e6-b387-cbd6c5ca1110",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1578",
+      "id": "b9bf83a9-0180-3553-b395-b01a61d088be",
+      "step": 1,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1579",
+      "id": "54d7f9ab-9da7-3bb7-b1b4-450d16d47d35",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1579",
+      "id": "f7ce8046-c2e9-3ab7-9bce-4b5f209f9a72",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1581",
+      "id": "1a1a2e3b-c3e9-3e41-8594-4a0bf2d7ea1c",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1581",
+      "id": "356a2d91-1488-3830-89f5-3dc4027d26a0",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1581",
+      "id": "ef7eaeea-b54a-3abc-865f-2c7614082c97",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1582",
+      "id": "18061472-e402-3f49-a301-04c2a25db00d",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1582",
+      "id": "da414b98-bb82-355a-af21-1cde8aaa2771",
+      "step": 13,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "c4916d18-34fc-38b6-b221-f887467586a6",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "d5a96bb3-a564-3822-8225-7e7138cd85f8",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "df59ffaa-4d0b-398a-a0c8-93edb8d76c18",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "45c1658b-b607-3a64-8744-9753fdd06835",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "e03eb36f-929f-3a19-a45d-421b5dea6f74",
+      "step": 14,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1588",
+      "id": "e7ab6425-7956-3e4d-a20b-463bf35dca89",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1588",
+      "id": "62d043c3-b89c-3442-9ca2-5b57919617cf",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1588",
+      "id": "3f54e422-8252-357b-8077-62beb023b637",
+      "step": 13,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1588",
+      "id": "8b8df6fc-9f3e-3faf-831c-42080c2681c8",
+      "step": 14,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1588",
+      "id": "3b28f1db-2bcd-30ad-a475-a9894924d39d",
+      "step": 24,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1594",
+      "id": "532a38e3-aa84-3d32-b110-bb38de4b2814",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1592",
+      "id": "859898f4-d47c-33f9-8221-d86d9b6262a0",
+      "step": 3,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1595",
+      "id": "20fa568d-4ba3-3ef4-85c4-246f92c8fe33",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1595",
+      "id": "0a19cfab-4ea4-3eba-af19-296415922c26",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1596",
+      "id": "725e0b16-6f17-365a-b1fa-5137e62975ea",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1595",
+      "id": "48e4ccca-daaa-3d5d-aeba-5f088ec150f4",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1597",
+      "id": "6ffde6a3-dd5e-3d94-afbc-ede47e09931c",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1597",
+      "id": "d508c1d3-764a-3d76-90fc-384c5d396a00",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1597",
+      "id": "795b4857-f0e6-3875-99d2-ac3c226f47db",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1598",
+      "id": "0381a95e-74a9-357c-90b6-1acaa8416ad0",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1598",
+      "id": "e67e4ba5-f5b3-35ee-bad0-de8ca75a937d",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1599",
+      "id": "69930e6a-d6e3-36b7-9f03-38d6188d7726",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1599",
+      "id": "6576c8f1-f640-3aa9-8359-1d643126d269",
+      "step": 12,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1601",
+      "id": "14649257-00ba-37a9-b7f9-13c740ddeb29",
+      "step": 10,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1601",
+      "id": "c21d26c2-7aa8-37b0-9251-f5c7ea853aa6",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1604",
+      "id": "900562dd-9a98-38ef-9bd2-5f6aa476511a",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1610",
+      "id": "a439491f-81f0-3892-936e-03a92a170d74",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1612",
+      "id": "d7d438ff-0305-38b4-b69f-99fb452ab7c0",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1612",
+      "id": "a6116ce1-c45e-3819-b12b-30c1e4c1bd61",
+      "step": 2,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1613",
+      "id": "6e890353-78b6-3a8a-9134-e0daa6137a56",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1613",
+      "id": "4d601f3a-c364-3a26-9031-c8a199739021",
+      "step": 4,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1614",
+      "id": "79295027-7bee-3ba4-8bdb-d2f9668b889b",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1614",
+      "id": "7a5e5cad-db65-391a-aed9-417a18e263b1",
+      "step": 4,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1615",
+      "id": "f2960896-a047-3824-a173-aaf556a14b5c",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1615",
+      "id": "d04ed1af-5d1d-3f6c-906f-dd61d588a870",
+      "step": 4,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1619",
+      "id": "f25856c8-7ece-3d4a-b14c-00d4af199f5d",
+      "step": 4,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1618",
+      "id": "94cfc2c0-558e-39be-b13f-9517143145d3",
+      "step": 5,
+      "kind": "mult_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1623",
+      "id": "4766e6a3-2513-3e6a-9bb9-0e955c603d37",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1620",
+      "id": "bb18502c-0661-368a-b76e-189dacc5bade",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1625",
+      "id": "ae9bcd65-da34-3278-b34d-f40b67495c39",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1624",
+      "id": "0e666ba8-3de0-32d1-96a6-dd70c101c0b7",
+      "step": 1,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1627",
+      "id": "616ae8d8-3396-3805-8695-ca7fc684360f",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1627",
+      "id": "92679c85-265b-3100-b423-b7e83fc5555c",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1627",
+      "id": "bc33d825-a605-3cd4-b975-429ed040b760",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and reshuffles",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Real App routes and controls; remote progress is stubbed as unconfigured so all writes stay in this isolated browser.",
+    "Full lesson flows start at step zero. The additional 204 QuestionRef cases seed only their saved __step to test each actual App gate directly.",
+    "Every course catalog plus one first lesson is checked; this is not a full traversal of every lesson in the App."
+  ],
+  "finishedAt": "2026-11-01T17:27:52.939Z",
+  "sourceHashAfter": "7ea6c74694e1e509315e1470bf2f13fa948fb1c167bdb5c81a34ec0547fbaad1",
+  "summary": {
+    "fullFlows": 12,
+    "flowFailures": 0,
+    "courses": 28,
+    "navigationFailures": 0,
+    "questionRefs": 204,
+    "questionRefFailures": 0,
+    "checks": 1132,
+    "sourceChangedDuringRun": false
+  }
+}

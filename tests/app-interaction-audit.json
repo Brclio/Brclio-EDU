@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-11-01T16:29:04.647Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "article TOC scroll keeps route",
+    {
+      "animation": "all five frame pixels change; reset and click-to-advance work",
+      "sceneHashes": [
+        "32221898dba3d2945cea75dda1987e28ad701c746adce2b76cff48543c10ad7c",
+        "d73379ed09714a722952b02bd57b84e716f88b2c39782cbac4ba5a7bee81ce65",
+        "f7ca386fa28284e739eaec50232bb5ffc8e610c5e82661ddc2eb3f74fc786538",
+        "2d739d49df06b4f00ad10d3be7fff3ade54cc52458953a92ddc53dbb292d164e",
+        "1684c46e151fa9ffe1527f41a654534304c3cb6e287aef7314db4888c1ef64cd"
+      ]
+    },
+    "article notes survive reload in anonymous local progress",
+    "animation controls visible at 1280x577 with no fixed footer overlay",
+    "mobile drawer toggles and article has no horizontal overflow",
+    "educative overview chapter collapse and course navigation"
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-01T16:29:11.291Z"
+}

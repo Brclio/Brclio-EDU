@@ -48,14 +48,22 @@ function addPackage(name) {
   for (const dependency of metadata.depends || []) addPackage(dependency);
 }
 seeds.forEach(addPackage);
-// Seaborn is pure Python and used by this course. Pin its wheel and hash from PyPI.
-const seabornVersion = '0.13.2';
-const { stdout: seabornMetadata } = await exec('curl', ['--fail', '--location', '--silent', '--show-error', '--max-time', '60', `https://pypi.org/pypi/seaborn/${seabornVersion}/json`], { maxBuffer: 4 * 1024 * 1024 });
-const seabornWheel = JSON.parse(seabornMetadata).urls.find(file => file.filename.endsWith('-py3-none-any.whl'));
-if (!seabornWheel) throw new Error('Pinned Seaborn wheel is unavailable');
-packages.seaborn = { name: 'seaborn', version: seabornVersion, file_name: seabornWheel.filename, install_dir: 'site', package_type: 'package', imports: ['seaborn'], depends: ['numpy', 'pandas', 'matplotlib'], sha256: seabornWheel.digests.sha256, unvendored_tests: false };
+// These pure Python wheels are used by course examples but are not all in Pyodide's lock.
+const purePackages = [
+  { name: 'seaborn', version: '0.13.2', imports: ['seaborn'], depends: ['numpy', 'pandas', 'matplotlib'] },
+  { name: 'et-xmlfile', version: '2.0.0', imports: ['et_xmlfile'], depends: [] },
+  { name: 'openpyxl', version: '3.1.5', imports: ['openpyxl'], depends: ['et-xmlfile'] },
+];
+const pureUrls = {};
+for (const spec of purePackages) {
+  const { stdout } = await exec('curl', ['--fail', '--location', '--silent', '--show-error', '--max-time', '60', `https://pypi.org/pypi/${spec.name}/${spec.version}/json`], { maxBuffer: 4 * 1024 * 1024 });
+  const wheel = JSON.parse(stdout).urls.find(file => file.filename.endsWith('-py3-none-any.whl') || file.filename.endsWith('-py2.py3-none-any.whl'));
+  if (!wheel) throw new Error(`Pinned pure Python wheel is unavailable: ${spec.name}`);
+  packages[spec.name] = { ...spec, file_name: wheel.filename, install_dir: 'site', package_type: 'package', sha256: wheel.digests.sha256, unvendored_tests: false };
+  pureUrls[spec.name] = wheel.url;
+}
 const jobs = ['pyodide.mjs', 'pyodide.asm.mjs', 'pyodide.asm.wasm', 'python_stdlib.zip', 'pyodide.mjs.map'].map(file => ({ file, url: base + file }));
-for (const [name, pkg] of Object.entries(packages)) jobs.push({ file: pkg.file_name, url: name === 'seaborn' ? seabornWheel.url : base + pkg.file_name, hash: pkg.sha256 });
+for (const [name, pkg] of Object.entries(packages)) jobs.push({ file: pkg.file_name, url: pureUrls[name] || base + pkg.file_name, hash: pkg.sha256 });
 const queue = [...jobs];
 await Promise.all(Array.from({ length: 4 }, async () => { while (queue.length) { const job = queue.shift(); await download(job.url, job.file, job.hash); } }));
 manifest.packages = Object.entries(packages).map(([name, pkg]) => ({ name, version: pkg.version, dependencies: pkg.depends }));

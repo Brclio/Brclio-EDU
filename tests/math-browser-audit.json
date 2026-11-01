@@ -1,0 +1,6275 @@
+{
+  "startedAt": "2026-11-01T18:02:42.136Z",
+  "base": "http://127.0.0.1:5173",
+  "rendererHashBefore": "5610b67598b6054b4563860356c4af1a9a131536b4aa3e0609534d50a5466b43",
+  "plan": {
+    "sourceFiles": 1669,
+    "markdownFields": 16291,
+    "selectedFields": 442,
+    "mathFields": 440,
+    "mathFiles": 160,
+    "formulas": 1565,
+    "byType": {
+      "inlineMath": 1558,
+      "math": 7
+    },
+    "byKind": {
+      "MarkdownEditor": 1410,
+      "SpoilerEditor": 3,
+      "quiz": 25,
+      "option": 105,
+      "explanation": 12,
+      "Note": 10
+    },
+    "sourceInvalidFormulas": 1,
+    "unexpectedSourceErrors": 0,
+    "literalCodeFields": 2
+  },
+  "expectedFormulas": 1565,
+  "rows": [
+    {
+      "file": "pages/002-28.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 4,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/003-113.json",
+      "trail": "/components/2/content/text",
+      "kind": "SpoilerEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/003-88.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-121.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-123.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 6,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-132.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/1/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/1/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/1/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/1/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/4/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/4/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/4/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/4/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-140.json",
+      "trail": "/components/0/content/questions/4/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-144.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/0/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/2/question_text",
+      "kind": "quiz",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/4/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/4/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/4/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/4/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-147.json",
+      "trail": "/components/0/content/questions/4/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-159.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-159.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-159.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-159.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-160.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-160.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-163.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-163.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-171.json",
+      "trail": "/components/0/content/questions/4/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-171.json",
+      "trail": "/components/0/content/questions/4/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-171.json",
+      "trail": "/components/0/content/questions/4/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-171.json",
+      "trail": "/components/0/content/questions/4/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-171.json",
+      "trail": "/components/0/content/questions/4/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-172.json",
+      "trail": "/components/10/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/3/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/3/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/3/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-175.json",
+      "trail": "/components/0/content/questions/3/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-176.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-176.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-176.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-177.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-178.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-178.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-178.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-179.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 3,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-179.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-180.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/1/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/1/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/1/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/1/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/2/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/2/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/2/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-186.json",
+      "trail": "/components/0/content/questions/2/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-188.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-188.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-189.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-189.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-194.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-196.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-198.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/004-201.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/005-226.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 4,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/005-244.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-262.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-263.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-263.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-263.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 14,
+      "rendered": 14,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-263.json",
+      "trail": "/components/10/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-263.json",
+      "trail": "/components/11/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-264.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 3,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-264.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 20,
+      "rendered": 20,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-264.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 14,
+      "rendered": 14,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/11/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-265.json",
+      "trail": "/components/12/content/text",
+      "kind": "SpoilerEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-266.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 5,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-266.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 15,
+      "rendered": 15,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-266.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-267.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-267.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 15,
+      "rendered": 15,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-267.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-268.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-268.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 20,
+      "rendered": 20,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-268.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-268.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 3,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-269.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 3,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-269.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 13,
+      "rendered": 13,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-269.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-270.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 3,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-270.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 13,
+      "rendered": 13,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-270.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-271.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 4,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-271.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 22,
+      "rendered": 22,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-271.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/0/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/2/question_text",
+      "kind": "quiz",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/4/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/5/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/6/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/6/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/006-272.json",
+      "trail": "/components/0/content/questions/6/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-345.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-353.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-353.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-353.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-359.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-360.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-360.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-363.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-363.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-364.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 5,
+      "rendered": 5,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-364.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-364.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 5,
+      "rendered": 5,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/008-366.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/009-389.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-409.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-411.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-412.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 15,
+      "rendered": 15,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-412.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-412.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-412.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 13,
+      "rendered": 13,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 76,
+      "rendered": 76,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/4/content/questions/0/question_text",
+      "kind": "quiz",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/4/content/questions/0/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/4/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-413.json",
+      "trail": "/components/4/content/questions/1/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/2/content/questions/0/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/2/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/2/content/questions/2/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 21,
+      "rendered": 21,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/0/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/0/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/1/question_options/0/explanation/md_text",
+      "kind": "explanation",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/2/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/5/content/questions/2/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-414.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 28,
+      "rendered": 28,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 5,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-415.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 21,
+      "rendered": 21,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 2
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-416.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-416.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 32,
+      "rendered": 32,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 4,
+        "code": 4,
+        "table": 2
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-417.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-417.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-417.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-417.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-418.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-419.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-419.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-419.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-419.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-420.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-421.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-421.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-421.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-421.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-422.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-422.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 30,
+      "rendered": 30,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-423.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-423.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-423.json",
+      "trail": "/components/3/content/questions/0/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-423.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-423.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-424.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 18,
+      "rendered": 18,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-425.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-425.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-425.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-425.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-426.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 12,
+      "rendered": 12,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-427.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-427.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-427.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-427.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-428.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 23,
+      "rendered": 23,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-429.json",
+      "trail": "/components/3/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-429.json",
+      "trail": "/components/3/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-429.json",
+      "trail": "/components/3/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-429.json",
+      "trail": "/components/3/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-430.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 14,
+      "rendered": 14,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/6/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/6/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/6/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/6/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/7/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/7/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/7/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/7/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/8/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/8/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/8/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-431.json",
+      "trail": "/components/0/content/questions/8/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-432.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-432.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-432.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-432.json",
+      "trail": "/components/12/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-433.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-434.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-434.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-434.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-434.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-435.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 14,
+      "rendered": 14,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-436.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-436.json",
+      "trail": "/components/10/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-438.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-438.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 5,
+      "rendered": 5,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-438.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 12,
+      "rendered": 12,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-438.json",
+      "trail": "/components/10/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-440.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-442.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-444.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-444.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-446.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-446.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-448.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-448.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-450.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-450.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-452.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-454.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-454.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/0/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/0/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/0/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/0/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/1/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/1/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/1/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/1/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/6/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/6/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-455.json",
+      "trail": "/components/0/content/questions/6/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-456.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-456.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 18,
+      "rendered": 18,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 5,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-458.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-458.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-460.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-460.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-462.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-464.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 9,
+      "rendered": 9,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-466.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-468.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-470.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-472.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-474.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-476.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-477.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-478.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-480.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-482.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-484.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-484.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-486.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-487.json",
+      "trail": "/components/1/content/questions/1/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-487.json",
+      "trail": "/components/1/content/questions/2/question_options/0/text",
+      "kind": "option",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-487.json",
+      "trail": "/components/1/content/questions/2/question_options/1/text",
+      "kind": "option",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-487.json",
+      "trail": "/components/1/content/questions/2/question_options/2/text",
+      "kind": "option",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-487.json",
+      "trail": "/components/1/content/questions/2/question_options/3/text",
+      "kind": "option",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-488.json",
+      "trail": "/components/1/content/comps/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-488.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 34,
+      "rendered": 34,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-489.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-490.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-490.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-491.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-491.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-491.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-493.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-493.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-493.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-493.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-493.json",
+      "trail": "/components/10/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-495.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-495.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-495.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-495.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-495.json",
+      "trail": "/components/11/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-497.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-497.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-497.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-499.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-499.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-499.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-499.json",
+      "trail": "/components/13/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-501.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-501.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-501.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-503.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-503.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-503.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-505.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-505.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-505.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-505.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-507.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-507.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-507.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-509.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-509.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-511.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-511.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-511.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-513.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-513.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-514.json",
+      "trail": "/components/6/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-516.json",
+      "trail": "/components/1/content/comps/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 30,
+      "rendered": 30,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-516.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-518.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-518.json",
+      "trail": "/components/7/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-520.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-520.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-522.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-523.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-523.json",
+      "trail": "/components/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-523.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-523.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 5,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-524.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-524.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 9,
+      "rendered": 9,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 4,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-525.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 6,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-526.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-526.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 1,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-528.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-528.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-529.json",
+      "trail": "/components/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-529.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 6,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-530.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-530.json",
+      "trail": "/components/8/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-530.json",
+      "trail": "/components/9/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-532.json",
+      "trail": "/components/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 2,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-532.json",
+      "trail": "/components/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 1,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-533.json",
+      "trail": "/components/0/content/questions/4/question_options/0/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-533.json",
+      "trail": "/components/0/content/questions/4/question_options/1/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-533.json",
+      "trail": "/components/0/content/questions/4/question_options/2/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/010-533.json",
+      "trail": "/components/0/content/questions/4/question_options/3/text",
+      "kind": "option",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/011-566.json",
+      "trail": "/components/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 2,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/034-1539.json",
+      "trail": "/components/7/resolved/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1552.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1556.json",
+      "trail": "/components/14/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1556.json",
+      "trail": "/components/15/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1557.json",
+      "trail": "/components/10/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1558.json",
+      "trail": "/components/12/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1558.json",
+      "trail": "/components/13/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1559.json",
+      "trail": "/components/13/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1559.json",
+      "trail": "/components/14/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1560.json",
+      "trail": "/components/9/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1560.json",
+      "trail": "/components/10/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1561.json",
+      "trail": "/components/10/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1561.json",
+      "trail": "/components/11/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1590.json",
+      "trail": "/components/1/resolved/knowledges/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1590.json",
+      "trail": "/components/2/resolved/knowledges/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/035-1593.json",
+      "trail": "/components/3/resolved/knowledges/1/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 9,
+      "rendered": 9,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1608.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1608.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1609.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1610.json",
+      "trail": "/components/0/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1610.json",
+      "trail": "/components/1/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1610.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1610.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1612.json",
+      "trail": "/components/0/resolved/knowledges/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1613.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1613.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1613.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1614.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "Note",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1614.json",
+      "trail": "/components/3/resolved/knowledges/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1614.json",
+      "trail": "/components/4/resolved/question_text",
+      "kind": "quiz",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1615.json",
+      "trail": "/components/0/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1615.json",
+      "trail": "/components/0/resolved/knowledges/1/content/text",
+      "kind": "Note",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1615.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 11,
+      "rendered": 11,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1615.json",
+      "trail": "/components/3/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 2
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1616.json",
+      "trail": "/components/0/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 12,
+      "rendered": 12,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1616.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/2/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/3/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/4/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/4/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1618.json",
+      "trail": "/components/4/resolved/knowledges/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1619.json",
+      "trail": "/components/0/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1619.json",
+      "trail": "/components/0/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1619.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1619.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1619.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/0/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/0/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 5,
+      "rendered": 5,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 6,
+      "rendered": 6,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/3/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/4/resolved/question_options/1/explanation/md_text",
+      "kind": "explanation",
+      "expected": 0,
+      "rendered": 0,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/4/resolved/question_options/2/explanation/md_text",
+      "kind": "explanation",
+      "expected": 0,
+      "rendered": 0,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1620.json",
+      "trail": "/components/6/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1621.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1621.json",
+      "trail": "/components/4/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1621.json",
+      "trail": "/components/5/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1621.json",
+      "trail": "/components/5/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1622.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1622.json",
+      "trail": "/components/4/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/0/resolved/knowledges/5/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/1/resolved/knowledges/5/content/text",
+      "kind": "Note",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/2/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/3/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/3/resolved/knowledges/3/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 4,
+      "rendered": 4,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/3/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/3/resolved/knowledges/5/content/text",
+      "kind": "Note",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1623.json",
+      "trail": "/components/4/resolved/knowledges/5/content/text",
+      "kind": "Note",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 2,
+      "rendered": 2,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 18,
+      "rendered": 18,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 3,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/4/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/5/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1625.json",
+      "trail": "/components/6/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1626.json",
+      "trail": "/components/1/resolved/knowledges/4/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1626.json",
+      "trail": "/components/2/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1626.json",
+      "trail": "/components/3/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1626.json",
+      "trail": "/components/4/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 8,
+      "rendered": 8,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 1,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1626.json",
+      "trail": "/components/5/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 10,
+      "rendered": 10,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1627.json",
+      "trail": "/components/0/resolved/knowledges/0/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 1,
+      "rendered": 1,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 0
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1627.json",
+      "trail": "/components/1/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1627.json",
+      "trail": "/components/2/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 3,
+      "rendered": 3,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    },
+    {
+      "file": "pages/037-1627.json",
+      "trail": "/components/3/resolved/knowledges/2/content/text",
+      "kind": "MarkdownEditor",
+      "expected": 7,
+      "rendered": 7,
+      "sourceErrors": 0,
+      "structures": {
+        "heading": 0,
+        "code": 0,
+        "table": 1
+      },
+      "problems": []
+    }
+  ],
+  "externalRequests": [],
+  "fontRequests": [
+    "http://127.0.0.1:5173/node_modules/katex/dist/fonts/KaTeX_Math-Italic.woff2",
+    "http://127.0.0.1:5173/node_modules/katex/dist/fonts/KaTeX_Main-Regular.woff2",
+    "http://127.0.0.1:5173/node_modules/katex/dist/fonts/KaTeX_Size1-Regular.woff2",
+    "http://127.0.0.1:5173/node_modules/katex/dist/fonts/KaTeX_Size2-Regular.woff2",
+    "http://127.0.0.1:5173/node_modules/katex/dist/fonts/KaTeX_Size4-Regular.woff2"
+  ],
+  "fontFailures": [],
+  "pageErrors": [],
+  "sourceErrors": [
+    {
+      "file": "pages/010-526.json",
+      "trail": "/components/4/content/text",
+      "kind": "MarkdownEditor",
+      "type": "inlineMath",
+      "value": "O(log\\n)",
+      "position": {
+        "start": {
+          "line": 21,
+          "column": 18,
+          "offset": 416
+        },
+        "end": {
+          "line": 21,
+          "column": 28,
+          "offset": 426
+        }
+      },
+      "error": "KaTeX parse error: Undefined control sequence: \\n at position 6: O(log\\̲n̲)",
+      "known": true
+    }
+  ],
+  "limitations": [
+    "Each source Markdown, question, option or explanation field uses the actual shared Content Markdown renderer in the existing isolated harness.",
+    "This audit does not repeat quiz submission, course navigation, code execution or screenshot pixel equivalence.",
+    "Source formulas are checked against KaTeX annotations; headings, tables and code block counts come from the original Markdown before math adaptation.",
+    "Non-math text fragments of at least eight characters and literal custom tags in code are checked for preservation; whitespace is normalized."
+  ],
+  "finishedAt": "2026-11-01T18:02:57.675Z",
+  "rendererHashAfter": "5610b67598b6054b4563860356c4af1a9a131536b4aa3e0609534d50a5466b43",
+  "summary": {
+    "fields": 442,
+    "formulas": 1565,
+    "expectedSourceErrors": 1,
+    "failures": 0,
+    "headings": 364,
+    "codeBlocks": 89,
+    "tables": 22,
+    "externalRequests": 0,
+    "fontRequests": 5,
+    "fontFailures": 0,
+    "allFontsSameOrigin": true,
+    "pageErrors": 0,
+    "sourceChangedDuringRun": false
+  }
+}

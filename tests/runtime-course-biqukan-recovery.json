@@ -1,0 +1,4208 @@
+{
+  "startedAt": "2026-11-01T18:04:31.071Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "dependencies": [
+        "et-xmlfile"
+      ]
+    }
+  ],
+  "workerHashBefore": "e570838a5e28266b61971bc245fd4104ffec4fac6f72da1b314fe802e2f754f5",
+  "fixtureHashBefore": "dc6365ed90c04fef4483bd2e17a8b15e037856eeef194e6cfe0329cc4192db3c",
+  "selected": 13,
+  "skipped": [],
+  "results": [
+    {
+      "key": "/content/pages/024-1330.json:ad32e038-31ea-33b8-8431-13cd7b2566b2",
+      "page": "024-1330",
+      "id": "ad32e038-31ea-33b8-8431-13cd7b2566b2",
+      "course": "024",
+      "code_sha256": "ceb6ec343bbc74cf0b0e22bf37e957a5837bbbc3015329638d3c417950c118d1",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2245,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!doctype html><html><head><meta charset=\"gbk\"><meta name=\"archive-status\" content=\"adapted teaching fixture; current raw response preserved separately\"><title>凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看</title></head><body><ul class=\"mulu_list\"><li><a href=\"17748489.html\">仙界篇外传一</a></li><li><a href=\"17748490.html\">仙界篇外传二</a></li><li><a href=\"17748491.html\">第一章 狐女</a></li><li><a href=\"17748492.html\">第二章 石头哥哥</a></li><li><a href=\"17748493.html\">第三章 远去</a></li><li><a href=\"17751178.html\">第四章 相依</a></li><li><a href=\"17781144.html\">第五章 马兽</a></li><li><a href=\"17835199.html\">第六章 白袍少年</a></li><li><a href=\"17868895.html\">第七章 余府</a></li><li><a href=\"17907447.html\">第八章 白石真人</a></li><li><a href=\"17940410.html\">第九章 法阵</a></li><li><a href=\"17968138.html\">第十章 危机</a></li><li><a href=\"18001183.html\">第十一章 苏醒</a></li><li><a href=\"18044340.html\">第十二章 我是韩立</a></li><li><a href=\"18141112.html\">第十三章 魔光</a></li><li><a href=\"18207013.html\">第十四章 遭变</a></li><li><a href=\"18258854.html\">第十五章 令牌</a></li><li><a href=\"18286813.html\">第十六章 绝望</a></li><li><a href=\"18386462.html\">第十七章 灭二修</a></li><li><a href=\"18408741.html\">第十八章 请求</a></li><li><a href=\"18423918.html\">第十九章 化神侄孙</a></li><li><a href=\"18443446.html\">第二十章 邀请</a></li><li><a href=\"18496124.html\">第二十一章 元婴异变</a></li><li><a href=\"18612654.html\">第二十二章 风云双煞</a></li><li><a href=\"18647917.html\">第二十三章 争斗</a></li><li><a href=\"18705630.html\">第二十四章 碾压</a></li><li><a href=\"18781379.html\">第二十五章 陆崖</a></li><li><a href=\"18860064.html\">第二十六章 敌踪再现</a></li><li><a href=\"18925102.html\">第二十七章 担五岳压五鬼</a></li><li><a href=\"18972845.html\">第二十八章 惊动</a></li><li><a href=\"19026963.html\">第二十九章 灵焰山脉</a></li><li><a href=\"19081216.html\">第三十章 举田</a></li><li><a href=\"19094590.html\">第三十一章 通易谷</a></li><li><a href=\"19108706.html\">第三十二章 逆丹诀</a></li><li><a href=\"19132048.html\">第三十三章 先天紫气</a></li><li><a href=\"19144383.html\">第三十四章 失窃</a></li><li><a href=\"19150982.html\">第三十五章 瞒天过海</a></li><li><a href=\"19156496.html\">第三十六章 偷梁换柱</a></li><li><a href=\"19164656.html\">第三十七章 脱身</a></li><li><a href=\"19166979.html\">第三十八章 柳暗花明</a></li><li><a href=\"19177069.html\">第三十九章 传谕</a></li><li><a href=\"19178558.html\">第四十章 不了了之</a></li><li><a href=\"19188552.html\">第四十一章 小瓶掌天</a></li><li><a href=\"19191058.html\">第四十二章 失而复得</a></li><li><a href=\"19207189.html\">第四十三章 大仇得报</a></li><li><a href=\"19215820.html\">第四十四章 隔元法链</a></li><li><a href=\"19229625.html\">第四十五章 这不可能</a></li><li><a href=\"19232091.html\">第四十六章 两个办法</a></li><li><a href=\"19243651.html\">第四十七章 试探</a></li><li><a href=\"19246142.html\">第四十八章 劫持</a></li><li><a href=\"19253912.html\">第四十九章 要挟</a></li><li><a href=\"19256364.html\">第五十章 破塔而出</a></li><li><a href=\"19267364.html\">第五十一章 小挪移空间术</a></li><li><a href=\"19281447.html\">第五十二章 该我了</a></li><li><a href=\"19292274.html\">第五十三章 魔焰焚身</a></li><li><a href=\"19304185.html\">第五十四章 吞吐魔焰</a></li><li><a href=\"19325343.html\">第五十五章 交代</a></li><li><a href=\"19336552.html\">第五十六章 天鬼出世</a></li><li><a href=\"19339191.html\">第五十七章 惊蛰变</a></li><li><a href=\"19348319.html\">第五十八章 却之不恭</a></li><li><a href=\"19353994.html\">第五十九章 借星台</a></li><li><a href=\"19367848.html\">第六十章 通缉</a></li><li><a href=\"19409379.html\">第六十一章 暗流</a></li><li><a href=\"19567390.html\">第六十二章 反常</a></li><li><a href=\"19599747.html\">第六十三章 撒豆成兵</a></li><li><a href=\"19621250.html\">第六十四章 同时出手</a></li><li><a href=\"19715927.html\">第六十五章 玄黄之索</a></li><li><a href=\"19799808.html\">第六十六章 灵婴剑符</a></li><li><a href=\"19843039.html\">第六十七章 百目天鬼</a></li><li><a href=\"19902532.html\">第六十八章 追杀</a></li><li><a href=\"19921462.html\">第六十九章 银月之变</a></li><li><a href=\"19997985.html\">第七十章天外飞豆</a></li><li><a href=\"20032007.html\">第七十一章涅槃圣体</a></li><li><a href=\"20115424.html\">第七十二章收服大乘</a></li><li><a href=\"20128357.html\">第七十三章灭门</a></li><li><a href=\"20204235.html\">第七十四章 出事了</a></li><li><a href=\"20207439.html\">第七十五章 打听</a></li><li><a href=\"20241547.html\">第七十六章 传奇</a></li><li><a href=\"20245118.html\">第七十七章 两件异宝</a></li><li><a href=\"20285375.html\">第七十八章 北斗异象</a></li><li><a href=\"20319711.html\">第七十九章 破碎虚空</a></li><li><a href=\"20345031.html\">第八十章 神秘气泡元丹快乐</a></li><li><a href=\"20364430.html\">第八十一章 独目巨人与半人马</a></li><li><a href=\"20393798.html\">第八十二章 交锋</a></li><li><a href=\"20428143.html\">第八十三章 急中生智</a></li><li><a href=\"20442372.html\">第八十四章 雕像</a></li><li><a href=\"20456727.html\">第八十五章 祖神</a></li><li><a href=\"20484532.html\">第八十六章 退敌</a></li><li><a href=\"20536688.html\">第八十七章 地仙</a></li><li><a href=\"20588320.html\">第八十八章 地祇化身</a></li><li><a href=\"20611283.html\">第八十九章 仙器</a></li><li><a href=\"20626670.html\">第九十章 寻觅</a></li><li><a href=\"20651729.html\">第九十一章 尝试</a></li><li><a href=\"20664276.html\">第九十二章 第九条锁链</a></li><li><a href=\"20686582.html\">第九十三章 前提条件</a></li><li><a href=\"20702774.html\">第九十四章 祖神遗言</a></li><li><a href=\"20751781.html\">第九十五章 小瓶失灵</a></li><li><a href=\"20792193.html\">第九十六章 绿液再现</a></li><li><a href=\"20792194.html\">第九十七章 三名祖神</a></li><li><a href=\"20842106.html\">第九十八章 被困</a></li></ul></body></html>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:49682195-2150-3a8b-8395-1e411b121bc7",
+      "page": "024-1330",
+      "id": "49682195-2150-3a8b-8395-1e411b121bc7",
+      "course": "024",
+      "code_sha256": "1e1bfc78a610ffaaaf68084f861de9f80dc22fcfc8bf20bf8c383cb4f021b141",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2168,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "gbk"
+        },
+        {
+          "type": "stdout",
+          "value": "gbk"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:3f056dc8-680a-3d40-88eb-f0ebccceb1a6",
+      "page": "024-1330",
+      "id": "3f056dc8-680a-3d40-88eb-f0ebccceb1a6",
+      "course": "024",
+      "code_sha256": "255e776e3bf51c23b62e377e31a157b898c0a92be2bebdeec73676d3c75e37fc",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2285,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!doctype html><html><head><meta charset=\"gbk\"><meta name=\"archive-status\" content=\"adapted teaching fixture; current raw response preserved separately\"><title>凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看</title></head><body><ul class=\"mulu_list\"><li><a href=\"17748489.html\">仙界篇外传一</a></li><li><a href=\"17748490.html\">仙界篇外传二</a></li><li><a href=\"17748491.html\">第一章 狐女</a></li><li><a href=\"17748492.html\">第二章 石头哥哥</a></li><li><a href=\"17748493.html\">第三章 远去</a></li><li><a href=\"17751178.html\">第四章 相依</a></li><li><a href=\"17781144.html\">第五章 马兽</a></li><li><a href=\"17835199.html\">第六章 白袍少年</a></li><li><a href=\"17868895.html\">第七章 余府</a></li><li><a href=\"17907447.html\">第八章 白石真人</a></li><li><a href=\"17940410.html\">第九章 法阵</a></li><li><a href=\"17968138.html\">第十章 危机</a></li><li><a href=\"18001183.html\">第十一章 苏醒</a></li><li><a href=\"18044340.html\">第十二章 我是韩立</a></li><li><a href=\"18141112.html\">第十三章 魔光</a></li><li><a href=\"18207013.html\">第十四章 遭变</a></li><li><a href=\"18258854.html\">第十五章 令牌</a></li><li><a href=\"18286813.html\">第十六章 绝望</a></li><li><a href=\"18386462.html\">第十七章 灭二修</a></li><li><a href=\"18408741.html\">第十八章 请求</a></li><li><a href=\"18423918.html\">第十九章 化神侄孙</a></li><li><a href=\"18443446.html\">第二十章 邀请</a></li><li><a href=\"18496124.html\">第二十一章 元婴异变</a></li><li><a href=\"18612654.html\">第二十二章 风云双煞</a></li><li><a href=\"18647917.html\">第二十三章 争斗</a></li><li><a href=\"18705630.html\">第二十四章 碾压</a></li><li><a href=\"18781379.html\">第二十五章 陆崖</a></li><li><a href=\"18860064.html\">第二十六章 敌踪再现</a></li><li><a href=\"18925102.html\">第二十七章 担五岳压五鬼</a></li><li><a href=\"18972845.html\">第二十八章 惊动</a></li><li><a href=\"19026963.html\">第二十九章 灵焰山脉</a></li><li><a href=\"19081216.html\">第三十章 举田</a></li><li><a href=\"19094590.html\">第三十一章 通易谷</a></li><li><a href=\"19108706.html\">第三十二章 逆丹诀</a></li><li><a href=\"19132048.html\">第三十三章 先天紫气</a></li><li><a href=\"19144383.html\">第三十四章 失窃</a></li><li><a href=\"19150982.html\">第三十五章 瞒天过海</a></li><li><a href=\"19156496.html\">第三十六章 偷梁换柱</a></li><li><a href=\"19164656.html\">第三十七章 脱身</a></li><li><a href=\"19166979.html\">第三十八章 柳暗花明</a></li><li><a href=\"19177069.html\">第三十九章 传谕</a></li><li><a href=\"19178558.html\">第四十章 不了了之</a></li><li><a href=\"19188552.html\">第四十一章 小瓶掌天</a></li><li><a href=\"19191058.html\">第四十二章 失而复得</a></li><li><a href=\"19207189.html\">第四十三章 大仇得报</a></li><li><a href=\"19215820.html\">第四十四章 隔元法链</a></li><li><a href=\"19229625.html\">第四十五章 这不可能</a></li><li><a href=\"19232091.html\">第四十六章 两个办法</a></li><li><a href=\"19243651.html\">第四十七章 试探</a></li><li><a href=\"19246142.html\">第四十八章 劫持</a></li><li><a href=\"19253912.html\">第四十九章 要挟</a></li><li><a href=\"19256364.html\">第五十章 破塔而出</a></li><li><a href=\"19267364.html\">第五十一章 小挪移空间术</a></li><li><a href=\"19281447.html\">第五十二章 该我了</a></li><li><a href=\"19292274.html\">第五十三章 魔焰焚身</a></li><li><a href=\"19304185.html\">第五十四章 吞吐魔焰</a></li><li><a href=\"19325343.html\">第五十五章 交代</a></li><li><a href=\"19336552.html\">第五十六章 天鬼出世</a></li><li><a href=\"19339191.html\">第五十七章 惊蛰变</a></li><li><a href=\"19348319.html\">第五十八章 却之不恭</a></li><li><a href=\"19353994.html\">第五十九章 借星台</a></li><li><a href=\"19367848.html\">第六十章 通缉</a></li><li><a href=\"19409379.html\">第六十一章 暗流</a></li><li><a href=\"19567390.html\">第六十二章 反常</a></li><li><a href=\"19599747.html\">第六十三章 撒豆成兵</a></li><li><a href=\"19621250.html\">第六十四章 同时出手</a></li><li><a href=\"19715927.html\">第六十五章 玄黄之索</a></li><li><a href=\"19799808.html\">第六十六章 灵婴剑符</a></li><li><a href=\"19843039.html\">第六十七章 百目天鬼</a></li><li><a href=\"19902532.html\">第六十八章 追杀</a></li><li><a href=\"19921462.html\">第六十九章 银月之变</a></li><li><a href=\"19997985.html\">第七十章天外飞豆</a></li><li><a href=\"20032007.html\">第七十一章涅槃圣体</a></li><li><a href=\"20115424.html\">第七十二章收服大乘</a></li><li><a href=\"20128357.html\">第七十三章灭门</a></li><li><a href=\"20204235.html\">第七十四章 出事了</a></li><li><a href=\"20207439.html\">第七十五章 打听</a></li><li><a href=\"20241547.html\">第七十六章 传奇</a></li><li><a href=\"20245118.html\">第七十七章 两件异宝</a></li><li><a href=\"20285375.html\">第七十八章 北斗异象</a></li><li><a href=\"20319711.html\">第七十九章 破碎虚空</a></li><li><a href=\"20345031.html\">第八十章 神秘气泡元丹快乐</a></li><li><a href=\"20364430.html\">第八十一章 独目巨人与半人马</a></li><li><a href=\"20393798.html\">第八十二章 交锋</a></li><li><a href=\"20428143.html\">第八十三章 急中生智</a></li><li><a href=\"20442372.html\">第八十四章 雕像</a></li><li><a href=\"20456727.html\">第八十五章 祖神</a></li><li><a href=\"20484532.html\">第八十六章 退敌</a></li><li><a href=\"20536688.html\">第八十七章 地仙</a></li><li><a href=\"20588320.html\">第八十八章 地祇化身</a></li><li><a href=\"20611283.html\">第八十九章 仙器</a></li><li><a href=\"20626670.html\">第九十章 寻觅</a></li><li><a href=\"20651729.html\">第九十一章 尝试</a></li><li><a href=\"20664276.html\">第九十二章 第九条锁链</a></li><li><a href=\"20686582.html\">第九十三章 前提条件</a></li><li><a href=\"20702774.html\">第九十四章 祖神遗言</a></li><li><a href=\"20751781.html\">第九十五章 小瓶失灵</a></li><li><a href=\"20792193.html\">第九十六章 绿液再现</a></li><li><a href=\"20792194.html\">第九十七章 三名祖神</a></li><li><a href=\"20842106.html\">第九十八章 被困</a></li></ul></body></html>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:0f592c1b-1549-37a0-b317-fb4b3a5c55bd",
+      "page": "024-1330",
+      "id": "0f592c1b-1549-37a0-b317-fb4b3a5c55bd",
+      "course": "024",
+      "code_sha256": "9b089cc373cf3066b2ea99de4de2baad3e005c7220d36d4ce3595797e7e652f4",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2248,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!doctype html><html><head><meta charset=\"gbk\"><meta name=\"archive-status\" content=\"adapted teaching fixture; current raw response preserved separately\"><title>凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看</title></head><body><ul class=\"mulu_list\"><li><a href=\"17748489.html\">仙界篇外传一</a></li><li><a href=\"17748490.html\">仙界篇外传二</a></li><li><a href=\"17748491.html\">第一章 狐女</a></li><li><a href=\"17748492.html\">第二章 石头哥哥</a></li><li><a href=\"17748493.html\">第三章 远去</a></li><li><a href=\"17751178.html\">第四章 相依</a></li><li><a href=\"17781144.html\">第五章 马兽</a></li><li><a href=\"17835199.html\">第六章 白袍少年</a></li><li><a href=\"17868895.html\">第七章 余府</a></li><li><a href=\"17907447.html\">第八章 白石真人</a></li><li><a href=\"17940410.html\">第九章 法阵</a></li><li><a href=\"17968138.html\">第十章 危机</a></li><li><a href=\"18001183.html\">第十一章 苏醒</a></li><li><a href=\"18044340.html\">第十二章 我是韩立</a></li><li><a href=\"18141112.html\">第十三章 魔光</a></li><li><a href=\"18207013.html\">第十四章 遭变</a></li><li><a href=\"18258854.html\">第十五章 令牌</a></li><li><a href=\"18286813.html\">第十六章 绝望</a></li><li><a href=\"18386462.html\">第十七章 灭二修</a></li><li><a href=\"18408741.html\">第十八章 请求</a></li><li><a href=\"18423918.html\">第十九章 化神侄孙</a></li><li><a href=\"18443446.html\">第二十章 邀请</a></li><li><a href=\"18496124.html\">第二十一章 元婴异变</a></li><li><a href=\"18612654.html\">第二十二章 风云双煞</a></li><li><a href=\"18647917.html\">第二十三章 争斗</a></li><li><a href=\"18705630.html\">第二十四章 碾压</a></li><li><a href=\"18781379.html\">第二十五章 陆崖</a></li><li><a href=\"18860064.html\">第二十六章 敌踪再现</a></li><li><a href=\"18925102.html\">第二十七章 担五岳压五鬼</a></li><li><a href=\"18972845.html\">第二十八章 惊动</a></li><li><a href=\"19026963.html\">第二十九章 灵焰山脉</a></li><li><a href=\"19081216.html\">第三十章 举田</a></li><li><a href=\"19094590.html\">第三十一章 通易谷</a></li><li><a href=\"19108706.html\">第三十二章 逆丹诀</a></li><li><a href=\"19132048.html\">第三十三章 先天紫气</a></li><li><a href=\"19144383.html\">第三十四章 失窃</a></li><li><a href=\"19150982.html\">第三十五章 瞒天过海</a></li><li><a href=\"19156496.html\">第三十六章 偷梁换柱</a></li><li><a href=\"19164656.html\">第三十七章 脱身</a></li><li><a href=\"19166979.html\">第三十八章 柳暗花明</a></li><li><a href=\"19177069.html\">第三十九章 传谕</a></li><li><a href=\"19178558.html\">第四十章 不了了之</a></li><li><a href=\"19188552.html\">第四十一章 小瓶掌天</a></li><li><a href=\"19191058.html\">第四十二章 失而复得</a></li><li><a href=\"19207189.html\">第四十三章 大仇得报</a></li><li><a href=\"19215820.html\">第四十四章 隔元法链</a></li><li><a href=\"19229625.html\">第四十五章 这不可能</a></li><li><a href=\"19232091.html\">第四十六章 两个办法</a></li><li><a href=\"19243651.html\">第四十七章 试探</a></li><li><a href=\"19246142.html\">第四十八章 劫持</a></li><li><a href=\"19253912.html\">第四十九章 要挟</a></li><li><a href=\"19256364.html\">第五十章 破塔而出</a></li><li><a href=\"19267364.html\">第五十一章 小挪移空间术</a></li><li><a href=\"19281447.html\">第五十二章 该我了</a></li><li><a href=\"19292274.html\">第五十三章 魔焰焚身</a></li><li><a href=\"19304185.html\">第五十四章 吞吐魔焰</a></li><li><a href=\"19325343.html\">第五十五章 交代</a></li><li><a href=\"19336552.html\">第五十六章 天鬼出世</a></li><li><a href=\"19339191.html\">第五十七章 惊蛰变</a></li><li><a href=\"19348319.html\">第五十八章 却之不恭</a></li><li><a href=\"19353994.html\">第五十九章 借星台</a></li><li><a href=\"19367848.html\">第六十章 通缉</a></li><li><a href=\"19409379.html\">第六十一章 暗流</a></li><li><a href=\"19567390.html\">第六十二章 反常</a></li><li><a href=\"19599747.html\">第六十三章 撒豆成兵</a></li><li><a href=\"19621250.html\">第六十四章 同时出手</a></li><li><a href=\"19715927.html\">第六十五章 玄黄之索</a></li><li><a href=\"19799808.html\">第六十六章 灵婴剑符</a></li><li><a href=\"19843039.html\">第六十七章 百目天鬼</a></li><li><a href=\"19902532.html\">第六十八章 追杀</a></li><li><a href=\"19921462.html\">第六十九章 银月之变</a></li><li><a href=\"19997985.html\">第七十章天外飞豆</a></li><li><a href=\"20032007.html\">第七十一章涅槃圣体</a></li><li><a href=\"20115424.html\">第七十二章收服大乘</a></li><li><a href=\"20128357.html\">第七十三章灭门</a></li><li><a href=\"20204235.html\">第七十四章 出事了</a></li><li><a href=\"20207439.html\">第七十五章 打听</a></li><li><a href=\"20241547.html\">第七十六章 传奇</a></li><li><a href=\"20245118.html\">第七十七章 两件异宝</a></li><li><a href=\"20285375.html\">第七十八章 北斗异象</a></li><li><a href=\"20319711.html\">第七十九章 破碎虚空</a></li><li><a href=\"20345031.html\">第八十章 神秘气泡元丹快乐</a></li><li><a href=\"20364430.html\">第八十一章 独目巨人与半人马</a></li><li><a href=\"20393798.html\">第八十二章 交锋</a></li><li><a href=\"20428143.html\">第八十三章 急中生智</a></li><li><a href=\"20442372.html\">第八十四章 雕像</a></li><li><a href=\"20456727.html\">第八十五章 祖神</a></li><li><a href=\"20484532.html\">第八十六章 退敌</a></li><li><a href=\"20536688.html\">第八十七章 地仙</a></li><li><a href=\"20588320.html\">第八十八章 地祇化身</a></li><li><a href=\"20611283.html\">第八十九章 仙器</a></li><li><a href=\"20626670.html\">第九十章 寻觅</a></li><li><a href=\"20651729.html\">第九十一章 尝试</a></li><li><a href=\"20664276.html\">第九十二章 第九条锁链</a></li><li><a href=\"20686582.html\">第九十三章 前提条件</a></li><li><a href=\"20702774.html\">第九十四章 祖神遗言</a></li><li><a href=\"20751781.html\">第九十五章 小瓶失灵</a></li><li><a href=\"20792193.html\">第九十六章 绿液再现</a></li><li><a href=\"20792194.html\">第九十七章 三名祖神</a></li><li><a href=\"20842106.html\">第九十八章 被困</a></li></ul></body></html>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:4cdf728e-b187-305c-98bc-f49f20ea345d",
+      "page": "024-1330",
+      "id": "4cdf728e-b187-305c-98bc-f49f20ea345d",
+      "course": "024",
+      "code_sha256": "c9013a27ede3b581de4ea4e5012351246b177c3947733a2fa4e5adedaa44f402",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2160,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!doctype html><html><head><meta charset=\"gbk\"><meta name=\"archive-status\" content=\"adapted teaching fixture; current raw response preserved separately\"><title>凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看</title></head><body><ul class=\"mulu_list\"><li><a href=\"17748489.html\">仙界篇外传一</a></li><li><a href=\"17748490.html\">仙界篇外传二</a></li><li><a href=\"17748491.html\">第一章 狐女</a></li><li><a href=\"17748492.html\">第二章 石头哥哥</a></li><li><a href=\"17748493.html\">第三章 远去</a></li><li><a href=\"17751178.html\">第四章 相依</a></li><li><a href=\"17781144.html\">第五章 马兽</a></li><li><a href=\"17835199.html\">第六章 白袍少年</a></li><li><a href=\"17868895.html\">第七章 余府</a></li><li><a href=\"17907447.html\">第八章 白石真人</a></li><li><a href=\"17940410.html\">第九章 法阵</a></li><li><a href=\"17968138.html\">第十章 危机</a></li><li><a href=\"18001183.html\">第十一章 苏醒</a></li><li><a href=\"18044340.html\">第十二章 我是韩立</a></li><li><a href=\"18141112.html\">第十三章 魔光</a></li><li><a href=\"18207013.html\">第十四章 遭变</a></li><li><a href=\"18258854.html\">第十五章 令牌</a></li><li><a href=\"18286813.html\">第十六章 绝望</a></li><li><a href=\"18386462.html\">第十七章 灭二修</a></li><li><a href=\"18408741.html\">第十八章 请求</a></li><li><a href=\"18423918.html\">第十九章 化神侄孙</a></li><li><a href=\"18443446.html\">第二十章 邀请</a></li><li><a href=\"18496124.html\">第二十一章 元婴异变</a></li><li><a href=\"18612654.html\">第二十二章 风云双煞</a></li><li><a href=\"18647917.html\">第二十三章 争斗</a></li><li><a href=\"18705630.html\">第二十四章 碾压</a></li><li><a href=\"18781379.html\">第二十五章 陆崖</a></li><li><a href=\"18860064.html\">第二十六章 敌踪再现</a></li><li><a href=\"18925102.html\">第二十七章 担五岳压五鬼</a></li><li><a href=\"18972845.html\">第二十八章 惊动</a></li><li><a href=\"19026963.html\">第二十九章 灵焰山脉</a></li><li><a href=\"19081216.html\">第三十章 举田</a></li><li><a href=\"19094590.html\">第三十一章 通易谷</a></li><li><a href=\"19108706.html\">第三十二章 逆丹诀</a></li><li><a href=\"19132048.html\">第三十三章 先天紫气</a></li><li><a href=\"19144383.html\">第三十四章 失窃</a></li><li><a href=\"19150982.html\">第三十五章 瞒天过海</a></li><li><a href=\"19156496.html\">第三十六章 偷梁换柱</a></li><li><a href=\"19164656.html\">第三十七章 脱身</a></li><li><a href=\"19166979.html\">第三十八章 柳暗花明</a></li><li><a href=\"19177069.html\">第三十九章 传谕</a></li><li><a href=\"19178558.html\">第四十章 不了了之</a></li><li><a href=\"19188552.html\">第四十一章 小瓶掌天</a></li><li><a href=\"19191058.html\">第四十二章 失而复得</a></li><li><a href=\"19207189.html\">第四十三章 大仇得报</a></li><li><a href=\"19215820.html\">第四十四章 隔元法链</a></li><li><a href=\"19229625.html\">第四十五章 这不可能</a></li><li><a href=\"19232091.html\">第四十六章 两个办法</a></li><li><a href=\"19243651.html\">第四十七章 试探</a></li><li><a href=\"19246142.html\">第四十八章 劫持</a></li><li><a href=\"19253912.html\">第四十九章 要挟</a></li><li><a href=\"19256364.html\">第五十章 破塔而出</a></li><li><a href=\"19267364.html\">第五十一章 小挪移空间术</a></li><li><a href=\"19281447.html\">第五十二章 该我了</a></li><li><a href=\"19292274.html\">第五十三章 魔焰焚身</a></li><li><a href=\"19304185.html\">第五十四章 吞吐魔焰</a></li><li><a href=\"19325343.html\">第五十五章 交代</a></li><li><a href=\"19336552.html\">第五十六章 天鬼出世</a></li><li><a href=\"19339191.html\">第五十七章 惊蛰变</a></li><li><a href=\"19348319.html\">第五十八章 却之不恭</a></li><li><a href=\"19353994.html\">第五十九章 借星台</a></li><li><a href=\"19367848.html\">第六十章 通缉</a></li><li><a href=\"19409379.html\">第六十一章 暗流</a></li><li><a href=\"19567390.html\">第六十二章 反常</a></li><li><a href=\"19599747.html\">第六十三章 撒豆成兵</a></li><li><a href=\"19621250.html\">第六十四章 同时出手</a></li><li><a href=\"19715927.html\">第六十五章 玄黄之索</a></li><li><a href=\"19799808.html\">第六十六章 灵婴剑符</a></li><li><a href=\"19843039.html\">第六十七章 百目天鬼</a></li><li><a href=\"19902532.html\">第六十八章 追杀</a></li><li><a href=\"19921462.html\">第六十九章 银月之变</a></li><li><a href=\"19997985.html\">第七十章天外飞豆</a></li><li><a href=\"20032007.html\">第七十一章涅槃圣体</a></li><li><a href=\"20115424.html\">第七十二章收服大乘</a></li><li><a href=\"20128357.html\">第七十三章灭门</a></li><li><a href=\"20204235.html\">第七十四章 出事了</a></li><li><a href=\"20207439.html\">第七十五章 打听</a></li><li><a href=\"20241547.html\">第七十六章 传奇</a></li><li><a href=\"20245118.html\">第七十七章 两件异宝</a></li><li><a href=\"20285375.html\">第七十八章 北斗异象</a></li><li><a href=\"20319711.html\">第七十九章 破碎虚空</a></li><li><a href=\"20345031.html\">第八十章 神秘气泡元丹快乐</a></li><li><a href=\"20364430.html\">第八十一章 独目巨人与半人马</a></li><li><a href=\"20393798.html\">第八十二章 交锋</a></li><li><a href=\"20428143.html\">第八十三章 急中生智</a></li><li><a href=\"20442372.html\">第八十四章 雕像</a></li><li><a href=\"20456727.html\">第八十五章 祖神</a></li><li><a href=\"20484532.html\">第八十六章 退敌</a></li><li><a href=\"20536688.html\">第八十七章 地仙</a></li><li><a href=\"20588320.html\">第八十八章 地祇化身</a></li><li><a href=\"20611283.html\">第八十九章 仙器</a></li><li><a href=\"20626670.html\">第九十章 寻觅</a></li><li><a href=\"20651729.html\">第九十一章 尝试</a></li><li><a href=\"20664276.html\">第九十二章 第九条锁链</a></li><li><a href=\"20686582.html\">第九十三章 前提条件</a></li><li><a href=\"20702774.html\">第九十四章 祖神遗言</a></li><li><a href=\"20751781.html\">第九十五章 小瓶失灵</a></li><li><a href=\"20792193.html\">第九十六章 绿液再现</a></li><li><a href=\"20792194.html\">第九十七章 三名祖神</a></li><li><a href=\"20842106.html\">第九十八章 被困</a></li></ul></body></html>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:61a6f7a4-49a4-3441-97e6-1193476baaa3",
+      "page": "024-1330",
+      "id": "61a6f7a4-49a4-3441-97e6-1193476baaa3",
+      "course": "024",
+      "code_sha256": "e2e9b42ef2bb2c872af6d60651754e6671f1cae598e0eb1ad8d9e4d1c0b6fc5c",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2648,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!DOCTYPE html>"
+        },
+        {
+          "type": "stdout",
+          "value": "<html>"
+        },
+        {
+          "type": "stdout",
+          "value": " <head>"
+        },
+        {
+          "type": "stdout",
+          "value": "  <meta charset=\"utf-8\"/>"
+        },
+        {
+          "type": "stdout",
+          "value": "  <meta content=\"adapted teaching fixture; current raw response preserved separately\" name=\"archive-status\"/>"
+        },
+        {
+          "type": "stdout",
+          "value": "  <title>"
+        },
+        {
+          "type": "stdout",
+          "value": "   凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看"
+        },
+        {
+          "type": "stdout",
+          "value": "  </title>"
+        },
+        {
+          "type": "stdout",
+          "value": " </head>"
+        },
+        {
+          "type": "stdout",
+          "value": " <body>"
+        },
+        {
+          "type": "stdout",
+          "value": "  <ul class=\"mulu_list\">"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17748489.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     仙界篇外传一"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17748490.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     仙界篇外传二"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17748491.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第一章 狐女"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17748492.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二章 石头哥哥"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17748493.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三章 远去"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17751178.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四章 相依"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17781144.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五章 马兽"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17835199.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六章 白袍少年"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17868895.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七章 余府"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17907447.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八章 白石真人"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17940410.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九章 法阵"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"17968138.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十章 危机"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18001183.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十一章 苏醒"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18044340.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十二章 我是韩立"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18141112.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十三章 魔光"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18207013.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十四章 遭变"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18258854.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十五章 令牌"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18286813.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十六章 绝望"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18386462.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十七章 灭二修"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18408741.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十八章 请求"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18423918.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第十九章 化神侄孙"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18443446.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十章 邀请"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18496124.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十一章 元婴异变"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18612654.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十二章 风云双煞"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18647917.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十三章 争斗"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18705630.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十四章 碾压"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18781379.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十五章 陆崖"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18860064.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十六章 敌踪再现"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18925102.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十七章 担五岳压五鬼"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"18972845.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十八章 惊动"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19026963.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第二十九章 灵焰山脉"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19081216.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十章 举田"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19094590.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十一章 通易谷"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19108706.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十二章 逆丹诀"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19132048.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十三章 先天紫气"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19144383.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十四章 失窃"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19150982.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十五章 瞒天过海"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19156496.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十六章 偷梁换柱"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19164656.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十七章 脱身"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19166979.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十八章 柳暗花明"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19177069.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第三十九章 传谕"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19178558.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十章 不了了之"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19188552.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十一章 小瓶掌天"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19191058.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十二章 失而复得"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19207189.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十三章 大仇得报"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19215820.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十四章 隔元法链"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19229625.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十五章 这不可能"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19232091.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十六章 两个办法"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19243651.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十七章 试探"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19246142.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十八章 劫持"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19253912.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第四十九章 要挟"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19256364.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十章 破塔而出"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19267364.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十一章 小挪移空间术"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19281447.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十二章 该我了"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19292274.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十三章 魔焰焚身"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19304185.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十四章 吞吐魔焰"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19325343.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十五章 交代"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19336552.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十六章 天鬼出世"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19339191.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十七章 惊蛰变"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19348319.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十八章 却之不恭"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19353994.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第五十九章 借星台"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19367848.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十章 通缉"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19409379.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十一章 暗流"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19567390.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十二章 反常"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19599747.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十三章 撒豆成兵"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19621250.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十四章 同时出手"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19715927.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十五章 玄黄之索"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19799808.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十六章 灵婴剑符"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19843039.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十七章 百目天鬼"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19902532.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十八章 追杀"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19921462.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第六十九章 银月之变"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"19997985.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十章天外飞豆"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20032007.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十一章涅槃圣体"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20115424.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十二章收服大乘"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20128357.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十三章灭门"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20204235.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十四章 出事了"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20207439.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十五章 打听"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20241547.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十六章 传奇"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20245118.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十七章 两件异宝"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20285375.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十八章 北斗异象"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20319711.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第七十九章 破碎虚空"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20345031.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十章 神秘气泡元丹快乐"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20364430.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十一章 独目巨人与半人马"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20393798.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十二章 交锋"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20428143.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十三章 急中生智"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20442372.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十四章 雕像"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20456727.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十五章 祖神"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20484532.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十六章 退敌"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20536688.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十七章 地仙"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20588320.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十八章 地祇化身"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20611283.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第八十九章 仙器"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20626670.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十章 寻觅"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20651729.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十一章 尝试"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20664276.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十二章 第九条锁链"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20686582.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十三章 前提条件"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20702774.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十四章 祖神遗言"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20751781.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十五章 小瓶失灵"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20792193.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十六章 绿液再现"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20792194.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十七章 三名祖神"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "   <li>"
+        },
+        {
+          "type": "stdout",
+          "value": "    <a href=\"20842106.html\">"
+        },
+        {
+          "type": "stdout",
+          "value": "     第九十八章 被困"
+        },
+        {
+          "type": "stdout",
+          "value": "    </a>"
+        },
+        {
+          "type": "stdout",
+          "value": "   </li>"
+        },
+        {
+          "type": "stdout",
+          "value": "  </ul>"
+        },
+        {
+          "type": "stdout",
+          "value": " </body>"
+        },
+        {
+          "type": "stdout",
+          "value": "</html>"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:c2bbd414-9475-3983-a24d-bce95d8d8c5a",
+      "page": "024-1330",
+      "id": "c2bbd414-9475-3983-a24d-bce95d8d8c5a",
+      "course": "024",
+      "code_sha256": "d6a4d75318110f860ec4674e86500f61ca5113fcb90f7a0804dd16845620bbfa",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2666,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<ul class=\"mulu_list\"><li><a href=\"17748489.html\">仙界篇外传一</a></li><li><a href=\"17748490.html\">仙界篇外传二</a></li><li><a href=\"17748491.html\">第一章 狐女</a></li><li><a href=\"17748492.html\">第二章 石头哥哥</a></li><li><a href=\"17748493.html\">第三章 远去</a></li><li><a href=\"17751178.html\">第四章 相依</a></li><li><a href=\"17781144.html\">第五章 马兽</a></li><li><a href=\"17835199.html\">第六章 白袍少年</a></li><li><a href=\"17868895.html\">第七章 余府</a></li><li><a href=\"17907447.html\">第八章 白石真人</a></li><li><a href=\"17940410.html\">第九章 法阵</a></li><li><a href=\"17968138.html\">第十章 危机</a></li><li><a href=\"18001183.html\">第十一章 苏醒</a></li><li><a href=\"18044340.html\">第十二章 我是韩立</a></li><li><a href=\"18141112.html\">第十三章 魔光</a></li><li><a href=\"18207013.html\">第十四章 遭变</a></li><li><a href=\"18258854.html\">第十五章 令牌</a></li><li><a href=\"18286813.html\">第十六章 绝望</a></li><li><a href=\"18386462.html\">第十七章 灭二修</a></li><li><a href=\"18408741.html\">第十八章 请求</a></li><li><a href=\"18423918.html\">第十九章 化神侄孙</a></li><li><a href=\"18443446.html\">第二十章 邀请</a></li><li><a href=\"18496124.html\">第二十一章 元婴异变</a></li><li><a href=\"18612654.html\">第二十二章 风云双煞</a></li><li><a href=\"18647917.html\">第二十三章 争斗</a></li><li><a href=\"18705630.html\">第二十四章 碾压</a></li><li><a href=\"18781379.html\">第二十五章 陆崖</a></li><li><a href=\"18860064.html\">第二十六章 敌踪再现</a></li><li><a href=\"18925102.html\">第二十七章 担五岳压五鬼</a></li><li><a href=\"18972845.html\">第二十八章 惊动</a></li><li><a href=\"19026963.html\">第二十九章 灵焰山脉</a></li><li><a href=\"19081216.html\">第三十章 举田</a></li><li><a href=\"19094590.html\">第三十一章 通易谷</a></li><li><a href=\"19108706.html\">第三十二章 逆丹诀</a></li><li><a href=\"19132048.html\">第三十三章 先天紫气</a></li><li><a href=\"19144383.html\">第三十四章 失窃</a></li><li><a href=\"19150982.html\">第三十五章 瞒天过海</a></li><li><a href=\"19156496.html\">第三十六章 偷梁换柱</a></li><li><a href=\"19164656.html\">第三十七章 脱身</a></li><li><a href=\"19166979.html\">第三十八章 柳暗花明</a></li><li><a href=\"19177069.html\">第三十九章 传谕</a></li><li><a href=\"19178558.html\">第四十章 不了了之</a></li><li><a href=\"19188552.html\">第四十一章 小瓶掌天</a></li><li><a href=\"19191058.html\">第四十二章 失而复得</a></li><li><a href=\"19207189.html\">第四十三章 大仇得报</a></li><li><a href=\"19215820.html\">第四十四章 隔元法链</a></li><li><a href=\"19229625.html\">第四十五章 这不可能</a></li><li><a href=\"19232091.html\">第四十六章 两个办法</a></li><li><a href=\"19243651.html\">第四十七章 试探</a></li><li><a href=\"19246142.html\">第四十八章 劫持</a></li><li><a href=\"19253912.html\">第四十九章 要挟</a></li><li><a href=\"19256364.html\">第五十章 破塔而出</a></li><li><a href=\"19267364.html\">第五十一章 小挪移空间术</a></li><li><a href=\"19281447.html\">第五十二章 该我了</a></li><li><a href=\"19292274.html\">第五十三章 魔焰焚身</a></li><li><a href=\"19304185.html\">第五十四章 吞吐魔焰</a></li><li><a href=\"19325343.html\">第五十五章 交代</a></li><li><a href=\"19336552.html\">第五十六章 天鬼出世</a></li><li><a href=\"19339191.html\">第五十七章 惊蛰变</a></li><li><a href=\"19348319.html\">第五十八章 却之不恭</a></li><li><a href=\"19353994.html\">第五十九章 借星台</a></li><li><a href=\"19367848.html\">第六十章 通缉</a></li><li><a href=\"19409379.html\">第六十一章 暗流</a></li><li><a href=\"19567390.html\">第六十二章 反常</a></li><li><a href=\"19599747.html\">第六十三章 撒豆成兵</a></li><li><a href=\"19621250.html\">第六十四章 同时出手</a></li><li><a href=\"19715927.html\">第六十五章 玄黄之索</a></li><li><a href=\"19799808.html\">第六十六章 灵婴剑符</a></li><li><a href=\"19843039.html\">第六十七章 百目天鬼</a></li><li><a href=\"19902532.html\">第六十八章 追杀</a></li><li><a href=\"19921462.html\">第六十九章 银月之变</a></li><li><a href=\"19997985.html\">第七十章天外飞豆</a></li><li><a href=\"20032007.html\">第七十一章涅槃圣体</a></li><li><a href=\"20115424.html\">第七十二章收服大乘</a></li><li><a href=\"20128357.html\">第七十三章灭门</a></li><li><a href=\"20204235.html\">第七十四章 出事了</a></li><li><a href=\"20207439.html\">第七十五章 打听</a></li><li><a href=\"20241547.html\">第七十六章 传奇</a></li><li><a href=\"20245118.html\">第七十七章 两件异宝</a></li><li><a href=\"20285375.html\">第七十八章 北斗异象</a></li><li><a href=\"20319711.html\">第七十九章 破碎虚空</a></li><li><a href=\"20345031.html\">第八十章 神秘气泡元丹快乐</a></li><li><a href=\"20364430.html\">第八十一章 独目巨人与半人马</a></li><li><a href=\"20393798.html\">第八十二章 交锋</a></li><li><a href=\"20428143.html\">第八十三章 急中生智</a></li><li><a href=\"20442372.html\">第八十四章 雕像</a></li><li><a href=\"20456727.html\">第八十五章 祖神</a></li><li><a href=\"20484532.html\">第八十六章 退敌</a></li><li><a href=\"20536688.html\">第八十七章 地仙</a></li><li><a href=\"20588320.html\">第八十八章 地祇化身</a></li><li><a href=\"20611283.html\">第八十九章 仙器</a></li><li><a href=\"20626670.html\">第九十章 寻觅</a></li><li><a href=\"20651729.html\">第九十一章 尝试</a></li><li><a href=\"20664276.html\">第九十二章 第九条锁链</a></li><li><a href=\"20686582.html\">第九十三章 前提条件</a></li><li><a href=\"20702774.html\">第九十四章 祖神遗言</a></li><li><a href=\"20751781.html\">第九十五章 小瓶失灵</a></li><li><a href=\"20792193.html\">第九十六章 绿液再现</a></li><li><a href=\"20792194.html\">第九十七章 三名祖神</a></li><li><a href=\"20842106.html\">第九十八章 被困</a></li></ul>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:012c82d8-54b0-3de0-92c4-00efbeb7a68d",
+      "page": "024-1330",
+      "id": "012c82d8-54b0-3de0-92c4-00efbeb7a68d",
+      "course": "024",
+      "code_sha256": "8be32225b3fef5a6032f76049f644fb4dcccf87e3b5bb66f941dc39b54654094",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2660,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传一 https://www.biqukan.cc/article/30067/17748489.html"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传二 https://www.biqukan.cc/article/30067/17748490.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第一章 狐女 https://www.biqukan.cc/article/30067/17748491.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二章 石头哥哥 https://www.biqukan.cc/article/30067/17748492.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三章 远去 https://www.biqukan.cc/article/30067/17748493.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四章 相依 https://www.biqukan.cc/article/30067/17751178.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五章 马兽 https://www.biqukan.cc/article/30067/17781144.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六章 白袍少年 https://www.biqukan.cc/article/30067/17835199.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七章 余府 https://www.biqukan.cc/article/30067/17868895.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八章 白石真人 https://www.biqukan.cc/article/30067/17907447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九章 法阵 https://www.biqukan.cc/article/30067/17940410.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十章 危机 https://www.biqukan.cc/article/30067/17968138.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十一章 苏醒 https://www.biqukan.cc/article/30067/18001183.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十二章 我是韩立 https://www.biqukan.cc/article/30067/18044340.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十三章 魔光 https://www.biqukan.cc/article/30067/18141112.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十四章 遭变 https://www.biqukan.cc/article/30067/18207013.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十五章 令牌 https://www.biqukan.cc/article/30067/18258854.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十六章 绝望 https://www.biqukan.cc/article/30067/18286813.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十七章 灭二修 https://www.biqukan.cc/article/30067/18386462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十八章 请求 https://www.biqukan.cc/article/30067/18408741.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十九章 化神侄孙 https://www.biqukan.cc/article/30067/18423918.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十章 邀请 https://www.biqukan.cc/article/30067/18443446.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十一章 元婴异变 https://www.biqukan.cc/article/30067/18496124.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十二章 风云双煞 https://www.biqukan.cc/article/30067/18612654.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十三章 争斗 https://www.biqukan.cc/article/30067/18647917.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十四章 碾压 https://www.biqukan.cc/article/30067/18705630.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十五章 陆崖 https://www.biqukan.cc/article/30067/18781379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十六章 敌踪再现 https://www.biqukan.cc/article/30067/18860064.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十七章 担五岳压五鬼 https://www.biqukan.cc/article/30067/18925102.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十八章 惊动 https://www.biqukan.cc/article/30067/18972845.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十九章 灵焰山脉 https://www.biqukan.cc/article/30067/19026963.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十章 举田 https://www.biqukan.cc/article/30067/19081216.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十一章 通易谷 https://www.biqukan.cc/article/30067/19094590.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十二章 逆丹诀 https://www.biqukan.cc/article/30067/19108706.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十三章 先天紫气 https://www.biqukan.cc/article/30067/19132048.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十四章 失窃 https://www.biqukan.cc/article/30067/19144383.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十五章 瞒天过海 https://www.biqukan.cc/article/30067/19150982.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十六章 偷梁换柱 https://www.biqukan.cc/article/30067/19156496.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十七章 脱身 https://www.biqukan.cc/article/30067/19164656.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十八章 柳暗花明 https://www.biqukan.cc/article/30067/19166979.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十九章 传谕 https://www.biqukan.cc/article/30067/19177069.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十章 不了了之 https://www.biqukan.cc/article/30067/19178558.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十一章 小瓶掌天 https://www.biqukan.cc/article/30067/19188552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十二章 失而复得 https://www.biqukan.cc/article/30067/19191058.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十三章 大仇得报 https://www.biqukan.cc/article/30067/19207189.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十四章 隔元法链 https://www.biqukan.cc/article/30067/19215820.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十五章 这不可能 https://www.biqukan.cc/article/30067/19229625.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十六章 两个办法 https://www.biqukan.cc/article/30067/19232091.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十七章 试探 https://www.biqukan.cc/article/30067/19243651.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十八章 劫持 https://www.biqukan.cc/article/30067/19246142.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十九章 要挟 https://www.biqukan.cc/article/30067/19253912.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十章 破塔而出 https://www.biqukan.cc/article/30067/19256364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十一章 小挪移空间术 https://www.biqukan.cc/article/30067/19267364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十二章 该我了 https://www.biqukan.cc/article/30067/19281447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十三章 魔焰焚身 https://www.biqukan.cc/article/30067/19292274.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十四章 吞吐魔焰 https://www.biqukan.cc/article/30067/19304185.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十五章 交代 https://www.biqukan.cc/article/30067/19325343.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十六章 天鬼出世 https://www.biqukan.cc/article/30067/19336552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十七章 惊蛰变 https://www.biqukan.cc/article/30067/19339191.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十八章 却之不恭 https://www.biqukan.cc/article/30067/19348319.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十九章 借星台 https://www.biqukan.cc/article/30067/19353994.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十章 通缉 https://www.biqukan.cc/article/30067/19367848.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十一章 暗流 https://www.biqukan.cc/article/30067/19409379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十二章 反常 https://www.biqukan.cc/article/30067/19567390.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十三章 撒豆成兵 https://www.biqukan.cc/article/30067/19599747.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十四章 同时出手 https://www.biqukan.cc/article/30067/19621250.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十五章 玄黄之索 https://www.biqukan.cc/article/30067/19715927.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十六章 灵婴剑符 https://www.biqukan.cc/article/30067/19799808.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十七章 百目天鬼 https://www.biqukan.cc/article/30067/19843039.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十八章 追杀 https://www.biqukan.cc/article/30067/19902532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十九章 银月之变 https://www.biqukan.cc/article/30067/19921462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十章天外飞豆 https://www.biqukan.cc/article/30067/19997985.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十一章涅槃圣体 https://www.biqukan.cc/article/30067/20032007.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十二章收服大乘 https://www.biqukan.cc/article/30067/20115424.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十三章灭门 https://www.biqukan.cc/article/30067/20128357.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十四章 出事了 https://www.biqukan.cc/article/30067/20204235.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十五章 打听 https://www.biqukan.cc/article/30067/20207439.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十六章 传奇 https://www.biqukan.cc/article/30067/20241547.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十七章 两件异宝 https://www.biqukan.cc/article/30067/20245118.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十八章 北斗异象 https://www.biqukan.cc/article/30067/20285375.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十九章 破碎虚空 https://www.biqukan.cc/article/30067/20319711.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十章 神秘气泡元丹快乐 https://www.biqukan.cc/article/30067/20345031.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十一章 独目巨人与半人马 https://www.biqukan.cc/article/30067/20364430.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十二章 交锋 https://www.biqukan.cc/article/30067/20393798.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十三章 急中生智 https://www.biqukan.cc/article/30067/20428143.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十四章 雕像 https://www.biqukan.cc/article/30067/20442372.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十五章 祖神 https://www.biqukan.cc/article/30067/20456727.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十六章 退敌 https://www.biqukan.cc/article/30067/20484532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十七章 地仙 https://www.biqukan.cc/article/30067/20536688.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十八章 地祇化身 https://www.biqukan.cc/article/30067/20588320.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十九章 仙器 https://www.biqukan.cc/article/30067/20611283.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十章 寻觅 https://www.biqukan.cc/article/30067/20626670.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十一章 尝试 https://www.biqukan.cc/article/30067/20651729.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十二章 第九条锁链 https://www.biqukan.cc/article/30067/20664276.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十三章 前提条件 https://www.biqukan.cc/article/30067/20686582.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十四章 祖神遗言 https://www.biqukan.cc/article/30067/20702774.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十五章 小瓶失灵 https://www.biqukan.cc/article/30067/20751781.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十六章 绿液再现 https://www.biqukan.cc/article/30067/20792193.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十七章 三名祖神 https://www.biqukan.cc/article/30067/20792194.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十八章 被困 https://www.biqukan.cc/article/30067/20842106.html"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:51bc78c2-3d8b-3e00-88f5-52824490274d",
+      "page": "024-1330",
+      "id": "51bc78c2-3d8b-3e00-88f5-52824490274d",
+      "course": "024",
+      "code_sha256": "f5442feeb04d19e5cebe6efe59f6166d0f20e211b68c582de3a9e6ae633fa925",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2527,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传一 https://www.biqukan.cc/article/30067/17748489.html"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传二 https://www.biqukan.cc/article/30067/17748490.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第一章 狐女 https://www.biqukan.cc/article/30067/17748491.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二章 石头哥哥 https://www.biqukan.cc/article/30067/17748492.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三章 远去 https://www.biqukan.cc/article/30067/17748493.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四章 相依 https://www.biqukan.cc/article/30067/17751178.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五章 马兽 https://www.biqukan.cc/article/30067/17781144.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六章 白袍少年 https://www.biqukan.cc/article/30067/17835199.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七章 余府 https://www.biqukan.cc/article/30067/17868895.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八章 白石真人 https://www.biqukan.cc/article/30067/17907447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九章 法阵 https://www.biqukan.cc/article/30067/17940410.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十章 危机 https://www.biqukan.cc/article/30067/17968138.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十一章 苏醒 https://www.biqukan.cc/article/30067/18001183.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十二章 我是韩立 https://www.biqukan.cc/article/30067/18044340.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十三章 魔光 https://www.biqukan.cc/article/30067/18141112.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十四章 遭变 https://www.biqukan.cc/article/30067/18207013.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十五章 令牌 https://www.biqukan.cc/article/30067/18258854.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十六章 绝望 https://www.biqukan.cc/article/30067/18286813.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十七章 灭二修 https://www.biqukan.cc/article/30067/18386462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十八章 请求 https://www.biqukan.cc/article/30067/18408741.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十九章 化神侄孙 https://www.biqukan.cc/article/30067/18423918.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十章 邀请 https://www.biqukan.cc/article/30067/18443446.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十一章 元婴异变 https://www.biqukan.cc/article/30067/18496124.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十二章 风云双煞 https://www.biqukan.cc/article/30067/18612654.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十三章 争斗 https://www.biqukan.cc/article/30067/18647917.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十四章 碾压 https://www.biqukan.cc/article/30067/18705630.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十五章 陆崖 https://www.biqukan.cc/article/30067/18781379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十六章 敌踪再现 https://www.biqukan.cc/article/30067/18860064.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十七章 担五岳压五鬼 https://www.biqukan.cc/article/30067/18925102.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十八章 惊动 https://www.biqukan.cc/article/30067/18972845.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十九章 灵焰山脉 https://www.biqukan.cc/article/30067/19026963.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十章 举田 https://www.biqukan.cc/article/30067/19081216.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十一章 通易谷 https://www.biqukan.cc/article/30067/19094590.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十二章 逆丹诀 https://www.biqukan.cc/article/30067/19108706.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十三章 先天紫气 https://www.biqukan.cc/article/30067/19132048.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十四章 失窃 https://www.biqukan.cc/article/30067/19144383.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十五章 瞒天过海 https://www.biqukan.cc/article/30067/19150982.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十六章 偷梁换柱 https://www.biqukan.cc/article/30067/19156496.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十七章 脱身 https://www.biqukan.cc/article/30067/19164656.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十八章 柳暗花明 https://www.biqukan.cc/article/30067/19166979.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十九章 传谕 https://www.biqukan.cc/article/30067/19177069.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十章 不了了之 https://www.biqukan.cc/article/30067/19178558.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十一章 小瓶掌天 https://www.biqukan.cc/article/30067/19188552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十二章 失而复得 https://www.biqukan.cc/article/30067/19191058.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十三章 大仇得报 https://www.biqukan.cc/article/30067/19207189.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十四章 隔元法链 https://www.biqukan.cc/article/30067/19215820.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十五章 这不可能 https://www.biqukan.cc/article/30067/19229625.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十六章 两个办法 https://www.biqukan.cc/article/30067/19232091.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十七章 试探 https://www.biqukan.cc/article/30067/19243651.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十八章 劫持 https://www.biqukan.cc/article/30067/19246142.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十九章 要挟 https://www.biqukan.cc/article/30067/19253912.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十章 破塔而出 https://www.biqukan.cc/article/30067/19256364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十一章 小挪移空间术 https://www.biqukan.cc/article/30067/19267364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十二章 该我了 https://www.biqukan.cc/article/30067/19281447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十三章 魔焰焚身 https://www.biqukan.cc/article/30067/19292274.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十四章 吞吐魔焰 https://www.biqukan.cc/article/30067/19304185.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十五章 交代 https://www.biqukan.cc/article/30067/19325343.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十六章 天鬼出世 https://www.biqukan.cc/article/30067/19336552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十七章 惊蛰变 https://www.biqukan.cc/article/30067/19339191.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十八章 却之不恭 https://www.biqukan.cc/article/30067/19348319.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十九章 借星台 https://www.biqukan.cc/article/30067/19353994.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十章 通缉 https://www.biqukan.cc/article/30067/19367848.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十一章 暗流 https://www.biqukan.cc/article/30067/19409379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十二章 反常 https://www.biqukan.cc/article/30067/19567390.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十三章 撒豆成兵 https://www.biqukan.cc/article/30067/19599747.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十四章 同时出手 https://www.biqukan.cc/article/30067/19621250.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十五章 玄黄之索 https://www.biqukan.cc/article/30067/19715927.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十六章 灵婴剑符 https://www.biqukan.cc/article/30067/19799808.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十七章 百目天鬼 https://www.biqukan.cc/article/30067/19843039.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十八章 追杀 https://www.biqukan.cc/article/30067/19902532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十九章 银月之变 https://www.biqukan.cc/article/30067/19921462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十章天外飞豆 https://www.biqukan.cc/article/30067/19997985.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十一章涅槃圣体 https://www.biqukan.cc/article/30067/20032007.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十二章收服大乘 https://www.biqukan.cc/article/30067/20115424.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十三章灭门 https://www.biqukan.cc/article/30067/20128357.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十四章 出事了 https://www.biqukan.cc/article/30067/20204235.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十五章 打听 https://www.biqukan.cc/article/30067/20207439.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十六章 传奇 https://www.biqukan.cc/article/30067/20241547.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十七章 两件异宝 https://www.biqukan.cc/article/30067/20245118.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十八章 北斗异象 https://www.biqukan.cc/article/30067/20285375.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十九章 破碎虚空 https://www.biqukan.cc/article/30067/20319711.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十章 神秘气泡元丹快乐 https://www.biqukan.cc/article/30067/20345031.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十一章 独目巨人与半人马 https://www.biqukan.cc/article/30067/20364430.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十二章 交锋 https://www.biqukan.cc/article/30067/20393798.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十三章 急中生智 https://www.biqukan.cc/article/30067/20428143.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十四章 雕像 https://www.biqukan.cc/article/30067/20442372.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十五章 祖神 https://www.biqukan.cc/article/30067/20456727.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十六章 退敌 https://www.biqukan.cc/article/30067/20484532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十七章 地仙 https://www.biqukan.cc/article/30067/20536688.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十八章 地祇化身 https://www.biqukan.cc/article/30067/20588320.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十九章 仙器 https://www.biqukan.cc/article/30067/20611283.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十章 寻觅 https://www.biqukan.cc/article/30067/20626670.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十一章 尝试 https://www.biqukan.cc/article/30067/20651729.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十二章 第九条锁链 https://www.biqukan.cc/article/30067/20664276.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十三章 前提条件 https://www.biqukan.cc/article/30067/20686582.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十四章 祖神遗言 https://www.biqukan.cc/article/30067/20702774.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十五章 小瓶失灵 https://www.biqukan.cc/article/30067/20751781.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十六章 绿液再现 https://www.biqukan.cc/article/30067/20792193.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十七章 三名祖神 https://www.biqukan.cc/article/30067/20792194.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十八章 被困 https://www.biqukan.cc/article/30067/20842106.html"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1330.json:19c84e76-9cea-3dcc-9fc3-d172ef5d61ff",
+      "page": "024-1330",
+      "id": "19c84e76-9cea-3dcc-9fc3-d172ef5d61ff",
+      "course": "024",
+      "code_sha256": "3401d2089c81fa34cd4a4205d4303c626c7a167112e8c857784757dac7fe681e",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "csv",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2604,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传一 https://www.biqukan.cc/article/30067/17748489.html"
+        },
+        {
+          "type": "stdout",
+          "value": "仙界篇外传二 https://www.biqukan.cc/article/30067/17748490.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第一章 狐女 https://www.biqukan.cc/article/30067/17748491.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二章 石头哥哥 https://www.biqukan.cc/article/30067/17748492.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三章 远去 https://www.biqukan.cc/article/30067/17748493.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四章 相依 https://www.biqukan.cc/article/30067/17751178.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五章 马兽 https://www.biqukan.cc/article/30067/17781144.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六章 白袍少年 https://www.biqukan.cc/article/30067/17835199.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七章 余府 https://www.biqukan.cc/article/30067/17868895.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八章 白石真人 https://www.biqukan.cc/article/30067/17907447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九章 法阵 https://www.biqukan.cc/article/30067/17940410.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十章 危机 https://www.biqukan.cc/article/30067/17968138.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十一章 苏醒 https://www.biqukan.cc/article/30067/18001183.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十二章 我是韩立 https://www.biqukan.cc/article/30067/18044340.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十三章 魔光 https://www.biqukan.cc/article/30067/18141112.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十四章 遭变 https://www.biqukan.cc/article/30067/18207013.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十五章 令牌 https://www.biqukan.cc/article/30067/18258854.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十六章 绝望 https://www.biqukan.cc/article/30067/18286813.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十七章 灭二修 https://www.biqukan.cc/article/30067/18386462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十八章 请求 https://www.biqukan.cc/article/30067/18408741.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第十九章 化神侄孙 https://www.biqukan.cc/article/30067/18423918.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十章 邀请 https://www.biqukan.cc/article/30067/18443446.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十一章 元婴异变 https://www.biqukan.cc/article/30067/18496124.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十二章 风云双煞 https://www.biqukan.cc/article/30067/18612654.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十三章 争斗 https://www.biqukan.cc/article/30067/18647917.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十四章 碾压 https://www.biqukan.cc/article/30067/18705630.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十五章 陆崖 https://www.biqukan.cc/article/30067/18781379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十六章 敌踪再现 https://www.biqukan.cc/article/30067/18860064.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十七章 担五岳压五鬼 https://www.biqukan.cc/article/30067/18925102.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十八章 惊动 https://www.biqukan.cc/article/30067/18972845.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第二十九章 灵焰山脉 https://www.biqukan.cc/article/30067/19026963.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十章 举田 https://www.biqukan.cc/article/30067/19081216.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十一章 通易谷 https://www.biqukan.cc/article/30067/19094590.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十二章 逆丹诀 https://www.biqukan.cc/article/30067/19108706.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十三章 先天紫气 https://www.biqukan.cc/article/30067/19132048.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十四章 失窃 https://www.biqukan.cc/article/30067/19144383.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十五章 瞒天过海 https://www.biqukan.cc/article/30067/19150982.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十六章 偷梁换柱 https://www.biqukan.cc/article/30067/19156496.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十七章 脱身 https://www.biqukan.cc/article/30067/19164656.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十八章 柳暗花明 https://www.biqukan.cc/article/30067/19166979.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第三十九章 传谕 https://www.biqukan.cc/article/30067/19177069.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十章 不了了之 https://www.biqukan.cc/article/30067/19178558.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十一章 小瓶掌天 https://www.biqukan.cc/article/30067/19188552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十二章 失而复得 https://www.biqukan.cc/article/30067/19191058.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十三章 大仇得报 https://www.biqukan.cc/article/30067/19207189.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十四章 隔元法链 https://www.biqukan.cc/article/30067/19215820.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十五章 这不可能 https://www.biqukan.cc/article/30067/19229625.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十六章 两个办法 https://www.biqukan.cc/article/30067/19232091.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十七章 试探 https://www.biqukan.cc/article/30067/19243651.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十八章 劫持 https://www.biqukan.cc/article/30067/19246142.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第四十九章 要挟 https://www.biqukan.cc/article/30067/19253912.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十章 破塔而出 https://www.biqukan.cc/article/30067/19256364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十一章 小挪移空间术 https://www.biqukan.cc/article/30067/19267364.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十二章 该我了 https://www.biqukan.cc/article/30067/19281447.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十三章 魔焰焚身 https://www.biqukan.cc/article/30067/19292274.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十四章 吞吐魔焰 https://www.biqukan.cc/article/30067/19304185.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十五章 交代 https://www.biqukan.cc/article/30067/19325343.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十六章 天鬼出世 https://www.biqukan.cc/article/30067/19336552.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十七章 惊蛰变 https://www.biqukan.cc/article/30067/19339191.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十八章 却之不恭 https://www.biqukan.cc/article/30067/19348319.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第五十九章 借星台 https://www.biqukan.cc/article/30067/19353994.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十章 通缉 https://www.biqukan.cc/article/30067/19367848.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十一章 暗流 https://www.biqukan.cc/article/30067/19409379.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十二章 反常 https://www.biqukan.cc/article/30067/19567390.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十三章 撒豆成兵 https://www.biqukan.cc/article/30067/19599747.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十四章 同时出手 https://www.biqukan.cc/article/30067/19621250.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十五章 玄黄之索 https://www.biqukan.cc/article/30067/19715927.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十六章 灵婴剑符 https://www.biqukan.cc/article/30067/19799808.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十七章 百目天鬼 https://www.biqukan.cc/article/30067/19843039.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十八章 追杀 https://www.biqukan.cc/article/30067/19902532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第六十九章 银月之变 https://www.biqukan.cc/article/30067/19921462.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十章天外飞豆 https://www.biqukan.cc/article/30067/19997985.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十一章涅槃圣体 https://www.biqukan.cc/article/30067/20032007.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十二章收服大乘 https://www.biqukan.cc/article/30067/20115424.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十三章灭门 https://www.biqukan.cc/article/30067/20128357.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十四章 出事了 https://www.biqukan.cc/article/30067/20204235.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十五章 打听 https://www.biqukan.cc/article/30067/20207439.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十六章 传奇 https://www.biqukan.cc/article/30067/20241547.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十七章 两件异宝 https://www.biqukan.cc/article/30067/20245118.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十八章 北斗异象 https://www.biqukan.cc/article/30067/20285375.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第七十九章 破碎虚空 https://www.biqukan.cc/article/30067/20319711.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十章 神秘气泡元丹快乐 https://www.biqukan.cc/article/30067/20345031.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十一章 独目巨人与半人马 https://www.biqukan.cc/article/30067/20364430.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十二章 交锋 https://www.biqukan.cc/article/30067/20393798.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十三章 急中生智 https://www.biqukan.cc/article/30067/20428143.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十四章 雕像 https://www.biqukan.cc/article/30067/20442372.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十五章 祖神 https://www.biqukan.cc/article/30067/20456727.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十六章 退敌 https://www.biqukan.cc/article/30067/20484532.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十七章 地仙 https://www.biqukan.cc/article/30067/20536688.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十八章 地祇化身 https://www.biqukan.cc/article/30067/20588320.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第八十九章 仙器 https://www.biqukan.cc/article/30067/20611283.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十章 寻觅 https://www.biqukan.cc/article/30067/20626670.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十一章 尝试 https://www.biqukan.cc/article/30067/20651729.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十二章 第九条锁链 https://www.biqukan.cc/article/30067/20664276.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十三章 前提条件 https://www.biqukan.cc/article/30067/20686582.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十四章 祖神遗言 https://www.biqukan.cc/article/30067/20702774.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十五章 小瓶失灵 https://www.biqukan.cc/article/30067/20751781.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十六章 绿液再现 https://www.biqukan.cc/article/30067/20792193.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十七章 三名祖神 https://www.biqukan.cc/article/30067/20792194.html"
+        },
+        {
+          "type": "stdout",
+          "value": "第九十八章 被困 https://www.biqukan.cc/article/30067/20842106.html"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1331.json:dd2a3261-5255-3564-9e12-f70a06b74a36",
+      "page": "024-1331",
+      "id": "dd2a3261-5255-3564-9e12-f70a06b74a36",
+      "course": "024",
+      "code_sha256": "087e95e6714a5586086e53a456ecdab4fb4301059b97b035e9cee45ae147f375",
+      "testcaseCount": 0,
+      "imports": [
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2234,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<!doctype html><html><head><meta charset=\"gbk\"><meta name=\"archive-status\" content=\"adapted teaching fixture; current raw response preserved separately\"><title>凡人修仙之仙界篇最新章节_第一章 狐女第1页_凡人修仙之仙界篇忘语_笔趣看</title></head><body><div id=\"htmlContent\" class=\"chapter-content\">&nbsp;&nbsp;&nbsp;&nbsp;辽阔荒地，渺无人烟。<br/>&nbsp;&nbsp;&nbsp;&nbsp;一眼望去，这片苍黄的土地上，除了杂草灌木，便是随处可见的灰白色石头，大小不一，形状各异。<br/>&nbsp;&nbsp;&nbsp;&nbsp;骄阳悬空，炙烤着大地，漫空都是黄色的粉尘，纷纷扬扬。<br/>&nbsp;&nbsp;&nbsp;&nbsp;浑黄的天地间，一个瘦弱娇小的身影渐渐清晰，奋力朝着前方疾跑。<br/>&nbsp;&nbsp;&nbsp;&nbsp;这是一个约莫六七岁的女童，鹅黄罗衣上绣着朵朵淡粉梅花，一头乌黑头发绾成了双髻，一双灵动大眼黑溜溜地，小巧琼鼻下小嘴嫣红，衬得整个面庞细致清丽。<br/>&nbsp;&nbsp;&nbsp;&nbsp;女童右手紧紧攥着一只巴掌大小的拨浪鼓。<br/>&nbsp;&nbsp;&nbsp;&nbsp;这拨浪鼓应该有些年月了，两侧鼓面有些泛黄，上面绘着几条青蛇图案，连着双耳的两枚弹丸上下翻动，不时落在鼓面上，发出几声轻响。<br/>&nbsp;&nbsp;&nbsp;&nbsp;女童年纪不大，身形却是颇为灵动，几个起落，便出现在了一处齐人高的杂草丛前的空地上。<br/>&nbsp;&nbsp;&nbsp;&nbsp;许是跑得急了，她雪白的额头上已满是汗珠，左颊上一条汗水流淌下来，直流入白嫩的脖颈中。<br/>&nbsp;&nbsp;&nbsp;&nbsp;她伸出左手擦了擦，紧绷的圆圆脸蛋红扑扑的，犹如熟透的苹果，脚步却没有停下分毫。<br/>&nbsp;&nbsp;&nbsp;&nbsp;“妖孽，哪里跑！”<br/>&nbsp;&nbsp;&nbsp;&nbsp;就在此时，后方远处蓦然传来一声男子厉喝。<br/>&nbsp;&nbsp;&nbsp;&nbsp;女童闻言身子一颤，吓得脸色“唰”的一下都白了，抓住拨浪鼓的右手抬起，奋力一转，嘴唇翕动几下。<br/>&nbsp;&nbsp;&nbsp;&nbsp;鼓面顿时泛起一层淡淡青光，随着弹丸落在鼓面上发出一声轻响，一道青光从鼓面飞出，落在身前的一簇杂草之上。<br/>&nbsp;&nbsp;&nbsp;&nbsp;杂草表面顿时泛起一层青光，但青光只是一闪即逝，似乎什么也没有发生。<br/>&nbsp;&nbsp;&nbsp;&nbsp;女童右手接连转动几下，一道道青光随着拨浪鼓的两枚弹丸落下，从两侧鼓面一一飞出，落在周围的杂草之上，泛起一阵此起彼伏的青光。<br/>&nbsp;&nbsp;&nbsp;&nbsp;做完这一切后，女童脸色苍白了几分，但其顾不得休息，忙不迭的一头钻入前方的杂草丛中。<br/>&nbsp;&nbsp;&nbsp;&nbsp;就在女童身形没入杂草丛中没多久，后方十余丈外一阵尘土飞扬，一个身影疾驰而至，出现在了这片杂草丛前。<br/>&nbsp;&nbsp;&nbsp;&nbsp;身影主人是一个四十多岁年纪的虬髯大汉，身材高大，单手提着一柄明晃晃的朴刀，看起来颇有几分凶神恶煞之感。<br/>&nbsp;&nbsp;&nbsp;&nbsp;其目光落在前方草丛前留下的纤小足印，身形一动，正欲提刀冲入。<br/>&nbsp;&nbsp;&nbsp;&nbsp;结果就在此时，前方草丛一阵青光乱晃下，一下射出五六条青色长蛇出来，纷纷蛇口大张的朝虬髯大汉狠狠咬去。<br/>&nbsp;&nbsp;&nbsp;&nbsp;虬髯大汉先是一怔，继而左手飞快摸出一张符箓朝身上一拍，一层白色光罩浮现而出，同时右臂再一抖下，手中朴刀嗡嗡声大响，冲前方一劈而出。<br/>&nbsp;&nbsp;&nbsp;&nbsp;嗤啦！<br/>&nbsp;&nbsp;&nbsp;&nbsp;一道数尺长寒光从朴刀中卷射而出，青光闪动下，当即便有三条青蛇被从中一刀两截的被劈飞，接着“砰砰”两声，其余两条青蛇也被大汉身上的白色光罩弹了开来，并在大汉刀光一个翻卷下，同样被砍成两段。<br/>&nbsp;&nbsp;&nbsp;&nbsp;这些青色长蛇一个照面便被虬髯大汉击溃，并就此现出原形，竟是几簇绿色杂草所化。<br/>&nbsp;&nbsp;&nbsp;&nbsp;虬髯大汉哼了一声，正要继续冲入草丛，突然面色一动，将朴刀一收的站在了原地。<br/>&nbsp;&nbsp;&nbsp;&nbsp;身后沙沙之声传来，两个身影联袂而至。<br/>&nbsp;&nbsp;&nbsp;&nbsp;其中一个瘦瘦长长的青年道士，一身灰色长袍看起来有些破烂，手里一把白马尾拂尘，另一人却是个短小精悍的马脸男子，脸上有几处淤青，头发看起来乱糟糟的。<br/>&nbsp;&nbsp;&nbsp;&nbsp;“两位道友没什么事吧？”虬髯大汉回头看向二人，问道。<br/>&nbsp;&nbsp;&nbsp;&nbsp;“这妖孽不愧妖狐之女，当真狡猾得紧，刚刚我和齐道友追的急了些，不小心着了道，没什么大碍的。倒是燕道友怎么停在了这里，那妖孽如今何在？”马脸男子摆了摆手，有些疑惑的问道。<br/>&nbsp;&nbsp;&nbsp;&nbsp;虬髯大汉没有说话，朝眼前齐人高的杂草丛指了指，草丛前的纤小足印依旧清晰可见。<br/></div></body></html>"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1331.json:62e82513-4643-3a42-8c59-350e79f9850b",
+      "page": "024-1331",
+      "id": "62e82513-4643-3a42-8c59-350e79f9850b",
+      "course": "024",
+      "code_sha256": "ba5fe10e1074a75aa85f46aaa623ba2724f68889832fa6686d3270e1fc3104a6",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2328,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "    辽阔荒地，渺无人烟。    一眼望去，这片苍黄的土地上，除了杂草灌木，便是随处可见的灰白色石头，大小不一，形状各异。    骄阳悬空，炙烤着大地，漫空都是黄色的粉尘，纷纷扬扬。    浑黄的天地间，一个瘦弱娇小的身影渐渐清晰，奋力朝着前方疾跑。    这是一个约莫六七岁的女童，鹅黄罗衣上绣着朵朵淡粉梅花，一头乌黑头发绾成了双髻，一双灵动大眼黑溜溜地，小巧琼鼻下小嘴嫣红，衬得整个面庞细致清丽。    女童右手紧紧攥着一只巴掌大小的拨浪鼓。    这拨浪鼓应该有些年月了，两侧鼓面有些泛黄，上面绘着几条青蛇图案，连着双耳的两枚弹丸上下翻动，不时落在鼓面上，发出几声轻响。    女童年纪不大，身形却是颇为灵动，几个起落，便出现在了一处齐人高的杂草丛前的空地上。    许是跑得急了，她雪白的额头上已满是汗珠，左颊上一条汗水流淌下来，直流入白嫩的脖颈中。    她伸出左手擦了擦，紧绷的圆圆脸蛋红扑扑的，犹如熟透的苹果，脚步却没有停下分毫。    “妖孽，哪里跑！”    就在此时，后方远处蓦然传来一声男子厉喝。    女童闻言身子一颤，吓得脸色“唰”的一下都白了，抓住拨浪鼓的右手抬起，奋力一转，嘴唇翕动几下。    鼓面顿时泛起一层淡淡青光，随着弹丸落在鼓面上发出一声轻响，一道青光从鼓面飞出，落在身前的一簇杂草之上。    杂草表面顿时泛起一层青光，但青光只是一闪即逝，似乎什么也没有发生。    女童右手接连转动几下，一道道青光随着拨浪鼓的两枚弹丸落下，从两侧鼓面一一飞出，落在周围的杂草之上，泛起一阵此起彼伏的青光。    做完这一切后，女童脸色苍白了几分，但其顾不得休息，忙不迭的一头钻入前方的杂草丛中。    就在女童身形没入杂草丛中没多久，后方十余丈外一阵尘土飞扬，一个身影疾驰而至，出现在了这片杂草丛前。    身影主人是一个四十多岁年纪的虬髯大汉，身材高大，单手提着一柄明晃晃的朴刀，看起来颇有几分凶神恶煞之感。    其目光落在前方草丛前留下的纤小足印，身形一动，正欲提刀冲入。    结果就在此时，前方草丛一阵青光乱晃下，一下射出五六条青色长蛇出来，纷纷蛇口大张的朝虬髯大汉狠狠咬去。    虬髯大汉先是一怔，继而左手飞快摸出一张符箓朝身上一拍，一层白色光罩浮现而出，同时右臂再一抖下，手中朴刀嗡嗡声大响，冲前方一劈而出。    嗤啦！    一道数尺长寒光从朴刀中卷射而出，青光闪动下，当即便有三条青蛇被从中一刀两截的被劈飞，接着“砰砰”两声，其余两条青蛇也被大汉身上的白色光罩弹了开来，并在大汉刀光一个翻卷下，同样被砍成两段。    这些青色长蛇一个照面便被虬髯大汉击溃，并就此现出原形，竟是几簇绿色杂草所化。    虬髯大汉哼了一声，正要继续冲入草丛，突然面色一动，将朴刀一收的站在了原地。    身后沙沙之声传来，两个身影联袂而至。    其中一个瘦瘦长长的青年道士，一身灰色长袍看起来有些破烂，手里一把白马尾拂尘，另一人却是个短小精悍的马脸男子，脸上有几处淤青，头发看起来乱糟糟的。    “两位道友没什么事吧？”虬髯大汉回头看向二人，问道。    “这妖孽不愧妖狐之女，当真狡猾得紧，刚刚我和齐道友追的急了些，不小心着了道，没什么大碍的。倒是燕道友怎么停在了这里，那妖孽如今何在？”马脸男子摆了摆手，有些疑惑的问道。    虬髯大汉没有说话，朝眼前齐人高的杂草丛指了指，草丛前的纤小足印依旧清晰可见。"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1331.json:717482ac-1f39-3daa-8097-639d96897757",
+      "page": "024-1331",
+      "id": "717482ac-1f39-3daa-8097-639d96897757",
+      "course": "024",
+      "code_sha256": "586a778562d605fded8c598363b7b6513279db9921fa3e93e6926902f2d4beb3",
+      "testcaseCount": 0,
+      "imports": [
+        "bs4",
+        "requests"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2480,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "辽阔荒地，渺无人烟。"
+        },
+        {
+          "type": "stdout",
+          "value": "一眼望去，这片苍黄的土地上，除了杂草灌木，便是随处可见的灰白色石头，大小不一，形状各异。"
+        },
+        {
+          "type": "stdout",
+          "value": "骄阳悬空，炙烤着大地，漫空都是黄色的粉尘，纷纷扬扬。"
+        },
+        {
+          "type": "stdout",
+          "value": "浑黄的天地间，一个瘦弱娇小的身影渐渐清晰，奋力朝着前方疾跑。"
+        },
+        {
+          "type": "stdout",
+          "value": "这是一个约莫六七岁的女童，鹅黄罗衣上绣着朵朵淡粉梅花，一头乌黑头发绾成了双髻，一双灵动大眼黑溜溜地，小巧琼鼻下小嘴嫣红，衬得整个面庞细致清丽。"
+        },
+        {
+          "type": "stdout",
+          "value": "女童右手紧紧攥着一只巴掌大小的拨浪鼓。"
+        },
+        {
+          "type": "stdout",
+          "value": "这拨浪鼓应该有些年月了，两侧鼓面有些泛黄，上面绘着几条青蛇图案，连着双耳的两枚弹丸上下翻动，不时落在鼓面上，发出几声轻响。"
+        },
+        {
+          "type": "stdout",
+          "value": "女童年纪不大，身形却是颇为灵动，几个起落，便出现在了一处齐人高的杂草丛前的空地上。"
+        },
+        {
+          "type": "stdout",
+          "value": "许是跑得急了，她雪白的额头上已满是汗珠，左颊上一条汗水流淌下来，直流入白嫩的脖颈中。"
+        },
+        {
+          "type": "stdout",
+          "value": "她伸出左手擦了擦，紧绷的圆圆脸蛋红扑扑的，犹如熟透的苹果，脚步却没有停下分毫。"
+        },
+        {
+          "type": "stdout",
+          "value": "“妖孽，哪里跑！”"
+        },
+        {
+          "type": "stdout",
+          "value": "就在此时，后方远处蓦然传来一声男子厉喝。"
+        },
+        {
+          "type": "stdout",
+          "value": "女童闻言身子一颤，吓得脸色“唰”的一下都白了，抓住拨浪鼓的右手抬起，奋力一转，嘴唇翕动几下。"
+        },
+        {
+          "type": "stdout",
+          "value": "鼓面顿时泛起一层淡淡青光，随着弹丸落在鼓面上发出一声轻响，一道青光从鼓面飞出，落在身前的一簇杂草之上。"
+        },
+        {
+          "type": "stdout",
+          "value": "杂草表面顿时泛起一层青光，但青光只是一闪即逝，似乎什么也没有发生。"
+        },
+        {
+          "type": "stdout",
+          "value": "女童右手接连转动几下，一道道青光随着拨浪鼓的两枚弹丸落下，从两侧鼓面一一飞出，落在周围的杂草之上，泛起一阵此起彼伏的青光。"
+        },
+        {
+          "type": "stdout",
+          "value": "做完这一切后，女童脸色苍白了几分，但其顾不得休息，忙不迭的一头钻入前方的杂草丛中。"
+        },
+        {
+          "type": "stdout",
+          "value": "就在女童身形没入杂草丛中没多久，后方十余丈外一阵尘土飞扬，一个身影疾驰而至，出现在了这片杂草丛前。"
+        },
+        {
+          "type": "stdout",
+          "value": "身影主人是一个四十多岁年纪的虬髯大汉，身材高大，单手提着一柄明晃晃的朴刀，看起来颇有几分凶神恶煞之感。"
+        },
+        {
+          "type": "stdout",
+          "value": "其目光落在前方草丛前留下的纤小足印，身形一动，正欲提刀冲入。"
+        },
+        {
+          "type": "stdout",
+          "value": "结果就在此时，前方草丛一阵青光乱晃下，一下射出五六条青色长蛇出来，纷纷蛇口大张的朝虬髯大汉狠狠咬去。"
+        },
+        {
+          "type": "stdout",
+          "value": "虬髯大汉先是一怔，继而左手飞快摸出一张符箓朝身上一拍，一层白色光罩浮现而出，同时右臂再一抖下，手中朴刀嗡嗡声大响，冲前方一劈而出。"
+        },
+        {
+          "type": "stdout",
+          "value": "嗤啦！"
+        },
+        {
+          "type": "stdout",
+          "value": "一道数尺长寒光从朴刀中卷射而出，青光闪动下，当即便有三条青蛇被从中一刀两截的被劈飞，接着“砰砰”两声，其余两条青蛇也被大汉身上的白色光罩弹了开来，并在大汉刀光一个翻卷下，同样被砍成两段。"
+        },
+        {
+          "type": "stdout",
+          "value": "这些青色长蛇一个照面便被虬髯大汉击溃，并就此现出原形，竟是几簇绿色杂草所化。"
+        },
+        {
+          "type": "stdout",
+          "value": "虬髯大汉哼了一声，正要继续冲入草丛，突然面色一动，将朴刀一收的站在了原地。"
+        },
+        {
+          "type": "stdout",
+          "value": "身后沙沙之声传来，两个身影联袂而至。"
+        },
+        {
+          "type": "stdout",
+          "value": "其中一个瘦瘦长长的青年道士，一身灰色长袍看起来有些破烂，手里一把白马尾拂尘，另一人却是个短小精悍的马脸男子，脸上有几处淤青，头发看起来乱糟糟的。"
+        },
+        {
+          "type": "stdout",
+          "value": "“两位道友没什么事吧？”虬髯大汉回头看向二人，问道。"
+        },
+        {
+          "type": "stdout",
+          "value": "“这妖孽不愧妖狐之女，当真狡猾得紧，刚刚我和齐道友追的急了些，不小心着了道，没什么大碍的。倒是燕道友怎么停在了这里，那妖孽如今何在？”马脸男子摆了摆手，有些疑惑的问道。"
+        },
+        {
+          "type": "stdout",
+          "value": "虬髯大汉没有说话，朝眼前齐人高的杂草丛指了指，草丛前的纤小足印依旧清晰可见。"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution covers the selected records listed below; --all evaluates published reference solutions for incomplete challenge templates and lists static syntax skips.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted; visual equivalence of generated charts is not asserted.",
+    "Challenge templates remain incomplete editor exercises; --all executes the separately supplied published reference solution and its public testcases, with executionVariant recorded."
+  ],
+  "fixtureHashAfter": "dc6365ed90c04fef4483bd2e17a8b15e037856eeef194e6cfe0329cc4192db3c",
+  "workerHashAfter": "e570838a5e28266b61971bc245fd4104ffec4fac6f72da1b314fe802e2f754f5",
+  "finishedAt": "2026-11-01T18:05:02.374Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 13,
+    "status": {
+      "done": 13
+    },
+    "withAttachments": 0,
+    "plots": 0,
+    "workerChangedDuringAudit": false
+  }
+}

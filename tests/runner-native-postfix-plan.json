@@ -1,0 +1,2758 @@
+{
+  "preparedAt": "2026-11-01T16:52:47Z",
+  "summary": {
+    "deduplicatedTasks": 69,
+    "byLanguage": {
+      "cpp": 22,
+      "go": 18,
+      "java": 27,
+      "c": 2
+    },
+    "publicTestCases": 90,
+    "purpose": "After Java source partition/entry fix: rerun every 88 imported public case, all 7 previously incompatible Java tasks, and 2 exact lesson stdin samples."
+  },
+  "tasks": [
+    {
+      "id": "15e7f3ba490529f80640a5f2208da5ad1f24351f2b9a8c200fdff86df21f57f9",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nvoid promotion(int *megabytes ) {\r\n    \r\n    int multiplier;\r\n    cin>>multiplier;\r\n    *megabytes =multiplier * *megabytes;\r\n    \r\n    \r\n}\r\n\r\nint main() {\r\n    int megabytes;\r\n    cin >> megabytes;\r\n    \r\n    cout << \"提升前: \" << megabytes << endl;\r\n    \r\n    promotion(&megabytes );\r\n    \r\n    cout << \"提升后: \" << megabytes << endl;\r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5\n2",
+            "expected_output": "提升前: 5\n提升后: 10\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1275.json",
+          "title": "网络带宽提升",
+          "context": "正如你所看到的，我们使用**地址操作符**`&`直接将变量传递给了函数。\n\n函数声明中，该函数接收一个**指针**作为其参数（使用**操作符**`*`定义）。",
+          "challengeId": 530,
+          "componentId": 1770,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/530.json",
+          "title": "网络带宽提升",
+          "challengeId": 530,
+          "componentId": 1770,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "1e4fc2045f09b644924d78544acb8f69c291496baf5400710770a08683e887e1",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\nvoid winners(string customers[], int size, int lucky, int luckycache) {\r\n        lucky--;\r\n        for(int i = 0; i < size; i++)\r\n        {\r\n            if(lucky > (size-1))\r\n            {\r\n                break;\r\n            }\r\n            cout<<customers[lucky]<<endl;\r\n            lucky = lucky + luckycache; \r\n        }\r\n    \r\n}\r\n\r\nint main() {\r\n\r\n    int luckycache;\r\n    string customers[] = {\"Alice\", \"Bob\", \"Rayan\", \"Emma\", \"Ann\", \"Bruce\", \"Synthia\", \"Daniel\", \"Richard\", \"Sam\", \"Nick\", \"Mary\", \"Paul\"};\r\n\r\n    int n;\r\n    cin >> n;\r\n    luckycache = n;\r\n    winners(customers, 13, n, luckycache);\r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "3",
+            "expected_output": "Rayan\nBruce\nRichard\nMary\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1274.json",
+          "title": "幸运顾客",
+          "context": "**printArray**函数将一个数组作为其参数（`int arr[]`），并使用**for**循环对数组进行迭代。\n\n我们在`main()`中调用该函数，在这里我们将**myArr**数组传递给该函数，该函数打印出其元素。",
+          "challengeId": 528,
+          "componentId": 1768,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/528.json",
+          "title": "幸运顾客",
+          "challengeId": 528,
+          "componentId": 1768,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "2db62a7664f738f8044f834f91d9006fb636fd831e1a05cf7618fd313e1ee9a1",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\nvoid printOrder(string order = \"美式咖啡\") {\r\n    cout << order << endl;\r\n}\r\n\r\nint main() {\r\n    string friendOrder;\r\n    cin >> friendOrder;\r\n    \r\n    printOrder();\r\n    printOrder(friendOrder);\r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "拿铁",
+            "expected_output": "美式咖啡\n拿铁\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1271.json",
+          "title": "咖啡馆点单程序",
+          "context": "**另一个例子：**",
+          "challengeId": 525,
+          "componentId": 1765,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/525.json",
+          "title": "咖啡馆点单程序",
+          "challengeId": 525,
+          "componentId": 1765,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "58c7fdf70ec15a6959bfb88491213963b4be56f87bba67eccf5ed1b160ff7a1f",
+      "language": "cpp",
+      "publicTestCount": 3,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n     // 房间的长度和宽度\r\n       double length; // 长度\r\n       double width;  // 宽度\r\n       cin >> length;\r\n       cin >> width;\r\n\r\n       // 请计算，输出面积\r\n       cout << length * width;\r\n\treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5.4\r\n2.3",
+            "expected_output": "12.42"
+          },
+          {
+            "case_no": 2,
+            "stdin": "3\r\n4",
+            "expected_output": "12"
+          },
+          {
+            "case_no": 3,
+            "stdin": "2.5\r\n3.5",
+            "expected_output": "8.75"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1242.json",
+          "title": "房间面积",
+          "context": "乘法运算符`*`对其操作数进行乘法运算。",
+          "challengeId": 502,
+          "componentId": 1742,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/502.json",
+          "title": "房间面积",
+          "challengeId": 502,
+          "componentId": 1742,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "60cc626c0115d847994a2e0c8a5dd8d7dd1a529462de5d5817a0749953db00c2",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nvoid toMinutes(int hours) {\r\n\r\n    cout << hours * 60;\r\n}\r\n\r\nint main() {\r\n    int h;\r\n    cin >> h;\r\n    toMinutes(h);\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5",
+            "expected_output": "300"
+          },
+          {
+            "case_no": 2,
+            "stdin": "1",
+            "expected_output": "60"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1268.json",
+          "title": "时间转换器",
+          "context": "上面定义的函数接收一个整数参数，并乘以2返回。\n\n现在我们可以用不同的参数来调用该函数：",
+          "challengeId": 522,
+          "componentId": 1762,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/522.json",
+          "title": "时间转换器",
+          "challengeId": 522,
+          "componentId": 1762,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "75df38e74c16388d2a0929815142ea423fdd72a8382a7cee9e48eb01e82d279f",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() { \r\n    float bodyTemp = 0.0;\r\n    cin >> bodyTemp;\r\n    \r\n    if (bodyTemp >= 36.1 && bodyTemp <= 36.9) {\r\n\t   cout << \"OK\" << endl;\r\n    } else {\r\n   \t   cout << \"Not OK\" << endl;\r\n    }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "36.6",
+            "expected_output": "OK\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "37.2",
+            "expected_output": "Not OK\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1255.json",
+          "title": "体温状态检查",
+          "context": "浮点类型变量可以保存一个**实数**，例如420.0、-3.33或0.03325。\n\n**浮点**这个词指的是小数点前后可以出现不同数量的数字的事实。你可以说小数点具有 \"**浮动**\"的能力。\n\nC++ 中有三种浮点类型：\n\n- `float`：单精度类型\n- `double`：双精度类型\n- `long double`：长双精度类型\n\n在大多数系统中，**float**占用4字节数，**double**占用8字节数，**long double**占用8或16字节数。\n\n下面是一个例子：",
+          "challengeId": 516,
+          "componentId": 1756,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/516.json",
+          "title": "体温状态检查",
+          "challengeId": 516,
+          "componentId": 1756,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "760af74d03b31a094ac75f2c161b21f7d7ca67ea0988c19ea00d60a01d314f2e",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n        int count = 300; // 打字速度\r\n        int time;\r\n        cin >> time; // 输入分钟数\r\n        \r\n        count *= time;\r\n\r\n        cout  << count << endl;\r\n\treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "20",
+            "expected_output": "6000\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "2",
+            "expected_output": "600\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1243.json",
+          "title": "机器人打字",
+          "context": "同样的语法适用于乘法、除法和取余运算符：",
+          "challengeId": 503,
+          "componentId": 1743,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/503.json",
+          "title": "机器人打字",
+          "challengeId": 503,
+          "componentId": 1743,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "7b67a1fae748b35ca00b5ef9003ae477ce7aa1e03431974c99d00402a9e69ccb",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int purchaseAmount = 0;\r\n    double totalPrice;\r\n    \r\n    do{\r\n      cin >> totalPrice ;\r\n\r\n      cout << totalPrice * 0.15 <<endl;\r\n      purchaseAmount++;\r\n    }while(purchaseAmount < 3);\r\n     \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "15000\n4000\n6700",
+            "expected_output": "2250\n600\n1005\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1250.json",
+          "title": "计算折扣价格",
+          "context": "如果条件评估为**false**，**do**中的语句仍然会运行一次。",
+          "challengeId": 512,
+          "componentId": 1752,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/512.json",
+          "title": "计算折扣价格",
+          "challengeId": 512,
+          "componentId": 1752,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "833cfad7641fae6a8f751f753b1a745cdd730331f4ac46420ce6ec932fa4fd66",
+      "language": "cpp",
+      "publicTestCount": 3,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n        int age;\r\n        cin >> age;\r\n\r\n        if(age < 7) {\r\n            cout << \"免费\";\r\n        }\r\n        \r\n\treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1",
+            "expected_output": "免费"
+          },
+          {
+            "case_no": 2,
+            "stdin": "5",
+            "expected_output": "免费"
+          },
+          {
+            "case_no": 3,
+            "stdin": "8",
+            "expected_output": ""
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1245.json",
+          "title": "儿童免费入场",
+          "context": " 你可以使用关系运算符来比较**if**语句中的变量。\n\n**例如：**",
+          "challengeId": 504,
+          "componentId": 1744,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/504.json",
+          "title": "儿童免费入场",
+          "challengeId": 504,
+          "componentId": 1744,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "834c1ae5e413f04a3855b1e796636facce0f541db265e006b3ab9dd605ccc717",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int choice = 0;\r\n    cin >> choice;\r\n    /*1 - Latte\r\n    2 - Americano\r\n    3 - Espresso\r\n    4 - Cappuccino\r\n    5 - Macchiato */\r\n     \r\n    switch(choice){\r\n        case 1:\r\n        cout << \"Latte\";\r\n        break;\r\n        case 2:\r\n        cout << \"Americano\";\r\n        break;\r\n        case 3:\r\n        cout << \"Espresso\";\r\n        break;\r\n        case 4:\r\n        cout << \"Cappuccino\";\r\n        break;\r\n        case 5:\r\n        cout << \"Macchiato\";\r\n        break;\r\n        \r\n    }\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1",
+            "expected_output": "Latte"
+          },
+          {
+            "case_no": 2,
+            "stdin": "2",
+            "expected_output": "Americano"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1251.json",
+          "title": "咖啡选择器",
+          "context": "上面的代码等同于三个**if**语句。",
+          "challengeId": 510,
+          "componentId": 1750,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/510.json",
+          "title": "咖啡选择器",
+          "challengeId": 510,
+          "componentId": 1750,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "9f9d1b195a25a529b0f20cb26c8992757674fabf791c3ad208bc30b81fa9231a",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int num = 1;\r\n    while(num<=20){\r\n        if(num % 3 == 0){\r\n          cout<<num <<endl;\r\n        }\r\n        num+=1;\r\n    }\r\n     \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": " ",
+            "expected_output": "3\n6\n9\n12\n15\n18\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1247.json",
+          "title": "3的倍数",
+          "context": "注意，条件表达式中变量值是可以改变的。\n如果改变，循环运行的次数也会改变。",
+          "challengeId": 513,
+          "componentId": 1753,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/513.json",
+          "title": "3的倍数",
+          "challengeId": 513,
+          "componentId": 1753,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "a73c35edf2e3677b0750a09f33e301cb1518520651e92bdd0e3570c78c7b10ba",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\nint main() {\r\n    double items[] = {500, 12.4, 94, 45, 3, 81, 1000.9, 85, 90, 1, 35};\r\n    int p;\r\n    cin >>p;\r\n    for (int x = 0; x <11; x++)\r\n    {\r\n        cout << items[x]-items[x]*p/100 << \" \";\r\n     }\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "25",
+            "expected_output": "375 9.3 70.5 33.75 2.25 60.75 750.675 63.75 67.5 0.75 26.25 "
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1260.json",
+          "title": "商品打折",
+          "context": "代码声明一个数组`arr`和一个变量`sum`(它将保存各元素的总和)。\n\n接下来，利用一个**for**循环来遍历数组中的每个元素，并将相应元素的值添加到`sum`变量中。",
+          "challengeId": 518,
+          "componentId": 1758,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/518.json",
+          "title": "商品打折",
+          "challengeId": 518,
+          "componentId": 1758,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "aabe49e5e342a0b90b57cd6215523b6f7ff0a32f8e673a399198396fab096683",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int seconds;\r\n    cin>>seconds;\r\n     \r\n    while(seconds >= 0){\r\n        cout << seconds << endl ;\r\n        seconds--;\r\n    }\r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5",
+            "expected_output": "5\n4\n3\n2\n1\n0\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1248.json",
+          "title": "定时器",
+          "context": "循环可以用来获取用户的多个输入。\n\n比如编写一个程序，输入5个数字，每次都将输入存储在一个变量中。",
+          "challengeId": 514,
+          "componentId": 1754,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/514.json",
+          "title": "定时器",
+          "challengeId": 514,
+          "componentId": 1754,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "adb76517cfffdd19420e25003a7853d1cd70f267c59c6795a0b53ad6cbdda729",
+      "language": "cpp",
+      "publicTestCount": 3,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n        double points;\r\n        cin >> points;\r\n\r\n        if(points >= 90)\r\n           cout << \"pass\";\r\n        else\r\n            cout << \"fail\";\r\n\treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "90",
+            "expected_output": "pass"
+          },
+          {
+            "case_no": 2,
+            "stdin": "80",
+            "expected_output": "fail"
+          },
+          {
+            "case_no": 3,
+            "stdin": "95",
+            "expected_output": "pass"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1246.json",
+          "title": "考试是否通过",
+          "context": "**例如：**",
+          "challengeId": 505,
+          "componentId": 1745,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/505.json",
+          "title": "考试是否通过",
+          "challengeId": 505,
+          "componentId": 1745,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "b0801fc29845ffed007a824fb5b7a973db961eadf9d0ed218343493af380d922",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint recSum(int n) {\r\n    if (n==1){\r\n    \treturn 1;\r\n    }\r\n    else{\r\n    \treturn n+recSum(n-1);\r\n    }\r\n}\r\n\r\nint main() {\r\n    int n;\r\n    cin >> n;\r\n    \r\n    cout<<recSum(n);    \r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4",
+            "expected_output": "10"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1273.json",
+          "title": "蛋糕之战",
+          "context": "退出条件的另一个别名是**基本情况**。",
+          "challengeId": 527,
+          "componentId": 1767,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/527.json",
+          "title": "蛋糕之战",
+          "challengeId": 527,
+          "componentId": 1767,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "b56efb4ea1e67ce1a4b3dce9a48af7175ab9abd83a3c94bbd078910283455ea1",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint max(int num1, int num2) {\r\n    int high;\r\n    if (num1 >= num2) \r\n    {\r\n    \thigh = num1;\r\n    } \r\n    else \r\n    {\r\n    \thigh = num2;\r\n    }\r\n    return high;\r\n}\r\n\r\nint main() {\r\n    int first;\r\n    cin >> first;\r\n    int second;\r\n    cin >> second;\r\n    \r\n    cout << max(first, second) << endl;\r\n    \r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1\n6",
+            "expected_output": "6\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "5\r\n5",
+            "expected_output": "5\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1269.json",
+          "title": "掷骰子",
+          "context": "在 C++ 中，您可以将**任意数量**的参数添加到一个函数中。\n\n下面是一个例子：",
+          "challengeId": 523,
+          "componentId": 1763,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/523.json",
+          "title": "掷骰子",
+          "challengeId": 523,
+          "componentId": 1763,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "ba6b64c544262f7bbaa8bdda57055e3f915d32476d5336fc407b0704af36784b",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\n\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int distance = 0;\r\n    for(int i=1; i<=5;i++){\r\n        distance=i*40;\r\n        cout<<distance<<endl;\r\n        }\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": " ",
+            "expected_output": "40\n80\n120\n160\n200\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1249.json",
+          "title": "累加航程",
+          "context": "也可以在语句中使用`-=`运算符。",
+          "challengeId": 509,
+          "componentId": 1749,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/509.json",
+          "title": "累加航程",
+          "challengeId": 509,
+          "componentId": 1749,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "bf897c3cbcad0bb1af5d86b14a56b6ed31352fb5ba80225b45200d561ae40ba2",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n  \tcout << \"C\\n+\\n+\" << endl;\r\n  \treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": " ",
+            "expected_output": "C\n+\n+\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1237.json",
+          "title": "换行打印",
+          "context": "换行符`\\n`可以作为**endl**的替代。\n\n根据程序需要，在单个cout语句中可添加任意多个`\\n`从而打印出**多行文本**。\n\n**例子：**",
+          "challengeId": 507,
+          "componentId": 1747,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/507.json",
+          "title": "换行打印",
+          "challengeId": 507,
+          "componentId": 1747,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "cac9002133f3c6f69b921e288274bba5122ef5fd41d254e7d95651129723982c",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\n#include <cstdlib>\r\n#include <string>\r\nusing namespace std;\r\n\r\n\r\nint main() {\r\n    srand(0);\r\n    int range;\r\n    cin >> range;\r\n    int PIN[4];\r\n    for(int i = 0; i<4; i++)\r\n    {\r\n        \r\n        PIN[i] = 1+(rand() % range);\r\n        \r\n    }\r\n    cout<<PIN[0]<<PIN[1]<<PIN[2]<<PIN[3]<<endl;\r\n    \r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "9",
+            "expected_output": "2818\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "4",
+            "expected_output": "4324\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1270.json",
+          "title": "随机密码",
+          "context": "`time(0)`将返回当前的秒数，并通过**srand**()函数设置随机种子，这样在每次程序运行时为**rand**()都设置了一个不同的种子。",
+          "challengeId": 524,
+          "componentId": 1764,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/524.json",
+          "title": "随机密码",
+          "challengeId": 524,
+          "componentId": 1764,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d0bc16869180d609d86fb3c9f67443848adaed51610f5e416459838ed1e67380",
+      "language": "cpp",
+      "publicTestCount": 2,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    \r\n    int vision;\r\n    cin >> vision; // 视力\r\n    \r\n    int height;\r\n    cin >> height; // 升高\r\n    if(vision==100 && height > 62 && height < 75)\r\n        cout << \"pass\";\r\n    else cout << \"fail\";\r\n    \r\n\treturn 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "100\n80",
+            "expected_output": "fail"
+          },
+          {
+            "case_no": 2,
+            "stdin": "100\r\n70",
+            "expected_output": "pass"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1252.json",
+          "title": "宇航员候选人资格",
+          "context": "逻辑上的**非运算符**`!`只对一个操作数起作用，将其逻辑状态反转。\n\n因此，如果一个条件是**真**，`!`操作符会使其变成**假**，反之亦然，如下表格：\n\n|右值|结果|\n|-|-|\n|false|**true**|\n|true|**false**|\n",
+          "challengeId": 511,
+          "componentId": 1751,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/511.json",
+          "title": "宇航员候选人资格",
+          "challengeId": 511,
+          "componentId": 1751,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d1f96e36a3774827b3ae093499df6315410136b2869a3ff2b16302a8e1039986",
+      "language": "cpp",
+      "publicTestCount": 1,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int n;\r\n    cin>>n;\r\n    int nums = 0;\r\n    cin >> nums;\r\n    int max = nums;\r\n    for(int i=1; i<n; i++) {\r\n    \tcin >> nums;\r\n    \t\r\n        if( nums > max){\r\n            max = nums;\r\n        }\r\n       \r\n    }\r\n    cout << max << endl;\r\n\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4\n12\n7\n9\n34",
+            "expected_output": "34\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1264.json",
+          "title": "动态内存",
+          "context": "注意语法中的**括号**`[]`。",
+          "challengeId": 520,
+          "componentId": 1760,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/520.json",
+          "title": "动态内存",
+          "challengeId": 520,
+          "componentId": 1760,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d1ffb636f360e4c3e9bc4bc353559d446d52f1ce10b54fa93eb56eb018028850",
+      "language": "cpp",
+      "publicTestCount": 3,
+      "request": {
+        "language": "cpp",
+        "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int a;\r\n    int b;\r\n    cin >> a;\r\n    cin >> b;\r\n    cout << a+b;\r\n    return 0;\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1\r\n4",
+            "expected_output": "5"
+          },
+          {
+            "case_no": 2,
+            "stdin": "5\r\n14",
+            "expected_output": "19"
+          },
+          {
+            "case_no": 3,
+            "stdin": "147\r\n54",
+            "expected_output": "201"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/023-1240.json",
+          "title": "两数求和",
+          "context": "现在，我们编写一个C++程序，输入两个数字并打印出它们的总和：",
+          "challengeId": 508,
+          "componentId": 1748,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/508.json",
+          "title": "两数求和",
+          "challengeId": 508,
+          "componentId": 1748,
+          "language": "cpp",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "1ebae18e39f15117f40dbf61ab682de58acf3a7e6c96bad396f2bb783ae0532b",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var num float32\r\n    var factor float32\r\n    fmt.Scanln(&num)\r\n    fmt.Scanln(&factor)\r\n    scale(&num, factor)\r\n    fmt.Println(num)\r\n}\r\nfunc scale(pt * float32, x float32){\r\n\t*pt = *pt*x\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4\n1.5",
+            "expected_output": "6\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-997.json",
+          "title": "数字缩放",
+          "context": "**change**()函数接收整数参数`val`并改变其值。\n**change_ptr**()函数则接收一个整数类型指针`ptr`，然后改变其值。\n\n当运行代码时，会看到**change**()函数没有改变变量`x`的值，因为参数只是`x`值的拷贝（值传递），而**change_ptr**()确实改变了**x**的实际值，因为它使用`x`的内存地址作为参数。(引用传递)",
+          "challengeId": 366,
+          "componentId": 1606,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/366.json",
+          "title": "数字缩放",
+          "challengeId": 366,
+          "componentId": 1606,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "22f38d84a9455016e6d41b11b2d3c3925f37d0731cc90daa8b39a77ce7b585cf",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\t// 固定的数组，请勿更改\r\n\tdata := []int{12, 45, 88, 42, 0, 98, 102, 42, 77, 42, 1, 8, 7, 55, 4, 12, 87, 90, 42, 42, 11, 2, 6, 53, 90, 100, 4, 32, 8}\r\n\tvar num int\r\n\tfmt.Scanln(&num)\r\n\tch1 := make(chan int)\r\n\tch2 := make(chan int)\r\n\tgo count(num, data[:len(data)/2], ch1)\r\n\tgo count(num, data[len(data)/2:], ch2)\r\n\tfmt.Println(<-ch1 + <-ch2)\r\n}\r\nfunc count(x int, a []int, c chan int) {\r\n\tvar y int = 0\r\n\tfor i := 0; i < len(a); i++ {\r\n\t\tif a[i] == x {\r\n\t\t\ty++\r\n\t\t}\r\n\t}\r\n\tc <- y\r\n\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "42",
+            "expected_output": "5\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-1010.json",
+          "title": "并发计数器",
+          "context": "我们使用管道接收每个Goroutine的结果并输出它们的总和。",
+          "challengeId": 375,
+          "componentId": 1615,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/375.json",
+          "title": "并发计数器",
+          "challengeId": 375,
+          "componentId": 1615,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "2716b63e0e0bee88fb86393a37f5658cc52e65ef53d4132014216bb4ca68d38a",
+      "language": "go",
+      "publicTestCount": 2,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var t float32\r\n    fmt.Scanln(&t)\r\n    if t > 99.5{\r\n    \tfmt.Println(\"Fever\")\r\n    } else{\r\n    \tfmt.Println(\"Allowed\")\r\n    }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "101.3",
+            "expected_output": "Fever\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "98.6",
+            "expected_output": "Allowed\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-986.json",
+          "title": "体温检测",
+          "context": "注意变量声明后面的分号`;` -- 用来分隔语句的。",
+          "challengeId": 360,
+          "componentId": 1600,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/360.json",
+          "title": "体温检测",
+          "challengeId": 360,
+          "componentId": 1600,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "30d35d9f35f0443471610fd7c8b3ba56c856acb06cc764eddf99b5e4cb79d442",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tvar n int\r\n\tvar x int\r\n\tfmt.Scanln(&n)\r\n\ta := make([]int, n)\r\n\r\n\tfor i := 0; i < n; i++ {\r\n\t\tfmt.Scanln(&x)\r\n\t\ta[i] = x\r\n\t}\r\n\tfmt.Println(a)\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "3\n42\n88\n11",
+            "expected_output": "[42 88 11]\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-1003.json",
+          "title": "多行输入",
+          "context": "`append()`函数将切片作为它的第一个参数，将要添加到切片末尾的元素作为下一个参数。\n然后返回一个新的切片，包含旧切片和新添加的元素。",
+          "challengeId": 371,
+          "componentId": 1611,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/371.json",
+          "title": "多行输入",
+          "challengeId": 371,
+          "componentId": 1611,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "325d13394ba6d20a078ae1fbed3e626103fb5ea98e630b436b6c88d85dcb43d9",
+      "language": "go",
+      "publicTestCount": 4,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tvar f int\r\n\tfmt.Scanln(&f)\r\n\tswitch {\r\n\tcase f < 0:\r\n\t\tfmt.Println(\"错误输入\")\r\n\tcase f < 20:\r\n\t\tfmt.Println(\"中音\")\r\n\tcase f > 20000:\r\n\t\tfmt.Println(\"超声波\")\r\n\tdefault:\r\n\t\tfmt.Println(\"可听\")\r\n\t}\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1800",
+            "expected_output": "可听\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "18890",
+            "expected_output": "可听\n"
+          },
+          {
+            "case_no": 3,
+            "stdin": "42",
+            "expected_output": "可听\n"
+          },
+          {
+            "case_no": 4,
+            "stdin": "42000",
+            "expected_output": "超声波\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-987.json",
+          "title": "声音频率类别",
+          "context": "在其他编程语言中，如C++或Java，每个case都需要有一个**break**语句，以停止**switch**语句的执行。\n\n在Go中，不需要**break**语句，因为**switch**从上到下判断某个case是否执行，当一个case执行后则停止，自动退出。",
+          "challengeId": 361,
+          "componentId": 1601,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/361.json",
+          "title": "声音频率类别",
+          "challengeId": 361,
+          "componentId": 1601,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "36960930d52f6acc1a23b04820805db815a9455aadcd1a18dfea9a73897a0476",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var years int\r\n    fmt.Scanln(&years)\r\n    s := 7\r\n    for i := 0;i < years; i++{\r\n    \ts = s* 2\r\n    }\r\n    fmt.Println(s)\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4",
+            "expected_output": "112\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-988.json",
+          "title": "指数增长",
+          "context": "上面代码将计算出从1到1000的数字之和。",
+          "challengeId": 362,
+          "componentId": 1602,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/362.json",
+          "title": "指数增长",
+          "challengeId": 362,
+          "componentId": 1602,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "566cde3a4ee7ca7bf3321b1ec389d14b5a8fd14110ad23cffc98d581175b30dd",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var x int\r\n    fmt.Scanln(&x)\r\n    t := Timer{\"timer1\", 0}\r\n    for i:=0;i<x;i++ {\r\n        t.tick()\r\n    }\r\n}\r\ntype Timer struct{\r\n\tid string\r\n\tvalue int\r\n}\r\nfunc(t * Timer) tick(){\r\n    t.value = t.value+1\r\n    fmt.Println(t.value)\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4",
+            "expected_output": "1\n2\n3\n4\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/379.json",
+          "title": "滴答计时器",
+          "challengeId": 379,
+          "componentId": 1619,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "5de2c542f319680e81eadd9519c3919609bbc15af276cb70ec7d241e3769ca19",
+      "language": "go",
+      "publicTestCount": 2,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var i int\r\n    fmt.Scanln(&i)\r\n    fmt.Println(i*12)\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5",
+            "expected_output": "60\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "121",
+            "expected_output": "1452\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-985.json",
+          "title": "英尺转英寸",
+          "context": "前面的例子将用户的输入作为**字符串**。\n如果我们需输入一个数字，比如一个整数，可以简单地将**input**变量的类型声明为**int**，Go会自动将输入值转为该类型：",
+          "challengeId": 359,
+          "componentId": 1599,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/359.json",
+          "title": "英尺转英寸",
+          "challengeId": 359,
+          "componentId": 1599,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "5eac57890ca7d63e2faeac8491ab9910aeac99342819dc7aa9910b1f66b58f73",
+      "language": "go",
+      "publicTestCount": 2,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tvar x int\r\n\tfmt.Scanln(&x)\r\n\tres := square(x)\r\n\tfmt.Println(res)\r\n}\r\nfunc square(x int) int {\r\n\treturn x * x\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "42",
+            "expected_output": "1764\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "8",
+            "expected_output": "64\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-992.json",
+          "title": "数字平方",
+          "context": "**swap**()函数接收两个整数，并互换顺序返回它们。\n注意，每个值的返回类型应该被声明：在上面例子中，是`(int, int)`。\n \n现在，我们可以调用`swap`函数并将结果分配给变量：",
+          "challengeId": 364,
+          "componentId": 1604,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/364.json",
+          "title": "数字平方",
+          "challengeId": 364,
+          "componentId": 1604,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "643fcfad507bcf5a7659df4490a454ba287813d69ae4b0c861ca8d421d4cd096",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tvar w string\r\n\tfmt.Scanln(&w)\r\n\tvar x int\r\n\tfmt.Scanln(&x)\r\n\trepeat(w, x)\r\n}\r\nfunc repeat(a string, b int) {\r\n\tfor i := 0; i < b; i++ {\r\n\t\tfmt.Println(a)\r\n\t}\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "hello\n4",
+            "expected_output": "hello\nhello\nhello\nhello\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-991.json",
+          "title": "单词重复",
+          "context": "现在我们可以调用这个函数并给它两个参数:",
+          "challengeId": 365,
+          "componentId": 1605,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/365.json",
+          "title": "单词重复",
+          "challengeId": 365,
+          "componentId": 1605,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "71dda3531abd976145b592d0de799f0e7ae0e09f2a55a7ca6dc2f2a05df790b0",
+      "language": "go",
+      "publicTestCount": 2,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var age int\r\n    fmt.Scanln(&age)\r\n    mars := mars_age(age)\r\n    fmt.Println(mars)\r\n}\r\nfunc mars_age(d int) int{\r\n\t g := d*365\r\n\t return g/687\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "42",
+            "expected_output": "22\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "1000",
+            "expected_output": "531\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/378.json",
+          "title": "火星人年龄",
+          "challengeId": 378,
+          "componentId": 1618,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "7fa679290b70fcd2ab68cbee629e9143aad2f926f5cdeeed66fac4a98ac3d10c",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    e1 := Employee{\"James\", 42, \"Manager\", 0}\r\n    var x float32\r\n    fmt.Scanln(&x)\r\n    e1.salary = x\r\n    fmt.Println(\"========\")\r\n    fmt.Println(e1.name + \"(\" + e1.position + \")\")\r\n    fmt.Println(e1.age)\r\n    fmt.Println(e1.salary)\r\n    fmt.Println(\"========\")\r\n}\r\ntype Employee struct{\r\n\tname string\r\n\tage int\r\n\tposition string\r\n\tsalary float32\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "105000",
+            "expected_output": "========\nJames(Manager)\n42\n105000\n========\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-998.json",
+          "title": "员工管理",
+          "context": "我们可以使用strcut(结构体)的名字和`.`来访问相应字段：",
+          "challengeId": 367,
+          "componentId": 1607,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/367.json",
+          "title": "员工管理",
+          "challengeId": 367,
+          "componentId": 1607,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "92278f6245392750ea1f90d6151697adb0e3e31e1bdcc07f2153447e889d81e5",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tch1 := make(chan int)\r\n\tch2 := make(chan int)\r\n\tch3 := make(chan int)\r\n\tvar s1, s2, s3 int\r\n\tfmt.Scanln(&s1)\r\n\tfmt.Scanln(&s2)\r\n\tfmt.Scanln(&s3)\r\n\tgo download(s1, ch1)\r\n\tgo download(s2, ch2)\r\n\tgo download(s3, ch3)\r\n\r\n\tfmt.Println(<-ch1 + <-ch2 + <-ch3)\r\n}\r\nfunc download(d int, c chan int) {\r\n\tvar sum int\r\n\tfor i := 0; i <= d; i++ {\r\n\t\tsum += i\r\n\t}\r\n\tc <- sum\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "10\r\n100\r\n42",
+            "expected_output": "6008\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/381.json",
+          "title": "并发下载文件",
+          "challengeId": 381,
+          "componentId": 1621,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "aa8c5c25785bd55e6c8a950c635841a75cfc0ed925f9d849a90914fb12c67902",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n    var first int\r\n    fmt.Scanln(&first)\r\n    var sec int\r\n    fmt.Scanln(&sec)\r\n    var th int\r\n    fmt.Scanln(&th)\r\n    switch(first){\r\n    \tcase 1:\r\n    \tfmt.Println(\"One\")\r\n    \tcase 0:\r\n    \tfmt.Println(\"Zero\")\r\n    \t\tcase 2:\r\n    \tfmt.Println(\"Two\")\r\n    \t\tcase 3:\r\n    \tfmt.Println(\"Three\")\r\n    \t\tcase 4:\r\n    \tfmt.Println(\"Four\")\r\n    \t\tcase 5:\r\n    \tfmt.Println(\"Five\")\r\n    \t\tcase 6:\r\n    \tfmt.Println(\"Six\")\r\n    \t\tcase 7:\r\n    \tfmt.Println(\"Seven\")\r\n    \t\tcase 8:\r\n    \tfmt.Println(\"Eight\")\r\n    \t\tcase 9:\r\n    \tfmt.Println(\"Nine\")\r\n    \t\tcase 10:\r\n    \tfmt.Println(\"Ten\")\r\n    \t\r\n    }\r\n    switch(sec){\r\n    \tcase 1:\r\n    \tfmt.Println(\"One\")\r\n    \tcase 0:\r\n    \tfmt.Println(\"Zero\")\r\n    \t\tcase 2:\r\n    \tfmt.Println(\"Two\")\r\n    \t\tcase 3:\r\n    \tfmt.Println(\"Three\")\r\n    \t\tcase 4:\r\n    \tfmt.Println(\"Four\")\r\n    \t\tcase 5:\r\n    \tfmt.Println(\"Five\")\r\n    \t\tcase 6:\r\n    \tfmt.Println(\"Six\")\r\n    \t\tcase 7:\r\n    \tfmt.Println(\"Seven\")\r\n    \t\tcase 8:\r\n    \tfmt.Println(\"Eight\")\r\n    \t\tcase 9:\r\n    \tfmt.Println(\"Nine\")\r\n    \t\tcase 10:\r\n    \tfmt.Println(\"Ten\")\r\n    \t\r\n    }\r\n    switch(th){\r\n    \tcase 1:\r\n    \tfmt.Println(\"One\")\r\n    \tcase 0:\r\n    \tfmt.Println(\"Zero\")\r\n    \t\tcase 2:\r\n    \tfmt.Println(\"Two\")\r\n    \t\tcase 3:\r\n    \tfmt.Println(\"Three\")\r\n    \t\tcase 4:\r\n    \tfmt.Println(\"Four\")\r\n    \t\tcase 5:\r\n    \tfmt.Println(\"Five\")\r\n    \t\tcase 6:\r\n    \tfmt.Println(\"Six\")\r\n    \t\tcase 7:\r\n    \tfmt.Println(\"Seven\")\r\n    \t\tcase 8:\r\n    \tfmt.Println(\"Eight\")\r\n    \t\tcase 9:\r\n    \tfmt.Println(\"Nine\")\r\n    \t\tcase 10:\r\n    \tfmt.Println(\"Ten\")\r\n    \t\r\n    }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1\r\n2\r\n3",
+            "expected_output": "One\nTwo\nThree\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/377.json",
+          "title": "机器人说数字",
+          "challengeId": 377,
+          "componentId": 1617,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "ba9153cae6378781752c32527431d003042166caf5dd9c088be318b5a7807b55",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tmenu := [6]string{\"Water\", \"Burger\", \"Cake\", \"Soup\", \"Soda\", \"Fries\"}\r\n\tvar x int\r\n\tfmt.Scanln(&x)\r\n\tif x > 5 || x < 0 {\r\n\t\tfmt.Println(\"无效选择\")\r\n\t} else {\r\n\t\tfmt.Println(menu[x])\r\n\t}\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "2",
+            "expected_output": "Cake\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-1002.json",
+          "title": "菜单",
+          "context": "数组的每个元素都有**唯一**索引，从`0`开始。\n- 第1个元素的索引是0\n- 第2个元素的索引是1，以此类推。\n\n你可以给数组元素赋值，也可以访问它们的值。",
+          "challengeId": 370,
+          "componentId": 1610,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/370.json",
+          "title": "菜单",
+          "challengeId": 370,
+          "componentId": 1610,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "cf673fb575a517600b7e97f1e65148c62c1a88ce81dd79fdacc06fca13f41acc",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\n\r\n//定义 route() 函数\r\n\r\nfunc route(cities ...string) {\r\n\r\n    var result string\r\n    for _, v := range cities {\r\n        result += v + \"->\"\r\n    }\r\n    fmt.Println(result)\r\n}\r\n\r\nfunc main() {\r\n    var n int\r\n    fmt.Scanln(&n)\r\n\r\n    var cities []string\r\n    //输入n个字符串，并存储在切片cities中\r\n  \r\n    var tmp string\r\n    for i:=0; i<n; i++ {\r\n        fmt.Scanln(&tmp)\r\n        cities = append(cities, tmp)\r\n    }\r\n    // 调用route函数\r\n    route(cities...)\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "3\n波士顿\n芝加哥\n华盛顿",
+            "expected_output": "波士顿->芝加哥->华盛顿->\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-1006.json",
+          "title": "路线导航",
+          "context": "如果你在一个**切片**中有多个值，并希望将它们作为可变参数传递给函数，请使用以下语法：",
+          "challengeId": 374,
+          "componentId": 1614,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/374.json",
+          "title": "路线导航",
+          "challengeId": 374,
+          "componentId": 1614,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d15c52d946f89cd75e1bf7b4ce55b135bdcb3a9236d9cc5544136a639905799f",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\n\r\nimport \"fmt\"\r\n\r\ntype Cart struct {\r\n\tprices []float32\r\n}\r\n\r\nfunc (x Cart) show() {\r\n\tvar sum float32 = 0.0\r\n\tfor _, d := range x.prices {\r\n\t\tsum = sum + d\r\n\t}\r\n\tfmt.Println(sum)\r\n}\r\nfunc main() {\r\n\tc := Cart{}\r\n\tvar n int\r\n\tvar x float32\r\n\tfmt.Scanln(&n)\r\n\tl := make([]float32, n)\r\n\tfor i := 0; i < n; i++ {\r\n\t\tfmt.Scanln(&x)\r\n\t\tl[i] = x\r\n\t}\r\n\tc.prices = l\r\n\tc.show()\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "3\n1\n2\n3",
+            "expected_output": "6\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/016-1004.json",
+          "title": "购物车",
+          "context": "这个程序输出**Unicode**的字符。\n如果你想输出实际的字符，你可以使用**Printf**()函数：",
+          "challengeId": 372,
+          "componentId": 1612,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/372.json",
+          "title": "购物车",
+          "challengeId": 372,
+          "componentId": 1612,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "e39ce36a167e86e26e0c28a6ccbc34965cb8a585f5e1d8ba4377f0f8446042c7",
+      "language": "go",
+      "publicTestCount": 1,
+      "request": {
+        "language": "go",
+        "code": "package main\r\nimport \"fmt\"\r\nfunc main() {\r\n\t// 请勿更改该数组\r\n    results := []string{\"w\", \"l\", \"w\", \"d\", \"w\", \"l\", \"l\", \"l\", \"d\", \"d\", \"w\", \"l\", \"w\", \"d\"}\r\n    var s string\r\n    fmt.Scanln(&s)\r\n    var sum int\r\n    switch s {\r\n    \tcase \"w\":\r\n    \tsum = 3\r\n    \tcase \"d\":\r\n    \tsum = 1\r\n    }\r\n    for _,x := range results{\r\n    \tif x ==\"w\"{\r\n    \t\tsum += 3\r\n    \t}\r\n    \tif x == \"d\"{\r\n    \t\tsum += 1\r\n    \t}\r\n    }\r\n    fmt.Println(sum)\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "w",
+            "expected_output": "22\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/380.json",
+          "title": "比赛结果",
+          "challengeId": 380,
+          "componentId": 1620,
+          "language": "go",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "00c3aa9eac4c4253f8e899d108d9aefa790c2c11d598c53fd4f68402d90e2190",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner scanner = new Scanner(System.in);\r\n       int length = scanner.nextInt();\r\n       int[] sides =  new int[length];\r\n       for (int i = 0; i < length; i++) {\r\n           sides[i] = scanner.nextInt();\r\n           System.out.println(sides[i]*sides[i]);\r\n       }\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "2\n3\n4",
+            "expected_output": "9\n16\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1371.json",
+          "title": "正方形面积",
+          "context": "**增强的for循环**声明了一个与被访问的数组元素类型相同的变量。这个变量将在**for**循环体内可用，它的值与当前数组元素相同。\n因此，在循环的每次迭代中，变量**t**将等于数组中的相应元素。",
+          "challengeId": 575,
+          "componentId": 1815,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/575.json",
+          "title": "正方形面积",
+          "challengeId": 575,
+          "componentId": 1815,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "22dbc4f455e58e365cc950a1064f0f9802a7daf7c668762f0ffa5fe146402196",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Program\r\n{\r\n    public static void main(String[] args) {\r\n\t   Scanner scanner = new Scanner(System.in);\r\n       int n = scanner.nextInt(); \r\n       for(int i =0; i < n; i ++){\r\n            System.out.println(\"Welcome\");\r\n       }\r\n\t}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1",
+            "expected_output": "Welcome\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1366.json",
+          "title": "欢迎学生",
+          "context": "该语句将`x`初始化为1，并重复打印`x`的值，直到条件`x<=5`的判断结果变为假。在每次循环中，语句`x++`被执行，使`x`递增1。",
+          "challengeId": 560,
+          "componentId": 1800,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/560.json",
+          "title": "欢迎学生",
+          "challengeId": 560,
+          "componentId": 1800,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "2ccf88aa1c0af811ba6188b5b22d4416e7f4afc1669c3509ac27f8cc4b1495e6",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n      Scanner read = new Scanner(System.in);\r\n      String firstName = read.nextLine();\r\n      String secondName = read.nextLine();\r\n      int age = read.nextInt();\r\n      int roomNumber = read.nextInt();\r\n      Customer customer = new Customer();\r\n      customer.firstName = firstName;\r\n      customer.secondName = secondName;\r\n      customer.age = age;\r\n      customer.roomNumber = roomNumber;\r\n      customer.saveCustomerInfo();\r\n   }\r\n}\r\nclass Customer {\r\n   String firstName;\r\n   String secondName;\r\n   int age;\r\n   int roomNumber;\r\n   public void saveCustomerInfo(){\r\n      System.out.println(\"First name: \" + firstName);\r\n      System.out.println(\"Second name: \" + secondName);\r\n      System.out.println(\"Age: \" + age);\r\n      System.out.println(\"Room number: \" + roomNumber);\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "John\r\nSmith\r\n35\r\n204",
+            "expected_output": "First name: John\nSecond name: Smith\nAge: 35\nRoom number: 204\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1378.json",
+          "title": "类的属性",
+          "context": "接下来，我们可以创建**Vehicle**类的多个对象，并使用`.`语法来访问它们的属性和方法。",
+          "challengeId": 580,
+          "componentId": 1820,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/580.json",
+          "title": "类的属性",
+          "challengeId": 580,
+          "componentId": 1820,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "2df125787813b76d46b3f990df9cfaf9b32c2885b11caf2a57e4d8a40faa2f2d",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Program\r\n{\r\n\tpublic static void main(String[] args) {\r\n\t\tScanner scanner = new Scanner(System.in);\r\n\t\tint amount = scanner.nextInt();\r\n        int res= amount;\r\n\t\t for(int x=0;x<=2;x++){\r\n           res=(int) (res*0.9);\r\n        }\r\n        System.out.println(res);\r\n\t}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "20000",
+            "expected_output": "14580\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/602.json",
+          "title": "计算贷款",
+          "challengeId": 602,
+          "componentId": 1842,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "4335f63ea0f7983c51b0ab0c00e934ca250668075408d4eebd8090f63f3fcc35",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner scanner = new Scanner(System.in);\r\n       int emotion = scanner.nextInt();\r\n        switch(emotion){\r\n           case 1:\r\n           System.out.print(\"你很高兴!\");\r\n           break;\r\n           case 2:\r\n           System.out.print(\"你很悲伤!\");\r\n           break;\r\n           case 3:\r\n           System.out.print(\"你很生气!\");\r\n           break;\r\n           case 4:\r\n           System.out.print(\"你很惊讶!\");\r\n           break;\r\n           default:\r\n           System.out.print(\"unknown\");\r\n       }\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1",
+            "expected_output": "你很高兴!"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1364.json",
+          "title": "情绪识别",
+          "context": "switch语句可以有一个可选的**默认**情况。\n**默认**情况可用于在没有任何case被匹配时执行任务。\n \n**例如：**",
+          "challengeId": 572,
+          "componentId": 1812,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/572.json",
+          "title": "情绪识别",
+          "challengeId": 572,
+          "componentId": 1812,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "46da133acafe401a073da91f9b2b19daa97f620246634e04f28dd42d48b23bd9",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       int numberOfPeople = read.nextInt();\r\n       for (int i = 0; i < numberOfPeople; i++) {\r\n           welcome();\r\n       }\r\n   }\r\n   public static void welcome() {\r\n       System.out.println(\"Welcome!\");\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "1",
+            "expected_output": "Welcome!\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1375.json",
+          "title": "机器人打招呼",
+          "context": "你可以根据需要多次调用一个方法。\n当一个方法运行时，代码会跳转到该方法的定义处，执行其中的代码，然后返回并进行下一行。\n**例子：**",
+          "challengeId": 577,
+          "componentId": 1817,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/577.json",
+          "title": "机器人打招呼",
+          "challengeId": 577,
+          "componentId": 1817,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "552b7e311255e5414aa0e1cce718ce5cc13394d963c8088c7ca7948422ed80d4",
+      "language": "java",
+      "publicTestCount": 2,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       int population = read.nextInt();\r\n       int area = read.nextInt();\r\n        if(population < 10000 && area < 10000){\r\n\t         System.out.println(\"小国\");\r\n         }\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "15000\r\n9000",
+            "expected_output": ""
+          },
+          {
+            "case_no": 2,
+            "stdin": "8400\r\n9000",
+            "expected_output": "小国\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1363.json",
+          "title": "识别小国",
+          "context": "然而，使用**与**逻辑运算符`&&`其实是一个更好的方法：",
+          "challengeId": 568,
+          "componentId": 1808,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/568.json",
+          "title": "识别小国",
+          "challengeId": 568,
+          "componentId": 1808,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "5aa92f862ec64c9c096a7ea22d40d6e7946294414eafe05c6b0651d2f81a8300",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Scanner scanner = new Scanner(System.in);\r\n        int length = scanner.nextInt();\r\n        int[] array = new int[length];\r\n        for (int i = 0; i < length; i++) {\r\n            array[i] = scanner.nextInt();\r\n        }\r\n        int sum = 0;\r\n        for (int i = 0; i < length; i++) {\r\n            if (array[i] % 4 == 0) {\r\n                sum += array[i];\r\n            }\r\n        }\r\n        System.out.println(sum);\r\n    }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5\r\n4\r\n9\r\n16\r\n2\r\n7",
+            "expected_output": "20\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1370.json",
+          "title": "4的倍数之和",
+          "context": "在上面的代码中，我们声明了一个变量**sum**来存储结果，并将其初始化为0。\n然后用一个**for**循环来遍历数组，并将每个元素的值加入到`sum`变量中。",
+          "challengeId": 574,
+          "componentId": 1814,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/574.json",
+          "title": "4的倍数之和",
+          "challengeId": 574,
+          "componentId": 1814,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "5d32c333b843675d80d1d7f375e3513430083294a564c17fbd1b9ef1dc3025c2",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main\r\n{\r\n\tpublic static void main(String[] args) {\r\n\t    Scanner scanner = new Scanner(System.in);\r\n        int  number = scanner.nextInt();\r\n        int fact = 1;\r\n        while(number >0){\r\n            fact *= number --;\r\n        }\r\n        System.out.println(fact);\r\n    }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "6",
+            "expected_output": "720\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1365.json",
+          "title": "数字阶乘",
+          "context": "当条件表达式结果为false时，循环体被跳过，整个while循环后的第一个语句被执行。\n\n**例子：**",
+          "challengeId": 569,
+          "componentId": 1809,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/569.json",
+          "title": "数字阶乘",
+          "challengeId": 569,
+          "componentId": 1809,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "7d0e8131ea7c597a59c87cc0f05aae67ea0c019ad1fbb9fe374f6abb6fec606b",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Program {\r\n\tpublic static void main(String[] args) {\r\n\t\tScanner scanner = new Scanner(System.in);\r\n\t\tint days = scanner.nextInt();\r\n\t\t\r\n\t\tSystem.out.print(24*3600*days);\r\n\t\t\r\n\t}\r\n}\r\n",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "12",
+            "expected_output": "1036800"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/601.json",
+          "title": "时间转换",
+          "challengeId": 601,
+          "componentId": 1841,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "822fbb9926cacffe02d47164503016bf06733c3f4d7007b79dd81ad751a86584",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner scanner = new Scanner(System.in);\r\n       // 汽车价格\r\n       int price = scanner.nextInt();\r\n       if(price <= 12000){\r\n           System.out.println(\"buy\");\r\n       }\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "8000",
+            "expected_output": "buy\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1360.json",
+          "title": "购买汽车",
+          "context": "以下任何一个比较运算符都可以用来构成条件判断：\n\n- `<`小于\n- `>`大于\n- `!=`不等于\n- `==`等于\n- `<=`小于等于\n- `>=`大于等于\n\n**例如：**",
+          "challengeId": 563,
+          "componentId": 1803,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/563.json",
+          "title": "购买汽车",
+          "challengeId": 563,
+          "componentId": 1803,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "ace1be872914ac09669a7fb6a72906b5cfff02dbf273c1317ed20caa01091967",
+      "language": "java",
+      "publicTestCount": 2,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Program\r\n{\r\n    public static void main(String[] args) {\r\n\t    Scanner read = new Scanner(System.in);\r\n        int password;\r\n        do{\r\n            System.out.println(\"输入密码\");\r\n            password = read.nextInt();\r\n        } while(password != 8819);\r\n\t}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "8819",
+            "expected_output": "输入密码\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "1520\r\n8819",
+            "expected_output": "输入密码\n输入密码\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1367.json",
+          "title": "银行密码",
+          "context": "注意，条件出现在循环的末尾，所以循环中的语句在被检查条件之前总被执行一次。\n\n即使条件结果为false的条件，代码也会运行一次。\n**例子：**",
+          "challengeId": 565,
+          "componentId": 1805,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/565.json",
+          "title": "银行密码",
+          "challengeId": 565,
+          "componentId": 1805,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "b79aceba8aedbf41d1c569cc6dbd9bf6cb8bedd1e65c60a1b6f208ddf45c1a96",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner scanner = new Scanner(System.in);\r\n       int initScore = scanner.nextInt();\r\n       int scoreTom = initScore; // 小明 初始化分数\r\n       int scoreBob = initScore; // 小李 初始化分数\r\n       System.out.println(\"Round 1 results:\");\r\n       System.out.println(++scoreTom);\r\n       System.out.println(--scoreBob);\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "5",
+            "expected_output": "Round 1 results:\n6\n4\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1357.json",
+          "title": "游戏得分",
+          "context": "**减法赋值（-=）：**",
+          "challengeId": 571,
+          "componentId": 1811,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/571.json",
+          "title": "游戏得分",
+          "challengeId": 571,
+          "componentId": 1811,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "c8cfdf26238e7df3634e89fcd36a6305f6371224b0035de7065cd07f210a955e",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "public class Main {\r\n   public static void main(String[] args) {\r\n       int[][] matrix = {\r\n               {8, 1, 6},\r\n               {3, 5, 7},\r\n               {4, 9, 0},\r\n       };\r\n       for(int i=0; i < 3; i++) {\r\n           for(int j = 0; j < 3; j++) {\r\n              System.out.println(matrix[i][j]);\r\n            }\r\n        }\r\n    }\r\n   }",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": " ",
+            "expected_output": "8\n1\n6\n3\n5\n7\n4\n9\n0\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1372.json",
+          "title": "多维数组",
+          "context": "上面的二维数组包含三个数组。第一个数组有三个元素，第二个数组有一个元素，最后一个数组有三个元素。",
+          "challengeId": 576,
+          "componentId": 1816,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/576.json",
+          "title": "多维数组",
+          "challengeId": 576,
+          "componentId": 1816,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "ce1d3b8e7e45c0341cf77b75ed0f4979c822d94b55a91368778cf39e7032d83a",
+      "language": "java",
+      "publicTestCount": 2,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\n\r\nclass Main {\r\n\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       String name = read.nextLine();\r\n       int age = read.nextInt();\r\n       Student student = new Student();\r\n       student.name = name;\r\n       student.setAge(age);\r\n      \r\n       System.out.println(\"Name: \" + student.name);\r\n       System.out.println(\"Age: \" + student.getAge());\r\n   }\r\n}\r\n\r\nclass Student {\r\n\r\n   public String name;\r\n   private int age;\r\n   \r\n   public int getAge() {\r\n       return age;\r\n       \r\n   }\r\n   public void setAge(int age) {\r\n       if(age < 0){\r\n           System.out.println(\"not valid age\");\r\n           this.age = 0;\r\n        }\r\n       else \r\n         this.age = age;\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "James\r\n26",
+            "expected_output": "Name: James\nAge: 26\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "Lora\r\n-18",
+            "expected_output": "not valid age\nName: Lora\nAge: 0\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1380.json",
+          "title": "getter和setter方法",
+          "context": "setter和getter方法允许我们对值进行控制。例如，你可以在getter之前，通过setter设置一个初始值。",
+          "challengeId": 581,
+          "componentId": 1821,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/581.json",
+          "title": "getter和setter方法",
+          "challengeId": 581,
+          "componentId": 1821,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d03cd88af73c7fa93f5fa9637c2796c1f5a73bc84b08025f3df6b4fd867ebeff",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       double score1 = read.nextDouble();\r\n       double score2 = read.nextDouble();\r\n       double score3 = read.nextDouble();\r\n       double score4 = read.nextDouble();\r\n       double avgScore = getAverageScore(score1, score2, score3, score4);\r\n       System.out.println(avgScore);\r\n   }\r\n   \r\n   public static double getAverageScore(double x , double y , double a , double b) {\r\n       return( (x+y+a+b)/4);\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "4.0\r\n7.0\r\n8.0\r\n9.0",
+            "expected_output": "7.0\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1376.json",
+          "title": "选手平均分",
+          "context": "让我们创建一个方法，接收两个**int**类型的参数，并返回较大的一个数，然后在**main**中调用它：",
+          "challengeId": 578,
+          "componentId": 1818,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/578.json",
+          "title": "选手平均分",
+          "challengeId": 578,
+          "componentId": 1818,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "d721b4041416d7c4f319a68c852357bcc98eafc77c289c37d875b408b9a5756d",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\n\r\npublic class Program {\r\n    public static void main(String[ ] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n        int x = sc.nextInt();\r\n        System.out.print(Converter.toBinary(x));\r\n    }\r\n}\r\npublic class Converter{\r\n\tpublic static String toBinary(int u){\r\n\t\tString b = \"\";\r\n\t\twhile(u>0){\r\n\t\t\tb = u%2+b;\r\n\t\t\tu/=2;\r\n\t\t}\r\n\t\treturn b;\r\n\t}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "7",
+            "expected_output": "111"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/604.json",
+          "title": "二进制转换",
+          "challengeId": 604,
+          "componentId": 1844,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "daef705b0c3160339a28500a874b03c2f85a0f7adc21c9f62d734d8bbe49ff74",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\nclass Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       int num1 = read.nextInt();\r\n       int num2 = read.nextInt();\r\n       System.out.print(Math.pow(num1,num2));\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "2\r\n3",
+            "expected_output": "8.0"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1383.json",
+          "title": "Math类",
+          "context": "**Math.pow()** 接收两个参数，并返回以第一个参数为底数，第二个参数为指数的幂。",
+          "challengeId": 583,
+          "componentId": 1823,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/583.json",
+          "title": "Math类",
+          "challengeId": 583,
+          "componentId": 1823,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "e1638d67c524eb0ca7504713b19f7e618b78844bfdb98782627fa46bc0d84874",
+      "language": "java",
+      "publicTestCount": 2,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\n\r\nclass Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       String movie = read.nextLine();\r\n       int row = read.nextInt();\r\n       int seat = read.nextInt();\r\n       Ticket ticket = new Ticket(movie, row, seat);\r\n       System.out.println(\"Movie: \" + ticket.getMovie());\r\n       System.out.println(\"Row: \" + ticket.getRow());\r\n       System.out.println(\"Seat: \" + ticket.getSeat());\r\n   }\r\n}\r\n\r\nclass Ticket {\r\n   private String movie;\r\n   private int row;\r\n   private int seat;\r\n\r\n   //complete the constructor\r\n   public Ticket(String movie, int row, int seat) {\r\n       this.movie = movie;\r\n       this.row = row;\r\n       this.seat = seat;\r\n   }\r\n\r\n   public String getMovie() {\r\n       return movie;\r\n   }\r\n\r\n   public int getRow() {\r\n       return row;\r\n   }\r\n\r\n   public int getSeat() {\r\n       return seat;\r\n   }\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "Jaws\r\n5\r\n1",
+            "expected_output": "Movie: Jaws\nRow: 5\nSeat: 1\n"
+          },
+          {
+            "case_no": 2,
+            "stdin": "Alien\r\n12\r\n3",
+            "expected_output": "Movie: Alien\nRow: 12\nSeat: 3\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1381.json",
+          "title": "构造函数",
+          "context": "上面的类有两个构造函数，一个没有任何参数，将color属性设置为默认值 \"Red\"，另一个构造函数接受一个参数并将其赋值给该属性。\n\n现在，我们可以使用构造函数来创建我们类的对象。\n",
+          "challengeId": 582,
+          "componentId": 1822,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/582.json",
+          "title": "构造函数",
+          "challengeId": 582,
+          "componentId": 1822,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "e5ea33fd2b11daa3f4fc782b45ba74b822a39ee8339f7cd59c0879fd1478fcec",
+      "language": "java",
+      "publicTestCount": 2,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Main {\r\n   public static void main(String[] args) {\r\n       Scanner read = new Scanner(System.in);\r\n       int purchases = read.nextInt();\r\n       if(purchases > 15000){\r\n        System.out.println(\"礼品卡\");\r\n        if(purchases > 30000){\r\n           System.out.println(\"礼品卡\");\r\n        }\r\n   }\r\n}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "15000",
+            "expected_output": ""
+          },
+          {
+            "case_no": 2,
+            "stdin": "31000",
+            "expected_output": "礼品卡\n礼品卡\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1361.json",
+          "title": "贵宾礼品卡",
+          "context": "你可以在一个**if**或**else**语句中嵌套另一个**if-else**语句。\n\n**例如：**",
+          "challengeId": 564,
+          "componentId": 1804,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        },
+        {
+          "file": "/content/challenges/564.json",
+          "title": "贵宾礼品卡",
+          "challengeId": 564,
+          "componentId": 1804,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "f72ffd3f227780ec05062d1b0330654f0414b2c46042f83a7cf99dcb958e591a",
+      "language": "java",
+      "publicTestCount": 1,
+      "request": {
+        "language": "java",
+        "code": "import java.util.Scanner;\r\npublic class Program\r\n{\r\n\tpublic static void main(String[] args) {\r\n\t\tScanner scanner = new Scanner(System.in);\r\n\t\tString text = scanner.nextLine();\r\n\t\tchar[] arr = text.toCharArray();\r\n\t\tchar[] reverse = new char[arr.length];\r\n        int j=0;\r\n\t\tfor(int i = arr.length-1; i>=0; i--){\r\n          reverse[j]=arr[i];\r\n          j++;\r\n        }\r\n       System.out.println(reverse);\r\n\t}\r\n}",
+        "stdin": "",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": 1,
+            "stdin": "this is some text",
+            "expected_output": "txet emos si siht\n"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/challenges/603.json",
+          "title": "反转字符串",
+          "challengeId": 603,
+          "componentId": 1843,
+          "language": "java",
+          "variant": "public_challenge_solution",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "220f87d18c713e17c688d3150077e7e1364f9afb44654d509ad48b7652455e1b",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class MyClass {\n    public static void main(String[ ] args) {\n        Person j;\n        j = new Person(\"John\");\n        j.setAge(20);\n        celebrateBirthday(j);\n        System.out.println(j.getAge());\n  }\n    \n    static void celebrateBirthday(Person p) {\n        p.setAge(p.getAge() + 1);\n    }\n}\n\npublic class Person {\n    private String name;\n    private int age;\n    \n    Person (String n) {\n        this.name = n;\n    }\n    \n    public int getAge() {\n        return age;\n    }\n    \n    public void setAge(int a) {\n        this.age = a;\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1382.json",
+          "title": "变量 & 引用类型",
+          "context": "一个**引用类型**存储一个地址，这个地址指向内存中存储相应数据的位置。\n\n当你使用构造函数创建一个对象时，你会创建一个引用变量。\n例如，考虑有一个`Person`类的定义：",
+          "componentId": "3360fcc1-28e2-3938-9b23-f6b22ff56e7c",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "2da62032b24cf18409578afc53703361e4acd381e666e9bc68476f265a770520",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class Animal {\n    void bark() {\n        System.out.println(\"Woof-Woof\");\n    }\n}\n\nclass MyClass {\n    public static void main(String[ ] args) {\n        Animal dog = new Animal();\n        dog.bark();\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1377.json",
+          "title": "创建类和对象",
+          "context": "让我们在**main**方法中创建一个新的对象。\n\n例如：",
+          "componentId": "eb8d2f8d-b207-38ce-ba8f-6814e2caafe7",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "30c3099f3c7603cca9d26b59b7ef7577265f211dd38c25a24d54aef1eb3ef04d",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class Vehicle {\n    int maxSpeed;\n    int wheels;\n    String color;\n    double fuelCapacity;  \n    \n    void horn() {\n        System.out.println(\"Beep!\");\n    }\n}\n\nclass MyClass {\n    public static void main(String[ ] args) {\n        Vehicle v1 = new Vehicle();\n        Vehicle v2 = new Vehicle();\n        v1.color = \"red\";\n        v2.horn();\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1378.json",
+          "title": "类的属性",
+          "context": "接下来，我们可以创建**Vehicle**类的多个对象，并使用`.`语法来访问它们的属性和方法。",
+          "componentId": "5a4f0bd1-3a35-3b8c-9285-121fe3eaa6f5",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "64c785d0bbda4a4dac7eab9dc118dc4fb5d10b04390f9449f6e5ab434c289f6b",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class Vehicle {\n    private String color;\n    \n    // getter方法\n    public String getColor() {\n        return color;\n    }\n    \n    // setter方法\n    public void setColor(String c) {\n        this.color = c;\n    }\n}\n\nclass Program {\n    public static void main(String[ ] args) {\n        Vehicle v1 = new Vehicle();\n        v1.setColor(\"Red\");\n        System.out.println(v1.getColor());\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1380.json",
+          "title": "setter和getter方法",
+          "context": "一旦我们的getter和setter方法被定义，我们就可以在**main**中使用它：",
+          "componentId": "2162ce65-609e-3c94-a35a-f7bab89c2c7a",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "c14ec8350b612a85e4ee08c3cd86c7c88ff3f988a016c8d7474f354df214c6b7",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class Counter {\n    public static int COUNT=0;\n    Counter() {\n        COUNT++;\n    }\n}\n\npublic class MyClass {\n    public static void main(String[ ] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        System.out.println(Counter.COUNT);\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1384.json",
+          "title": "静态变量",
+          "context": "**COUNT**变量将被该类的所有对象所共享。现在，我们可以在**main**中创建Counter类的对象，并访问静态变量。",
+          "componentId": "5400f785-cb82-32ae-a466-0bbb336b985a",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "eb31a9c7aa8decceee56d78b65d9abbb5c33e4fbbd0d85478f2d2df4ec415830",
+      "language": "java",
+      "publicTestCount": 0,
+      "request": {
+        "language": "java",
+        "code": "\n\n\npublic class Vehicle {\n    public static void horn() {\n        System.out.println(\"Beep\");\n    }\n}\n\npublic class MyClass {\n    public static void main(String[ ] args) {\n        Vehicle.horn();\n    }\n}\n\n\n",
+        "stdin": "",
+        "files": [],
+        "testcases": []
+      },
+      "origins": [
+        {
+          "file": "/content/pages/025-1384.json",
+          "title": "静态变量",
+          "context": "现在，可以在不创建对象的情况下调用 **horn()** 方法：",
+          "componentId": "b84b9125-cb47-38f6-a874-aaf0f3699b52",
+          "language": "java",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ]
+    },
+    {
+      "id": "cd4b70668373b5b089e7cfbbaf7a1f1695b32c6e9a52183f7e27dbe441756fc5",
+      "language": "c",
+      "publicTestCount": 1,
+      "request": {
+        "language": "c",
+        "code": "\n\n\n#include <stdio.h>\n\nint main() {\n    int x;\n    float num;\n    char text[20];\n    scanf(\"%d %f %s\", &x, &num, text);\n}\n\n\n",
+        "stdin": "10 22.5 abcd\n",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": "source-sample",
+            "stdin": "10 22.5 abcd\n",
+            "expected_output": ""
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "52c6f124-a6ea-37cf-8213-70d7316550ba",
+          "title": "输入及输出",
+          "variant": "explicit_lesson_stdin_sample",
+          "evidence": "同页紧随代码的 MarkdownEditor 文本明确“输入10 22.5 abcd，然后按回车键”；代码只有scanf，不输出内容。"
+        }
+      ]
+    },
+    {
+      "id": "4e05b7bf51bf684ccc9b9d69dc041de82e01cd2c0069bffb56a0013217cdad1b",
+      "language": "c",
+      "publicTestCount": 1,
+      "request": {
+        "language": "c",
+        "code": "\n\n\n#include <stdio.h>\n\nint main() {\n    int x, y;\n    char text[20];\n\n    scanf(\"%2d %d %*f %5s\", &x, &y, text);\n    /* input: 1234  5.7  elephant */\n    printf(\"%d  %d  %s\", x, y, text);\n    /* output: 12  34  eleph */\n\n    return 0;\n} \n\n\n",
+        "stdin": "1234  5.7  elephant\n",
+        "files": [],
+        "testcases": [
+          {
+            "case_no": "source-sample",
+            "stdin": "1234  5.7  elephant\n",
+            "expected_output": "12  34  eleph"
+          }
+        ]
+      },
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "385dc73d-9f82-3dc1-b437-dd1bce00a06f",
+          "title": "输入及输出",
+          "variant": "explicit_lesson_stdin_sample",
+          "evidence": "原代码注释明确 /* input: 1234  5.7  elephant */ 和 /* output: 12  34  eleph */；printf为%d  %d  %s。"
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "limitations": [
+    "Reference solutions are public source metadata; passing their public cases does not establish hidden-judge equivalence.",
+    "Code without a public expected result receives execution-only status, never an inferred correctness pass.",
+    "Input requirements and unfinished-template markers are conservative static candidates, retained for manual review.",
+    "Teaching-error context is a review hint, not an automatic success verdict."
+  ]
+}

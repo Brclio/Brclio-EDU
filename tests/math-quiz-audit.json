@@ -1,0 +1,2013 @@
+{
+  "startedAt": "2026-11-01T18:10:34.525Z",
+  "rendererHashBefore": "8215334eaf815232c1bc212715288011cfc39070fa63b036fbf2e6a8c3532656",
+  "inventory": {
+    "selected": 45,
+    "actualMath": 43,
+    "dollarCodeFillGuards": 2,
+    "allFillQuestions": 717,
+    "actualBlanksInsideFormula": [],
+    "byKind": {
+      "single_choice": 42,
+      "multi_type_in": 2,
+      "mult_choice": 1
+    }
+  },
+  "results": [
+    {
+      "file": "004-140.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 72,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-140.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 75,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 76,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 78,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 2,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 80,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-171.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 90,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-175.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 91,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-175.json",
+      "trail": "/components/0/content/questions/3",
+      "questionId": 94,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-186.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 97,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-186.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 98,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 142,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 143,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 144,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 2,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 146,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/5",
+      "questionId": 147,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 148,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-412.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 177,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-413.json",
+      "trail": "/components/4/content/questions/0",
+      "questionId": 178,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-413.json",
+      "trail": "/components/4/content/questions/1",
+      "questionId": 179,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/0",
+      "questionId": 180,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/1",
+      "questionId": 181,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/2",
+      "questionId": 182,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/0",
+      "questionId": 183,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/1",
+      "questionId": 184,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/2",
+      "questionId": 185,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-417.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 186,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-419.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 187,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-421.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 188,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-423.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 189,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 6,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-425.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 190,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-427.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 191,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-429.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 192,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 199,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/7",
+      "questionId": 200,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/8",
+      "questionId": 201,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 203,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 204,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 209,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-487.json",
+      "trail": "/components/1/content/questions/1",
+      "questionId": 223,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-487.json",
+      "trail": "/components/1/content/questions/2",
+      "questionId": 224,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 8,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-533.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 241,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "022-1226.json",
+      "trail": "/components/2/resolved",
+      "questionId": 2585,
+      "kind": "multi_type_in",
+      "selection": "dollar-code-fill-guard",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 0,
+      "blankCount": 2,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "literal dollar code and all blanks keep typing focus",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "022-1234.json",
+      "trail": "/components/6/resolved",
+      "questionId": 2578,
+      "kind": "multi_type_in",
+      "selection": "dollar-code-fill-guard",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 0,
+      "blankCount": 4,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "literal dollar code and all blanks keep typing focus",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted"
+      ],
+      "errors": []
+    },
+    {
+      "file": "034-1539.json",
+      "trail": "/components/7/resolved",
+      "questionId": 3163,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "037-1614.json",
+      "trail": "/components/4/resolved",
+      "questionId": 3267,
+      "kind": "mult_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-140.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 72,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-140.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 75,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 76,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 78,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 2,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-147.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 80,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-171.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 90,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 5,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-175.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 91,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-175.json",
+      "trail": "/components/0/content/questions/3",
+      "questionId": 94,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-186.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 97,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "004-186.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 98,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 142,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 143,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/2",
+      "questionId": 144,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 2,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 146,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/5",
+      "questionId": 147,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "006-272.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 148,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-412.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 177,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-413.json",
+      "trail": "/components/4/content/questions/0",
+      "questionId": 178,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-413.json",
+      "trail": "/components/4/content/questions/1",
+      "questionId": 179,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/0",
+      "questionId": 180,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/1",
+      "questionId": 181,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/2/content/questions/2",
+      "questionId": 182,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/0",
+      "questionId": 183,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/1",
+      "questionId": 184,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-414.json",
+      "trail": "/components/5/content/questions/2",
+      "questionId": 185,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-417.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 186,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-419.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 187,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-421.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 188,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-423.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 189,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 6,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-425.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 190,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-427.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 191,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-429.json",
+      "trail": "/components/3/content/questions/0",
+      "questionId": 192,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 199,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/7",
+      "questionId": 200,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-431.json",
+      "trail": "/components/0/content/questions/8",
+      "questionId": 201,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/0",
+      "questionId": 203,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/1",
+      "questionId": 204,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-455.json",
+      "trail": "/components/0/content/questions/6",
+      "questionId": 209,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 3,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-487.json",
+      "trail": "/components/1/content/questions/1",
+      "questionId": 223,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-487.json",
+      "trail": "/components/1/content/questions/2",
+      "questionId": 224,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 8,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "010-533.json",
+      "trail": "/components/0/content/questions/4",
+      "questionId": 241,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 4,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "022-1226.json",
+      "trail": "/components/2/resolved",
+      "questionId": 2585,
+      "kind": "multi_type_in",
+      "selection": "dollar-code-fill-guard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 0,
+      "blankCount": 2,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "literal dollar code and all blanks keep typing focus",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "022-1234.json",
+      "trail": "/components/6/resolved",
+      "questionId": 2578,
+      "kind": "multi_type_in",
+      "selection": "dollar-code-fill-guard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 0,
+      "blankCount": 4,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "literal dollar code and all blanks keep typing focus",
+        "wrong answer rejected",
+        "retry clears answers",
+        "original correct answer accepted",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "034-1539.json",
+      "trail": "/components/7/resolved",
+      "questionId": 3163,
+      "kind": "single_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    },
+    {
+      "file": "037-1614.json",
+      "trail": "/components/4/resolved",
+      "questionId": 3267,
+      "kind": "mult_choice",
+      "selection": "actual-math",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mathCount": 1,
+      "blankCount": 0,
+      "checks": [
+        "initial formulas visible",
+        "unanswered disabled",
+        "wrong answer rejected",
+        "wrong explanation formulas visible",
+        "retry clears answers",
+        "original correct answer accepted",
+        "correct explanation formulas visible",
+        "narrow-screen action hit target usable"
+      ],
+      "errors": []
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": [],
+  "limitations": [
+    "Actual production Quiz and Markdown renderer mounted in the existing isolated Content harness; does not repeat the full App audit.",
+    "Original mathematical questions/options/explanations are selected by Markdown math AST. Two literal JavaScript template-string fills are included to check dollar signs and inputs stay literal.",
+    "Source-wide fill scan reports actual formula-contained blanks; it does not invent synthetic course examples."
+  ],
+  "finishedAt": "2026-11-01T18:10:57.989Z",
+  "rendererHashAfter": "8215334eaf815232c1bc212715288011cfc39070fa63b036fbf2e6a8c3532656",
+  "sourceUnchanged": true,
+  "summary": {
+    "runs": 90,
+    "failures": 0,
+    "checks": 535,
+    "actualMathQuestions": 43,
+    "dollarCodeFillGuards": 2,
+    "actualBlanksInsideFormula": 0,
+    "externalRequests": 0,
+    "pageErrors": 0
+  }
+}

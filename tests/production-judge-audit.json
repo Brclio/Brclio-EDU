@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-01T18:44:37.201Z",
+  "base": "https://edu.brclio.com",
+  "checks": [
+    {
+      "language": "c++",
+      "negative": false,
+      "verdict": "通过 4 / 4 个公开测试"
+    },
+    {
+      "language": "c++",
+      "negative": true,
+      "verdict": "通过 0 / 4 个公开测试"
+    },
+    {
+      "language": "java",
+      "negative": false,
+      "verdict": "通过 4 / 4 个公开测试"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-01T18:44:57.786Z"
+}

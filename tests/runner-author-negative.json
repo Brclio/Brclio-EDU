@@ -1,0 +1,106 @@
+{
+  "updatedAt": "2026-11-01T18:06:51Z",
+  "negative": true,
+  "results": [
+    {
+      "page": "006-263",
+      "id": "tab_code_0_01111524439711ecbe523af9d3c2d1d5",
+      "language": "c++",
+      "variant": "wrong-sentinel",
+      "codeSha256": "7cceb45d66e3a5f91f232b4bf04c7404b5750a40eb5298a4da61051f75b16de7",
+      "httpEquivalentStatus": 200,
+      "seconds": 2.703,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])\",\"expected_output\": \"7\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1,1,2,3,4])\",\"expected_output\": \"1\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1,2,3,4,5,6,6])\",\"expected_output\": \"6\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1,1])\",\"expected_output\": \"1\",\"actual_output\": \"-999\",\"succeeded\": false}]}</__educative_test_results__>",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])",
+          "expected_output": "7",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1,1,2,3,4])",
+          "expected_output": "1",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1,2,3,4,5,6,6])",
+          "expected_output": "6",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1,1])",
+          "expected_output": "1",
+          "actual_output": "-999",
+          "succeeded": false
+        }
+      ],
+      "parseError": null,
+      "allPassed": false
+    },
+    {
+      "page": "006-263",
+      "id": "tab_code_1_01111524439711ecbe523af9d3c2d1d5",
+      "language": "java",
+      "variant": "wrong-sentinel",
+      "codeSha256": "db8bc4a7af4189545be7246bdfb8e8148fded209507a404135dfc63fdc7f8a1f",
+      "httpEquivalentStatus": 200,
+      "seconds": 5.288,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10])\",\"expected_output\": \"7\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1, 1, 2, 3, 4])\",\"expected_output\": \"1\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1, 2, 3, 4, 5, 6, 6])\",\"expected_output\": \"6\",\"actual_output\": \"-999\",\"succeeded\": false},{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1, 1])\",\"expected_output\": \"1\",\"actual_output\": \"-999\",\"succeeded\": false}]}</__educative_test_results__>\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10])",
+          "expected_output": "7",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1, 1, 2, 3, 4])",
+          "expected_output": "1",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1, 2, 3, 4, 5, 6, 6])",
+          "expected_output": "6",
+          "actual_output": "-999",
+          "succeeded": false
+        },
+        {
+          "reason": "Incorrect Output",
+          "input": "duplicateNumber([1, 1])",
+          "expected_output": "1",
+          "actual_output": "-999",
+          "succeeded": false
+        }
+      ],
+      "parseError": null,
+      "allPassed": false
+    }
+  ],
+  "summary": {
+    "tasks": 2,
+    "allPassed": 0,
+    "structuredTests": 8,
+    "passedTests": 0
+  }
+}

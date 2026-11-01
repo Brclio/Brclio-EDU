@@ -1,0 +1,987 @@
+{
+  "networkCodeComponents": 31,
+  "literalUrlInventory": {
+    "https://baidu.com": [
+      [
+        "024-1324",
+        "3a96d439-d4ae-3ec7-9cf0-8c80e9ba36c2"
+      ]
+    ],
+    "http://www.jd.com": [
+      [
+        "024-1326",
+        "989ae6e0-340e-3bad-a4ec-cd9c174157bb"
+      ]
+    ],
+    "https://www.biqukan.cc/article/30067/": [
+      [
+        "024-1330",
+        "ad32e038-31ea-33b8-8431-13cd7b2566b2"
+      ],
+      [
+        "024-1330",
+        "49682195-2150-3a8b-8395-1e411b121bc7"
+      ],
+      [
+        "024-1330",
+        "3f056dc8-680a-3d40-88eb-f0ebccceb1a6"
+      ],
+      [
+        "024-1330",
+        "0f592c1b-1549-37a0-b317-fb4b3a5c55bd"
+      ],
+      [
+        "024-1330",
+        "4cdf728e-b187-305c-98bc-f49f20ea345d"
+      ],
+      [
+        "024-1330",
+        "61a6f7a4-49a4-3441-97e6-1193476baaa3"
+      ],
+      [
+        "024-1330",
+        "c2bbd414-9475-3983-a24d-bce95d8d8c5a"
+      ],
+      [
+        "024-1330",
+        "012c82d8-54b0-3de0-92c4-00efbeb7a68d"
+      ],
+      [
+        "024-1330",
+        "51bc78c2-3d8b-3e00-88f5-52824490274d"
+      ],
+      [
+        "024-1330",
+        "19c84e76-9cea-3dcc-9fc3-d172ef5d61ff"
+      ]
+    ],
+    "https://www.biqukan.cc/article/30067/17748491.html": [
+      [
+        "024-1331",
+        "dd2a3261-5255-3564-9e12-f70a06b74a36"
+      ],
+      [
+        "024-1331",
+        "62e82513-4643-3a42-8c59-350e79f9850b"
+      ],
+      [
+        "024-1331",
+        "717482ac-1f39-3daa-8097-639d96897757"
+      ]
+    ],
+    "http://sj.zol.com.cn/bizhi/1080x1920/1.html": [
+      [
+        "024-1335",
+        "6dfd6e2f-7e1f-35ed-ba62-6b15494e89d6"
+      ]
+    ],
+    "http://sj.zol.com.cn/bizhi/1080x1920": [
+      [
+        "024-1335",
+        "687700f9-3064-33a4-8f9d-243b3dd7e7c3"
+      ],
+      [
+        "024-1339",
+        "2463fef3-0848-3424-9413-3216e6952f3f"
+      ]
+    ],
+    "http://sj.zol.com.cn/bizhi/detail_10981_121155.html": [
+      [
+        "024-1336",
+        "078500cf-7dcd-3eb0-ac07-3668fb39ae9a"
+      ],
+      [
+        "024-1336",
+        "6db0373b-8dd5-3e09-9aac-964fe59fceba"
+      ]
+    ],
+    "http://sj.zol.com.cn": [
+      [
+        "024-1339",
+        "2463fef3-0848-3424-9413-3216e6952f3f"
+      ]
+    ],
+    "https://book.douban.com/tag/?view=cloud": [
+      [
+        "024-1342",
+        "2c051653-a459-3959-b713-b67d5bc978f2"
+      ],
+      [
+        "024-1342",
+        "a3a7770f-3ca1-3b32-8960-7340854810e6"
+      ],
+      [
+        "024-1342",
+        "a7104719-869a-3c32-abb4-cf3250858265"
+      ],
+      [
+        "024-1342",
+        "9ce513a6-2790-32e3-8588-c362f195b40d"
+      ]
+    ],
+    "https://book.douban.com/tag/%s?start=%s&type=T": [
+      [
+        "024-1343",
+        "b206b49c-6c8e-39fe-9153-69b8cd1af05b"
+      ]
+    ],
+    "https://book.douban.com/tag/%s?start={}&type=T": [
+      [
+        "024-1343",
+        "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+      ]
+    ],
+    "https://book.douban.com/subject/26829016/": [
+      [
+        "024-1344",
+        "93c3f2da-519a-38a4-a0e5-6a86a8c36124"
+      ]
+    ],
+    "https://img9.doubanio.com/view/subject/s/public/s28891775.jpg": [
+      [
+        "024-1344",
+        "93c3f2da-519a-38a4-a0e5-6a86a8c36124"
+      ]
+    ],
+    "https://accounts.douban.com/j/mobile/login/basic": [
+      [
+        "024-1347",
+        "8e4f90a3-10e8-3c3c-b1d5-3a92da3a9eed"
+      ],
+      [
+        "024-1347",
+        "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+      ]
+    ],
+    "https://accounts.douban.com/passport/login_popup?login_source=anony": [
+      [
+        "024-1347",
+        "8e4f90a3-10e8-3c3c-b1d5-3a92da3a9eed"
+      ],
+      [
+        "024-1347",
+        "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+      ]
+    ],
+    "https://www.douban.com/mine/orders/": [
+      [
+        "024-1347",
+        "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+      ],
+      [
+        "024-1347",
+        "be28558a-8b99-37e1-8c00-21480c508c8a"
+      ]
+    ],
+    "https://edu.py2fun.com/learn#/course/list": [
+      [
+        "024-1349",
+        "135012de-6a76-306d-8def-17054b8a7184"
+      ]
+    ]
+  },
+  "captured": 25,
+  "failedOriginalRequests": 1,
+  "failed": 0,
+  "resolvedByAlias": [
+    "http://sj.zol.com.cn/bizhi/1080x1920"
+  ],
+  "incompatibleHistoricalResponses": [
+    {
+      "url": "https://www.biqukan.cc/article/30067/",
+      "where": [
+        [
+          "024-1330",
+          "ad32e038-31ea-33b8-8431-13cd7b2566b2"
+        ],
+        [
+          "024-1330",
+          "49682195-2150-3a8b-8395-1e411b121bc7"
+        ],
+        [
+          "024-1330",
+          "3f056dc8-680a-3d40-88eb-f0ebccceb1a6"
+        ],
+        [
+          "024-1330",
+          "0f592c1b-1549-37a0-b317-fb4b3a5c55bd"
+        ],
+        [
+          "024-1330",
+          "4cdf728e-b187-305c-98bc-f49f20ea345d"
+        ],
+        [
+          "024-1330",
+          "61a6f7a4-49a4-3441-97e6-1193476baaa3"
+        ],
+        [
+          "024-1330",
+          "c2bbd414-9475-3983-a24d-bce95d8d8c5a"
+        ],
+        [
+          "024-1330",
+          "012c82d8-54b0-3de0-92c4-00efbeb7a68d"
+        ],
+        [
+          "024-1330",
+          "51bc78c2-3d8b-3e00-88f5-52824490274d"
+        ],
+        [
+          "024-1330",
+          "19c84e76-9cea-3dcc-9fc3-d172ef5d61ff"
+        ]
+      ],
+      "reason": "Current response has changed encoding and selector structure; archived without fabricating historical HTML."
+    },
+    {
+      "url": "https://www.biqukan.cc/article/30067/17748491.html",
+      "where": [
+        [
+          "024-1331",
+          "dd2a3261-5255-3564-9e12-f70a06b74a36"
+        ],
+        [
+          "024-1331",
+          "62e82513-4643-3a42-8c59-350e79f9850b"
+        ],
+        [
+          "024-1331",
+          "717482ac-1f39-3daa-8097-639d96897757"
+        ]
+      ],
+      "reason": "Current response has changed encoding and selector structure; archived without fabricating historical HTML."
+    }
+  ],
+  "teachingAdaptations": [
+    {
+      "url": "https://www.biqukan.cc/article/30067/",
+      "path": "/content/fixtures/network/biqukan-index-teaching-gbk.html",
+      "rawPath": "/content/fixtures/network/644529fe396dbeb81ba5.html",
+      "audit": "/content/biqukan-compat-audit.json"
+    },
+    {
+      "url": "https://www.biqukan.cc/article/30067/17748491.html",
+      "path": "/content/fixtures/network/biqukan-chapter-teaching-gbk.html",
+      "rawPath": "/content/fixtures/network/cc1311886ebe3c0373c4.html",
+      "audit": "/content/biqukan-compat-audit.json"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://baidu.com",
+      "where": [
+        [
+          "024-1324",
+          "3a96d439-d4ae-3ec7-9cf0-8c80e9ba36c2"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:09.475840+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.baidu.com/",
+      "bytes": 741459,
+      "sha256": "b82694155b2a76b16eff8143daf884d46d73cc34706bae3b253905588aefb8ec",
+      "path": "/content/fixtures/network/57dccbd875bb1b745520.html"
+    },
+    {
+      "url": "http://www.jd.com",
+      "where": [
+        [
+          "024-1326",
+          "989ae6e0-340e-3bad-a4ec-cd9c174157bb"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:14.157431+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.jd.com/",
+      "bytes": 196501,
+      "sha256": "acbf545679d7746d40bd9c3736f334b11b737f63b8caba0f1053ae6dd2214fb7",
+      "path": "/content/fixtures/network/9c34a8a33e2143a2216a.html"
+    },
+    {
+      "url": "https://www.biqukan.cc/article/30067/",
+      "where": [
+        [
+          "024-1330",
+          "ad32e038-31ea-33b8-8431-13cd7b2566b2"
+        ],
+        [
+          "024-1330",
+          "49682195-2150-3a8b-8395-1e411b121bc7"
+        ],
+        [
+          "024-1330",
+          "3f056dc8-680a-3d40-88eb-f0ebccceb1a6"
+        ],
+        [
+          "024-1330",
+          "0f592c1b-1549-37a0-b317-fb4b3a5c55bd"
+        ],
+        [
+          "024-1330",
+          "4cdf728e-b187-305c-98bc-f49f20ea345d"
+        ],
+        [
+          "024-1330",
+          "61a6f7a4-49a4-3441-97e6-1193476baaa3"
+        ],
+        [
+          "024-1330",
+          "c2bbd414-9475-3983-a24d-bce95d8d8c5a"
+        ],
+        [
+          "024-1330",
+          "012c82d8-54b0-3de0-92c4-00efbeb7a68d"
+        ],
+        [
+          "024-1330",
+          "51bc78c2-3d8b-3e00-88f5-52824490274d"
+        ],
+        [
+          "024-1330",
+          "19c84e76-9cea-3dcc-9fc3-d172ef5d61ff"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:51:52.187657+00:00",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "finalUrl": "https://www.biqukan.cc/article/30067/",
+      "bytes": 35735,
+      "sha256": "421b4fba5b1a6b4b7a1f3fc670a91ded93b4e55e27ec3a87edf7245eac7d997e",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "path": "/content/fixtures/network/644529fe396dbeb81ba5.html",
+      "recoveryNote": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated.",
+      "expectedSelectorsPresent": false,
+      "expectedSelectorTokens": [
+        "mulu_list"
+      ],
+      "changedEncoding": {
+        "originalLesson": "gbk",
+        "currentResponse": "utf-8"
+      },
+      "publicExecutionRequest": {
+        "language": "python3",
+        "source_code": "import requests, json, base64\nr=requests.get('https://www.biqukan.cc/article/30067/', timeout=15)\nprint(json.dumps({\"status\":r.status_code,\"url\":r.url,\"headers\":dict(r.headers),\"body\":base64.b64encode(r.content).decode()}))",
+        "stdin": "",
+        "course_no": "024",
+        "page_id": "1330",
+        "comp_id": "ad32e038-31ea-33b8-8431-13cd7b2566b2",
+        "additional_files": "[]",
+        "entry_filename": "main.py",
+        "time_limit": 25
+      },
+      "responseHeaders": {
+        "Date": "Sun, 01 Nov 2026 16:37:36 GMT",
+        "Content-Type": "text/html;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Etag": "W/\"9b0350d4144e294d132a9dfc916bb5f3\"",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Content-Encoding": "gzip",
+        "Server": "520cmi",
+        "X-Cache-Status": "MISS from L1:4",
+        "Via": "L1:4"
+      }
+    },
+    {
+      "url": "https://www.biqukan.cc/article/30067/17748491.html",
+      "where": [
+        [
+          "024-1331",
+          "dd2a3261-5255-3564-9e12-f70a06b74a36"
+        ],
+        [
+          "024-1331",
+          "62e82513-4643-3a42-8c59-350e79f9850b"
+        ],
+        [
+          "024-1331",
+          "717482ac-1f39-3daa-8097-639d96897757"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:51:52.189828+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "finalUrl": "https://www.biqukan.cc/article/30067/17748491.html",
+      "bytes": 21347,
+      "sha256": "d3c07ced35be6bd198b0d477bf2a7b525098272cceb86c9a82de4cdb1107ce31",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "path": "/content/fixtures/network/cc1311886ebe3c0373c4.html",
+      "recoveryNote": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated.",
+      "expectedSelectorsPresent": false,
+      "expectedSelectorTokens": [
+        "htmlContent"
+      ],
+      "changedEncoding": {
+        "originalLesson": "gbk",
+        "currentResponse": "utf-8"
+      },
+      "publicExecutionRequest": {
+        "language": "python3",
+        "source_code": "import requests,json,base64\nnotes=[]\nfor attempt in range(3):\n try:\n  r=requests.get('https://www.biqukan.cc/article/30067/17748491.html',timeout=8)\n  print(json.dumps({\"status\":r.status_code,\"url\":r.url,\"headers\":dict(r.headers),\"body\":base64.b64encode(r.content).decode(),\"attempts\":notes}));break\n except Exception as e: notes.append(str(e))\nelse: print(json.dumps({\"errors\":notes}))",
+        "stdin": "",
+        "course_no": "024",
+        "page_id": "1331",
+        "comp_id": "dd2a3261-5255-3564-9e12-f70a06b74a36",
+        "additional_files": "[]",
+        "entry_filename": "main.py",
+        "time_limit": 30
+      },
+      "responseHeaders": {
+        "Date": "Sun, 01 Nov 2026 16:40:10 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Etag": "W/\"fff99b207691c591ba4882261a8c77c1\"",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Content-Encoding": "gzip",
+        "Server": "520cmi",
+        "X-Cache-Status": "MISS from L1:4",
+        "Via": "L1:4"
+      }
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/1.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.287904+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+      "bytes": 51727,
+      "sha256": "89975f703a7d4ed900cf72c9193e3f3c4d0231b324e36a0d932e9c425d344afb",
+      "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+      "recoveryNote": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html.",
+      "historicalArchive": true,
+      "aliases": [
+        "http://sj.zol.com.cn/bizhi/1080x1920",
+        "http://sj.zol.com.cn/bizhi/1080x1920/"
+      ],
+      "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ],
+        [
+          "024-1335",
+          "687700f9-3064-33a4-8f9d-243b3dd7e7c3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:11.032278+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+      "where": [
+        [
+          "024-1336",
+          "078500cf-7dcd-3eb0-ac07-3668fb39ae9a"
+        ],
+        [
+          "024-1336",
+          "6db0373b-8dd5-3e09-9aac-964fe59fceba"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.296927+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+      "bytes": 19366,
+      "sha256": "bb91c7237924f135b5f143e4d76eca8209b499afa904987e316ac966049c51f0",
+      "source": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+      "recoveryNote": "Exact original detail page bytes from public archive.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/efc1a4914aaae0c70d3a.html"
+    },
+    {
+      "url": "http://sj.zol.com.cn",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:10.290094+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://sj.zol.com.cn/",
+      "bytes": 77640,
+      "sha256": "79364e51695b094f8a7d5518b6a3350b586eac293d3611d669a03ddd5ddb52a2",
+      "path": "/content/fixtures/network/48cef96d90b49575bd3b.html"
+    },
+    {
+      "url": "https://book.douban.com/tag/?view=cloud",
+      "where": [
+        [
+          "024-1342",
+          "2c051653-a459-3959-b713-b67d5bc978f2"
+        ],
+        [
+          "024-1342",
+          "a3a7770f-3ca1-3b32-8960-7340854810e6"
+        ],
+        [
+          "024-1342",
+          "a7104719-869a-3c32-abb4-cf3250858265"
+        ],
+        [
+          "024-1342",
+          "9ce513a6-2790-32e3-8588-c362f195b40d"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:09.476923+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/?view=cloud",
+      "bytes": 29750,
+      "sha256": "27b32a1923a7400f580d15fa68b4c63be65fbad199be13a27792e92237982116",
+      "path": "/content/fixtures/network/2375ec30725b4296b065.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "tagCol"
+      ]
+    },
+    {
+      "url": "https://book.douban.com/subject/26829016/",
+      "where": [
+        [
+          "024-1344",
+          "93c3f2da-519a-38a4-a0e5-6a86a8c36124"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:10.063539+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/subject/26829016/",
+      "bytes": 150449,
+      "sha256": "b49ebd2c682614e16912a609c8db6f6350244a0741329b3024484e750ed0dc42",
+      "path": "/content/fixtures/network/5970c516d1ac8600a00d.html"
+    },
+    {
+      "url": "https://edu.py2fun.com/learn#/course/list",
+      "where": [
+        [
+          "024-1349",
+          "135012de-6a76-306d-8def-17054b8a7184"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:09.912492+00:00",
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://edu.py2fun.com/learn#/course/list",
+      "bytes": 1935,
+      "sha256": "ea3487efb92fa6a52ad76d8768c28a16455286b8992a5971613fcd28e74226c6",
+      "path": "/content/fixtures/network/f22d7ee2045b683bc73e.html"
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/2.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.297852+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+      "bytes": 50656,
+      "sha256": "9dc379e00313a074b905ccf7005611181a048fcd216fdb4b966e6406662fcdbf",
+      "source": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/5c4734ffbd0845242c1e.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/3.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.298372+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+      "bytes": 50713,
+      "sha256": "187c427cfae40fbcccd691a7029b92e97d7a8877105f0ecdecdfd770ba26960e",
+      "source": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/f038c847f7012d5ad72f.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/4.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.298804+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+      "bytes": 50934,
+      "sha256": "72079029cfd93747398be06c6cd0ac201c205e9565efe7ec10ad0af1c85869fb",
+      "source": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/98ba8855c26e620fa318.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/5.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.299956+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+      "bytes": 50987,
+      "sha256": "016f763073aa6e491432936cec89d749daf37ea4a194a0629a4fa2c9677a1737",
+      "source": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/a7d90c777b22a856c21a.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/6.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.301875+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+      "bytes": 51000,
+      "sha256": "2da22389bc6a399926fdadd3c5bd52e774078daf4e57f07b6921786cbfcd0a93",
+      "source": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/87b77a0feb74f8c7f9b2.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/7.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.302490+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+      "bytes": 50764,
+      "sha256": "30956600f13565d1761a90348dc98af3515a5390340a730f05f3a6745d86f6d3",
+      "source": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/f3180851fd1ece9bfd4f.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/8.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.302940+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+      "bytes": 49983,
+      "sha256": "b59cd82f5d7aa49529f0ad60a613ec8c75b78e42dd982f147c759ff10b86034f",
+      "source": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/5442ee4e9d59844d5162.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/9.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.305524+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+      "bytes": 49943,
+      "sha256": "1873a0ab3fe9e8702c828c8f740f434be1eddcd06aaf86703da544a09229cc66",
+      "source": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/1735e38a7bfe38cf5e6e.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "http://sj.zol.com.cn/bizhi/1080x1920/10.html",
+      "where": [
+        [
+          "024-1339",
+          "2463fef3-0848-3424-9413-3216e6952f3f"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.305320+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=gbk",
+      "finalUrl": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+      "bytes": 49900,
+      "sha256": "b63ea98616e8c3c176e7fb19e3f3cabb4bb22f1ea8c4c770c4d380b0990e7aa1",
+      "source": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+      "recoveryNote": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/76afeb3a9439f60c905b.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "class=\"pic\""
+      ]
+    },
+    {
+      "url": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+      "where": [
+        [
+          "024-1343",
+          "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:50.789530+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+      "bytes": 59380,
+      "sha256": "5d052267e5f4e29093ce264b188a0c6f299d9cd642d9403de049604c977c541d",
+      "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "subject-item"
+      ]
+    },
+    {
+      "url": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+      "where": [
+        [
+          "024-1343",
+          "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:51.610027+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+      "bytes": 56934,
+      "sha256": "ccb85b2304fde383a4ff9fecea91c6e2986a5ca2cfc84654085c7c46b13021a7",
+      "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "subject-item"
+      ]
+    },
+    {
+      "url": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+      "where": [
+        [
+          "024-1343",
+          "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:52.716066+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+      "bytes": 57859,
+      "sha256": "3113def8305fa3ff6a13840036ac9b6874d4dd16daa85189c3183677ee3f8f37",
+      "path": "/content/fixtures/network/278682050980f84c06b5.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "subject-item"
+      ]
+    },
+    {
+      "url": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+      "where": [
+        [
+          "024-1343",
+          "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:53.765312+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+      "bytes": 56635,
+      "sha256": "6bf0b5887fbb937122352afc79d71180c5e93930427cbbcb271b261cd51325f2",
+      "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "subject-item"
+      ]
+    },
+    {
+      "url": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+      "where": [
+        [
+          "024-1343",
+          "c9e59bac-9a11-39b2-84b4-fc1058ad1ce3"
+        ]
+      ],
+      "capturedAt": "2026-11-01T15:58:54.321511+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+      "bytes": 57685,
+      "sha256": "1ac8a6da63436f6ac7934d4e56ec748fa2b89027c5c20bab4d9bed8d0943ec6f",
+      "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
+      "expectedSelectorsPresent": true,
+      "expectedSelectorTokens": [
+        "subject-item"
+      ]
+    },
+    {
+      "url": "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+      "where": [
+        [
+          "024-1336",
+          "fixed archived resource"
+        ]
+      ],
+      "capturedAt": "2026-11-01T16:20:15.308004+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+      "bytes": 37385,
+      "sha256": "0f0135ffe55bbed8ac9e5143c85c9af1cad3790e991f30057230c5b1639e504f",
+      "source": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+      "recoveryNote": "Exact archived original image, previously restored for this course.",
+      "historicalArchive": true,
+      "aliases": [],
+      "path": "/content/fixtures/network/bdcad9125dbbc4af245d.jpg"
+    }
+  ],
+  "not_requested": [
+    {
+      "url": "https://img9.doubanio.com/view/subject/s/public/s28891775.jpg",
+      "where": [
+        [
+          "024-1344",
+          "93c3f2da-519a-38a4-a0e5-6a86a8c36124"
+        ]
+      ],
+      "reason": "Image URL is an example dictionary value, not requested by runnable code."
+    },
+    {
+      "url": "https://accounts.douban.com/j/mobile/login/basic",
+      "where": [
+        [
+          "024-1347",
+          "8e4f90a3-10e8-3c3c-b1d5-3a92da3a9eed"
+        ],
+        [
+          "024-1347",
+          "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+        ]
+      ],
+      "reason": "Requires account credentials/private user data; never captured as a public fixture."
+    },
+    {
+      "url": "https://accounts.douban.com/passport/login_popup?login_source=anony",
+      "where": [
+        [
+          "024-1347",
+          "8e4f90a3-10e8-3c3c-b1d5-3a92da3a9eed"
+        ],
+        [
+          "024-1347",
+          "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+        ]
+      ],
+      "reason": "Requires account credentials/private user data; never captured as a public fixture."
+    },
+    {
+      "url": "https://www.douban.com/mine/orders/",
+      "where": [
+        [
+          "024-1347",
+          "ea44a9fa-2c3b-3736-8e9f-f0a07de68573"
+        ],
+        [
+          "024-1347",
+          "be28558a-8b99-37e1-8c00-21480c508c8a"
+        ]
+      ],
+      "reason": "Requires account credentials/private user data; never captured as a public fixture."
+    }
+  ],
+  "limitations": [
+    "Fixed GET fixtures do not grant arbitrary internet access.",
+    "ZOL first-page endpoint is adapted from the archived directory index and explicitly labeled.",
+    "ZOL full crawler is an originally nonrunnable example with an erroneous host-dot URL concatenation. Ten list pages and the lesson fixed detail/image are archived; all dynamically discovered albums are not included."
+  ]
+}

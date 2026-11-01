@@ -10,3 +10,9 @@
 *.whl binary
 *.bin binary
 *.zip binary
+# Preserve captured response/data bytes, including CRLF, GBK and trailing spaces.
+public/content/fixtures/** binary
+public/content/runtime-data/*.csv binary
+public/content/runtime-data/*.txt binary
+runner/fixtures/content/** binary
+public/content/runtime-data/*.rst binary

@@ -1,0 +1,112 @@
+[
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/1.html",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-1.body",
+    "note": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html.",
+    "aliases": [
+      "http://sj.zol.com.cn/bizhi/1080x1920",
+      "http://sj.zol.com.cn/bizhi/1080x1920/"
+    ]
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/10.html",
+    "source": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-10.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/2.html",
+    "source": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-2.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/3.html",
+    "source": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-3.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/4.html",
+    "source": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-4.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/5.html",
+    "source": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-5.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/6.html",
+    "source": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-6.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/7.html",
+    "source": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-7.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/8.html",
+    "source": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-8.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/1080x1920/9.html",
+    "source": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "archive-list-9.body",
+    "note": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+  },
+  {
+    "url": "http://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+    "source": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+    "contentType": "text/html; charset=gbk",
+    "cacheBody": "zol-detail-archive.html",
+    "note": "Exact original detail page bytes from public archive."
+  },
+  {
+    "url": "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+    "source": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+    "contentType": "image/jpeg",
+    "existing": "/content/dependencies/wallpaper.jpg",
+    "note": "Exact archived original image, previously restored for this course."
+  },
+  {
+    "url": "https://www.biqukan.cc/article/30067/",
+    "source": "https://edu.py2fun.com/api/course/code/execute",
+    "contentType": "text/html;charset=UTF-8",
+    "courseExecution": {
+      "course_no": "024",
+      "page_id": "1330",
+      "comp_id": "ad32e038-31ea-33b8-8431-13cd7b2566b2"
+    },
+    "note": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+  },
+  {
+    "url": "https://www.biqukan.cc/article/30067/17748491.html",
+    "source": "https://edu.py2fun.com/api/course/code/execute",
+    "contentType": "text/html; charset=UTF-8",
+    "courseExecution": {
+      "course_no": "024",
+      "page_id": "1331",
+      "comp_id": "dd2a3261-5255-3564-9e12-f70a06b74a36"
+    },
+    "note": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+  }
+]

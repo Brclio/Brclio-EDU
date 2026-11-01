@@ -1,0 +1,1219 @@
+{
+  "startedAt": "2026-11-01T17:10:31.461Z",
+  "sourceHashBefore": "8e9d369456b8dd0a84269f569820447350cd3a9956b9b26638effe18116b5eb7",
+  "coverage": {
+    "examples": 90,
+    "byKind": {
+      "RunJS": 7,
+      "JsHtml": 83
+    }
+  },
+  "results": [
+    {
+      "page": "003-106",
+      "id": "e0d3cf92f5d311ebb3873af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "computed output equals original algorithm",
+          "passed": true,
+          "actual": "Output: obese"
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "INPUT bmi: \n\nIF bmi >= 30\n\nOUTPUT obese\n\nELSE-IF bmi >= 25\n\nOUTPUT overweight\n\nELSE-IF bmi >= 18.5\n\nOUTPUT healthy\n\nELSE\n\nOUTPUT underweight\n\nOutput:\n\nDone",
+      "finalText": "INPUT bmi: \n\nIF bmi >= 30\n\nOUTPUT obese\n\nELSE-IF bmi >= 25\n\nOUTPUT overweight\n\nELSE-IF bmi >= 18.5\n\nOUTPUT healthy\n\nELSE\n\nOUTPUT underweight\n\nOutput:\n\nDone\nentered",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-103",
+      "id": "59b99f2ef54111eb8e643af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "computed output equals original algorithm",
+          "passed": true,
+          "actual": "Output: 12"
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "INPUT n1:  n2: \n\nIF n1 > n2\n\nmax = n1\n\nELSE\n\nmax = n2\n\nOUTPUT max\n\nOutput:\n\nDone",
+      "finalText": "INPUT n1:  n2: \n\nIF n1 > n2\n\nmax = n1\n\nELSE\n\nmax = n2\n\nOUTPUT max\n\nOutput:\n\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-88",
+      "id": "fac709fcf35b11ebb322acde48001122",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "65 -> A / binary 1000001",
+          "passed": true,
+          "actual": {
+            "character": "A",
+            "binary": "1000001"
+          }
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "ASCII code:\ncharacter\nbinary equivalent\nDone",
+      "finalText": "ASCII code:\ncharacter\nbinary equivalent\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-104",
+      "id": "65877190f54211eb83253af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "computed output equals original algorithm",
+          "passed": true,
+          "actual": "Output: odd"
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "INPUT n: \n\nRemainder = n mod 2\n\nIF Remainder is not equal to 0\n\nanswer = odd\n\nELSE\n\nanswer = even\n\nOUTPUT answer\n\nOutput:\n\nDone",
+      "finalText": "INPUT n: \n\nRemainder = N mod 2\n\nIF Remainder is not equal to 0\n\nanswer = odd\n\nELSE\n\nanswer = even\n\nOUTPUT answer\n\nOutput:\n\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-111",
+      "id": "20154664f53311ebaf7c3af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "4 is not prime",
+          "passed": true,
+          "actual": "not prime"
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "n:\ni\nrem\nanswer\nDone",
+      "finalText": "n:\ni\nrem\nanswer\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1176",
+      "id": "7c9ddaad-36b0-3500-adb1-54da90ff3d4d",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Testing in progress",
+      "finalText": "Testing in progress",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1177",
+      "id": "30677cc8-45ed-3eef-a744-310304137c33",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Hello World!",
+      "finalText": "Hello World!",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1177",
+      "id": "3558d796-6609-3f66-9c98-5f153889e399",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Hello World!",
+      "finalText": "Hello World!",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1178",
+      "id": "bd252139-0ba3-37e8-9f42-4e7fa339010f",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "100",
+      "finalText": "100",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1178",
+      "id": "dc57ad33-708f-38b4-8848-bce2e9c48486",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "10042",
+      "finalText": "10042",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1178",
+      "id": "0d88c63a-ff53-37d5-b45d-d2bfecb35aad",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [
+        "X is not defined"
+      ],
+      "initialText": "Uncaught ReferenceError: X is not defined",
+      "finalText": "Uncaught ReferenceError: X is not defined",
+      "failedImages": [],
+      "classification": "original-case-sensitivity-error"
+    },
+    {
+      "page": "022-1179",
+      "id": "d45d149d-be97-3484-a467-35233b3f0c49",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is an alert box!\n\n确定",
+      "finalText": "This is an alert box!\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1179",
+      "id": "5c8dc3db-33bc-3631-9a08-ddb2ae118239",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is an alert box!\n\n确定",
+      "finalText": "This is an alert box!\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1180",
+      "id": "699cac7a-b0f8-3513-aa87-40388a8c96bd",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "55.55",
+      "finalText": "55.55",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1180",
+      "id": "dbc78339-b92f-369c-825e-74021fe61268",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Hello world! 'I am a JavaScript programmer.'",
+      "finalText": "Hello world! 'I am a JavaScript programmer.'",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1182",
+      "id": "f37df8e9-7fdf-363f-b64b-279a7fe3f186",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "15",
+      "finalText": "15",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1182",
+      "id": "5dc252cc-e93d-3a7b-9fcd-aae4a9392056",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "6630",
+      "finalText": "6630",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1182",
+      "id": "ad2a32ca-c3bf-3b09-8618-0a1fb9588ccc",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "50",
+      "finalText": "50",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1182",
+      "id": "3a0ce934-0652-329e-a23f-23d4f24261bb",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "20",
+      "finalText": "20",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1182",
+      "id": "6da27c12-1b96-3186-a0a5-4ee8bc4c7aff",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "2",
+      "finalText": "2",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1185",
+      "id": "e1e0b9c1-07cf-3657-be22-32e9dc2d0c48",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "true",
+      "finalText": "true",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1185",
+      "id": "6f60d5c5-6f0f-3269-9df6-419653a4b8e7",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Old enough",
+      "finalText": "Old enough",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1186",
+      "id": "02b13a34-4422-3169-a16d-4fbf8366e3fd",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "I am learning JavaScript with Pythontip.",
+      "finalText": "I am learning JavaScript with Pythontip.",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1188",
+      "id": "b5735c39-f8c7-3bc3-a440-16f7970dca1c",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JavaScript is easy to learn.\n\n确定",
+      "finalText": "JavaScript is easy to learn.\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1188",
+      "id": "58b7c3ef-331e-309b-8b1c-493fc1462665",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1189",
+      "id": "53f805a2-4e54-3aa9-8a0f-5d1df79ef159",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is my second condition\n\n确定",
+      "finalText": "This is my second condition\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1190",
+      "id": "5c9607ef-a53f-3eb7-a1cb-1175b97c4223",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "HTML Tutorial",
+      "finalText": "HTML Tutorial",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1190",
+      "id": "defc3478-f7aa-338e-9397-a54785f73157",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JavaScript Tutorial",
+      "finalText": "JavaScript Tutorial",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1191",
+      "id": "60d71ac9-5c56-3f50-89ba-88712385f78f",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Tuesday",
+      "finalText": "Tuesday",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1191",
+      "id": "1d3866a8-74bc-3add-9d91-780b4f914bc6",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Color not found.",
+      "finalText": "Color not found.",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "02333f14-4607-3f0b-adfb-dcb6e23ade5e",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1\n2\n3\n4\n5\n",
+      "finalText": "1\n2\n3\n4\n5\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "efa54d39-e2d6-34eb-950d-753a451be7ea",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1\n2\n3\n4\n5\n",
+      "finalText": "1\n2\n3\n4\n5\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-98",
+      "id": "626d2512f75511eb871b3af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "computed output equals original algorithm",
+          "passed": true,
+          "actual": "OUTPUT: 4"
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "INPUT distance:  consumption:  cost_per_liter: \n\nliters_required = distance / consumption\n\ntotal_cost = liters_required * cost_per_liter\n\nOUTPUT total_cost\n\nOutput:\n\nDone",
+      "finalText": "INPUT distance:  consumption:  cost_per_liter: \n\nliters_required = distance / consumption\n\ntotal_cost = liters_required * cost_per_liter\n\nOUTPUT total_cost\n\nOUTPUT:\n\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "3e8a30d4-4272-3722-b10a-04a1f95749ec",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1\n2\n3\n4\n5\n",
+      "finalText": "1\n2\n3\n4\n5\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "59631dc5-2bc6-347c-a44d-5a6644730f00",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "0123456789",
+      "finalText": "0123456789",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1193",
+      "id": "7eb15a34-a686-3bd5-8646-6420e919fdb6",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+      "finalText": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1194",
+      "id": "ab764afa-8511-3172-8926-0defdfc17fb3",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "20\n21\n22\n23\n24\n25\n",
+      "finalText": "20\n21\n22\n23\n24\n25\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1195",
+      "id": "fa0558c3-2277-376d-b671-0a3ab191db2f",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "0\n1\n2\n3\n4\n",
+      "finalText": "0\n1\n2\n3\n4\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1195",
+      "id": "ee1b915b-f768-3971-83d2-e1432f9a110b",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "0\n1\n2\n3\n4\n6\n7\n8\n9\n10\n",
+      "finalText": "0\n1\n2\n3\n4\n6\n7\n8\n9\n10\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1197",
+      "id": "bdecaaa5-16f0-3129-8cbc-30e46f8f0600",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "函数被调用了!\n\n确定",
+      "finalText": "函数被调用了!\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1197",
+      "id": "b28efc49-4b7b-3ada-8b7a-0554caa6fcd6",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Alert box!\n\n确定",
+      "finalText": "Alert box!\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1198",
+      "id": "4a98a2cd-ac87-36b1-aa41-bb8aec4ac534",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Hi, David\n\n确定",
+      "finalText": "Hi, David\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1198",
+      "id": "926d59b9-b95b-3489-a615-79dc2749b6e4",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Hi, David\n\n确定",
+      "finalText": "Hi, David\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1199",
+      "id": "ece42f75-bf78-3a17-a674-33624f15842c",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "John is 20 years old.",
+      "finalText": "John is 20 years old.",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1200",
+      "id": "dc35680a-4de5-333d-87f3-6edc70af8370",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "42",
+      "finalText": "42",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "8ec2ff6e-b40f-3efa-9e40-046ec4bfa0ec",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "你确认要离开该页面吗?\n\n确定",
+      "finalText": "你确认要离开该页面吗?\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "003-99",
+      "id": "353198bcf75011eb963c3af9d3c2d1d5",
+      "kind": "RunJS",
+      "checks": [
+        {
+          "name": "3 and 7 actually swapped",
+          "passed": true,
+          "actual": [
+            "7",
+            "3"
+          ]
+        },
+        {
+          "name": "reset restores editable inputs",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "Enter two numbers to swap\nn1:\nn2:\nDone",
+      "finalText": "Enter two numbers to swap\nn1:\nn2:\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "e3b7db88-2921-3d64-978f-a76885690492",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "你好\n今天过的怎么样?\n\n确定",
+      "finalText": "你好\n今天过的怎么样?\n\n确定",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "e292ea85-16fa-302b-90bf-b84dda2ae128",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "prompt value reaches following alert",
+          "passed": true,
+          "actual": "测试姓名"
+        }
+      ],
+      "errors": [],
+      "initialText": "输入你的名字\n\n取消\n确定",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1203",
+      "id": "f296605a-74ca-3f7a-8164-fd622f8348b5",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "3131",
+      "finalText": "3131",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1203",
+      "id": "a5297c82-a123-3777-a4cb-203bc3a22cdb",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "2",
+      "finalText": "2",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1203",
+      "id": "8a8606c2-bf69-3fe4-9cd1-6ec5e9e8d9cd",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is some text",
+      "finalText": "This is some text",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "cd5a142d-ba74-3625-9f6c-61851c5431d3",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "confirm cancel branch",
+          "passed": true,
+          "actual": "你留下来啦😄"
+        },
+        {
+          "name": "confirm accept branch",
+          "passed": true,
+          "actual": "再见👋"
+        }
+      ],
+      "errors": [],
+      "initialText": "你确认要离开该页面吗?\n\n取消\n确定",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1204",
+      "id": "8b288f9d-9fbd-3dfb-9be3-866cd2346ceb",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "John42Amy21",
+      "finalText": "John42Amy21",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1204",
+      "id": "4856c425-92f7-380a-bff2-1f830872a066",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "25",
+      "finalText": "25",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1205",
+      "id": "db8eece9-1fa2-3e80-b41b-3f2293fc791f",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "25",
+      "finalText": "25",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1206",
+      "id": "b9fbab46-5fb9-31b9-89ab-de849272dc7d",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "John",
+      "finalText": "John",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1206",
+      "id": "cc3949c2-f1f0-3501-9996-233ed1d3771e",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1994",
+      "finalText": "1994",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1208",
+      "id": "ccc549b8-fea4-32ef-9ae2-84cbe2d51919",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "undefined",
+      "finalText": "undefined",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1209",
+      "id": "a0d084af-40eb-385c-ba3d-6f1563641880",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JS",
+      "finalText": "JS",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1209",
+      "id": "3c118e0f-0f87-3174-b565-5e16d1cbc728",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JS",
+      "finalText": "JS",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1209",
+      "id": "35cbb7e1-f0f0-31c8-89c6-d662e38429c4",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JS",
+      "finalText": "JS",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1210",
+      "id": "b3a040f0-67af-31fb-81d5-66ae6e54aa94",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "3",
+      "finalText": "3",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1210",
+      "id": "a0bbfcef-fc9c-3f8b-9466-bb16b7ee0f99",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "JS",
+      "finalText": "JS",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1211",
+      "id": "ce8c19a9-b15f-3731-a2cb-ca8047f7f3cb",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "46",
+      "finalText": "46",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1212",
+      "id": "4ce6994b-1f81-3843-aece-1e90385f1a91",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "3.141592653589793",
+      "finalText": "3.141592653589793",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1212",
+      "id": "28169a15-7612-358f-b8c6-9bbb942f6cdf",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "2",
+      "finalText": "2",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1212",
+      "id": "cfe14573-5327-3a08-8570-a7cc837a9fbe",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "prompt numeric value drives sqrt",
+          "passed": true,
+          "actual": "The square root of 81 is 9"
+        }
+      ],
+      "errors": [],
+      "initialText": "Enter a number\n\n取消\n确定",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1213",
+      "id": "9771c042-72fd-37c8-9d69-02240464cfb3",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1",
+      "finalText": "1",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1216",
+      "id": "5a9e40fd-a76e-3646-85b6-bc3463d928a3",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "timeout changes DOM text",
+          "passed": true,
+          "actual": "new text\n\nnew text"
+        }
+      ],
+      "errors": [],
+      "initialText": "some text\n\nsome other text",
+      "finalText": "new text\n\nnew text",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1217",
+      "id": "79e781ef-558d-3e16-8822-fe18805e6e2f",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Some link",
+      "finalText": "Some link",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1217",
+      "id": "de16205d-e618-3335-9153-a78bc48a093b",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "some text",
+      "finalText": "some text",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1218",
+      "id": "75c4d2b7-3d28-3101-a9d5-349b44a23d47",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "some content\n\nSome new text",
+      "finalText": "some content\n\nSome new text",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1218",
+      "id": "9e7bdcf0-ebd9-3af8-844d-63022d16ab9e",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is another paragraph.",
+      "finalText": "This is another paragraph.",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1218",
+      "id": "ad68d579-eb14-36a0-8d36-84247da79771",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "This is new\n\nThis is another paragraph.",
+      "finalText": "This is new\n\nThis is another paragraph.",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1219",
+      "id": "8e36ee45-2608-306e-a606-b844ec29fbe7",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1219",
+      "id": "96deabde-63d7-3d71-aaf0-e3ed8330632d",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "animation changes actual box position",
+          "passed": true,
+          "actual": {
+            "before": "10px",
+            "after": "26px"
+          }
+        }
+      ],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1220",
+      "id": "18056949-dc6a-37a5-bd0a-765786f622ca",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "inline button invokes global show()",
+          "passed": true,
+          "actual": "Hi there"
+        }
+      ],
+      "errors": [],
+      "initialText": "Click Me",
+      "finalText": "Click Me",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1220",
+      "id": "d0237419-e86c-3a6b-8bcd-d0ecdf9121d1",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "click replaces content with date",
+          "passed": true,
+          "actual": "Mon Nov 02 2026 01:10:44 GMT+0800 (China Standard Time)"
+        }
+      ],
+      "errors": [],
+      "initialText": "Click Me",
+      "finalText": "Mon Nov 02 2026 01:10:44 GMT+0800 (China Standard Time)",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1220",
+      "id": "50e5ec5a-7d69-315a-b62f-0354bee6c769",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "change handler uppercases input",
+          "passed": true,
+          "actual": "HELLO"
+        }
+      ],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1220",
+      "id": "d16495c8-8930-3959-8097-a662f8836385",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "event listener returns random value",
+          "passed": true,
+          "actual": "0.03486073190240235"
+        },
+        {
+          "name": "listener removes itself",
+          "passed": true,
+          "actual": 0
+        }
+      ],
+      "errors": [],
+      "initialText": "Start",
+      "finalText": "Start",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1213",
+      "id": "975f4b7b-4019-38b0-9927-d2b7e0d2b8b8",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "clock interval updates actual text",
+          "passed": true,
+          "actual": {
+            "before": "1:10:43",
+            "after": "1:10:44"
+          }
+        }
+      ],
+      "errors": [],
+      "initialText": "",
+      "finalText": "1:10:44",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1222",
+      "id": "9a25cfe8-f765-3e49-a458-c2977cd71d72",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "Prev\nNext",
+      "finalText": "Prev\nNext",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1223",
+      "id": "a32958e9-ce01-3da0-8ea9-5867ecda946a",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "invalid form rejected with visible feedback",
+          "passed": true,
+          "actual": {
+            "invalid": false,
+            "text": "输入不能为空白，且需要相等"
+          }
+        },
+        {
+          "name": "matching form values pass validation",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "Number: \nRepeat: \n",
+      "finalText": "Number: \nRepeat: \n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1222",
+      "id": "09b64f26-56c8-3759-ae21-eb825a287aba",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "next changes actual image src",
+          "passed": true,
+          "actual": {
+            "before": "/content/assets/77bce30b67fbb0d12346.jpg",
+            "after": "/content/assets/1915d191d2142bcc9f8a.jpg"
+          }
+        },
+        {
+          "name": "previous selects source array index zero",
+          "passed": true,
+          "actual": {
+            "expected": "/content/assets/636995161fa92a2042d8.jpg",
+            "actual": "/content/assets/636995161fa92a2042d8.jpg"
+          }
+        }
+      ],
+      "errors": [],
+      "initialText": "Prev\nNext",
+      "originalSourceNote": "Original HTML starts with sololearn uploads/slider/1.jpg while original JS array starts with cdn.py2fun course assets/1.jpg; these are different images, preserved as supplied.",
+      "finalText": "Prev\nNext",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1226",
+      "id": "81ca7ea4-6f6f-31b1-a5dc-c036d6494121",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1226",
+      "id": "94741dee-c1e4-3f88-8c37-f2a6e5c972a1",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "012",
+      "finalText": "012",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1227",
+      "id": "6bc27adc-4fbc-3ca4-849b-f3e41fd5ee8e",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1227",
+      "id": "e67e8fa4-75c4-35f7-a5df-3ca77a2e4b54",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1213",
+      "id": "0db1b4fa-409b-35b5-8559-4dc90fb24f19",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "interval produces alert after delay",
+          "passed": true,
+          "actual": "Hi"
+        }
+      ],
+      "errors": [],
+      "initialText": "",
+      "finalText": "",
+      "failedImages": [],
+      "classification": "completed"
+    }
+  ],
+  "blockedExternalRequests": [],
+  "limitations": [
+    "Uses the production webPreviewDocument in an iframe with the same allow-scripts sandbox; does not claim full App navigation or pixel equivalence.",
+    "All examples execute; selected real interactions assert resulting values/text/style/image changes, including all seven RunJS activities.",
+    "Only course-used top-level prompt/confirm cases exist; no unsupported hypothetical dialog patterns were introduced."
+  ],
+  "finishedAt": "2026-11-01T17:10:46.190Z",
+  "sourceHashAfter": "8e9d369456b8dd0a84269f569820447350cd3a9956b9b26638effe18116b5eb7",
+  "summary": {
+    "executed": 90,
+    "failedImages": [],
+    "blockedExternalRequests": 0,
+    "errors": 1,
+    "unexpectedErrors": 0,
+    "checks": 31,
+    "passedChecks": 31
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://edu.py2fun.com/api/course/code/execute",
+  "request": {
+    "language": "python3",
+    "source_code": "import sys, json, importlib.metadata\nprint(json.dumps({\"python\": sys.version, \"packages\": {name: importlib.metadata.version(name) for name in [\"numpy\", \"pandas\", \"matplotlib\", \"seaborn\", \"scikit-learn\", \"scipy\"]}}))",
+    "stdin": "",
+    "course_no": "007",
+    "page_id": "307",
+    "comp_id": "3E5iHNuJtFNw0_EiKyB8b",
+    "additional_files": "[]",
+    "entry_filename": "main.py",
+    "time_limit": 10
+  },
+  "response": {
+    "code": 0,
+    "msg": "ok",
+    "data": {
+      "files": [],
+      "status": 0,
+      "stderr": "",
+      "stdout": "{\"python\": \"3.9.9 (main, Dec 21 2021, 10:03:34) \\n[GCC 10.2.1 20210110]\", \"packages\": {\"numpy\": \"1.22.4\", \"pandas\": \"1.4.2\", \"matplotlib\": \"3.1.2\", \"seaborn\": \"0.11.2\", \"scikit-learn\": \"1.1.1\", \"scipy\": \"1.8.1\"}}\n",
+      "format": "text",
+      "reason": "Succeeded",
+      "st_time": 1793579150.827174,
+      "et_time": 1793579150.968608,
+      "time": "0.14s",
+      "run_uuid": "pyedu_python3_e6bcbb65-d610-11f1-98d3-00163e08945e"
+    }
+  }
+}

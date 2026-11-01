@@ -1,0 +1,636 @@
+{
+  "startedAt": "2026-11-01T15:31:56.734Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "dependencies": [
+        "et-xmlfile"
+      ]
+    }
+  ],
+  "workerHashBefore": "40bb64920ad7bd9b3d2ed0957c6602e1ee04eb9dc31dd6b20a522d6fc3284cc3",
+  "selected": 7,
+  "results": [
+    {
+      "key": "/content/pages/007-323.json:6555a55f-422e-410c-8bce-32837ff7c84e",
+      "page": "007-323",
+      "id": "6555a55f-422e-410c-8bce-32837ff7c84e",
+      "course": "007",
+      "code_sha256": "ce05971df5ebcb7d614ec331d64ce6d89e9f45d3571f66ccb9800635c102d5c3",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3890,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "files",
+          "value": [
+            {
+              "name": "d.csv",
+              "mime": "text/csv",
+              "size": 39,
+              "url": "data:text/csv;base64,LGEsYixjCjAsMSwyLDMKMSwyLDMsNAoyLDMsNCw1CjMsNCw1LDYK"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-323.json:71956e28-2218-43de-bafb-b563fc8db7c2",
+      "page": "007-323",
+      "id": "71956e28-2218-43de-bafb-b563fc8db7c2",
+      "course": "007",
+      "code_sha256": "25e0e3d58f9203ba14952895b6256a6b53063c4481cbbd55c3c8aab4519c93fa",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4204,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "files",
+          "value": [
+            {
+              "name": "output.xlsx",
+              "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "size": 4939,
+              "url": "data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,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"
+            },
+            {
+              "name": "output2.xlsx",
+              "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "size": 5513,
+              "url": "data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,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"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-358.json:fc3e6450-7a57-44a3-9298-63a390433c76",
+      "page": "008-358",
+      "id": "fc3e6450-7a57-44a3-9298-63a390433c76",
+      "course": "008",
+      "code_sha256": "c2aef551f51f7d1ee94fb5458868fb95138a109d22d189b8b15d72d153f0bdb5",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3899,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 238342,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 13, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:7f95e1b1-3786-4a5d-9608-f8fe9ea10387",
+      "page": "008-358",
+      "id": "7f95e1b1-3786-4a5d-9608-f8fe9ea10387",
+      "course": "008",
+      "code_sha256": "45a153ba6a1215fe10b93b421a7f9c18ee5b02450425fb69babf058ed5d640a0",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3760,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 333502,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 13, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:57096498-82b3-4efc-b960-f2168af52de7",
+      "page": "008-358",
+      "id": "57096498-82b3-4efc-b960-f2168af52de7",
+      "course": "008",
+      "code_sha256": "a21b443b78e56b2737220a91c537bcf9bbc14a760f3a742152d086da6c8caf30",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4080,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:13: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:13: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 424554,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 14, in <module>\nAttributeError: module 'matplotlib.pyplot' has no attribute 'chose'. Did you mean: 'close'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-358.json:ae3a6f65-151e-4b14-8259-c5dd9e8978c2",
+      "page": "008-358",
+      "id": "ae3a6f65-151e-4b14-8259-c5dd9e8978c2",
+      "course": "008",
+      "code_sha256": "3b6fb15bf30838076026bb81a087cafdbd74fa285b7e2dec4b99b95cbdc4ed84",
+      "imports": [
+        "matplotlib.pyplot"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4520,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:33: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:33: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 794350,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-398.json:32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "page": "009-398",
+      "id": "32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "course": "009",
+      "code_sha256": "f4d25cc4b164d225be51270ae741c028a6542c38e3e10d459bb8800d63878d1e",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "seaborn-positional",
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5421,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:15: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "plots",
+          "value": [
+            {
+              "bytes": 28754,
+              "prefix": "data:image/png;base64,iV"
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution only covers the selected records listed below.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted; visual equivalence of generated charts is not asserted.",
+    "Challenge templates are statically inventoried but not executed as completed solutions."
+  ],
+  "workerHashAfter": "40bb64920ad7bd9b3d2ed0957c6602e1ee04eb9dc31dd6b20a522d6fc3284cc3",
+  "finishedAt": "2026-11-01T15:32:14.090Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 7,
+    "status": {
+      "done": 4,
+      "error": 3
+    },
+    "withAttachments": 0,
+    "plots": 5,
+    "workerChangedDuringAudit": false
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "startedAt": "2026-11-01T16:22:43.767Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "dependencies": [
+        "et-xmlfile"
+      ]
+    }
+  ],
+  "workerHashBefore": "527526d09bb26ba6cfdcd0294d196aa6238d090b7be6aace304a204e0f63b268",
+  "fixtureHashBefore": "6a67d00ae0b870cf6d2bec6e0323dcad51ebb347d732be0cdabe75ed4c7d061d",
+  "selected": 1,
+  "skipped": [
+    {
+      "key": "/content/pages/001-4.json:5a347318f28811eb9e203af9d3c2d1d5",
+      "page": "001-4",
+      "id": "5a347318f28811eb9e203af9d3c2d1d5",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "IndentationError",
+        "message": "unindent does not match any outer indentation level",
+        "line": 10,
+        "text": "  pass                 # 错误: 代码块中缩进必须对齐\n"
+      }
+    },
+    {
+      "key": "/content/pages/002-41.json:f6df0a6af98c11eba42d3af9d3c2d1d5",
+      "page": "002-41",
+      "id": "f6df0a6af98c11eba42d3af9d3c2d1d5",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "expected 'else' after 'if' expression",
+        "line": 4,
+        "text": "my_func = lambda num: \"High\" if num > 50\n"
+      }
+    },
+    {
+      "key": "/content/pages/021-1132.json:eefde1c8-868a-396f-bce2-bb1b134d12eb",
+      "page": "021-1132",
+      "id": "eefde1c8-868a-396f-bce2-bb1b134d12eb",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax",
+        "line": 6,
+        "text": "int main() {"
+      }
+    },
+    {
+      "key": "/content/pages/021-1138.json:66f83076-959e-33b4-9b59-aa0028d2343a",
+      "page": "021-1138",
+      "id": "66f83076-959e-33b4-9b59-aa0028d2343a",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax",
+        "line": 6,
+        "text": "int main() {"
+      }
+    },
+    {
+      "key": "/content/pages/021-1144.json:e57f0c41-ee74-3283-a26f-8e7060b19dd7",
+      "page": "021-1144",
+      "id": "e57f0c41-ee74-3283-a26f-8e7060b19dd7",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax",
+        "line": 6,
+        "text": "int main() {"
+      }
+    },
+    {
+      "key": "/content/pages/021-1144.json:f0550bca-19fc-3883-8cb7-7c0dca870999",
+      "page": "021-1144",
+      "id": "f0550bca-19fc-3883-8cb7-7c0dca870999",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax",
+        "line": 6,
+        "text": "int main() {"
+      }
+    },
+    {
+      "key": "/content/pages/021-1144.json:d4df3257-f249-3343-b150-d0d2df9d7925",
+      "page": "021-1144",
+      "id": "d4df3257-f249-3343-b150-d0d2df9d7925",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax",
+        "line": 6,
+        "text": "int main() {"
+      }
+    },
+    {
+      "key": "/content/pages/021-1152.json:467a8f6f-974c-386e-9792-7b06244d8e96",
+      "page": "021-1152",
+      "id": "467a8f6f-974c-386e-9792-7b06244d8e96",
+      "reason": "original C code mislabeled Python",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "invalid syntax. Perhaps you forgot a comma?",
+        "line": 7,
+        "text": "  int i_val;\n"
+      }
+    },
+    {
+      "key": "/content/pages/024-1317.json:64e98ca2-087d-3727-9582-fd4463e0ad84",
+      "page": "024-1317",
+      "id": "64e98ca2-087d-3727-9582-fd4463e0ad84",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "IndentationError",
+        "message": "expected an indented block after 'else' statement on line 6",
+        "line": 7,
+        "text": "print(\"false\")\n"
+      }
+    },
+    {
+      "key": "/content/pages/024-1330.json:ad58a406-1c85-3075-a3e8-fddd24923e88",
+      "page": "024-1330",
+      "id": "ad58a406-1c85-3075-a3e8-fddd24923e88",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "IndentationError",
+        "message": "unexpected indent",
+        "line": 4,
+        "text": "    bs = BeautifulSoup(html_content, \"lxml\")\n"
+      }
+    },
+    {
+      "key": "/content/pages/026-1417.json:bd1f9304-bce3-3f25-99f8-4c35d5d86025",
+      "page": "026-1417",
+      "id": "bd1f9304-bce3-3f25-99f8-4c35d5d86025",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "IndentationError",
+        "message": "expected an indented block after function definition on line 4",
+        "line": 5,
+        "text": "print('Hello dear')\n"
+      }
+    },
+    {
+      "key": "/content/pages/027-1485.json:7cd55312-c5c5-3de7-95d0-020aff985a2f",
+      "page": "027-1485",
+      "id": "7cd55312-c5c5-3de7-95d0-020aff985a2f",
+      "reason": "original teaching syntax error or incomplete code fragment",
+      "syntax": {
+        "type": "SyntaxError",
+        "message": "unterminated string literal (detected at line 8)",
+        "line": 8,
+        "text": "print(\"Hello World)"
+      }
+    }
+  ],
+  "results": [
+    {
+      "key": "/content/challenges/430.json:1670",
+      "page": "430",
+      "id": 1670,
+      "course": null,
+      "code_sha256": "77d0b76fb90014c7cc2ab50179923501d57288b6dbdab0f3a6798d29a9ecf3f9",
+      "editor_template_sha256": "097c1687581b85e08f024a0d4289bccb1b55ad861c2b33aa737926d896a640bc",
+      "executionVariant": "published-reference-solution",
+      "stdinEvidence": "original public testcases",
+      "testcaseCount": 3,
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1277,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "testResults",
+          "value": [
+            {
+              "case_no": 1,
+              "input": "Tony\n12",
+              "expected_output": "Tony (Level 12)\n",
+              "actual_output": "Tony (Level 12)\n",
+              "succeeded": true,
+              "reason": ""
+            },
+            {
+              "case_no": 2,
+              "input": "Player1\r\n4",
+              "expected_output": "Player1\n (Level 4)\n",
+              "actual_output": "Player1\r (Level 4)\n",
+              "succeeded": true,
+              "reason": ""
+            },
+            {
+              "case_no": 3,
+              "input": "abc\r\nX",
+              "expected_output": "abc\n (Level X)\n",
+              "actual_output": "abc\r (Level X)\n",
+              "succeeded": true,
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution covers the selected records listed below; --all evaluates published reference solutions for incomplete challenge templates and lists static syntax skips.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted; visual equivalence of generated charts is not asserted.",
+    "Challenge templates remain incomplete editor exercises; --all executes the separately supplied published reference solution and its public testcases, with executionVariant recorded."
+  ],
+  "fixtureHashAfter": "6a67d00ae0b870cf6d2bec6e0323dcad51ebb347d732be0cdabe75ed4c7d061d",
+  "workerHashAfter": "527526d09bb26ba6cfdcd0294d196aa6238d090b7be6aace304a204e0f63b268",
+  "finishedAt": "2026-11-01T16:22:45.076Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 1,
+    "status": {
+      "done": 1
+    },
+    "withAttachments": 0,
+    "plots": 0,
+    "workerChangedDuringAudit": false
+  }
+}

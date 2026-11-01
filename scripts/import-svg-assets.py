@@ -97,7 +97,11 @@ def transform(obj):
   if 'canvas_json' in obj and (obj.get('svg_xml') or obj.get('svg_string')):
    svg=embed_svg(obj.get('svg_xml') or obj['svg_string'])
    local=obj.get('file','')
-   if not local.startswith('/content/assets/') or not (PUBLIC/local.lstrip('/')).is_file():
+   # A source file URL can be stale or shared by two distinct frames. Its mere
+   # existence is not evidence that it depicts this frame. Validate bytes first.
+   expected=svg.encode()
+   existing=PUBLIC/local.lstrip('/')
+   if not local.startswith('/content/assets/') or not existing.is_file() or existing.read_bytes()!=expected:
     name=hashlib.sha256(svg.encode()).hexdigest()[:20]+'.svg';local='/content/assets/'+name
     (OUT/'assets'/name).write_text(svg)
     assets['embedded-frame:'+name]=local

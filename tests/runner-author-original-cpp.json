@@ -1,0 +1,63 @@
+{
+  "url": "https://edu.py2fun.com/api/course/code/judge",
+  "status": 200,
+  "request": {
+    "language": "c++",
+    "source_code": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint duplicateNumber(vector<int>& nums) {\n  int left = 0;\n  int right = nums.size();\n\n  while (left + 1 < right) {\n    int mid = (right + left) / 2;\n\n    if (nums[mid] == nums[mid - 1]) {\n      return nums[mid];\n    } else if (nums[mid] > mid) {\n      left = mid;\n    } else {\n      right = mid;\n    }\n  }\n\n  return nums[left];\n}",
+    "additional_files": "[]",
+    "entry_filename": "main.cpp",
+    "time_limit": 30,
+    "comp_id": "tab_code_0_01111524439711ecbe523af9d3c2d1d5",
+    "stdin": "",
+    "course_no": "006",
+    "page_id": 263
+  },
+  "response": {
+    "code": 0,
+    "msg": "ok",
+    "data": {
+      "execution_result": {
+        "files": [],
+        "status": 0,
+        "stderr": "",
+        "stdout": "",
+        "format": "text",
+        "reason": "Succeeded",
+        "st_time": 1793584936.646451,
+        "et_time": 1793584937.671663,
+        "time": "1.03s",
+        "run_uuid": "pyedu_cplus_5f3bb81c-d61e-11f1-9f45-00163e08945e"
+      },
+      "test_results": [
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])",
+          "expected_output": "7",
+          "actual_output": "7",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,1,2,3,4])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,2,3,4,5,6,6])",
+          "expected_output": "6",
+          "actual_output": "6",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,1])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        }
+      ]
+    }
+  }
+}

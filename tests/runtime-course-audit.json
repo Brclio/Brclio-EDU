@@ -1,0 +1,3169 @@
+{
+  "startedAt": "2026-11-01T15:02:11.822Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    }
+  ],
+  "workerHashBefore": "8cd3c31acef819729ba9b25733900e3b30b1c003272ff0b96ef70b4b63345382",
+  "selected": 49,
+  "results": [
+    {
+      "key": "/content/pages/007-299.json:aa7f3531-fd5b-4565-b4cc-4d13615012af",
+      "page": "007-299",
+      "id": "aa7f3531-fd5b-4565-b4cc-4d13615012af",
+      "course": "007",
+      "code_sha256": "79ba1de45f186529c6da055228de415adfdfb20fb96753f8815709583a621bf2",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4169,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "数据列中的偶数："
+        },
+        {
+          "type": "stdout",
+          "value": " [ 2  4  6  8 10 12 14 16 18]"
+        },
+        {
+          "type": "stdout",
+          "value": "-----------------"
+        },
+        {
+          "type": "stdout",
+          "value": "数据列中大于8的数："
+        },
+        {
+          "type": "stdout",
+          "value": " [ 9 10 11 12 13 14 15 16 17 18 19]"
+        },
+        {
+          "type": "stdout",
+          "value": "-----------------"
+        },
+        {
+          "type": "stdout",
+          "value": "数据列中大于平均数的数："
+        },
+        {
+          "type": "stdout",
+          "value": " [11 12 13 14 15 16 17 18 19]"
+        },
+        {
+          "type": "stdout",
+          "value": "-----------------"
+        },
+        {
+          "type": "stdout",
+          "value": "数据列中大于平均数并且是奇数的数："
+        },
+        {
+          "type": "stdout",
+          "value": " [11 13 15 17 19]"
+        },
+        {
+          "type": "stdout",
+          "value": "-----------------"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-305.json:b144adb3-0ac4-4a7d-9ca0-f945ca7ba54a",
+      "page": "007-305",
+      "id": "b144adb3-0ac4-4a7d-9ca0-f945ca7ba54a",
+      "course": "007",
+      "code_sha256": "44eb481d19261799ab615280c284a3c0ca4418d83c3c5c175e9001c0731d4f06",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4195,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "   a   b   c"
+        },
+        {
+          "type": "stdout",
+          "value": "0  1  11  21"
+        },
+        {
+          "type": "stdout",
+          "value": "1  2  12  22"
+        },
+        {
+          "type": "stdout",
+          "value": "2  3  13  23"
+        },
+        {
+          "type": "stdout",
+          "value": "3  4  14  24"
+        },
+        {
+          "type": "stdout",
+          "value": "4  5  15  25"
+        },
+        {
+          "type": "stdout",
+          "value": "计算每一列的均值："
+        },
+        {
+          "type": "stdout",
+          "value": " [ 5. 15. 25.]"
+        },
+        {
+          "type": "stdout",
+          "value": "计算每一行的均值："
+        },
+        {
+          "type": "stdout",
+          "value": " [11. 12. 13. 14. 15. 16. 17. 18. 19.]"
+        },
+        {
+          "type": "stdout",
+          "value": "---------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "              a          b          c"
+        },
+        {
+          "type": "stdout",
+          "value": "count  9.000000   9.000000   9.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "mean   5.000000  15.000000  25.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "std    2.738613   2.738613   2.738613"
+        },
+        {
+          "type": "stdout",
+          "value": "min    1.000000  11.000000  21.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "25%    3.000000  13.000000  23.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "50%    5.000000  15.000000  25.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "75%    7.000000  17.000000  27.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "max    9.000000  19.000000  29.000000"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-305.json:bd88b053-61a8-4747-b541-bc245157d0ec",
+      "page": "007-305",
+      "id": "bd88b053-61a8-4747-b541-bc245157d0ec",
+      "course": "007",
+      "code_sha256": "1a35f28e13026ed16b1eeb8547e09b0f3b69a57bc6b63b3d0240caf795487474",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3968,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "   a   b   c"
+        },
+        {
+          "type": "stdout",
+          "value": "0  1  11  21"
+        },
+        {
+          "type": "stdout",
+          "value": "1  2  12  22"
+        },
+        {
+          "type": "stdout",
+          "value": "2  3  13  23"
+        },
+        {
+          "type": "stdout",
+          "value": "3  4  14  24"
+        },
+        {
+          "type": "stdout",
+          "value": "4  5  15  25"
+        },
+        {
+          "type": "stdout",
+          "value": "---------------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "每一列的和："
+        },
+        {
+          "type": "stdout",
+          "value": " [ 45 135 225]"
+        },
+        {
+          "type": "stdout",
+          "value": "每一行的和："
+        },
+        {
+          "type": "stdout",
+          "value": " [33 36 39 42 45 48 51 54 57]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-394.json:83ae6f4f-c7d3-409e-89db-cc1fcc48614e",
+      "page": "009-394",
+      "id": "83ae6f4f-c7d3-409e-89db-cc1fcc48614e",
+      "course": "009",
+      "code_sha256": "8ab9cb5a2b669b1d3f6a4093e862428060a6956f67504bebdb4ac6f9ef45917a",
+      "imports": [
+        "pandas",
+        "sklearn.datasets"
+      ],
+      "compatibilityCandidates": [
+        "removed-load-boston"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 8137,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\n  File \"/lib/python3.14/site-packages/sklearn/datasets/__init__.py\", line 164, in __getattr__\n    raise ImportError(msg)\nImportError: \n`load_boston` has been removed from scikit-learn since version 1.2.\n\nThe Boston housing prices dataset has an ethical problem: as\ninvestigated in [1], the authors of this dataset engineered a\nnon-invertible variable \"B\" assuming that racial self-segregation had a\npositive impact on house prices [2]. Furthermore the goal of the\nresearch that led to the creation of this dataset was to study the\nimpact of air quality but it did not give adequate demonstration of the\nvalidity of this assumption.\n\nThe scikit-learn maintainers therefore strongly discourage the use of\nthis dataset unless the purpose of the code is to study and educate\nabout ethical issues in data science and machine learning.\n\nIn this special case, you can fetch the dataset from the original\nsource::\n\n    import pandas as pd\n    import numpy as np\n\n    data_url = \"http://lib.stat.cmu.edu/datasets/boston\"\n    raw_df = pd.read_csv(data_url, sep=\"\\s+\", skiprows=22, header=None)\n    data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])\n    target = raw_df.values[1::2, 2]\n\nAlternative datasets include the California housing dataset and the\nAmes housing dataset. You can load the datasets as follows::\n\n    from sklearn.datasets import fetch_california_housing\n    housing = fetch_california_housing()\n\nfor the California housing dataset and::\n\n    from sklearn.datasets import fetch_openml\n    housing = fetch_openml(name=\"house_prices\", as_frame=True)\n\nfor the Ames housing dataset.\n\n[1] M Carlisle.\n\"Racist data destruction?\"\n<https://medium.com/@docintangible/racist-data-destruction-113e3eff54a8>\n\n[2] Harrison Jr, David, and Daniel L. Rubinfeld.\n\"Hedonic housing prices and the demand for clean air.\"\nJournal of environmental economics and management 5.1 (1978): 81-102.\n<https://www.researchgate.net/publication/4974606_Hedonic_housing_prices_and_the_demand_for_clean_air>\n\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-395.json:0ecfa594-3481-4c43-aaf3-6958b13d6d4f",
+      "page": "009-395",
+      "id": "0ecfa594-3481-4c43-aaf3-6958b13d6d4f",
+      "course": "009",
+      "code_sha256": "e285aac1a1609e2a6bc211dee585767bc2cd6adee1fbc7ecee11d8543ef26e66",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn",
+        "sklearn.datasets"
+      ],
+      "compatibilityCandidates": [
+        "removed-load-boston"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 9848,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\n  File \"/lib/python3.14/site-packages/sklearn/datasets/__init__.py\", line 164, in __getattr__\n    raise ImportError(msg)\nImportError: \n`load_boston` has been removed from scikit-learn since version 1.2.\n\nThe Boston housing prices dataset has an ethical problem: as\ninvestigated in [1], the authors of this dataset engineered a\nnon-invertible variable \"B\" assuming that racial self-segregation had a\npositive impact on house prices [2]. Furthermore the goal of the\nresearch that led to the creation of this dataset was to study the\nimpact of air quality but it did not give adequate demonstration of the\nvalidity of this assumption.\n\nThe scikit-learn maintainers therefore strongly discourage the use of\nthis dataset unless the purpose of the code is to study and educate\nabout ethical issues in data science and machine learning.\n\nIn this special case, you can fetch the dataset from the original\nsource::\n\n    import pandas as pd\n    import numpy as np\n\n    data_url = \"http://lib.stat.cmu.edu/datasets/boston\"\n    raw_df = pd.read_csv(data_url, sep=\"\\s+\", skiprows=22, header=None)\n    data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])\n    target = raw_df.values[1::2, 2]\n\nAlternative datasets include the California housing dataset and the\nAmes housing dataset. You can load the datasets as follows::\n\n    from sklearn.datasets import fetch_california_housing\n    housing = fetch_california_housing()\n\nfor the California housing dataset and::\n\n    from sklearn.datasets import fetch_openml\n    housing = fetch_openml(name=\"house_prices\", as_frame=True)\n\nfor the Ames housing dataset.\n\n[1] M Carlisle.\n\"Racist data destruction?\"\n<https://medium.com/@docintangible/racist-data-destruction-113e3eff54a8>\n\n[2] Harrison Jr, David, and Daniel L. Rubinfeld.\n\"Hedonic housing prices and the demand for clean air.\"\nJournal of environmental economics and management 5.1 (1978): 81-102.\n<https://www.researchgate.net/publication/4974606_Hedonic_housing_prices_and_the_demand_for_clean_air>\n\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-383.json:79c4a058-6010-401e-92bb-8152568c243d",
+      "page": "009-383",
+      "id": "79c4a058-6010-401e-92bb-8152568c243d",
+      "course": "009",
+      "code_sha256": "9225f1332659bff0188f72f54b828787ecc2cc4fd0fad4b9d245abbe1ee6cb5d",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "read-csv-delim-whitespace"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "auto-mpg.data",
+          "bytes": 30286,
+          "url": "/content/attachments/48b830e11feee5572525-auto-mpg.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3581,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 15, in <module>\n  File \"<exec>\", line 11, in read_csv\nTypeError: read_csv() got an unexpected keyword argument 'delim_whitespace'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-396.json:02694e7d-6c3d-4662-8e3f-16b3181a13c0",
+      "page": "009-396",
+      "id": "02694e7d-6c3d-4662-8e3f-16b3181a13c0",
+      "course": "009",
+      "code_sha256": "80062ec9a6d14e7d77c7dca47e7439ebbf8573d0bfbb8e1275727e3641c48f51",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn",
+        "sklearn.datasets"
+      ],
+      "compatibilityCandidates": [
+        "removed-load-boston",
+        "seaborn-positional"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 9834,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 3, in <module>\n  File \"/lib/python3.14/site-packages/sklearn/datasets/__init__.py\", line 164, in __getattr__\n    raise ImportError(msg)\nImportError: \n`load_boston` has been removed from scikit-learn since version 1.2.\n\nThe Boston housing prices dataset has an ethical problem: as\ninvestigated in [1], the authors of this dataset engineered a\nnon-invertible variable \"B\" assuming that racial self-segregation had a\npositive impact on house prices [2]. Furthermore the goal of the\nresearch that led to the creation of this dataset was to study the\nimpact of air quality but it did not give adequate demonstration of the\nvalidity of this assumption.\n\nThe scikit-learn maintainers therefore strongly discourage the use of\nthis dataset unless the purpose of the code is to study and educate\nabout ethical issues in data science and machine learning.\n\nIn this special case, you can fetch the dataset from the original\nsource::\n\n    import pandas as pd\n    import numpy as np\n\n    data_url = \"http://lib.stat.cmu.edu/datasets/boston\"\n    raw_df = pd.read_csv(data_url, sep=\"\\s+\", skiprows=22, header=None)\n    data = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])\n    target = raw_df.values[1::2, 2]\n\nAlternative datasets include the California housing dataset and the\nAmes housing dataset. You can load the datasets as follows::\n\n    from sklearn.datasets import fetch_california_housing\n    housing = fetch_california_housing()\n\nfor the California housing dataset and::\n\n    from sklearn.datasets import fetch_openml\n    housing = fetch_openml(name=\"house_prices\", as_frame=True)\n\nfor the Ames housing dataset.\n\n[1] M Carlisle.\n\"Racist data destruction?\"\n<https://medium.com/@docintangible/racist-data-destruction-113e3eff54a8>\n\n[2] Harrison Jr, David, and Daniel L. Rubinfeld.\n\"Hedonic housing prices and the demand for clean air.\"\nJournal of environmental economics and management 5.1 (1978): 81-102.\n<https://www.researchgate.net/publication/4974606_Hedonic_housing_prices_and_the_demand_for_clean_air>\n\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-387.json:0fd6c465-052e-403b-8b89-3dc8a2c6c478",
+      "page": "009-387",
+      "id": "0fd6c465-052e-403b-8b89-3dc8a2c6c478",
+      "course": "009",
+      "code_sha256": "35526533178f8f44a51c07933a7167f5f8fc26b56c58166445e79398ff7b0101",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate",
+        "read-csv-delim-whitespace"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "auto-mpg.data",
+          "bytes": 30286,
+          "url": "/content/attachments/48b830e11feee5572525-auto-mpg.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 5435,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 22, in <module>\n  File \"<exec>\", line 11, in read_csv\nTypeError: read_csv() got an unexpected keyword argument 'delim_whitespace'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-393.json:5992d90d-ada3-454c-b835-2317b22cd48c",
+      "page": "009-393",
+      "id": "5992d90d-ada3-454c-b835-2317b22cd48c",
+      "course": "009",
+      "code_sha256": "93d8b3005ee687a342bc940d69ac85a9c397138bae3911ba9bb51f5191059775",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate",
+        "read-csv-delim-whitespace"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "auto-mpg.data",
+          "bytes": 30286,
+          "url": "/content/attachments/48b830e11feee5572525-auto-mpg.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 5337,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 18, in <module>\n  File \"<exec>\", line 10, in read_csv\nTypeError: read_csv() got an unexpected keyword argument 'delim_whitespace'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-309.json:78ecac67-b4ad-4c33-8cbd-b89d6440f33e",
+      "page": "007-309",
+      "id": "78ecac67-b4ad-4c33-8cbd-b89d6440f33e",
+      "course": "007",
+      "code_sha256": "21b08379839554d6bdb554a62a40c2ca667b18c0e053b4a76a162051cca0f0d2",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-get-group-scalar-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "sample1.csv",
+          "bytes": 187,
+          "url": "/content/attachments/2ceb78d95bf373041b99-sample1.csv"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3635,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "名字为 cat的组别信息："
+        },
+        {
+          "type": "stdout",
+          "value": "    name  price  width category"
+        },
+        {
+          "type": "stdout",
+          "value": "0   cat    102    2.3        A"
+        },
+        {
+          "type": "stdout",
+          "value": "2   cat    125    8.9        B"
+        },
+        {
+          "type": "stdout",
+          "value": "4   cat    212    3.0        B"
+        },
+        {
+          "type": "stdout",
+          "value": "6   cat    102    2.3        A"
+        },
+        {
+          "type": "stdout",
+          "value": "8   cat    125    8.9        B"
+        },
+        {
+          "type": "stdout",
+          "value": "10  cat    212    3.0        B"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-315.json:GorHFm2QO-8n02ao4agaS",
+      "page": "007-315",
+      "id": "GorHFm2QO-8n02ao4agaS",
+      "course": "007",
+      "code_sha256": "02f278efa1ac05a94baf2b4964b2b39d5508d4c82dfda3be16dba9ee46d95c97",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-get-group-scalar-candidate",
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3610,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 6, in <module>\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 300, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 1645, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 1904, in _make_engine\n    self.handles = get_handle(\n                   ~~~~~~~~~~^\n        f,\n        ^^\n    ...<6 lines>...\n        storage_options=self.options.get(\"storage_options\", None),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python3.14/site-packages/pandas/io/common.py\", line 926, in get_handle\n    handle = open(\n        handle,\n    ...<3 lines>...\n        newline=\"\",\n    )\nFileNotFoundError: [Errno 44] No such file or directory: 'raw_data.csv'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-315.json:WS2is_NjPlxz5UurEXvya",
+      "page": "007-315",
+      "id": "WS2is_NjPlxz5UurEXvya",
+      "course": "007",
+      "code_sha256": "e6b33baaed6d09602eb0eeee6d1edd88d37dc94c80fcb14fd8cb8b77064dd4e8",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-get-group-scalar-candidate",
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 4095,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 6, in <module>\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 300, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 1645, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/pandas/io/parsers/readers.py\", line 1904, in _make_engine\n    self.handles = get_handle(\n                   ~~~~~~~~~~^\n        f,\n        ^^\n    ...<6 lines>...\n        storage_options=self.options.get(\"storage_options\", None),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python3.14/site-packages/pandas/io/common.py\", line 926, in get_handle\n    handle = open(\n        handle,\n    ...<3 lines>...\n        newline=\"\",\n    )\nFileNotFoundError: [Errno 44] No such file or directory: 'raw_data.csv'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-398.json:32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "page": "009-398",
+      "id": "32f8c7b9-b5a9-42eb-834d-ba05bec935d2",
+      "course": "009",
+      "code_sha256": "f4d25cc4b164d225be51270ae741c028a6542c38e3e10d459bb8800d63878d1e",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "seaborn-positional",
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5966,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 8, in <module>\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 572, in load_dataset\n    if name not in get_dataset_names():\n                   ~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 499, in get_dataset_names\n    with urlopen(DATASET_NAMES_URL) as resp:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 187, in urlopen\n    return opener.open(url, data, timeout)\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 487, in open\n    response = self._open(req, data)\n  File \"/lib/python314.zip/urllib/request.py\", line 504, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n                              '_open', req)\n  File \"/lib/python314.zip/urllib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/lib/python314.zip/urllib/request.py\", line 1369, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        context=self._context)\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 1321, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              encode_chunked=req.has_header('Transfer-encoding'))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1358, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1404, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1353, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1113, in _send_output\n    self.send(msg)\n    ~~~~~~~~~^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1057, in send\n    self.connect()\n    ~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/http/client.py\", line 1499, in connect\n    self.sock = self._context.wrap_socket(self.sock,\n                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n                                          server_hostname=server_hostname)\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/ssl.py\", line 312, in wrap_socket\n    return SSLSocket._create(\n           ~~~~~~~~~~~~~~~~~^\n        sock,\n        ^^^^^\n    ...<5 lines>...\n        session=session,\n        ^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python314.zip/ssl.py\", line 739, in _create\n    ssl_sock.do_handshake()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/ssl.py\", line 843, in do_handshake\n    raise RuntimeError(\"TLS not supported in this environment\") from None\nRuntimeError: TLS not supported in this environment\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-402.json:c96bb1d7-8a4c-4a70-84cc-79a7298662cc",
+      "page": "009-402",
+      "id": "c96bb1d7-8a4c-4a70-84cc-79a7298662cc",
+      "course": "009",
+      "code_sha256": "02d703e6690bb8f563e9df6581f9535bd05559036f7d07dad5e46f461956f1e4",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "read-csv-delim-whitespace",
+        "seaborn-positional"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": true
+      },
+      "attachments": [
+        {
+          "name": "auto-mpg.data",
+          "bytes": 30286,
+          "url": "/content/attachments/48b830e11feee5572525-auto-mpg.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 5542,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 26, in <module>\n  File \"<exec>\", line 14, in read_csv\nTypeError: read_csv() got an unexpected keyword argument 'delim_whitespace'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-402.json:fe5ccfa6-83c2-481d-91ae-d695de968546",
+      "page": "009-402",
+      "id": "fe5ccfa6-83c2-481d-91ae-d695de968546",
+      "course": "009",
+      "code_sha256": "cf8562100732aa89271afbd284a405d1d12b3cf5a774b311615459ec144bc222",
+      "imports": [
+        "matplotlib.pyplot",
+        "pandas",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "read-csv-delim-whitespace",
+        "seaborn-positional"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": true
+      },
+      "attachments": [
+        {
+          "name": "auto-mpg.data",
+          "bytes": 30286,
+          "url": "/content/attachments/48b830e11feee5572525-auto-mpg.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 5512,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 23, in <module>\n  File \"<exec>\", line 14, in read_csv\nTypeError: read_csv() got an unexpected keyword argument 'delim_whitespace'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-399.json:7f354b21-648a-40a9-b062-85cdf30b55c6",
+      "page": "009-399",
+      "id": "7f354b21-648a-40a9-b062-85cdf30b55c6",
+      "course": "009",
+      "code_sha256": "4e16523d02cd34ba78c6567b01c079a5f4db48178f041e679fa70e11fb8d7833",
+      "imports": [
+        "matplotlib.pyplot",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "pandas-pivot-positional",
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5576,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 8, in <module>\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 572, in load_dataset\n    if name not in get_dataset_names():\n                   ~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 499, in get_dataset_names\n    with urlopen(DATASET_NAMES_URL) as resp:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 187, in urlopen\n    return opener.open(url, data, timeout)\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 487, in open\n    response = self._open(req, data)\n  File \"/lib/python314.zip/urllib/request.py\", line 504, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n                              '_open', req)\n  File \"/lib/python314.zip/urllib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/lib/python314.zip/urllib/request.py\", line 1369, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        context=self._context)\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 1321, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              encode_chunked=req.has_header('Transfer-encoding'))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1358, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1404, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1353, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1113, in _send_output\n    self.send(msg)\n    ~~~~~~~~~^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1057, in send\n    self.connect()\n    ~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/http/client.py\", line 1499, in connect\n    self.sock = self._context.wrap_socket(self.sock,\n                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n                                          server_hostname=server_hostname)\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/ssl.py\", line 312, in wrap_socket\n    return SSLSocket._create(\n           ~~~~~~~~~~~~~~~~~^\n        sock,\n        ^^^^^\n    ...<5 lines>...\n        session=session,\n        ^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python314.zip/ssl.py\", line 739, in _create\n    ssl_sock.do_handshake()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/ssl.py\", line 843, in do_handshake\n    raise RuntimeError(\"TLS not supported in this environment\") from None\nRuntimeError: TLS not supported in this environment\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-400.json:43c3ece4-aa5a-4672-93c9-d991f48d8054",
+      "page": "009-400",
+      "id": "43c3ece4-aa5a-4672-93c9-d991f48d8054",
+      "course": "009",
+      "code_sha256": "88aad74c5f8d7ff734845b779f72e5002a8f2cf8f86359c0bfebe182cfbed644",
+      "imports": [
+        "matplotlib.pyplot",
+        "seaborn"
+      ],
+      "compatibilityCandidates": [
+        "seaborn-remote-dataset"
+      ],
+      "features": {
+        "stdin": false,
+        "network": true,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5572,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 8, in <module>\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 572, in load_dataset\n    if name not in get_dataset_names():\n                   ~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python3.14/site-packages/seaborn/utils.py\", line 499, in get_dataset_names\n    with urlopen(DATASET_NAMES_URL) as resp:\n         ~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 187, in urlopen\n    return opener.open(url, data, timeout)\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 487, in open\n    response = self._open(req, data)\n  File \"/lib/python314.zip/urllib/request.py\", line 504, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n                              '_open', req)\n  File \"/lib/python314.zip/urllib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/lib/python314.zip/urllib/request.py\", line 1369, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        context=self._context)\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/urllib/request.py\", line 1321, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              encode_chunked=req.has_header('Transfer-encoding'))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1358, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1404, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1353, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1113, in _send_output\n    self.send(msg)\n    ~~~~~~~~~^^^^^\n  File \"/lib/python314.zip/http/client.py\", line 1057, in send\n    self.connect()\n    ~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/http/client.py\", line 1499, in connect\n    self.sock = self._context.wrap_socket(self.sock,\n                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n                                          server_hostname=server_hostname)\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python314.zip/ssl.py\", line 312, in wrap_socket\n    return SSLSocket._create(\n           ~~~~~~~~~~~~~~~~~^\n        sock,\n        ^^^^^\n    ...<5 lines>...\n        session=session,\n        ^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python314.zip/ssl.py\", line 739, in _create\n    ssl_sock.do_handshake()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/ssl.py\", line 843, in do_handshake\n    raise RuntimeError(\"TLS not supported in this environment\") from None\nRuntimeError: TLS not supported in this environment\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-308.json:9d8e9d18-c374-4370-a3c9-a8f4e2a65863",
+      "page": "007-308",
+      "id": "9d8e9d18-c374-4370-a3c9-a8f4e2a65863",
+      "course": "007",
+      "code_sha256": "daafc0486ef15c68aeabcb2a3752edf33aa99eea3fd5274a0b3c3a641b192516",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-append-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3495,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "数据框1："
+        },
+        {
+          "type": "stdout",
+          "value": "   a  b"
+        },
+        {
+          "type": "stdout",
+          "value": "0  1  2"
+        },
+        {
+          "type": "stdout",
+          "value": "1  2  4"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "数据框2："
+        },
+        {
+          "type": "stdout",
+          "value": "   a  b"
+        },
+        {
+          "type": "stdout",
+          "value": "0  3  6"
+        },
+        {
+          "type": "stdout",
+          "value": "1  4  8"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------------"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 18, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/generic.py\", line 6206, in __getattr__\n    return object.__getattribute__(self, name)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAttributeError: 'DataFrame' object has no attribute 'append'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-308.json:209688ef-e4f7-4d9b-91cd-7d780e2e8a9a",
+      "page": "007-308",
+      "id": "209688ef-e4f7-4d9b-91cd-7d780e2e8a9a",
+      "course": "007",
+      "code_sha256": "55ba965f2d70fe88ec912f74a985e0e75818a61b73b44727a55e038f7c7b06f1",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-append-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3530,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "数据框1"
+        },
+        {
+          "type": "stdout",
+          "value": "   b  c"
+        },
+        {
+          "type": "stdout",
+          "value": "0  1  2"
+        },
+        {
+          "type": "stdout",
+          "value": "1  2  4"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "数据框2"
+        },
+        {
+          "type": "stdout",
+          "value": "   c  d"
+        },
+        {
+          "type": "stdout",
+          "value": "0  3  6"
+        },
+        {
+          "type": "stdout",
+          "value": "1  4  8"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------------"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 18, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/generic.py\", line 6206, in __getattr__\n    return object.__getattribute__(self, name)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAttributeError: 'DataFrame' object has no attribute 'append'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-318.json:eab8d136-ca33-4c94-9dbf-6d345891bb05",
+      "page": "007-318",
+      "id": "eab8d136-ca33-4c94-9dbf-6d345891bb05",
+      "course": "007",
+      "code_sha256": "691e37958c6d9c247f9ed1a196eb898fb2e05bc85e56ad0f09fae4e1800e96c0",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "removed-iteritems"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3442,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "原始的数据框："
+        },
+        {
+          "type": "stdout",
+          "value": "   a  b"
+        },
+        {
+          "type": "stdout",
+          "value": "0  1  2"
+        },
+        {
+          "type": "stdout",
+          "value": "1  2  3"
+        },
+        {
+          "type": "stdout",
+          "value": "2  3  4"
+        },
+        {
+          "type": "stdout",
+          "value": "3  4  5"
+        },
+        {
+          "type": "stdout",
+          "value": "4  5  6"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 10, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/generic.py\", line 6206, in __getattr__\n    return object.__getattribute__(self, name)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAttributeError: 'DataFrame' object has no attribute 'iteritems'. Did you mean: 'isetitem'?\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/001-6.json:b32265fef29011eb9e673af9d3c2d1d5",
+      "page": "001-6",
+      "id": "b32265fef29011eb9e673af9d3c2d1d5",
+      "course": "001",
+      "code_sha256": "3f863ccf9a777f8b18962d7ecda12044356e7cb093c84f4b389c8aa144c48737",
+      "imports": [
+        "mymodule"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "mymodule.py",
+          "bytes": 29,
+          "url": "/content/attachments/e0e2c0f0f12402572d2c-mymodule.py"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 1136,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "test"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/001-7.json:f284c3acf29211eb9f643af9d3c2d1d5",
+      "page": "001-7",
+      "id": "f284c3acf29211eb9f643af9d3c2d1d5",
+      "course": "001",
+      "code_sha256": "5524a9a57ba83ad7e214ca8b15c977768ebb36b05fb543089073a1198230a950",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "fake_fruit.json",
+          "bytes": 173,
+          "url": "/content/attachments/09d1b5a4e266902cc8d4-fake_fruit.json"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 1451,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "{"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\"Fruit\": "
+        },
+        {
+          "type": "stdout",
+          "value": "\t["
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t{"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Name\": \"Banana\","
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Colour\": \"Yellow\""
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t},"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t{"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Name\": \"Apple\","
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Colour\": \"Green\""
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t},"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t{"
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Name\": \"Orange\","
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t\t\"Colour\": \"Orange\""
+        },
+        {
+          "type": "stdout",
+          "value": "\t\t}"
+        },
+        {
+          "type": "stdout",
+          "value": "\t]"
+        },
+        {
+          "type": "stdout",
+          "value": "}"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/004-118.json:a6234f2ef93611eba8993af9d3c2d1d5",
+      "page": "004-118",
+      "id": "a6234f2ef93611eba8993af9d3c2d1d5",
+      "course": "004",
+      "code_sha256": "a08030e60ef7b83fe1fa5c588d82e11e18dce99c99e8b72817457c60055b681d",
+      "imports": [
+        "stack"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "stack.py",
+          "bytes": 419,
+          "url": "/content/attachments/403f51801347027fd50f-stack.py"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 1409,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "字符串 : (((({})))) 括号是否平衡匹配?"
+        },
+        {
+          "type": "stdout",
+          "value": "True"
+        },
+        {
+          "type": "stdout",
+          "value": "字符串 : [][]]] 括号是否平衡匹配?"
+        },
+        {
+          "type": "stdout",
+          "value": "False"
+        },
+        {
+          "type": "stdout",
+          "value": "字符串 : [][] 括号是否平衡匹配?"
+        },
+        {
+          "type": "stdout",
+          "value": "True"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-309.json:96d02f92-653f-41ac-819a-1403fb267f7f",
+      "page": "007-309",
+      "id": "96d02f92-653f-41ac-819a-1403fb267f7f",
+      "course": "007",
+      "code_sha256": "e515f622c0810c9ec048e5147cb538da7445f9632d31f8a07fb830676bab884a",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "sample1.csv",
+          "bytes": 187,
+          "url": "/content/attachments/2ceb78d95bf373041b99-sample1.csv"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3805,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "-------------------------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "按name分组，对全部列求和的结果："
+        },
+        {
+          "type": "stdout",
+          "value": "       price  width category"
+        },
+        {
+          "type": "stdout",
+          "value": "name                       "
+        },
+        {
+          "type": "stdout",
+          "value": "cat     878   28.4   ABBABB"
+        },
+        {
+          "type": "stdout",
+          "value": "dog     292   38.4   AABBAA"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-302.json:cc1fe22b-f9ad-469d-bd6f-c3024d23820b",
+      "page": "007-302",
+      "id": "cc1fe22b-f9ad-469d-bd6f-c3024d23820b",
+      "course": "007",
+      "code_sha256": "fc2392fc20d35b9d14d0ee3a728a3de25020fd41b52bd44c5917c8af4e6115f6",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "sample.csv",
+          "bytes": 368,
+          "url": "/content/attachments/c1f310b4fe99364c5a23-sample.csv"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3815,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "预览首行："
+        },
+        {
+          "type": "stdout",
+          "value": "      animal  uniq_id  water_need"
+        },
+        {
+          "type": "stdout",
+          "value": "0  elephant     1001         500"
+        },
+        {
+          "type": "stdout",
+          "value": "--------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "只读取文件前十行。"
+        },
+        {
+          "type": "stdout",
+          "value": " 数据框的行数："
+        },
+        {
+          "type": "stdout",
+          "value": " 10"
+        },
+        {
+          "type": "stdout",
+          "value": "--------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "指定数据列名："
+        },
+        {
+          "type": "stdout",
+          "value": " 预览数据: "
+        },
+        {
+          "type": "stdout",
+          "value": "           a     b    c"
+        },
+        {
+          "type": "stdout",
+          "value": "0  elephant  1001  500"
+        },
+        {
+          "type": "stdout",
+          "value": "--------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "首行作为列名，并且指定需要读取的列名："
+        },
+        {
+          "type": "stdout",
+          "value": " 预览数据: "
+        },
+        {
+          "type": "stdout",
+          "value": "      animal"
+        },
+        {
+          "type": "stdout",
+          "value": "0  elephant"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-329.json:f8f37d07-8d1f-440a-b97e-cfcda55e6880",
+      "page": "007-329",
+      "id": "f8f37d07-8d1f-440a-b97e-cfcda55e6880",
+      "course": "007",
+      "code_sha256": "7da74a2adc7085231676b3b719b20e4a9a69c6eff1433d7f9b3d8d8a6c3b4602",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "type.csv",
+          "bytes": 48,
+          "url": "/content/attachments/28b8fd0fcda559e6e752-type.csv"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3967,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "col1      int32"
+        },
+        {
+          "type": "stdout",
+          "value": "col2        str"
+        },
+        {
+          "type": "stdout",
+          "value": "col3    float64"
+        },
+        {
+          "type": "stdout",
+          "value": "dtype: object"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-310.json:565d5405-a579-4f58-84bc-6aa5ccdbf1dc",
+      "page": "007-310",
+      "id": "565d5405-a579-4f58-84bc-6aa5ccdbf1dc",
+      "course": "007",
+      "code_sha256": "836182fa5617ce477058d5e1d4c63c76a833703d230b62f0e3fea7ac62a7f90f",
+      "imports": [
+        "numpy",
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "sample2.csv",
+          "bytes": 187,
+          "url": "/content/attachments/2ceb78d95bf373041b99-sample2.csv"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3983,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "name"
+        },
+        {
+          "type": "stdout",
+          "value": "cat    878"
+        },
+        {
+          "type": "stdout",
+          "value": "dog    292"
+        },
+        {
+          "type": "stdout",
+          "value": "Name: price, dtype: int64"
+        },
+        {
+          "type": "stdout",
+          "value": "---------------------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "name"
+        },
+        {
+          "type": "stdout",
+          "value": "cat    878"
+        },
+        {
+          "type": "stdout",
+          "value": "dog    292"
+        },
+        {
+          "type": "stdout",
+          "value": "Name: price, dtype: int64"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-297.json:e88dfebc-5b7a-41f1-98bc-58080ec41c16",
+      "page": "007-297",
+      "id": "e88dfebc-5b7a-41f1-98bc-58080ec41c16",
+      "course": "007",
+      "code_sha256": "0d410a745425e12ba63e854ded45d25972de62211b6b9d976596ee5ef1f730e1",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3752,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "0    1"
+        },
+        {
+          "type": "stdout",
+          "value": "1    2"
+        },
+        {
+          "type": "stdout",
+          "value": "2    3"
+        },
+        {
+          "type": "stdout",
+          "value": "3    4"
+        },
+        {
+          "type": "stdout",
+          "value": "4    5"
+        },
+        {
+          "type": "stdout",
+          "value": "5    6"
+        },
+        {
+          "type": "stdout",
+          "value": "6    7"
+        },
+        {
+          "type": "stdout",
+          "value": "7    8"
+        },
+        {
+          "type": "stdout",
+          "value": "8    9"
+        },
+        {
+          "type": "stdout",
+          "value": "dtype: int64"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "索引 3 对应的值是：4"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-379.json:edb53fb7-57b5-4349-b3b8-ab9a98aa801e",
+      "page": "009-379",
+      "id": "edb53fb7-57b5-4349-b3b8-ab9a98aa801e",
+      "course": "009",
+      "code_sha256": "09ae8cb3177992d622f29d505db0f6f04205d7a203552be2c34302d1aba0863a",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3802,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "   age          workclass  fnlwgt  ... hoursperweek   nativecountry   label"
+        },
+        {
+          "type": "stdout",
+          "value": "0   39          State-gov   77516  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "1   50   Self-emp-not-inc   83311  ...           13   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "2   38            Private  215646  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "3   53            Private  234721  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "4   28            Private  338409  ...           40            Cuba   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[5 rows x 15 columns]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-297.json:de057561-15de-431b-830a-f9213246ea21",
+      "page": "007-297",
+      "id": "de057561-15de-431b-830a-f9213246ea21",
+      "course": "007",
+      "code_sha256": "8ac34323aa52d92dff6abf3877e95feaa6e69e1c2a3ae215769f0aa8127cdf5a",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3846,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "bb     1"
+        },
+        {
+          "type": "stdout",
+          "value": "a      0"
+        },
+        {
+          "type": "stdout",
+          "value": "ccc    2"
+        },
+        {
+          "type": "stdout",
+          "value": "dtype: int64"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "索引为 ccc 的值为： 2"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-297.json:3a931af7-130b-4de7-a042-ae2816e99b05",
+      "page": "007-297",
+      "id": "3a931af7-130b-4de7-a042-ae2816e99b05",
+      "course": "007",
+      "code_sha256": "bccfcc814c2cd4f84dc005727685eb14e49a5fdf15f62acca8c5c1ad629e4554",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3893,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "aa        1"
+        },
+        {
+          "type": "stdout",
+          "value": "bb        2"
+        },
+        {
+          "type": "stdout",
+          "value": "ccc       3"
+        },
+        {
+          "type": "stdout",
+          "value": "dddd      4"
+        },
+        {
+          "type": "stdout",
+          "value": "eeeeee    5"
+        },
+        {
+          "type": "stdout",
+          "value": "dtype: int64"
+        },
+        {
+          "type": "stdout",
+          "value": "------------------"
+        },
+        {
+          "type": "stdout",
+          "value": "索引为 ccc 的值为： 3"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-341.json:5981b4ba-b516-4788-86cb-2c2eb0f01049",
+      "page": "008-341",
+      "id": "5981b4ba-b516-4788-86cb-2c2eb0f01049",
+      "course": "008",
+      "code_sha256": "6c7ff0303a1da3edba3435f8e44c4a82ceebe3faeb1ffaef4138bd362eb4b857",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3870,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 12, in <module>\n  File \"/lib/python3.14/site-packages/matplotlib/pyplot.py\", line 1250, in savefig\n    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]\n  File \"/lib/python3.14/site-packages/matplotlib/figure.py\", line 3490, in savefig\n    self.canvas.print_figure(fname, **kwargs)\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2186, in print_figure\n    result = print_method(\n        filename,\n    ...<3 lines>...\n        bbox_inches_restore=_bbox_inches_restore,\n        **kwargs)\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2042, in <lambda>\n    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(\n                                                                 ~~~~^\n        *args, **{k: v for k, v in kwargs.items() if k not in skip}))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 481, in print_png\n    self._print_pil(filename_or_obj, \"png\", pil_kwargs, metadata)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 430, in _print_pil\n    mpl.image.imsave(\n    ~~~~~~~~~~~~~~~~^\n        filename_or_obj, self.buffer_rgba(), format=fmt, origin=\"upper\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/image.py\", line 1657, in imsave\n    image.save(fname, **pil_kwargs)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/PIL/Image.py\", line 2708, in save\n    fp = builtins.open(filename, \"w+b\")\nFileNotFoundError: [Errno 44] No such file or directory: './output/o.png'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/008-340.json:1095f494-67ef-48c3-88eb-ae3d87d7107a",
+      "page": "008-340",
+      "id": "1095f494-67ef-48c3-88eb-ae3d87d7107a",
+      "course": "008",
+      "code_sha256": "9b2bb98e271f9e48cfa1acec2b3ea47e574921b5a1fd56b89e50dc9d8c7df8b2",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3929,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:14: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:14: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 14, in <module>\n  File \"/lib/python3.14/site-packages/matplotlib/figure.py\", line 3490, in savefig\n    self.canvas.print_figure(fname, **kwargs)\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2186, in print_figure\n    result = print_method(\n        filename,\n    ...<3 lines>...\n        bbox_inches_restore=_bbox_inches_restore,\n        **kwargs)\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2042, in <lambda>\n    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(\n                                                                 ~~~~^\n        *args, **{k: v for k, v in kwargs.items() if k not in skip}))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 481, in print_png\n    self._print_pil(filename_or_obj, \"png\", pil_kwargs, metadata)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 430, in _print_pil\n    mpl.image.imsave(\n    ~~~~~~~~~~~~~~~~^\n        filename_or_obj, self.buffer_rgba(), format=fmt, origin=\"upper\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/image.py\", line 1657, in imsave\n    image.save(fname, **pil_kwargs)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/PIL/Image.py\", line 2708, in save\n    fp = builtins.open(filename, \"w+b\")\nFileNotFoundError: [Errno 44] No such file or directory: 'output/to.png'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-372.json:4f957a9d-5851-4e20-a415-bd8ab33f7c14",
+      "page": "009-372",
+      "id": "4f957a9d-5851-4e20-a415-bd8ab33f7c14",
+      "course": "009",
+      "code_sha256": "97bb2970f0b80e0b0b9b82674ed5c2898160b8369b5e31d5d1da4082a1e7b553",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1288,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "15"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-372.json:23ba4d30-4950-40ba-9809-2ce0ab636288",
+      "page": "009-372",
+      "id": "23ba4d30-4950-40ba-9809-2ce0ab636288",
+      "course": "009",
+      "code_sha256": "e33ca07e1bfd0733ecf1f0ff6a4145f11d07746736da1f0ef1a49a8a70622901",
+      "imports": [
+        "collections"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1223,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "[(22, 2), (25, 2), (24, 2), (30, 1), (26, 1), (35, 1)]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-372.json:55dccae3-3534-469d-afd5-efb6e86e7b0b",
+      "page": "009-372",
+      "id": "55dccae3-3534-469d-afd5-efb6e86e7b0b",
+      "course": "009",
+      "code_sha256": "455b96a3616ccd5cb6ef7273f0e3ee9aa961ff6a004797f38a652b6cd74930cd",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1187,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "105"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/008-341.json:75d8a9d6-f17a-463c-bfb2-c012eda7156d",
+      "page": "008-341",
+      "id": "75d8a9d6-f17a-463c-bfb2-c012eda7156d",
+      "course": "008",
+      "code_sha256": "29b100c2846accaec8b2432ce2d94570a4300af0f81f21fcdcb575041a401d6c",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": true,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3977,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The x parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(x) instead."
+        },
+        {
+          "type": "stderr",
+          "value": "<exec>:12: MatplotlibDeprecationWarning: The y parameter as float was deprecated in Matplotlib 3.10 and will be removed in 3.12. Use int(y) instead."
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 12, in <module>\n  File \"/lib/python3.14/site-packages/matplotlib/pyplot.py\", line 1250, in savefig\n    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]\n  File \"/lib/python3.14/site-packages/matplotlib/figure.py\", line 3490, in savefig\n    self.canvas.print_figure(fname, **kwargs)\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2186, in print_figure\n    result = print_method(\n        filename,\n    ...<3 lines>...\n        bbox_inches_restore=_bbox_inches_restore,\n        **kwargs)\n  File \"/lib/python3.14/site-packages/matplotlib/backend_bases.py\", line 2042, in <lambda>\n    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(\n                                                                 ~~~~^\n        *args, **{k: v for k, v in kwargs.items() if k not in skip}))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 481, in print_png\n    self._print_pil(filename_or_obj, \"png\", pil_kwargs, metadata)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/backends/backend_agg.py\", line 430, in _print_pil\n    mpl.image.imsave(\n    ~~~~~~~~~~~~~~~~^\n        filename_or_obj, self.buffer_rgba(), format=fmt, origin=\"upper\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/matplotlib/image.py\", line 1657, in imsave\n    image.save(fname, **pil_kwargs)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/PIL/Image.py\", line 2708, in save\n    fp = builtins.open(filename, \"w+b\")\nFileNotFoundError: [Errno 44] No such file or directory: './output/o.png'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/017-1017.json:33478e3e-10f8-3c8c-b24e-5913d2cb1f9a",
+      "page": "017-1017",
+      "id": "33478e3e-10f8-3c8c-b24e-5913d2cb1f9a",
+      "course": "017",
+      "code_sha256": "d66fc20c32e93ffccbb3ffc2c3358a9b3dca0582434eb61390415290db0ed5c5",
+      "imports": [
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1753,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "1"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/017-1018.json:0ed16294-736c-390f-a20d-22b2e0cb8f64",
+      "page": "017-1018",
+      "id": "0ed16294-736c-390f-a20d-22b2e0cb8f64",
+      "course": "017",
+      "code_sha256": "d157798010e11be903c2a33ef01f8f3efb9260a737b79c518261d702a4feb876",
+      "imports": [
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1737,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "[1 3 4]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/034-1533.json:b93510a1-3cc6-311d-86d7-2dda6a6bdf1b",
+      "page": "034-1533",
+      "id": "b93510a1-3cc6-311d-86d7-2dda6a6bdf1b",
+      "course": "034",
+      "code_sha256": "74b049242f9e5938cbaaa6165cb18a819a07acae499db3c146e264b1c7ca4084",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1142,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "[]"
+        },
+        {
+          "type": "stdout",
+          "value": "[1, 2, 3]"
+        },
+        {
+          "type": "stdout",
+          "value": "[1, 'Hello', 3.4]"
+        },
+        {
+          "type": "stdout",
+          "value": "[1, 2, 3, 1, 3]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/017-1018.json:b4d90ac8-7998-318b-84c1-61914b355913",
+      "page": "017-1018",
+      "id": "b4d90ac8-7998-318b-84c1-61914b355913",
+      "course": "017",
+      "code_sha256": "6c74dee4facd1f54f73f7ac37f78c6911b1ebd93a8d4c1998d7db2a1e64ffa21",
+      "imports": [
+        "numpy"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1670,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "[2 5 8]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/034-1533.json:ef003a5d-9bdb-3bed-b92f-39a4be533378",
+      "page": "034-1533",
+      "id": "ef003a5d-9bdb-3bed-b92f-39a4be533378",
+      "course": "034",
+      "code_sha256": "633c604ca25cf83fdaca2ee22de2e25863248b6b23371b9823788992fa1e696d",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1150,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "['mouse', [1, 2, 3], [4]]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/034-1533.json:49fad8f8-52a0-35fc-be2f-8b3afa2c09c4",
+      "page": "034-1533",
+      "id": "49fad8f8-52a0-35fc-be2f-8b3afa2c09c4",
+      "course": "034",
+      "code_sha256": "1c20f47b8cbb60565e028d554c86d01ae6252a89cad1e66b27771b21455fcf8b",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1136,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "10"
+        },
+        {
+          "type": "stdout",
+          "value": "12"
+        },
+        {
+          "type": "stdout",
+          "value": "15"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/007-323.json:6555a55f-422e-410c-8bce-32837ff7c84e",
+      "page": "007-323",
+      "id": "6555a55f-422e-410c-8bce-32837ff7c84e",
+      "course": "007",
+      "code_sha256": "ce05971df5ebcb7d614ec331d64ce6d89e9f45d3571f66ccb9800635c102d5c3",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3574,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 8, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/generic.py\", line 3988, in to_csv\n    return DataFrameRenderer(formatter).to_csv(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        path_or_buf,\n        ^^^^^^^^^^^^\n    ...<14 lines>...\n        storage_options=storage_options,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python3.14/site-packages/pandas/io/formats/format.py\", line 1025, in to_csv\n    csv_formatter.save()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python3.14/site-packages/pandas/io/formats/csvs.py\", line 251, in save\n    with get_handle(\n         ~~~~~~~~~~^\n        self.filepath_or_buffer,\n        ^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        storage_options=self.storage_options,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ) as handles:\n    ^\n  File \"/lib/python3.14/site-packages/pandas/io/common.py\", line 793, in get_handle\n    check_parent_directory(str(handle))\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"/lib/python3.14/site-packages/pandas/io/common.py\", line 652, in check_parent_directory\n    raise OSError(rf\"Cannot save file into a non-existent directory: '{parent}'\")\nOSError: Cannot save file into a non-existent directory: 'output'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/007-323.json:71956e28-2218-43de-bafb-b563fc8db7c2",
+      "page": "007-323",
+      "id": "71956e28-2218-43de-bafb-b563fc8db7c2",
+      "course": "007",
+      "code_sha256": "25e0e3d58f9203ba14952895b6256a6b53063c4481cbbd55c3c8aab4519c93fa",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": true,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3493,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 9, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/generic.py\", line 2312, in to_excel\n    formatter.write(\n    ~~~~~~~~~~~~~~~^\n        excel_writer,\n        ^^^^^^^^^^^^^\n    ...<6 lines>...\n        engine_kwargs=engine_kwargs,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/lib/python3.14/site-packages/pandas/io/formats/excel.py\", line 1003, in write\n    writer = ExcelWriter(\n        writer,\n    ...<2 lines>...\n        engine_kwargs=engine_kwargs,\n    )\n  File \"/lib/python3.14/site-packages/pandas/io/excel/_openpyxl.py\", line 58, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/001-2.json:123cdd36efbb11eb940a3af9d3c2d1d5",
+      "page": "001-2",
+      "id": "123cdd36efbb11eb940a3af9d3c2d1d5",
+      "course": "001",
+      "code_sha256": "527966d134a175aa0496f85db7f1a05f70c470aa8b687deed2d2f0477c65ac3e",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": true,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1160,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "F"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 7, in <module>\nTypeError: 'str' object does not support item assignment\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/001-3.json:b7d2dae4f28011ebbc013af9d3c2d1d5",
+      "page": "001-3",
+      "id": "b7d2dae4f28011ebbc013af9d3c2d1d5",
+      "course": "001",
+      "code_sha256": "a60bc5cdb133a0bf38d74712aa30f645dd856e01fd27ebc83072f228b1d8f098",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": true,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1124,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "4"
+        },
+        {
+          "type": "stdout",
+          "value": "(1, 2, 3)"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 10, in <module>\nTypeError: 'tuple' object does not support item assignment\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/001-4.json:5a3475acf28811eb9e203af9d3c2d1d5",
+      "page": "001-4",
+      "id": "5a3475acf28811eb9e203af9d3c2d1d5",
+      "course": "001",
+      "code_sha256": "89af4c1bde8a6b1c6392eb582db2df1f6777f8ad57b4d285502abc63c87c94fd",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": true,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1172,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\nException: 自定义抛出的错误信息\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/015-949.json:97a927b7-c6e3-3a78-ab6b-01d090b5ee4e",
+      "page": "015-949",
+      "id": "97a927b7-c6e3-3a78-ab6b-01d090b5ee4e",
+      "course": "015",
+      "code_sha256": "bb30956871e3e2c271682af4af52b33a0eb9c040ba6a551a4dbbe585b8998a4d",
+      "imports": [],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": true,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "5",
+      "elapsedMs": 1162,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "5"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution only covers the selected records listed below.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted and hashed; visual equivalence of generated charts is not asserted.",
+    "Challenge templates are statically inventoried but not executed as completed solutions."
+  ],
+  "workerHashAfter": "8cd3c31acef819729ba9b25733900e3b30b1c003272ff0b96ef70b4b63345382",
+  "finishedAt": "2026-11-01T15:03:39.607Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 49,
+    "status": {
+      "done": 25,
+      "error": 24
+    },
+    "withAttachments": 14,
+    "plots": 0,
+    "workerChangedDuringAudit": false
+  }
+}

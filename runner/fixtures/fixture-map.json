@@ -1,0 +1,227 @@
+{
+  "http://api.pythontip.com/course/fake_baidu": {
+    "path": "/content/fixtures/fake-baidu.html",
+    "source": "024-1327 / Code 385251ae-5d0c-3646-a8b6-e56dfe04bdff"
+  },
+  "http://api.pythontip.com/course/hello_html": {
+    "path": "/content/fixtures/hello-html.html",
+    "source": "Exact visible DOM from original course screenshot 024-1328; page title and appearance confirmed by screenshot 024-1326.",
+    "reconstructed": true
+  },
+  "https://baidu.com": {
+    "path": "/content/fixtures/network/57dccbd875bb1b745520.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://baidu.com",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/?view=cloud": {
+    "path": "/content/fixtures/network/2375ec30725b4296b065.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/?view=cloud",
+    "recovered": true
+  },
+  "https://edu.py2fun.com/learn#/course/list": {
+    "path": "/content/fixtures/network/f22d7ee2045b683bc73e.html",
+    "contentType": "text/html",
+    "source": "https://edu.py2fun.com/learn#/course/list",
+    "recovered": true
+  },
+  "https://book.douban.com/subject/26829016/": {
+    "path": "/content/fixtures/network/5970c516d1ac8600a00d.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/subject/26829016/",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn": {
+    "path": "/content/fixtures/network/48cef96d90b49575bd3b.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "http://sj.zol.com.cn",
+    "recovered": true
+  },
+  "http://www.jd.com": {
+    "path": "/content/fixtures/network/9c34a8a33e2143a2216a.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "http://www.jd.com",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T": {
+    "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/编程?start=0&type=T": {
+    "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T": {
+    "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/编程?start=20&type=T": {
+    "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T": {
+    "path": "/content/fixtures/network/278682050980f84c06b5.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/编程?start=40&type=T": {
+    "path": "/content/fixtures/network/278682050980f84c06b5.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T": {
+    "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/编程?start=60&type=T": {
+    "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T": {
+    "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "recovered": true
+  },
+  "https://book.douban.com/tag/编程?start=80&type=T": {
+    "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
+    "contentType": "text/html; charset=utf-8",
+    "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/1.html": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/": {
+    "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/detail_10981_121155.html": {
+    "path": "/content/fixtures/network/efc1a4914aaae0c70d3a.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/2.html": {
+    "path": "/content/fixtures/network/5c4734ffbd0845242c1e.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/3.html": {
+    "path": "/content/fixtures/network/f038c847f7012d5ad72f.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/4.html": {
+    "path": "/content/fixtures/network/98ba8855c26e620fa318.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/5.html": {
+    "path": "/content/fixtures/network/a7d90c777b22a856c21a.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/6.html": {
+    "path": "/content/fixtures/network/87b77a0feb74f8c7f9b2.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/7.html": {
+    "path": "/content/fixtures/network/f3180851fd1ece9bfd4f.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/8.html": {
+    "path": "/content/fixtures/network/5442ee4e9d59844d5162.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/9.html": {
+    "path": "/content/fixtures/network/1735e38a7bfe38cf5e6e.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
+    "recovered": true
+  },
+  "http://sj.zol.com.cn/bizhi/1080x1920/10.html": {
+    "path": "/content/fixtures/network/76afeb3a9439f60c905b.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
+    "recovered": true
+  },
+  "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg": {
+    "path": "/content/fixtures/network/bdcad9125dbbc4af245d.jpg",
+    "contentType": "image/jpeg",
+    "source": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
+    "recovered": true
+  },
+  "https://www.biqukan.cc/article/30067/": {
+    "path": "/content/fixtures/network/biqukan-index-teaching-gbk.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://www.biqukan.cc/article/30067/",
+    "adapted": true,
+    "recovered": false,
+    "raw": {
+      "path": "/content/fixtures/network/644529fe396dbeb81ba5.html",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "421b4fba5b1a6b4b7a1f3fc670a91ded93b4e55e27ec3a87edf7245eac7d997e",
+      "capturedAt": "2026-11-01T16:51:52.187657+00:00",
+      "bytes": 35735,
+      "finalUrl": "https://www.biqukan.cc/article/30067/",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "recovered": true,
+      "capture": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+    }
+  },
+  "https://www.biqukan.cc/article/30067/17748491.html": {
+    "path": "/content/fixtures/network/biqukan-chapter-teaching-gbk.html",
+    "contentType": "text/html; charset=gbk",
+    "source": "https://www.biqukan.cc/article/30067/17748491.html",
+    "adapted": true,
+    "recovered": false,
+    "raw": {
+      "path": "/content/fixtures/network/cc1311886ebe3c0373c4.html",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "d3c07ced35be6bd198b0d477bf2a7b525098272cceb86c9a82de4cdb1107ce31",
+      "capturedAt": "2026-11-01T16:51:52.189828+00:00",
+      "bytes": 21347,
+      "finalUrl": "https://www.biqukan.cc/article/30067/17748491.html",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "recovered": true,
+      "capture": "Exact current original-URL response fetched by the source course public execution API; UTF-8 and changed DOM differ from the historical GBK/mulu_list/htmlContent lesson. No old HTML has been fabricated."
+    }
+  }
+}

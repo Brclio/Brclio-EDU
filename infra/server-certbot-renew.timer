@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Brclio EDU runner TLS renewal daily
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=4h
+Persistent=true
+Unit=brclio-edu-certbot-renew.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,74 @@
+{
+  "files": {
+    "raw_data.csv": {
+      "path": "/content/runtime-data/raw_data.csv",
+      "bytes": 40919,
+      "sha256": "0f57221385ac535f5c2a008b4ccf37860844dc437d1eb7fc2816900f36b9cbb6",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "course": "007",
+      "page": "307",
+      "component": "3E5iHNuJtFNw0_EiKyB8b",
+      "original_filename": "raw_data.csv",
+      "recovery": "original course fixture bytes",
+      "request": {
+        "language": "python3",
+        "source_code": "import base64\nprint(base64.b64encode(open('raw_data.csv', \"rb\").read()).decode())",
+        "stdin": "",
+        "course_no": "007",
+        "page_id": "307",
+        "comp_id": "3E5iHNuJtFNw0_EiKyB8b",
+        "additional_files": "[]",
+        "entry_filename": "main.py",
+        "time_limit": 30
+      }
+    },
+    "books.txt": {
+      "path": "/content/runtime-data/books.txt",
+      "bytes": 68,
+      "sha256": "6877f9bd3526d5be972e6a3095c213f3e4e5a927fc5f101825499ae3777246cb",
+      "source": "https://edu.py2fun.com/api/course/code/execute",
+      "course": "019",
+      "page": "1091",
+      "component": "6c439693-e3fb-36ff-bc0b-b3a3b98b40d6",
+      "original_filename": "/usercode/books.txt",
+      "recovery": "original course fixture bytes",
+      "request": {
+        "language": "python3",
+        "source_code": "import base64\nprint(base64.b64encode(open('/usercode/books.txt', \"rb\").read()).decode())",
+        "stdin": "",
+        "course_no": "019",
+        "page_id": "1091",
+        "comp_id": "6c439693-e3fb-36ff-bc0b-b3a3b98b40d6",
+        "additional_files": "[]",
+        "entry_filename": "main.py",
+        "time_limit": 30
+      }
+    },
+    "flights.csv": {
+      "path": "/content/runtime-data/flights.csv",
+      "bytes": 2350,
+      "sha256": "237d834127d9c6355630d8f443a7a2377b5925923010009b59809ba0b67f4fac",
+      "source": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/flights.csv",
+      "recovery": "upstream original dataset"
+    },
+    "boston_house_prices.csv": {
+      "path": "/content/runtime-data/boston_house_prices.csv",
+      "bytes": 34742,
+      "sha256": "d98212636026544fc9b9c0f372e5f819872e6fa6fa757ab025efdda22180f2d6",
+      "source": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/1.1.3/sklearn/datasets/data/boston_house_prices.csv",
+      "recovery": "upstream original dataset"
+    },
+    "boston_house_prices.rst": {
+      "path": "/content/runtime-data/boston_house_prices.rst",
+      "bytes": 2347,
+      "sha256": "1d4d7df7b12134c0bd5255c843f8a7e544537cb40d6e841075dc8fc9543ef552",
+      "source": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/1.1.3/sklearn/datasets/descr/boston_house_prices.rst",
+      "recovery": "upstream original dataset"
+    }
+  },
+  "notes": [
+    "raw_data.csv and books.txt are exact original course-server fixture bytes retrieved through the public course code execution endpoint.",
+    "Boston is the historical dataset required by the original lesson, recovered from the official scikit-learn 1.1.3 repository.",
+    "Flights uses original full month names, as seaborn 0.10 did; course 009/398 filters January."
+  ]
+}

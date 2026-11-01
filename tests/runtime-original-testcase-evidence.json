@@ -1,0 +1,70 @@
+{
+  "challenge": 430,
+  "solutionSha256": "77d0b76fb90014c7cc2ab50179923501d57288b6dbdab0f3a6798d29a9ecf3f9",
+  "source": "https://edu.py2fun.com/api/course/code/execute",
+  "results": [
+    {
+      "case_no": 2,
+      "stdin": "Player1\r\n4",
+      "expected_output": "Player1\n (Level 4)\n",
+      "originalServer": {
+        "code": 0,
+        "msg": "ok",
+        "data": {
+          "files": [],
+          "status": 0,
+          "stderr": "",
+          "stdout": "Player1\n (Level 4)\n",
+          "format": "text",
+          "reason": "Succeeded",
+          "st_time": 1793578722.753613,
+          "et_time": 1793578722.833004,
+          "time": "0.08s",
+          "run_uuid": "pyedu_python3_e775a3a9-d60f-11f1-bef4-00163e08945e"
+        }
+      }
+    },
+    {
+      "case_no": 3,
+      "stdin": "abc\r\nX",
+      "expected_output": "abc\n (Level X)\n",
+      "originalServer": {
+        "code": 0,
+        "msg": "ok",
+        "data": {
+          "files": [],
+          "status": 0,
+          "stderr": "",
+          "stdout": "abc\n (Level X)\n",
+          "format": "text",
+          "reason": "Succeeded",
+          "st_time": 1793578722.81068,
+          "et_time": 1793578722.92861,
+          "time": "0.12s",
+          "run_uuid": "pyedu_python3_e776d5f0-d60f-11f1-8d9b-00163e08945e"
+        }
+      }
+    }
+  ],
+  "crlfPrintingProbe": {
+    "challenge": 410,
+    "stdin": "Back in Black\r\nMy Generation\r\nLondon Calling\r\nBelieve\r\nend",
+    "expected_output": "Back in Black\nMy Generation\nLondon Calling\nBelieve\n",
+    "originalServer": {
+      "code": 0,
+      "msg": "ok",
+      "data": {
+        "files": [],
+        "status": 0,
+        "stderr": "",
+        "stdout": "Back in Black\nMy Generation\nLondon Calling\nBelieve\n",
+        "format": "text",
+        "reason": "Succeeded",
+        "st_time": 1793579319.769691,
+        "et_time": 1793579319.819923,
+        "time": "0.05s",
+        "run_uuid": "pyedu_python3_4b770974-d611-11f1-8b9a-00163e08945e"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.edu-option.incorrect { border-color:#ff6656; background:#ffd1cb; }
+.edu-option.correct { border-color:#35b792; background:#b2ede2; }
+.edu-option:has(input:disabled) { cursor:default; }
+.edu-option:has(input:disabled):hover { border-color:#d9e0e5; }
+.edu-option.incorrect:has(input:disabled):hover { border-color:#ff6656; }
+.edu-option.correct:has(input:disabled):hover { border-color:#35b792; }
+.edu-blank:disabled { opacity:1; color:inherit; }
+.solo .edu-quiz { padding:0; border:0; border-radius:0; margin:0; }
+.solo .edu-quiz-label { display:none; }
+.solo .edu-quiz > .edu-markdown { margin-top:0; }
+.solo .edu-options { gap:14px; }
+.solo .edu-option { min-height:54px; padding:0 20px 0 16px; border:1px solid #d9e0e5; border-bottom-width:3px; border-radius:2px; gap:0; }
+.solo .edu-option.selected { background:#e9e8ff; border-color:#6b63ff; }
+.solo .edu-option.correct { background:#b2ede2; border-color:#35b792; }
+.solo .edu-option.incorrect { background:#ffd1cb; border-color:#ff6656; }
+.solo .edu-option .edu-markdown { font-size:18px; line-height:1.5; padding:9px 0; }
+.solo .edu-option .edu-option-key { display:none; }
+.solo .edu-option input { position:absolute; width:1px; height:1px; opacity:0; }
+.solo .edu-option:has(input:focus-visible) { outline:2px solid #5954ff; outline-offset:3px; }
+.solo .edu-quiz-actions { margin-top:24px; }
+.solo .edu-quiz-actions.is-checked { display:flex; flex-direction:column-reverse; align-items:stretch; }
+.solo .edu-quiz-actions.is-checked > [role=status] { display:flex; align-items:center; justify-content:center; min-height:72px; font-size:24px; font-weight:600; color:white; }
+.solo .edu-quiz-actions.is-checked > .edu-success { background:#35ae91; }
+.solo .edu-quiz-actions.is-checked > .edu-error { background:#fa6856; }
+.solo .edu-quiz-actions .edu-primary { min-width:167px; min-height:48px; align-self:flex-end; border-radius:6px; }
+@media(max-width:700px) { .solo .edu-option .edu-markdown { font-size:16px; } .solo .edu-quiz-actions.is-checked > [role=status] { font-size:21px; } }
+/* Solo courses submit/retry in the original fixed navigation bar. */
+.solo .edu-quiz-actions{display:none}.solo .lesson-footer .edu-success,.solo .lesson-footer .edu-error{font-size:18px;font-weight:500}.solo .lesson-footer .primary{min-width:166px}

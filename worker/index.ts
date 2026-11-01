@@ -1,4 +1,5 @@
 import { serveMedia } from './media.ts';
+import { runCode } from './execution.ts';
 /** Anonymous, same-origin learning progress stored in a private GitHub repository. */
 export interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
@@ -10,6 +11,8 @@ export interface Env {
   GITHUB_INSTALLATION_ID?: string;
   GITHUB_APP_PRIVATE_KEY?: string;
   SESSION_SECRET?: string;
+  RUNNER_URL?: string;
+  RUNNER_TOKEN?: string;
 }
 export type Answer = null | boolean | number | string | Answer[] | { [key: string]: Answer };
 export interface LessonProgress {
@@ -406,6 +409,7 @@ export function createWorker(dependencies: Dependencies = {}) {
       const path = new URL(request.url).pathname;
       if (!path.startsWith('/api/')) return env.ASSETS.fetch(request);
       if (path.startsWith('/api/media/')) return serveMedia(request, env.ASSETS);
+      if (path === '/api/run') return runCode(request, env, dependencies.fetch || fetch);
       if (path !== '/api/progress') return json({ error: '接口不存在。' }, 404);
       if (request.method !== 'GET' && request.method !== 'PUT') {
         const response = json({ error: '请求方法不支持。' }, 405);

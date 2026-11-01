@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-11-01T17:07:13.559372+00:00",
+  "source": "scripts/import-biqukan-compat.py",
+  "recoveredHistoricalHtml": false,
+  "results": [
+    {
+      "url": "https://www.biqukan.cc/article/30067/",
+      "raw": {
+        "path": "/content/fixtures/network/644529fe396dbeb81ba5.html",
+        "bytes": 35735,
+        "sha256": "421b4fba5b1a6b4b7a1f3fc670a91ded93b4e55e27ec3a87edf7245eac7d997e",
+        "title": "凡人修仙之仙界篇全文免费阅读_凡人修仙之仙界篇忘语_凡人修仙之仙界篇最新章节_笔趣看"
+      },
+      "adapted": {
+        "path": "/content/fixtures/network/biqukan-index-teaching-gbk.html",
+        "bytes": 5655,
+        "sha256": "ae6950337cb9f82a9679467273cce4e10c7ce8c5fb5575b375af9b8372349be6"
+      },
+      "chapterLinks": 100,
+      "chapterLinkSha256": "6134d5b58966827a7d5c9cb5796e0dbc521e404cc943efdd4c0ce5afd5bce590",
+      "adaptations": [
+        "Wrap current main section-list in the historical mulu_list selector.",
+        "Convert only the /article/30067/ URL prefix to relative filenames, matching original target+href code.",
+        "Transcode UTF-8 source text to strict GBK; no replacement characters."
+      ],
+      "scope": "Exactly the 100 entries on this captured current index page; not the entire historical novel catalogue."
+    },
+    {
+      "url": "https://www.biqukan.cc/article/30067/17748491.html",
+      "raw": {
+        "path": "/content/fixtures/network/cc1311886ebe3c0373c4.html",
+        "bytes": 21347,
+        "sha256": "d3c07ced35be6bd198b0d477bf2a7b525098272cceb86c9a82de4cdb1107ce31",
+        "title": "凡人修仙之仙界篇最新章节_第一章 狐女第1页_凡人修仙之仙界篇忘语_笔趣看"
+      },
+      "adapted": {
+        "path": "/content/fixtures/network/biqukan-chapter-teaching-gbk.html",
+        "bytes": 3811,
+        "sha256": "9296419afb90abb9697b64635767bf7aacc525494bd8bc4a64441af264d1a48d"
+      },
+      "paragraphs": 31,
+      "decodedParagraphSha256": "3fa9913c8c3c845a9413d6f0ddc53fcb7d1551864327bf11a357f4de76a06902",
+      "adaptations": [
+        "Decode public, inline qsbs.bb Base64 paragraph payloads already present in the response; no extra requests or access-control changes.",
+        "Place those existing paragraphs under historical htmlContent/chapter-content selectors with the lesson four-NBSP paragraph delimiter.",
+        "Transcode UTF-8 source text to strict GBK; no replacement characters."
+      ],
+      "scope": "Only 第一章 狐女 第1页 captured at the exact original URL. The current website splits this chapter across pages; no missing paragraphs are invented."
+    }
+  ],
+  "notes": [
+    "Original editable lesson code remains unchanged.",
+    "The raw original-URL responses are permanently preserved with hashes.",
+    "Compatibility fixtures are transformed educational inputs, not forged original HTTP responses."
+  ]
+}

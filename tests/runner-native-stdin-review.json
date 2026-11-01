@@ -1,0 +1,340 @@
+{
+  "sourceOccurrences": 28,
+  "distinctExamples": 24,
+  "explicitSamples": 2,
+  "noStdinFalsePositives": 0,
+  "items": [
+    {
+      "file": "/content/pages/016-1000.json",
+      "componentId": 1609,
+      "language": "go",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/016-1000.json",
+          "componentId": 1609
+        },
+        {
+          "file": "/content/challenges/369.json",
+          "componentId": 1609
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/016-985.json",
+      "componentId": "5bcfcd50-35b7-30f1-a6ed-d4777c40b960",
+      "language": "go",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/016-985.json",
+          "componentId": "5bcfcd50-35b7-30f1-a6ed-d4777c40b960"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/016-985.json",
+      "componentId": "62062391-0d4c-33f1-89ce-99bb7ea25471",
+      "language": "go",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/016-985.json",
+          "componentId": "62062391-0d4c-33f1-89ce-99bb7ea25471"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/016-997.json",
+      "componentId": "6a906075-c26c-3199-81b4-77cfddcbaabe",
+      "language": "go",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/016-997.json",
+          "componentId": "6a906075-c26c-3199-81b4-77cfddcbaabe"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/016-999.json",
+      "componentId": 1608,
+      "language": "go",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/016-999.json",
+          "componentId": 1608
+        },
+        {
+          "file": "/content/challenges/368.json",
+          "componentId": 1608
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "6bf4d2e4-dba9-3e5b-a861-d6d1f8e95470",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "6bf4d2e4-dba9-3e5b-a861-d6d1f8e95470"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "a17e4038-24e0-3406-9c4a-61499088c9bc",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "a17e4038-24e0-3406-9c4a-61499088c9bc"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "e09572ba-c0d4-3e91-8773-818406d08550",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "e09572ba-c0d4-3e91-8773-818406d08550"
+        },
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "36e16920-afe2-30df-94d6-f7f8d79a1f34"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "1a0fea74-1dd6-302c-9ea8-7294678c4d21",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "1a0fea74-1dd6-302c-9ea8-7294678c4d21"
+        },
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "228049b3-c70e-3224-bad8-ed0dc73401af"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "73071ea9-5e48-3de1-9048-84327488a884",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "73071ea9-5e48-3de1-9048-84327488a884"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "d3654670-a04e-3ec3-8fb9-a6df1396a836",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "d3654670-a04e-3ec3-8fb9-a6df1396a836"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "52c6f124-a6ea-37cf-8213-70d7316550ba",
+      "language": "c",
+      "status": "explicit_sample",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "52c6f124-a6ea-37cf-8213-70d7316550ba"
+        }
+      ],
+      "evidence": "同页紧随代码的 MarkdownEditor 文本明确“输入10 22.5 abcd，然后按回车键”；代码只有scanf，不输出内容。",
+      "stdin": "10 22.5 abcd\n",
+      "expected": ""
+    },
+    {
+      "file": "/content/pages/021-1125.json",
+      "componentId": "385dc73d-9f82-3dc1-b437-dd1bce00a06f",
+      "language": "c",
+      "status": "explicit_sample",
+      "origins": [
+        {
+          "file": "/content/pages/021-1125.json",
+          "componentId": "385dc73d-9f82-3dc1-b437-dd1bce00a06f"
+        }
+      ],
+      "evidence": "原代码注释明确 /* input: 1234  5.7  elephant */ 和 /* output: 12  34  eleph */；printf为%d  %d  %s。",
+      "stdin": "1234  5.7  elephant\n",
+      "expected": "12  34  eleph"
+    },
+    {
+      "file": "/content/pages/021-1140.json",
+      "componentId": "e0c40f3d-473b-3f5d-b110-db031cdc3d16",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1140.json",
+          "componentId": "e0c40f3d-473b-3f5d-b110-db031cdc3d16"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1144.json",
+      "componentId": "9da8e32a-0a3a-36a1-9d54-778d4497f369",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1144.json",
+          "componentId": "9da8e32a-0a3a-36a1-9d54-778d4497f369"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1144.json",
+      "componentId": "aa08a51f-eb58-30ee-9fcd-a89f1cb586fb",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1144.json",
+          "componentId": "aa08a51f-eb58-30ee-9fcd-a89f1cb586fb"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1145.json",
+      "componentId": "4fbc1073-b8f2-33ad-960b-d0dacbeba45c",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1145.json",
+          "componentId": "4fbc1073-b8f2-33ad-960b-d0dacbeba45c"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1146.json",
+      "componentId": "cf747d0b-0fea-3a7c-aa47-a574b1a93f6c",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1146.json",
+          "componentId": "cf747d0b-0fea-3a7c-aa47-a574b1a93f6c"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/021-1159.json",
+      "componentId": "cb769351-f45e-3ae2-829d-603a3be6a226",
+      "language": "c",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/021-1159.json",
+          "componentId": "cb769351-f45e-3ae2-829d-603a3be6a226"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/023-1240.json",
+      "componentId": "a96b017e-f28e-3bf5-bae6-1ea207a22606",
+      "language": "cpp",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/023-1240.json",
+          "componentId": "a96b017e-f28e-3bf5-bae6-1ea207a22606"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/023-1240.json",
+      "componentId": "45837c58-f8bd-3b3c-81d5-7ddf3728e488",
+      "language": "cpp",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/023-1240.json",
+          "componentId": "45837c58-f8bd-3b3c-81d5-7ddf3728e488"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/023-1240.json",
+      "componentId": "b3d5fc87-9722-3f3d-8d27-52b6b2a54b58",
+      "language": "cpp",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/023-1240.json",
+          "componentId": "b3d5fc87-9722-3f3d-8d27-52b6b2a54b58"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/023-1248.json",
+      "componentId": "bbc121c6-fa51-302f-9660-2af9f8a4b0aa",
+      "language": "cpp",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/023-1248.json",
+          "componentId": "bbc121c6-fa51-302f-9660-2af9f8a4b0aa"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    },
+    {
+      "file": "/content/pages/025-1355.json",
+      "componentId": "820795ff-5647-35c2-9847-5de69bad3f1e",
+      "language": "java",
+      "status": "needs_manual_input",
+      "origins": [
+        {
+          "file": "/content/pages/025-1355.json",
+          "componentId": "820795ff-5647-35c2-9847-5de69bad3f1e"
+        }
+      ],
+      "evidence": "原页和公开挑战没有给出具体输入值；源代码确实读取标准输入。"
+    }
+  ]
+}

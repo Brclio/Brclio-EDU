@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-11-01T14:40:16.610Z",
+  "note": "Focused evidence from the initial renderer schema audit, before the three quiz fixes.",
+  "summary": {
+    "pages": 1190,
+    "standaloneChallenges": 479,
+    "components": 19165,
+    "questions": 1625,
+    "codeBlocks": 3730,
+    "animationFrames": 964,
+    "issues": {
+      "runtime-not-supported": 519,
+      "empty-code-template": 34,
+      "unanswerable-fill": 3
+    }
+  },
+  "issues": [
+    {
+      "kind": "unanswerable-fill",
+      "componentId": "932e0528-2621-3b4c-9a75-403cc1c3f404",
+      "tokens": [
+        "0",
+        "1"
+      ],
+      "expected": [
+        {
+          "key": "0",
+          "texts": [
+            "abracadabra"
+          ]
+        },
+        {
+          "key": "1",
+          "texts": []
+        }
+      ],
+      "file": "/content/pages/015-969.json",
+      "where": "$.components[0].resolved"
+    },
+    {
+      "kind": "unanswerable-fill",
+      "componentId": "921a8acc-118d-3f43-8ace-d31c71fe5eea",
+      "tokens": [
+        "5"
+      ],
+      "expected": [
+        {
+          "key": "5",
+          "texts": []
+        }
+      ],
+      "file": "/content/pages/016-1001.json",
+      "where": "$.components[4].resolved"
+    },
+    {
+      "kind": "unanswerable-fill",
+      "componentId": "d4ffdfa9-d3d7-31a6-b2cb-cc0233268334",
+      "tokens": [
+        "0",
+        "1",
+        "2"
+      ],
+      "expected": [
+        {
+          "key": "0",
+          "texts": [
+            "String"
+          ]
+        },
+        {
+          "key": "1",
+          "texts": [
+            "System"
+          ]
+        },
+        {
+          "key": "2",
+          "texts": []
+        }
+      ],
+      "file": "/content/pages/025-1359.json",
+      "where": "$.components[2].resolved"
+    }
+  ],
+  "questions": [
+    {
+      "file": "/content/pages/015-969.json",
+      "where": "$.components[0].resolved",
+      "componentId": "932e0528-2621-3b4c-9a75-403cc1c3f404",
+      "questionId": 126,
+      "kind": "type_in",
+      "options": 1,
+      "tokens": [
+        "0",
+        "1"
+      ],
+      "expected": [
+        {
+          "key": "0",
+          "texts": [
+            "abracadabra"
+          ]
+        },
+        {
+          "key": "1",
+          "texts": []
+        }
+      ],
+      "correctOptions": [],
+      "textPreview": "这段代码的输出结果是？\n\n```python\nprint(\"{0}{1}{0}\".format(\"abra\", \"cad\"))\n```"
+    },
+    {
+      "file": "/content/pages/016-1001.json",
+      "where": "$.components[4].resolved",
+      "componentId": "921a8acc-118d-3f43-8ace-d31c71fe5eea",
+      "questionId": 236,
+      "kind": "type_in",
+      "options": 1,
+      "tokens": [
+        "5"
+      ],
+      "expected": [
+        {
+          "key": "5",
+          "texts": []
+        }
+      ],
+      "correctOptions": [],
+      "textPreview": "下面代码的输出是：\n\n```go\ntype T struct {\n    val int\n}\nfunc (p *T) a() {\n    p.val += 1\n}\nfunc (p T) b() {\n    p.val += 2\n}\nfunc"
+    },
+    {
+      "file": "/content/pages/025-1359.json",
+      "where": "$.components[2].resolved",
+      "componentId": "d4ffdfa9-d3d7-31a6-b2cb-cc0233268334",
+      "questionId": 3112,
+      "kind": "drag_and_drop",
+      "options": 5,
+      "tokens": [
+        "0",
+        "1",
+        "2"
+      ],
+      "expected": [
+        {
+          "key": "0",
+          "texts": [
+            "String"
+          ]
+        },
+        {
+          "key": "1",
+          "texts": [
+            "System"
+          ]
+        },
+        {
+          "key": "2",
+          "texts": []
+        }
+      ],
+      "correctOptions": [],
+      "textPreview": "拖拽选项，完善代码，正确输出变量`name`：\n\n```java_typein\n__0__ name;\nname = \"David\";\n__1__.out.println(__2__);\n```"
+    }
+  ]
+}

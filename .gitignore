@@ -17,3 +17,8 @@ data/source/
 *.tsbuildinfo
 *.pem
 *.key
+
+# Local audit screenshots and Python bytecode.
+output/
+__pycache__/
+*.pyc

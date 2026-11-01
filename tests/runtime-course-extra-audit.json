@@ -1,0 +1,1943 @@
+{
+  "startedAt": "2026-11-01T15:05:18.783Z",
+  "runtime": [
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "dependencies": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "dependencies": [
+        "numpy",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "dependencies": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "dependencies": [
+        "contourpy",
+        "cycler",
+        "fonttools",
+        "kiwisolver",
+        "numpy",
+        "packaging",
+        "pillow",
+        "pyparsing",
+        "python-dateutil",
+        "pytz"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "dependencies": [
+        "six"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.62.1",
+      "dependencies": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "dependencies": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.1",
+      "dependencies": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "dependencies": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "dependencies": [
+        "numpy"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dependencies": [
+        "mpmath"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.8.0",
+      "dependencies": [
+        "scipy",
+        "joblib",
+        "threadpoolctl"
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "dependencies": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.14.3",
+      "dependencies": [
+        "soupsieve",
+        "typing-extensions"
+      ]
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.8.3",
+      "dependencies": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "dependencies": []
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "dependencies": []
+    },
+    {
+      "name": "requests",
+      "version": "2.33.1",
+      "dependencies": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "dependencies": []
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "dependencies": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "dependencies": []
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "dependencies": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "dependencies": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    }
+  ],
+  "workerHashBefore": "8cd3c31acef819729ba9b25733900e3b30b1c003272ff0b96ef70b4b63345382",
+  "selected": 22,
+  "results": [
+    {
+      "key": "/content/pages/009-384.json:84942b1b-e08b-4db8-a956-3d347a1695f6",
+      "page": "009-384",
+      "id": "84942b1b-e08b-4db8-a956-3d347a1695f6",
+      "course": "009",
+      "code_sha256": "7b865ebdfe53964f4ae423dfb71f33a688d1f323850e24281449b9f99c863673",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3803,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "   age          workclass  fnlwgt  ... hoursperweek   nativecountry   label"
+        },
+        {
+          "type": "stdout",
+          "value": "0   39          State-gov   77516  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "1   50   Self-emp-not-inc   83311  ...           13   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "2   38            Private  215646  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "3   53            Private  234721  ...           40   United-States   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": "4   28            Private  338409  ...           40            Cuba   <=50K"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[5 rows x 15 columns]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:a5ae8ac5-3a1a-45be-b618-68756783a363",
+      "page": "009-384",
+      "id": "a5ae8ac5-3a1a-45be-b618-68756783a363",
+      "course": "009",
+      "code_sha256": "75a8d40d1d6988cb368eb4528b9933b3ca6abc960f529d591708dc2da620f448",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3807,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "              age        fnlwgt  ...  capitalloss  hoursperweek"
+        },
+        {
+          "type": "stdout",
+          "value": "count  1000.00000  1.000000e+03  ...  1000.000000   1000.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "mean     38.05100  1.919050e+05  ...    92.960000     39.876000"
+        },
+        {
+          "type": "stdout",
+          "value": "std      13.34948  1.081255e+05  ...   412.442337     12.018114"
+        },
+        {
+          "type": "stdout",
+          "value": "min      17.00000  2.117400e+04  ...     0.000000      1.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "25%      28.00000  1.150412e+05  ...     0.000000     40.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "50%      36.00000  1.805905e+05  ...     0.000000     40.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "75%      46.00000  2.471522e+05  ...     0.000000     45.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "max      90.00000  1.033222e+06  ...  2415.000000     99.000000"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[8 rows x 6 columns]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:2c230ff5-76d2-49b3-be11-4da23c236a98",
+      "page": "009-384",
+      "id": "2c230ff5-76d2-49b3-be11-4da23c236a98",
+      "course": "009",
+      "code_sha256": "626459ab89468a3ee7bb351e11bfbdcb7415fe25fa1ec4840474216cffbb90cd",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3632,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<StringArray>"
+        },
+        {
+          "type": "stdout",
+          "value": "[ ' Not-in-family',        ' Husband',           ' Wife',      ' Own-child',"
+        },
+        {
+          "type": "stdout",
+          "value": "      ' Unmarried', ' Other-relative']"
+        },
+        {
+          "type": "stdout",
+          "value": "Length: 6, dtype: str"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:27abe37a-4e82-4a36-b617-2472f0963341",
+      "page": "009-384",
+      "id": "27abe37a-4e82-4a36-b617-2472f0963341",
+      "course": "009",
+      "code_sha256": "0d8f52fa293b1703575524596c81cd5a842757072eced973011e11b4480ed3af",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3649,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "<class 'pandas.DataFrame'>"
+        },
+        {
+          "type": "stdout",
+          "value": "RangeIndex: 1000 entries, 0 to 999"
+        },
+        {
+          "type": "stdout",
+          "value": "Data columns (total 15 columns):"
+        },
+        {
+          "type": "stdout",
+          "value": " #   Column         Non-Null Count  Dtype"
+        },
+        {
+          "type": "stdout",
+          "value": "---  ------         --------------  -----"
+        },
+        {
+          "type": "stdout",
+          "value": " 0   age            1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 1   workclass      1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 2   fnlwgt         1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 3   education      1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 4   educationnum   1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 5   maritalstatus  1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 6   occupation     1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 7   relationship   1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 8   race           1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 9   sex            1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 10  capitalgain    1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 11  capitalloss    1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 12  hoursperweek   1000 non-null   int64"
+        },
+        {
+          "type": "stdout",
+          "value": " 13  nativecountry  1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": " 14  label          1000 non-null   str  "
+        },
+        {
+          "type": "stdout",
+          "value": "dtypes: int64(6), str(9)"
+        },
+        {
+          "type": "stdout",
+          "value": "memory usage: 82.1 KB"
+        },
+        {
+          "type": "stdout",
+          "value": "None"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:3a3030e6-3e89-42f5-8e89-3aeb2a157107",
+      "page": "009-384",
+      "id": "3a3030e6-3e89-42f5-8e89-3aeb2a157107",
+      "course": "009",
+      "code_sha256": "f06b206586811a3af95f670d2fdae49a7e5f3036401c57d121c2b086eae4904c",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3708,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "relationship"
+        },
+        {
+          "type": "stdout",
+          "value": "Husband           376"
+        },
+        {
+          "type": "stdout",
+          "value": "Not-in-family     279"
+        },
+        {
+          "type": "stdout",
+          "value": "Own-child         151"
+        },
+        {
+          "type": "stdout",
+          "value": "Unmarried         109"
+        },
+        {
+          "type": "stdout",
+          "value": "Wife               61"
+        },
+        {
+          "type": "stdout",
+          "value": "Other-relative     24"
+        },
+        {
+          "type": "stdout",
+          "value": "Name: count, dtype: int64"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:af9d8b9d-2ac1-4296-857a-f6712c986fdb",
+      "page": "009-384",
+      "id": "af9d8b9d-2ac1-4296-857a-f6712c986fdb",
+      "course": "009",
+      "code_sha256": "138164818793a9311758b2c1f347bd77028d0940c148727646c184f4c920b0cd",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3713,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "relationship    label"
+        },
+        {
+          "type": "stdout",
+          "value": "Husband         <=50K    0.553191"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.446809"
+        },
+        {
+          "type": "stdout",
+          "value": "Not-in-family   <=50K    0.903226"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.096774"
+        },
+        {
+          "type": "stdout",
+          "value": "Other-relative  <=50K    0.916667"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.083333"
+        },
+        {
+          "type": "stdout",
+          "value": "Own-child       <=50K    0.986755"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.013245"
+        },
+        {
+          "type": "stdout",
+          "value": "Unmarried       <=50K    0.926606"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.073394"
+        },
+        {
+          "type": "stdout",
+          "value": "Wife            <=50K    0.590164"
+        },
+        {
+          "type": "stdout",
+          "value": "                >50K     0.409836"
+        },
+        {
+          "type": "stdout",
+          "value": "Name: proportion, dtype: float64"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:4ffd4383-0f64-443b-bc41-b065ce151e4c",
+      "page": "009-384",
+      "id": "4ffd4383-0f64-443b-bc41-b065ce151e4c",
+      "course": "009",
+      "code_sha256": "04509ef2d8b3c1acf06f1864fcfb155434351fa19c616e552f42bd7c749d2f68",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3618,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "workclass"
+        },
+        {
+          "type": "stdout",
+          "value": "?                   30.629032"
+        },
+        {
+          "type": "stdout",
+          "value": "Federal-gov         41.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "Local-gov           41.367647"
+        },
+        {
+          "type": "stdout",
+          "value": "Private             39.836676"
+        },
+        {
+          "type": "stdout",
+          "value": "Self-emp-inc        52.090909"
+        },
+        {
+          "type": "stdout",
+          "value": "Self-emp-not-inc    42.024691"
+        },
+        {
+          "type": "stdout",
+          "value": "State-gov           37.135135"
+        },
+        {
+          "type": "stdout",
+          "value": "Name: hoursperweek, dtype: float64"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-384.json:c3573201-ee75-4ebf-a7d4-154cf3560d9f",
+      "page": "009-384",
+      "id": "c3573201-ee75-4ebf-a7d4-154cf3560d9f",
+      "course": "009",
+      "code_sha256": "d4ceac321fcb927d56c9160f3a4de842e8207d5431d35d4aabd7b64bf46aa942",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3615,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 10, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/frame.py\", line 13121, in corr\n    mat = data.to_numpy(dtype=float, na_value=np.nan, copy=False)\n  File \"/lib/python3.14/site-packages/pandas/core/frame.py\", line 2081, in to_numpy\n    result = self._mgr.as_array(dtype=dtype, copy=copy, na_value=na_value)\n  File \"/lib/python3.14/site-packages/pandas/core/internals/managers.py\", line 1864, in as_array\n    arr = self._interleave(dtype=dtype, na_value=na_value)\n  File \"/lib/python3.14/site-packages/pandas/core/internals/managers.py\", line 1917, in _interleave\n    arr = blk.values.to_numpy(  # type: ignore[union-attr]\n        dtype=dtype,\n        na_value=na_value,\n    )\n  File \"/lib/python3.14/site-packages/pandas/core/arrays/numpy_.py\", line 589, in to_numpy\n    result = np.asarray(result, dtype=dtype)\nValueError: could not convert string to float: ' State-gov'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-384.json:873212f7-3917-4783-8c44-b7f88bd79330",
+      "page": "009-384",
+      "id": "873212f7-3917-4783-8c44-b7f88bd79330",
+      "course": "009",
+      "code_sha256": "617bad4a7b98c0a06f83877d78f85f2c8d8b8eb36f70f2e0ef9e450b50e3c876",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [
+        "pandas-numeric-only-candidate"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3686,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 11, in <module>\n  File \"/lib/python3.14/site-packages/pandas/core/frame.py\", line 13121, in corr\n    mat = data.to_numpy(dtype=float, na_value=np.nan, copy=False)\n  File \"/lib/python3.14/site-packages/pandas/core/frame.py\", line 2081, in to_numpy\n    result = self._mgr.as_array(dtype=dtype, copy=copy, na_value=na_value)\n  File \"/lib/python3.14/site-packages/pandas/core/internals/managers.py\", line 1864, in as_array\n    arr = self._interleave(dtype=dtype, na_value=na_value)\n  File \"/lib/python3.14/site-packages/pandas/core/internals/managers.py\", line 1917, in _interleave\n    arr = blk.values.to_numpy(  # type: ignore[union-attr]\n        dtype=dtype,\n        na_value=na_value,\n    )\n  File \"/lib/python3.14/site-packages/pandas/core/arrays/numpy_.py\", line 589, in to_numpy\n    result = np.asarray(result, dtype=dtype)\nValueError: could not convert string to float: ' State-gov'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-384.json:3d4270a6-bd5e-46e5-a422-7ed390fd9d6e",
+      "page": "009-384",
+      "id": "3d4270a6-bd5e-46e5-a422-7ed390fd9d6e",
+      "course": "009",
+      "code_sha256": "f0e794271778fa7f62a1be18a78a23189d03cef388844baa8631086d869968bd",
+      "imports": [
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3703,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "              age        fnlwgt  ...  capitalloss  hoursperweek"
+        },
+        {
+          "type": "stdout",
+          "value": "count  1000.00000  1.000000e+03  ...  1000.000000   1000.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "mean     38.05100  1.919050e+05  ...    92.960000     39.876000"
+        },
+        {
+          "type": "stdout",
+          "value": "std      13.34948  1.081255e+05  ...   412.442337     12.018114"
+        },
+        {
+          "type": "stdout",
+          "value": "min      17.00000  2.117400e+04  ...     0.000000      1.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "1%       17.00000  2.738155e+04  ...     0.000000      6.990000"
+        },
+        {
+          "type": "stdout",
+          "value": "5%       19.00000  4.327415e+04  ...     0.000000     18.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "95%      63.00000  3.828419e+05  ...    32.650000     60.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "99%      73.01000  5.270841e+05  ...  2052.280000     72.000000"
+        },
+        {
+          "type": "stdout",
+          "value": "max      90.00000  1.033222e+06  ...  2415.000000     99.000000"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[9 rows x 6 columns]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-385.json:a360d38b-1f7e-465d-a273-e2bb5b474904",
+      "page": "009-385",
+      "id": "a360d38b-1f7e-465d-a273-e2bb5b474904",
+      "course": "009",
+      "code_sha256": "6d315130c407459760a645b2fb200fbad3e1058f20cb97f7ded1438f436d1270",
+      "imports": [
+        "numpy",
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3736,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "relationship  Husband  Not-in-family  ...  Unmarried  Wife"
+        },
+        {
+          "type": "stdout",
+          "value": "label                                 ...                 "
+        },
+        {
+          "type": "stdout",
+          "value": "<=50K             208            252  ...        101    36"
+        },
+        {
+          "type": "stdout",
+          "value": ">50K              168             27  ...          8    25"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[2 rows x 6 columns]"
+        },
+        {
+          "type": "stdout",
+          "value": "label  relationship  "
+        },
+        {
+          "type": "stdout",
+          "value": "<=50K  Husband           208"
+        },
+        {
+          "type": "stdout",
+          "value": "       Not-in-family     252"
+        },
+        {
+          "type": "stdout",
+          "value": "       Other-relative     22"
+        },
+        {
+          "type": "stdout",
+          "value": "       Own-child         149"
+        },
+        {
+          "type": "stdout",
+          "value": "       Unmarried         101"
+        },
+        {
+          "type": "stdout",
+          "value": "       Wife               36"
+        },
+        {
+          "type": "stdout",
+          "value": ">50K   Husband           168"
+        },
+        {
+          "type": "stdout",
+          "value": "       Not-in-family      27"
+        },
+        {
+          "type": "stdout",
+          "value": "       Other-relative      2"
+        },
+        {
+          "type": "stdout",
+          "value": "       Own-child           2"
+        },
+        {
+          "type": "stdout",
+          "value": "       Unmarried           8"
+        },
+        {
+          "type": "stdout",
+          "value": "       Wife               25"
+        },
+        {
+          "type": "stdout",
+          "value": "dtype: int64"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-385.json:adc92830-8e0b-4745-9b5a-bfbbd353357e",
+      "page": "009-385",
+      "id": "adc92830-8e0b-4745-9b5a-bfbbd353357e",
+      "course": "009",
+      "code_sha256": "56987f877f2e3bae5a2f12f6938d564738f54374432485693b4ccc5dabe35bc8",
+      "imports": [
+        "numpy",
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3752,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "label                            <=50K   >50K"
+        },
+        {
+          "type": "stdout",
+          "value": "relationship   workclass                     "
+        },
+        {
+          "type": "stdout",
+          "value": "Husband        ?                 23.83  43.33"
+        },
+        {
+          "type": "stdout",
+          "value": "               Federal-gov       32.00  40.40"
+        },
+        {
+          "type": "stdout",
+          "value": "               Local-gov         41.33  43.89"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           42.85  45.64"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-inc      51.25  54.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-not-inc  42.40  49.94"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov         39.20  37.18"
+        },
+        {
+          "type": "stdout",
+          "value": "Not-in-family  ?                 28.36  45.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Federal-gov       40.50  53.33"
+        },
+        {
+          "type": "stdout",
+          "value": "               Local-gov         43.36  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           39.82  47.70"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-inc      61.25  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-not-inc  41.93  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov         32.60    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "Other-relative ?                 40.00    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           36.94  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov         40.00    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "Own-child      ?                 28.50    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Federal-gov       40.00    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Local-gov         35.50    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           31.95  50.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-inc      40.00    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-not-inc  23.75    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov         28.33  50.00"
+        },
+        {
+          "type": "stdout",
+          "value": "Unmarried      ?                 32.56    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Federal-gov       15.00  49.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Local-gov         37.80    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           37.20  49.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-inc      40.00    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-not-inc  31.29  45.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov         38.75    NaN"
+        },
+        {
+          "type": "stdout",
+          "value": "Wife           ?                 40.00  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Federal-gov         NaN  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Local-gov         45.00  39.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Private           38.11  37.44"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-inc        NaN  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               Self-emp-not-inc  47.50  40.00"
+        },
+        {
+          "type": "stdout",
+          "value": "               State-gov           NaN  40.00"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-385.json:dc78065d-5eec-4a66-b876-7e5643fa0329",
+      "page": "009-385",
+      "id": "dc78065d-5eec-4a66-b876-7e5643fa0329",
+      "course": "009",
+      "code_sha256": "3322b215a2b0be1f350c0b72eaec3559272674a95bad028d687a9b8e31e5d33c",
+      "imports": [
+        "numpy",
+        "pandas",
+        "pandas.util.testing"
+      ],
+      "compatibilityCandidates": [
+        "removed-pandas-util-testing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3671,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\nModuleNotFoundError: No module named 'pandas.util.testing'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-385.json:e239b422-ed47-4eff-8b6c-fffa61f10286",
+      "page": "009-385",
+      "id": "e239b422-ed47-4eff-8b6c-fffa61f10286",
+      "course": "009",
+      "code_sha256": "02b6f053d26b17529c38646db5a419b2b470f8d13402e515395e61feca8971a6",
+      "imports": [
+        "numpy",
+        "pandas"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": true,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [
+        {
+          "name": "adult.data",
+          "bytes": 121895,
+          "url": "/content/attachments/839cb89ebee3e6c5fe81-adult.data"
+        }
+      ],
+      "stdin": "",
+      "elapsedMs": 3720,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "relationship  Husband  Not-in-family  ...  Unmarried   Wife"
+        },
+        {
+          "type": "stdout",
+          "value": "label                                 ...                  "
+        },
+        {
+          "type": "stdout",
+          "value": "<=50K           0.208          0.252  ...      0.101  0.036"
+        },
+        {
+          "type": "stdout",
+          "value": ">50K            0.168          0.027  ...      0.008  0.025"
+        },
+        {
+          "type": "stdout",
+          "value": ""
+        },
+        {
+          "type": "stdout",
+          "value": "[2 rows x 6 columns]"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/009-385.json:a310bcd7-2af9-4727-b66f-4a8cf7711c50",
+      "page": "009-385",
+      "id": "a310bcd7-2af9-4727-b66f-4a8cf7711c50",
+      "course": "009",
+      "code_sha256": "35ee260b30e9b5381cf0ff328eb813c3a121af12d90c60162f284bdf8fc7ea74",
+      "imports": [
+        "numpy",
+        "pandas",
+        "pandas.util.testing"
+      ],
+      "compatibilityCandidates": [
+        "removed-pandas-util-testing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3596,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\nModuleNotFoundError: No module named 'pandas.util.testing'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/009-385.json:ea836fa8-7406-4150-b9e9-89d7837ecf50",
+      "page": "009-385",
+      "id": "ea836fa8-7406-4150-b9e9-89d7837ecf50",
+      "course": "009",
+      "code_sha256": "b53142cb5d67d0c573bd5261f4782dda3074165ab05f659171dafd192eb8415f",
+      "imports": [
+        "numpy",
+        "pandas",
+        "pandas.util.testing"
+      ],
+      "compatibilityCandidates": [
+        "removed-pandas-util-testing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 3547,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 4, in <module>\nModuleNotFoundError: No module named 'pandas.util.testing'\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/024-1338.json:6233ccf9-b993-3173-9825-6276c5f997c9",
+      "page": "024-1338",
+      "id": "6233ccf9-b993-3173-9825-6276c5f997c9",
+      "course": "024",
+      "code_sha256": "7b32817dc989dbb307969231a3caa564e562ac37aca6f6967962437e683ebb7d",
+      "imports": [
+        "multiprocessing",
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [
+        "browser-multiprocessing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1427,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "主进程ID:42 CPU 核数:1"
+        },
+        {
+          "type": "stdout",
+          "value": "[1]"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 20, in <module>\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 119, in Pool\n    return Pool(processes, initializer, initargs, maxtasksperchild,\n                context=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 191, in __init__\n    self._setup_queues()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 346, in _setup_queues\n    self._inqueue = self._ctx.SimpleQueue()\n                    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 113, in SimpleQueue\n    return SimpleQueue(ctx=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/queues.py\", line 361, in __init__\n    self._rlock = ctx.Lock()\n                  ~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 67, in Lock\n    from .synchronize import Lock\n  File \"/lib/python314.zip/multiprocessing/synchronize.py\", line 17, in <module>\n    import _multiprocessing\nModuleNotFoundError: No module named '_multiprocessing'\nThe module '_multiprocessing' is removed from the Python standard library in the Pyodide distribution due to browser limitations.\nSee https://pyodide.org/en/stable/usage/loading-packages.html for more details.\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/024-1338.json:2a50171a-dc1a-38aa-945d-f0e50e20676f",
+      "page": "024-1338",
+      "id": "2a50171a-dc1a-38aa-945d-f0e50e20676f",
+      "course": "024",
+      "code_sha256": "b77f2afa4ba46afd53acf8dfea71be1dc3ae96e2963fc1fe49817a12096d5b0e",
+      "imports": [
+        "multiprocessing",
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [
+        "browser-multiprocessing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 2371,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "主进程ID:42 CPU 核数:1"
+        },
+        {
+          "type": "stdout",
+          "value": "进程ID:42 处理变量X: 1"
+        },
+        {
+          "type": "stdout",
+          "value": "结束了, 耗时:1.003000020980835秒"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1339.json:c5f5969b-0648-34f2-a4b3-695a76709474",
+      "page": "024-1339",
+      "id": "c5f5969b-0648-34f2-a4b3-695a76709474",
+      "course": "024",
+      "code_sha256": "7b32817dc989dbb307969231a3caa564e562ac37aca6f6967962437e683ebb7d",
+      "imports": [
+        "multiprocessing",
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [
+        "browser-multiprocessing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1428,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "主进程ID:42 CPU 核数:1"
+        },
+        {
+          "type": "stdout",
+          "value": "[1]"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 20, in <module>\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 119, in Pool\n    return Pool(processes, initializer, initargs, maxtasksperchild,\n                context=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 191, in __init__\n    self._setup_queues()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 346, in _setup_queues\n    self._inqueue = self._ctx.SimpleQueue()\n                    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 113, in SimpleQueue\n    return SimpleQueue(ctx=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/queues.py\", line 361, in __init__\n    self._rlock = ctx.Lock()\n                  ~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 67, in Lock\n    from .synchronize import Lock\n  File \"/lib/python314.zip/multiprocessing/synchronize.py\", line 17, in <module>\n    import _multiprocessing\nModuleNotFoundError: No module named '_multiprocessing'\nThe module '_multiprocessing' is removed from the Python standard library in the Pyodide distribution due to browser limitations.\nSee https://pyodide.org/en/stable/usage/loading-packages.html for more details.\n"
+        }
+      ],
+      "reason": "error"
+    },
+    {
+      "key": "/content/pages/024-1339.json:11a02ba6-84c5-3585-bac8-de39b2848e4a",
+      "page": "024-1339",
+      "id": "11a02ba6-84c5-3585-bac8-de39b2848e4a",
+      "course": "024",
+      "code_sha256": "b1d998b464c114376bb79f4d6119c26f2eeb64b757319416597a6fb4a04ad047",
+      "imports": [
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5501,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "进程ID:42"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://xxx.com"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://yyy.com"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://zzz.com"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://aaa.com"
+        },
+        {
+          "type": "stdout",
+          "value": "结束了, 耗时:4.019000053405762秒"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1339.json:c5266e0b-737e-3b6b-bf3b-77728ae9ebba",
+      "page": "024-1339",
+      "id": "c5266e0b-737e-3b6b-bf3b-77728ae9ebba",
+      "course": "024",
+      "code_sha256": "235d6de0853065f5d3bd4842d1029180216eb2da47e355d176f32b1739055f43",
+      "imports": [
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 5427,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "stdout",
+          "value": "进程ID:42"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://xxx.com"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://yyy.com"
+        },
+        {
+          "type": "stdout",
+          "value": "进程ID:42"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://zzz.com"
+        },
+        {
+          "type": "stdout",
+          "value": "正在抓取:http://aaa.com"
+        },
+        {
+          "type": "stdout",
+          "value": "结束了, 耗时:4.019000291824341秒"
+        },
+        {
+          "type": "done"
+        }
+      ],
+      "reason": "done"
+    },
+    {
+      "key": "/content/pages/024-1339.json:169d9ec8-c33d-39f6-a2ef-0ee2e3d6711f",
+      "page": "024-1339",
+      "id": "169d9ec8-c33d-39f6-a2ef-0ee2e3d6711f",
+      "course": "024",
+      "code_sha256": "10df4f077a900b2f347878857510be9ee46bcf3ffa3da3fbda5641dbd518e107",
+      "imports": [
+        "multiprocessing",
+        "os",
+        "time"
+      ],
+      "compatibilityCandidates": [
+        "browser-multiprocessing"
+      ],
+      "features": {
+        "stdin": false,
+        "network": false,
+        "gui": false,
+        "plotting": false,
+        "fileIo": false,
+        "outputDirectory": false,
+        "explicitErrorExample": false,
+        "incompleteExercise": false
+      },
+      "attachments": [],
+      "stdin": "",
+      "elapsedMs": 1540,
+      "messages": [
+        {
+          "type": "status",
+          "value": "正在加载 Python 运行环境，首次运行需要下载资源…"
+        },
+        {
+          "type": "status",
+          "value": "正在准备程序需要的 Python 库…"
+        },
+        {
+          "type": "running"
+        },
+        {
+          "type": "error",
+          "value": "Traceback (most recent call last):\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 619, in eval_code_async\n    await CodeRunner(\n    ...<10 lines>...\n    .run_async(globals, locals)\n  File \"/lib/python314.zip/_pyodide/_base.py\", line 420, in run_async\n    coroutine = eval(self.code, globals, locals)\n  File \"<exec>\", line 31, in <module>\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 119, in Pool\n    return Pool(processes, initializer, initargs, maxtasksperchild,\n                context=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 191, in __init__\n    self._setup_queues()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/pool.py\", line 346, in _setup_queues\n    self._inqueue = self._ctx.SimpleQueue()\n                    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 113, in SimpleQueue\n    return SimpleQueue(ctx=self.get_context())\n  File \"/lib/python314.zip/multiprocessing/queues.py\", line 361, in __init__\n    self._rlock = ctx.Lock()\n                  ~~~~~~~~^^\n  File \"/lib/python314.zip/multiprocessing/context.py\", line 67, in Lock\n    from .synchronize import Lock\n  File \"/lib/python314.zip/multiprocessing/synchronize.py\", line 17, in <module>\n    import _multiprocessing\nModuleNotFoundError: No module named '_multiprocessing'\nThe module '_multiprocessing' is removed from the Python standard library in the Pyodide distribution due to browser limitations.\nSee https://pyodide.org/en/stable/usage/loading-packages.html for more details.\n"
+        }
+      ],
+      "reason": "error"
+    }
+  ],
+  "limitations": [
+    "Static inventory covers imported Python editors; actual execution only covers the selected records listed below.",
+    "Each example runs in a fresh real browser Worker with its original hidden prefix/suffix and original additional_content.",
+    "External network requests are blocked; errors from unbundled datasets are recorded as a packaging limitation.",
+    "Success means completion, not mathematical/numeric equivalence with the original Python 3.8 environment.",
+    "Plot data is counted; visual equivalence of generated charts is not asserted.",
+    "Challenge templates are statically inventoried but not executed as completed solutions."
+  ],
+  "workerHashAfter": "8cd3c31acef819729ba9b25733900e3b30b1c003272ff0b96ef70b4b63345382",
+  "finishedAt": "2026-11-01T15:05:57.753Z",
+  "blockedExternalRequests": [],
+  "summary": {
+    "executed": 22,
+    "status": {
+      "done": 14,
+      "error": 8
+    },
+    "withAttachments": 13,
+    "plots": 0,
+    "workerChangedDuringAudit": false
+  }
+}

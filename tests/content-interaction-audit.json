@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-01",
+  "browser_session": "edu-ui-audit",
+  "production": "https://edu.brclio.com/#/course/004/page/117",
+  "local": "http://127.0.0.1:5173",
+  "source_sha256": {
+    "src/Content.tsx": "1b460544b1c537b9cfe9be36b6a98861962d7c5bc5623066f723383bad798ca3",
+    "src/content.css": "6c1020811c1a92c38dfae9820822bda8d2938a5317c61c7653c4a6b3bf30b6a4",
+    "src/content-model.ts": "a9eb5cc6858f35d58804476cdf37befa96ab4229de5d78977276760bd49275ce",
+    "src/content-web.ts": "8e9d369456b8dd0a84269f569820447350cd3a9956b9b26638effe18116b5eb7"
+  },
+  "confirmed_bugs_fixed": [
+    "type_in output questions interpreted Python format braces and Go struct braces as fill placeholders",
+    "drag_and_drop expected consecutive match_number; original site instead sorts positive answer positions, allowing 1/2/4",
+    "code edits preserved stale passing state; reset did not stop active worker; async result could replace newer edits",
+    "additional editable source files were executed but unavailable in editor tabs",
+    "sandbox suppressed JavaScript alert/prompt/confirm examples and DOM example console output",
+    "MarkMap rendered a flat document without collapse or zoom",
+    "short viewport could hide animation controls behind fixed lesson footer",
+    "animation advanced progress before image download completed, without loading state or error retry"
+  ],
+  "production_stack_visual_check": {
+    "viewport": [
+      1280,
+      1200
+    ],
+    "actual_next_button_clicks": 4,
+    "frames_visually_distinct": 5,
+    "books_only_region": [
+      470,
+      380,
+      1080,
+      590
+    ],
+    "adjacent_changed_pixels": [
+      28395,
+      13154,
+      18485,
+      18508
+    ],
+    "screenshots": [
+      "/tmp/edu-prod-stack-large-0.png",
+      "/tmp/edu-prod-stack-large-1.png",
+      "/tmp/edu-prod-stack-large-2.png",
+      "/tmp/edu-prod-stack-large-3.png",
+      "/tmp/edu-prod-stack-large-4.png"
+    ],
+    "contact_sheet": "/tmp/edu-prod-stack-five.png",
+    "auto_play_to_end": true,
+    "pause_and_restart": true,
+    "conclusion": "Current production large-viewport frames do change; no confirmed universal frozen-image defect."
+  },
+  "local_checks": [
+    {
+      "case": "Stack animation",
+      "operations": [
+        "next",
+        "previous",
+        "play",
+        "pause",
+        "play at final step",
+        "slider Home"
+      ],
+      "result": "step/source update; playback stops at last step; restart from first works"
+    },
+    {
+      "case": "Stack animation small viewport",
+      "viewport": [
+        1280,
+        577
+      ],
+      "result": "next button actual click succeeds, controls y365-400 above footer beginning y461",
+      "screenshots": [
+        "/tmp/edu-animation-local-small-app.png",
+        "/tmp/edu-animation-local-small-app-step2.png"
+      ]
+    },
+    {
+      "case": "022/1201 prompt",
+      "input": "李华",
+      "result": "alert dialog displays 李华",
+      "screenshot": "/tmp/edu-dialog-prompt.png"
+    },
+    {
+      "case": "022/1201 confirm",
+      "input": "取消",
+      "result": "alert dialog displays 你留下来啦😄"
+    },
+    {
+      "case": "022/1212 prompt",
+      "input": "81",
+      "result": "The square root of 81 is 9"
+    },
+    {
+      "case": "001/6 additional mymodule.py",
+      "input": "def test():\n    print(\"module edited\")",
+      "result": "Python module import uses edited file and stdout is module edited"
+    },
+    {
+      "case": "JavaScript public testcase",
+      "result": "passes 1/1; editor change clears checked/correct/testResults"
+    },
+    {
+      "case": "005/260 MarkMap",
+      "operations": [
+        "collapse Python类与对象",
+        "zoom +"
+      ],
+      "result": "six child labels removed when collapsed; zoom changes to 110%",
+      "screenshot": "/tmp/edu-mindmap-interactive.png"
+    }
+  ],
+  "original_site_observation": {
+    "url": "https://edu.py2fun.com/learn#/course/004/page/117",
+    "loaded_title": "Stack堆栈入门:1/8-哈希编程-PythonTip学编程",
+    "operation": "Continue changes to step 2/8",
+    "result": "Both inspected source steps show lesson text; no animation controls, canvas, or iframe appeared. Original animation button behavior was therefore not observed."
+  },
+  "validation": [
+    "npx tsc -b passed",
+    "npx tsx --test tests/content*.test.ts: 6 passed"
+  ],
+  "limitations": [
+    "C/C++ and other native compiler languages still need external compilation environment as clearly shown in UI.",
+    "Sandbox modal adaptation covers all existing course prompt/confirm examples; it is not a general JavaScript source-to-source compiler.",
+    "Original-site animation control interaction was unavailable in the inspected anonymous session."
+  ]
+}

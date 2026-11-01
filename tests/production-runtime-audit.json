@@ -1,0 +1,80 @@
+{
+  "startedAt": "2026-11-01T18:38:11.489Z",
+  "base": "https://edu.brclio.com",
+  "tests": [
+    {
+      "language": "c",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 2838
+    },
+    {
+      "language": "c++",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 2819
+    },
+    {
+      "language": "java",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 5845
+    },
+    {
+      "language": "go-1165",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 3329
+    },
+    {
+      "language": "swift",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 8356
+    },
+    {
+      "language": "javascript",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 813
+    },
+    {
+      "language": "python",
+      "originalPage": "005-205",
+      "expected": "6",
+      "actual": "6",
+      "milliseconds": 2822
+    },
+    {
+      "language": "python multiprocessing",
+      "status": 200,
+      "body": {
+        "stdout": "[4, 9, 16]\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      }
+    },
+    {
+      "animation": "004-117",
+      "frames": 5,
+      "reset": true
+    },
+    {
+      "math": "002-28",
+      "formulas": 1
+    },
+    {
+      "mindmap": "005-260",
+      "nodes": 17
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-01T18:38:48.781Z"
+}

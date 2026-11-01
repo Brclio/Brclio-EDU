@@ -1,0 +1,95 @@
+{
+  "phases": [
+    "tests/runtime-course-regression.json",
+    "tests/runtime-course-final-targeted.json",
+    "tests/runtime-course-files-audit.json",
+    "tests/runtime-course-final-probes.json"
+  ],
+  "unique_original_code_examples": 170,
+  "status": {
+    "done": 161,
+    "error": 9
+  },
+  "plot_examples": 99,
+  "plot_examples_with_images": 99,
+  "with_attachments": 32,
+  "remaining_errors": [
+    {
+      "page": "001-2",
+      "id": "123cdd36efbb11eb940a3af9d3c2d1d5",
+      "reason": "error",
+      "category": "intentional_original_exception",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "001-3",
+      "id": "b7d2dae4f28011ebbc013af9d3c2d1d5",
+      "reason": "error",
+      "category": "intentional_original_exception",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "001-4",
+      "id": "5a3475acf28811eb9e203af9d3c2d1d5",
+      "reason": "error",
+      "category": "intentional_original_exception",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "024-1338",
+      "id": "6233ccf9-b993-3173-9825-6276c5f997c9",
+      "reason": "error",
+      "category": "browser_multiprocessing_requires_server",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "024-1339",
+      "id": "c5f5969b-0648-34f2-a4b3-695a76709474",
+      "reason": "error",
+      "category": "browser_multiprocessing_requires_server",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "024-1339",
+      "id": "169d9ec8-c33d-39f6-a2ef-0ee2e3d6711f",
+      "reason": "error",
+      "category": "browser_multiprocessing_requires_server",
+      "plot_returned": false,
+      "verified_in": "tests/runtime-course-regression.json"
+    },
+    {
+      "page": "008-358",
+      "id": "fc3e6450-7a57-44a3-9298-63a390433c76",
+      "reason": "error",
+      "category": "original_source_typo_after_saved_plot",
+      "plot_returned": true,
+      "verified_in": "tests/runtime-course-files-audit.json"
+    },
+    {
+      "page": "008-358",
+      "id": "7f95e1b1-3786-4a5d-9608-f8fe9ea10387",
+      "reason": "error",
+      "category": "original_source_typo_after_saved_plot",
+      "plot_returned": true,
+      "verified_in": "tests/runtime-course-files-audit.json"
+    },
+    {
+      "page": "008-358",
+      "id": "57096498-82b3-4efc-b960-f2168af52de7",
+      "reason": "error",
+      "category": "original_source_typo_after_saved_plot",
+      "plot_returned": true,
+      "verified_in": "tests/runtime-course-files-audit.json"
+    }
+  ],
+  "limits": [
+    "Completion and image delivery do not establish exact numerical or pixel equivalence with the original old Python package stack.",
+    "The latest result per original example is retained across the broad audit and targeted followups. Each phase records its tested Worker hash.",
+    "Only these 170 original examples were included in the expanded compatibility regression; the whole 1686-editor inventory was not executed."
+  ]
+}

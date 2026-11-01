@@ -18,6 +18,7 @@
     "GITHUB_BRANCH": "main",
     "GITHUB_APP_ID": "5566305",
     "GITHUB_APP_CLIENT_ID": "Iv23liTCIgK88FqA1wPz",
-    "GITHUB_INSTALLATION_ID": "177497492"
+    "GITHUB_INSTALLATION_ID": "177497492",
+    "RUNNER_URL": "https://edu-runner.bornforthis.cn/__brclio_edu_runner/run"
   }
 }

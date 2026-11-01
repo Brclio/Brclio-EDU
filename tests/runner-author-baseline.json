@@ -1,0 +1,403 @@
+{
+  "updatedAt": "2026-11-01T18:05:29Z",
+  "decodeEdQuotes": false,
+  "negative": false,
+  "results": [
+    {
+      "page": "006-263",
+      "id": "tab_code_0_01111524439711ecbe523af9d3c2d1d5",
+      "language": "c++",
+      "variant": "public-reference",
+      "codeSha256": "cfdd0cc073c384472fde414228b3b38da483eb1b6f10cdeda94b67d321d58446",
+      "httpEquivalentStatus": 200,
+      "seconds": 3.832,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])\",\"expected_output\": \"7\",\"actual_output\": \"7\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1,1,2,3,4])\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1,2,3,4,5,6,6])\",\"expected_output\": \"6\",\"actual_output\": \"6\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1,1])\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true}]}</__educative_test_results__>",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])",
+          "expected_output": "7",
+          "actual_output": "7",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,1,2,3,4])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,2,3,4,5,6,6])",
+          "expected_output": "6",
+          "actual_output": "6",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1,1])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-263",
+      "id": "tab_code_1_01111524439711ecbe523af9d3c2d1d5",
+      "language": "java",
+      "variant": "public-reference",
+      "codeSha256": "54fd06131595e0551037876f03585ff2ab6fdb122fc304dd52723ca48dd4fc3f",
+      "httpEquivalentStatus": 200,
+      "seconds": 6.852,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10])\",\"expected_output\": \"7\",\"actual_output\": \"7\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1, 1, 2, 3, 4])\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1, 2, 3, 4, 5, 6, 6])\",\"expected_output\": \"6\",\"actual_output\": \"6\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1, 1])\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true}]}</__educative_test_results__>\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10])",
+          "expected_output": "7",
+          "actual_output": "7",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1, 1, 2, 3, 4])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1, 2, 3, 4, 5, 6, 6])",
+          "expected_output": "6",
+          "actual_output": "6",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "duplicateNumber([1, 1])",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-265",
+      "id": "tab_code_0_fe9384ee439611ecbe523af9d3c2d1d5",
+      "language": "c++",
+      "variant": "public-reference",
+      "codeSha256": "6dcffe7e75d1c459e7ed70a6db2a9b094a1a1ff2bc5efe570a3e70596342398d",
+      "httpEquivalentStatus": 200,
+      "seconds": 3.413,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(16)\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(14)\",\"expected_output\": \"0\",\"actual_output\": \"0\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(4)\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(2)\",\"expected_output\": \"0\",\"actual_output\": \"0\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(1)\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(999)\",\"expected_output\": \"0\",\"actual_output\": \"0\",\"succeeded\": true}]}</__educative_test_results__>",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(16)",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(14)",
+          "expected_output": "0",
+          "actual_output": "0",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(4)",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(2)",
+          "expected_output": "0",
+          "actual_output": "0",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(1)",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(999)",
+          "expected_output": "0",
+          "actual_output": "0",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-265",
+      "id": "tab_code_1_fe9384ee439611ecbe523af9d3c2d1d5",
+      "language": "java",
+      "variant": "public-reference",
+      "codeSha256": "bbefbce8223f61c2096ebcb21f5a93a7d1231511e859417e3e0a9462d11f4f16",
+      "httpEquivalentStatus": 200,
+      "seconds": 6.198,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(16)\",\"expected_output\": \"true\",\"actual_output\": \"true\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(14)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(4)\",\"expected_output\": \"true\",\"actual_output\": \"true\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(2)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(1)\",\"expected_output\": \"true\",\"actual_output\": \"true\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isPerfectSquare(999)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true}]}</__educative_test_results__>\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(16)",
+          "expected_output": "true",
+          "actual_output": "true",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(14)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(4)",
+          "expected_output": "true",
+          "actual_output": "true",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(2)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(1)",
+          "expected_output": "true",
+          "actual_output": "true",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isPerfectSquare(999)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-265",
+      "id": "tab_code_0_fe938598439611ecbe523af9d3c2d1d5",
+      "language": "c++",
+      "variant": "public-reference",
+      "codeSha256": "6b6e1c9158b68b922f54adb12165244aa131d098281eb280aae813e7937c4c2a",
+      "httpEquivalentStatus": 200,
+      "seconds": 3.269,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(5)\",\"expected_output\": \"2\",\"actual_output\": \"2\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(8)\",\"expected_output\": \"3\",\"actual_output\": \"3\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(1)\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(0)\",\"expected_output\": \"0\",\"actual_output\": \"0\",\"succeeded\": true}]}</__educative_test_results__>",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(5)",
+          "expected_output": "2",
+          "actual_output": "2",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(8)",
+          "expected_output": "3",
+          "actual_output": "3",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(1)",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(0)",
+          "expected_output": "0",
+          "actual_output": "0",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-265",
+      "id": "tab_code_1_fe938598439611ecbe523af9d3c2d1d5",
+      "language": "java",
+      "variant": "public-reference",
+      "codeSha256": "6cf8c201a5b094d955eec4f37f2ed01b5606083c8e5124292c9ab3444b8755b2",
+      "httpEquivalentStatus": 200,
+      "seconds": 5.259,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(5)\",\"expected_output\": \"2\",\"actual_output\": \"2\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(8)\",\"expected_output\": \"3\",\"actual_output\": \"3\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(1)\",\"expected_output\": \"1\",\"actual_output\": \"1\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"arrangeCoins(0)\",\"expected_output\": \"0\",\"actual_output\": \"0\",\"succeeded\": true}]}</__educative_test_results__>\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(5)",
+          "expected_output": "2",
+          "actual_output": "2",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(8)",
+          "expected_output": "3",
+          "actual_output": "3",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(1)",
+          "expected_output": "1",
+          "actual_output": "1",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "arrangeCoins(0)",
+          "expected_output": "0",
+          "actual_output": "0",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-268",
+      "id": "tab_code_0_fd8d228a439611ecbe523af9d3c2d1d5",
+      "language": "c++",
+      "variant": "public-reference",
+      "codeSha256": "f699c0d9e1ce17cbc2b603f4d1f8da52fbf8f698ceb38bbb3eadf858f73045a2",
+      "httpEquivalentStatus": 200,
+      "seconds": 3.202,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([2,4,5,5,5,5,5,6,6], 5)\",\"expected_output\": \"true\",\"actual_output\": \"true\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([10,100,101,101], 101)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([-10], 10)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true}]}</__educative_test_results__>",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([2,4,5,5,5,5,5,6,6], 5)",
+          "expected_output": "true",
+          "actual_output": "true",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([10,100,101,101], 101)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([-10], 10)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    },
+    {
+      "page": "006-268",
+      "id": "tab_code_1_fd8d228a439611ecbe523af9d3c2d1d5",
+      "language": "java",
+      "variant": "public-reference",
+      "codeSha256": "99238db36a550753e4383b4029631d726cef643bee09b8fc9876a9f008a81668",
+      "httpEquivalentStatus": 200,
+      "seconds": 5.358,
+      "result": {
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([2, 4, 5, 5, 5, 5, 5, 6, 6], 5)\",\"expected_output\": \"true\",\"actual_output\": \"true\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([10, 100, 101, 101], 101)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true},{\"reason\": \"Succeeded\",\"input\": \"isMajorityElement([-10], 10)\",\"expected_output\": \"false\",\"actual_output\": \"false\",\"succeeded\": true}]}</__educative_test_results__>\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "structuredResults": [
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([2, 4, 5, 5, 5, 5, 5, 6, 6], 5)",
+          "expected_output": "true",
+          "actual_output": "true",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([10, 100, 101, 101], 101)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        },
+        {
+          "reason": "Succeeded",
+          "input": "isMajorityElement([-10], 10)",
+          "expected_output": "false",
+          "actual_output": "false",
+          "succeeded": true
+        }
+      ],
+      "parseError": null,
+      "allPassed": true
+    }
+  ],
+  "summary": {
+    "tasks": 8,
+    "allPassed": 8,
+    "structuredTests": 34,
+    "passedTests": 34
+  }
+}

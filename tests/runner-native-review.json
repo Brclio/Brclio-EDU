@@ -1,0 +1,206 @@
+{
+  "reviewedCount": 10,
+  "policy": "Review labels describe source behavior; they do not convert failed programs into correctness passes.",
+  "items": [
+    {
+      "id": "058896bd45ab40d4348bea94e883a32cb2e191e1a89a805183a8fbf3d887016f",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1162.json",
+          "title": "使用错误代码",
+          "context": "除了检查NULL文件指针和使用errno外，**feof**()和**ferror**()函数可用于确定文件I/O错误。\n\n- `feof(fp)` 如果已经到达流的末端，返回一个非零值，否则为0。 feof也可以设置EOF。\n- `ferror(fp)` 如果有错误，返回一个非零值，没有错误则返回0。\n\n下面的程序包含了几种异常处理技术:",
+          "componentId": "0c0b0d77-57ac-3e44-80ee-119931fb7096",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "runtime_error_needs_review",
+      "classification": "expected_teaching_error",
+      "reason": "课文演示文件打开失败与exit(EXIT_FAILURE)，返回1及No such file是所示异常路径。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "9e5bc40989058d3ce8ef23a4b4d40c898fd54c0ee84f4dc470a3a76144cb0c3a",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1165.json",
+          "title": "条件编译指令",
+          "context": "在有些情况下，这种条件性编译是有用的，但这种类型的代码应该少用。\n\n`defined()`预处理器操作符可以和`#if`一起使用，如：",
+          "componentId": "1e20c901-6f9a-36bb-ade6-33347311bfdd",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "compile_error_needs_review",
+      "classification": "incomplete_source_snippet",
+      "reason": "原代码只有#if !defined(LEVEL)示意块，没有main；编译器正确报告缺少入口，不补写源代码。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "a84468b8b281f468ad02ffd773aeffc2eec7a601d682b14f22bd5a8d3ea028d5",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1124.json",
+          "title": "变量类型Data Type",
+          "context": "你也可以在一条语句中同时声明和**初始化**变量的量。",
+          "componentId": "b737b0b0-983f-36e2-a1f2-bd59873060f8",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "compile_error_needs_review",
+      "classification": "matches_original_error",
+      "reason": "原代码仅int my_var = 42;，原站公开execute同样报告undefined reference to main。",
+      "originalApiEvidence": "tests/runner-native-original-c-evidence.json"
+    },
+    {
+      "id": "e9e880a6998caeccf597e566c237840c48fc916314708b2413b82d187426d224",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1159.json",
+          "title": "读写文件",
+          "context": "**stdio.h**库还包括用于从打开的文件读取的函数。\n\n一个文件可以一次读取一个字符，也可以将整个字符串读入字符缓冲区，该缓冲区通常是用于临时存储的`char`数组。\n\n- `getc(fp)` 返回fp指向的文件中的下一个字符。如果已到达文件末尾，则返回EOF。\n\n- `fgets(buff, n, fp)` fgets函数功能为从指定的流中读取数据，每次读取一行。其原型为：`char *fgets(char *str, int n, FILE *stream);`从指定的流 `stream` 读取一行，并把它存储在 `str` 所指向的字符串内。当读取到第 `(n-1)` 个字符时，或者读取到换行符时，或者到达文件末尾时，它会停止，具体视情况而定。\n\n- `fscanf(fp, conversion_specifiers, vars)` 从fp指向的文件中读取字符，并使用`conversion_specifiers`将输入分配给变量指针`vars`列表。与`scanf`一样，遇到空格或换行符时，`fscanf`会停止读取字符串。\n\n\n下面的程序演示了从一个文件中读取数据:\n",
+          "componentId": "53072bfa-f689-3414-8051-8f59afb7bf7f",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "runtime_error_needs_review",
+      "classification": "matches_original_error",
+      "reason": "原教材未附myfile.txt且不检查fopen结果，原站同样Segmentation fault；不伪造文件或假报执行成功。",
+      "originalApiEvidence": "tests/runner-native-original-c-evidence.json"
+    },
+    {
+      "id": "ea550e1326cd63b98e153e5928a6a12193189f1d5d99668a9f266e5ff941868a",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1162.json",
+          "title": "使用错误代码",
+          "context": "一些库函数，如`fopen()`，当它们没有按预期执行时，会设置一个错误代码。错误代码设置在名为**errno**的全局变量中，它被定义在**errno.h**头文件中。当使用**errno**时，你应该在调用库函数之前将其设置为0。\n\n为了输出存储在errno中的错误代码，你可以使用fprintf打印到**stderr**文件流，即标准错误输出到屏幕上。使用**stderr**是一个约定俗成的习惯，也是一个良好的编程实践。\n\n也可以通过其他方式输出errno，但如果你只使用stderr来处理错误信息，会更容易跟踪你的异常处理。\n\n要使用errno，你需要在程序的顶部用**extern int errno;**语句声明它（或者也可以包括**errno.h**头文件）。\n\n**例如：**",
+          "componentId": "2c6a7fdf-b1b7-3650-931a-ebcc74587639",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "compile_error_needs_review",
+      "classification": "matches_original_error",
+      "reason": "原代码extern int errno未包含errno.h，原站同样TLS链接错误。",
+      "originalApiEvidence": "tests/runner-native-original-c-evidence.json"
+    },
+    {
+      "id": "ea791cff5e0dcd78707fedba26498dace6a51bb681d7964b9ccc8655fdd25f41",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1162.json",
+          "title": "使用错误代码",
+          "context": "当库函数设置errno时，将分配一个隐式错误号。\n\n有关该错误的更多描述性消息，可以使用`perror()`。\n\n你还可以在`string.h`头文件中使用`strerror()`获得消息，该文件返回指向消息文本的指针。\n\n`perror()` 必须在实际错误消息之前包含一个字符串。\n\n通常，对于相同的错误，不需要同时使用`perror()`和`strerror()`，但是在下面的程序中将二者都用于演示目的：",
+          "componentId": "0f018562-c24a-3a1e-9dbe-94fa4542f971",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "runtime_error_needs_review",
+      "classification": "expected_teaching_error",
+      "reason": "课文演示perror/strerror读取不存在文件，代码明确exit(EXIT_FAILURE)。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "faffc4caa805ae216b91414024965791fbd06aa5af552aba4e01f92b3e0c3e6a",
+      "language": "c",
+      "origins": [
+        {
+          "file": "/content/pages/021-1161.json",
+          "title": "错误异常处理",
+          "context": "**exit**命令立即停止程序的执行，并将退出代码返回给调用方。例如，如果一个程序被另一个程序调用，那么调用程序可能需要知道退出状态。\n\n使用**exit**避免程序崩溃是一个好习惯，因为它会关闭所有打开的文件连接和进程。\n\n你可以通过exit语句返回任何值，常用**0**代表成功，**-1**代表失败。预定义的`stdlib.h`宏**EXIT_SUCCESS**和**EXIT_FAILURE**也经常被使用。\n\n**例如：**",
+          "componentId": "384598a8-4d86-343b-a06f-991d6fcc5622",
+          "language": "c",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "runtime_error_needs_review",
+      "classification": "expected_teaching_error",
+      "reason": "课文演示除数为0时主动exit(EXIT_FAILURE)，输出Divisor is 0. Program exiting.符合代码。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "2fe677bfa8c085f825f80e5face821ccb74fd0f5b737394b3a0e585b723e5682",
+      "language": "cpp",
+      "origins": [
+        {
+          "file": "/content/pages/023-1272.json",
+          "title": "函数重载",
+          "context": "你不能仅通过**返回类型**的不同来重载函数。\n\n下面的声明将导致错误：",
+          "componentId": "4d02f942-74dc-3e37-b98a-32dbce336142",
+          "language": "cpp",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "compile_error_needs_review",
+      "classification": "expected_teaching_error",
+      "reason": "课文明说不能仅靠返回类型重载、下面声明将导致错误；编译失败是示范目的。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "e2d75f198d5617c653463e9349346cbde5dfb7706a512a7df078080602693a08",
+      "language": "cpp",
+      "origins": [
+        {
+          "file": "/content/pages/023-1250.json",
+          "title": " do-while 循环",
+          "context": "与其他循环一样，如果循环中的条件一直为**真**，循环将永远运行。\n**例如：**",
+          "componentId": "054028ad-cc0b-3dfc-8215-92ad7863ffbd",
+          "language": "cpp",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": false,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "runtime_error_needs_review",
+      "classification": "expected_resource_stop",
+      "reason": "课文明说条件永远为真；输出42的无限循环达到64KiB上限后被终止，防止占满服务器。",
+      "originalApiEvidence": null
+    },
+    {
+      "id": "c20535079721ee1e32e8c74443a251a87dd168fbffa5a9c418f7a4a16c3ca3ec",
+      "language": "go",
+      "origins": [
+        {
+          "file": "/content/pages/016-994.json",
+          "title": "作用域 Scope",
+          "context": "现在，**x**是一个本地变量，只在**test**()函数主体中可用。\n\n试图在其他函数中访问它，例如**main**()，将运行错误：",
+          "componentId": "07fec6b8-fa7a-33ff-808b-1d31afd1b911",
+          "language": "go",
+          "variant": "runnable_lesson_example",
+          "teachingErrorCandidate": true,
+          "testBatch": 1
+        }
+      ],
+      "observedStatus": "compile_error_needs_review",
+      "classification": "expected_teaching_error",
+      "reason": "课文明说main访问test函数局部x将错误；Go undefined:x符合示例目的。",
+      "originalApiEvidence": null
+    }
+  ]
+}

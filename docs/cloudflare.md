@@ -89,3 +89,9 @@ npx wrangler deploy --secrets-file .env.production
 ## 已部署正式域名
 
 正式访问地址为 https://edu.brclio.com/ ，通过 `wrangler.jsonc` 的 `routes[].custom_domain` 管理。`workers.dev` 地址仅保留作为备用访问入口。两个域名的浏览器匿名身份独立，学习时请固定使用正式域名。
+
+## 隔离编译服务
+
+`wrangler.jsonc` 的 `RUNNER_URL` 指向独立 HTTPS 运行器。令牌通过 `npx wrangler secret put RUNNER_TOKEN` 配置，必须与服务器私有环境文件一致；不要把值写入 vars 或前端。站点通过同源 POST `/api/run` 转发，经来源、请求体及路径验证后才添加服务鉴权头。
+
+浏览器 Python/JavaScript/SQL/HTML 使用本地运行环境；原生语言与 Python 多进程走此接口。完整宝塔部署和维护说明见 [server-deployment.md](server-deployment.md)。
