@@ -1,0 +1,197 @@
+{
+  "at": "2026-11-02T11:03:46.409Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    {
+      "width": 1440,
+      "state": "initial",
+      "dimensions": [
+        [
+          958,
+          48
+        ],
+        [
+          958,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/1440-initial-source.png",
+        "output/animation-controls-visual/1440-initial-local.png"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "hover-next",
+      "dimensions": [
+        [
+          958,
+          48
+        ],
+        [
+          958,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/1440-hover-next-source.png",
+        "output/animation-controls-visual/1440-hover-next-local.png"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "middle",
+      "dimensions": [
+        [
+          958,
+          48
+        ],
+        [
+          958,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/1440-middle-source.png",
+        "output/animation-controls-visual/1440-middle-local.png"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "last",
+      "dimensions": [
+        [
+          958,
+          48
+        ],
+        [
+          958,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/1440-last-source.png",
+        "output/animation-controls-visual/1440-last-local.png"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "reset",
+      "dimensions": [
+        [
+          958,
+          48
+        ],
+        [
+          958,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/1440-reset-source.png",
+        "output/animation-controls-visual/1440-reset-local.png"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "initial",
+      "dimensions": [
+        [
+          356,
+          48
+        ],
+        [
+          356,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/390-initial-source.png",
+        "output/animation-controls-visual/390-initial-local.png"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "hover-next",
+      "dimensions": [
+        [
+          356,
+          48
+        ],
+        [
+          356,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/390-hover-next-source.png",
+        "output/animation-controls-visual/390-hover-next-local.png"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "middle",
+      "dimensions": [
+        [
+          356,
+          48
+        ],
+        [
+          356,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/390-middle-source.png",
+        "output/animation-controls-visual/390-middle-local.png"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "last",
+      "dimensions": [
+        [
+          356,
+          48
+        ],
+        [
+          356,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/390-last-source.png",
+        "output/animation-controls-visual/390-last-local.png"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "reset",
+      "dimensions": [
+        [
+          356,
+          48
+        ],
+        [
+          356,
+          48
+        ]
+      ],
+      "changedOver10": 0,
+      "files": [
+        "output/animation-controls-visual/390-reset-source.png",
+        "output/animation-controls-visual/390-reset-local.png"
+      ]
+    }
+  ],
+  "pass": true
+}

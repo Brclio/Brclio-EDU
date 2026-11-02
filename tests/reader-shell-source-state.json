@@ -1,0 +1,276 @@
+{
+  "at": "2026-11-02T10:07:24.347Z",
+  "widths": [
+    {
+      "width": 390,
+      "source": {
+        "bodyWidth": 358,
+        "bodyX": 16,
+        "docWidth": 390,
+        "pane": [
+          0,
+          72,
+          390,
+          828
+        ],
+        "sidebarRect": null,
+        "sidebarVisible": false
+      },
+      "local": {
+        "bodyWidth": 358,
+        "bodyX": 16,
+        "docWidth": 390,
+        "pane": [
+          0,
+          72,
+          390,
+          828
+        ],
+        "sidebarRect": null,
+        "sidebarVisible": false
+      }
+    },
+    {
+      "width": 414,
+      "source": {
+        "bodyWidth": 382,
+        "bodyX": 16,
+        "docWidth": 414,
+        "pane": [
+          0,
+          72,
+          414,
+          828
+        ],
+        "sidebarRect": null,
+        "sidebarVisible": false
+      },
+      "local": {
+        "bodyWidth": 382,
+        "bodyX": 16,
+        "docWidth": 414,
+        "pane": [
+          0,
+          72,
+          414,
+          828
+        ],
+        "sidebarRect": null,
+        "sidebarVisible": false
+      }
+    },
+    {
+      "width": 415,
+      "source": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      },
+      "local": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      }
+    },
+    {
+      "width": 640,
+      "source": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      },
+      "local": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      }
+    },
+    {
+      "width": 700,
+      "source": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      },
+      "local": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      }
+    },
+    {
+      "width": 768,
+      "source": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      },
+      "local": {
+        "bodyWidth": 960,
+        "bodyX": 300,
+        "docWidth": 1260,
+        "pane": [
+          300,
+          72,
+          960,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      }
+    },
+    {
+      "width": 1280,
+      "source": {
+        "bodyWidth": 960,
+        "bodyX": 310,
+        "docWidth": 1280,
+        "pane": [
+          300,
+          72,
+          980,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      },
+      "local": {
+        "bodyWidth": 960,
+        "bodyX": 310,
+        "docWidth": 1280,
+        "pane": [
+          300,
+          72,
+          980,
+          828
+        ],
+        "sidebarRect": [
+          0,
+          72,
+          300,
+          828
+        ],
+        "sidebarVisible": true
+      }
+    }
+  ],
+  "operations": [
+    {
+      "side": "source",
+      "persistedConfig": true,
+      "anchor": {
+        "top": 71.9375,
+        "url": "https://edu.py2fun.com/course/004/page/117#%E5%A0%86%E6%A0%88%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"
+      }
+    },
+    {
+      "side": "local",
+      "persistedConfig": true,
+      "anchor": {
+        "top": 71.9375,
+        "url": "http://127.0.0.1:5173/#/course/004/page/117/anchor/%E5%A0%86%E6%A0%88%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+import React,{useState} from 'react';import{createRoot}from'react-dom/client';import{flushSync}from'react-dom';
+import '../src/styles.css';import Content from '../src/Content';import '../src/article.css';import '../src/article-fidelity.css';import '../src/solo-fidelity.css';
+const root=createRoot(document.getElementById('root')!);
+function Harness({components,mode}:{components:any[];mode:'article'|'solo'}){const[answers,setAnswers]=useState({});return <div className={mode==='article'?'article-reader':'learning solo'} style={{height:'auto',overflow:'visible'}}><div style={{width:mode==='article'?960:638,margin:'32px auto'}} className={mode==='article'?'article-content':'lesson-main'}><Content mode={mode} components={components} answers={answers} onAnswer={(id,v)=>setAnswers(a=>({...a,[id]:v}))}/></div></div>}
+(window as any).renderVisualContent=(components:any[],mode:'article'|'solo'='article')=>flushSync(()=>root.render(<Harness key={Math.random()} components={components} mode={mode}/>));

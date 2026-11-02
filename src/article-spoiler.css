@@ -1,0 +1,12 @@
+.article-content .article-spoiler.is-open{box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.article-content .article-spoiler.edu-spoiler:not([open]):after{display:none}
+.article-spoiler-trigger{text-align:center}
+.article-content .article-spoiler-button{display:inline-block;position:relative;white-space:nowrap;text-align:center;cursor:pointer;user-select:none;touch-action:manipulation;padding:6.4px 19px;height:40px;font:16px/1.5715 -apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-variant:normal;font-feature-settings:normal;color:#000;background:#fff;border:1px solid #d9d9d9;border-radius:4px;box-shadow:0 2px 0 rgba(0,0,0,.015);transition:all .3s cubic-bezier(.645,.045,.355,1)}
+.article-content .article-spoiler-button:is(:hover,:focus){color:#66a6ff;border-color:#66a6ff}
+.article-content .article-spoiler-button:active{color:#2762cf;border-color:#2762cf}
+.article-spoiler-button>span{display:inline-block}
+.article-spoiler-button .edu-spoiler-icon{line-height:1;vertical-align:-.125em}
+.article-spoiler-button .edu-spoiler-icon svg{margin:0;vertical-align:baseline;display:inline-block;line-height:1}
+.article-spoiler-button .edu-spoiler-icon+span{margin-left:12px}
+.article-content .article-spoiler-collapse{height:0;overflow:hidden;margin-top:32px}
+.article-content .article-spoiler .edu-spoiler-panel{margin:0;padding:0;text-align:left}

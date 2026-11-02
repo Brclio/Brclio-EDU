@@ -1,0 +1,90 @@
+{
+  "source": "https://edu.py2fun.com/learn#/course/list",
+  "capturedAt": "2026-11-02T08:12:48.009Z",
+  "files": [
+    {
+      "file": "article-icons.svg",
+      "source": "https://edu.py2fun.com/course/003/overview",
+      "kind": "original SVG paths extracted from rendered course UI; check-circle-done rendered from source module 999 with twoToneColor #52c41a",
+      "sha256": "1193897f93da95b83119e1c5ad32ac12b40ad137ac1ae5b7b5ef45b9060bbdd0"
+    },
+    {
+      "file": "challenge.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "22024825cfe164f8184b2a8e7632c364fea23924f2ddb0a45ebb9e65f2bf3eaa"
+    },
+    {
+      "file": "illustration.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "817d0800430ea09bffa956bc57052c03926f77d50397631bce3177f6b050b926"
+    },
+    {
+      "file": "lesson-done.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "86a44b1b1e88347a5d8ad578664daf8e22cd6c6a1d1fb53bca49082ab28b4e02"
+    },
+    {
+      "file": "lesson-undo.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "2f24d0bd28b63cdd6be7441db36c186c4c287f64ed90717fa5a5e46fcb1b53b9"
+    },
+    {
+      "file": "lesson.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "c883a69234edf689d1ee6d048ece4f5d484ce6316a82593b2b35422ed75e0e61"
+    },
+    {
+      "file": "playground.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "faf057023be2cd20cd806f154fbb8033542b3dba87c9b610596042ac10e88a58"
+    },
+    {
+      "file": "quiz.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "d805f23b238d842ade9174a18528b93cb9b963013f832fcbd7b4d10c18ca4cbf"
+    },
+    {
+      "file": "chapter-arrow.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "db37ee79a8ab7b529e3dfe67169326616c6fc1982c465f6a00d36a8fe1a83cf8"
+    },
+    {
+      "file": "image-preview-icons.svg",
+      "source": "https://cdn.py2fun.com/python-educative/static/js/2.c68d2ce0.chunk.js",
+      "kind": "original Ant Image preview SVGs extracted from the source component rendered locally",
+      "sha256": "18d5de5603c85fffd1f3e48869a900ae21ebeeb0176b6c44b5edec0227b7d96e"
+    },
+    {
+      "file": "answer-lock.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "43ee3c46fa55665b4cdf601cfd50802fb5c331f1f02b6fccfafd561d2eb99584"
+    },
+    {
+      "file": "answer-unlock.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "cd7d9c07ab37ae35f77d9cd4f0ab89e59255d972bacefc0c56a84f8170979ce8"
+    },
+    {
+      "file": "answer-close.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-9cef5da8.css",
+      "kind": "original base64 PNG decoded without modification",
+      "sha256": "a3cc792d4eb9da55bf43a08c7aa2af5d652ad3e7ef75797c47e64d61b5a16c8e"
+    },
+    {
+      "file": "answer-diamond.png",
+      "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/icon-diamond-4-9b1c12e2.png",
+      "kind": "original public UI PNG",
+      "sha256": "9b1c12e284e811e162d1b93314de47f2282cb95255f562a5a5f82e939dc2cc0b"
+    }
+  ]
+}

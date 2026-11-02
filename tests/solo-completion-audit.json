@@ -1,0 +1,137 @@
+{
+  "startedAt": "2026-11-02T10:07:43.974Z",
+  "base": "http://127.0.0.1:5173",
+  "source": "https://edu.py2fun.com/learn#/course/015/page/936/completed",
+  "checks": [
+    "1280: exact first-completion positions; loading before Continue; real source and local Continue both return to catalog; reload retains completion/reward and does not award twice",
+    "390: exact first-completion positions; loading before Continue; real source and local Continue both return to catalog; reload retains completion/reward and does not award twice",
+    "Actual final-step button enters independent completed route, stores completion/reward, retains last step and notes, removes lesson shell"
+  ],
+  "pairs": [
+    {
+      "name": "completion-desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "rects": [
+        {
+          "source": "._picture_1deat_12",
+          "local": ".solo-completed-picture",
+          "rect": {
+            "x": 547.5,
+            "y": 183.5,
+            "width": 185,
+            "height": 180
+          }
+        },
+        {
+          "source": "._title_1deat_20",
+          "local": ".solo-completed-title",
+          "rect": {
+            "x": 609.3125,
+            "y": 393.5,
+            "width": 61.359375,
+            "height": 24
+          }
+        },
+        {
+          "source": "._description_1deat_26",
+          "local": ".solo-completed-description",
+          "rect": {
+            "x": 528,
+            "y": 441.5,
+            "width": 224,
+            "height": 42
+          }
+        },
+        {
+          "source": "._firstCompleted_1deat_34",
+          "local": ".solo-completed-reward",
+          "rect": {
+            "x": 455.5,
+            "y": 507.5,
+            "width": 369,
+            "height": 89
+          }
+        },
+        {
+          "source": "._pageFooter_yw3dv_1 button",
+          "local": ".solo-completed-footer button",
+          "rect": {
+            "x": 556.5,
+            "y": 816.5,
+            "width": 167,
+            "height": 48
+          }
+        }
+      ]
+    },
+    {
+      "name": "completion-mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "rects": [
+        {
+          "source": "._picture_1deat_12",
+          "local": ".solo-completed-picture",
+          "rect": {
+            "x": 102.5,
+            "y": 155.5,
+            "width": 185,
+            "height": 180
+          }
+        },
+        {
+          "source": "._title_1deat_20",
+          "local": ".solo-completed-title",
+          "rect": {
+            "x": 164.3125,
+            "y": 365.5,
+            "width": 61.359375,
+            "height": 24
+          }
+        },
+        {
+          "source": "._description_1deat_26",
+          "local": ".solo-completed-description",
+          "rect": {
+            "x": 83,
+            "y": 413.5,
+            "width": 224,
+            "height": 42
+          }
+        },
+        {
+          "source": "._firstCompleted_1deat_34",
+          "local": ".solo-completed-reward",
+          "rect": {
+            "x": 10.5,
+            "y": 479.5,
+            "width": 369,
+            "height": 89
+          }
+        },
+        {
+          "source": "._pageFooter_yw3dv_1 button",
+          "local": ".solo-completed-footer button",
+          "rect": {
+            "x": 111.5,
+            "y": 760.5,
+            "width": 167,
+            "height": 48
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Original anonymous completion API opens its WeChat login; this is dismissed with its close control before photographing. No account or login fabricated.",
+    "Authenticated punch-card poster requires original user data and remains unavailable locally.",
+    "Local +10 is a one-time lesson progress reward; no original account balance is claimed."
+  ],
+  "finishedAt": "2026-11-02T10:08:43.274Z"
+}

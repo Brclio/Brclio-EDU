@@ -1,6 +1,13 @@
 {
-  "startedAt": "2026-11-01T17:10:31.461Z",
-  "sourceHashBefore": "8e9d369456b8dd0a84269f569820447350cd3a9956b9b26638effe18116b5eb7",
+  "sourceFilesBefore": {
+    "src/content-web.ts": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
+    "src/native-dialog-transform.ts": "988d6651cb779fe2ca04d38381d1d5805c2b3655891c48dd3bcc4bc219aeace4",
+    "src/native-web-dialogs.ts": "ec29aa2c680598f04cf701628c2eb36cfd614e4c251d8e774fe0c7cbc7566c32",
+    "src/SourceWebPreview.tsx": "a736a3ea389343ae929de87cf0535abdd4a69fd642a45a6ebc4e6185a1cb8105",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3"
+  },
+  "startedAt": "2026-11-02T10:55:46.902Z",
+  "sourceHashBefore": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
   "coverage": {
     "examples": 90,
     "byKind": {
@@ -27,6 +34,8 @@
       ],
       "errors": [],
       "initialText": "INPUT bmi: \n\nIF bmi >= 30\n\nOUTPUT obese\n\nELSE-IF bmi >= 25\n\nOUTPUT overweight\n\nELSE-IF bmi >= 18.5\n\nOUTPUT healthy\n\nELSE\n\nOUTPUT underweight\n\nOutput:\n\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "INPUT bmi: \n\nIF bmi >= 30\n\nOUTPUT obese\n\nELSE-IF bmi >= 25\n\nOUTPUT overweight\n\nELSE-IF bmi >= 18.5\n\nOUTPUT healthy\n\nELSE\n\nOUTPUT underweight\n\nOutput:\n\nDone\nentered",
       "failedImages": [],
       "classification": "completed"
@@ -49,6 +58,8 @@
       ],
       "errors": [],
       "initialText": "INPUT n1:  n2: \n\nIF n1 > n2\n\nmax = n1\n\nELSE\n\nmax = n2\n\nOUTPUT max\n\nOutput:\n\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "INPUT n1:  n2: \n\nIF n1 > n2\n\nmax = n1\n\nELSE\n\nmax = n2\n\nOUTPUT max\n\nOutput:\n\nDone",
       "failedImages": [],
       "classification": "completed"
@@ -74,6 +85,8 @@
       ],
       "errors": [],
       "initialText": "ASCII code:\ncharacter\nbinary equivalent\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "ASCII code:\ncharacter\nbinary equivalent\nDone",
       "failedImages": [],
       "classification": "completed"
@@ -96,6 +109,8 @@
       ],
       "errors": [],
       "initialText": "INPUT n: \n\nRemainder = n mod 2\n\nIF Remainder is not equal to 0\n\nanswer = odd\n\nELSE\n\nanswer = even\n\nOUTPUT answer\n\nOutput:\n\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "INPUT n: \n\nRemainder = N mod 2\n\nIF Remainder is not equal to 0\n\nanswer = odd\n\nELSE\n\nanswer = even\n\nOUTPUT answer\n\nOutput:\n\nDone",
       "failedImages": [],
       "classification": "completed"
@@ -118,6 +133,8 @@
       ],
       "errors": [],
       "initialText": "n:\ni\nrem\nanswer\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "n:\ni\nrem\nanswer\nDone",
       "failedImages": [],
       "classification": "completed"
@@ -129,6 +146,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Testing in progress",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Testing in progress",
       "failedImages": [],
       "classification": "completed"
@@ -140,6 +159,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Hello World!",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Hello World!",
       "failedImages": [],
       "classification": "completed"
@@ -151,6 +172,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Hello World!",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Hello World!",
       "failedImages": [],
       "classification": "completed"
@@ -162,6 +185,8 @@
       "checks": [],
       "errors": [],
       "initialText": "100",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "100",
       "failedImages": [],
       "classification": "completed"
@@ -173,6 +198,8 @@
       "checks": [],
       "errors": [],
       "initialText": "10042",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "10042",
       "failedImages": [],
       "classification": "completed"
@@ -186,6 +213,8 @@
         "X is not defined"
       ],
       "initialText": "Uncaught ReferenceError: X is not defined",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Uncaught ReferenceError: X is not defined",
       "failedImages": [],
       "classification": "original-case-sensitivity-error"
@@ -196,8 +225,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "This is an alert box!\n\n确定",
-      "finalText": "This is an alert box!\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "This is an alert box!",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -207,8 +245,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "This is an alert box!\n\n确定",
-      "finalText": "This is an alert box!\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "This is an alert box!",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -219,6 +266,8 @@
       "checks": [],
       "errors": [],
       "initialText": "55.55",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "55.55",
       "failedImages": [],
       "classification": "completed"
@@ -230,6 +279,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Hello world! 'I am a JavaScript programmer.'",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Hello world! 'I am a JavaScript programmer.'",
       "failedImages": [],
       "classification": "completed"
@@ -241,6 +292,8 @@
       "checks": [],
       "errors": [],
       "initialText": "15",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "15",
       "failedImages": [],
       "classification": "completed"
@@ -252,6 +305,8 @@
       "checks": [],
       "errors": [],
       "initialText": "6630",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "6630",
       "failedImages": [],
       "classification": "completed"
@@ -263,6 +318,8 @@
       "checks": [],
       "errors": [],
       "initialText": "50",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "50",
       "failedImages": [],
       "classification": "completed"
@@ -274,6 +331,8 @@
       "checks": [],
       "errors": [],
       "initialText": "20",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "20",
       "failedImages": [],
       "classification": "completed"
@@ -285,6 +344,8 @@
       "checks": [],
       "errors": [],
       "initialText": "2",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "2",
       "failedImages": [],
       "classification": "completed"
@@ -296,6 +357,8 @@
       "checks": [],
       "errors": [],
       "initialText": "true",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "true",
       "failedImages": [],
       "classification": "completed"
@@ -307,6 +370,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Old enough",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Old enough",
       "failedImages": [],
       "classification": "completed"
@@ -318,6 +383,8 @@
       "checks": [],
       "errors": [],
       "initialText": "I am learning JavaScript with Pythontip.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "I am learning JavaScript with Pythontip.",
       "failedImages": [],
       "classification": "completed"
@@ -328,8 +395,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "JavaScript is easy to learn.\n\n确定",
-      "finalText": "JavaScript is easy to learn.\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "JavaScript is easy to learn.",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -340,6 +416,8 @@
       "checks": [],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -350,8 +428,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "This is my second condition\n\n确定",
-      "finalText": "This is my second condition\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "This is my second condition",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -362,6 +449,8 @@
       "checks": [],
       "errors": [],
       "initialText": "HTML Tutorial",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "HTML Tutorial",
       "failedImages": [],
       "classification": "completed"
@@ -373,6 +462,8 @@
       "checks": [],
       "errors": [],
       "initialText": "JavaScript Tutorial",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "JavaScript Tutorial",
       "failedImages": [],
       "classification": "completed"
@@ -384,6 +475,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Tuesday",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Tuesday",
       "failedImages": [],
       "classification": "completed"
@@ -395,29 +488,9 @@
       "checks": [],
       "errors": [],
       "initialText": "Color not found.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Color not found.",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1192",
-      "id": "02333f14-4607-3f0b-adfb-dcb6e23ade5e",
-      "kind": "JsHtml",
-      "checks": [],
-      "errors": [],
-      "initialText": "1\n2\n3\n4\n5\n",
-      "finalText": "1\n2\n3\n4\n5\n",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1192",
-      "id": "efa54d39-e2d6-34eb-950d-753a451be7ea",
-      "kind": "JsHtml",
-      "checks": [],
-      "errors": [],
-      "initialText": "1\n2\n3\n4\n5\n",
-      "finalText": "1\n2\n3\n4\n5\n",
       "failedImages": [],
       "classification": "completed"
     },
@@ -439,7 +512,35 @@
       ],
       "errors": [],
       "initialText": "INPUT distance:  consumption:  cost_per_liter: \n\nliters_required = distance / consumption\n\ntotal_cost = liters_required * cost_per_liter\n\nOUTPUT total_cost\n\nOutput:\n\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "INPUT distance:  consumption:  cost_per_liter: \n\nliters_required = distance / consumption\n\ntotal_cost = liters_required * cost_per_liter\n\nOUTPUT total_cost\n\nOUTPUT:\n\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "02333f14-4607-3f0b-adfb-dcb6e23ade5e",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1\n2\n3\n4\n5\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "1\n2\n3\n4\n5\n",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1192",
+      "id": "efa54d39-e2d6-34eb-950d-753a451be7ea",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "1\n2\n3\n4\n5\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "1\n2\n3\n4\n5\n",
       "failedImages": [],
       "classification": "completed"
     },
@@ -450,6 +551,8 @@
       "checks": [],
       "errors": [],
       "initialText": "1\n2\n3\n4\n5\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "1\n2\n3\n4\n5\n",
       "failedImages": [],
       "classification": "completed"
@@ -461,6 +564,8 @@
       "checks": [],
       "errors": [],
       "initialText": "0123456789",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "0123456789",
       "failedImages": [],
       "classification": "completed"
@@ -472,6 +577,8 @@
       "checks": [],
       "errors": [],
       "initialText": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
       "failedImages": [],
       "classification": "completed"
@@ -483,6 +590,8 @@
       "checks": [],
       "errors": [],
       "initialText": "20\n21\n22\n23\n24\n25\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "20\n21\n22\n23\n24\n25\n",
       "failedImages": [],
       "classification": "completed"
@@ -494,6 +603,8 @@
       "checks": [],
       "errors": [],
       "initialText": "0\n1\n2\n3\n4\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "0\n1\n2\n3\n4\n",
       "failedImages": [],
       "classification": "completed"
@@ -505,6 +616,8 @@
       "checks": [],
       "errors": [],
       "initialText": "0\n1\n2\n3\n4\n6\n7\n8\n9\n10\n",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "0\n1\n2\n3\n4\n6\n7\n8\n9\n10\n",
       "failedImages": [],
       "classification": "completed"
@@ -515,8 +628,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "函数被调用了!\n\n确定",
-      "finalText": "函数被调用了!\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "函数被调用了!",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -526,8 +648,23 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "Alert box!\n\n确定",
-      "finalText": "Alert box!\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Alert box!",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "Alert box!",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -537,8 +674,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "Hi, David\n\n确定",
-      "finalText": "Hi, David\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Hi, David",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -548,8 +694,29 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "Hi, David\n\n确定",
-      "finalText": "Hi, David\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Hi, David",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "Hi, Sarah",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "Hi, John",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -560,29 +727,9 @@
       "checks": [],
       "errors": [],
       "initialText": "John is 20 years old.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "John is 20 years old.",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1200",
-      "id": "dc35680a-4de5-333d-87f3-6edc70af8370",
-      "kind": "JsHtml",
-      "checks": [],
-      "errors": [],
-      "initialText": "42",
-      "finalText": "42",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1201",
-      "id": "8ec2ff6e-b40f-3efa-9e40-046ec4bfa0ec",
-      "kind": "JsHtml",
-      "checks": [],
-      "errors": [],
-      "initialText": "你确认要离开该页面吗?\n\n确定",
-      "finalText": "你确认要离开该页面吗?\n\n确定",
       "failedImages": [],
       "classification": "completed"
     },
@@ -607,7 +754,42 @@
       ],
       "errors": [],
       "initialText": "Enter two numbers to swap\nn1:\nn2:\nDone",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Enter two numbers to swap\nn1:\nn2:\nDone",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1200",
+      "id": "dc35680a-4de5-333d-87f3-6edc70af8370",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "42",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "42",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "8ec2ff6e-b40f-3efa-9e40-046ec4bfa0ec",
+      "kind": "JsHtml",
+      "checks": [],
+      "errors": [],
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "你确认要离开该页面吗?",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -617,8 +799,17 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "你好\n今天过的怎么样?\n\n确定",
-      "finalText": "你好\n今天过的怎么样?\n\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "你好\n今天过的怎么样?",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -628,13 +819,28 @@
       "kind": "JsHtml",
       "checks": [
         {
-          "name": "prompt value reaches following alert",
+          "name": "native prompt value reaches following native alert",
           "passed": true,
           "actual": "测试姓名"
         }
       ],
       "errors": [],
-      "initialText": "输入你的名字\n\n取消\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "prompt",
+          "message": "输入你的名字",
+          "defaultValue": "张三",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "测试姓名",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -646,7 +852,58 @@
       "checks": [],
       "errors": [],
       "initialText": "3131",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "3131",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1201",
+      "id": "cd5a142d-ba74-3625-9f6c-61851c5431d3",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "native confirm cancel branch",
+          "passed": true,
+          "actual": "你留下来啦😄"
+        },
+        {
+          "name": "native confirm accept branch",
+          "passed": true,
+          "actual": "再见👋"
+        }
+      ],
+      "errors": [],
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "confirm",
+          "message": "你确认要离开该页面吗?",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "你留下来啦😄",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "confirm",
+          "message": "你确认要离开该页面吗?",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "再见👋",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -657,6 +914,8 @@
       "checks": [],
       "errors": [],
       "initialText": "2",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "2",
       "failedImages": [],
       "classification": "completed"
@@ -668,29 +927,9 @@
       "checks": [],
       "errors": [],
       "initialText": "This is some text",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "This is some text",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1201",
-      "id": "cd5a142d-ba74-3625-9f6c-61851c5431d3",
-      "kind": "JsHtml",
-      "checks": [
-        {
-          "name": "confirm cancel branch",
-          "passed": true,
-          "actual": "你留下来啦😄"
-        },
-        {
-          "name": "confirm accept branch",
-          "passed": true,
-          "actual": "再见👋"
-        }
-      ],
-      "errors": [],
-      "initialText": "你确认要离开该页面吗?\n\n取消\n确定",
-      "finalText": "",
       "failedImages": [],
       "classification": "completed"
     },
@@ -701,6 +940,8 @@
       "checks": [],
       "errors": [],
       "initialText": "John42Amy21",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "John42Amy21",
       "failedImages": [],
       "classification": "completed"
@@ -712,6 +953,8 @@
       "checks": [],
       "errors": [],
       "initialText": "25",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "25",
       "failedImages": [],
       "classification": "completed"
@@ -723,6 +966,8 @@
       "checks": [],
       "errors": [],
       "initialText": "25",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "25",
       "failedImages": [],
       "classification": "completed"
@@ -734,6 +979,8 @@
       "checks": [],
       "errors": [],
       "initialText": "John",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "John",
       "failedImages": [],
       "classification": "completed"
@@ -745,6 +992,8 @@
       "checks": [],
       "errors": [],
       "initialText": "1994",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "1994",
       "failedImages": [],
       "classification": "completed"
@@ -756,6 +1005,8 @@
       "checks": [],
       "errors": [],
       "initialText": "undefined",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "undefined",
       "failedImages": [],
       "classification": "completed"
@@ -767,6 +1018,8 @@
       "checks": [],
       "errors": [],
       "initialText": "JS",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "JS",
       "failedImages": [],
       "classification": "completed"
@@ -778,6 +1031,8 @@
       "checks": [],
       "errors": [],
       "initialText": "JS",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "JS",
       "failedImages": [],
       "classification": "completed"
@@ -789,6 +1044,8 @@
       "checks": [],
       "errors": [],
       "initialText": "JS",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "JS",
       "failedImages": [],
       "classification": "completed"
@@ -800,6 +1057,8 @@
       "checks": [],
       "errors": [],
       "initialText": "3",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "3",
       "failedImages": [],
       "classification": "completed"
@@ -811,6 +1070,8 @@
       "checks": [],
       "errors": [],
       "initialText": "JS",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "JS",
       "failedImages": [],
       "classification": "completed"
@@ -822,6 +1083,8 @@
       "checks": [],
       "errors": [],
       "initialText": "46",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "46",
       "failedImages": [],
       "classification": "completed"
@@ -833,6 +1096,8 @@
       "checks": [],
       "errors": [],
       "initialText": "3.141592653589793",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "3.141592653589793",
       "failedImages": [],
       "classification": "completed"
@@ -844,6 +1109,8 @@
       "checks": [],
       "errors": [],
       "initialText": "2",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "2",
       "failedImages": [],
       "classification": "completed"
@@ -854,13 +1121,28 @@
       "kind": "JsHtml",
       "checks": [
         {
-          "name": "prompt numeric value drives sqrt",
+          "name": "native prompt numeric value drives sqrt",
           "passed": true,
           "actual": "The square root of 81 is 9"
         }
       ],
       "errors": [],
-      "initialText": "Enter a number\n\n取消\n确定",
+      "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "prompt",
+          "message": "Enter a number",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        },
+        {
+          "type": "alert",
+          "message": "The square root of 81 is 9",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -871,8 +1153,10 @@
       "kind": "JsHtml",
       "checks": [],
       "errors": [],
-      "initialText": "1",
-      "finalText": "1",
+      "initialText": "18",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "18",
       "failedImages": [],
       "classification": "completed"
     },
@@ -889,6 +1173,8 @@
       ],
       "errors": [],
       "initialText": "some text\n\nsome other text",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "new text\n\nnew text",
       "failedImages": [],
       "classification": "completed"
@@ -900,6 +1186,8 @@
       "checks": [],
       "errors": [],
       "initialText": "Some link",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Some link",
       "failedImages": [],
       "classification": "completed"
@@ -911,6 +1199,8 @@
       "checks": [],
       "errors": [],
       "initialText": "some text",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "some text",
       "failedImages": [],
       "classification": "completed"
@@ -922,6 +1212,8 @@
       "checks": [],
       "errors": [],
       "initialText": "some content\n\nSome new text",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "some content\n\nSome new text",
       "failedImages": [],
       "classification": "completed"
@@ -933,6 +1225,8 @@
       "checks": [],
       "errors": [],
       "initialText": "This is another paragraph.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "This is another paragraph.",
       "failedImages": [],
       "classification": "completed"
@@ -944,6 +1238,8 @@
       "checks": [],
       "errors": [],
       "initialText": "This is new\n\nThis is another paragraph.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "This is new\n\nThis is another paragraph.",
       "failedImages": [],
       "classification": "completed"
@@ -955,6 +1251,8 @@
       "checks": [],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -975,6 +1273,8 @@
       ],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -992,6 +1292,15 @@
       ],
       "errors": [],
       "initialText": "Click Me",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Hi there",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Click Me",
       "failedImages": [],
       "classification": "completed"
@@ -1004,12 +1313,14 @@
         {
           "name": "click replaces content with date",
           "passed": true,
-          "actual": "Mon Nov 02 2026 01:10:44 GMT+0800 (China Standard Time)"
+          "actual": "Mon Nov 02 2026 18:56:00 GMT+0800 (China Standard Time)"
         }
       ],
       "errors": [],
       "initialText": "Click Me",
-      "finalText": "Mon Nov 02 2026 01:10:44 GMT+0800 (China Standard Time)",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "Mon Nov 02 2026 18:56:00 GMT+0800 (China Standard Time)",
       "failedImages": [],
       "classification": "completed"
     },
@@ -1026,6 +1337,8 @@
       ],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -1038,7 +1351,7 @@
         {
           "name": "event listener returns random value",
           "passed": true,
-          "actual": "0.03486073190240235"
+          "actual": "0.5655006521030306"
         },
         {
           "name": "listener removes itself",
@@ -1048,6 +1361,15 @@
       ],
       "errors": [],
       "initialText": "Start",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "0.5655006521030306",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Start",
       "failedImages": [],
       "classification": "completed"
@@ -1061,14 +1383,16 @@
           "name": "clock interval updates actual text",
           "passed": true,
           "actual": {
-            "before": "1:10:43",
-            "after": "1:10:44"
+            "before": "18:55:59",
+            "after": "18:56:0"
           }
         }
       ],
       "errors": [],
       "initialText": "",
-      "finalText": "1:10:44",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "18:56:0",
       "failedImages": [],
       "classification": "completed"
     },
@@ -1079,32 +1403,9 @@
       "checks": [],
       "errors": [],
       "initialText": "Prev\nNext",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Prev\nNext",
-      "failedImages": [],
-      "classification": "completed"
-    },
-    {
-      "page": "022-1223",
-      "id": "a32958e9-ce01-3da0-8ea9-5867ecda946a",
-      "kind": "JsHtml",
-      "checks": [
-        {
-          "name": "invalid form rejected with visible feedback",
-          "passed": true,
-          "actual": {
-            "invalid": false,
-            "text": "输入不能为空白，且需要相等"
-          }
-        },
-        {
-          "name": "matching form values pass validation",
-          "passed": true,
-          "actual": true
-        }
-      ],
-      "errors": [],
-      "initialText": "Number: \nRepeat: \n",
-      "finalText": "Number: \nRepeat: \n",
       "failedImages": [],
       "classification": "completed"
     },
@@ -1133,7 +1434,43 @@
       "errors": [],
       "initialText": "Prev\nNext",
       "originalSourceNote": "Original HTML starts with sololearn uploads/slider/1.jpg while original JS array starts with cdn.py2fun course assets/1.jpg; these are different images, preserved as supplied.",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "Prev\nNext",
+      "failedImages": [],
+      "classification": "completed"
+    },
+    {
+      "page": "022-1223",
+      "id": "a32958e9-ce01-3da0-8ea9-5867ecda946a",
+      "kind": "JsHtml",
+      "checks": [
+        {
+          "name": "invalid form rejected with visible feedback",
+          "passed": true,
+          "actual": {
+            "invalid": false,
+            "text": "输入不能为空白，且需要相等"
+          }
+        },
+        {
+          "name": "matching form values pass validation",
+          "passed": true,
+          "actual": true
+        }
+      ],
+      "errors": [],
+      "initialText": "Number: \nRepeat: \n",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "输入不能为空白，且需要相等",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
+      "finalText": "Number: \nRepeat: \n",
       "failedImages": [],
       "classification": "completed"
     },
@@ -1144,6 +1481,15 @@
       "checks": [],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -1155,6 +1501,8 @@
       "checks": [],
       "errors": [],
       "initialText": "012",
+      "nativeDialogs": [],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "012",
       "failedImages": [],
       "classification": "completed"
@@ -1166,6 +1514,15 @@
       "checks": [],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Welcome David",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -1177,6 +1534,15 @@
       "checks": [],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Hi",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -1194,6 +1560,15 @@
       ],
       "errors": [],
       "initialText": "",
+      "nativeDialogs": [
+        {
+          "type": "alert",
+          "message": "Hi",
+          "defaultValue": "",
+          "hostPage": "http://127.0.0.1:63057/"
+        }
+      ],
+      "sandbox": "allow-scripts allow-forms",
       "finalText": "",
       "failedImages": [],
       "classification": "completed"
@@ -1201,12 +1576,21 @@
   ],
   "blockedExternalRequests": [],
   "limitations": [
-    "Uses the production webPreviewDocument in an iframe with the same allow-scripts sandbox; does not claim full App navigation or pixel equivalence.",
+    "Uses the production webPreviewDocument in an iframe with the same allow-scripts + allow-forms sandbox; does not claim full App navigation or pixel equivalence.",
     "All examples execute; selected real interactions assert resulting values/text/style/image changes, including all seven RunJS activities.",
-    "Only course-used top-level prompt/confirm cases exist; no unsupported hypothetical dialog patterns were introduced."
+    "Uses the production native bridge and execution-copy AST adapter; actual browser dialog events are accepted/cancelled by the test, not substituted with HTML dialogs. Original editor source remains unchanged."
   ],
-  "finishedAt": "2026-11-01T17:10:46.190Z",
-  "sourceHashAfter": "8e9d369456b8dd0a84269f569820447350cd3a9956b9b26638effe18116b5eb7",
+  "finishedAt": "2026-11-02T10:56:01.438Z",
+  "sourceFilesAfter": {
+    "src/content-web.ts": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
+    "src/native-dialog-transform.ts": "988d6651cb779fe2ca04d38381d1d5805c2b3655891c48dd3bcc4bc219aeace4",
+    "src/native-web-dialogs.ts": "ec29aa2c680598f04cf701628c2eb36cfd614e4c251d8e774fe0c7cbc7566c32",
+    "src/SourceWebPreview.tsx": "a736a3ea389343ae929de87cf0535abdd4a69fd642a45a6ebc4e6185a1cb8105",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3"
+  },
+  "changedFiles": [],
+  "sourceUnchanged": true,
+  "sourceHashAfter": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
   "summary": {
     "executed": 90,
     "failedImages": [],

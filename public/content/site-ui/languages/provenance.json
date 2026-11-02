@@ -1,0 +1,123 @@
+{
+  "source": "https://cdn.py2fun.com/python-educative/static/js/main.3511c4c1.chunk.js",
+  "sourceSnapshot": "output/component-audit/original-main.js",
+  "module": 389,
+  "icons": [
+    "go",
+    "typescript",
+    "rust",
+    "java",
+    "cplus",
+    "php",
+    "python3.9",
+    "go-1165",
+    "swift",
+    "csharp",
+    "javascript",
+    "c",
+    "ruby",
+    "c#",
+    "c++",
+    "python",
+    "python3",
+    "python38",
+    "nodejs"
+  ],
+  "files": [
+    {
+      "name": "c#.svg",
+      "size": 1029,
+      "sha256": "f4649b0558df79895bd36f859b6196724085239cfe04db373c5105bac0704668"
+    },
+    {
+      "name": "c++.svg",
+      "size": 1005,
+      "sha256": "ab7266b55409a16b789238381c6e63cca653d3f27be2b1f6296fc8693501fa8a"
+    },
+    {
+      "name": "c.svg",
+      "size": 797,
+      "sha256": "07076c3727adfaf1ca5291469fc1b45ff163b80a2ee226b75f7153868015b2dc"
+    },
+    {
+      "name": "cplus.svg",
+      "size": 1005,
+      "sha256": "ab7266b55409a16b789238381c6e63cca653d3f27be2b1f6296fc8693501fa8a"
+    },
+    {
+      "name": "csharp.svg",
+      "size": 1029,
+      "sha256": "f4649b0558df79895bd36f859b6196724085239cfe04db373c5105bac0704668"
+    },
+    {
+      "name": "go-1165.svg",
+      "size": 1188,
+      "sha256": "5dcf9c7eaa9dfca5fd8d99f7531b5855b72cb4ee08ae6238e3a5f9e17da7acf5"
+    },
+    {
+      "name": "go.svg",
+      "size": 1188,
+      "sha256": "5dcf9c7eaa9dfca5fd8d99f7531b5855b72cb4ee08ae6238e3a5f9e17da7acf5"
+    },
+    {
+      "name": "java.svg",
+      "size": 1148,
+      "sha256": "6abf3295ca26ef90e2a00e023c8876aff69b427b3999d9809092789dfa7c57a5"
+    },
+    {
+      "name": "javascript.svg",
+      "size": 586,
+      "sha256": "ad58330886b26053b530021238686778cdce96329486eb40d05988ffca9e12c1"
+    },
+    {
+      "name": "nodejs.svg",
+      "size": 1356,
+      "sha256": "5d88fa7067aabf089bdc1a17214f9e3395ea5cbb1b4384c50c29a90acb383d32"
+    },
+    {
+      "name": "php.svg",
+      "size": 824,
+      "sha256": "97ee093611679752ef4e985bcbff78f355ff1799704d1db69f0251cbc1cc2e91"
+    },
+    {
+      "name": "python.svg",
+      "size": 584,
+      "sha256": "a001a064a8fbc6cc722faac5197345af588196ccf2bc24003e6972d5c3ece82a"
+    },
+    {
+      "name": "python3.9.svg",
+      "size": 584,
+      "sha256": "a001a064a8fbc6cc722faac5197345af588196ccf2bc24003e6972d5c3ece82a"
+    },
+    {
+      "name": "python3.svg",
+      "size": 584,
+      "sha256": "a001a064a8fbc6cc722faac5197345af588196ccf2bc24003e6972d5c3ece82a"
+    },
+    {
+      "name": "python38.svg",
+      "size": 584,
+      "sha256": "a001a064a8fbc6cc722faac5197345af588196ccf2bc24003e6972d5c3ece82a"
+    },
+    {
+      "name": "ruby.svg",
+      "size": 1045,
+      "sha256": "d0c3b1e52b03c4a062ea2b3b6114dc05aa68a26acbba53f2e5ddba2e4c97cb19"
+    },
+    {
+      "name": "rust.svg",
+      "size": 2817,
+      "sha256": "6c78a647cfb62e850548b47e9119454e2f60d0ed609c4f8b04e621d2963c3f53"
+    },
+    {
+      "name": "swift.svg",
+      "size": 707,
+      "sha256": "5f92ee5fc6e968005f7b5de68db980dbe356a46b9a185fe8d8f7601c9f130ce6"
+    },
+    {
+      "name": "typescript.svg",
+      "size": 755,
+      "sha256": "6f1897dedef35055ca2c1db76fbf90f69871c23c2a1582e14449c2dc538c18f8"
+    }
+  ]
+}

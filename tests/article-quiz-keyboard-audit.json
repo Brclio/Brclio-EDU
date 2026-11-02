@@ -1,0 +1,558 @@
+{
+  "at": "2026-11-02T10:54:05.094Z",
+  "base": "http://127.0.0.1:5173",
+  "scope": "Real Tab/Space/Enter navigation to both original Article questions 178 and 179, including the second slide with no visible arrow buttons; correct and incorrect submissions in desktop/mobile.",
+  "sourceHash": "88fc3c15874c8dbe05a94b8806c73f6cc9bc3780eda2892739f1aa9ccc976eed",
+  "cases": [
+    {
+      "width": 1280,
+      "correct": true,
+      "side": "source",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 910
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 910
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "correct": true,
+      "side": "local",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 910
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 910
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "correct": false,
+      "side": "source",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 910
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 910
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "correct": false,
+      "side": "local",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 489
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 910
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 910
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "correct": true,
+      "side": "source",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 185
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 185
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "correct": true,
+      "side": "local",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 185
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 1,
+          "success": 1,
+          "error": 0,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 185
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "correct": false,
+      "side": "source",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 185
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 185
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "correct": false,
+      "side": "local",
+      "steps": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 0,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 0,
+          "option": 1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 0,
+          "option": -1,
+          "scrollLeft": 0
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 0,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "slide": 1,
+          "option": 1,
+          "scrollLeft": 185
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "slide": 1,
+          "option": -1,
+          "scrollLeft": 185
+        }
+      ],
+      "submissions": [
+        {
+          "questionId": 178,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 0
+        },
+        {
+          "questionId": 179,
+          "selected": 0,
+          "success": 0,
+          "error": 1,
+          "via": "Tab / Space / Enter",
+          "scrollLeft": 185
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "cases": 8,
+    "submissions": 16,
+    "errors": 0
+  }
+}

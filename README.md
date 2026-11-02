@@ -1,6 +1,6 @@
 # Brclio EDU
 
-[在线学习](https://edu.brclio.com/) · [本轮一致性复核](docs/fidelity-verification.md) · [首轮上线验收](docs/verification.md) · [宝塔运行服务](docs/server-deployment.md)
+[在线学习](https://edu.brclio.com/) · [最新课程一致性核查](docs/strict-course-fidelity.md) · [首轮上线验收](docs/verification.md) · [宝塔运行服务](docs/server-deployment.md)
 
 基于 edu.py2fun.com 公开课程数据的开放学习站。Cloudflare Workers + Static Assets 托管课程，访客无需登录；学习记录由 Worker 写入 GitHub 私有仓库。需要原生编译或多进程的程序使用独立的宝塔运行服务。
 
@@ -10,6 +10,7 @@
 - 保留原课程顺序、正文、代码、公开答案和组件数据，资源随站点部署。
 - 分别实现逐步学习和文章式课程布局：章节目录、课内导航、笔记、完成进度。
 - 单选、多选、填空、拖放、排序、错答重试；编辑多文件代码、输入、运行和公开测试。
+- 与原站同版的 Monaco 0.34.0 / CodeMirror 5.65.3，全量编辑器资源同源；课节附带挑战使用全屏练习窗。
 - 163 个分步动画、964 帧原 SVG，支持前进、后退和重播；真实 SVG 导图支持折叠、拖动和缩放。
 - KaTeX 数学公式与字体同源部署；网页交互预览采用隔离 iframe。
 - 学习记录可离线保存、恢复同步及导入/导出。无需账户不等于自动跨设备识别，换设备可导入备份。
@@ -47,12 +48,13 @@ python3 scripts/import-verify.py
 python3 -m unittest discover -s tests -p 'runner_test.py'
 ```
 
-`npm run dev` 为前端开发，记录保存在浏览器；真实 Worker 联调用 `npm run dev:cloudflare`，并在未提交的 `.dev.vars` 中提供需要的服务密钥。已有审计结果的校验和完整浏览器重跑是不同操作，具体复现命令在各审计文档中。
+`npm run dev` 的记录保存在浏览器；两个大视频由本地静态分块流式播放，支持拖动进度。Python、JavaScript、SQL 在浏览器运行；原生编译的 `/api/run` 默认连接已有 Brclio 隔离运行服务，需要联网，不调用原站服务。可在 `.env.development.local` 设置 `BRCLIO_DEV_API_ORIGIN=http://127.0.0.1:8787`，改用已配置本地运行器的 Worker。完整 Worker 联调用 `npm run dev:cloudflare`，并在未提交的 `.dev.vars` 中提供需要的服务密钥。已有审计结果的校验和完整浏览器重跑是不同操作，具体复现命令在各审计文档中。
 
 ```sh
 python3 scripts/import-courses.py
 python3 scripts/import-svg-assets.py
 node scripts/import-runtime.mjs
+node scripts/import-editor-runtime.mjs
 python3 scripts/import-runtime-data.py
 python3 scripts/import-network-fixtures.py
 python3 scripts/import-biqukan-compat.py

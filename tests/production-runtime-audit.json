@@ -1,55 +1,55 @@
 {
-  "startedAt": "2026-11-02T06:36:02.519Z",
-  "base": "https://edu.brclio.com",
+  "startedAt": "2026-11-02T09:39:36.773Z",
+  "base": "http://127.0.0.1:4173",
   "tests": [
     {
       "language": "c",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 7365
+      "milliseconds": 16948
     },
     {
       "language": "c++",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 2820
+      "milliseconds": 6347
     },
     {
       "language": "java",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 5832
+      "milliseconds": 12969
     },
     {
       "language": "go-1165",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 3325
+      "milliseconds": 11948
     },
     {
       "language": "swift",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 9852
+      "milliseconds": 11995
     },
     {
       "language": "javascript",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 827
+      "milliseconds": 61
     },
     {
       "language": "python",
       "originalPage": "005-205",
       "expected": "6",
       "actual": "6",
-      "milliseconds": 14875
+      "milliseconds": 1890
     },
     {
       "language": "python multiprocessing",
@@ -64,6 +64,7 @@
     {
       "animation": "004-117",
       "frames": 5,
+      "distinctRenderedSVGs": 5,
       "reset": true
     },
     {
@@ -76,5 +77,87 @@
     }
   ],
   "errors": [],
-  "finishedAt": "2026-11-02T06:37:06.049Z"
+  "previousAttempts": [
+    {
+      "startedAt": "2026-11-02T09:32:55.237Z",
+      "finishedAt": "2026-11-02T09:35:49.835Z",
+      "errors": [
+        "locator.waitFor: Timeout 125000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.edu-code-tabs').first().locator('.edu-code-block').locator('.edu-output').filter({ hasText: '6' }) to be visible\u001b[22m\n\n    at /Users/huangjiabao/GitHub/Brclio-EDU/tests/production-runtime-audit.mjs:14:60"
+      ],
+      "executionRelay": {
+        "upstream": "https://edu.brclio.com/api/run",
+        "requests": [
+          {
+            "at": "2026-11-02T09:33:13.150Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "6"
+          },
+          {
+            "at": "2026-11-02T09:33:19.471Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "6"
+          },
+          {
+            "at": "2026-11-02T09:33:32.255Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "6\n"
+          },
+          {
+            "at": "2026-11-02T09:33:44.593Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "6"
+          },
+          {
+            "at": "2026-11-02T09:34:33.465Z",
+            "status": 502,
+            "error": "运行服务暂时不可用，请稍后重试。"
+          }
+        ],
+        "note": "Only API transport is proxied; current local UI and real isolated runtime execute every source program."
+      },
+      "lastRuntimeView": "Python\nC++\nC#\nJava\nJavascript\nTypescript\nRuby\nGo\nRust\nPhp\nSwift\nC\n1\nimport Swift\n2\nfunc add(p1: Int, p2: Int) -> Int {\n3\n    return p1 + p2\n4\n}\n5\nprint(add(p1: 2, p2: 4))\n运行代码\n重置代码\n运行服务暂时不可用，请稍后重试。"
+    },
+    {
+      "startedAt": "2026-11-02T09:36:50.407Z",
+      "finishedAt": "2026-11-02T09:38:08.002Z",
+      "errors": [
+        "page.waitForFunction: Timeout 30000ms exceeded.\n    at /Users/huangjiabao/GitHub/Brclio-EDU/tests/production-runtime-audit.mjs:22:34"
+      ],
+      "executionRelay": {
+        "upstream": "https://edu.brclio.com/api/run",
+        "requests": [
+          {
+            "at": "2026-11-02T09:37:03.588Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "6\n"
+          },
+          {
+            "at": "2026-11-02T09:37:07.886Z",
+            "status": 200,
+            "exitCode": 0,
+            "timedOut": false,
+            "stdout": "[4, 9, 16]\n"
+          }
+        ],
+        "note": "Only API transport is proxied; current local UI and real isolated runtime execute every source program."
+      },
+      "lastRuntimeView": null
+    }
+  ],
+  "executionRelay": {
+    "upstream": "https://edu.brclio.com/api/run",
+    "requests": [],
+    "note": "Only API transport is proxied; current local UI and real isolated runtime execute every source program."
+  },
+  "finishedAt": "2026-11-02T09:39:46.272Z"
 }

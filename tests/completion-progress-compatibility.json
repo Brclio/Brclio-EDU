@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-02T10:09:47.912Z",
+  "checks": [
+    "Actual Records export download retains numeric completion reward and completed flag",
+    "Real worker validateProgress and serialized stored representation retain completion reward",
+    "Actual Records import into a fresh browser preserves reward and prevents another first-completion award"
+  ],
+  "errors": []
+}

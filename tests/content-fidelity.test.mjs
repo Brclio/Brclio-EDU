@@ -15,9 +15,15 @@ test('complete source field comparison records no missing or changed course cont
   assert.deepEqual(audit.errors, []);
   assert.deepEqual(audit.rawComparison.issues, []);
   assert.deepEqual(audit.catalogComparison.issues, []);
-  assert.ok([0, 85].includes(audit.summary.liveRequests));
+  if (audit.liveScope === 'all-cached-public-endpoints') {
+    assert.equal(audit.summary.liveRequests, audit.liveExpectedRequests);
+    assert.equal(audit.summary.liveRequests, 1 + 28 + 1190 + 2805);
+  } else assert.ok([0, 85].includes(audit.summary.liveRequests));
   assert.equal(audit.summary.liveChanged, 0);
   assert.equal(audit.summary.liveErrors, 0);
+  for (const endpoint of audit.live) {
+    assert.equal(endpoint.liveCanonicalSha256, endpoint.cachedCanonicalSha256, endpoint.api);
+  }
 });
 
 test('local resources, nested SVG dependencies and original video chunks are intact', () => {
@@ -30,7 +36,8 @@ test('local resources, nested SVG dependencies and original video chunks are int
     assert.equal(media.originalCacheMatches, true);
   }
   assert.deepEqual(audit.mediaValidation.issues, []);
-  assert.equal(audit.mediaValidation.counts.raster, 1292);
+  // The source course assets remain required; locally mirrored site UI may add images.
+  assert.ok(audit.mediaValidation.counts.raster >= 1292);
   assert.equal(audit.mediaValidation.videos.length, 9);
 });
 

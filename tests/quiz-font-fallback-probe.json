@@ -1,0 +1,93 @@
+{
+  "at": "2026-11-02T10:43:23.358Z",
+  "records": [
+    {
+      "side": "source",
+      "sequence": "direct-next-without-submit",
+      "variant": "base",
+      "platform": [
+        {
+          "familyName": "Courier",
+          "postScriptName": "Courier",
+          "isCustomFont": false,
+          "glyphCount": 116
+        }
+      ],
+      "styles": {
+        "family": "\"Roboto Mono\", monospace",
+        "feature": "\"tnum\"",
+        "locale": "auto",
+        "lang": ""
+      }
+    },
+    {
+      "side": "local",
+      "sequence": "direct-next-without-submit",
+      "variant": "base",
+      "platform": [
+        {
+          "familyName": "Courier",
+          "postScriptName": "Courier",
+          "isCustomFont": false,
+          "glyphCount": 116
+        }
+      ],
+      "styles": {
+        "family": "\"Roboto Mono\", monospace",
+        "feature": "\"tnum\"",
+        "locale": "\"en\"",
+        "lang": "en"
+      }
+    },
+    {
+      "side": "local",
+      "sequence": "direct-next-without-submit",
+      "variant": "no-lang",
+      "platform": [
+        {
+          "familyName": "Courier",
+          "postScriptName": "Courier",
+          "isCustomFont": false,
+          "glyphCount": 116
+        }
+      ],
+      "styles": {
+        "family": "\"Roboto Mono\", monospace",
+        "feature": "\"tnum\"",
+        "locale": "auto",
+        "lang": ""
+      }
+    },
+    {
+      "side": "local",
+      "sequence": "direct-next-without-submit",
+      "variant": "no-inert",
+      "platform": [
+        {
+          "familyName": "Courier",
+          "postScriptName": "Courier",
+          "isCustomFont": false,
+          "glyphCount": 116
+        }
+      ],
+      "styles": {
+        "family": "\"Roboto Mono\", monospace",
+        "feature": "\"tnum\"",
+        "locale": "\"en\"",
+        "lang": "en"
+      }
+    },
+    {
+      "side": "local",
+      "sequence": "direct-next-without-submit",
+      "variant": "wrapped-text",
+      "platform": [],
+      "styles": {
+        "family": "\"Roboto Mono\", monospace",
+        "feature": "\"tnum\"",
+        "locale": "\"en\"",
+        "lang": "en"
+      }
+    }
+  ]
+}

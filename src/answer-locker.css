@@ -1,0 +1,12 @@
+.solo .lesson-footer .answer-locker{display:block;width:24px;height:24px;margin:auto;padding:0;border:0;background:transparent url('/content/site-ui/answer-lock.png') center/contain no-repeat;cursor:pointer;border-radius:0;opacity:1}
+.solo .lesson-footer .answer-locker-unlocked{background-image:url('/content/site-ui/answer-unlock.png')}
+.answer-locker-modal{position:fixed;inset:0;background:#0000004d;display:flex;align-items:center;justify-content:center;z-index:999;font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;color:#252933}
+.answer-locker-main{width:400px;height:460px;background:#fff;position:relative;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.answer-locker-close{width:30px;height:30px;position:absolute;border:0;padding:0;background:transparent url('/content/site-ui/answer-close.png') center/10px no-repeat;top:12px;right:12px;cursor:pointer;opacity:.8}
+.answer-locker-close:hover{opacity:1}
+.answer-locker-diamond{width:106px;height:106px;background:url('/content/site-ui/answer-diamond.png') center/contain no-repeat}
+.answer-locker-title{margin-top:45px;white-space:nowrap;font-weight:400;font-size:24px;line-height:100%;text-align:center;color:#3d4665}
+.answer-locker-desc{margin-top:28px;font-weight:500;font-size:14px;line-height:18px;text-align:center;color:#3d4665}
+.answer-locker-note{font-weight:500;font-size:14px;line-height:18px;text-align:center;color:#3d4665}
+.answer-locker-action{font:16px/normal Arial,sans-serif;appearance:none;outline:none;width:167px;height:48px;border-radius:6px;border:1px solid #575bfd;background:#575bfd;color:#fff;display:flex;align-items:center;justify-content:center;letter-spacing:0;cursor:pointer;margin-top:32px;transition:background-color .2s ease-in-out}
+.answer-locker-action:hover{border-color:#0b11fc;background:#0b11fc}

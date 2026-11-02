@@ -1,0 +1,1410 @@
+{
+  "createdAt": "2026-11-02T08:23:05.781Z",
+  "base": "http://127.0.0.1:5173",
+  "course": "001/1",
+  "scope": "Shell and title geometry after CSS, CodeMirror and course title have loaded, with 600ms of consecutive stable measurements. Body comparison uses its content box: the source places mobile padding on the body and local places it on the reading pane.",
+  "results": [
+    {
+      "width": 390,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "16px",
+            "16px",
+            "16px",
+            "16px"
+          ],
+          "rect": [
+            0,
+            72,
+            390,
+            4277.84375
+          ]
+        },
+        "bodyContent": [
+          16,
+          88,
+          358
+        ],
+        "documentWidth": 390,
+        "pane": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            390,
+            828
+          ]
+        },
+        "sidebar": null,
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            358,
+            108.21875
+          ]
+        },
+        "viewport": 390
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            358,
+            4392.34375
+          ]
+        },
+        "bodyContent": [
+          16,
+          88,
+          358
+        ],
+        "documentWidth": 390,
+        "pane": {
+          "padding": [
+            "16px",
+            "16px",
+            "16px",
+            "16px"
+          ],
+          "rect": [
+            0,
+            72,
+            390,
+            828
+          ]
+        },
+        "sidebar": null,
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            358,
+            108.21875
+          ]
+        },
+        "viewport": 390
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": false,
+          "local": false,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": null,
+          "local": null,
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            0,
+            72,
+            390,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            390,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            16,
+            88,
+            358
+          ],
+          "local": [
+            16,
+            88,
+            358
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            16,
+            88,
+            358,
+            108.21875
+          ],
+          "local": [
+            16,
+            88,
+            358,
+            108.21875
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 390,
+          "local": 390,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 414,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "16px",
+            "16px",
+            "16px",
+            "16px"
+          ],
+          "rect": [
+            0,
+            72,
+            414,
+            4191.734375
+          ]
+        },
+        "bodyContent": [
+          16,
+          88,
+          382
+        ],
+        "documentWidth": 414,
+        "pane": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            414,
+            828
+          ]
+        },
+        "sidebar": null,
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            382,
+            54.109375
+          ]
+        },
+        "viewport": 414
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            382,
+            4306.234375
+          ]
+        },
+        "bodyContent": [
+          16,
+          88,
+          382
+        ],
+        "documentWidth": 414,
+        "pane": {
+          "padding": [
+            "16px",
+            "16px",
+            "16px",
+            "16px"
+          ],
+          "rect": [
+            0,
+            72,
+            414,
+            828
+          ]
+        },
+        "sidebar": null,
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            16,
+            88,
+            382,
+            54.109375
+          ]
+        },
+        "viewport": 414
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": false,
+          "local": false,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": null,
+          "local": null,
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            0,
+            72,
+            414,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            414,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            16,
+            88,
+            382
+          ],
+          "local": [
+            16,
+            88,
+            382
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            16,
+            88,
+            382,
+            54.109375
+          ],
+          "local": [
+            16,
+            88,
+            382,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 414,
+          "local": 414,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 415,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3242.59375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 415
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3413.09375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "30px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 415
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": true,
+          "local": true,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "local": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            300,
+            104,
+            960
+          ],
+          "local": [
+            300,
+            104,
+            960
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "local": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 1260,
+          "local": 1260,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3242.59375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 640
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3413.09375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "30px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 640
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": true,
+          "local": true,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "local": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            300,
+            104,
+            960
+          ],
+          "local": [
+            300,
+            104,
+            960
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "local": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 1260,
+          "local": 1260,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 700,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3242.59375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 700
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3413.09375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "30px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 700
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": true,
+          "local": true,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "local": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            300,
+            104,
+            960
+          ],
+          "local": [
+            300,
+            104,
+            960
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "local": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 1260,
+          "local": 1260,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3242.59375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 768
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            3413.09375
+          ]
+        },
+        "bodyContent": [
+          300,
+          104,
+          960
+        ],
+        "documentWidth": 1260,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            960,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "30px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 768
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": true,
+          "local": true,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "local": [
+            300,
+            72,
+            960,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            300,
+            104,
+            960
+          ],
+          "local": [
+            300,
+            104,
+            960
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "local": [
+            300,
+            104,
+            960,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 1260,
+          "local": 1260,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "source": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            310,
+            104,
+            960,
+            3242.59375
+          ]
+        },
+        "bodyContent": [
+          310,
+          104,
+          960
+        ],
+        "documentWidth": 1280,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            980,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            310,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 1280
+      },
+      "local": {
+        "body": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            310,
+            104,
+            960,
+            3413.09375
+          ]
+        },
+        "bodyContent": [
+          310,
+          104,
+          960
+        ],
+        "documentWidth": 1280,
+        "pane": {
+          "padding": [
+            "32px",
+            "0px",
+            "32px",
+            "0px"
+          ],
+          "rect": [
+            300,
+            72,
+            980,
+            828
+          ]
+        },
+        "sidebar": {
+          "padding": [
+            "0px",
+            "0px",
+            "30px",
+            "0px"
+          ],
+          "rect": [
+            0,
+            72,
+            300,
+            828
+          ]
+        },
+        "title": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "rect": [
+            310,
+            104,
+            960,
+            54.109375
+          ]
+        },
+        "viewport": 1280
+      },
+      "checks": [
+        {
+          "name": "sidebarVisible",
+          "source": true,
+          "local": true,
+          "passed": true
+        },
+        {
+          "name": "sidebarRect",
+          "source": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "local": [
+            0,
+            72,
+            300,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "readingPaneRect",
+          "source": [
+            300,
+            72,
+            980,
+            828
+          ],
+          "local": [
+            300,
+            72,
+            980,
+            828
+          ],
+          "passed": true
+        },
+        {
+          "name": "bodyContentPositionAndWidth",
+          "source": [
+            310,
+            104,
+            960
+          ],
+          "local": [
+            310,
+            104,
+            960
+          ],
+          "passed": true
+        },
+        {
+          "name": "titleRect",
+          "source": [
+            310,
+            104,
+            960,
+            54.109375
+          ],
+          "local": [
+            310,
+            104,
+            960,
+            54.109375
+          ],
+          "passed": true
+        },
+        {
+          "name": "documentWidth",
+          "source": 1280,
+          "local": 1280,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "checks": 42,
+    "failed": []
+  }
+}

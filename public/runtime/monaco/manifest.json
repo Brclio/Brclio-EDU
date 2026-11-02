@@ -1,0 +1,562 @@
+{
+  "version": "0.34.0",
+  "originalEntry": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/vs/editor/editor.main.js",
+  "originalEntrySha256": "4d54c8adae6f8fba4d68d25fe0cc0c307afe30e7bb69ed37ede53a8653556085",
+  "files": [
+    {
+      "path": "vs/base/browser/ui/codicons/codicon/codicon.ttf",
+      "bytes": 72504,
+      "sha256": "71cccbf15f547a7392f5f2e0ae0c42d5b64cb29ba690eb346b3cb2aa5e4a19e7"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.de.js",
+      "bytes": 524,
+      "sha256": "03b1fd6443fcaf05238611dcfdf240d83df798debe7cad7853a11bea14180b1b"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.es.js",
+      "bytes": 524,
+      "sha256": "0acea86943ea0be99f218b21be116e7c335aa6c50d078c5dde2bdbe41d30a1f8"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.fr.js",
+      "bytes": 524,
+      "sha256": "38aa72fd8ce592f5a4bf01727e5e419b852991a01d5ddcf7e40efa39141cd62d"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.it.js",
+      "bytes": 524,
+      "sha256": "712554c78753eece6508988fd8f4cf65ea842922a42dc2d9b564d0e940493a2a"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.ja.js",
+      "bytes": 524,
+      "sha256": "67bc8d8a5a492e36b83b5e15a8862912e0b3d18035378ac8025d31095be67f5f"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.js",
+      "bytes": 518,
+      "sha256": "8fb6a11bf2f283de4969fcd94c4d6ccd894df1c4eafece99ccda74cb075a97e2"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.ko.js",
+      "bytes": 524,
+      "sha256": "fe1f8eb74361ab7a927fcb0b6c824307a0c75ed83142771507d32add1290820b"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.ru.js",
+      "bytes": 524,
+      "sha256": "4119c50c51000c16aca60abf0bfdd013acb100599cdfa44ace8a3f476a2d8936"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.zh-cn.js",
+      "bytes": 530,
+      "sha256": "9ef5d8347ef8f7695cbd8298efa4c4f72e5c3bc1347c9453705b4959ee6c8b82"
+    },
+    {
+      "path": "vs/base/common/worker/simpleWorker.nls.zh-tw.js",
+      "bytes": 530,
+      "sha256": "e6012b1c2da15975237c512887ab3ad6ddddcea0e88bbb84744949cf5fadc891"
+    },
+    {
+      "path": "vs/base/worker/workerMain.js",
+      "bytes": 291378,
+      "sha256": "546cbd5878bbeed453529b93d40003d183e14748070c3ab079a3d115af4d08ce"
+    },
+    {
+      "path": "vs/basic-languages/abap/abap.js",
+      "bytes": 14986,
+      "sha256": "bcd8b2e1eaa6d74ed0e0f8f893e8f5a725c15940356089b1bf26d5d9844314ab"
+    },
+    {
+      "path": "vs/basic-languages/apex/apex.js",
+      "bytes": 4775,
+      "sha256": "91c6bcc16a7760de29cca8abc83e86fa1031f17d590e552c6b414f37d06d6e9d"
+    },
+    {
+      "path": "vs/basic-languages/azcli/azcli.js",
+      "bytes": 1673,
+      "sha256": "f00c47c936a4bdb2ef29ba88c29fb2f1735f149591c1286a034172ecb20fcd3e"
+    },
+    {
+      "path": "vs/basic-languages/bat/bat.js",
+      "bytes": 2666,
+      "sha256": "5818168d3465de78a70914db59b56415b3477db44bb93add83ac8e612d903a7f"
+    },
+    {
+      "path": "vs/basic-languages/bicep/bicep.js",
+      "bytes": 3361,
+      "sha256": "89eb598db97ae23c4f78338f43df16672dd4a3202af3c6bd32001e7828cff1b9"
+    },
+    {
+      "path": "vs/basic-languages/cameligo/cameligo.js",
+      "bytes": 3016,
+      "sha256": "2bd3d45643d1a9c3e818ec50892816dffd61ea9abb916fa499d90658dd1aeea0"
+    },
+    {
+      "path": "vs/basic-languages/clojure/clojure.js",
+      "bytes": 10472,
+      "sha256": "4ed1b6389b97c18ee6b588c0b347b32dfcf32149d4b6668e4e4f8a7d2a1a0513"
+    },
+    {
+      "path": "vs/basic-languages/coffee/coffee.js",
+      "bytes": 4417,
+      "sha256": "587243704ebf50a2e2a9ee1b3b51423876ee09b39fa65f1882019658e41105cb"
+    },
+    {
+      "path": "vs/basic-languages/cpp/cpp.js",
+      "bytes": 6269,
+      "sha256": "bce040c519abed489d910958e6268eef78e9ef6986b167188b87a9a23baf2e82"
+    },
+    {
+      "path": "vs/basic-languages/csharp/csharp.js",
+      "bytes": 5351,
+      "sha256": "d6d47be3a25801a3b02925bd4256f37865b4cfd4bbc5bdf93e42db558e26f59d"
+    },
+    {
+      "path": "vs/basic-languages/csp/csp.js",
+      "bytes": 2240,
+      "sha256": "49d997f50656c9dfba557b6bd2216954e3e5b6b9b318d7e7714fefb538b444d9"
+    },
+    {
+      "path": "vs/basic-languages/css/css.js",
+      "bytes": 5331,
+      "sha256": "2650433691ea8f82c6faad53508f34f32bc366b72dea225ae5b43d6b4c2ae18e"
+    },
+    {
+      "path": "vs/basic-languages/cypher/cypher.js",
+      "bytes": 4212,
+      "sha256": "9c8e07030c63fdd50cb25f1067f87e336dd9b22b300f42568f224523cd74d524"
+    },
+    {
+      "path": "vs/basic-languages/dart/dart.js",
+      "bytes": 5073,
+      "sha256": "62d53ed7aadeded72b174dc39f0c2149dca8d40188f28f7b6b75cbb8aa5ed27b"
+    },
+    {
+      "path": "vs/basic-languages/dockerfile/dockerfile.js",
+      "bytes": 2704,
+      "sha256": "70921f1174ed5162038b319d9d1c8683406f1de4029d238d568aeb9b2185c3d2"
+    },
+    {
+      "path": "vs/basic-languages/ecl/ecl.js",
+      "bytes": 6163,
+      "sha256": "bb61b7fe94dd76640fe3a7be66601b4f85ef4e607490283ff62785d339196a46"
+    },
+    {
+      "path": "vs/basic-languages/elixir/elixir.js",
+      "bytes": 10586,
+      "sha256": "c2db94693d248af59711cb710184ceaff7a5417a41ca49e46263a2fceca9eafd"
+    },
+    {
+      "path": "vs/basic-languages/flow9/flow9.js",
+      "bytes": 2635,
+      "sha256": "594ae697a5d2674d8c2b09d39944e3eff61fb99031993d3ddef169fada4b3a78"
+    },
+    {
+      "path": "vs/basic-languages/freemarker2/freemarker2.js",
+      "bytes": 17189,
+      "sha256": "54f2ebc0376b867c4069747e3fe0319240ba894f1c72831c1ad27a67715fae3f"
+    },
+    {
+      "path": "vs/basic-languages/fsharp/fsharp.js",
+      "bytes": 3810,
+      "sha256": "9d0bde69b1aeb3e3fd0f62cc97becf52b590d0e08d49fc4b92003f68c8ab4b46"
+    },
+    {
+      "path": "vs/basic-languages/go/go.js",
+      "bytes": 3476,
+      "sha256": "bc766db91e85820ceded1bdf687fd7abff3757bf68d34a7ff373e3ef1009ec6c"
+    },
+    {
+      "path": "vs/basic-languages/graphql/graphql.js",
+      "bytes": 3089,
+      "sha256": "a2ef6e7b2984d53a69a750679f4d2d667f1c352968e36598a7c3f8a2cb604ad5"
+    },
+    {
+      "path": "vs/basic-languages/handlebars/handlebars.js",
+      "bytes": 7867,
+      "sha256": "49a17fa17ea9b785757707f5547c7ace8a3efaa248f8b3fed264d02f8d2874f6"
+    },
+    {
+      "path": "vs/basic-languages/hcl/hcl.js",
+      "bytes": 4411,
+      "sha256": "a4a99e6c6d15f65a651250ddaa9145fb604bee123d61ad8dbffc701136be634b"
+    },
+    {
+      "path": "vs/basic-languages/html/html.js",
+      "bytes": 6095,
+      "sha256": "c6098f039d4e55605b27f8ae560b75b15326f00c6eb46101b82e7fa138fe3774"
+    },
+    {
+      "path": "vs/basic-languages/ini/ini.js",
+      "bytes": 1922,
+      "sha256": "c0cf0de3435cf1cbe2e27e81dd3c6357a4616c22f5c3fc1d518f7d7bdfd0728a"
+    },
+    {
+      "path": "vs/basic-languages/java/java.js",
+      "bytes": 4044,
+      "sha256": "c05a04833572fb10d2f40cd00e4f273b085a2454418414627cd5b587061c68a2"
+    },
+    {
+      "path": "vs/basic-languages/javascript/javascript.js",
+      "bytes": 7154,
+      "sha256": "8495f40860b764301f28b96ee5ffa7bcd35518e8f269c9315835b6fc08154cb7"
+    },
+    {
+      "path": "vs/basic-languages/julia/julia.js",
+      "bytes": 8052,
+      "sha256": "900bb2c9b094a782d4493ea6333570718a7312a314c7dfc98db36aa9a6480986"
+    },
+    {
+      "path": "vs/basic-languages/kotlin/kotlin.js",
+      "bytes": 4266,
+      "sha256": "95d4bed5e67eb6b516dac0d77925b2028357d9bd58e1e9e4b3d2b53570b3f518"
+    },
+    {
+      "path": "vs/basic-languages/less/less.js",
+      "bytes": 4721,
+      "sha256": "b33bd2c74b55a28970cba889cc1bd9b72e6f1f7db61adebb53c9f6635c54d452"
+    },
+    {
+      "path": "vs/basic-languages/lexon/lexon.js",
+      "bytes": 3262,
+      "sha256": "06b8297bcf853628066e47e7766679550aa3705dcb945450808e77aedd811ff3"
+    },
+    {
+      "path": "vs/basic-languages/liquid/liquid.js",
+      "bytes": 5045,
+      "sha256": "cc58020ffb5a4817e63dd8d9210f41a0df0fed915e175b34664433473dbff845"
+    },
+    {
+      "path": "vs/basic-languages/lua/lua.js",
+      "bytes": 2944,
+      "sha256": "cdd92dbee61fb7d7d5a4f5bf0f9ccb2c7c1c769dba0bec1adb833809b9549262"
+    },
+    {
+      "path": "vs/basic-languages/m3/m3.js",
+      "bytes": 3636,
+      "sha256": "263a11491f4aa1c901d96a6eaf8f467c3dc6023cb0545bc722a7bcedf3015c78"
+    },
+    {
+      "path": "vs/basic-languages/markdown/markdown.js",
+      "bytes": 4619,
+      "sha256": "e968e0f4b2e370865d03253ada4f4ad4bae597fe4e6fa302051b720bc9ee2e1f"
+    },
+    {
+      "path": "vs/basic-languages/mips/mips.js",
+      "bytes": 3402,
+      "sha256": "804b2686f14a2d09b0fdc696c6fa0dc113b419f3313d8e5a461c97b4804b7c7a"
+    },
+    {
+      "path": "vs/basic-languages/msdax/msdax.js",
+      "bytes": 5737,
+      "sha256": "beb5b658e7984a5477fc33561d526e06c786e4730ae565cf28cb98aae3a697cd"
+    },
+    {
+      "path": "vs/basic-languages/mysql/mysql.js",
+      "bytes": 12082,
+      "sha256": "ba9ab0e803dec7ce3fc7b913e5b2e9b6a26099d9be7adbfeb78f4b78e88dc48f"
+    },
+    {
+      "path": "vs/basic-languages/objective-c/objective-c.js",
+      "bytes": 3239,
+      "sha256": "107f50692e337de23d8f05f36c08c5e82ef602670ee17191351ad679f3766703"
+    },
+    {
+      "path": "vs/basic-languages/pascal/pascal.js",
+      "bytes": 3822,
+      "sha256": "c2881514df77c410a6643c7ec81630c743f492fbf760ab986e2196e47de51a85"
+    },
+    {
+      "path": "vs/basic-languages/pascaligo/pascaligo.js",
+      "bytes": 2833,
+      "sha256": "99c5f89a026d2a00644d00568cac5a2db1c1d1df4dc5dc0f5af8ab66b0184964"
+    },
+    {
+      "path": "vs/basic-languages/perl/perl.js",
+      "bytes": 9078,
+      "sha256": "8140afcf632c569add8ee7ffc0e133e7ab6505a0ee66b0b2f761a6812533f6bb"
+    },
+    {
+      "path": "vs/basic-languages/pgsql/pgsql.js",
+      "bytes": 14229,
+      "sha256": "36997994a7164cf81fdb44360031e217bb9236dda4e29b1d8965547d007e707a"
+    },
+    {
+      "path": "vs/basic-languages/php/php.js",
+      "bytes": 8848,
+      "sha256": "5ca4e032f5743436120f62865bdb82e8c669b0d125f30f11ec088bc079c43864"
+    },
+    {
+      "path": "vs/basic-languages/pla/pla.js",
+      "bytes": 2504,
+      "sha256": "e716cfe4566d99476ad4f79e0ada07420d4e16679710af44acb4a65c1284ff50"
+    },
+    {
+      "path": "vs/basic-languages/postiats/postiats.js",
+      "bytes": 8687,
+      "sha256": "e5ecc463a4a665e8a0c1ce6159a034cff6687d84dd0e2029818261658d5bf7fd"
+    },
+    {
+      "path": "vs/basic-languages/powerquery/powerquery.js",
+      "bytes": 17774,
+      "sha256": "171d97f22287f65742a4e1d0ea9ac275800803e82ba4f276d9a628370b0196d5"
+    },
+    {
+      "path": "vs/basic-languages/powershell/powershell.js",
+      "bytes": 4104,
+      "sha256": "76ec5fc8e3100d7b3eca8de024e1b45b72a000ce93011d4ba0205f862d12fe44"
+    },
+    {
+      "path": "vs/basic-languages/protobuf/protobuf.js",
+      "bytes": 9877,
+      "sha256": "7aa21b6889dd16b940199962e7f6db8bd7cb1a8b5da76e8f25dd09bf45792cad"
+    },
+    {
+      "path": "vs/basic-languages/pug/pug.js",
+      "bytes": 5649,
+      "sha256": "0e7331e9ada1c11db7632f3dabbdb0a5d13dee73d781db42b8a71bc4c699e98c"
+    },
+    {
+      "path": "vs/basic-languages/python/python.js",
+      "bytes": 4702,
+      "sha256": "b6061235bd076e6634982a796020d21916ae40adc8b3aea2190411cdc15001de"
+    },
+    {
+      "path": "vs/basic-languages/qsharp/qsharp.js",
+      "bytes": 3762,
+      "sha256": "9bbfd33419649203b49ecd7d5bc4162e1b6ee28f56d4e42279230574fc2abf30"
+    },
+    {
+      "path": "vs/basic-languages/r/r.js",
+      "bytes": 3948,
+      "sha256": "96f3557506433f43f202703599c01437db9f8ace9c5939d9a3747caeb45f7362"
+    },
+    {
+      "path": "vs/basic-languages/razor/razor.js",
+      "bytes": 9861,
+      "sha256": "9973b174a30f77de3a6258b256330a8487c5b5344b8b31360c2e6c7c2dbbec64"
+    },
+    {
+      "path": "vs/basic-languages/redis/redis.js",
+      "bytes": 4381,
+      "sha256": "7eca2fb000e05e921634cc9f629455ea5a9cb4ba1203410c3aeda3e6719b4ab4"
+    },
+    {
+      "path": "vs/basic-languages/redshift/redshift.js",
+      "bytes": 12631,
+      "sha256": "88208cd6f7054105192463f8d287ddcc5572a5de548a11c128647de9ce278fa1"
+    },
+    {
+      "path": "vs/basic-languages/restructuredtext/restructuredtext.js",
+      "bytes": 4740,
+      "sha256": "7b32139bbce5c2c0b3f7edb28cd2b0818aa4f84d6fb0b9022e9a90fe6e006099"
+    },
+    {
+      "path": "vs/basic-languages/ruby/ruby.js",
+      "bytes": 9327,
+      "sha256": "59504dc65948cb8d7cb54881f4822f2953c15e0023523a22f210c2b4336333eb"
+    },
+    {
+      "path": "vs/basic-languages/rust/rust.js",
+      "bytes": 4983,
+      "sha256": "2756b497d0068ec847a76d2f8dee63168522b3fa57d4e53398c08ced572b827c"
+    },
+    {
+      "path": "vs/basic-languages/sb/sb.js",
+      "bytes": 2648,
+      "sha256": "9bf33ddce8dca0f87ddf03bbae1eb925c43efbaece918be19ab062c4eb60d6ae"
+    },
+    {
+      "path": "vs/basic-languages/scala/scala.js",
+      "bytes": 8143,
+      "sha256": "07f431becf5ec1b08c9701a22b22b1251995ccd6db18381b98723d6704e89fb9"
+    },
+    {
+      "path": "vs/basic-languages/scheme/scheme.js",
+      "bytes": 2594,
+      "sha256": "ee2d18aa2fc01404d87d37050790d96dbf328780ac94e058ecfeb1cf98af6939"
+    },
+    {
+      "path": "vs/basic-languages/scss/scss.js",
+      "bytes": 7232,
+      "sha256": "21c57b4169052bbee5c5ea04d3559b44390e19b3a3b40fb6ec5c44abcfa3f037"
+    },
+    {
+      "path": "vs/basic-languages/shell/shell.js",
+      "bytes": 3898,
+      "sha256": "de0f01d8cc2c3fb06e44cbb46fb728bfec0d29afa1dc9094f73306debe44d3ff"
+    },
+    {
+      "path": "vs/basic-languages/solidity/solidity.js",
+      "bytes": 19428,
+      "sha256": "33eb5c46ca7742233327e8d2a8524c75b1f9bde3f584b8ca039a505f57bb84b4"
+    },
+    {
+      "path": "vs/basic-languages/sophia/sophia.js",
+      "bytes": 3591,
+      "sha256": "11ceb8a5dfd5e3f5531a951388bee51be7d5e67609102df61573480a611aa9ef"
+    },
+    {
+      "path": "vs/basic-languages/sparql/sparql.js",
+      "bytes": 3379,
+      "sha256": "7db1d0245f32b7763fdcddf6f9e862fe92a9a43db8e677ddd3bbb7c1faa3a131"
+    },
+    {
+      "path": "vs/basic-languages/sql/sql.js",
+      "bytes": 11118,
+      "sha256": "9531f575a02ac0236514fcb07bba77abd6bb188e928c0109cd5bd6b83e900241"
+    },
+    {
+      "path": "vs/basic-languages/st/st.js",
+      "bytes": 8209,
+      "sha256": "c84996701ec4295d42e82a8bbf67707629350404ab6e49e7fb40b7b06f7a2439"
+    },
+    {
+      "path": "vs/basic-languages/swift/swift.js",
+      "bytes": 5997,
+      "sha256": "09832c2d8299ea8cac4e00560ae0365714db4fa205a839dd131342b86c892f60"
+    },
+    {
+      "path": "vs/basic-languages/systemverilog/systemverilog.js",
+      "bytes": 8444,
+      "sha256": "c3b2a2c371ceb731a3c635cd752767e4e38e946b6a19316520ae27fe07dc4873"
+    },
+    {
+      "path": "vs/basic-languages/tcl/tcl.js",
+      "bytes": 4392,
+      "sha256": "822495fb746f97ecb4983b55c5af87b3d356ec1610d7f5f62823c26a24e4f81c"
+    },
+    {
+      "path": "vs/basic-languages/twig/twig.js",
+      "bytes": 6795,
+      "sha256": "5b6bb636c4034d11b981b4db1e98c88196231410b2b90b4e944d6455adf82807"
+    },
+    {
+      "path": "vs/basic-languages/typescript/typescript.js",
+      "bytes": 6486,
+      "sha256": "5ef91d432abb56fea26d57a56dec1787210f41881e3bd3f792188fc3335f08cb"
+    },
+    {
+      "path": "vs/basic-languages/vb/vb.js",
+      "bytes": 6610,
+      "sha256": "68ca02d8fb67a0f49a7acdf6e1d2e2e8b9728ef16d6b44bad8cc96493e720ace"
+    },
+    {
+      "path": "vs/basic-languages/xml/xml.js",
+      "bytes": 3492,
+      "sha256": "3b2e335ef41b36e831484e48b11e477e876969d8607e71356b7e64de1ca07a1c"
+    },
+    {
+      "path": "vs/basic-languages/yaml/yaml.js",
+      "bytes": 5081,
+      "sha256": "ad4e8be70ac4be90c854b7d172094ee130c461ba6f7c59c62e3577b33c9f51a7"
+    },
+    {
+      "path": "vs/editor/editor.main.css",
+      "bytes": 81736,
+      "sha256": "c4f2ed321a0a84518c9193b98ed15bd95b6827c809416b848fd85b45be3d15de"
+    },
+    {
+      "path": "vs/editor/editor.main.js",
+      "bytes": 3051550,
+      "sha256": "4d54c8adae6f8fba4d68d25fe0cc0c307afe30e7bb69ed37ede53a8653556085"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.de.js",
+      "bytes": 100188,
+      "sha256": "e294f362fa299637787b3608694c86af6e3c6bed86a93bbda2760e6566e72537"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.es.js",
+      "bytes": 101034,
+      "sha256": "d1abe270139cd97ec69c1d72d6f5c5c5d5b1feaecda7f1dcc08d78d1c5447cb8"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.fr.js",
+      "bytes": 110371,
+      "sha256": "ac60af5693154ac58c9cb74552d951b9a5ca4cf9adb7407f27487beea658d38b"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.it.js",
+      "bytes": 102956,
+      "sha256": "f6e3da056655dc2b92632588ad87e6ec84001ca629ed367d3cfadff2052a1ca5"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.ja.js",
+      "bytes": 206818,
+      "sha256": "76742e1b4e98e97b18ba9cd0a40e4fb8ffcdc0b704bb63be53512b524c78c58d"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.js",
+      "bytes": 80639,
+      "sha256": "4019ee078898d44e0640ae69e987e67cabfaf2e018b431d31572999f79afc70c"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.ko.js",
+      "bytes": 171690,
+      "sha256": "b009161d9f136068a4a2e06a4921d51f6a460cc83f1a0934dbb4fc4d10ddaae4"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.ru.js",
+      "bytes": 426376,
+      "sha256": "cb5fde71e253d7425fd1a47dc11c9e7163421460d48f07e880761993a051b89e"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.zh-cn.js",
+      "bytes": 130783,
+      "sha256": "74ca4a500fdad95e10ad3ba8b0a4331fb7ce294a841a40cb3c5bd37511e204bf"
+    },
+    {
+      "path": "vs/editor/editor.main.nls.zh-tw.js",
+      "bytes": 133531,
+      "sha256": "c89f1b404a2b78dff36db1bad5fe7d36da3be302ece258564747369c37766aab"
+    },
+    {
+      "path": "vs/language/css/cssMode.js",
+      "bytes": 34263,
+      "sha256": "9697a8544077ea1973bed352bb8b46a66e014b26e879a15cab47679ae253e4f7"
+    },
+    {
+      "path": "vs/language/css/cssWorker.js",
+      "bytes": 776551,
+      "sha256": "84fc07479250dd9518c16e3fec080031249b4cb50a8ab628bd62a33b1d319c9e"
+    },
+    {
+      "path": "vs/language/html/htmlMode.js",
+      "bytes": 34799,
+      "sha256": "d71f0f1b22802c0e8db4f9a96abe0945695814dfb20b68e1626cafe8ce978713"
+    },
+    {
+      "path": "vs/language/html/htmlWorker.js",
+      "bytes": 445890,
+      "sha256": "835e6357bda682dc19ef3ea3c54456e902ea37b2a83511bd2c0f969b13d58934"
+    },
+    {
+      "path": "vs/language/json/jsonMode.js",
+      "bytes": 40253,
+      "sha256": "aed41795cf27c4e5273db9a888e48c69af04f1350fae6f0f63d4fc00003b455e"
+    },
+    {
+      "path": "vs/language/json/jsonWorker.js",
+      "bytes": 128871,
+      "sha256": "e6ea8e67fcb63df96ce35b6bbf04232bf1c22979642474ea4453f1c7b16671c7"
+    },
+    {
+      "path": "vs/language/typescript/tsMode.js",
+      "bytes": 22695,
+      "sha256": "2bb6fb97a2fe8776927b6ebde720ad76889d73382a62fdfac9cc59116051840c"
+    },
+    {
+      "path": "vs/language/typescript/tsWorker.js",
+      "bytes": 4720883,
+      "sha256": "10d1fdc737f59ede564281413192372a60d542f2cdd0f8c511f7ba67257f9a81"
+    },
+    {
+      "path": "vs/loader.js",
+      "bytes": 33639,
+      "sha256": "ef4217f3cea0b05ee535abebe7d6671232cd91fcd01502c3484b1573ebb09732"
+    }
+  ]
+}

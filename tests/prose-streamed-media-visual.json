@@ -1,0 +1,81 @@
+{
+  "at": "2026-11-02T10:39:48.328Z",
+  "evidence": "Every unique prose block rendered by the published original component and local component, same data and viewport. All blocks receive height/text/image checks; screenshots are retained for discrepancies and initial representatives. PIXEL_ALL compares every rendered block at RGB channel tolerance 10. Animated GIFs are decoded to the same first frame only in screenshot fixtures, with asset hashes retained. Native video control buffering is browser-timed. Does not prove backend equivalence.",
+  "groups": [
+    {
+      "mode": "article",
+      "type": "MarkdownEditor",
+      "instances": 2043,
+      "unique": 0,
+      "checks": [],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:39:50.405Z"
+    },
+    {
+      "mode": "solo",
+      "type": "MarkdownEditor",
+      "instances": 4115,
+      "unique": 2,
+      "checks": [
+        {
+          "file": "public/content/pages/024-1325.json",
+          "path": "components/0/resolved/2",
+          "hash": "f748c6223f90",
+          "height": [
+            528.953125,
+            528.953125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 337502,
+            "changedOver10": 369
+          },
+          "screenshot": "solo-MarkdownEditor-0"
+        },
+        {
+          "file": "public/content/pages/024-1337.json",
+          "path": "components/0/resolved/2",
+          "hash": "b08317dac092",
+          "height": [
+            472.75,
+            472.75
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 301774,
+            "changedOver10": 0
+          }
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:39:51.953Z"
+    },
+    {
+      "mode": "solo",
+      "type": "Note",
+      "instances": 945,
+      "unique": 0,
+      "checks": [],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:39:51.392Z"
+    }
+  ],
+  "errors": [],
+  "sourceDirectory": "/private/var/folders/pz/9yfbvrfd445d507qpn2wnds80000gn/T/brclio-visual-snapshot-4WOIa2/src",
+  "sourceHashBefore": "1ae2534a036f73310c3fd7becdd2a3a241925f18aa1e537694afe8557d9f994c",
+  "finishedAt": "2026-11-02T10:39:51.983Z",
+  "sourceHashAfter": "1ae2534a036f73310c3fd7becdd2a3a241925f18aa1e537694afe8557d9f994c",
+  "sourceChangedDuringRun": false
+}

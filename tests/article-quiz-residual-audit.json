@@ -1,0 +1,9480 @@
+{
+  "at": "2026-11-02T10:49:42.924Z",
+  "scope": "Classify every non-font residual >16 RGB channel difference against actual local answer-icon and navigation-button rectangles; pixels are not masked or removed from the underlying comparison.",
+  "checks": [
+    {
+      "file": "002-13.json",
+      "componentId": "6b006e1af78611ebabf63af9d3c2d1d5",
+      "questionId": 8,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1032
+      ],
+      "localSize": [
+        960,
+        1032
+      ],
+      "sameSize": true,
+      "changedPixels": 1837,
+      "over16Pixels": 6,
+      "pixelCount": 990720,
+      "maxChannelDelta": 29,
+      "meanChannelDelta": 0.0036818340869939708,
+      "over16Percent": 0.0006056201550387597,
+      "points": [
+        [
+          81,
+          576
+        ],
+        [
+          84,
+          576
+        ],
+        [
+          76,
+          580
+        ],
+        [
+          89,
+          580
+        ],
+        [
+          90,
+          581
+        ],
+        [
+          72,
+          582
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 386,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 576,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 766,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 936,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 936,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1288
+      ],
+      "localSize": [
+        358,
+        1288
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 7,
+      "pixelCount": 461104,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.007902049573776559,
+      "over16Percent": 0.0015180957007529755,
+      "points": [
+        [
+          72,
+          478
+        ],
+        [
+          93,
+          478
+        ],
+        [
+          90,
+          479
+        ],
+        [
+          73,
+          480
+        ],
+        [
+          92,
+          480
+        ],
+        [
+          74,
+          481
+        ],
+        [
+          91,
+          481
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 461,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 904,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1040,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1156,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1156,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "001-8.json",
+      "componentId": "f9931d5ef29411ebb1043af9d3c2d1d5",
+      "questionId": 2,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1045
+      ],
+      "localSize": [
+        960,
+        1045
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 1003200,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.004220494417862839,
+      "over16Percent": 0.00039872408293460925,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 390.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 651.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 848.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 848.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "001-8.json",
+      "componentId": "f9931d5ef29411ebb1043af9d3c2d1d5",
+      "questionId": 4,
+      "index": 3,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1714
+      ],
+      "localSize": [
+        358,
+        1714
+      ],
+      "sameSize": true,
+      "changedPixels": 1886,
+      "over16Pixels": 8,
+      "pixelCount": 613612,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.006083648950802788,
+      "over16Percent": 0.0013037554676244923,
+      "points": [
+        [
+          79,
+          841
+        ],
+        [
+          86,
+          841
+        ],
+        [
+          74,
+          842
+        ],
+        [
+          77,
+          842
+        ],
+        [
+          73,
+          843
+        ],
+        [
+          76,
+          843
+        ],
+        [
+          89,
+          843
+        ],
+        [
+          74,
+          845
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 329.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 499.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 669.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 839.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1130.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1130.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "001-8.json",
+      "componentId": "f9931d5ef29411ebb1043af9d3c2d1d5",
+      "questionId": 6,
+      "index": 5,
+      "width": 1280,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1370
+      ],
+      "localSize": [
+        960,
+        1370
+      ],
+      "sameSize": true,
+      "changedPixels": 71,
+      "over16Pixels": 2,
+      "pixelCount": 1315200,
+      "maxChannelDelta": 22,
+      "meanChannelDelta": 0.00017259732360097325,
+      "over16Percent": 0.00015206812652068127,
+      "points": [
+        [
+          67,
+          985
+        ],
+        [
+          232,
+          985
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 46,
+          "y": 969.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 969.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1002
+      ],
+      "localSize": [
+        960,
+        1002
+      ],
+      "sameSize": true,
+      "changedPixels": 1838,
+      "over16Pixels": 7,
+      "pixelCount": 961920,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.00378236582390774,
+      "over16Percent": 0.0007277112441783101,
+      "points": [
+        [
+          72,
+          478
+        ],
+        [
+          93,
+          478
+        ],
+        [
+          90,
+          479
+        ],
+        [
+          73,
+          480
+        ],
+        [
+          92,
+          480
+        ],
+        [
+          74,
+          481
+        ],
+        [
+          91,
+          481
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 461,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 674,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 810,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 926,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 926,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 20,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1002
+      ],
+      "localSize": [
+        960,
+        1002
+      ],
+      "sameSize": true,
+      "changedPixels": 1834,
+      "over16Pixels": 8,
+      "pixelCount": 961920,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0038073159237081394,
+      "over16Percent": 0.00083166999334664,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 648,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "001-8.json",
+      "componentId": "f9931d5ef29411ebb1043af9d3c2d1d5",
+      "questionId": 5,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1370
+      ],
+      "localSize": [
+        960,
+        1370
+      ],
+      "sameSize": true,
+      "changedPixels": 1914,
+      "over16Pixels": 4,
+      "pixelCount": 1315200,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.00229977696674777,
+      "over16Percent": 0.00030413625304136254,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 470.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 731.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 928.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 928.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-27.json",
+      "componentId": "59e9da82f8b511eb97973af9d3c2d1d5",
+      "questionId": 13,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1213
+      ],
+      "localSize": [
+        358,
+        1213
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 1,
+      "pixelCount": 434254,
+      "maxChannelDelta": 17,
+      "meanChannelDelta": 0.00958194973448719,
+      "over16Percent": 0.00023027997439286686,
+      "points": [
+        [
+          76,
+          725
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 341,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 531,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 721,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 911,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1081,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1081,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-27.json",
+      "componentId": "59e9da82f8b511eb97973af9d3c2d1d5",
+      "questionId": 12,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        961
+      ],
+      "localSize": [
+        960,
+        961
+      ],
+      "sameSize": true,
+      "changedPixels": 1864,
+      "over16Pixels": 15,
+      "pixelCount": 922560,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.0041030755000578106,
+      "over16Percent": 0.0016259105098855359,
+      "points": [
+        [
+          78,
+          724
+        ],
+        [
+          79,
+          724
+        ],
+        [
+          86,
+          724
+        ],
+        [
+          87,
+          724
+        ],
+        [
+          77,
+          725
+        ],
+        [
+          88,
+          725
+        ],
+        [
+          81,
+          726
+        ],
+        [
+          84,
+          726
+        ],
+        [
+          91,
+          727
+        ],
+        [
+          76,
+          728
+        ],
+        [
+          89,
+          728
+        ],
+        [
+          75,
+          729
+        ],
+        [
+          90,
+          729
+        ],
+        [
+          74,
+          730
+        ],
+        [
+          94,
+          732
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 316,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 452,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 588,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 724,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 840,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 840,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-27.json",
+      "componentId": "59e9da82f8b511eb97973af9d3c2d1d5",
+      "questionId": 12,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1017
+      ],
+      "localSize": [
+        358,
+        1017
+      ],
+      "sameSize": true,
+      "changedPixels": 1883,
+      "over16Pixels": 15,
+      "pixelCount": 364086,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.010448996482516036,
+      "over16Percent": 0.004119905736556748,
+      "points": [
+        [
+          78,
+          724
+        ],
+        [
+          79,
+          724
+        ],
+        [
+          86,
+          724
+        ],
+        [
+          87,
+          724
+        ],
+        [
+          77,
+          725
+        ],
+        [
+          88,
+          725
+        ],
+        [
+          81,
+          726
+        ],
+        [
+          84,
+          726
+        ],
+        [
+          91,
+          727
+        ],
+        [
+          76,
+          728
+        ],
+        [
+          89,
+          728
+        ],
+        [
+          75,
+          729
+        ],
+        [
+          90,
+          729
+        ],
+        [
+          74,
+          730
+        ],
+        [
+          94,
+          732
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 316,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 452,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 588,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 724,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 840,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 840,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "001-8.json",
+      "componentId": "f9931d5ef29411ebb1043af9d3c2d1d5",
+      "questionId": 7,
+      "index": 6,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1447
+      ],
+      "localSize": [
+        960,
+        1447
+      ],
+      "sameSize": true,
+      "changedPixels": 82,
+      "over16Pixels": 7,
+      "pixelCount": 1389120,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.0002651558780618905,
+      "over16Percent": 0.000503916148352914,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 346.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 483.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 620.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 737.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 737.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-44.json",
+      "componentId": "5881fdaef9ab11eba4b33af9d3c2d1d5",
+      "questionId": 22,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1109
+      ],
+      "localSize": [
+        960,
+        1109
+      ],
+      "sameSize": true,
+      "changedPixels": 1839,
+      "over16Pixels": 15,
+      "pixelCount": 1064640,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.003512611461777377,
+      "over16Percent": 0.00140892696122633,
+      "points": [
+        [
+          78,
+          470
+        ],
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          87,
+          470
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          88,
+          471
+        ],
+        [
+          81,
+          472
+        ],
+        [
+          84,
+          472
+        ],
+        [
+          91,
+          473
+        ],
+        [
+          76,
+          474
+        ],
+        [
+          89,
+          474
+        ],
+        [
+          75,
+          475
+        ],
+        [
+          90,
+          475
+        ],
+        [
+          74,
+          476
+        ],
+        [
+          94,
+          478
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 333,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 470,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 587,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 587,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-101.json",
+      "componentId": "bfa6c7b2f75311eb905d3af9d3c2d1d5",
+      "questionId": 54,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        972
+      ],
+      "localSize": [
+        960,
+        972
+      ],
+      "sameSize": true,
+      "changedPixels": 1835,
+      "over16Pixels": 6,
+      "pixelCount": 933120,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.002295524691358025,
+      "over16Percent": 0.0006430041152263374,
+      "points": [
+        [
+          80,
+          727
+        ],
+        [
+          85,
+          727
+        ],
+        [
+          77,
+          728
+        ],
+        [
+          87,
+          728
+        ],
+        [
+          91,
+          728
+        ],
+        [
+          73,
+          733
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 364,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 544,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 725,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 886,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 886,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-27.json",
+      "componentId": "59e9da82f8b511eb97973af9d3c2d1d5",
+      "questionId": 15,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1157
+      ],
+      "localSize": [
+        960,
+        1157
+      ],
+      "sameSize": true,
+      "changedPixels": 1849,
+      "over16Pixels": 15,
+      "pixelCount": 1110720,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.003375288101411697,
+      "over16Percent": 0.0013504753673292999,
+      "points": [
+        [
+          78,
+          470
+        ],
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          87,
+          470
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          88,
+          471
+        ],
+        [
+          81,
+          472
+        ],
+        [
+          84,
+          472
+        ],
+        [
+          91,
+          473
+        ],
+        [
+          76,
+          474
+        ],
+        [
+          89,
+          474
+        ],
+        [
+          75,
+          475
+        ],
+        [
+          90,
+          475
+        ],
+        [
+          74,
+          476
+        ],
+        [
+          94,
+          478
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 333,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 470,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 607,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 723,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 723,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-27.json",
+      "componentId": "59e9da82f8b511eb97973af9d3c2d1d5",
+      "questionId": 13,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1157
+      ],
+      "localSize": [
+        960,
+        1157
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 1,
+      "pixelCount": 1110720,
+      "maxChannelDelta": 17,
+      "meanChannelDelta": 0.003218632958801498,
+      "over16Percent": 0.00009003169115528665,
+      "points": [
+        [
+          76,
+          725
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 341,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 531,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 721,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 911,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 1081,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 1081,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-70.json",
+      "componentId": "41c3965efac311ebab093af9d3c2d1d5",
+      "questionId": 35,
+      "index": 4,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1325
+      ],
+      "localSize": [
+        358,
+        1325
+      ],
+      "sameSize": true,
+      "changedPixels": 1863,
+      "over16Pixels": 1,
+      "pixelCount": 474350,
+      "maxChannelDelta": 17,
+      "meanChannelDelta": 0.008807842310530199,
+      "over16Percent": 0.00021081479919890376,
+      "points": [
+        [
+          76,
+          321
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 317,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 507,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 697,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 887,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1077,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1193,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1193,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-91.json",
+      "componentId": "93f64280f36d11eb8020acde48001122",
+      "questionId": 45,
+      "index": 6,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1732
+      ],
+      "localSize": [
+        358,
+        1732
+      ],
+      "sameSize": true,
+      "changedPixels": 1795,
+      "over16Pixels": 2,
+      "pixelCount": 620056,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.006366091664838875,
+      "over16Percent": 0.00032255151147638275,
+      "points": [
+        [
+          79,
+          835
+        ],
+        [
+          86,
+          835
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 228,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 536,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 812,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1280,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1600,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1600,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "002-70.json",
+      "componentId": "41c3965efac311ebab093af9d3c2d1d5",
+      "questionId": 35,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1269
+      ],
+      "localSize": [
+        960,
+        1269
+      ],
+      "sameSize": true,
+      "changedPixels": 1838,
+      "over16Pixels": 1,
+      "pixelCount": 1218240,
+      "maxChannelDelta": 17,
+      "meanChannelDelta": 0.002932919621749409,
+      "over16Percent": 0.00008208563173102181,
+      "points": [
+        [
+          76,
+          321
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 317,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 507,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 697,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 887,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1077,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 1193,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 1193,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-114.json",
+      "componentId": "6b8d26b0f53911ebbfc73af9d3c2d1d5",
+      "questionId": 62,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1320
+      ],
+      "localSize": [
+        358,
+        1320
+      ],
+      "sameSize": true,
+      "changedPixels": 69,
+      "over16Pixels": 12,
+      "pixelCount": 472560,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.000760397268777157,
+      "over16Percent": 0.0025393600812595226,
+      "points": [
+        [
+          71,
+          576
+        ],
+        [
+          94,
+          576
+        ],
+        [
+          73,
+          579
+        ],
+        [
+          92,
+          579
+        ],
+        [
+          74,
+          580
+        ],
+        [
+          91,
+          580
+        ],
+        [
+          77,
+          582
+        ],
+        [
+          88,
+          582
+        ],
+        [
+          78,
+          583
+        ],
+        [
+          79,
+          583
+        ],
+        [
+          86,
+          583
+        ],
+        [
+          87,
+          583
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 252,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 560,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 868,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1188,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1188,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-147.json",
+      "componentId": "68dd437813ac11eca52a3af9d3c2d1d5",
+      "questionId": 76,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        912
+      ],
+      "localSize": [
+        960,
+        912
+      ],
+      "sameSize": true,
+      "changedPixels": 1854,
+      "over16Pixels": 8,
+      "pixelCount": 875520,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.004868344907407407,
+      "over16Percent": 0.0009137426900584795,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-147.json",
+      "componentId": "68dd437813ac11eca52a3af9d3c2d1d5",
+      "questionId": 76,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        976
+      ],
+      "localSize": [
+        358,
+        976
+      ],
+      "sameSize": true,
+      "changedPixels": 1884,
+      "over16Pixels": 10,
+      "pixelCount": 349408,
+      "maxChannelDelta": 32,
+      "meanChannelDelta": 0.008055530115700461,
+      "over16Percent": 0.0028619836981408553,
+      "points": [
+        [
+          75,
+          582
+        ],
+        [
+          90,
+          582
+        ],
+        [
+          76,
+          583
+        ],
+        [
+          89,
+          583
+        ],
+        [
+          77,
+          586
+        ],
+        [
+          88,
+          586
+        ],
+        [
+          78,
+          587
+        ],
+        [
+          79,
+          587
+        ],
+        [
+          86,
+          587
+        ],
+        [
+          87,
+          587
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 292,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 428,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 564,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 700,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 816,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 816,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-109.json",
+      "componentId": "ae1e7ebaf52111eb97933af9d3c2d1d5",
+      "questionId": 56,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1749
+      ],
+      "localSize": [
+        358,
+        1749
+      ],
+      "sameSize": true,
+      "changedPixels": 1903,
+      "over16Pixels": 1,
+      "pixelCount": 626142,
+      "maxChannelDelta": 17,
+      "meanChannelDelta": 0.0058911024442804775,
+      "over16Percent": 0.00015970818121129073,
+      "points": [
+        [
+          78,
+          983
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 573,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 983,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1227,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1617,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1617,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-109.json",
+      "componentId": "ae1e7ebaf52111eb97933af9d3c2d1d5",
+      "questionId": 59,
+      "index": 3,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1784
+      ],
+      "localSize": [
+        358,
+        1784
+      ],
+      "sameSize": true,
+      "changedPixels": 67,
+      "over16Pixels": 1,
+      "pixelCount": 638672,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.0002849663050830473,
+      "over16Percent": 0.00015657489290277327,
+      "points": [
+        [
+          261,
+          834
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 75.1875,
+          "y": 809,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 809,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-88.json",
+      "componentId": "fac70902f35b11ebb322acde48001122",
+      "questionId": 38,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1100
+      ],
+      "localSize": [
+        960,
+        1100
+      ],
+      "sameSize": true,
+      "changedPixels": 1821,
+      "over16Pixels": 1,
+      "pixelCount": 1056000,
+      "maxChannelDelta": 18,
+      "meanChannelDelta": 0.0038910984848484847,
+      "over16Percent": 0.0000946969696969697,
+      "points": [
+        [
+          74,
+          835
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 408,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 620,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 832,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-122.json",
+      "componentId": "2cdd6bd4150311ec80283af9d3c2d1d5",
+      "questionId": 67,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1056
+      ],
+      "localSize": [
+        960,
+        1056
+      ],
+      "sameSize": true,
+      "changedPixels": 1845,
+      "over16Pixels": 8,
+      "pixelCount": 1013760,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.003623474326599327,
+      "over16Percent": 0.0007891414141414141,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-171.json",
+      "componentId": "25cdf5080e4a11ec8eb93af9d3c2d1d5",
+      "questionId": 87,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        912
+      ],
+      "localSize": [
+        960,
+        912
+      ],
+      "sameSize": true,
+      "changedPixels": 1842,
+      "over16Pixels": 8,
+      "pixelCount": 875520,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0041921753167641325,
+      "over16Percent": 0.0009137426900584795,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-109.json",
+      "componentId": "ae1e7ebaf52111eb97933af9d3c2d1d5",
+      "questionId": 58,
+      "index": 2,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1784
+      ],
+      "localSize": [
+        358,
+        1784
+      ],
+      "sameSize": true,
+      "changedPixels": 85,
+      "over16Pixels": 1,
+      "pixelCount": 638672,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.00030584295747008376,
+      "over16Percent": 0.00015657489290277327,
+      "points": [
+        [
+          261,
+          834
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 75.1875,
+          "y": 809,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 809,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-96.json",
+      "componentId": "0da7132ef37911ebb2ecacde48001122",
+      "questionId": 48,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1494
+      ],
+      "localSize": [
+        358,
+        1494
+      ],
+      "sameSize": true,
+      "changedPixels": 1929,
+      "over16Pixels": 15,
+      "pixelCount": 534852,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.0076588165199594155,
+      "over16Percent": 0.002804514145969352,
+      "points": [
+        [
+          78,
+          828
+        ],
+        [
+          79,
+          828
+        ],
+        [
+          86,
+          828
+        ],
+        [
+          87,
+          828
+        ],
+        [
+          77,
+          829
+        ],
+        [
+          88,
+          829
+        ],
+        [
+          81,
+          830
+        ],
+        [
+          84,
+          830
+        ],
+        [
+          91,
+          831
+        ],
+        [
+          76,
+          832
+        ],
+        [
+          89,
+          832
+        ],
+        [
+          75,
+          833
+        ],
+        [
+          90,
+          833
+        ],
+        [
+          74,
+          834
+        ],
+        [
+          94,
+          836
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 340,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 552,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 828,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1072,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1362,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1362,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-96.json",
+      "componentId": "0da7132ef37911ebb2ecacde48001122",
+      "questionId": 50,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1455
+      ],
+      "localSize": [
+        960,
+        1455
+      ],
+      "sameSize": true,
+      "changedPixels": 1821,
+      "over16Pixels": 12,
+      "pixelCount": 1396800,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.0025976040473463156,
+      "over16Percent": 0.000859106529209622,
+      "points": [
+        [
+          71,
+          1234
+        ],
+        [
+          94,
+          1234
+        ],
+        [
+          73,
+          1237
+        ],
+        [
+          92,
+          1237
+        ],
+        [
+          74,
+          1238
+        ],
+        [
+          91,
+          1238
+        ],
+        [
+          77,
+          1240
+        ],
+        [
+          88,
+          1240
+        ],
+        [
+          78,
+          1241
+        ],
+        [
+          79,
+          1241
+        ],
+        [
+          86,
+          1241
+        ],
+        [
+          87,
+          1241
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 676.671875,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 857.671875,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1037.671875,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1217.671875,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 1378.671875,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 1378.671875,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-96.json",
+      "componentId": "0da7132ef37911ebb2ecacde48001122",
+      "questionId": 49,
+      "index": 3,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1494
+      ],
+      "localSize": [
+        358,
+        1494
+      ],
+      "sameSize": true,
+      "changedPixels": 1858,
+      "over16Pixels": 12,
+      "pixelCount": 534852,
+      "maxChannelDelta": 43,
+      "meanChannelDelta": 0.007029358900530739,
+      "over16Percent": 0.0022436113167754817,
+      "points": [
+        [
+          74,
+          583
+        ],
+        [
+          77,
+          583
+        ],
+        [
+          78,
+          583
+        ],
+        [
+          87,
+          583
+        ],
+        [
+          79,
+          584
+        ],
+        [
+          80,
+          584
+        ],
+        [
+          81,
+          584
+        ],
+        [
+          84,
+          584
+        ],
+        [
+          85,
+          584
+        ],
+        [
+          86,
+          584
+        ],
+        [
+          79,
+          586
+        ],
+        [
+          86,
+          586
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 287.375,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 563.375,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 871.375,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1127.375,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1127.375,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "003-96.json",
+      "componentId": "0da7132ef37911ebb2ecacde48001122",
+      "questionId": 47,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1476
+      ],
+      "localSize": [
+        358,
+        1476
+      ],
+      "sameSize": true,
+      "changedPixels": 1857,
+      "over16Pixels": 2,
+      "pixelCount": 528408,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.0069214193073029425,
+      "over16Percent": 0.0003784954050657825,
+      "points": [
+        [
+          89,
+          581
+        ],
+        [
+          86,
+          585
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 348,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 562,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 904,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1162,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1162,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-140.json",
+      "componentId": "8022ff2c120e11ecb7e73af9d3c2d1d5",
+      "questionId": 72,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1310
+      ],
+      "localSize": [
+        960,
+        1310
+      ],
+      "sameSize": true,
+      "changedPixels": 1842,
+      "over16Pixels": 8,
+      "pixelCount": 1257600,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.002918522052586938,
+      "over16Percent": 0.0006361323155216285,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-140.json",
+      "componentId": "8022ff2c120e11ecb7e73af9d3c2d1d5",
+      "questionId": 72,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1398
+      ],
+      "localSize": [
+        358,
+        1398
+      ],
+      "sameSize": true,
+      "changedPixels": 130,
+      "over16Pixels": 10,
+      "pixelCount": 500484,
+      "maxChannelDelta": 32,
+      "meanChannelDelta": 0.0009584055967157125,
+      "over16Percent": 0.001998065872235676,
+      "points": [
+        [
+          75,
+          582
+        ],
+        [
+          90,
+          582
+        ],
+        [
+          76,
+          583
+        ],
+        [
+          89,
+          583
+        ],
+        [
+          77,
+          586
+        ],
+        [
+          88,
+          586
+        ],
+        [
+          78,
+          587
+        ],
+        [
+          79,
+          587
+        ],
+        [
+          86,
+          587
+        ],
+        [
+          87,
+          587
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 292,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 428,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 564,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 700,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 816,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 816,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-140.json",
+      "componentId": "8022ff2c120e11ecb7e73af9d3c2d1d5",
+      "questionId": 71,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1310
+      ],
+      "localSize": [
+        960,
+        1310
+      ],
+      "sameSize": true,
+      "changedPixels": 1980,
+      "over16Pixels": 3,
+      "pixelCount": 1257600,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.0037473494486853264,
+      "over16Percent": 0.00023854961832061068,
+      "points": [
+        [
+          89,
+          731
+        ],
+        [
+          86,
+          735
+        ],
+        [
+          78,
+          983
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 197,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 712,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 983,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 1234,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 1234,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-186.json",
+      "componentId": "2ff7c1e0160a11ec92b6acde48001122",
+      "questionId": 100,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1156
+      ],
+      "localSize": [
+        960,
+        1156
+      ],
+      "sameSize": true,
+      "changedPixels": 1912,
+      "over16Pixels": 15,
+      "pixelCount": 1109760,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.004069648692810458,
+      "over16Percent": 0.0013516435986159168,
+      "points": [
+        [
+          78,
+          828
+        ],
+        [
+          79,
+          828
+        ],
+        [
+          86,
+          828
+        ],
+        [
+          87,
+          828
+        ],
+        [
+          77,
+          829
+        ],
+        [
+          88,
+          829
+        ],
+        [
+          81,
+          830
+        ],
+        [
+          84,
+          830
+        ],
+        [
+          91,
+          831
+        ],
+        [
+          76,
+          832
+        ],
+        [
+          89,
+          832
+        ],
+        [
+          75,
+          833
+        ],
+        [
+          90,
+          833
+        ],
+        [
+          74,
+          834
+        ],
+        [
+          94,
+          836
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 556,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 692,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 828,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 964,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 1080,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 1080,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "005-214.json",
+      "componentId": "f0f92746000011ecad953af9d3c2d1d5",
+      "questionId": 105,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1136
+      ],
+      "localSize": [
+        358,
+        1136
+      ],
+      "sameSize": true,
+      "changedPixels": 1861,
+      "over16Pixels": 8,
+      "pixelCount": 406688,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.010497809950953393,
+      "over16Percent": 0.0019671099221024472,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-186.json",
+      "componentId": "2ff7c1e0160a11ec92b6acde48001122",
+      "questionId": 100,
+      "index": 4,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1212
+      ],
+      "localSize": [
+        358,
+        1212
+      ],
+      "sameSize": true,
+      "changedPixels": 1933,
+      "over16Pixels": 15,
+      "pixelCount": 433896,
+      "maxChannelDelta": 34,
+      "meanChannelDelta": 0.010457190970493697,
+      "over16Percent": 0.003457049615576083,
+      "points": [
+        [
+          78,
+          828
+        ],
+        [
+          79,
+          828
+        ],
+        [
+          86,
+          828
+        ],
+        [
+          87,
+          828
+        ],
+        [
+          77,
+          829
+        ],
+        [
+          88,
+          829
+        ],
+        [
+          81,
+          830
+        ],
+        [
+          84,
+          830
+        ],
+        [
+          91,
+          831
+        ],
+        [
+          76,
+          832
+        ],
+        [
+          89,
+          832
+        ],
+        [
+          75,
+          833
+        ],
+        [
+          90,
+          833
+        ],
+        [
+          74,
+          834
+        ],
+        [
+          94,
+          836
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 556,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 692,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 828,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 964,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1080,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1080,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "005-214.json",
+      "componentId": "f0f92746000011ecad953af9d3c2d1d5",
+      "questionId": 105,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1080
+      ],
+      "localSize": [
+        960,
+        1080
+      ],
+      "sameSize": true,
+      "changedPixels": 1848,
+      "over16Pixels": 8,
+      "pixelCount": 1036800,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0041052597736625515,
+      "over16Percent": 0.0007716049382716049,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-156.json",
+      "componentId": "392bb3dc147211ecaa903af9d3c2d1d5",
+      "questionId": 84,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1681
+      ],
+      "localSize": [
+        960,
+        1681
+      ],
+      "sameSize": true,
+      "changedPixels": 1839,
+      "over16Pixels": 6,
+      "pixelCount": 1613760,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00227253949368762,
+      "over16Percent": 0.00037180249851279,
+      "points": [
+        [
+          80,
+          473
+        ],
+        [
+          85,
+          473
+        ],
+        [
+          77,
+          474
+        ],
+        [
+          87,
+          474
+        ],
+        [
+          91,
+          474
+        ],
+        [
+          73,
+          479
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 197,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 334,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 471,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 607,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 723,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 723,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "004-175.json",
+      "componentId": "9cd57a800ef011ecbd083af9d3c2d1d5",
+      "questionId": 91,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1153
+      ],
+      "localSize": [
+        960,
+        1153
+      ],
+      "sameSize": true,
+      "changedPixels": 1848,
+      "over16Pixels": 8,
+      "pixelCount": 1106880,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.003845343066396839,
+      "over16Percent": 0.0007227522405319456,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "005-255.json",
+      "componentId": "2fd5f126057c11ecaf633af9d3c2d1d5",
+      "questionId": 126,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1152
+      ],
+      "localSize": [
+        358,
+        1152
+      ],
+      "sameSize": true,
+      "changedPixels": 1859,
+      "over16Pixels": 10,
+      "pixelCount": 412416,
+      "maxChannelDelta": 32,
+      "meanChannelDelta": 0.010397268777157045,
+      "over16Percent": 0.002424736188702669,
+      "points": [
+        [
+          75,
+          582
+        ],
+        [
+          90,
+          582
+        ],
+        [
+          76,
+          583
+        ],
+        [
+          89,
+          583
+        ],
+        [
+          77,
+          586
+        ],
+        [
+          88,
+          586
+        ],
+        [
+          78,
+          587
+        ],
+        [
+          79,
+          587
+        ],
+        [
+          86,
+          587
+        ],
+        [
+          87,
+          587
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 292,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 428,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 564,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 904,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1020,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1020,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "005-255.json",
+      "componentId": "2fd5f126057c11ecaf633af9d3c2d1d5",
+      "questionId": 126,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        840
+      ],
+      "localSize": [
+        960,
+        840
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 8,
+      "pixelCount": 806400,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.005268270502645503,
+      "over16Percent": 0.000992063492063492,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 648,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "006-262.json",
+      "componentId": "081a6640439711ecbe523af9d3c2d1d5",
+      "questionId": 140,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00556733319374651,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "008-368.json",
+      "componentId": "4-UnNPOqxuUZO877Ub-5U",
+      "questionId": 172,
+      "index": 4,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1216
+      ],
+      "localSize": [
+        358,
+        1216
+      ],
+      "sameSize": true,
+      "changedPixels": 1871,
+      "over16Pixels": 10,
+      "pixelCount": 435328,
+      "maxChannelDelta": 32,
+      "meanChannelDelta": 0.00987760952660982,
+      "over16Percent": 0.0022971184945604233,
+      "points": [
+        [
+          75,
+          582
+        ],
+        [
+          90,
+          582
+        ],
+        [
+          76,
+          583
+        ],
+        [
+          89,
+          583
+        ],
+        [
+          77,
+          586
+        ],
+        [
+          88,
+          586
+        ],
+        [
+          78,
+          587
+        ],
+        [
+          79,
+          587
+        ],
+        [
+          86,
+          587
+        ],
+        [
+          87,
+          587
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 396,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 564,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 904,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1084,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1084,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "006-272.json",
+      "componentId": "fad8c7a6439611ecbe523af9d3c2d1d5",
+      "questionId": 145,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        660
+      ],
+      "localSize": [
+        960,
+        660
+      ],
+      "sameSize": true,
+      "changedPixels": 2059,
+      "over16Pixels": 19,
+      "pixelCount": 633600,
+      "maxChannelDelta": 52,
+      "meanChannelDelta": 0.005988005050505051,
+      "over16Percent": 0.0029987373737373735,
+      "points": [
+        [
+          87,
+          196
+        ],
+        [
+          90,
+          198
+        ],
+        [
+          88,
+          199
+        ],
+        [
+          91,
+          199
+        ],
+        [
+          89,
+          200
+        ],
+        [
+          92,
+          200
+        ],
+        [
+          90,
+          201
+        ],
+        [
+          90,
+          214
+        ],
+        [
+          89,
+          215
+        ],
+        [
+          87,
+          216
+        ],
+        [
+          88,
+          216
+        ],
+        [
+          85,
+          217
+        ],
+        [
+          86,
+          219
+        ],
+        [
+          87,
+          219
+        ],
+        [
+          89,
+          336
+        ],
+        [
+          89,
+          351
+        ],
+        [
+          85,
+          355
+        ],
+        [
+          89,
+          487
+        ],
+        [
+          85,
+          491
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 180,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        593
+      ],
+      "localSize": [
+        358,
+        593
+      ],
+      "sameSize": true,
+      "changedPixels": 1929,
+      "over16Pixels": 9,
+      "pixelCount": 212294,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.021047855018669077,
+      "over16Percent": 0.004239403845610333,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ],
+        [
+          96,
+          477
+        ],
+        [
+          261,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "008-368.json",
+      "componentId": "4-UnNPOqxuUZO877Ub-5U",
+      "questionId": 172,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        840
+      ],
+      "localSize": [
+        960,
+        840
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 8,
+      "pixelCount": 806400,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.005268270502645503,
+      "over16Percent": 0.000992063492063492,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 648,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 764,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 180,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        537
+      ],
+      "localSize": [
+        960,
+        537
+      ],
+      "sameSize": true,
+      "changedPixels": 1921,
+      "over16Pixels": 9,
+      "pixelCount": 515520,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.00865210531760811,
+      "over16Percent": 0.0017458100558659217,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ],
+        [
+          67,
+          477
+        ],
+        [
+          232,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 181,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        593
+      ],
+      "localSize": [
+        358,
+        593
+      ],
+      "sameSize": true,
+      "changedPixels": 1921,
+      "over16Pixels": 9,
+      "pixelCount": 212294,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.02101017142893032,
+      "over16Percent": 0.004239403845610333,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ],
+        [
+          96,
+          477
+        ],
+        [
+          261,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 182,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        593
+      ],
+      "localSize": [
+        358,
+        593
+      ],
+      "sameSize": true,
+      "changedPixels": 1913,
+      "over16Pixels": 6,
+      "pixelCount": 212294,
+      "maxChannelDelta": 22,
+      "meanChannelDelta": 0.020994469933205837,
+      "over16Percent": 0.0028262692304068886,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          96,
+          477
+        ],
+        [
+          261,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 181,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        537
+      ],
+      "localSize": [
+        960,
+        537
+      ],
+      "sameSize": true,
+      "changedPixels": 1921,
+      "over16Pixels": 9,
+      "pixelCount": 515520,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.00865210531760811,
+      "over16Percent": 0.0017458100558659217,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ],
+        [
+          67,
+          477
+        ],
+        [
+          232,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-421.json",
+      "componentId": "da504ad0-560e-4c97-9cab-8c88c57b1a7b",
+      "questionId": 188,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00556733319374651,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-429.json",
+      "componentId": "7851c902-1900-4088-8d5f-b742e2974213",
+      "questionId": 192,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.004800478084868789,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "07c8bb1f-7c42-414f-bcfb-de425ae4041a",
+      "questionId": 182,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        537
+      ],
+      "localSize": [
+        960,
+        537
+      ],
+      "sameSize": true,
+      "changedPixels": 1942,
+      "over16Pixels": 7,
+      "pixelCount": 515520,
+      "maxChannelDelta": 22,
+      "meanChannelDelta": 0.008919149596523897,
+      "over16Percent": 0.0013578522656734948,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          67,
+          477
+        ],
+        [
+          232,
+          477
+        ],
+        [
+          236,
+          478
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "007-321.json",
+      "componentId": "65025db8-9fc8-41b6-adec-8b3589d1bda9",
+      "questionId": 157,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        880
+      ],
+      "localSize": [
+        358,
+        880
+      ],
+      "sameSize": true,
+      "changedPixels": 1859,
+      "over16Pixels": 8,
+      "pixelCount": 315040,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00872270187912646,
+      "over16Percent": 0.0025393600812595226,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 205,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1862,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.004829267867113345,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 203,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1848,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.004810947096594081,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "007-321.json",
+      "componentId": "65025db8-9fc8-41b6-adec-8b3589d1bda9",
+      "questionId": 157,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        718
+      ],
+      "localSize": [
+        960,
+        718
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 8,
+      "pixelCount": 689280,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.006163436242649334,
+      "over16Percent": 0.001160631383472609,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 584,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 208,
+      "index": 5,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1071
+      ],
+      "localSize": [
+        358,
+        1071
+      ],
+      "sameSize": true,
+      "changedPixels": 1847,
+      "over16Pixels": 7,
+      "pixelCount": 383418,
+      "maxChannelDelta": 21,
+      "meanChannelDelta": 0.009512681546858345,
+      "over16Percent": 0.0018256837185525979,
+      "points": [
+        [
+          72,
+          582
+        ],
+        [
+          93,
+          582
+        ],
+        [
+          90,
+          583
+        ],
+        [
+          73,
+          584
+        ],
+        [
+          92,
+          584
+        ],
+        [
+          74,
+          585
+        ],
+        [
+          91,
+          585
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 228,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 397,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 565,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 70.296875,
+          "y": 745,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 247.6875,
+          "y": 745,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 173,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        809
+      ],
+      "localSize": [
+        960,
+        809
+      ],
+      "sameSize": true,
+      "changedPixels": 1854,
+      "over16Pixels": 7,
+      "pixelCount": 776640,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.005455981321247081,
+      "over16Percent": 0.0009013185002060156,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 617.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 208,
+      "index": 5,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1838,
+      "over16Pixels": 4,
+      "pixelCount": 764160,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.004718034617532105,
+      "over16Percent": 0.0005234505862646566,
+      "points": [
+        [
+          91,
+          472
+        ],
+        [
+          92,
+          473
+        ],
+        [
+          93,
+          475
+        ],
+        [
+          71,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 333,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 469,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 585,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 585,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 174,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        961
+      ],
+      "localSize": [
+        358,
+        961
+      ],
+      "sameSize": true,
+      "changedPixels": 1871,
+      "over16Pixels": 4,
+      "pixelCount": 344038,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.012440486225358826,
+      "over16Percent": 0.0011626622640522268,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 377.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 513.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 681.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 829.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 829.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 176,
+      "index": 3,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        962
+      ],
+      "localSize": [
+        358,
+        962
+      ],
+      "sameSize": true,
+      "changedPixels": 1972,
+      "over16Pixels": 4,
+      "pixelCount": 344396,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.013438019024611203,
+      "over16Percent": 0.0011614536754201558,
+      "points": [
+        [
+          78,
+          601
+        ],
+        [
+          79,
+          601
+        ],
+        [
+          86,
+          601
+        ],
+        [
+          87,
+          601
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 242.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 410.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 578.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 714.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 830.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 830.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-413.json",
+      "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca",
+      "questionId": 178,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        773
+      ],
+      "localSize": [
+        358,
+        773
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 276734,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.01529989086993286,
+      "over16Percent": 0.0014454313528514747,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 174,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        809
+      ],
+      "localSize": [
+        960,
+        809
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 776640,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.0054516893283889575,
+      "over16Percent": 0.0005150391429748661,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 617.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-487.json",
+      "componentId": "99b8188b-5f61-45a1-8166-0bfc6f032c27",
+      "questionId": 223,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        872
+      ],
+      "localSize": [
+        358,
+        872
+      ],
+      "sameSize": true,
+      "changedPixels": 1941,
+      "over16Pixels": 8,
+      "pixelCount": 312176,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.009759451933097569,
+      "over16Percent": 0.002562656962738968,
+      "points": [
+        [
+          78,
+          324
+        ],
+        [
+          87,
+          324
+        ],
+        [
+          77,
+          325
+        ],
+        [
+          88,
+          325
+        ],
+        [
+          74,
+          327
+        ],
+        [
+          91,
+          327
+        ],
+        [
+          73,
+          328
+        ],
+        [
+          71,
+          331
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 324,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 460,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 576,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 576,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 210,
+      "index": 7,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        914
+      ],
+      "localSize": [
+        960,
+        914
+      ],
+      "sameSize": true,
+      "changedPixels": 1920,
+      "over16Pixels": 8,
+      "pixelCount": 877440,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.004531743860928763,
+      "over16Percent": 0.0009117432530999271,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 722,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 838,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 838,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-455.json",
+      "componentId": "7bec282f-3e6a-4213-aeb7-ce282010efbd",
+      "questionId": 211,
+      "index": 8,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        914
+      ],
+      "localSize": [
+        960,
+        914
+      ],
+      "sameSize": true,
+      "changedPixels": 1842,
+      "over16Pixels": 8,
+      "pixelCount": 877440,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00418300206661804,
+      "over16Percent": 0.0009117432530999271,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-413.json",
+      "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca",
+      "questionId": 179,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": false,
+      "sourceSize": [
+        358,
+        741
+      ],
+      "localSize": [
+        358,
+        741
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 265278,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.0159606149021027,
+      "over16Percent": 0.0015078521400191498,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 184,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        701
+      ],
+      "localSize": [
+        358,
+        701
+      ],
+      "sameSize": true,
+      "changedPixels": 1896,
+      "over16Pixels": 7,
+      "pixelCount": 250958,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.017350844895693038,
+      "over16Percent": 0.0027893113588727996,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 453.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 175,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        809
+      ],
+      "localSize": [
+        960,
+        809
+      ],
+      "sameSize": true,
+      "changedPixels": 1895,
+      "over16Pixels": 4,
+      "pixelCount": 776640,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.005661567779151215,
+      "over16Percent": 0.0005150391429748661,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 617.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "009-403.json",
+      "componentId": "413b7972-e4af-443e-bbdb-c2cb44154d2b",
+      "questionId": 176,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        810
+      ],
+      "localSize": [
+        960,
+        810
+      ],
+      "sameSize": true,
+      "changedPixels": 2101,
+      "over16Pixels": 23,
+      "pixelCount": 777600,
+      "maxChannelDelta": 52,
+      "meanChannelDelta": 0.007096622085048011,
+      "over16Percent": 0.0029578189300411522,
+      "points": [
+        [
+          89,
+          214
+        ],
+        [
+          89,
+          229
+        ],
+        [
+          85,
+          233
+        ],
+        [
+          87,
+          346
+        ],
+        [
+          90,
+          348
+        ],
+        [
+          88,
+          349
+        ],
+        [
+          91,
+          349
+        ],
+        [
+          89,
+          350
+        ],
+        [
+          92,
+          350
+        ],
+        [
+          90,
+          351
+        ],
+        [
+          90,
+          364
+        ],
+        [
+          89,
+          365
+        ],
+        [
+          87,
+          366
+        ],
+        [
+          88,
+          366
+        ],
+        [
+          85,
+          367
+        ],
+        [
+          86,
+          369
+        ],
+        [
+          87,
+          369
+        ],
+        [
+          89,
+          486
+        ],
+        [
+          89,
+          501
+        ],
+        [
+          85,
+          505
+        ],
+        [
+          89,
+          622
+        ],
+        [
+          89,
+          637
+        ],
+        [
+          85,
+          641
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 210.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 346.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 482.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 618.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 734.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 734.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-413.json",
+      "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca",
+      "questionId": 178,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        581
+      ],
+      "localSize": [
+        960,
+        581
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 557760,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.007591078600114745,
+      "over16Percent": 0.000717154331612163,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 183,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        581
+      ],
+      "localSize": [
+        960,
+        581
+      ],
+      "sameSize": true,
+      "changedPixels": 1854,
+      "over16Pixels": 4,
+      "pixelCount": 557760,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.007605421686746988,
+      "over16Percent": 0.000717154331612163,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 183,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        701
+      ],
+      "localSize": [
+        358,
+        701
+      ],
+      "sameSize": true,
+      "changedPixels": 1908,
+      "over16Pixels": 4,
+      "pixelCount": 250958,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.01742124180141697,
+      "over16Percent": 0.001593892205070171,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-487.json",
+      "componentId": "99b8188b-5f61-45a1-8166-0bfc6f032c27",
+      "questionId": 224,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1012
+      ],
+      "localSize": [
+        358,
+        1012
+      ],
+      "sameSize": true,
+      "changedPixels": 1913,
+      "over16Pixels": 1,
+      "pixelCount": 362296,
+      "maxChannelDelta": 18,
+      "meanChannelDelta": 0.01232969726411553,
+      "over16Percent": 0.0002760174001369046,
+      "points": [
+        [
+          74,
+          327
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 324,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 460,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 628,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 764,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 880,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 880,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 185,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        701
+      ],
+      "localSize": [
+        358,
+        701
+      ],
+      "sameSize": true,
+      "changedPixels": 1888,
+      "over16Pixels": 4,
+      "pixelCount": 250958,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.017337562460650786,
+      "over16Percent": 0.001593892205070171,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 569.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-431.json",
+      "componentId": "0421d398-50b8-47fe-817d-ee882abc5988",
+      "questionId": 193,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        796
+      ],
+      "localSize": [
+        960,
+        796
+      ],
+      "sameSize": true,
+      "changedPixels": 1838,
+      "over16Pixels": 8,
+      "pixelCount": 764160,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0034172599106644334,
+      "over16Percent": 0.0010469011725293131,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 223.390625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-413.json",
+      "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca",
+      "questionId": 179,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": false,
+      "sourceSize": [
+        960,
+        581
+      ],
+      "localSize": [
+        960,
+        581
+      ],
+      "sameSize": true,
+      "changedPixels": 1846,
+      "over16Pixels": 4,
+      "pixelCount": 557760,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.007591078600114745,
+      "over16Percent": 0.000717154331612163,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 184,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        581
+      ],
+      "localSize": [
+        960,
+        581
+      ],
+      "sameSize": true,
+      "changedPixels": 1856,
+      "over16Pixels": 7,
+      "pixelCount": 557760,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.0065607668770319375,
+      "over16Percent": 0.0012550200803212851,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 389.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-414.json",
+      "componentId": "9abeb377-5ad8-4d47-9d02-c664f0525caa",
+      "questionId": 185,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        581
+      ],
+      "localSize": [
+        960,
+        581
+      ],
+      "sameSize": true,
+      "changedPixels": 1900,
+      "over16Pixels": 4,
+      "pixelCount": 557760,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.007894076305220883,
+      "over16Percent": 0.000717154331612163,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 505.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-475.json",
+      "componentId": "3566f1a2-ee7d-4b1e-a142-d6de1a87b18b",
+      "questionId": 220,
+      "index": 7,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1012
+      ],
+      "localSize": [
+        960,
+        1012
+      ],
+      "sameSize": true,
+      "changedPixels": 1889,
+      "over16Pixels": 8,
+      "pixelCount": 971520,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.00394364844093105,
+      "over16Percent": 0.0008234519104084321,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-487.json",
+      "componentId": "99b8188b-5f61-45a1-8166-0bfc6f032c27",
+      "questionId": 227,
+      "index": 5,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1076
+      ],
+      "localSize": [
+        358,
+        1076
+      ],
+      "sameSize": true,
+      "changedPixels": 1926,
+      "over16Pixels": 11,
+      "pixelCount": 385208,
+      "maxChannelDelta": 32,
+      "meanChannelDelta": 0.011801416377645323,
+      "over16Percent": 0.002855600091379203,
+      "points": [
+        [
+          74,
+          327
+        ],
+        [
+          75,
+          478
+        ],
+        [
+          90,
+          478
+        ],
+        [
+          76,
+          479
+        ],
+        [
+          89,
+          479
+        ],
+        [
+          77,
+          482
+        ],
+        [
+          88,
+          482
+        ],
+        [
+          78,
+          483
+        ],
+        [
+          79,
+          483
+        ],
+        [
+          86,
+          483
+        ],
+        [
+          87,
+          483
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 324,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 460,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 576,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 576,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 232,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        841
+      ],
+      "localSize": [
+        960,
+        841
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 4,
+      "pixelCount": 807360,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.005236821244550139,
+      "over16Percent": 0.0004954419342053111,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 649.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 765.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 765.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-533.json",
+      "componentId": "897604ee-ebb4-47b8-86b1-97fe30987c0d",
+      "questionId": 240,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        872
+      ],
+      "localSize": [
+        960,
+        872
+      ],
+      "sameSize": true,
+      "changedPixels": 1841,
+      "over16Pixels": 8,
+      "pixelCount": 837120,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0025655421763506625,
+      "over16Percent": 0.00095565749235474,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-475.json",
+      "componentId": "3566f1a2-ee7d-4b1e-a142-d6de1a87b18b",
+      "questionId": 217,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1012
+      ],
+      "localSize": [
+        960,
+        1012
+      ],
+      "sameSize": true,
+      "changedPixels": 1905,
+      "over16Pixels": 5,
+      "pixelCount": 971520,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.0029603096179183137,
+      "over16Percent": 0.0005146574440052701,
+      "points": [
+        [
+          79,
+          336
+        ],
+        [
+          80,
+          336
+        ],
+        [
+          85,
+          336
+        ],
+        [
+          86,
+          336
+        ],
+        [
+          76,
+          725
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 312.5625,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 448.5625,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 584.5625,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 720.5625,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 836.5625,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 836.5625,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-475.json",
+      "componentId": "3566f1a2-ee7d-4b1e-a142-d6de1a87b18b",
+      "questionId": 219,
+      "index": 6,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1012
+      ],
+      "localSize": [
+        960,
+        1012
+      ],
+      "sameSize": true,
+      "changedPixels": 82,
+      "over16Pixels": 8,
+      "pixelCount": 971520,
+      "maxChannelDelta": 25,
+      "meanChannelDelta": 0.0004048638559508125,
+      "over16Percent": 0.0008234519104084321,
+      "points": [
+        [
+          79,
+          470
+        ],
+        [
+          86,
+          470
+        ],
+        [
+          74,
+          471
+        ],
+        [
+          77,
+          471
+        ],
+        [
+          73,
+          472
+        ],
+        [
+          76,
+          472
+        ],
+        [
+          89,
+          472
+        ],
+        [
+          74,
+          474
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 231,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        809
+      ],
+      "localSize": [
+        960,
+        809
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 4,
+      "pixelCount": 776640,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.004697156983930779,
+      "over16Percent": 0.0005150391429748661,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 617.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-475.json",
+      "componentId": "3566f1a2-ee7d-4b1e-a142-d6de1a87b18b",
+      "questionId": 214,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1100
+      ],
+      "localSize": [
+        358,
+        1100
+      ],
+      "sameSize": true,
+      "changedPixels": 1913,
+      "over16Pixels": 7,
+      "pixelCount": 393800,
+      "maxChannelDelta": 27,
+      "meanChannelDelta": 0.009764685965803285,
+      "over16Percent": 0.0017775520568816658,
+      "points": [
+        [
+          73,
+          735
+        ],
+        [
+          76,
+          735
+        ],
+        [
+          89,
+          735
+        ],
+        [
+          79,
+          737
+        ],
+        [
+          80,
+          737
+        ],
+        [
+          85,
+          737
+        ],
+        [
+          86,
+          737
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 444,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 580,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 716,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 852,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 968,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 968,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 236,
+      "index": 5,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        969
+      ],
+      "localSize": [
+        960,
+        969
+      ],
+      "sameSize": true,
+      "changedPixels": 1918,
+      "over16Pixels": 7,
+      "pixelCount": 930240,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.004286349042540993,
+      "over16Percent": 0.0007524939800481596,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 409.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 577.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 745.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 893.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 893.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-475.json",
+      "componentId": "3566f1a2-ee7d-4b1e-a142-d6de1a87b18b",
+      "questionId": 221,
+      "index": 8,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        1012
+      ],
+      "localSize": [
+        960,
+        1012
+      ],
+      "sameSize": true,
+      "changedPixels": 2134,
+      "over16Pixels": 22,
+      "pixelCount": 971520,
+      "maxChannelDelta": 52,
+      "meanChannelDelta": 0.005242643829600351,
+      "over16Percent": 0.0022644927536231885,
+      "points": [
+        [
+          89,
+          200
+        ],
+        [
+          89,
+          215
+        ],
+        [
+          85,
+          219
+        ],
+        [
+          89,
+          336
+        ],
+        [
+          89,
+          351
+        ],
+        [
+          85,
+          355
+        ],
+        [
+          89,
+          487
+        ],
+        [
+          85,
+          491
+        ],
+        [
+          87,
+          604
+        ],
+        [
+          90,
+          606
+        ],
+        [
+          88,
+          607
+        ],
+        [
+          91,
+          607
+        ],
+        [
+          89,
+          608
+        ],
+        [
+          92,
+          608
+        ],
+        [
+          90,
+          609
+        ],
+        [
+          90,
+          622
+        ],
+        [
+          89,
+          623
+        ],
+        [
+          87,
+          624
+        ],
+        [
+          88,
+          624
+        ],
+        [
+          85,
+          625
+        ],
+        [
+          86,
+          627
+        ],
+        [
+          87,
+          627
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 196,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 332,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 468,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 604,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 720,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 235,
+      "index": 4,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        841
+      ],
+      "localSize": [
+        960,
+        841
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 4,
+      "pixelCount": 807360,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.005236821244550139,
+      "over16Percent": 0.0004954419342053111,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 513.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 629.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 629.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 233,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        841
+      ],
+      "localSize": [
+        960,
+        841
+      ],
+      "sameSize": true,
+      "changedPixels": 1901,
+      "over16Pixels": 6,
+      "pixelCount": 807360,
+      "maxChannelDelta": 22,
+      "meanChannelDelta": 0.004787207689258819,
+      "over16Percent": 0.0007431629013079667,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          67,
+          477
+        ],
+        [
+          232,
+          477
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 461.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 234,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        960,
+        841
+      ],
+      "localSize": [
+        960,
+        841
+      ],
+      "sameSize": true,
+      "changedPixels": 1840,
+      "over16Pixels": 4,
+      "pixelCount": 807360,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.005236821244550139,
+      "over16Percent": 0.0004954419342053111,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 345.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 481.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 617.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 46,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 213.625,
+          "y": 733.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 232,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1281
+      ],
+      "localSize": [
+        358,
+        1281
+      ],
+      "sameSize": true,
+      "changedPixels": 1906,
+      "over16Pixels": 4,
+      "pixelCount": 458598,
+      "maxChannelDelta": 19,
+      "meanChannelDelta": 0.00981469609549104,
+      "over16Percent": 0.0008722236032429274,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 473.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 673.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1001.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1149.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1149.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 236,
+      "index": 5,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1761
+      ],
+      "localSize": [
+        358,
+        1761
+      ],
+      "sameSize": true,
+      "changedPixels": 1867,
+      "over16Pixels": 7,
+      "pixelCount": 630438,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.006741873639173611,
+      "over16Percent": 0.00111033916102773,
+      "points": [
+        [
+          76,
+          231
+        ],
+        [
+          77,
+          231
+        ],
+        [
+          88,
+          231
+        ],
+        [
+          78,
+          232
+        ],
+        [
+          79,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          87,
+          232
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 665.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1025.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 1321.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1629.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1629.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    },
+    {
+      "file": "010-512.json",
+      "componentId": "23d67a12-0517-4115-be5a-59bc59542152",
+      "questionId": 235,
+      "index": 4,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sourceSize": [
+        358,
+        1281
+      ],
+      "localSize": [
+        358,
+        1281
+      ],
+      "sameSize": true,
+      "changedPixels": 1933,
+      "over16Pixels": 18,
+      "pixelCount": 458598,
+      "maxChannelDelta": 31,
+      "meanChannelDelta": 0.010170854066815236,
+      "over16Percent": 0.003925006214593173,
+      "points": [
+        [
+          79,
+          232
+        ],
+        [
+          80,
+          232
+        ],
+        [
+          85,
+          232
+        ],
+        [
+          86,
+          232
+        ],
+        [
+          78,
+          473
+        ],
+        [
+          79,
+          473
+        ],
+        [
+          86,
+          473
+        ],
+        [
+          77,
+          474
+        ],
+        [
+          88,
+          474
+        ],
+        [
+          74,
+          476
+        ],
+        [
+          91,
+          476
+        ],
+        [
+          89,
+          477
+        ],
+        [
+          75,
+          478
+        ],
+        [
+          90,
+          478
+        ],
+        [
+          74,
+          479
+        ],
+        [
+          91,
+          479
+        ],
+        [
+          71,
+          480
+        ],
+        [
+          71,
+          481
+        ]
+      ],
+      "iconRectangles": [
+        {
+          "x": 71,
+          "y": 209.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 473.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 71,
+          "y": 897.28125,
+          "w": 24,
+          "h": 24,
+          "kind": "answer-icon"
+        },
+        {
+          "x": 75.1875,
+          "y": 1045.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        },
+        {
+          "x": 242.8125,
+          "y": 1045.28125,
+          "w": 40,
+          "h": 40,
+          "kind": "navigation-button"
+        }
+      ],
+      "edgeAllowancePx": 1,
+      "outsideIcons": [],
+      "outsideElements": []
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "states": 98,
+    "outsideIcons": 0,
+    "errors": 0,
+    "allResidualsInIconsOrNavigationControls": 98
+  }
+}

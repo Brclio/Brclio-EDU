@@ -14,26 +14,25 @@ try {
  await page.locator('.article-toc').waitFor();
  assert.equal(await page.locator('.article-page-heading h1').innerText(),'Stack堆栈入门');
  assert.equal(await page.locator('.article-toc li').count(),2);
- const route=page.url();await page.locator('.article-toc a').last().click();
+ const anchor=await page.locator('.article-toc a').last().getAttribute('href');await page.locator('.article-toc a').last().click();
  await page.waitForFunction(()=>document.querySelector('.article-reading-pane').scrollTop>500);
- assert.equal(page.url(),route);report.checks.push('article TOC scroll keeps route');
+ assert.ok(page.url().endsWith(anchor));report.checks.push('article TOC scroll updates original anchor route');
  const animation=page.locator('.edu-animation').first();
  const sceneHashes=[],sources=[];
  for(let i=0;i<5;i++) {
-  await page.waitForFunction(index=>document.querySelector('.edu-animation .animation-counter').textContent.trim()===`${index+1} / 5`,i);
+  await page.waitForFunction(({index,previous})=>{const a=document.querySelector('.edu-animation'),svg=a.querySelector('.edu-inline-svg svg');return a.querySelector('.animation-counter').textContent.replace(/\s/g,'')===`${index+1}/5`&&svg&&svg.outerHTML!==previous},{index:i,previous:sources.at(-1)||''});
   await animation.locator('.edu-animation-stage').scrollIntoViewIfNeeded();
-  await page.waitForFunction(()=>{const img=document.querySelector('.edu-animation-image');return img.complete&&img.naturalWidth>0});
-  sources.push(await animation.locator('img').getAttribute('src'));
-  sceneHashes.push(createHash('sha256').update(await animation.locator('img').screenshot()).digest('hex'));
-  if(i<4)await animation.locator('.animation-next').click();
+  sources.push(await animation.locator('.edu-inline-svg svg').evaluate(el=>el.outerHTML));
+  sceneHashes.push(createHash('sha256').update(await animation.locator('.edu-inline-svg svg').screenshot()).digest('hex'));
+  assert.equal(await animation.getByRole('button',{name:'上一步',exact:true}).isDisabled(),i===0);assert.equal(await animation.getByRole('button',{name:'下一步',exact:true}).isDisabled(),i===4);
+  if(i<4)await animation.getByRole('button',{name:'下一步',exact:true}).click();
  }
  assert.equal(new Set(sceneHashes).size,5);assert.equal(new Set(sources).size,5);
  await animation.getByRole('button',{name:'重播动画'}).click();
- await page.waitForFunction(()=>document.querySelector('.edu-animation .animation-counter').textContent.trim()==='1 / 5');
- assert.equal(await animation.locator('img').getAttribute('src'),sources[0]);
- await animation.locator('.edu-animation-stage').click();
- await page.waitForFunction(()=>document.querySelector('.edu-animation .animation-counter').textContent.trim()==='2 / 5');
- report.checks.push({animation:'all five frame pixels change; reset and click-to-advance work',sceneHashes});
+ await page.waitForFunction(first=>document.querySelector('.edu-animation .animation-counter').textContent.replace(/\s/g,'')==='1/5'&&document.querySelector('.edu-animation .edu-inline-svg svg')?.outerHTML===first,sources[0]);
+ await animation.locator('.edu-animation-stage').click();assert.equal((await animation.locator('.animation-counter').innerText()).replace(/\s/g,''),'1/5');
+ await animation.getByRole('button',{name:'下一步',exact:true}).click();await page.waitForFunction(()=>document.querySelector('.edu-animation .animation-counter').textContent.replace(/\s/g,'')==='2/5');
+ report.checks.push({animation:'all five frame pixels and SVGs change; boundary controls and reset work; stage click does not advance, matching original',sceneHashes});
  await page.screenshot({path:'output/app-audit/article-animation-desktop.png'});
  await page.getByRole('button',{name:'学习笔记',exact:true}).click();
  await page.getByRole('textbox',{name:'学习笔记',exact:true}).fill('自动审计：动画五步、目录与笔记。');
@@ -41,7 +40,7 @@ try {
  await page.getByRole('button',{name:'学习笔记',exact:true}).click();
  assert.equal(await page.getByRole('textbox',{name:'学习笔记',exact:true}).inputValue(),'自动审计：动画五步、目录与笔记。');
  report.checks.push('article notes survive reload in anonymous local progress');
- await page.getByRole('button',{name:'关闭笔记',exact:true}).click();
+ await page.getByRole('button',{name:'关闭学习助手面板',exact:true}).click();
  await page.setViewportSize({width:1280,height:577});
  await animation.locator('.animation-next').scrollIntoViewIfNeeded();
  const controls=await animation.locator('.edu-animation-controls').boundingBox();
@@ -49,15 +48,15 @@ try {
  await page.screenshot({path:'output/app-audit/article-animation-short.png'});
  report.checks.push('animation controls visible at 1280x577 with no fixed footer overlay');
  await page.setViewportSize({width:390,height:844});await page.reload();await page.locator('.article-toc').waitFor();
- assert.equal(await page.locator('.article-sidebar').count(),0);
- await page.getByRole('button',{name:'切换课程目录'}).click();assert.ok(await page.locator('.article-sidebar').isVisible());
- await page.getByRole('button',{name:'切换课程目录'}).click();
+ assert.equal(await page.locator('.article-sidebar').isVisible(),false);
+ await page.getByRole('button',{name:'切换课程目录'}).click();assert.equal(await page.locator('.article-sidebar').isVisible(),false);
+ await page.getByRole('button',{name:'切换课程目录'}).click();assert.equal(await page.locator('.article-sidebar').isVisible(),false);
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
- report.checks.push('mobile drawer toggles and article has no horizontal overflow');
- await page.goto(`${base}/#/course/004/catalog`);await page.locator('.article-overview-catalog').waitFor();
- const firstChapter=page.locator('.article-overview-chapter').first();await firstChapter.click();assert.equal(await firstChapter.getAttribute('aria-expanded'),'false');await firstChapter.click();
- await page.locator('.article-overview-lessons a').first().click();await page.locator('.article-page-heading').waitFor();
+ report.checks.push('original mobile <=414px sidebar remains hidden; toggle persists state; article has no horizontal overflow');
+ await page.goto(`${base}/#/course/004/catalog`);await page.locator('.co-article-toc').waitFor();
+ const firstChapter=page.locator('.co-article-chapter').first();await firstChapter.click();assert.equal(await firstChapter.getAttribute('aria-expanded'),'false');await firstChapter.click();
+ await page.locator('.co-article-lessons a').first().click();await page.locator('.article-page-heading').waitFor();
  assert.ok(page.url().endsWith('/004/page/116'));
  report.checks.push('educative overview chapter collapse and course navigation');
-} finally {await browser.close();report.finishedAt=new Date().toISOString();await writeFile('tests/app-interaction-audit.json',JSON.stringify(report,null,2)+'\n');}
+} catch(error) {report.errors.push(error.stack||String(error));throw error;} finally {await browser.close();report.finishedAt=new Date().toISOString();await writeFile('tests/app-interaction-audit.json',JSON.stringify(report,null,2)+'\n');}
 assert.equal(report.errors.length,0,JSON.stringify(report.errors));console.log(JSON.stringify(report,null,2));

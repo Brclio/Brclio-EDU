@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-02T10:42:38.836Z",
+  "base": "http://127.0.0.1:5173",
+  "compilerOrigin": "https://edu.brclio.com",
+  "scope": "Actual dev proxy and local media route; no browser test relay or mocked execution response.",
+  "checks": [
+    {
+      "kind": "media-cross-chunk-range",
+      "id": "fc016e52f3a60c386a00",
+      "status": 206,
+      "contentType": "video/mp4",
+      "range": "bytes 8388600-8388615/89678385",
+      "length": 16
+    },
+    {
+      "kind": "media-cross-chunk-range",
+      "id": "c81a6c19ec7f1283e355",
+      "status": 206,
+      "contentType": "video/mp4",
+      "range": "bytes 8388600-8388615/32061947",
+      "length": 16
+    },
+    {
+      "kind": "actual-native-compilation",
+      "language": "cpp",
+      "status": 200,
+      "result": {
+        "stdout": "6\n",
+        "stderr": "",
+        "exitCode": 0,
+        "timedOut": false
+      }
+    }
+  ],
+  "passed": true
+}

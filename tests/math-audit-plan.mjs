@@ -3,8 +3,8 @@ import path from 'node:path';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
-import remarkMath from 'remark-math';
-import katex from 'katex';
+import remarkMath from 'remark-math-solo';
+import katex from 'katex-solo';
 import { courseMathMarkdown } from '../src/content-math.ts';
 
 const markdown = unified().use(remarkParse).use(remarkGfm);

@@ -1,0 +1,33 @@
+.article-preview-trigger{position:relative;display:inline-block;max-width:100%;font:inherit;outline:none;-webkit-font-smoothing:antialiased;font-feature-settings:"tnum"}
+.article-preview-trigger>img{display:inline;width:100%;height:auto;vertical-align:middle;margin:0;padding:0;border-radius:0}
+.article-preview-hover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;background:rgba(0,0,0,.5);cursor:pointer;opacity:0;transition:opacity .3s}
+.article-preview-hover:hover,.article-preview-trigger:focus-visible .article-preview-hover{opacity:1}
+.article-preview-hover>span{padding:0 8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.article-preview-icon{display:inline-block;line-height:0;vertical-align:-.125em;color:inherit;text-align:center;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.article-preview-icon svg{display:inline-block;vertical-align:baseline}
+.article-preview-hover .article-preview-icon{margin-inline-end:8px}
+.article-image-preview-root{font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:16px;line-height:1.5715;color:#000;font-variant-numeric:tabular-nums}
+.article-image-preview-mask{position:fixed;inset:0;z-index:1000;height:100%;background:rgba(0,0,0,.45);animation:article-preview-fade .2s linear both}
+.article-image-preview-wrap{position:fixed;inset:0;z-index:1080;overflow:auto;outline:0;-webkit-overflow-scrolling:touch}
+.article-image-preview-body{position:absolute;inset:0;overflow:hidden;text-align:center;pointer-events:none;animation:article-preview-zoom-in .3s cubic-bezier(.08,.82,.17,1) both}
+.article-image-preview-image-wrapper{position:absolute;inset:0;transition:transform .3s cubic-bezier(.215,.61,.355,1)}
+.article-image-preview-image-wrapper:before{display:inline-block;width:1px;height:50%;margin-right:-1px;content:""}
+.article-image-preview-image{display:inline;max-width:100%;max-height:100%;width:auto;height:auto;vertical-align:middle;cursor:grab;user-select:none;pointer-events:auto;touch-action:none;transition:transform .3s cubic-bezier(.215,.61,.355,1);border:0;border-radius:0;padding:0;margin:0}
+.article-preview-moving .article-image-preview-image{cursor:grabbing}
+.article-preview-moving .article-image-preview-image-wrapper{transition-duration:0s}
+.article-image-preview-operations{box-sizing:border-box;position:absolute;top:0;right:0;z-index:1;display:flex;flex-direction:row-reverse;align-items:center;width:100%;padding:0;margin:0;color:rgba(255,255,255,.85);font-size:16px;line-height:1.5715;list-style:none;background:rgba(0,0,0,.1);pointer-events:auto}
+.article-image-preview-operations>li{margin:0 0 0 16px;padding:0;list-style:none}
+.article-image-preview-operations>li:last-child{margin-left:0}
+.article-image-preview-operations button{display:block;appearance:none;border:0;border-radius:0;margin:0;padding:16px;color:inherit;background:transparent;font:inherit;line-height:inherit;cursor:pointer;box-shadow:none;outline:none}
+.article-image-preview-operations button:disabled{color:rgba(255,255,255,.25);pointer-events:none;opacity:1}
+.article-image-preview-operations button:focus-visible{outline:2px solid rgba(255,255,255,.85);outline-offset:-5px}
+.article-image-preview-operations .article-preview-icon{font-size:18px}
+.article-preview-closing .article-image-preview-mask{animation:article-preview-fade-out .2s linear both}
+.article-preview-closing .article-image-preview-body{animation:article-preview-zoom-out .2s cubic-bezier(.78,.14,.15,.86) both;pointer-events:none}
+@keyframes article-preview-fade{from{opacity:0}to{opacity:1}}
+@keyframes article-preview-fade-out{from{opacity:1}to{opacity:0}}
+
+@keyframes article-preview-zoom-in{from{transform:scale(.2);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes article-preview-zoom-out{from{transform:scale(1)}to{transform:scale(.2);opacity:0}}
+.article-content .edu-image .article-preview-trigger{flex-shrink:0}
+.article-content .edu-image .article-preview-trigger>img{display:inline;width:100%;margin:0}

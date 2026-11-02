@@ -1,0 +1,20 @@
+.article-glossary-term{cursor:pointer;color:inherit}
+.article-glossary-term u{text-decoration:underline;text-decoration-skip-ink:auto}
+.article-glossary-popover{box-sizing:border-box;margin:0;padding:0;color:#000;font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:16px;font-variant:tabular-nums;font-feature-settings:"tnum","tnum";line-height:1.5715;position:absolute;z-index:1030;font-weight:400;white-space:normal;text-align:left;cursor:auto;user-select:text;width:280px;-webkit-font-smoothing:antialiased;animation:article-glossary-in .2s cubic-bezier(.08,.82,.17,1) both}
+.article-glossary-popover *{box-sizing:border-box}
+.article-glossary-top{padding-bottom:15.3137085px;transform-origin:50% calc(100% + 4px)}
+.article-glossary-bottom{padding-top:15.3137085px;transform-origin:50% -4px}
+.article-glossary-inner{background:#fff;background-clip:padding-box;border-radius:4px;box-shadow:0 3px 6px -4px rgba(0,0,0,.12),0 6px 16px 0 rgba(0,0,0,.08),0 9px 28px 8px rgba(0,0,0,.05)}
+.article-glossary-title{min-width:177px;min-height:32px;margin:0;padding:5px 20px 4px;color:#000;font-weight:500;border-bottom:1px solid #f0f0f0}
+.article-glossary-content{padding:16px 20px;color:#000}
+.article-glossary-content>div{width:240px}
+.article-glossary-arrow{position:absolute;display:block;width:16px;height:16px;overflow:hidden;background:transparent;pointer-events:none;left:50%;transform:translateX(-50%)}
+.article-glossary-arrow>span{position:absolute;inset:0;display:block;width:11.3137085px;height:11.3137085px;margin:auto;background-color:#fff;pointer-events:none;border-radius:0 0 2px}
+.article-glossary-arrow>span:before{position:absolute;top:-11.3137085px;left:-11.3137085px;width:33.9411255px;height:33.9411255px;background:linear-gradient(270deg,#fff 50%,#fff 0) no-repeat -10px -10px;content:"";clip-path:path("M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 Z")}
+.article-glossary-top .article-glossary-arrow{bottom:-.6862915px}
+.article-glossary-top .article-glossary-arrow>span{box-shadow:3px 3px 7px rgba(0,0,0,.07);transform:translateY(-8px) rotate(45deg)}
+.article-glossary-bottom .article-glossary-arrow{top:-.6862915px}
+.article-glossary-bottom .article-glossary-arrow>span{box-shadow:2px 2px 5px rgba(0,0,0,.06);transform:translateY(8px) rotate(-135deg)}
+.article-glossary-closing{animation:article-glossary-out .2s cubic-bezier(.78,.14,.15,.86) both;pointer-events:none}
+@keyframes article-glossary-in{from{transform:scale(.8);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes article-glossary-out{from{transform:scale(1)}to{transform:scale(.8);opacity:0}}

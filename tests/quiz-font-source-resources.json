@@ -1,0 +1,34 @@
+{
+  "at": "2026-11-02T10:44:28.367123+00:00",
+  "pageUrl": "https://edu.py2fun.com/course/004/page/117",
+  "files": [
+    {
+      "file": "data/source/article-visual/page.html",
+      "sha256": "435aec4562091036ca77a089a94f58f7f70b0fcaae19dee6016230e456d31ec4",
+      "robotoFontFaces": 0,
+      "imports": [],
+      "googleFontLinks": []
+    },
+    {
+      "file": "data/source/article-visual/source.css",
+      "sha256": "06da4b2646651f26b53c1d7d0e902ecf39b2364101aa28328b762d8bea19443e",
+      "robotoFontFaces": 0,
+      "imports": [],
+      "googleFontLinks": []
+    },
+    {
+      "file": "data/source/article-visual/vendor.css",
+      "sha256": "20a4568f0213fc5d0d08a7dc9e3cba91afdd55dba0c09fe8bb4472a2d965e848",
+      "robotoFontFaces": 0,
+      "imports": [],
+      "googleFontLinks": []
+    },
+    {
+      "file": "output/quiz-visual/source-solo.css",
+      "sha256": "9b3a65f0aa7b7f760b58e5da08294cf54113ba08b96e2bbffacc279c48c22d82",
+      "robotoFontFaces": 0,
+      "imports": [],
+      "googleFontLinks": []
+    }
+  ]
+}

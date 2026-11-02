@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-01T18:44:37.201Z",
-  "base": "https://edu.brclio.com",
+  "at": "2026-11-02T09:39:35.707Z",
+  "base": "http://127.0.0.1:4173",
   "checks": [
     {
       "language": "c++",
@@ -19,5 +19,32 @@
     }
   ],
   "errors": [],
-  "finishedAt": "2026-11-01T18:44:57.786Z"
+  "executionRelay": {
+    "upstream": "https://edu.brclio.com/api/run",
+    "requests": [
+      {
+        "at": "2026-11-02T09:39:53.798Z",
+        "status": 200,
+        "exitCode": 0,
+        "timedOut": false,
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])\",\"expected_output\": \"7\",\"actual_output\""
+      },
+      {
+        "at": "2026-11-02T09:39:57.927Z",
+        "status": 200,
+        "exitCode": 0,
+        "timedOut": false,
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Incorrect Output\",\"input\": \"duplicateNumber([1,2,3,4,5,6,7,7,8,9,10])\",\"expected_output\": \"7\",\"actual_"
+      },
+      {
+        "at": "2026-11-02T09:40:15.023Z",
+        "status": 200,
+        "exitCode": 0,
+        "timedOut": false,
+        "stdout": "<__educative_test_results__>{\"test_results\": [{\"reason\": \"Succeeded\",\"input\": \"duplicateNumber([1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10])\",\"expected_output\": \"7\",\"actu"
+      }
+    ],
+    "note": "Only API transport is proxied; current local UI and real isolated runtime execute every source program."
+  },
+  "finishedAt": "2026-11-02T09:40:15.298Z"
 }

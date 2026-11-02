@@ -1,0 +1,119 @@
+{
+  "startedAt": "2026-11-02T10:54:38.298Z",
+  "checks": [
+    {
+      "name": "real Solo App prompt -> native alert, editor source unchanged",
+      "step": 2,
+      "dialogs": [
+        {
+          "type": "prompt",
+          "message": "输入你的名字",
+          "defaultValue": "张三",
+          "url": "http://127.0.0.1:5173/#/course/022/page/1201"
+        },
+        {
+          "type": "alert",
+          "message": "App 输入",
+          "defaultValue": "",
+          "url": "http://127.0.0.1:5173/#/course/022/page/1201"
+        }
+      ]
+    },
+    {
+      "name": "real Solo App confirm -> native alert, editor source unchanged",
+      "step": 4,
+      "dialogs": [
+        {
+          "type": "confirm",
+          "message": "你确认要离开该页面吗?",
+          "defaultValue": "",
+          "url": "http://127.0.0.1:5173/#/course/022/page/1201"
+        },
+        {
+          "type": "alert",
+          "message": "你留下来啦😄",
+          "defaultValue": "",
+          "url": "http://127.0.0.1:5173/#/course/022/page/1201"
+        }
+      ]
+    },
+    {
+      "name": "actual Article Content iframe: invalid onsubmit opens native alert and does not submit; valid values POST exactly once",
+      "dialogs": [
+        {
+          "type": "alert",
+          "message": "输入不能为空白，且需要相等"
+        }
+      ],
+      "posts": [
+        {
+          "method": "POST",
+          "body": "num1=12&num2=12"
+        }
+      ]
+    },
+    {
+      "name": "all 13 original HTML Code blocks retain original card source and non-runnable controls",
+      "count": 13,
+      "files": [
+        "024-1325.json",
+        "024-1325.json",
+        "024-1325.json",
+        "024-1327.json",
+        "024-1330.json",
+        "024-1330.json",
+        "024-1330.json",
+        "024-1331.json",
+        "024-1334.json",
+        "024-1334.json",
+        "024-1334.json",
+        "024-1335.json",
+        "024-1342.json"
+      ]
+    },
+    {
+      "name": "CodeBlock HTML enabled derivative: real editor change -> native prompt/alert -> identical Run repeats and preserves editor source",
+      "dialogs": [
+        {
+          "type": "prompt",
+          "message": "HTML code",
+          "defaultValue": "seed"
+        },
+        {
+          "type": "alert",
+          "message": "HTML 输入",
+          "defaultValue": ""
+        },
+        {
+          "type": "prompt",
+          "message": "HTML code",
+          "defaultValue": "seed"
+        },
+        {
+          "type": "alert",
+          "message": "HTML 输入",
+          "defaultValue": ""
+        }
+      ],
+      "fixtureDerivative": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "sourceFilesBefore": {
+    "src/content-web.ts": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
+    "src/native-dialog-transform.ts": "988d6651cb779fe2ca04d38381d1d5805c2b3655891c48dd3bcc4bc219aeace4",
+    "src/native-web-dialogs.ts": "ec29aa2c680598f04cf701628c2eb36cfd614e4c251d8e774fe0c7cbc7566c32",
+    "src/SourceWebPreview.tsx": "a736a3ea389343ae929de87cf0535abdd4a69fd642a45a6ebc4e6185a1cb8105",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3"
+  },
+  "finishedAt": "2026-11-02T10:54:43.236Z",
+  "sourceFilesAfter": {
+    "src/content-web.ts": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
+    "src/native-dialog-transform.ts": "988d6651cb779fe2ca04d38381d1d5805c2b3655891c48dd3bcc4bc219aeace4",
+    "src/native-web-dialogs.ts": "ec29aa2c680598f04cf701628c2eb36cfd614e4c251d8e774fe0c7cbc7566c32",
+    "src/SourceWebPreview.tsx": "a736a3ea389343ae929de87cf0535abdd4a69fd642a45a6ebc4e6185a1cb8105",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3"
+  },
+  "changedFiles": []
+}

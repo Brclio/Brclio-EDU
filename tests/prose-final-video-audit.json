@@ -1,0 +1,971 @@
+{
+  "at": "2026-11-02T10:43:45.847Z",
+  "videoState": "Paused at time0 after deterministic seek(0) to present decoded frame; original metadata policy",
+  "rows": [
+    {
+      "file": "public/content/pages/024-1324.json",
+      "path": "components/1/resolved/0",
+      "hash": "6fc7a49c8186",
+      "source": {
+        "height": 3753.453125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video src=\"/content/assets/2bd93e40c4a680f2ac30.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": -1144.3125,
+              "width": 638,
+              "height": 332.75,
+              "top": -1144.3125,
+              "right": 1039,
+              "bottom": -811.5625,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 1640.6875,
+              "width": 638,
+              "height": 332.75
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "332.75px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "ebe622e1dd67272774b67e5432ef2f14f41b06fc3f4d367dbbdbcc4a19edfe99",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.225
+              ]
+            ],
+            "frameChangedOver10": 0
+          },
+          {
+            "html": "<video src=\"/content/assets/9be9f1ea2a13de401038.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 635.703125,
+              "width": 638,
+              "height": 332.75,
+              "top": 635.703125,
+              "right": 1039,
+              "bottom": 968.453125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 3420.703125,
+              "width": 638,
+              "height": 332.75
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "332.75px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "e98655f391fa85f6547a91d4ec2b4469480c1b63c8f0c2c8488acfbdcfbf4c9b",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.066667,
+                3.767
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 3753.453125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/2bd93e40c4a680f2ac30.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": -1300.3125,
+              "width": 638,
+              "height": 332.75,
+              "top": -1300.3125,
+              "right": 1039,
+              "bottom": -967.5625,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 1640.6875,
+              "width": 638,
+              "height": 332.75
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "332.75px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "ebe622e1dd67272774b67e5432ef2f14f41b06fc3f4d367dbbdbcc4a19edfe99",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.494
+              ]
+            ],
+            "frameChangedOver10": 0
+          },
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/9be9f1ea2a13de401038.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 479.703125,
+              "width": 638,
+              "height": 332.75,
+              "top": 479.703125,
+              "right": 1039,
+              "bottom": 812.453125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 3420.703125,
+              "width": 638,
+              "height": 332.75
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "332.75px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "e98655f391fa85f6547a91d4ec2b4469480c1b63c8f0c2c8488acfbdcfbf4c9b",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.066667,
+                3.767
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 53,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    },
+    {
+      "file": "public/content/pages/024-1325.json",
+      "path": "components/0/resolved/2",
+      "hash": "f748c6223f90",
+      "source": {
+        "height": 528.953125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video src=\"/api/media/fc016e52f3a60c386a00\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 104,
+              "width": 638,
+              "height": 342.953125,
+              "top": 104,
+              "right": 1039,
+              "bottom": 446.953125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 72,
+              "width": 638,
+              "height": 342.953125
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "342.953px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "54284436bd7da0ee0106b6a1c47af9d4c67bacb85be8db0bdb04e7d5cfb7b884",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                2.4
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 528.953125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/api/media/fc016e52f3a60c386a00\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 104,
+              "width": 638,
+              "height": 342.953125,
+              "top": 104,
+              "right": 1039,
+              "bottom": 446.953125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 72,
+              "width": 638,
+              "height": 342.953125
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "342.953px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "54284436bd7da0ee0106b6a1c47af9d4c67bacb85be8db0bdb04e7d5cfb7b884",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                2.4
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 214,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    },
+    {
+      "file": "public/content/pages/024-1325.json",
+      "path": "components/3/resolved/2",
+      "hash": "860156dc4925",
+      "source": {
+        "height": 928.265625,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video src=\"/content/assets/985af86792ee03d976af.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 455.171875,
+              "width": 638,
+              "height": 345.09375,
+              "top": 455.171875,
+              "right": 1039,
+              "bottom": 800.265625,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 423.171875,
+              "width": 638,
+              "height": 345.09375
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "345.094px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "7ee60c925651a9a6ec61884f613f480f40fae9ea31ddbfc6b7287c4799d3800f",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.066667,
+                5.443
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 928.265625,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/985af86792ee03d976af.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 327.171875,
+              "width": 638,
+              "height": 345.09375,
+              "top": 327.171875,
+              "right": 1039,
+              "bottom": 672.265625,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 423.171875,
+              "width": 638,
+              "height": 345.09375
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "345.094px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "7ee60c925651a9a6ec61884f613f480f40fae9ea31ddbfc6b7287c4799d3800f",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.066667,
+                5.443
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 0,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    },
+    {
+      "file": "public/content/pages/024-1329.json",
+      "path": "components/2/resolved/0",
+      "hash": "610fba2a6972",
+      "source": {
+        "height": 1681.109375,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video src=\"/content/dependencies/biqnet.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": -597,
+              "width": 638,
+              "height": 373.40625,
+              "top": -597,
+              "right": 1039,
+              "bottom": -223.59375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 116,
+              "width": 638,
+              "height": 373.40625
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "373.406px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "b4758a2321bd3146ad5a7b2583a161e47cdca3d779279dcf6a65108974095efa",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                2.4
+              ]
+            ],
+            "frameChangedOver10": 0
+          },
+          {
+            "html": "<video src=\"/content/assets/a3eafbd3cb037bbbd5fd.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 594.703125,
+              "width": 638,
+              "height": 373.40625,
+              "top": 594.703125,
+              "right": 1039,
+              "bottom": 968.109375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 1307.703125,
+              "width": 638,
+              "height": 373.40625
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "373.406px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "a41a6a6258398095f30d7a8cf03d15d5661017dc4245ebc11deb658b93069859",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                2.955
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 1681.109375,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/dependencies/biqnet.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": -753,
+              "width": 638,
+              "height": 373.40625,
+              "top": -753,
+              "right": 1039,
+              "bottom": -379.59375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 116,
+              "width": 638,
+              "height": 373.40625
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "373.406px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "b4758a2321bd3146ad5a7b2583a161e47cdca3d779279dcf6a65108974095efa",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                2.4
+              ]
+            ],
+            "frameChangedOver10": 0
+          },
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/a3eafbd3cb037bbbd5fd.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 438.703125,
+              "width": 638,
+              "height": 373.40625,
+              "top": 438.703125,
+              "right": 1039,
+              "bottom": 812.109375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 1307.703125,
+              "width": 638,
+              "height": 373.40625
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "373.406px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "a41a6a6258398095f30d7a8cf03d15d5661017dc4245ebc11deb658b93069859",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.033
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 136,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    },
+    {
+      "file": "public/content/pages/024-1334.json",
+      "path": "components/1/resolved/2",
+      "hash": "6e1783b38988",
+      "source": {
+        "height": 1279.828125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video src=\"/content/assets/97f214cda0a3df25b6c6.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 423.015625,
+              "width": 638,
+              "height": 448.8125,
+              "top": 423.015625,
+              "right": 1039,
+              "bottom": 871.828125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 735.015625,
+              "width": 638,
+              "height": 448.8125
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "448.812px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "bb1a58ff1b58cf3c3a3fd5b73e8545d654b3687c4b37932061c0c60a690bb94c",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.002
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 1279.828125,
+        "hr": [],
+        "pre": [],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/97f214cda0a3df25b6c6.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 283.015625,
+              "width": 638,
+              "height": 448.8125,
+              "top": 283.015625,
+              "right": 1039,
+              "bottom": 731.828125,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 735.015625,
+              "width": 638,
+              "height": 448.8125
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "448.812px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "bb1a58ff1b58cf3c3a3fd5b73e8545d654b3687c4b37932061c0c60a690bb94c",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.006
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 10,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    },
+    {
+      "file": "public/content/pages/024-1349.json",
+      "path": "components/2/resolved/4",
+      "hash": "b501a586802f",
+      "source": {
+        "height": 1951.21875,
+        "hr": [],
+        "pre": [
+          {
+            "html": "<pre><div><div style=\"color: rgb(212, 212, 212); font-size: 16px; text-shadow: none; font-family: Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; background: rgb(30, 30, 30); border-radius: 8px;\"><code class=\"language-text\" style=\"color: rgb(212, 212, 212); font-size: 16px; text-shadow: none; font-family: Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace; direction: ltr; text-align: le",
+            "rect": {
+              "x": 401,
+              "y": 506.34375,
+              "width": 638,
+              "height": 80,
+              "top": 506.34375,
+              "right": 1039,
+              "bottom": 586.34375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 474.34375,
+              "width": 638,
+              "height": 80
+            },
+            "styles": {
+              "border": "0px none rgb(37, 41, 51)",
+              "borderColor": "rgb(37, 41, 51)",
+              "borderStyle": "none",
+              "borderRadius": "0px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "visible",
+              "height": "80px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        "videos": [
+          {
+            "html": "<video src=\"/content/assets/42e5cf7f561b5d4f54f4.mp4\" controls=\"\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 78,
+              "width": 638,
+              "height": 368.34375,
+              "top": 78,
+              "right": 1039,
+              "bottom": 446.34375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 46,
+              "width": 638,
+              "height": 368.34375
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "368.344px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "add800d578e202f10f28050a682dba8f52753857e21f6d67393ad825f85c148c",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.062
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "local": {
+        "height": 1951.21875,
+        "hr": [],
+        "pre": [
+          {
+            "html": "<pre class=\"solo-source-pre\"><div><div class=\"solo-source-code\"><code class=\"edu-quiz-source-code language-text\"><span>请求  https://edu.py2fun.com/learn#/course/list  网页截图文件  ./course.png\n源码中，有该信息</span></code></div></div></pre>",
+            "rect": {
+              "x": 401,
+              "y": 506.34375,
+              "width": 638,
+              "height": 80,
+              "top": 506.34375,
+              "right": 1039,
+              "bottom": 586.34375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 474.34375,
+              "width": 638,
+              "height": 80
+            },
+            "styles": {
+              "border": "0px none rgb(37, 41, 51)",
+              "borderColor": "rgb(37, 41, 51)",
+              "borderStyle": "none",
+              "borderRadius": "0px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "visible",
+              "height": "80px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        "videos": [
+          {
+            "html": "<video controls=\"\" preload=\"metadata\" src=\"/content/assets/42e5cf7f561b5d4f54f4.mp4\" style=\"max-width: 100%;\"></video>",
+            "rect": {
+              "x": 401,
+              "y": 78,
+              "width": 638,
+              "height": 368.34375,
+              "top": 78,
+              "right": 1039,
+              "bottom": 446.34375,
+              "left": 401
+            },
+            "relativeRect": {
+              "x": 0,
+              "y": 46,
+              "width": 638,
+              "height": 368.34375
+            },
+            "styles": {
+              "border": "1px solid rgb(222, 222, 222)",
+              "borderColor": "rgb(222, 222, 222)",
+              "borderStyle": "solid",
+              "borderRadius": "4px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(37, 41, 51)",
+              "overflow": "hidden",
+              "height": "368.344px",
+              "width": "638px",
+              "boxSizing": "border-box",
+              "margin": "16px 0px",
+              "padding": "20px"
+            },
+            "frameHash": "add800d578e202f10f28050a682dba8f52753857e21f6d67393ad825f85c148c",
+            "preload": "metadata",
+            "autoplay": false,
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "networkState": 1,
+            "buffered": [
+              [
+                -0.033333,
+                3.062
+              ]
+            ],
+            "frameChangedOver10": 0
+          }
+        ]
+      },
+      "pixel": {
+        "changedOver10": 0,
+        "changedOutsideVideos": 0,
+        "sameSize": true
+      }
+    }
+  ],
+  "passed": true
+}

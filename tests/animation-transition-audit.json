@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-02T10:10:46.398Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    {
+      "name": "initial",
+      "counters": [
+        "1/5",
+        "1/5"
+      ],
+      "pass": true
+    },
+    {
+      "name": "100ms-after-next",
+      "counters": [
+        "1/5",
+        "1/5"
+      ],
+      "source": {
+        "opacity": "1",
+        "transition": "none"
+      },
+      "local": {
+        "opacity": "1",
+        "animation": "none"
+      },
+      "pass": true
+    },
+    {
+      "name": "fade-completed",
+      "counters": [
+        "2/5",
+        "2/5"
+      ],
+      "pass": true
+    },
+    {
+      "name": "replay-counter-before-afterChange",
+      "counters": [
+        "2/5",
+        "2/5"
+      ],
+      "pass": true
+    },
+    {
+      "name": "replay-completed",
+      "counters": [
+        "1/5",
+        "1/5"
+      ],
+      "pass": true
+    },
+    {
+      "name": "replay-during-fade",
+      "counters": [
+        "2/5",
+        "2/5"
+      ],
+      "pass": true
+    },
+    {
+      "name": "touch-swipe",
+      "counters": [
+        "3/5",
+        "3/5"
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,13 @@
+.solo-completed{position:relative;width:100%;min-height:100vh;padding-bottom:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#3d4665;background:#fff;font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:16px;line-height:normal;letter-spacing:normal;-webkit-font-smoothing:antialiased}
+.solo-completed-picture{width:185px;height:180px;background:url('/content/site-ui/completed-7e445ad6.png') center/cover no-repeat}
+.solo-completed-title{margin-top:30px;height:24px;white-space:nowrap;font-weight:500}
+.solo-completed-description{margin-top:24px;width:224px;font-size:14px;line-height:21px;white-space:pre-wrap;text-align:center}
+.solo-completed-reward{margin-top:24px;width:369px;height:89px;background:#ecf3fc;flex-direction:column;gap:12px;border-radius:4px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:16px;line-height:100%;color:#3d4665}
+.solo-completed-diamond{margin-top:12px;display:flex;align-items:center}
+.solo-completed-diamond i{display:inline-block;width:15px;height:18px;background:url('/content/site-ui/completion-diamond.png') center/contain no-repeat;margin:0 4px;vertical-align:bottom}
+.solo-completed-footer{position:fixed;left:0;right:0;bottom:0;height:120px;background:#fff;border-top:1px solid #dce2e5;display:flex;align-items:center;z-index:2}
+.solo-completed-container{width:638px;margin:0 auto;display:flex;align-items:center;justify-content:center}
+.solo-completed-footer button{font-family:Arial,sans-serif;font-size:16px;font-weight:400;appearance:none;outline:none;width:167px;height:48px;border-radius:6px;border:1px solid #575bfd;display:flex;align-items:center;justify-content:center;line-height:normal;letter-spacing:0;cursor:pointer;color:#fff;background:#575bfd;transition:background-color .2s ease-in-out;padding:1px 6px}
+.solo-completed-footer button:hover{background:#0b11fc;border-color:#0b11fc}
+.solo-completed-loading{width:100%;display:flex;align-items:center;justify-content:center}
+.solo-completed-loading img{width:80px;display:block;height:auto}

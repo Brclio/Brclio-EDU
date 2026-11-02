@@ -1,0 +1,99 @@
+{
+  "startedAt": "2026-11-02T11:01:14.137Z",
+  "sourceReference": {
+    "path": "output/editor-visual/web-workspace-source.png",
+    "sha256": "b0fa707718c3f69abe6fce954f5863ab4b1f25335acf722b3c2516f24a2478d9",
+    "captureFileModifiedAt": "2026-11-02T10:22:59.040Z",
+    "captureTimeBasis": "Existing raw source PNG filesystem mtime; screenshot does not embed a timestamp.",
+    "sourceURL": "https://edu.py2fun.com/learn#/course/022/page/1177",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 60
+    },
+    "sha256After": "b0fa707718c3f69abe6fce954f5863ab4b1f25335acf722b3c2516f24a2478d9"
+  },
+  "historicalMainReportHashBefore": "3d960ab45215ca981d5da42041eb59bde3a0de319cd417a975595a82b296d3dc",
+  "sourceFilesBefore": {
+    "src/content-workspace.css": "9188487afd4e2dd99d4d05be88a15733b1db277b550d0ade228cabdaa8ca608d",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3",
+    "src/styles.css": "79a47067beffebb0f9817b68d5fdb9fcf5c1ad37f1a2c4ff21febf3ffd639d1d",
+    "src/solo-fidelity.css": "f28239b731a8338080fa786a59062af2fe2f6b252e82148a808f2efda4ccc479"
+  },
+  "errors": [],
+  "local": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 60,
+      "top": 0,
+      "right": 1280,
+      "bottom": 60,
+      "left": 0
+    },
+    "title": {
+      "text": "尝试一下",
+      "rect": {
+        "x": 49,
+        "y": 17,
+        "width": 63.515625,
+        "height": 24,
+        "top": 17,
+        "right": 112.515625,
+        "bottom": 41,
+        "left": 49
+      },
+      "height": "24px",
+      "font": "16px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "lineHeight": "normal",
+      "color": "rgb(37, 41, 51)"
+    },
+    "border": "",
+    "padding": "0px 20px"
+  },
+  "comparisons": [
+    {
+      "name": "header",
+      "width": 1280,
+      "height": 60,
+      "changedPixels": 26,
+      "over8": 2,
+      "over20": 0,
+      "maximumChannelDifference": 20,
+      "meanAbsoluteChannelDifference": 0.001328125,
+      "differenceBounds": [
+        26,
+        24,
+        37,
+        34
+      ]
+    },
+    {
+      "name": "title",
+      "width": 110,
+      "height": 34,
+      "changedPixels": 0,
+      "over8": 0,
+      "over20": 0,
+      "maximumChannelDifference": 0,
+      "meanAbsoluteChannelDifference": 0,
+      "differenceBounds": null
+    }
+  ],
+  "finishedAt": "2026-11-02T11:01:26.594Z",
+  "historicalMainReportHashAfter": "3d960ab45215ca981d5da42041eb59bde3a0de319cd417a975595a82b296d3dc",
+  "sourceFilesAfter": {
+    "src/content-workspace.css": "9188487afd4e2dd99d4d05be88a15733b1db277b550d0ade228cabdaa8ca608d",
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3",
+    "src/styles.css": "79a47067beffebb0f9817b68d5fdb9fcf5c1ad37f1a2c4ff21febf3ffd639d1d",
+    "src/solo-fidelity.css": "f28239b731a8338080fa786a59062af2fe2f6b252e82148a808f2efda4ccc479"
+  },
+  "changedFiles": []
+}

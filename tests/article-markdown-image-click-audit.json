@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-02T10:34:14.776Z",
+  "sourceImplementation": "data/source/article-visual/main.js offset34683: img renderer passes preview:!1 to original AntImage",
+  "asset": "/content/assets/9e8bd8cb0a1cfba20d7c.png",
+  "checks": [
+    {
+      "kind": "Markdown",
+      "side": "source",
+      "previewOpens": false,
+      "passed": true
+    },
+    {
+      "kind": "Markdown",
+      "side": "local",
+      "previewOpens": false,
+      "passed": true
+    },
+    {
+      "kind": "HTML",
+      "side": "source",
+      "previewOpens": false,
+      "passed": true
+    },
+    {
+      "kind": "HTML",
+      "side": "local",
+      "previewOpens": false,
+      "passed": true
+    },
+    {
+      "kind": "Image-positive-control",
+      "side": "source",
+      "previewOpens": true,
+      "passed": true
+    },
+    {
+      "kind": "Image-positive-control",
+      "side": "local",
+      "previewOpens": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

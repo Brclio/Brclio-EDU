@@ -1,0 +1,159 @@
+{
+  "createdAt": "2026-11-02T08:21:15.660Z",
+  "base": "http://127.0.0.1:5173",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "results": [
+    {
+      "side": "source",
+      "action": "category",
+      "category": "全部",
+      "count": 28,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "小白系列🔥",
+      "count": 12,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "python30天",
+      "count": 2,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "python 入门",
+      "count": 6,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "数据分析",
+      "count": 5,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "数据结构",
+      "count": 7,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "C及C++",
+      "count": 4,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "category",
+      "category": "前端课程",
+      "count": 1,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "expand-second-chapter",
+      "visibleCards": 8,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "switch-back-to-first-chapter",
+      "visibleCards": 11,
+      "passed": true
+    },
+    {
+      "side": "source",
+      "action": "collapse-first-chapter",
+      "visibleCards": 0,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "全部",
+      "count": 28,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "小白系列🔥",
+      "count": 12,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "python30天",
+      "count": 2,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "python 入门",
+      "count": 6,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "数据分析",
+      "count": 5,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "数据结构",
+      "count": 7,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "C及C++",
+      "count": 4,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "category",
+      "category": "前端课程",
+      "count": 1,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "expand-second-chapter",
+      "visibleCards": 8,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "switch-back-to-first-chapter",
+      "visibleCards": 11,
+      "passed": true
+    },
+    {
+      "side": "local",
+      "action": "collapse-first-chapter",
+      "visibleCards": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

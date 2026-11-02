@@ -1,0 +1,1467 @@
+{
+  "at": "2026-11-02T10:58:48.847Z",
+  "base": "http://127.0.0.1:5177",
+  "sourceDirectory": "/tmp/brclio-spoiler-final-20261102/src",
+  "implementationHashes": {
+    "ArticleSpoiler.tsx": "eb2120f17cadb9255011baee00113a5df21ed7e5d38533619a8a65ca18c728f7",
+    "article-spoiler.css": "64876891ee84b534ec7fc7de932a0c3db98baec0de000adb9697a6ed8ab9d1e1",
+    "useSourceClickWave.ts": "7e1e78d7b1ec7f91cb8a7079a0222f35b3c8307d725a76287821c16ddbcbe65f",
+    "source-click-wave.css": "34c0e9010a63532ec47578ad92625b5f1ce434680847d21d83581dc931593749",
+    "Content.tsx": "854471a979008bcf4bb06d48584aab6e36b26864ab9c17e19c76071d4a898e76"
+  },
+  "components": 29,
+  "states": [
+    {
+      "index": 0,
+      "file": "public/content/pages/001-2.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n计算机内部不能精确地表示所有的浮点数。例如，只有偶数可以在pow(2,53)和pow(2,54)之间表示，奇数被四舍五入。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n计算机内部不能精确地表示所有的浮点数。例如，只有偶数可以在pow(2,53)和pow(2,54)之间表示，奇数被四舍五入。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 0,
+      "file": "public/content/pages/001-2.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n计算机内部不能精确地表示所有的浮点数。例如，只有偶数可以在pow(2,53)和pow(2,54)之间表示，奇数被四舍五入。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n计算机内部不能精确地表示所有的浮点数。例如，只有偶数可以在pow(2,53)和pow(2,54)之间表示，奇数被四舍五入。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 1,
+      "file": "public/content/pages/001-2.json",
+      "path": "components/10",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n输入help(str)将告诉你所有关于字符串对象的信息。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n输入help(str)将告诉你所有关于字符串对象的信息。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 1,
+      "file": "public/content/pages/001-2.json",
+      "path": "components/10",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n输入help(str)将告诉你所有关于字符串对象的信息。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n输入help(str)将告诉你所有关于字符串对象的信息。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 2,
+      "file": "public/content/pages/001-3.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\nrange(10, 1, -1) 连续序列为: 10, 9, 8, 7, 6, 5, 4, 3, 2。\nrange(10, 1, -2) 连续序列为: 10, 8, 6, 4, 2。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\nrange(10, 1, -1) 连续序列为: 10, 9, 8, 7, 6, 5, 4, 3, 2。\n\nrange(10, 1, -2) 连续序列为: 10, 8, 6, 4, 2。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 2,
+      "file": "public/content/pages/001-3.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 234,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\nrange(10, 1, -1) 连续序列为: 10, 9, 8, 7, 6, 5, 4, 3, 2。\nrange(10, 1, -2) 连续序列为: 10, 8, 6, 4, 2。"
+      },
+      "local": {
+        "width": 960,
+        "height": 234,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\nrange(10, 1, -1) 连续序列为: 10, 9, 8, 7, 6, 5, 4, 3, 2。\n\nrange(10, 1, -2) 连续序列为: 10, 8, 6, 4, 2。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 3,
+      "file": "public/content/pages/001-4.json",
+      "path": "components/11",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n列表推导 返回一个列表，而不是字符串。要获得 \"HELLO\"，我们需要将列表元素连接回一个字符串。比如''.join(upper)。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n列表推导 返回一个列表，而不是字符串。要获得 \"HELLO\"，我们需要将列表元素连接回一个字符串。比如''.join(upper)。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 3,
+      "file": "public/content/pages/001-4.json",
+      "path": "components/11",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n列表推导 返回一个列表，而不是字符串。要获得 \"HELLO\"，我们需要将列表元素连接回一个字符串。比如''.join(upper)。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n列表推导 返回一个列表，而不是字符串。要获得 \"HELLO\"，我们需要将列表元素连接回一个字符串。比如''.join(upper)。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 4,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n为n1和n2挑选一些具体的数值，并尝试找到交换它们数值的方法。让n1为4，n2为10。如果我们把n1设为4+10，我们如何才能得到n1的原始值，即4？\n意识到从14（n1中的新值）中减去10（n2的值），得到4（n1的初始值）。我们可以把n2设为4。\n如果我们从14（n1中的值）中减去4（n2中的新值），我们得到10（n2的初始值）。我们可以将n1设置为10。\n归纳出解决方案，如下所示。\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\n实施解决方案\n在不同的测试案例上执行该解决方案。例如，用n1等于-5，n2等于2来尝试解决方案，看看我们是否根据我们的解决方案得到了正确的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n为n1和n2挑选一些具体的数值，并尝试找到交换它们数值的方法。让n1为4，n2为10。如果我们把n1设为4+10，我们如何才能得到n1的原始值，即4？\n\n意识到从14（n1中的新值）中减去10（n2的值），得到4（n1的初始值）。我们可以把n2设为4。\n\n如果我们从14（n1中的值）中减去4（n2中的新值），我们得到10（n2的初始值）。我们可以将n1设置为10。\n\n归纳出解决方案，如下所示。\n\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\n实施解决方案\n\n在不同的测试案例上执行该解决方案。例如，用n1等于-5，n2等于2来尝试解决方案，看看我们是否根据我们的解决方案得到了正确的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 4,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 758,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n为n1和n2挑选一些具体的数值，并尝试找到交换它们数值的方法。让n1为4，n2为10。如果我们把n1设为4+10，我们如何才能得到n1的原始值，即4？\n意识到从14（n1中的新值）中减去10（n2的值），得到4（n1的初始值）。我们可以把n2设为4。\n如果我们从14（n1中的值）中减去4（n2中的新值），我们得到10（n2的初始值）。我们可以将n1设置为10。\n归纳出解决方案，如下所示。\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\n实施解决方案\n在不同的测试案例上执行该解决方案。例如，用n1等于-5，n2等于2来尝试解决方案，看看我们是否根据我们的解决方案得到了正确的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 758,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n为n1和n2挑选一些具体的数值，并尝试找到交换它们数值的方法。让n1为4，n2为10。如果我们把n1设为4+10，我们如何才能得到n1的原始值，即4？\n\n意识到从14（n1中的新值）中减去10（n2的值），得到4（n1的初始值）。我们可以把n2设为4。\n\n如果我们从14（n1中的值）中减去4（n2中的新值），我们得到10（n2的初始值）。我们可以将n1设置为10。\n\n归纳出解决方案，如下所示。\n\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\n实施解决方案\n\n在不同的测试案例上执行该解决方案。例如，用n1等于-5，n2等于2来尝试解决方案，看看我们是否根据我们的解决方案得到了正确的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 5,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n1 and n2\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\nOUTPUT n1 and n2\n解释\n我们输入n1和n2。设定：\nn1为n1和n2的数值之和。\nn2为n1 - n2，得到n1的旧值。\nn1为n1 - n2，得到n2的初始值。\n最后，我们n1和n2作为输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n1 and n2\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\nOUTPUT n1 and n2\n解释\n\n我们输入n1和n2。设定：\n\nn1为n1和n2的数值之和。\n\nn2为n1 - n2，得到n1的旧值。\n\nn1为n1 - n2，得到n2的初始值。\n\n最后，我们n1和n2作为输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 5,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 641,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n1 and n2\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\nOUTPUT n1 and n2\n解释\n我们输入n1和n2。设定：\nn1为n1和n2的数值之和。\nn2为n1 - n2，得到n1的旧值。\nn1为n1 - n2，得到n2的初始值。\n最后，我们n1和n2作为输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 641,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n1 and n2\nn1 = n1 + n2\nn2 = n1 - n2\nn1 = n1 - n2\nOUTPUT n1 and n2\n解释\n\n我们输入n1和n2。设定：\n\nn1为n1和n2的数值之和。\n\nn2为n1 - n2，得到n1的旧值。\n\nn1为n1 - n2，得到n2的初始值。\n\n最后，我们n1和n2作为输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 6,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n解释\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n1和n2。我们用过程符号来表示三个操作。然后，我们使用输出符号来显示输出。最后，我们用结束符号表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n\n解释\n\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n1和n2。我们用过程符号来表示三个操作。然后，我们使用输出符号来显示输出。最后，我们用结束符号表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 6,
+      "file": "public/content/pages/003-100.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 966,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n解释\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n1和n2。我们用过程符号来表示三个操作。然后，我们使用输出符号来显示输出。最后，我们用结束符号表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 966,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n\n解释\n\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n1和n2。我们用过程符号来表示三个操作。然后，我们使用输出符号来显示输出。最后，我们用结束符号表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 7,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n挑选一些数字。例如，1的绝对值是1，而-10的绝对值是10。请注意，非负数的绝对值与该数本身相同。然而，一个负数的绝对值是没有符号的数字的值。我们可以通过与-1相乘来去除负号。\n实施解决方案\n在不同的测试案例上执行该解决方案。例如，20的绝对值是20，根据我们的解决方案，我们将得到相同的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n挑选一些数字。例如，1的绝对值是1，而-10的绝对值是10。请注意，非负数的绝对值与该数本身相同。然而，一个负数的绝对值是没有符号的数字的值。我们可以通过与-1相乘来去除负号。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。例如，20的绝对值是20，根据我们的解决方案，我们将得到相同的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 7,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 458,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n挑选一些数字。例如，1的绝对值是1，而-10的绝对值是10。请注意，非负数的绝对值与该数本身相同。然而，一个负数的绝对值是没有符号的数字的值。我们可以通过与-1相乘来去除负号。\n实施解决方案\n在不同的测试案例上执行该解决方案。例如，20的绝对值是20，根据我们的解决方案，我们将得到相同的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 458,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n挑选一些数字。例如，1的绝对值是1，而-10的绝对值是10。请注意，非负数的绝对值与该数本身相同。然而，一个负数的绝对值是没有符号的数字的值。我们可以通过与-1相乘来去除负号。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。例如，20的绝对值是20，根据我们的解决方案，我们将得到相同的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 8,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n\nIF n >= 0\n    abs_value = n\nELSE\n    abs_value = n * -1\nOUTPUT abs_value\n解释\n我们输入 n。然后，我们使用大于或等于运算符（>=）来判断n是否为非负数。如果n是非负数，那么绝对值就是n本身。否则，绝对值是n * -1。最后，我们将绝对值作为输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n\nIF n >= 0\n    abs_value = n\nELSE\n    abs_value = n * -1\nOUTPUT abs_value\n解释\n\n我们输入 n。然后，我们使用大于或等于运算符（>=）来判断n是否为非负数。如果n是非负数，那么绝对值就是n本身。否则，绝对值是n * -1。最后，我们将绝对值作为输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 8,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 470,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n\nIF n >= 0\n    abs_value = n\nELSE\n    abs_value = n * -1\nOUTPUT abs_value\n解释\n我们输入 n。然后，我们使用大于或等于运算符（>=）来判断n是否为非负数。如果n是非负数，那么绝对值就是n本身。否则，绝对值是n * -1。最后，我们将绝对值作为输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 470,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n\nIF n >= 0\n    abs_value = n\nELSE\n    abs_value = n * -1\nOUTPUT abs_value\n解释\n\n我们输入 n。然后，我们使用大于或等于运算符（>=）来判断n是否为非负数。如果n是非负数，那么绝对值就是n本身。否则，绝对值是n * -1。最后，我们将绝对值作为输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 9,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n。我们用决策符号显示可能的分支，这取决于\"n >= 0？\"的答案。如果n是非零，那么绝对值就是n，如过程符号所示。否则，abs_value被设置为n * -1，如过程框所示。然后使用输出符号来显示输出。最后，使用end符号来表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n\n首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n。我们用决策符号显示可能的分支，这取决于\"n >= 0？\"的答案。如果n是非零，那么绝对值就是n，如过程符号所示。否则，abs_value被设置为n * -1，如过程框所示。然后使用输出符号来显示输出。最后，使用end符号来表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 9,
+      "file": "public/content/pages/003-105.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 792,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n。我们用决策符号显示可能的分支，这取决于\"n >= 0？\"的答案。如果n是非零，那么绝对值就是n，如过程符号所示。否则，abs_value被设置为n * -1，如过程框所示。然后使用输出符号来显示输出。最后，使用end符号来表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 792,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n\n首先使用start符号来表示程序的开始。接下来，我们用输入符号要求输入n。我们用决策符号显示可能的分支，这取决于\"n >= 0？\"的答案。如果n是非零，那么绝对值就是n，如过程符号所示。否则，abs_value被设置为n * -1，如过程框所示。然后使用输出符号来显示输出。最后，使用end符号来表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 10,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n为年龄age和工作年限experience选择具体数值。为了确定这个人有资格从事的最高级工作，我们根据条件来决定。解决问题的一种方式是确定一个人是否为十八岁或以上，然后检查他们的经验是否与高级项目经理或项目经理所需的年限相符。\n实施解决方案\n在不同的测试案例上执行该解决方案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n为年龄age和工作年限experience选择具体数值。为了确定这个人有资格从事的最高级工作，我们根据条件来决定。解决问题的一种方式是确定一个人是否为十八岁或以上，然后检查他们的经验是否与高级项目经理或项目经理所需的年限相符。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 10,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 459,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n仔细阅读问题陈述，了解输入和预期输出。\n思考解决方案\n为年龄age和工作年限experience选择具体数值。为了确定这个人有资格从事的最高级工作，我们根据条件来决定。解决问题的一种方式是确定一个人是否为十八岁或以上，然后检查他们的经验是否与高级项目经理或项目经理所需的年限相符。\n实施解决方案\n在不同的测试案例上执行该解决方案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 459,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n\n仔细阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n为年龄age和工作年限experience选择具体数值。为了确定这个人有资格从事的最高级工作，我们根据条件来决定。解决问题的一种方式是确定一个人是否为十八岁或以上，然后检查他们的经验是否与高级项目经理或项目经理所需的年限相符。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 11,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT age and experience\nIF age >= 18\n    IF experience >= 5\n        OUTPUT senior project manager\n    ELSE-IF experience >= 3\n        OUTPUT project manager\n    ELSE\n        OUTPUT project coordinator\nELSE\n    OUTPUT not eligible       \n解释\n我们输入候选人的年龄age和经验experience。接下来，我们检查候选人是否至少有18岁。\n如果年龄是十八岁或以上，我们检查他们是否有五年或以上的经验。如果他们有，那么他们就有资格担任高级项目经理(senior project manager)的职位。如果没有，我们检查是否有至少三年的经验。如果是，该候选人就适合做项目经理(project manager)。否则，该候选人有资格担任项目协调员(project coordinator)的职位。\nELSE块中的代码，最后执行的是候选人是否未满十八岁，在这种情况下，他们没有资格申请工作。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT age and experience\nIF age >= 18\n    IF experience >= 5\n        OUTPUT senior project manager\n    ELSE-IF experience >= 3\n        OUTPUT project manager\n    ELSE\n        OUTPUT project coordinator\nELSE\n    OUTPUT not eligible       \n解释\n\n我们输入候选人的年龄age和经验experience。接下来，我们检查候选人是否至少有18岁。\n\n如果年龄是十八岁或以上，我们检查他们是否有五年或以上的经验。如果他们有，那么他们就有资格担任高级项目经理(senior project manager)的职位。如果没有，我们检查是否有至少三年的经验。如果是，该候选人就适合做项目经理(project manager)。否则，该候选人有资格担任项目协调员(project coordinator)的职位。\n\nELSE块中的代码，最后执行的是候选人是否未满十八岁，在这种情况下，他们没有资格申请工作。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 11,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 709,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT age and experience\nIF age >= 18\n    IF experience >= 5\n        OUTPUT senior project manager\n    ELSE-IF experience >= 3\n        OUTPUT project manager\n    ELSE\n        OUTPUT project coordinator\nELSE\n    OUTPUT not eligible       \n解释\n我们输入候选人的年龄age和经验experience。接下来，我们检查候选人是否至少有18岁。\n如果年龄是十八岁或以上，我们检查他们是否有五年或以上的经验。如果他们有，那么他们就有资格担任高级项目经理(senior project manager)的职位。如果没有，我们检查是否有至少三年的经验。如果是，该候选人就适合做项目经理(project manager)。否则，该候选人有资格担任项目协调员(project coordinator)的职位。\nELSE块中的代码，最后执行的是候选人是否未满十八岁，在这种情况下，他们没有资格申请工作。"
+      },
+      "local": {
+        "width": 960,
+        "height": 709,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT age and experience\nIF age >= 18\n    IF experience >= 5\n        OUTPUT senior project manager\n    ELSE-IF experience >= 3\n        OUTPUT project manager\n    ELSE\n        OUTPUT project coordinator\nELSE\n    OUTPUT not eligible       \n解释\n\n我们输入候选人的年龄age和经验experience。接下来，我们检查候选人是否至少有18岁。\n\n如果年龄是十八岁或以上，我们检查他们是否有五年或以上的经验。如果他们有，那么他们就有资格担任高级项目经理(senior project manager)的职位。如果没有，我们检查是否有至少三年的经验。如果是，该候选人就适合做项目经理(project manager)。否则，该候选人有资格担任项目协调员(project coordinator)的职位。\n\nELSE块中的代码，最后执行的是候选人是否未满十八岁，在这种情况下，他们没有资格申请工作。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 12,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n解释\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号询问年龄age和经验experience。然后，我们根据年龄显示可能的选项。\n如果年龄age为十八岁或以上:\n如果候选人有大于或等于五年的经验，我们就输出 \"高级项目经理(senior project manager)\"。\n否则，如果候选人有至少三年的经验，我们就输出 \"项目经理(project manager)\"。\n否则，我们用输出符号输出 \"项目协调人(project coordinator)\"。\n如果候选人未满十八岁:\n我们用输出符号输出 \"不合格(not eligible)\"。\n最后，结束符号标志着程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n\n解释\n\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号询问年龄age和经验experience。然后，我们根据年龄显示可能的选项。\n\n如果年龄age为十八岁或以上:\n\n如果候选人有大于或等于五年的经验，我们就输出 \"高级项目经理(senior project manager)\"。\n\n否则，如果候选人有至少三年的经验，我们就输出 \"项目经理(project manager)\"。\n\n否则，我们用输出符号输出 \"项目协调人(project coordinator)\"。\n\n如果候选人未满十八岁:\n\n我们用输出符号输出 \"不合格(not eligible)\"。\n\n最后，结束符号标志着程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 12,
+      "file": "public/content/pages/003-108.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 1392,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n解释\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号询问年龄age和经验experience。然后，我们根据年龄显示可能的选项。\n如果年龄age为十八岁或以上:\n如果候选人有大于或等于五年的经验，我们就输出 \"高级项目经理(senior project manager)\"。\n否则，如果候选人有至少三年的经验，我们就输出 \"项目经理(project manager)\"。\n否则，我们用输出符号输出 \"项目协调人(project coordinator)\"。\n如果候选人未满十八岁:\n我们用输出符号输出 \"不合格(not eligible)\"。\n最后，结束符号标志着程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 1392,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n\n解释\n\n我们首先使用start符号来表示程序的开始。接下来，我们用输入符号询问年龄age和经验experience。然后，我们根据年龄显示可能的选项。\n\n如果年龄age为十八岁或以上:\n\n如果候选人有大于或等于五年的经验，我们就输出 \"高级项目经理(senior project manager)\"。\n\n否则，如果候选人有至少三年的经验，我们就输出 \"项目经理(project manager)\"。\n\n否则，我们用输出符号输出 \"项目协调人(project coordinator)\"。\n\n如果候选人未满十八岁:\n\n我们用输出符号输出 \"不合格(not eligible)\"。\n\n最后，结束符号标志着程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 13,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n彻底阅读问题陈述，了解输入和预期输出。\n思考解决方案\n选择一些特定的数字并计算它们的阶乘。回顾一下阶乘公式: \n𝑓\n𝑎\n𝑐\n𝑡\n𝑜\n𝑟\n𝑖\n𝑎\n𝑙\n(\n𝑛\n)\n=\n𝑛\n∗\n(\n𝑛\n−\n1\n)\n∗\n.\n.\n.\n∗\n1\nfactorial(n)=n∗(n−1)∗...∗1\n意识到一个循环将派上用场，因为我们必须将n与从\n(\n𝑛\n−\n1\n)\n(n−1)开始的数字相乘，一直到1。\n实施解决方案\n在不同的测试案例上执行该解决方案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示步骤\n理解问题\n\n彻底阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n选择一些特定的数字并计算它们的阶乘。回顾一下阶乘公式: \n𝑓\n𝑎\n𝑐\n𝑡\n𝑜\n𝑟\n𝑖\n𝑎\n𝑙\n(\n𝑛\n)\n=\n𝑛\n∗\n(\n𝑛\n−\n1\n)\n∗\n.\n.\n.\n∗\n1\nfactorial(n)=n∗(n−1)∗...∗1\n\n意识到一个循环将派上用场，因为我们必须将n与从\n(\n𝑛\n−\n1\n)\n(n−1)开始的数字相乘，一直到1。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 13,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/2",
+      "label": "显示步骤",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 482,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n彻底阅读问题陈述，了解输入和预期输出。\n思考解决方案\n选择一些特定的数字并计算它们的阶乘。回顾一下阶乘公式: \n𝑓\n𝑎\n𝑐\n𝑡\n𝑜\n𝑟\n𝑖\n𝑎\n𝑙\n(\n𝑛\n)\n=\n𝑛\n∗\n(\n𝑛\n−\n1\n)\n∗\n.\n.\n.\n∗\n1\nfactorial(n)=n∗(n−1)∗...∗1\n意识到一个循环将派上用场，因为我们必须将n与从\n(\n𝑛\n−\n1\n)\n(n−1)开始的数字相乘，一直到1。\n实施解决方案\n在不同的测试案例上执行该解决方案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 482,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏步骤\n理解问题\n\n彻底阅读问题陈述，了解输入和预期输出。\n\n思考解决方案\n\n选择一些特定的数字并计算它们的阶乘。回顾一下阶乘公式: \n𝑓\n𝑎\n𝑐\n𝑡\n𝑜\n𝑟\n𝑖\n𝑎\n𝑙\n(\n𝑛\n)\n=\n𝑛\n∗\n(\n𝑛\n−\n1\n)\n∗\n.\n.\n.\n∗\n1\nfactorial(n)=n∗(n−1)∗...∗1\n\n意识到一个循环将派上用场，因为我们必须将n与从\n(\n𝑛\n−\n1\n)\n(n−1)开始的数字相乘，一直到1。\n\n实施解决方案\n\n在不同的测试案例上执行该解决方案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 14,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n\nanswer = 1\nIF n > 1\n    i = n\n    WHILE i >= 1\n        answer = answer * i\n        i = i - 1\nOUTPUT answer\n解释\n我们输入一个数字n并将answer设为1。\nThen, we check if n is higher than 1. If it is, we set i equal to n. While i is greater than or equal to 1, we multiply i with the value in answer, update answer, and decrement i. For instance, if n is 5 then answer will take on the following values:\n然后，我们检查n是否大于1，如果是，我们将i设为n。当i大于或等于1时，我们将i与answer当前的值相乘，并更新answer，然后i减去1 直到i==1时停止。\n例如，如果n是5，那么answer将会如下进行更新：\nanswer = 1 * 5 = 5\nanswer = 5 * 4 = 20\nanswer = 20 * 3 = 60\nanswer = 60 * 2 = 120\nanswer = 120 * 1 = 120\n最后，我们输出answer。注意，如果`n'不大于1，它要么是0，要么是1，在这种情况下，阶乘是1。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n\nanswer = 1\nIF n > 1\n    i = n\n    WHILE i >= 1\n        answer = answer * i\n        i = i - 1\nOUTPUT answer\n解释\n\n我们输入一个数字n并将answer设为1。\n\nThen, we check if n is higher than 1. If it is, we set i equal to n. While i is greater than or equal to 1, we multiply i with the value in answer, update answer, and decrement i. For instance, if n is 5 then answer will take on the following values:\n\n然后，我们检查n是否大于1，如果是，我们将i设为n。当i大于或等于1时，我们将i与answer当前的值相乘，并更新answer，然后i减去1 直到i==1时停止。\n\n例如，如果n是5，那么answer将会如下进行更新：\n\nanswer = 1 * 5 = 5\n\nanswer = 5 * 4 = 20\n\nanswer = 20 * 3 = 60\n\nanswer = 60 * 2 = 120\n\nanswer = 120 * 1 = 120\n\n最后，我们输出answer。注意，如果`n'不大于1，它要么是0，要么是1，在这种情况下，阶乘是1。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 14,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/4",
+      "label": "显示伪代码",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 1104,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n\nanswer = 1\nIF n > 1\n    i = n\n    WHILE i >= 1\n        answer = answer * i\n        i = i - 1\nOUTPUT answer\n解释\n我们输入一个数字n并将answer设为1。\nThen, we check if n is higher than 1. If it is, we set i equal to n. While i is greater than or equal to 1, we multiply i with the value in answer, update answer, and decrement i. For instance, if n is 5 then answer will take on the following values:\n然后，我们检查n是否大于1，如果是，我们将i设为n。当i大于或等于1时，我们将i与answer当前的值相乘，并更新answer，然后i减去1 直到i==1时停止。\n例如，如果n是5，那么answer将会如下进行更新：\nanswer = 1 * 5 = 5\nanswer = 5 * 4 = 20\nanswer = 20 * 3 = 60\nanswer = 60 * 2 = 120\nanswer = 120 * 1 = 120\n最后，我们输出answer。注意，如果`n'不大于1，它要么是0，要么是1，在这种情况下，阶乘是1。"
+      },
+      "local": {
+        "width": 960,
+        "height": 1104,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n\nanswer = 1\nIF n > 1\n    i = n\n    WHILE i >= 1\n        answer = answer * i\n        i = i - 1\nOUTPUT answer\n解释\n\n我们输入一个数字n并将answer设为1。\n\nThen, we check if n is higher than 1. If it is, we set i equal to n. While i is greater than or equal to 1, we multiply i with the value in answer, update answer, and decrement i. For instance, if n is 5 then answer will take on the following values:\n\n然后，我们检查n是否大于1，如果是，我们将i设为n。当i大于或等于1时，我们将i与answer当前的值相乘，并更新answer，然后i减去1 直到i==1时停止。\n\n例如，如果n是5，那么answer将会如下进行更新：\n\nanswer = 1 * 5 = 5\n\nanswer = 5 * 4 = 20\n\nanswer = 20 * 3 = 60\n\nanswer = 60 * 2 = 120\n\nanswer = 120 * 1 = 120\n\n最后，我们输出answer。注意，如果`n'不大于1，它要么是0，要么是1，在这种情况下，阶乘是1。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 15,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n解释\n我们使用start符号来标记程序的开始。我们输入n，如输入符号所示，并将answer设为1。接下来，我们检查n是否大于1。如果是，我们将i初始化为n，并重复用i乘以answer，并将i减去1，直到i小于1。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n\n解释\n\n我们使用start符号来标记程序的开始。我们输入n，如输入符号所示，并将answer设为1。接下来，我们检查n是否大于1。如果是，我们将i初始化为n，并重复用i乘以answer，并将i减去1，直到i小于1。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 15,
+      "file": "public/content/pages/003-113.json",
+      "path": "components/6",
+      "label": "显示流程图",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 823,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n解释\n我们使用start符号来标记程序的开始。我们输入n，如输入符号所示，并将answer设为1。接下来，我们检查n是否大于1。如果是，我们将i初始化为n，并重复用i乘以answer，并将i减去1，直到i小于1。"
+      },
+      "local": {
+        "width": 960,
+        "height": 823,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n\n解释\n\n我们使用start符号来标记程序的开始。我们输入n，如输入符号所示，并将answer设为1。接下来，我们检查n是否大于1。如果是，我们将i初始化为n，并重复用i乘以answer，并将i减去1，直到i小于1。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 16,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/3",
+      "label": "显示解决步骤",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 163.265625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示解决步骤\n理解问题\n仔细检查问题陈述并思考期望的输出。\n思考解决方案\n选择一些特定的数字并计算它们的平均值。例如，4和10的平均值是7。注意两个数的平均值是它们的和除以2。\n实施解决方案\n在不同的测试用例上执行解决方案。例如，20和30的平均值是25。尝试多种测试来验证答案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 163.265625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示解决步骤\n理解问题\n\n仔细检查问题陈述并思考期望的输出。\n\n思考解决方案\n\n选择一些特定的数字并计算它们的平均值。例如，4和10的平均值是7。注意两个数的平均值是它们的和除以2。\n\n实施解决方案\n\n在不同的测试用例上执行解决方案。例如，20和30的平均值是25。尝试多种测试来验证答案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 16,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/3",
+      "label": "显示解决步骤",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 426,
+        "buttonWidth": 163.265625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏解决步骤\n理解问题\n仔细检查问题陈述并思考期望的输出。\n思考解决方案\n选择一些特定的数字并计算它们的平均值。例如，4和10的平均值是7。注意两个数的平均值是它们的和除以2。\n实施解决方案\n在不同的测试用例上执行解决方案。例如，20和30的平均值是25。尝试多种测试来验证答案。"
+      },
+      "local": {
+        "width": 960,
+        "height": 426,
+        "buttonWidth": 163.265625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏解决步骤\n理解问题\n\n仔细检查问题陈述并思考期望的输出。\n\n思考解决方案\n\n选择一些特定的数字并计算它们的平均值。例如，4和10的平均值是7。注意两个数的平均值是它们的和除以2。\n\n实施解决方案\n\n在不同的测试用例上执行解决方案。例如，20和30的平均值是25。尝试多种测试来验证答案。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 17,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/5",
+      "label": "显示伪代码",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n1 and n2\naverage  = (n1 + n2)/2\nOUTPUT average\n解释\n以 n1和 n2作为输入。使用加法(+)和除法(/)运算符计算两个数的平均值。最后，输出平均值。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示伪代码\nINPUT n1 and n2\naverage  = (n1 + n2)/2\nOUTPUT average\n解释\n\n以 n1和 n2作为输入。使用加法(+)和除法(/)运算符计算两个数的平均值。最后，输出平均值。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 17,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/5",
+      "label": "显示伪代码",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 365,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n1 and n2\naverage  = (n1 + n2)/2\nOUTPUT average\n解释\n以 n1和 n2作为输入。使用加法(+)和除法(/)运算符计算两个数的平均值。最后，输出平均值。"
+      },
+      "local": {
+        "width": 960,
+        "height": 365,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏伪代码\nINPUT n1 and n2\naverage  = (n1 + n2)/2\nOUTPUT average\n解释\n\n以 n1和 n2作为输入。使用加法(+)和除法(/)运算符计算两个数的平均值。最后，输出平均值。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 18,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/7",
+      "label": "显示流程图",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n解释\n我们首先使用开始符号来指示程序的开始。接下来，我们使用输入符号询问数字 n1和 n2。我们使用过程符号来显示平均值的计算。然后，我们使用输出符号来指示输出。最后，我们使用结束符号来表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示流程图\n\n解释\n\n我们首先使用开始符号来指示程序的开始。接下来，我们使用输入符号询问数字 n1和 n2。我们使用过程符号来显示平均值的计算。然后，我们使用输出符号来指示输出。最后，我们使用结束符号来表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 18,
+      "file": "public/content/pages/003-95.json",
+      "path": "components/7",
+      "label": "显示流程图",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 785,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n解释\n我们首先使用开始符号来指示程序的开始。接下来，我们使用输入符号询问数字 n1和 n2。我们使用过程符号来显示平均值的计算。然后，我们使用输出符号来指示输出。最后，我们使用结束符号来表示程序的结束。"
+      },
+      "local": {
+        "width": 960,
+        "height": 785,
+        "buttonWidth": 147.390625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏流程图\n\n解释\n\n我们首先使用开始符号来指示程序的开始。接下来，我们使用输入符号询问数字 n1和 n2。我们使用过程符号来显示平均值的计算。然后，我们使用输出符号来指示输出。最后，我们使用结束符号来表示程序的结束。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 19,
+      "file": "public/content/pages/004-120.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n可以使用//运算符进行地板除法，向下取整。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n可以使用//运算符进行地板除法，向下取整。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 19,
+      "file": "public/content/pages/004-120.json",
+      "path": "components/3",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n可以使用//运算符进行地板除法，向下取整。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n可以使用//运算符进行地板除法，向下取整。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 20,
+      "file": "public/content/pages/004-190.json",
+      "path": "components/1",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n5 * 3 = 5 + 5 + 5 = 15\n关键点: 将乘法变为加法。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n5 * 3 = 5 + 5 + 5 = 15\n\n关键点: 将乘法变为加法。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 20,
+      "file": "public/content/pages/004-190.json",
+      "path": "components/1",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 232,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n5 * 3 = 5 + 5 + 5 = 15\n关键点: 将乘法变为加法。"
+      },
+      "local": {
+        "width": 960,
+        "height": 232,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n5 * 3 = 5 + 5 + 5 = 15\n\n关键点: 将乘法变为加法。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 21,
+      "file": "public/content/pages/004-202.json",
+      "path": "components/1",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n123 = 100 + 20 + 3 = 1 * 100 + 2 * 10 + 3 * 1"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n123 = 100 + 20 + 3 = 1 * 100 + 2 * 10 + 3 * 1"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 21,
+      "file": "public/content/pages/004-202.json",
+      "path": "components/1",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n123 = 100 + 20 + 3 = 1 * 100 + 2 * 10 + 3 * 1"
+      },
+      "local": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n123 = 100 + 20 + 3 = 1 * 100 + 2 * 10 + 3 * 1"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 22,
+      "file": "public/content/pages/005-248.json",
+      "path": "components/2",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n你必须将父类sname 和子类 xsname 的字符串拼接后才能得到正确的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n你必须将父类sname 和子类 xsname 的字符串拼接后才能得到正确的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 22,
+      "file": "public/content/pages/005-248.json",
+      "path": "components/2",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n你必须将父类sname 和子类 xsname 的字符串拼接后才能得到正确的输出。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n你必须将父类sname 和子类 xsname 的字符串拼接后才能得到正确的输出。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 23,
+      "file": "public/content/pages/006-263.json",
+      "path": "components/13",
+      "label": "提示1",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 106.875,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示1\n思考一下该重复数字和它的索引。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 106.875,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示1\n\n思考一下该重复数字和它的索引。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 23,
+      "file": "public/content/pages/006-263.json",
+      "path": "components/13",
+      "label": "提示1",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 138.625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示1\n思考一下该重复数字和它的索引。"
+      },
+      "local": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 138.625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示1\n\n思考一下该重复数字和它的索引。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 24,
+      "file": "public/content/pages/006-263.json",
+      "path": "components/14",
+      "label": "提示2",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 109.109375,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示2\n假设重复数字的索引为index 、index+1，必须在一起，因为数组必须有序，如果重复数字不在一起，肯定乱序，不符合题目输入数组的要求。\n因为数字在[1,n-1](包括)之间，则nums[index+1] == index+1，想一想为什么？\n所以答案其实就是索引和数字相等的那个数字。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 109.109375,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示2\n\n假设重复数字的索引为index 、index+1，必须在一起，因为数组必须有序，如果重复数字不在一起，肯定乱序，不符合题目输入数组的要求。\n\n因为数字在[1,n-1](包括)之间，则nums[index+1] == index+1，想一想为什么？\n\n所以答案其实就是索引和数字相等的那个数字。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 24,
+      "file": "public/content/pages/006-263.json",
+      "path": "components/14",
+      "label": "提示2",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 322,
+        "buttonWidth": 140.859375,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示2\n假设重复数字的索引为index 、index+1，必须在一起，因为数组必须有序，如果重复数字不在一起，肯定乱序，不符合题目输入数组的要求。\n因为数字在[1,n-1](包括)之间，则nums[index+1] == index+1，想一想为什么？\n所以答案其实就是索引和数字相等的那个数字。"
+      },
+      "local": {
+        "width": 960,
+        "height": 322,
+        "buttonWidth": 140.859375,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示2\n\n假设重复数字的索引为index 、index+1，必须在一起，因为数组必须有序，如果重复数字不在一起，肯定乱序，不符合题目输入数组的要求。\n\n因为数字在[1,n-1](包括)之间，则nums[index+1] == index+1，想一想为什么？\n\n所以答案其实就是索引和数字相等的那个数字。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 25,
+      "file": "public/content/pages/006-265.json",
+      "path": "components/9",
+      "label": "提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n如果 mid*mid == a，则返回 True。否则，返回 False。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n\n如果 mid*mid == a，则返回 True。否则，返回 False。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 25,
+      "file": "public/content/pages/006-265.json",
+      "path": "components/9",
+      "label": "提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n如果 mid*mid == a，则返回 True。否则，返回 False。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n如果 mid*mid == a，则返回 True。否则，返回 False。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 26,
+      "file": "public/content/pages/006-265.json",
+      "path": "components/12",
+      "label": "提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n如果 \n𝑚\n𝑖\n𝑑\n∗\n(\n𝑚\n𝑖\n𝑑\n+\n1\n)\n2\n=\n=\n𝑛\n2\nmid∗(mid+1)\n\t​\n\n==n，则返回mid。否则，继续二分查找。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n\n如果 \n𝑚\n𝑖\n𝑑\n∗\n(\n𝑚\n𝑖\n𝑑\n+\n1\n)\n2\n=\n=\n𝑛\n2\nmid∗(mid+1)\n\t​\n\n==n，则返回mid。否则，继续二分查找。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 26,
+      "file": "public/content/pages/006-265.json",
+      "path": "components/12",
+      "label": "提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n如果 \n𝑚\n𝑖\n𝑑\n∗\n(\n𝑚\n𝑖\n𝑑\n+\n1\n)\n2\n=\n=\n𝑛\n2\nmid∗(mid+1)\n\t​\n\n==n，则返回mid。否则，继续二分查找。"
+      },
+      "local": {
+        "width": 960,
+        "height": 177,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n如果 \n𝑚\n𝑖\n𝑑\n∗\n(\n𝑚\n𝑖\n𝑑\n+\n1\n)\n2\n=\n=\n𝑛\n2\nmid∗(mid+1)\n\t​\n\n==n，则返回mid。否则，继续二分查找。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 27,
+      "file": "public/content/pages/006-268.json",
+      "path": "components/8",
+      "label": "提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n可以用两次二分查找来寻找目标的第一个和最后一个索引。从而计算出现次数，确定是否超过一半。"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 99.765625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "提示\n\n可以用两次二分查找来寻找目标的第一个和最后一个索引。从而计算出现次数，确定是否超过一半。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 27,
+      "file": "public/content/pages/006-268.json",
+      "path": "components/8",
+      "label": "提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n可以用两次二分查找来寻找目标的第一个和最后一个索引。从而计算出现次数，确定是否超过一半。"
+      },
+      "local": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n可以用两次二分查找来寻找目标的第一个和最后一个索引。从而计算出现次数，确定是否超过一半。"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 28,
+      "file": "public/content/pages/010-499.json",
+      "path": "components/12",
+      "label": "显示提示",
+      "state": "closed",
+      "source": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n只需要之前的一行就可以找到最优解!"
+      },
+      "local": {
+        "width": 960,
+        "height": 136,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "显示提示\n\n只需要之前的一行就可以找到最优解!"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    },
+    {
+      "index": 28,
+      "file": "public/content/pages/010-499.json",
+      "path": "components/12",
+      "label": "显示提示",
+      "state": "open",
+      "source": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n只需要之前的一行就可以找到最优解!"
+      },
+      "local": {
+        "width": 960,
+        "height": 176,
+        "buttonWidth": 131.515625,
+        "fontVariant": "normal",
+        "fontFeatureSettings": "normal",
+        "text": "隐藏提示\n\n只需要之前的一行就可以找到最优解!"
+      },
+      "sameSize": true,
+      "changedOver10": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

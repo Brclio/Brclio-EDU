@@ -1,5 +1,5 @@
 /* The learn application uses a fixed 638 px centered lesson column. */
-.learning.solo{font-family:-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;color:#252933;-webkit-font-smoothing:antialiased;--purple:#575bfd}
+.learning.solo{font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;color:#252933;-webkit-font-smoothing:antialiased;--purple:#575bfd}
 .solo .lesson-header{height:120px;border:0;position:relative;padding:0 max(24px,calc((100vw - 1296px)/2));gap:20px;justify-content:center}
 .solo .lesson-back{font-size:18px;font-weight:400;width:309px;gap:6px;padding:0;flex:1}
 .solo .lesson-back svg{width:24px;height:24px}
@@ -33,5 +33,63 @@
 .solo .lesson-footer small:not(:has([role=status])){font-size:0}
 .solo .lesson-footer small{flex:1;text-align:center}
 .solo .edu-quiz{margin-top:28px}
-@media(max-width:1099px){.solo .lesson-header{padding:0 24px}.solo .lesson-back{width:auto}.solo .lesson-progress{width:min(638px,60vw)}.solo .lesson-tools span{display:none}}
-@media(max-width:700px){.solo .lesson-header{height:120px;flex-wrap:wrap;padding:20px;gap:16px;align-content:center}.solo .lesson-progress{order:3;width:100%;max-width:638px;flex-basis:100%}.solo .lesson-back{font-size:16px}.solo .lesson-main{margin-top:20px;padding:0 20px 160px}.solo .lesson-main>h1{font-size:24px}.solo .lesson-footer>div{padding:0 20px;gap:20px}.solo .lesson-footer .previous,.solo .lesson-footer .primary{width:calc((100vw - 60px)/2);min-width:0}.solo .lesson-footer small{display:none}.solo .edu-image{padding:24px 0}.solo .edu-content{font-size:16px}}
+/* The source keeps its 638px reading column on narrow viewports too. */
+.solo .lesson-header{padding:0;gap:0;flex-wrap:nowrap;overflow:hidden}
+.solo .lesson-back{flex:0 0 309px;width:309px;height:120px;margin-right:20px}
+.solo .lesson-progress{flex:0 0 638px;width:638px;max-width:none;order:0}
+.solo .lesson-tools{flex:0 0 309px;width:309px;height:120px;margin-left:20px;visibility:hidden}
+.solo .lesson-main,.solo.with-sidebar .lesson-main{width:638px;max-width:none;margin:19.90625px auto 0;padding:0 0 140px}
+.solo .lesson-footer>div{width:638px;max-width:100%;padding:0;gap:0}
+.solo .lesson-footer .primary,.solo .lesson-footer .previous{width:167px;flex-shrink:0}
+.solo .lesson-footer small{display:block}
+.solo .lesson-footer .previous:disabled{display:none}
+.solo-notes-launcher{position:fixed;bottom:24px;right:24px;width:60px;height:60px;display:grid;place-items:center;color:#575bfd;background:#fff;border-radius:50%;box-shadow:0 2px 10px #0000001a;z-index:15}
+.solo .edu-content{font-size:16px}
+
+.solo .edu-note .edu-note-icon{border:0;border-radius:0;background:none;display:block}
+
+/* Typography from the original learn Markdown renderer. */
+.solo .edu-markdown h1{font-size:32px;line-height:normal;margin:21.44px 0;color:#252933}
+.solo .edu-markdown h3{font-size:18.72px;line-height:normal;margin:18.72px 0;color:#252933;font-weight:700}
+.solo .edu-markdown h4{font-size:16px;line-height:normal;margin:21.28px 0;color:#252933}
+.solo .edu-markdown li{margin:0;line-height:normal}
+.solo .edu-markdown ol{margin:0;padding-left:40px}
+.solo .edu-markdown code:not(.edu-fill-code):not(.edu-quiz-source-code){font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace;font-size:12px;color:#ca5947;background:#ffeeed;border-radius:4px;margin:0 2px;padding:2px 4px}
+.solo .edu-markdown a{color:#575bfd}
+.solo .edu-markdown blockquote{position:relative;margin:0;padding:0 18px;border:0;border-radius:0;background:none}
+.solo .edu-markdown blockquote:before{content:'';width:4px;top:0;left:0;bottom:0;background:#dce2e5;position:absolute}
+.solo .edu-markdown p img,.solo .edu-markdown p video{width:100%;margin:16px 0;border:1px solid #dedede;border-radius:4px;overflow:hidden;display:block;object-fit:contain;padding:20px}
+.solo .edu-markdown table{width:100%;max-width:65em;border:1px solid #dedede;margin:15px auto;border-collapse:collapse;empty-cells:show;display:table}
+.solo .edu-markdown :is(th,td){height:35px;border:1px solid #dedede;padding:0 10px;white-space:nowrap}
+.solo .edu-markdown th{font-weight:700;text-align:center!important;background:rgba(158,188,226,.2)}
+.solo .edu-markdown tbody tr:nth-child(2n){background:rgba(158,188,226,.12)}
+.solo .edu-markdown tr:hover{background:#efefef}
+.solo .edu-markdown .solo-source-pre{border-radius:0;font:16px/normal monospace;margin:16px 0;padding:0;border:0;background:none;overflow:visible;white-space:pre}
+.solo .edu-markdown .solo-source-code{padding:16px;margin:8px 0;overflow:auto;background:#1e1e1e;border-radius:8px;color:#d4d4d4;line-height:24px;font-size:16px}
+.solo .edu-markdown .solo-source-code code{display:inline;background:none;border:0;margin:0;padding:0;color:#d4d4d4;font:16px/24px Menlo,Monaco,Consolas,"Andale Mono","Ubuntu Mono","Courier New",monospace;white-space:pre;word-break:normal;overflow-wrap:normal;tab-size:4}
+
+.solo .edu-markdown strong{color:inherit}
+/* H5t uses full container width whenever source metadata supplies a width. */
+.solo .edu-image-Image>img{width:auto;border:0!important}
+.solo .edu-image-Image>img[style*="width:"]{width:100%!important}
+
+.solo .edu-markdown img{max-width:none}
+/* Original footer button typography and all paint states. */
+.solo .lesson-footer .primary,.solo .lesson-footer .previous{font-family:Arial,sans-serif;line-height:normal;letter-spacing:0;outline:none}
+.solo .lesson-footer .primary{transition:background-color .2s ease-in-out}
+.solo .lesson-footer .previous{background:#fff;transition:color .2s ease-in-out,border .2s ease-in-out}
+.solo .lesson-footer .primary:hover:not(:disabled){background:#0b11fc;border-color:#0b11fc}
+.solo .lesson-footer .previous:hover:not(:disabled){color:#0b11fc;border-color:#0b11fc}
+.solo .lesson-footer button:disabled{opacity:.6;cursor:not-allowed}
+
+.solo .edu-markdown hr{border:1px inset;margin:8px 0}
+.solo .edu-markdown blockquote:before{background:#dce2e57f}
+.solo .edu-markdown strong{font-weight:bolder}
+
+/* Source Qve keeps the furthest fill while the white stepper can move back. */
+.solo .lesson-back{color:#6b7f99;line-height:normal}
+.solo .solo-step-progress{position:relative;border-radius:5px}
+.solo .solo-step-progress i{position:absolute;top:0;left:0;border-radius:5px;transition:width .2s ease-in-out}
+.solo .solo-step-progress i:after{display:none}
+.solo .solo-step-progress b{position:absolute;top:0;left:0;height:10px;transition:width .2s ease-in-out}
+.solo .solo-step-progress b:after{content:"";position:absolute;top:1px;right:1px;width:8px;height:8px;border-radius:4px;background:#fff}

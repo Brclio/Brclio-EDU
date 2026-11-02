@@ -1,0 +1,1757 @@
+{
+  "generatedAt": "2026-11-02T10:57:26.512325+00:00",
+  "sourceReport": "2026-11-02T10:56:21.081Z",
+  "metric": "Absolute maximum RGB channel difference. No alignment, resizing, masking, or antialias removal. Tolerance 16 is reported additionally alongside strict differences. Each viewport is reset to its native scroll origin before capture. Retry random option order alone is synchronized after original retry/empty-answer assertions.",
+  "rows": [
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        193
+      ],
+      "localSize": [
+        638,
+        193
+      ],
+      "pixels": 123134,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        193
+      ],
+      "localSize": [
+        638,
+        193
+      ],
+      "pixels": 123134,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        193
+      ],
+      "localSize": [
+        638,
+        193
+      ],
+      "pixels": 123134,
+      "differentPixels": 2,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        193
+      ],
+      "localSize": [
+        638,
+        193
+      ],
+      "pixels": 123134,
+      "differentPixels": 48,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        193
+      ],
+      "localSize": [
+        638,
+        193
+      ],
+      "pixels": 123134,
+      "differentPixels": 34,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        261
+      ],
+      "localSize": [
+        638,
+        261
+      ],
+      "pixels": 166518,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        261
+      ],
+      "localSize": [
+        638,
+        261
+      ],
+      "pixels": 166518,
+      "differentPixels": 20,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        261
+      ],
+      "localSize": [
+        638,
+        261
+      ],
+      "pixels": 166518,
+      "differentPixels": 20,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        261
+      ],
+      "localSize": [
+        638,
+        261
+      ],
+      "pixels": 166518,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        261
+      ],
+      "localSize": [
+        638,
+        261
+      ],
+      "pixels": 166518,
+      "differentPixels": 36,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        167
+      ],
+      "localSize": [
+        638,
+        167
+      ],
+      "pixels": 106546,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        167
+      ],
+      "localSize": [
+        638,
+        167
+      ],
+      "pixels": 106546,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        167
+      ],
+      "localSize": [
+        638,
+        167
+      ],
+      "pixels": 106546,
+      "differentPixels": 12,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        167
+      ],
+      "localSize": [
+        638,
+        167
+      ],
+      "pixels": 106546,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        167
+      ],
+      "localSize": [
+        638,
+        167
+      ],
+      "pixels": 106546,
+      "differentPixels": 13,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        83
+      ],
+      "localSize": [
+        638,
+        83
+      ],
+      "pixels": 52954,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        83
+      ],
+      "localSize": [
+        638,
+        83
+      ],
+      "pixels": 52954,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        83
+      ],
+      "localSize": [
+        638,
+        83
+      ],
+      "pixels": 52954,
+      "differentPixels": 8,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        83
+      ],
+      "localSize": [
+        638,
+        83
+      ],
+      "pixels": 52954,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        83
+      ],
+      "localSize": [
+        638,
+        83
+      ],
+      "pixels": 52954,
+      "differentPixels": 8,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        171
+      ],
+      "localSize": [
+        638,
+        171
+      ],
+      "pixels": 109098,
+      "differentPixels": 423,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 3
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        171
+      ],
+      "localSize": [
+        638,
+        171
+      ],
+      "pixels": 109098,
+      "differentPixels": 8,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        171
+      ],
+      "localSize": [
+        638,
+        171
+      ],
+      "pixels": 109098,
+      "differentPixels": 13,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        171
+      ],
+      "localSize": [
+        638,
+        171
+      ],
+      "pixels": 109098,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        171
+      ],
+      "localSize": [
+        638,
+        171
+      ],
+      "pixels": 109098,
+      "differentPixels": 5,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        638,
+        313
+      ],
+      "localSize": [
+        638,
+        313
+      ],
+      "pixels": 199694,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        638,
+        313
+      ],
+      "localSize": [
+        638,
+        313
+      ],
+      "pixels": 199694,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        638,
+        313
+      ],
+      "localSize": [
+        638,
+        313
+      ],
+      "pixels": 199694,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "retry",
+      "sourceSize": [
+        638,
+        313
+      ],
+      "localSize": [
+        638,
+        313
+      ],
+      "pixels": 199694,
+      "differentPixels": 48,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        638,
+        313
+      ],
+      "localSize": [
+        638,
+        313
+      ],
+      "pixels": 199694,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        193
+      ],
+      "localSize": [
+        390,
+        193
+      ],
+      "pixels": 75270,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        193
+      ],
+      "localSize": [
+        390,
+        193
+      ],
+      "pixels": 75270,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        193
+      ],
+      "localSize": [
+        390,
+        193
+      ],
+      "pixels": 75270,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        193
+      ],
+      "localSize": [
+        390,
+        193
+      ],
+      "pixels": 75270,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        193
+      ],
+      "localSize": [
+        390,
+        193
+      ],
+      "pixels": 75270,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        261
+      ],
+      "localSize": [
+        390,
+        261
+      ],
+      "pixels": 101790,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        261
+      ],
+      "localSize": [
+        390,
+        261
+      ],
+      "pixels": 101790,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        261
+      ],
+      "localSize": [
+        390,
+        261
+      ],
+      "pixels": 101790,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        261
+      ],
+      "localSize": [
+        390,
+        261
+      ],
+      "pixels": 101790,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        261
+      ],
+      "localSize": [
+        390,
+        261
+      ],
+      "pixels": 101790,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        167
+      ],
+      "localSize": [
+        390,
+        167
+      ],
+      "pixels": 65130,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        167
+      ],
+      "localSize": [
+        390,
+        167
+      ],
+      "pixels": 65130,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        167
+      ],
+      "localSize": [
+        390,
+        167
+      ],
+      "pixels": 65130,
+      "differentPixels": 12,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        167
+      ],
+      "localSize": [
+        390,
+        167
+      ],
+      "pixels": 65130,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        167
+      ],
+      "localSize": [
+        390,
+        167
+      ],
+      "pixels": 65130,
+      "differentPixels": 13,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        83
+      ],
+      "localSize": [
+        390,
+        83
+      ],
+      "pixels": 32370,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        83
+      ],
+      "localSize": [
+        390,
+        83
+      ],
+      "pixels": 32370,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        83
+      ],
+      "localSize": [
+        390,
+        83
+      ],
+      "pixels": 32370,
+      "differentPixels": 8,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        83
+      ],
+      "localSize": [
+        390,
+        83
+      ],
+      "pixels": 32370,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "multi_type_in",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        83
+      ],
+      "localSize": [
+        390,
+        83
+      ],
+      "pixels": 32370,
+      "differentPixels": 8,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        171
+      ],
+      "localSize": [
+        390,
+        171
+      ],
+      "pixels": 66690,
+      "differentPixels": 394,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        171
+      ],
+      "localSize": [
+        390,
+        171
+      ],
+      "pixels": 66690,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        171
+      ],
+      "localSize": [
+        390,
+        171
+      ],
+      "pixels": 66690,
+      "differentPixels": 5,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        171
+      ],
+      "localSize": [
+        390,
+        171
+      ],
+      "pixels": 66690,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "drag_and_drop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        171
+      ],
+      "localSize": [
+        390,
+        171
+      ],
+      "pixels": 66690,
+      "differentPixels": 5,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 2
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        390,
+        313
+      ],
+      "localSize": [
+        390,
+        313
+      ],
+      "pixels": 122070,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        390,
+        313
+      ],
+      "localSize": [
+        390,
+        313
+      ],
+      "pixels": 122070,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        313
+      ],
+      "localSize": [
+        390,
+        313
+      ],
+      "pixels": 122070,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "retry",
+      "sourceSize": [
+        390,
+        313
+      ],
+      "localSize": [
+        390,
+        313
+      ],
+      "pixels": 122070,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "solo",
+      "kind": "reorder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        390,
+        313
+      ],
+      "localSize": [
+        390,
+        313
+      ],
+      "pixels": 122070,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        960,
+        690
+      ],
+      "localSize": [
+        960,
+        690
+      ],
+      "pixels": 662400,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        960,
+        709
+      ],
+      "localSize": [
+        960,
+        709
+      ],
+      "pixels": 680640,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        960,
+        925
+      ],
+      "localSize": [
+        960,
+        925
+      ],
+      "pixels": 888000,
+      "differentPixels": 1859,
+      "differentPixelsOver16": 10,
+      "differentPercentOver16": 0.001126,
+      "maxChannelDifference": 32
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        960,
+        925
+      ],
+      "localSize": [
+        960,
+        925
+      ],
+      "pixels": 888000,
+      "differentPixels": 1856,
+      "differentPixelsOver16": 4,
+      "differentPercentOver16": 0.00045,
+      "maxChannelDifference": 19
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sourceSize": [
+        960,
+        643
+      ],
+      "localSize": [
+        960,
+        643
+      ],
+      "pixels": 617280,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sourceSize": [
+        960,
+        662
+      ],
+      "localSize": [
+        960,
+        662
+      ],
+      "pixels": 635520,
+      "differentPixels": 3,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sourceSize": [
+        960,
+        904
+      ],
+      "localSize": [
+        960,
+        904
+      ],
+      "pixels": 867840,
+      "differentPixels": 1795,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 5
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sourceSize": [
+        960,
+        904
+      ],
+      "localSize": [
+        960,
+        904
+      ],
+      "pixels": 867840,
+      "differentPixels": 1783,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 7
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        358,
+        722
+      ],
+      "localSize": [
+        358,
+        722
+      ],
+      "pixels": 258476,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        358,
+        741
+      ],
+      "localSize": [
+        358,
+        741
+      ],
+      "pixels": 265278,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        358,
+        1085
+      ],
+      "localSize": [
+        358,
+        1085
+      ],
+      "pixels": 388430,
+      "differentPixels": 1792,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 5
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        358,
+        1085
+      ],
+      "localSize": [
+        358,
+        1085
+      ],
+      "pixels": 388430,
+      "differentPixels": 1778,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 5
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sourceSize": [
+        358,
+        707
+      ],
+      "localSize": [
+        358,
+        707
+      ],
+      "pixels": 253106,
+      "differentPixels": 1,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sourceSize": [
+        358,
+        726
+      ],
+      "localSize": [
+        358,
+        726
+      ],
+      "pixels": 259908,
+      "differentPixels": 1,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 1
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sourceSize": [
+        358,
+        1097
+      ],
+      "localSize": [
+        358,
+        1097
+      ],
+      "pixels": 392726,
+      "differentPixels": 1776,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 5
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sourceSize": [
+        358,
+        1097
+      ],
+      "localSize": [
+        358,
+        1097
+      ],
+      "pixels": 392726,
+      "differentPixels": 1760,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 3
+    }
+  ],
+  "actualAppFeedback": [
+    {
+      "width": 1280,
+      "state": "wrong",
+      "sourceSize": [
+        637,
+        72
+      ],
+      "localSize": [
+        637,
+        72
+      ],
+      "pixels": 45864,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "width": 1280,
+      "state": "correct",
+      "sourceSize": [
+        637,
+        72
+      ],
+      "localSize": [
+        637,
+        72
+      ],
+      "pixels": 45864,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "width": 390,
+      "state": "wrong",
+      "sourceSize": [
+        390,
+        72
+      ],
+      "localSize": [
+        390,
+        72
+      ],
+      "pixels": 28080,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    },
+    {
+      "width": 390,
+      "state": "correct",
+      "sourceSize": [
+        390,
+        72
+      ],
+      "localSize": [
+        390,
+        72
+      ],
+      "pixels": 28080,
+      "differentPixels": 0,
+      "differentPixelsOver16": 0,
+      "differentPercentOver16": 0.0,
+      "maxChannelDifference": 0
+    }
+  ],
+  "summary": {
+    "states": 76,
+    "dimensionMismatches": 0,
+    "zeroDifferenceStates": 43,
+    "zeroDifferenceOver16States": 74,
+    "actualAppFeedbackStates": 4,
+    "actualAppFeedbackStrictZeroDifference": 4
+  }
+}

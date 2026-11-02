@@ -1,5 +1,6 @@
+import {transformNativeDialogs} from './native-dialog-transform.ts';
 // Only the executable preview is adapted; the original editable lesson source
-// stays intact. Sandbox frames cannot use native browser modal dialogs.
+// stays intact. Native dialogs are bridged by the trusted parent when configured.
 export function adaptDialogCalls(source: string) {
   let result = '', offset = 0, adapted = false;
   while (offset < source.length) {
@@ -48,17 +49,40 @@ const bootstrap = String.raw`
  };
  window.__eduDialog={prompt:(message,value)=>show('prompt',message,value),confirm:message=>show('confirm',message)};
  window.alert=message=>{show('alert',message);};
- const print = (args, error=false) => {
+ const print = (args, error=false, method='log') => {
+  if(window.__eduConsoleChannel){const text=args.map(value=>{try{return typeof value==='string'?value:(JSON.stringify(value)??String(value));}catch{return String(value);}});window.parent.postMessage({__eduPreviewConsole:window.__eduConsoleChannel,method:error?'error':method,data:text},'*');return;}
   const write=()=>{let output=document.getElementById('__edu-console');if(!output){output=document.createElement('pre');output.id='__edu-console';output.setAttribute('aria-label','JavaScript 控制台');output.style.cssText='white-space:pre-wrap;word-break:break-word;padding:12px;border-top:1px solid #e4e5ee;background:#f8f9fb;font:13px/1.7 monospace';document.body.append(output);}const line=document.createElement('div');line.textContent=args.map(value=>typeof value==='string'?value:(JSON.stringify(value)??String(value))).join(' ');if(error)line.style.color='#bd4047';output.append(line);};
   if(document.body)write();else document.addEventListener('DOMContentLoaded',write,{once:true});
  };
- for(const key of ['log','info','warn','error']){const original=console[key];console[key]=(...args)=>{original.apply(console,args);print(args,key==='error');};}
+ for(const key of ['log','info','warn','error']){const original=console[key];console[key]=(...args)=>{original.apply(console,args);print(args,key==='error',key);};}
  window.addEventListener('error',event=>print([event.message],true));
  window.addEventListener('unhandledrejection',event=>print([String(event.reason)],true));
 })();`;
+const nativeDialogBootstrap = String.raw`
+(() => {
+ const channel=window.__eduNativeDialogChannel,pending=new Map();let id=0,queue=Promise.resolve();
+ window.addEventListener('message',event=>{const data=event.data;if(event.source!==window.parent||data?.__eduPreviewDialogResponse!==channel||!pending.has(data.id))return;const resolve=pending.get(data.id);pending.delete(data.id);resolve(data.value);});
+ const show=(kind,message,value)=>{const task=queue.then(()=>new Promise(resolve=>{const requestId=++id;pending.set(requestId,resolve);window.parent.postMessage({__eduPreviewDialog:channel,id:requestId,kind,message:message===undefined?'':String(message),value:value===undefined?'':String(value)},'*');}));queue=task.catch(()=>{});return task;};
+ window.__eduDialog={alert:message=>show('alert',message),prompt:(message,value)=>show('prompt',message,value),confirm:message=>show('confirm',message)};
+ window.alert=window.__eduDialog.alert;window.prompt=window.__eduDialog.prompt;window.confirm=window.__eduDialog.confirm;
+ const replaying=new WeakSet();
+ window.__eduHandleEvent=(event,element,handler)=>{if(replaying.has(element))return true;event.preventDefault();Promise.resolve(handler.call(element,event)).then(result=>{if(result===false)return;if(event.type==='submit'&&element instanceof HTMLFormElement){setTimeout(()=>{replaying.add(element);try{element.requestSubmit(event.submitter||undefined)}finally{replaying.delete(element)}},0)}else if(event.type==='click'){if(element instanceof HTMLAnchorElement)window.location.href=element.href;else if(element.form&&element.type==='submit')element.form.requestSubmit(element)}}).catch(error=>console.error(error.message));return false;};
+})();`;
 const script = (value: string) => `<script>${value.replace(/<\/script/gi, '<\\/script')}</script>`;
-export function webPreviewDocument(html: string, css: string, js: string, hiddenJS = '') {
-  const head = script(bootstrap);
-  const document = /<head(?:\s[^>]*)?>/i.test(html) ? html.replace(/<head(?:\s[^>]*)?>/i, value => value + head) : head + html;
-  return document + `<style>${css.replace(/<\/style/gi,'<\\/style')}</style>` + script(adaptDialogCalls(js)) + script(hiddenJS);
+const decodeAttribute = (value:string) => value.replace(/&(?:quot|apos|lt|gt|amp|#(\d+)|#x([\da-f]+));/gi,(match,decimal,hex)=>decimal||hex?String.fromCodePoint(parseInt(decimal||hex,decimal?10:16)):({'&quot;':'"','&apos;':"'",'&lt;':'<','&gt;':'>','&amp;':'&'}[match.toLowerCase()]||match));
+export function webPreviewDocument(html: string, css: string, js: string, hiddenJS = '', options: { consoleChannel?: string; nativeDialogChannel?:string } = {}) {
+  let executableHTML=html,executableJS=js,executableHidden=hiddenJS;
+  if(options.nativeDialogChannel){
+    const inline:Array<{match:string;attributes:string;source:string}>=[];
+    html.replace(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi,(match,attributes,source)=>{if(!/\bsrc\s*=/.test(attributes)&&(!/\btype\s*=/.test(attributes)||/\btype\s*=\s*["']?(?:text|application)\/(?:javascript|ecmascript)/i.test(attributes)))inline.push({match,attributes,source});return match});
+    const sources=[...inline.map(item=>item.source),js,hiddenJS];let names:string[]=[],compiled=sources.map(source=>transformNativeDialogs(source));
+    for(let pass=0;pass<=sources.length;pass++){const next=[...new Set([...names,...compiled.flatMap(result=>result.asyncNames)])];if(pass&&next.length===names.length)break;names=next;compiled=sources.map(source=>transformNativeDialogs(source,names));}
+    if(compiled.some(result=>result.code.includes('window.__eduScriptQueue=')))compiled=sources.map(source=>transformNativeDialogs(source,names,true));
+    inline.forEach((item,index)=>{executableHTML=executableHTML.replace(item.match,`<script${item.attributes}>${compiled[index].code.replace(/<\/script/gi,'<\\/script')}</script>`)});
+    executableJS=compiled[inline.length].code;executableHidden=compiled[inline.length+1].code;
+    executableHTML=executableHTML.replace(/\s(on[a-z]+)\s*=\s*(["'])([\s\S]*?)\2/gi,(match,event,quote,value)=>{const callback=transformNativeDialogs(`(function(event){${decodeAttribute(value)}\n})`,names);if(!callback.adapted)return match;const code=`return window.__eduHandleEvent(event,this,${callback.code});`;return ` ${event}="${code.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"`;});
+  }
+  const head = script((options.consoleChannel ? `window.__eduConsoleChannel=${JSON.stringify(options.consoleChannel)};\n` : '') + bootstrap + (options.nativeDialogChannel ? `\nwindow.__eduNativeDialogChannel=${JSON.stringify(options.nativeDialogChannel)};\n${nativeDialogBootstrap}` : ''));
+  const document = /<head(?:\s[^>]*)?>/i.test(executableHTML) ? executableHTML.replace(/<head(?:\s[^>]*)?>/i, value => value + head) : head + executableHTML;
+  return document + `<style>${css.replace(/<\/style/gi,'<\\/style')}</style>` + script(options.nativeDialogChannel?executableJS:adaptDialogCalls(js)) + script(executableHidden);
 }

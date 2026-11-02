@@ -1,0 +1,58 @@
+{
+  "startedAt": "2026-11-02T09:52:45.045Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    {
+      "kind": "mult_choice",
+      "file": "016-994",
+      "questionId": 214,
+      "step": 1,
+      "checked": true,
+      "correct": true,
+      "completed": false,
+      "reload": true
+    },
+    {
+      "kind": "type_in",
+      "file": "015-938",
+      "questionId": 67,
+      "step": 1,
+      "checked": true,
+      "correct": true,
+      "completed": false,
+      "reload": true
+    },
+    {
+      "kind": "multi_type_in",
+      "file": "015-942",
+      "questionId": 78,
+      "step": 1,
+      "checked": true,
+      "correct": true,
+      "completed": false,
+      "reload": true
+    },
+    {
+      "kind": "drag_and_drop",
+      "file": "015-937",
+      "questionId": 73,
+      "step": 1,
+      "checked": true,
+      "correct": true,
+      "completed": false,
+      "reload": true
+    },
+    {
+      "kind": "reorder",
+      "file": "015-937",
+      "questionId": 74,
+      "step": 3,
+      "checked": true,
+      "correct": true,
+      "completed": false,
+      "reload": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T09:52:51.071Z"
+}

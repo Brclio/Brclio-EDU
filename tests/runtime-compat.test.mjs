@@ -26,12 +26,19 @@ test('all 99 runnable plotting examples return a displayed plot, including savef
  assert.equal(plots.length,99);
  for(const result of plots)assert.ok(result.messages.some(m=>m.type==='plots'&&m.value.length>0),result.key);
 });
-test('archived datasets and added Excel runtime wheels match their pinned checksums',async()=>{
+test('archived datasets and all local Python runtime files match pinned checksums with complete dependencies',async()=>{
  const data=JSON.parse(await fs.readFile('public/content/runtime-data/manifest.json','utf8'));
  for(const item of Object.values(data.files)){const bytes=await fs.readFile('public'+item.path);assert.equal(bytes.length,item.bytes);assert.equal(sha(bytes),item.sha256)}
  const runtime=JSON.parse(await fs.readFile('public/runtime/pyodide/manifest.json','utf8'));
  for(const name of ['openpyxl','et-xmlfile'])assert.ok(runtime.packages.some(p=>p.name===name));
- for(const item of runtime.files.filter(f=>/^(openpyxl|et_xmlfile)-/.test(f.file)))assert.equal(sha(await fs.readFile('public/runtime/pyodide/'+item.file)),item.sha256);
+ for(const item of runtime.files){const bytes=await fs.readFile('public/runtime/pyodide/'+item.file);assert.equal(bytes.length,item.bytes,item.file);assert.equal(sha(bytes),item.sha256,item.file)}
+ const lock=JSON.parse(await fs.readFile('public/runtime/pyodide/pyodide-lock.json','utf8'));
+ const pinnedFiles=new Map(runtime.files.map(item=>[item.file,item]));
+ for(const [name,pkg] of Object.entries(lock.packages)){
+  assert.ok(pinnedFiles.has(pkg.file_name),name+' must have a local file');
+  assert.equal(pinnedFiles.get(pkg.file_name).sha256,pkg.sha256,name);
+  for(const dependency of pkg.depends||[])assert.ok(lock.packages[dependency],name+' -> '+dependency);
+ }
 });
 test('restored raw_data.csv and books.txt produce the known course data',()=>{
  const stdout=id=>report.results.find(r=>r.id===id).messages.filter(m=>m.type==='stdout').map(m=>m.value).join('\n');

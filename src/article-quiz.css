@@ -1,0 +1,81 @@
+.article-quiz{margin:32px 0;border:1px solid #f0f0f0;border-radius:4px;background:#fff;color:#000;font-size:16px;line-height:1.5715;box-sizing:border-box;font-variant-numeric:tabular-nums}
+.article-quiz *{box-sizing:border-box}
+.article-quiz-heading{min-height:48px;margin-bottom:-1px;padding:16px 24px;border-bottom:1px solid #f0f0f0;font-size:18px;line-height:28.287px;font-weight:500;color:#00000073;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.article-quiz-body{padding:24px}
+.article-question-window{overflow:hidden;position:relative}
+.article-question-track{display:flex;align-items:flex-start;transition:transform .3s;position:relative}
+.article-quiz .article-question{flex:0 0 100%;width:100%;min-width:0;overflow:hidden;padding:0;margin:0;border:1px solid #0006;border-radius:0;background:#fff}
+.article-question-heading{padding:10px 20px;display:flex;align-items:flex-start}
+.article-question-number{display:flex;align-items:center;justify-content:center;flex:0 0 40px;height:40px;min-width:40px;margin:5px 16px 0 0;border-radius:4px;background:#000;color:#fff;box-shadow:1px 1px 9px #0003;cursor:pointer}
+.article-question-title{flex:1;min-width:0;margin-top:1em}
+.article-question-option{border-top:1px solid #0006;padding:10px 20px;display:flex;align-items:center;transition:margin .3s ease-in-out;cursor:pointer}
+.article-question-option.is-selected{border:2px solid #3b82f6;margin:8px;border-radius:4px}
+.article-choice-control{position:relative;width:40px;height:40px;flex:0 0 40px;margin-right:16px;display:flex;align-items:center;justify-content:center}
+.article-choice-control input{position:absolute;width:18px;height:18px;opacity:0;z-index:1;margin:0;cursor:pointer}
+.article-choice-symbol{display:block;position:relative;width:18px;height:18px;border:1px solid #d9d9d9;background:#fff}
+.article-choice-symbol.checkbox{border-radius:4px}.article-choice-symbol.radio{border-radius:50%}
+.article-choice-symbol.checked{border-color:#3b82f6}.article-choice-symbol.checkbox.checked{background:#3b82f6}
+.article-choice-symbol.checkbox.checked:after{content:'';position:absolute;top:50%;left:21.5%;width:6.4286px;height:10.2857px;border:2px solid #fff;border-top:0;border-left:0;transform:rotate(45deg) scale(1) translate(-50%,-50%)}
+.article-choice-symbol.radio.checked:after{content:'';position:absolute;inset:3px;border-radius:50%;background:#3b82f6}
+.article-choice-control input:focus-visible+.article-choice-symbol{box-shadow:0 0 0 3px #3b82f61f}
+.article-option-content{flex:1;min-width:0;display:flex;width:100%;padding-top:1em}
+.article-option-content>strong,.article-answer-label>strong{flex-shrink:0;margin-right:8px;font-weight:600}
+.article-option-content>div,.article-answer-text{flex:1;min-width:0}
+.article-question-footer{padding:10px 20px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #0006}
+.article-question-footer nav{display:flex;align-items:center}
+.article-question-footer button{display:inline-flex;align-items:center;justify-content:center;height:40px;min-height:40px;padding:6.4px 15px;font-size:16px;line-height:1.5715;border:1px solid #d9d9d9;border-radius:4px;background:white;color:#000;box-shadow:0 2px 0 #00000004;cursor:pointer}
+.article-question-footer nav button{min-width:40px;width:40px;padding:0;border-radius:50%}
+.article-question-footer nav button svg{width:16px;height:16px;fill:currentColor}
+.article-question-footer nav span{padding:0 20px;color:#00000073}
+.article-question-footer .article-quiz-submit{background:#3b82f6;border-color:#3b82f6;color:white}
+.article-question-footer .article-quiz-submit:disabled{background:#f5f5f5;border-color:#d9d9d9;color:#00000040;box-shadow:none;cursor:not-allowed}
+.article-answer-alert{flex:1;display:flex;align-items:flex-start;border:1px solid;border-radius:4px;padding:19px 15px 19px 24px;background:#fff}
+.article-answer-alert.success{background:#f6ffed;border-color:#b7eb8f}.article-answer-alert.error{background:#fff2f0;border-color:#ffccc7}.article-answer-alert.info{background:#00000005;border-color:#0006}.article-answer-alert.warning{background:transparent;border-color:transparent}
+.article-answer-icon{width:24px;height:24px;flex:0 0 24px;margin:0 19px 0 0;fill:currentColor}
+.article-answer-alert.success .article-answer-icon{color:#52c41a}.article-answer-alert.error .article-answer-icon{color:#ff4d4f}.article-answer-alert.info .article-answer-icon,.article-answer-alert.warning .article-answer-icon{color:#0006}
+.article-answer-copy{flex:1;min-width:0}.article-answer-label{display:flex;margin-bottom:4px;font-size:18px;color:#000;line-height:1.5715}
+.article-answer-explanation{position:relative;padding-left:80px;margin-bottom:1em;font-size:16px}
+.article-answer-explanation:before{content:'解析';position:absolute;left:26px;top:2px;border-radius:2px;background:#0000001f;padding:4px 8px;font-size:12px;line-height:12px}
+.article-answer-explanation.is-empty:before{display:none}
+.article-quiz .edu-markdown{margin:0;font-size:16px;color:#000;line-height:32px}
+.article-quiz .edu-markdown p{margin:0 0 24px;line-height:32px;text-align:justify}
+.article-quiz .edu-markdown p:last-child{margin-bottom:24px}
+.article-quiz .edu-markdown code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace;font-size:85%;color:#c7254e;background:#f9f2f4;margin:0 .2em;padding:.2em .4em .1em;border-radius:3px;line-height:32px}
+.article-quiz .edu-markdown pre code{color:inherit;background:none;margin:0;padding:0;line-height:inherit}
+.article-quiz-a11y-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:414px){.article-question-footer{flex-direction:column}.article-question-footer nav{margin-bottom:16px}}
+/* Submitted answer copy inherits Ant Alert's 18px text; its 1.5em paragraph gap is 27px. */
+.article-quiz .article-answer-label .edu-markdown{font-size:18px}
+.article-quiz .article-answer-label .edu-markdown p,.article-quiz .article-answer-label .edu-markdown p:last-child{margin-bottom:27px}
+.article-quiz .article-question-footer{gap:0;flex-wrap:nowrap;font-size:16px;color:#000}
+.article-quiz .article-question-footer button{font-size:16px;line-height:1.5715;padding:6.4px 19px}
+.article-quiz .article-question-footer nav button{padding:0}
+.article-quiz .article-quiz-submit:disabled{opacity:1}
+.article-quiz .article-choice-control{flex:0 1 40px}
+.article-quiz .article-option-content{flex:0 1 auto}
+.article-content .article-quiz .article-markdown-code pre{font-size:inherit;line-height:1.5;padding:1.25em 1em;margin:.5em 0}
+.article-content .article-quiz .article-markdown-code pre code{font-size:inherit;line-height:inherit}
+.article-quiz .article-choice-symbol{top:-.390625px}
+.article-quiz .article-choice-symbol.radio{margin-right:12px}
+.article-quiz .article-choice-symbol.radio.checked:after{inset:auto;top:-1px;left:-1px;width:18px;height:18px;transform:scale(.5)}
+.article-quiz .article-quiz-submit{text-shadow:0 -1px 0 #0000001f;box-shadow:0 2px 0 #0000000b}
+.article-quiz .article-quiz-submit:disabled{text-shadow:none;box-shadow:none}
+.article-quiz .article-choice-symbol.radio.checked:after{top:50%;left:50%;margin-top:-9px;margin-left:-9px;border-radius:18px;transform:scale(.55555556)}
+/* Swiper clips at its viewport; source slides themselves allow long code to overflow. */
+.article-quiz .article-question{overflow:visible}
+.article-quiz .article-question-footer nav button svg{width:18px;height:18px}
+/* Original flex items retain their intrinsic code width, including mobile overflow. */
+.article-quiz .article-question-title,.article-quiz .article-option-content,.article-quiz .article-option-content>div,.article-quiz .article-answer-text{min-width:auto}
+/* Typography's base line height scales with Alert's submitted 18px text. */
+.article-quiz .edu-markdown{line-height:inherit}
+.article-reader .article-content .article-quiz .edu-markdown :is(ul,ol){margin-bottom:1em}
+.article-reader .article-content .article-quiz .edu-markdown li{line-height:1.5715}
+.article-quiz .article-answer-explanation{line-height:1.5}
+
+/* Swiper slides are positioned: later slide backgrounds cover preceding long-code overflow. */
+.article-quiz .article-question{position:relative}
+
+.article-quiz .article-option-key{flex:0 0 auto;margin-right:8px;font-weight:600}
+
+/* Match the original independent radio hit area and keyboard scroll position. */
+.article-quiz .article-choice-control input[type=radio]{transform:translateX(-6px)}

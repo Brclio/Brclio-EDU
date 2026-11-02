@@ -1,0 +1,370 @@
+{
+  "at": "2026-11-02T10:41:16.631Z",
+  "base": "http://127.0.0.1:5176",
+  "implementationHashes": {
+    "scripts/dev-media.ts": "0b48b968b1aa0b92c81753bb4756962a84d4000e3bae7987448eacca6d58a5a2",
+    "worker/media.ts": "f9de8914814cb8235fcbd5cecd35b385a3a5e80cbc077323bddd10391876e9cf"
+  },
+  "warning": "Previous prose runs where both sides had MEDIA_ERR_SRC_NOT_SUPPORTED (4) did not establish video playback fidelity. This audit requires metadata, decoded first frames, native play/pause/seek.",
+  "videos": [
+    {
+      "id": "fc016e52f3a60c386a00",
+      "file": "public/content/pages/024-1325.json",
+      "path": "components/0/resolved/2",
+      "expected": {
+        "width": 2820,
+        "height": 1424,
+        "duration": 20.916667
+      },
+      "source": {
+        "metadata": {
+          "width": 2820,
+          "height": 1424,
+          "duration": 20.916667,
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "error": null,
+          "preload": "metadata",
+          "autoplay": false,
+          "rect": {
+            "width": 638,
+            "height": 342.953125
+          }
+        },
+        "nativeControls": {
+          "played": 0.2117,
+          "paused": 0.2437,
+          "seeked": {
+            "time": 14.785184,
+            "paused": true,
+            "error": null
+          },
+          "resumedAndPaused": true
+        }
+      },
+      "local": {
+        "metadata": {
+          "width": 2820,
+          "height": 1424,
+          "duration": 20.916667,
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "error": null,
+          "preload": "metadata",
+          "autoplay": false,
+          "rect": {
+            "width": 638,
+            "height": 342.953125
+          }
+        },
+        "nativeControls": {
+          "played": 0.2163,
+          "paused": 0.2481,
+          "seeked": {
+            "time": 14.785184,
+            "paused": true,
+            "error": null
+          },
+          "resumedAndPaused": true
+        }
+      },
+      "frameChangedOver10": 0,
+      "frameHashEqual": true
+    },
+    {
+      "id": "c81a6c19ec7f1283e355",
+      "file": "public/content/pages/024-1337.json",
+      "path": "components/0/resolved/2",
+      "expected": {
+        "width": 2844,
+        "height": 1502,
+        "duration": 35.2
+      },
+      "source": {
+        "metadata": {
+          "width": 2844,
+          "height": 1502,
+          "duration": 35.2,
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "error": null,
+          "preload": "metadata",
+          "autoplay": false,
+          "rect": {
+            "width": 638,
+            "height": 356.75
+          }
+        },
+        "nativeControls": {
+          "played": 0.2171,
+          "paused": 0.2487,
+          "seeked": {
+            "time": 24.881521,
+            "paused": true,
+            "error": null
+          },
+          "resumedAndPaused": true
+        }
+      },
+      "local": {
+        "metadata": {
+          "width": 2844,
+          "height": 1502,
+          "duration": 35.2,
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "error": null,
+          "preload": "metadata",
+          "autoplay": false,
+          "rect": {
+            "width": 638,
+            "height": 356.75
+          }
+        },
+        "nativeControls": {
+          "played": 0.2168,
+          "paused": 0.2486,
+          "seeked": {
+            "time": 24.881521,
+            "paused": true,
+            "error": null
+          },
+          "resumedAndPaused": true
+        }
+      },
+      "frameChangedOver10": 0,
+      "frameHashEqual": true
+    }
+  ],
+  "rangeResponses": [
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 0-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 0-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 89653248-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 89653248-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 589824-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 1114112-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 76611584-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 83951616-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 84672512-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 85065728-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 76611584-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 83951616-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/fc016e52f3a60c386a00",
+      "status": 206,
+      "range": "bytes 85000192-89678384/89678385",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 0-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 0-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 32014336-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 32014336-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 65536-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 65536-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 1572864-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 2621440-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 1572864-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 2031616-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 2424832-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 2883584-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 3211264-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 23756800-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 25657344-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "source",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 25853952-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 23756800-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 25657344-32061946/32061947",
+      "type": "video/mp4"
+    },
+    {
+      "side": "local",
+      "url": "http://127.0.0.1:5176/api/media/c81a6c19ec7f1283e355",
+      "status": 206,
+      "range": "bytes 26247168-32061946/32061947",
+      "type": "video/mp4"
+    }
+  ],
+  "passed": true
+}

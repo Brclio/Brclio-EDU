@@ -1,0 +1,5145 @@
+{
+  "at": "2026-11-02T09:42:15.897Z",
+  "evidence": "Every unique prose block rendered by the published original component and local component, same data and viewport. All blocks receive height/text/image checks; screenshots are retained for discrepancies and initial representatives. Not a claim that every pixel or backend interaction was audited.",
+  "groups": [
+    {
+      "mode": "article",
+      "type": "MarkdownEditor",
+      "instances": 2043,
+      "unique": 249,
+      "checks": [
+        {
+          "file": "public/content/pages/001-2.json",
+          "path": "components/0",
+          "hash": "220bbb394578",
+          "height": [
+            1234.25,
+            1234.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "screenshot": "article-MarkdownEditor-0"
+        },
+        {
+          "file": "public/content/pages/001-7.json",
+          "path": "components/0",
+          "hash": "dba37a749b45",
+          "height": [
+            314.5,
+            314.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "screenshot": "article-MarkdownEditor-1"
+        },
+        {
+          "file": "public/content/pages/002-20.json",
+          "path": "components/0",
+          "hash": "22d556808eb7",
+          "height": [
+            434.5,
+            434.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-21.json",
+          "path": "components/0",
+          "hash": "2475c9a5d68f",
+          "height": [
+            746.0625,
+            746.0625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-22.json",
+          "path": "components/0",
+          "hash": "81d0ced6233f",
+          "height": [
+            860.765625,
+            860.765625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-23.json",
+          "path": "components/0",
+          "hash": "f9910c17b161",
+          "height": [
+            392.359375,
+            392.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-24.json",
+          "path": "components/0",
+          "hash": "707cbd61abdc",
+          "height": [
+            414.78125,
+            414.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-28.json",
+          "path": "components/0",
+          "hash": "d170c8d57f41",
+          "height": [
+            864.359375,
+            864.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-54.json",
+          "path": "components/0",
+          "hash": "fa41eff0e4c3",
+          "height": [
+            377.21875,
+            377.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-62.json",
+          "path": "components/0",
+          "hash": "1b9941f21a65",
+          "height": [
+            359.078125,
+            359.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/002-62.json",
+          "path": "components/2",
+          "hash": "4f5e98c40094",
+          "height": [
+            333.421875,
+            333.421875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/003-107.json",
+          "path": "components/0",
+          "hash": "640dd15c9294",
+          "height": [
+            2181.671875,
+            2181.671875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/003-107.json",
+          "path": "components/2",
+          "hash": "bdf783b78115",
+          "height": [
+            344.96875,
+            344.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/003-88.json",
+          "path": "components/11",
+          "hash": "fd607a7b28d7",
+          "height": [
+            614.125,
+            614.125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/003-90.json",
+          "path": "components/0",
+          "hash": "4d2814e8f7e2",
+          "height": [
+            573.234375,
+            573.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-121.json",
+          "path": "components/2",
+          "hash": "a0b732cfb543",
+          "height": [
+            799.078125,
+            799.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-123.json",
+          "path": "components/2",
+          "hash": "be5f4d0651e4",
+          "height": [
+            1728.546875,
+            1728.546875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-125.json",
+          "path": "components/0",
+          "hash": "2e4528d0a316",
+          "height": [
+            210.28125,
+            210.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-158.json",
+          "path": "components/0",
+          "hash": "3688f74ea2e8",
+          "height": [
+            211.28125,
+            211.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-159.json",
+          "path": "components/2",
+          "hash": "5128b38d9bdb",
+          "height": [
+            252.671875,
+            252.671875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-159.json",
+          "path": "components/4",
+          "hash": "11999b155ce4",
+          "height": [
+            496.859375,
+            496.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-159.json",
+          "path": "components/6",
+          "hash": "ce867c4a0cf5",
+          "height": [
+            665.859375,
+            665.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-159.json",
+          "path": "components/8",
+          "hash": "d2cfd372b35e",
+          "height": [
+            541.25,
+            541.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-160.json",
+          "path": "components/2",
+          "hash": "8b8a6ece001b",
+          "height": [
+            329.140625,
+            329.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-160.json",
+          "path": "components/4",
+          "hash": "e25fcd1e8046",
+          "height": [
+            149.390625,
+            149.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-160.json",
+          "path": "components/6",
+          "hash": "33ace09edde7",
+          "height": [
+            231.21875,
+            231.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-163.json",
+          "path": "components/0",
+          "hash": "29faef234554",
+          "height": [
+            307.171875,
+            307.171875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-164.json",
+          "path": "components/0",
+          "hash": "7c3d92bc2614",
+          "height": [
+            358.84375,
+            358.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-164.json",
+          "path": "components/6",
+          "hash": "2f0d6cb91617",
+          "height": [
+            159.078125,
+            159.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-172.json",
+          "path": "components/10",
+          "hash": "476d9c426ebe",
+          "height": [
+            548.1875,
+            548.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-176.json",
+          "path": "components/2",
+          "hash": "51f2bb5487cf",
+          "height": [
+            691.8125,
+            691.8125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-176.json",
+          "path": "components/4",
+          "hash": "3a21f27663db",
+          "height": [
+            653.390625,
+            653.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-176.json",
+          "path": "components/6",
+          "hash": "75a0f8c94918",
+          "height": [
+            617,
+            617
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-178.json",
+          "path": "components/2",
+          "hash": "0db264a6c22f",
+          "height": [
+            288,
+            288
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-178.json",
+          "path": "components/6",
+          "hash": "8774b7cdbfd2",
+          "height": [
+            417.796875,
+            417.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-179.json",
+          "path": "components/0",
+          "hash": "10c7222fc52f",
+          "height": [
+            858,
+            858
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-179.json",
+          "path": "components/2",
+          "hash": "b8cc7ae036ae",
+          "height": [
+            314,
+            314
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-180.json",
+          "path": "components/2",
+          "hash": "8da8bb0cdd52",
+          "height": [
+            261.390625,
+            261.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-187.json",
+          "path": "components/4",
+          "hash": "96b30d3ab35e",
+          "height": [
+            327.84375,
+            327.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-188.json",
+          "path": "components/4",
+          "hash": "e3403a16893b",
+          "height": [
+            265.953125,
+            265.953125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-188.json",
+          "path": "components/6",
+          "hash": "da547550ccdc",
+          "height": [
+            324,
+            324
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-189.json",
+          "path": "components/2",
+          "hash": "a2d1e4b3c9c1",
+          "height": [
+            419.390625,
+            419.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-189.json",
+          "path": "components/4",
+          "hash": "fefc6a79d22d",
+          "height": [
+            438.5625,
+            438.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-196.json",
+          "path": "components/2",
+          "hash": "76dc2595fdd3",
+          "height": [
+            467.28125,
+            467.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/004-198.json",
+          "path": "components/2",
+          "hash": "987fff978287",
+          "height": [
+            599.359375,
+            599.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-204.json",
+          "path": "components/0",
+          "hash": "e32416bea06f",
+          "height": [
+            792.609375,
+            792.609375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-223.json",
+          "path": "components/0",
+          "hash": "0b0d14ff36d8",
+          "height": [
+            328.078125,
+            328.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-226.json",
+          "path": "components/0",
+          "hash": "bc0345f396bf",
+          "height": [
+            1359.609375,
+            1359.609375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-230.json",
+          "path": "components/2",
+          "hash": "660e9d1722bd",
+          "height": [
+            444.5625,
+            444.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-231.json",
+          "path": "components/4",
+          "hash": "334a344fa951",
+          "height": [
+            264.828125,
+            264.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-233.json",
+          "path": "components/4",
+          "hash": "629270263896",
+          "height": [
+            208.078125,
+            208.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-236.json",
+          "path": "components/0",
+          "hash": "fa11f4179d39",
+          "height": [
+            977.1875,
+            977.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-239.json",
+          "path": "components/2",
+          "hash": "973ea88a2706",
+          "height": [
+            390.640625,
+            390.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-244.json",
+          "path": "components/4",
+          "hash": "79f78c82956e",
+          "height": [
+            370,
+            370
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-244.json",
+          "path": "components/10",
+          "hash": "0590b396e57f",
+          "height": [
+            533.921875,
+            533.921875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-249.json",
+          "path": "components/2",
+          "hash": "150bba9e22a9",
+          "height": [
+            102.078125,
+            102.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-250.json",
+          "path": "components/0",
+          "hash": "63620aba94ac",
+          "height": [
+            1882.1875,
+            1882.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-256.json",
+          "path": "components/2",
+          "hash": "ad78772d75c1",
+          "height": [
+            1348.921875,
+            1348.921875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/005-258.json",
+          "path": "components/2",
+          "hash": "a16061f8ab2e",
+          "height": [
+            981.40625,
+            981.40625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-262.json",
+          "path": "components/8",
+          "hash": "ebb3ba8fad47",
+          "height": [
+            64,
+            64
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/0",
+          "hash": "829ef5c7536b",
+          "height": [
+            985.671875,
+            985.671875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/1",
+          "hash": "8e7fd4316a88",
+          "height": [
+            361.234375,
+            361.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/3",
+          "hash": "378244aebab2",
+          "height": [
+            156.5625,
+            156.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/6",
+          "hash": "f71129e9092d",
+          "height": [
+            446.5625,
+            446.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/10",
+          "hash": "957d5848b5ba",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/11",
+          "hash": "35472c2efd5d",
+          "height": [
+            1073.375,
+            1073.375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-264.json",
+          "path": "components/0",
+          "hash": "d0db5364450c",
+          "height": [
+            939.234375,
+            939.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-264.json",
+          "path": "components/2",
+          "hash": "6c9f39725456",
+          "height": [
+            531.796875,
+            531.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-264.json",
+          "path": "components/6",
+          "hash": "61795fe9be6e",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/0",
+          "hash": "43b36ac46cc4",
+          "height": [
+            648.015625,
+            648.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/1",
+          "hash": "2c55cacda6ae",
+          "height": [
+            507.796875,
+            507.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/2",
+          "hash": "440b9825ba17",
+          "height": [
+            475.796875,
+            475.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/6",
+          "hash": "0b7d3618bfd7",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/7",
+          "hash": "5080461a64c9",
+          "height": [
+            639.015625,
+            639.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/11",
+          "hash": "8c1728783f07",
+          "height": [
+            1201.015625,
+            1201.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-266.json",
+          "path": "components/1",
+          "hash": "ffc8d123eee5",
+          "height": [
+            1372.890625,
+            1372.890625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-266.json",
+          "path": "components/3",
+          "hash": "f44f70859b5f",
+          "height": [
+            419.796875,
+            419.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-266.json",
+          "path": "components/7",
+          "hash": "9c716c08b1b0",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-267.json",
+          "path": "components/0",
+          "hash": "47fba1af0d4d",
+          "height": [
+            766.796875,
+            766.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-267.json",
+          "path": "components/2",
+          "hash": "57731db1e11e",
+          "height": [
+            590.796875,
+            590.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-268.json",
+          "path": "components/0",
+          "hash": "7460cae197ba",
+          "height": [
+            425.671875,
+            425.671875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-268.json",
+          "path": "components/2",
+          "hash": "9df57318253d",
+          "height": [
+            656.234375,
+            656.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-268.json",
+          "path": "components/5",
+          "hash": "3bcf2c9cd51d",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-268.json",
+          "path": "components/6",
+          "hash": "ee43e4e29baa",
+          "height": [
+            1096.796875,
+            1096.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-269.json",
+          "path": "components/0",
+          "hash": "d522743c7fb1",
+          "height": [
+            1217.515625,
+            1217.515625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-269.json",
+          "path": "components/2",
+          "hash": "4a9d9eba1307",
+          "height": [
+            486.234375,
+            486.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-269.json",
+          "path": "components/5",
+          "hash": "375cd515446c",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-270.json",
+          "path": "components/0",
+          "hash": "f8b1e77ea133",
+          "height": [
+            1063.734375,
+            1063.734375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-270.json",
+          "path": "components/2",
+          "hash": "5707522cb1a9",
+          "height": [
+            544.234375,
+            544.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-270.json",
+          "path": "components/5",
+          "hash": "e886454dae86",
+          "height": [
+            102.234375,
+            102.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-271.json",
+          "path": "components/0",
+          "hash": "74a345d04e2f",
+          "height": [
+            902.234375,
+            902.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/006-271.json",
+          "path": "components/2",
+          "hash": "e98119aa13e2",
+          "height": [
+            483.796875,
+            483.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-296.json",
+          "path": "components/1",
+          "hash": "11194b2e5152",
+          "height": [
+            414.9375,
+            414.9375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-305.json",
+          "path": "components/13",
+          "hash": "8ef65a904313",
+          "height": [
+            354.640625,
+            354.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-306.json",
+          "path": "components/0",
+          "hash": "f2e04ea951d0",
+          "height": [
+            375.703125,
+            375.703125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-308.json",
+          "path": "components/16",
+          "hash": "a4ecbb6a3daa",
+          "height": [
+            314.5,
+            314.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-313.json",
+          "path": "components/0",
+          "hash": "5a58844b54bf",
+          "height": [
+            496.703125,
+            496.703125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-323.json",
+          "path": "components/4",
+          "hash": "4df3c6cf7188",
+          "height": [
+            504,
+            504
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-324.json",
+          "path": "components/0",
+          "hash": "2c7fb8f462fa",
+          "height": [
+            297.21875,
+            297.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-328.json",
+          "path": "components/1",
+          "hash": "2099da145cd3",
+          "height": [
+            1051.203125,
+            1051.203125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-329.json",
+          "path": "components/1",
+          "hash": "8d6e9309f1c9",
+          "height": [
+            296.9375,
+            296.9375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/007-331.json",
+          "path": "components/1",
+          "hash": "452c4da68bc3",
+          "height": [
+            416.796875,
+            416.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-344.json",
+          "path": "components/7",
+          "hash": "326c465b0924",
+          "height": [
+            789.9375,
+            789.9375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-345.json",
+          "path": "components/1",
+          "hash": "0bbd9d822026",
+          "height": [
+            816.203125,
+            816.203125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-351.json",
+          "path": "components/0",
+          "hash": "757edda85560",
+          "height": [
+            356.921875,
+            356.921875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-353.json",
+          "path": "components/3",
+          "hash": "955c43950439",
+          "height": [
+            752.28125,
+            752.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-353.json",
+          "path": "components/7",
+          "hash": "fe06e6985dd2",
+          "height": [
+            1438.890625,
+            1438.890625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-354.json",
+          "path": "components/3",
+          "hash": "7458d902ee2f",
+          "height": [
+            549.640625,
+            549.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-356.json",
+          "path": "components/0",
+          "hash": "5635c97b9c17",
+          "height": [
+            493.78125,
+            493.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-358.json",
+          "path": "components/1",
+          "hash": "8c60dd8bf274",
+          "height": [
+            332.78125,
+            332.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-358.json",
+          "path": "components/7",
+          "hash": "dda2adfe560d",
+          "height": [
+            318.078125,
+            318.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-359.json",
+          "path": "components/2",
+          "hash": "46941dda8d45",
+          "height": [
+            511.84375,
+            511.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-360.json",
+          "path": "components/1",
+          "hash": "b98f6d4ba068",
+          "height": [
+            205.796875,
+            205.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-361.json",
+          "path": "components/1",
+          "hash": "e103f330c0ab",
+          "height": [
+            658.5,
+            658.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-362.json",
+          "path": "components/0",
+          "hash": "b636de601b16",
+          "height": [
+            705.078125,
+            705.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-362.json",
+          "path": "components/1",
+          "hash": "5252be844a26",
+          "height": [
+            282.5,
+            282.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-363.json",
+          "path": "components/0",
+          "hash": "1caa7635a913",
+          "height": [
+            527,
+            527
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-364.json",
+          "path": "components/0",
+          "hash": "d24c289490ad",
+          "height": [
+            359.78125,
+            359.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-365.json",
+          "path": "components/0",
+          "hash": "606544424525",
+          "height": [
+            271.703125,
+            271.703125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/008-366.json",
+          "path": "components/0",
+          "hash": "44cf206b7139",
+          "height": [
+            546.859375,
+            546.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/009-392.json",
+          "path": "components/0",
+          "hash": "aa0559be3512",
+          "height": [
+            308.796875,
+            308.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-407.json",
+          "path": "components/0",
+          "hash": "108bf3901076",
+          "height": [
+            943.640625,
+            943.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-409.json",
+          "path": "components/0",
+          "hash": "bc5fca5d4274",
+          "height": [
+            820.859375,
+            820.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-410.json",
+          "path": "components/2",
+          "hash": "71e44d41a7a1",
+          "height": [
+            512.984375,
+            512.984375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-411.json",
+          "path": "components/2",
+          "hash": "73d0f082b42a",
+          "height": [
+            757.90625,
+            757.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-413.json",
+          "path": "components/0",
+          "hash": "888256d0859a",
+          "height": [
+            498.78125,
+            498.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-413.json",
+          "path": "components/2",
+          "hash": "759225c4b023",
+          "height": [
+            1805.71875,
+            1805.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/0",
+          "hash": "51500e3926d1",
+          "height": [
+            328.234375,
+            328.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/3",
+          "hash": "6420c84d78e7",
+          "height": [
+            256.484375,
+            256.484375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/6",
+          "hash": "7c5672c5a6d8",
+          "height": [
+            1193.640625,
+            1193.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-416.json",
+          "path": "components/0",
+          "hash": "4aa6d72d68be",
+          "height": [
+            799.359375,
+            799.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-418.json",
+          "path": "components/2",
+          "hash": "d9c13a6d3fd5",
+          "height": [
+            121,
+            121
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-418.json",
+          "path": "components/4",
+          "hash": "56200f2b1cdd",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-420.json",
+          "path": "components/2",
+          "hash": "19382d21bc92",
+          "height": [
+            65,
+            65
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-420.json",
+          "path": "components/6",
+          "hash": "2b518857ffa6",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-422.json",
+          "path": "components/2",
+          "hash": "05a977a13106",
+          "height": [
+            83.796875,
+            83.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-422.json",
+          "path": "components/3",
+          "hash": "1dd01f6e3732",
+          "height": [
+            667.6875,
+            667.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-424.json",
+          "path": "components/2",
+          "hash": "5f00c91b8c13",
+          "height": [
+            954.84375,
+            954.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-426.json",
+          "path": "components/2",
+          "hash": "3e2d6b911370",
+          "height": [
+            923.765625,
+            923.765625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-428.json",
+          "path": "components/2",
+          "hash": "87ba55b8ae98",
+          "height": [
+            1079.140625,
+            1079.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-430.json",
+          "path": "components/2",
+          "hash": "1604a4cbf9c4",
+          "height": [
+            834.78125,
+            834.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-432.json",
+          "path": "components/0",
+          "hash": "f81f3140c672",
+          "height": [
+            595.90625,
+            595.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-432.json",
+          "path": "components/4",
+          "hash": "9129aab0b00b",
+          "height": [
+            102,
+            102
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-432.json",
+          "path": "components/8",
+          "hash": "92c764732293",
+          "height": [
+            70,
+            70
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-432.json",
+          "path": "components/12",
+          "hash": "03798b894be3",
+          "height": [
+            300.390625,
+            300.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-433.json",
+          "path": "components/7",
+          "hash": "152e81fdf5f0",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-434.json",
+          "path": "components/3",
+          "hash": "4c7f574840df",
+          "height": [
+            295.6875,
+            295.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-434.json",
+          "path": "components/5",
+          "hash": "2b44f63cdbd1",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-434.json",
+          "path": "components/7",
+          "hash": "9016d106eed0",
+          "height": [
+            681.625,
+            681.625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-435.json",
+          "path": "components/0",
+          "hash": "3edb9b73d4a4",
+          "height": [
+            309.796875,
+            309.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-436.json",
+          "path": "components/5",
+          "hash": "9c2f22971b67",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-436.json",
+          "path": "components/10",
+          "hash": "cab46760649a",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-438.json",
+          "path": "components/2",
+          "hash": "3408287071ab",
+          "height": [
+            236.96875,
+            236.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-438.json",
+          "path": "components/5",
+          "hash": "c510f4ebcc97",
+          "height": [
+            331.96875,
+            331.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-438.json",
+          "path": "components/8",
+          "hash": "76fbd53964f7",
+          "height": [
+            482.359375,
+            482.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-438.json",
+          "path": "components/10",
+          "hash": "ee4be2f44346",
+          "height": [
+            260.96875,
+            260.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-440.json",
+          "path": "components/4",
+          "hash": "6cbab9095e90",
+          "height": [
+            234.96875,
+            234.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-442.json",
+          "path": "components/2",
+          "hash": "43a7ecd69c44",
+          "height": [
+            411.96875,
+            411.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-444.json",
+          "path": "components/2",
+          "hash": "92c860c11362",
+          "height": [
+            179.96875,
+            179.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-444.json",
+          "path": "components/5",
+          "hash": "762fd20e96a1",
+          "height": [
+            301.25,
+            301.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-448.json",
+          "path": "components/2",
+          "hash": "abadadc55ca4",
+          "height": [
+            284.359375,
+            284.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-448.json",
+          "path": "components/4",
+          "hash": "8120febb582e",
+          "height": [
+            349.96875,
+            349.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-450.json",
+          "path": "components/5",
+          "hash": "2a1ac4b683bf",
+          "height": [
+            178.96875,
+            178.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-452.json",
+          "path": "components/2",
+          "hash": "a50d71bef627",
+          "height": [
+            179.96875,
+            179.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-453.json",
+          "path": "components/0",
+          "hash": "0ff55f3a0f4d",
+          "height": [
+            769.75,
+            769.75
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-454.json",
+          "path": "components/2",
+          "hash": "42d8d4c596a0",
+          "height": [
+            307.359375,
+            307.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-454.json",
+          "path": "components/4",
+          "hash": "0f8606cb96d8",
+          "height": [
+            224.109375,
+            224.109375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-454.json",
+          "path": "components/5",
+          "hash": "677f2cd0535b",
+          "height": [
+            131.6875,
+            131.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-456.json",
+          "path": "components/7",
+          "hash": "fc2285bc9385",
+          "height": [
+            251.796875,
+            251.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-456.json",
+          "path": "components/9",
+          "hash": "6745df8cddf4",
+          "height": [
+            868.96875,
+            868.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-457.json",
+          "path": "components/0",
+          "hash": "9366459dc6db",
+          "height": [
+            1040.765625,
+            1040.765625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-458.json",
+          "path": "components/2",
+          "hash": "b2f225f820c0",
+          "height": [
+            243.6875,
+            243.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-458.json",
+          "path": "components/3",
+          "hash": "0815e21b0287",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-463.json",
+          "path": "components/0",
+          "hash": "170d375ba667",
+          "height": [
+            1099.015625,
+            1099.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-464.json",
+          "path": "components/2",
+          "hash": "888320001835",
+          "height": [
+            210.96875,
+            210.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-465.json",
+          "path": "components/0",
+          "hash": "46799dbee086",
+          "height": [
+            1009.90625,
+            1009.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-466.json",
+          "path": "components/2",
+          "hash": "6bc164c17651",
+          "height": [
+            234.96875,
+            234.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-467.json",
+          "path": "components/0",
+          "hash": "b48712315c4a",
+          "height": [
+            861.171875,
+            861.171875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-468.json",
+          "path": "components/2",
+          "hash": "0381d48a49fb",
+          "height": [
+            382.96875,
+            382.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-469.json",
+          "path": "components/0",
+          "hash": "547616c3b051",
+          "height": [
+            942.453125,
+            942.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-470.json",
+          "path": "components/2",
+          "hash": "9fc7ae52c827",
+          "height": [
+            245.96875,
+            245.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-471.json",
+          "path": "components/0",
+          "hash": "c4efca97de7c",
+          "height": [
+            1138.609375,
+            1138.609375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-473.json",
+          "path": "components/0",
+          "hash": "a0a877a35d45",
+          "height": [
+            779.890625,
+            779.890625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-474.json",
+          "path": "components/2",
+          "hash": "516708a821c1",
+          "height": [
+            415.96875,
+            415.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-476.json",
+          "path": "components/4",
+          "hash": "92d51207e37a",
+          "height": [
+            1097,
+            1097
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-477.json",
+          "path": "components/1",
+          "hash": "749b45b7b0aa",
+          "height": [
+            544.234375,
+            544.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-482.json",
+          "path": "components/2",
+          "hash": "d633e30fd3a5",
+          "height": [
+            267.96875,
+            267.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-483.json",
+          "path": "components/0",
+          "hash": "530bf0b35533",
+          "height": [
+            927.59375,
+            927.59375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-484.json",
+          "path": "components/2",
+          "hash": "5c38078856cd",
+          "height": [
+            352.359375,
+            352.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-484.json",
+          "path": "components/4",
+          "hash": "a7b6f1b3a5f8",
+          "height": [
+            210.96875,
+            210.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-486.json",
+          "path": "components/2",
+          "hash": "87873654f164",
+          "height": [
+            445.96875,
+            445.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-490.json",
+          "path": "components/5",
+          "hash": "84204bcc0fec",
+          "height": [
+            145,
+            145
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-491.json",
+          "path": "components/4",
+          "hash": "466cc64a3ecc",
+          "height": [
+            313.078125,
+            313.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-491.json",
+          "path": "components/8",
+          "hash": "8a4361bbd898",
+          "height": [
+            244.6875,
+            244.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/2",
+          "hash": "4fbbee65e2b7",
+          "height": [
+            345.96875,
+            345.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/4",
+          "hash": "b4a8fa556204",
+          "height": [
+            179.078125,
+            179.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/6",
+          "hash": "7c48e5e7e0fc",
+          "height": [
+            760.5,
+            760.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/8",
+          "hash": "ea9cff2106ed",
+          "height": [
+            949.5,
+            949.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-495.json",
+          "path": "components/5",
+          "hash": "967b90e38385",
+          "height": [
+            147.078125,
+            147.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-495.json",
+          "path": "components/7",
+          "hash": "4c07e2f04864",
+          "height": [
+            397.359375,
+            397.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-495.json",
+          "path": "components/9",
+          "hash": "7fc594863761",
+          "height": [
+            770.359375,
+            770.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-495.json",
+          "path": "components/11",
+          "hash": "2db0fe54d66f",
+          "height": [
+            268.96875,
+            268.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-497.json",
+          "path": "components/2",
+          "hash": "1d5409a962b9",
+          "height": [
+            591.359375,
+            591.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-499.json",
+          "path": "components/2",
+          "hash": "23541218e452",
+          "height": [
+            458.96875,
+            458.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-499.json",
+          "path": "components/5",
+          "hash": "964c4ef2ea77",
+          "height": [
+            486.359375,
+            486.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-499.json",
+          "path": "components/13",
+          "hash": "55dff1181585",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-501.json",
+          "path": "components/4",
+          "hash": "1e871ecf0345",
+          "height": [
+            460.359375,
+            460.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-501.json",
+          "path": "components/6",
+          "hash": "86c30603c267",
+          "height": [
+            493.96875,
+            493.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-503.json",
+          "path": "components/4",
+          "hash": "06edcb5be883",
+          "height": [
+            767.359375,
+            767.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-503.json",
+          "path": "components/6",
+          "hash": "5d2324eb9ace",
+          "height": [
+            448.96875,
+            448.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-504.json",
+          "path": "components/0",
+          "hash": "caf361c0c26c",
+          "height": [
+            1125.140625,
+            1125.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-505.json",
+          "path": "components/2",
+          "hash": "97f3764aa5fc",
+          "height": [
+            525.96875,
+            525.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-505.json",
+          "path": "components/5",
+          "hash": "9f6232f89225",
+          "height": [
+            823.359375,
+            823.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-505.json",
+          "path": "components/7",
+          "hash": "a382a4cbae24",
+          "height": [
+            518.359375,
+            518.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-505.json",
+          "path": "components/9",
+          "hash": "e10026b0877f",
+          "height": [
+            583.96875,
+            583.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-507.json",
+          "path": "components/6",
+          "hash": "083896f109ec",
+          "height": [
+            509.359375,
+            509.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-507.json",
+          "path": "components/8",
+          "hash": "c44ac8fe11b1",
+          "height": [
+            178.96875,
+            178.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-509.json",
+          "path": "components/5",
+          "hash": "32499bd2a9dc",
+          "height": [
+            439.96875,
+            439.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-511.json",
+          "path": "components/2",
+          "hash": "47b16c2a4040",
+          "height": [
+            482.359375,
+            482.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-511.json",
+          "path": "components/4",
+          "hash": "c1359ed4afe2",
+          "height": [
+            544.359375,
+            544.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-511.json",
+          "path": "components/8",
+          "hash": "bf16dbb59e5d",
+          "height": [
+            75.6875,
+            75.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-513.json",
+          "path": "components/2",
+          "hash": "00e581761813",
+          "height": [
+            228.28125,
+            228.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-513.json",
+          "path": "components/4",
+          "hash": "101cc2c5784c",
+          "height": [
+            249.8125,
+            249.8125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-513.json",
+          "path": "components/9",
+          "hash": "dcc678515f96",
+          "height": [
+            139.6875,
+            139.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-514.json",
+          "path": "components/6",
+          "hash": "3241b8c134ae",
+          "height": [
+            332.96875,
+            332.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-516.json",
+          "path": "components/1/content/comps/0",
+          "hash": "8b51dc9e8b07",
+          "height": [
+            272,
+            272
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-516.json",
+          "path": "components/4",
+          "hash": "68db7b69cca0",
+          "height": [
+            269.96875,
+            269.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-517.json",
+          "path": "components/2",
+          "hash": "5d50d3b660c1",
+          "height": [
+            771.40625,
+            771.40625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-518.json",
+          "path": "components/5",
+          "hash": "2683c2f209b2",
+          "height": [
+            308.671875,
+            308.671875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-518.json",
+          "path": "components/7",
+          "hash": "8f3178ab42c5",
+          "height": [
+            747.96875,
+            747.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-519.json",
+          "path": "components/7",
+          "hash": "6a62a759ef92",
+          "height": [
+            895.140625,
+            895.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-520.json",
+          "path": "components/4",
+          "hash": "f894e7bcda97",
+          "height": [
+            348.96875,
+            348.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-521.json",
+          "path": "components/2",
+          "hash": "adee484e0d90",
+          "height": [
+            845,
+            845
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-522.json",
+          "path": "components/2",
+          "hash": "b7f6abd2c699",
+          "height": [
+            908.25,
+            908.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/0",
+          "hash": "2ce2ce95988f",
+          "height": [
+            254.796875,
+            254.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/1",
+          "hash": "7f0cba4b9870",
+          "height": [
+            254.796875,
+            254.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/4",
+          "hash": "a0062cc5515b",
+          "height": [
+            947.828125,
+            947.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-524.json",
+          "path": "components/0",
+          "hash": "9fb1b6d5d0af",
+          "height": [
+            393.015625,
+            393.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-524.json",
+          "path": "components/3",
+          "hash": "1cfaa41aab1d",
+          "height": [
+            1094.90625,
+            1094.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-526.json",
+          "path": "components/2",
+          "hash": "30212bd9bd0e",
+          "height": [
+            670.640625,
+            670.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-526.json",
+          "path": "components/4",
+          "hash": "f656228a7c8b",
+          "height": [
+            690.96875,
+            690.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-527.json",
+          "path": "components/3",
+          "hash": "00016f701f07",
+          "height": [
+            853.546875,
+            853.546875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-528.json",
+          "path": "components/2",
+          "hash": "447676137bf3",
+          "height": [
+            292.96875,
+            292.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-528.json",
+          "path": "components/5",
+          "hash": "b9e35b0f04f9",
+          "height": [
+            1170.25,
+            1170.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-529.json",
+          "path": "components/4",
+          "hash": "21f71ceb0ffa",
+          "height": [
+            723.40625,
+            723.40625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-530.json",
+          "path": "components/9",
+          "hash": "5ce3b5dc4d63",
+          "height": [
+            156.6875,
+            156.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-532.json",
+          "path": "components/2",
+          "hash": "3052fc82cfe4",
+          "height": [
+            193.078125,
+            193.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-532.json",
+          "path": "components/5",
+          "hash": "3e64684bc2a2",
+          "height": [
+            396.28125,
+            396.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/010-535.json",
+          "path": "components/0",
+          "hash": "ed98f193aec5",
+          "height": [
+            488.71875,
+            488.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T09:42:22.741Z"
+    },
+    {
+      "mode": "solo",
+      "type": "MarkdownEditor",
+      "instances": 4115,
+      "unique": 81,
+      "checks": [
+        {
+          "file": "public/content/pages/011-566.json",
+          "path": "components/3",
+          "hash": "b108348d2f95",
+          "height": [
+            527.6875,
+            527.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 177.6875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 177.6875
+              }
+            ]
+          ],
+          "reasons": [],
+          "screenshot": "solo-MarkdownEditor-0"
+        },
+        {
+          "file": "public/content/pages/013-673.json",
+          "path": "components/1",
+          "hash": "16983e07e2be",
+          "height": [
+            779.578125,
+            779.578125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 395.578125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 395.578125
+              }
+            ]
+          ],
+          "reasons": [],
+          "screenshot": "solo-MarkdownEditor-1"
+        },
+        {
+          "file": "public/content/pages/013-673.json",
+          "path": "components/3",
+          "hash": "5ba2f0c9b928",
+          "height": [
+            576,
+            576
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/024-1329.json",
+          "path": "components/2/resolved/0",
+          "hash": "610fba2a6972",
+          "height": [
+            1318.296875,
+            1318.296875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 306.421875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 306.421875
+              }
+            ]
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/024-1334.json",
+          "path": "components/1/resolved/2",
+          "hash": "6e1783b38988",
+          "height": [
+            1023.015625,
+            1279.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 429.015625
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 429.015625
+              }
+            ]
+          ],
+          "reasons": [
+            "height"
+          ],
+          "screenshot": "solo-MarkdownEditor-4"
+        },
+        {
+          "file": "public/content/pages/024-1344.json",
+          "path": "components/0/resolved/4",
+          "hash": "7aad34642bf9",
+          "height": [
+            926,
+            926
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/024-1347.json",
+          "path": "components/1/resolved/4",
+          "hash": "32523f038d73",
+          "height": [
+            1090.828125,
+            1090.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 430.828125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 430.828125
+              }
+            ]
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1552.json",
+          "path": "components/2/resolved/0",
+          "hash": "70edecd929f9",
+          "height": [
+            84.90625,
+            84.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1556.json",
+          "path": "components/14/resolved/0",
+          "hash": "76adec605d85",
+          "height": [
+            530.65625,
+            530.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1556.json",
+          "path": "components/15/resolved/0",
+          "hash": "4268a279a9c4",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1557.json",
+          "path": "components/10/resolved/0",
+          "hash": "143ca19e8455",
+          "height": [
+            442.65625,
+            442.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1558.json",
+          "path": "components/12/resolved/0",
+          "hash": "80eb635c5df2",
+          "height": [
+            410.21875,
+            410.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1558.json",
+          "path": "components/13/resolved/0",
+          "hash": "ca981fac56a5",
+          "height": [
+            30,
+            30
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1559.json",
+          "path": "components/13/resolved/0",
+          "hash": "f4761ec91069",
+          "height": [
+            232.65625,
+            232.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1559.json",
+          "path": "components/14/resolved/0",
+          "hash": "99ca8ccd9cc7",
+          "height": [
+            144,
+            144
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1560.json",
+          "path": "components/9/resolved/0",
+          "hash": "a4b631158198",
+          "height": [
+            216.65625,
+            216.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1560.json",
+          "path": "components/10/resolved/0",
+          "hash": "5d695454058d",
+          "height": [
+            84,
+            84
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1561.json",
+          "path": "components/10/resolved/0",
+          "hash": "98856e8ca1a1",
+          "height": [
+            486,
+            486
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1561.json",
+          "path": "components/11/resolved/0",
+          "hash": "1fb1f32cd6f0",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1590.json",
+          "path": "components/2/resolved/1",
+          "hash": "c18fc1aed470",
+          "height": [
+            157.65625,
+            157.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/035-1593.json",
+          "path": "components/3/resolved/1",
+          "hash": "71ab1742ef4e",
+          "height": [
+            1163.3125,
+            1163.3125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1608.json",
+          "path": "components/1/resolved/2",
+          "hash": "4b6c44fcc3b5",
+          "height": [
+            244,
+            244
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1608.json",
+          "path": "components/2/resolved/2",
+          "hash": "a5b3d569ae8b",
+          "height": [
+            234,
+            234
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1609.json",
+          "path": "components/2/resolved/2",
+          "hash": "e643431746fb",
+          "height": [
+            690,
+            690
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1610.json",
+          "path": "components/0/resolved/4",
+          "hash": "191397c5cd6f",
+          "height": [
+            252,
+            252
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1610.json",
+          "path": "components/1/resolved/0",
+          "hash": "2177f2f6dc77",
+          "height": [
+            162,
+            162
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1610.json",
+          "path": "components/1/resolved/2",
+          "hash": "4f01cdcb03da",
+          "height": [
+            118,
+            118
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1610.json",
+          "path": "components/2/resolved/0",
+          "hash": "edd3cb61015f",
+          "height": [
+            370,
+            370
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1612.json",
+          "path": "components/0/resolved/3",
+          "hash": "9f9de26ee418",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1613.json",
+          "path": "components/1/resolved/2",
+          "hash": "0d7b9c40a704",
+          "height": [
+            376.1875,
+            376.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1613.json",
+          "path": "components/1/resolved/4",
+          "hash": "ab196dccb781",
+          "height": [
+            76,
+            76
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1613.json",
+          "path": "components/2/resolved/2",
+          "hash": "e742338409f8",
+          "height": [
+            312.25,
+            312.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1614.json",
+          "path": "components/3/resolved/3",
+          "hash": "71ab6dffd746",
+          "height": [
+            120,
+            120
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1615.json",
+          "path": "components/0/resolved/0",
+          "hash": "928fc0c040a3",
+          "height": [
+            470.125,
+            470.125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1615.json",
+          "path": "components/2/resolved/2",
+          "hash": "add952c48fec",
+          "height": [
+            657,
+            657
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1615.json",
+          "path": "components/3/resolved/2",
+          "hash": "a8c3b604590d",
+          "height": [
+            687,
+            687
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1616.json",
+          "path": "components/0/resolved/2",
+          "hash": "702b110a66a1",
+          "height": [
+            216,
+            216
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1616.json",
+          "path": "components/2/resolved/2",
+          "hash": "b190d7bee23d",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1618.json",
+          "path": "components/1/resolved/4",
+          "hash": "e6b4610fab4b",
+          "height": [
+            278.21875,
+            278.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1618.json",
+          "path": "components/2/resolved/2",
+          "hash": "807d18ec9c4f",
+          "height": [
+            320,
+            320
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1618.json",
+          "path": "components/3/resolved/2",
+          "hash": "8eb58ce9c433",
+          "height": [
+            258.21875,
+            258.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1618.json",
+          "path": "components/4/resolved/0",
+          "hash": "475c089a1f45",
+          "height": [
+            625.3125,
+            625.3125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1618.json",
+          "path": "components/4/resolved/2",
+          "hash": "a27a104ff710",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1619.json",
+          "path": "components/0/resolved/4",
+          "hash": "f4cdf676b852",
+          "height": [
+            162.21875,
+            162.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1619.json",
+          "path": "components/1/resolved/2",
+          "hash": "b69c452cff5e",
+          "height": [
+            276.65625,
+            276.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1619.json",
+          "path": "components/2/resolved/0",
+          "hash": "82302298651e",
+          "height": [
+            188.4375,
+            188.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1619.json",
+          "path": "components/3/resolved/0",
+          "hash": "aa9f764f484f",
+          "height": [
+            599.3125,
+            599.3125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/0/resolved/4",
+          "hash": "447ad3f41a1e",
+          "height": [
+            162.21875,
+            162.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/1/resolved/2",
+          "hash": "958e738c3b20",
+          "height": [
+            226.4375,
+            226.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/2/resolved/0",
+          "hash": "8d031602538d",
+          "height": [
+            194.65625,
+            194.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/3/resolved/0",
+          "hash": "b0d322df2e87",
+          "height": [
+            571.09375,
+            571.09375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/3/resolved/2",
+          "hash": "72e34294a445",
+          "height": [
+            192.65625,
+            192.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/6/resolved/0",
+          "hash": "4323ebb429af",
+          "height": [
+            1034.4375,
+            1034.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1621.json",
+          "path": "components/3/resolved/0",
+          "hash": "e4ff80cb36c2",
+          "height": [
+            334.65625,
+            334.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1621.json",
+          "path": "components/4/resolved/0",
+          "hash": "ec9668c4aabd",
+          "height": [
+            322.65625,
+            322.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1621.json",
+          "path": "components/5/resolved/0",
+          "hash": "d2ec1044cefd",
+          "height": [
+            317.015625,
+            317.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1621.json",
+          "path": "components/5/resolved/2",
+          "hash": "70e8ce899825",
+          "height": [
+            116.65625,
+            116.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1622.json",
+          "path": "components/3/resolved/0",
+          "hash": "f4dfb213f31e",
+          "height": [
+            246.65625,
+            246.65625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1622.json",
+          "path": "components/4/resolved/0",
+          "hash": "a8a504421ee9",
+          "height": [
+            132,
+            132
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/0/resolved/5",
+          "hash": "3b46c1d08343",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/1/resolved/4",
+          "hash": "ff4585355c27",
+          "height": [
+            104,
+            104
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/2/resolved/2",
+          "hash": "9e8a976101ec",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/2/resolved/4",
+          "hash": "d5e34010bf2f",
+          "height": [
+            144,
+            144
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/3/resolved/2",
+          "hash": "1c198b87ec0a",
+          "height": [
+            599.28125,
+            599.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/3/resolved/3",
+          "hash": "448b1d471150",
+          "height": [
+            206.140625,
+            206.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/3/resolved/4",
+          "hash": "87d8eb40e79f",
+          "height": [
+            30,
+            30
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/1/resolved/4",
+          "hash": "390fb8acd962",
+          "height": [
+            222.15625,
+            222.15625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/2/resolved/0",
+          "hash": "9285502224bf",
+          "height": [
+            884.515625,
+            884.515625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/3/resolved/0",
+          "hash": "222f21a25fc5",
+          "height": [
+            902.453125,
+            902.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/4/resolved/0",
+          "hash": "8ec0816026e0",
+          "height": [
+            900.453125,
+            900.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/5/resolved/0",
+          "hash": "fe14473892cf",
+          "height": [
+            900.453125,
+            900.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1625.json",
+          "path": "components/6/resolved/0",
+          "hash": "fa20f3196902",
+          "height": [
+            900.453125,
+            900.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1626.json",
+          "path": "components/1/resolved/4",
+          "hash": "5cce85f19f79",
+          "height": [
+            160,
+            160
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1626.json",
+          "path": "components/2/resolved/0",
+          "hash": "1fe732968314",
+          "height": [
+            558,
+            558
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1626.json",
+          "path": "components/3/resolved/0",
+          "hash": "6c83eba9f289",
+          "height": [
+            870,
+            870
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1626.json",
+          "path": "components/4/resolved/0",
+          "hash": "7fb667e47f92",
+          "height": [
+            914,
+            914
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1626.json",
+          "path": "components/5/resolved/0",
+          "hash": "7766bae35a8e",
+          "height": [
+            872.6875,
+            872.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1627.json",
+          "path": "components/0/resolved/0",
+          "hash": "dff874107439",
+          "height": [
+            236.21875,
+            236.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1627.json",
+          "path": "components/1/resolved/2",
+          "hash": "66e44895c2e7",
+          "height": [
+            495,
+            495
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1627.json",
+          "path": "components/2/resolved/2",
+          "hash": "e417929e0e6f",
+          "height": [
+            435,
+            435
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1627.json",
+          "path": "components/3/resolved/2",
+          "hash": "06469d2150ea",
+          "height": [
+            662,
+            662
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T09:42:20.384Z"
+    },
+    {
+      "mode": "solo",
+      "type": "Note",
+      "instances": 945,
+      "unique": 5,
+      "checks": [
+        {
+          "file": "public/content/pages/037-1614.json",
+          "path": "components/1/resolved/4",
+          "hash": "d8c906280fdb",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "screenshot": "solo-Note-0"
+        },
+        {
+          "file": "public/content/pages/037-1615.json",
+          "path": "components/0/resolved/1",
+          "hash": "47ec7cd0e0c3",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "screenshot": "solo-Note-1"
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/1/resolved/5",
+          "hash": "aca7b92fe8d3",
+          "height": [
+            96,
+            96
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/3/resolved/5",
+          "hash": "a882a62a9585",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        },
+        {
+          "file": "public/content/pages/037-1623.json",
+          "path": "components/4/resolved/5",
+          "hash": "eb1fb6a4df69",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": []
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T09:42:18.316Z"
+    }
+  ],
+  "errors": [],
+  "sourceHashBefore": "71bec7746ff24168dea4e7f0cb4bfc8284a3d2cdbad0dd2708c2ed6779788cbe",
+  "finishedAt": "2026-11-02T09:42:22.769Z",
+  "sourceHashAfter": "71bec7746ff24168dea4e7f0cb4bfc8284a3d2cdbad0dd2708c2ed6779788cbe",
+  "sourceChangedDuringRun": false
+}

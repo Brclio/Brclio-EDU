@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-02T10:55:54.228296+00:00",
+  "sourceRoot": "/Users/huangjiabao/GitHub/Brclio-EDU",
+  "files": {
+    "src/Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3",
+    "src/ArticleQuiz.tsx": "8df8d71f6b8ed9a5eb4669493f78a009aa47e4a458ab8da80c1b703abdd93276",
+    "src/article-quiz.css": "858a24d328e76d9f0a026a6b64850a8c3d500b4c43e4423485df8e5938a4ba31",
+    "src/QuizCode.tsx": "6d63f1c35222e17363e3255bea849e3b914ebd7d07d10b07f57c3742f2a23cff",
+    "src/quiz.css": "f5b3f40718cb5408ba6055124c8c6514ef065fab56df8487bd7a2f39223fcb6d",
+    "src/article-fidelity.css": "6c99e76eee4b2289fe247267c7d54eafb04d8bc1bb49903f82c89f8b23044ea3",
+    "src/solo-fidelity.css": "f28239b731a8338080fa786a59062af2fe2f6b252e82148a808f2efda4ccc479"
+  }
+}

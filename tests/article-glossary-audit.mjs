@@ -1,0 +1,23 @@
+import fs from 'node:fs/promises';
+import sharp from 'sharp';
+import {command,evaluate,wait} from './catalog-visual-review.mjs';
+const output='output/article-glossary-review';await fs.mkdir(output,{recursive:true});
+const sessions={source:'visual-glossary-source',local:'visual-glossary-local'},components=[JSON.parse(await fs.readFile('public/content/pages/003-90.json','utf8')).components[0]];
+for(const side of ['source','local']){const session=sessions[side];command(session,'open',`http://127.0.0.1:5173/${side==='source'?'output/article-reference/index.html':'tests/visual-content-harness.html'}`);command(session,'set','viewport','1280','900');wait(session,`typeof window.${side==='source'?'renderArticleReference':'renderVisualContent'}==='function'`);evaluate(session,`${side==='source'?'renderArticleReference':'renderVisualContent'}(${JSON.stringify(components)});true`);}
+const checks=[],comparisons=[];
+const term=(side,i)=>side==='source'?`.markdown_markdownParagraph__2H6Xf:first-child>span:nth-of-type(${i})`:`.edu-markdown p:first-child>.article-glossary-term:nth-of-type(${i})`;
+const popup=side=>side==='source'?'.ant-popover:not(.ant-popover-hidden)':'.article-glossary-popover';
+function ready(side){command(sessions[side],'tab','t1');wait(sessions[side],`document.fonts.status==='loaded'&&document.getAnimations().every(a=>a.playState==='finished')`);}
+async function pair(name,index=1){const result={name};for(const side of ['source','local']){const session=sessions[side];ready(side);command(session,'hover',term(side,index));wait(session,`!!document.querySelector(${JSON.stringify(popup(side))})`);ready(side);const box=evaluate(session,`(()=>{const e=document.querySelector(${JSON.stringify(popup(side))}),r=e.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height,text:e.innerText}})()`);const path=`${output}/${name}-${side}.png`;command(session,'screenshot',path);await sharp(path).extract({left:Math.round(box.x),top:Math.round(box.y),width:Math.round(box.width),height:Math.round(box.height)}).png().toFile(`${output}/crop-${name}-${side}.png`);result[side]=box;}
+const [a,b]=await Promise.all(['source','local'].map(s=>sharp(`${output}/crop-${name}-${s}.png`).ensureAlpha().raw().toBuffer({resolveWithObject:true})));if(a.info.width===b.info.width&&a.info.height===b.info.height){let count=0;for(let i=0;i<a.data.length;i+=4)if(Math.max(...[0,1,2].map(c=>Math.abs(a.data[i+c]-b.data[i+c])))>8)count++;result.changedOver8=count;}else result.dimensionsDiffer=true;result.positionMatches=['x','y','width','height'].every(k=>Math.abs(result.source[k]-result.local[k])<.02);comparisons.push(result);console.log(JSON.stringify(result));}
+async function leave(){for(const side of ['source','local']){const session=sessions[side];command(session,'mouse','move','5','850');wait(session,`!document.querySelector(${JSON.stringify(popup(side))})`);}}
+await pair('compiled-bottom');await leave();await pair('interpreted-bottom',2);await leave();
+for(const side of ['source','local'])evaluate(sessions[side],`document.querySelector('#root').style.transform='translateY(300px)';true`);
+await pair('compiled-top');
+for(const side of ['source','local']){const session=sessions[side];command(session,'hover',popup(side));ready(side);checks.push({name:`${side}-pointer-enters-popover`,pass:evaluate(session,`!!document.querySelector(${JSON.stringify(popup(side))})`)});}
+await leave();checks.push({name:'both-close-on-leave',pass:true});
+command(sessions.local,'focus',term('local',1));wait(sessions.local,`!!document.querySelector('.article-glossary-popover')`);checks.push({name:'local-keyboard-focus-opens',pass:true});command(sessions.local,'press','Escape');wait(sessions.local,`!document.querySelector('.article-glossary-popover')`);checks.push({name:'local-escape-closes',pass:true});
+checks.push({name:'source-trigger-not-keyboard-focusable',pass:evaluate(sessions.source,`document.querySelector(${JSON.stringify(term('source',1))}).tabIndex===-1`)});
+await fs.writeFile(`${output}/audit.json`,JSON.stringify({at:new Date().toISOString(),page:'003/90',terms:2,checks,comparisons},null,2)+'\n');
+await fs.writeFile(`${output}/index.html`,`<!doctype html><meta charset="utf-8"><style>body{font:16px system-ui}section>div{display:flex;gap:20px}</style><h1>原词条组件 / 本地</h1>${comparisons.map(r=>`<section><h2>${r.name}: ${r.changedOver8} differing pixels &gt;8</h2><div><img src="crop-${r.name}-source.png"><img src="crop-${r.name}-local.png"></div></section>`).join('')}`);
+if(checks.some(r=>!r.pass)||comparisons.some(r=>r.dimensionsDiffer||r.changedOver8||!r.positionMatches))process.exitCode=1;

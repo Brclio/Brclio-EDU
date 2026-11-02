@@ -1,4 +1,4 @@
-/** Preserve literal code while adapting the source course's custom math tag. */
+/** Preserve source prose and code; match the source's empty math block handling. */
 export function courseMathMarkdown(source: string) {
   let result = '', position = 0;
   while (position < source.length) {
@@ -15,10 +15,6 @@ export function courseMathMarkdown(source: string) {
       while (source[position + length] === character) length++;
       const marker = character.repeat(length), end = source.indexOf(marker, position + length);
       if (end >= 0) { result += source.slice(position, end + length); position = end + length; continue; }
-    }
-    if (source.startsWith('<katex>', position)) {
-      const end = source.indexOf('</katex>', position + 7);
-      if (end >= 0) { result += `$${source.slice(position + 7, end)}$`; position = end + 8; continue; }
     }
     result += source[position++];
   }

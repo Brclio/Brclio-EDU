@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-11-02T09:25:07.301Z",
+  "scope": "Original isolated Solo component feedback compared with the actual local App route /course/015/page/937",
+  "rows": [
+    {
+      "width": 1280,
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "box": {
+            "x": 321.5,
+            "y": 708,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-1280-wrong-source.png"
+        },
+        "local": {
+          "box": {
+            "x": 321.5,
+            "y": 708,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-1280-wrong-local.png"
+        }
+      }
+    },
+    {
+      "width": 1280,
+      "state": "correct",
+      "sides": {
+        "source": {
+          "box": {
+            "x": 321.5,
+            "y": 708,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-1280-correct-source.png"
+        },
+        "local": {
+          "box": {
+            "x": 321.5,
+            "y": 708,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-1280-correct-local.png"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "box": {
+            "x": -123.5,
+            "y": 652,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-390-wrong-source.png"
+        },
+        "local": {
+          "box": {
+            "x": -123.5,
+            "y": 652,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-390-wrong-local.png"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "state": "correct",
+      "sides": {
+        "source": {
+          "box": {
+            "x": -123.5,
+            "y": 652,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-390-correct-source.png"
+        },
+        "local": {
+          "box": {
+            "x": -123.5,
+            "y": 652,
+            "width": 637,
+            "height": 72
+          },
+          "path": "output/quiz-visual/feedback-390-correct-local.png"
+        }
+      }
+    }
+  ],
+  "completedAt": "2026-11-02T09:25:18.796Z"
+}

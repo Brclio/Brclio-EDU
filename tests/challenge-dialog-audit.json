@@ -1,0 +1,14 @@
+{
+  "startedAt": "2026-11-02T09:08:52.072Z",
+  "checks": [
+    "page.coaches opens a 60px header / 50:50 fullscreen overlay without navigation; answer/reset/cancel/exit work",
+    "real Python rejects wrong answer, accepts original solution, stores two submissions and completion, and reopens submitted code",
+    "editing a passed solution invalidates current success/results, restores exit confirmation, and preserves historical completion/submissions",
+    "reset after passing restores template, invalidates current success/results, restores exit confirmation, and preserves historical completion/submissions",
+    "standalone category challenge opens directly in the original fullscreen workspace with answer hidden and exits to catalog",
+    "ChallengeRef lesson slide shows original description/examples and opens modal through Go Challenge without leaving lesson",
+    "nested Coach keeps original 80px illustration/name/description/practice card and opens the same local challenge dialog"
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T09:09:02.985Z"
+}

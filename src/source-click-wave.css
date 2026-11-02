@@ -1,0 +1,4 @@
+[data-source-click-wave]{position:relative}
+[data-source-click-wave][data-source-wave=true]:after{position:absolute;inset:0;display:block;border-radius:inherit;box-shadow:0 0 0 0 var(--source-wave-color,#3b82f6);opacity:.2;animation:source-button-wave-fade 2s cubic-bezier(.08,.82,.17,1),source-button-wave-grow .4s cubic-bezier(.08,.82,.17,1);animation-fill-mode:forwards;content:"";pointer-events:none}
+@keyframes source-button-wave-fade{to{opacity:0}}
+@keyframes source-button-wave-grow{to{box-shadow:0 0 0 6px var(--source-wave-color,#3b82f6)}}

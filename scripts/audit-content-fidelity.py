@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Independent snapshot/source/resource fidelity audit; read-only except its reports.
 --live checks the anonymous catalog, all course overviews and first/last pages.
+--live-all verifies every cached course, page, knowledge, quiz and code endpoint.
 No login, cookies or account endpoints are contacted.
 """
-import argparse,base64,collections,concurrent.futures,datetime,hashlib,html,importlib.util,json,pathlib,re,shutil,subprocess,urllib.parse,urllib.request
+import argparse,base64,collections,concurrent.futures,datetime,hashlib,html,importlib.util,json,pathlib,re,shutil,subprocess,time,urllib.parse,urllib.request
+from source_json_diff import changed_fields
 ROOT=pathlib.Path(__file__).resolve().parents[1];PUBLIC=ROOT/'public';OUT=PUBLIC/'content';CACHE=ROOT/'data/source/api'
 sha=lambda b:hashlib.sha256(b.encode() if isinstance(b,str)else b).hexdigest()
 def read(p):return json.loads(p.read_text())
@@ -13,7 +15,7 @@ def scalar_walk(x,trail=''):
  elif isinstance(x,list):
   for i,v in enumerate(x):yield from scalar_walk(v,trail+'/'+str(i))
  else:yield trail,x
-ap=argparse.ArgumentParser();ap.add_argument('--live',action='store_true');ap.add_argument('--verify-media',action='store_true');args=ap.parse_args()
+ap=argparse.ArgumentParser();ap.add_argument('--live',action='store_true');ap.add_argument('--live-all',action='store_true',help='Read every cached public API endpoint, including all nested references');ap.add_argument('--verify-media',action='store_true');ap.add_argument('--live-workers',type=int,choices=range(1,9),default=4,help='Concurrent public reads, capped at 8 (default 4)');args=ap.parse_args()
 manifest=read(OUT/'manifest.json');fixture=read(OUT/'fixture-map.json');media=read(OUT/'media-index.json')
 report={'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scope':'all current published course data and dependencies against cached anonymous original API responses','errors':[],'renderExternal':[],'localMissing':[],'svgExternal':[],'fixtureBodies':[],'live':[],'limitations':['Cached raw responses provide the complete content comparison; optional live checks sample first/last pages, not every source endpoint.','Direct downloads lacking an independent raw copy are source-mapped and hashed here, not claimed independently byte-verified against today\'s live CDN.','A fixed scraping response is historical/current captured data, not a mirror of every dynamically discoverable third-party page.']}
 # Re-run the existing complete raw-field comparison independently of old reports.
@@ -30,13 +32,15 @@ def localize(s):return pattern.sub(lambda m:mapping[m.group()],s)
 def compare(raw,pub,where,counts,issues):
  if isinstance(raw,dict):
   if not isinstance(pub,dict):issues.append({'where':where,'kind':'missing-object'});return
-  for k,v in raw.items():compare(v,pub.get(k),where+'/'+k,counts,issues)
+  for k,v in raw.items():
+   if k not in pub:issues.append({'where':where+'/'+k,'kind':'missing-source-field'})
+   else:compare(v,pub[k],where+'/'+k,counts,issues)
  elif isinstance(raw,list):
   if not isinstance(pub,list)or len(raw)!=len(pub):issues.append({'where':where,'kind':'array-length','source':len(raw),'actual':len(pub)if isinstance(pub,list)else None});return
   for i,(a,b)in enumerate(zip(raw,pub)):compare(a,b,where+'/'+str(i),counts,issues)
  else:
   counts['fields']+=1
-  if raw==pub:counts['exact']+=1
+  if type(raw) is type(pub) and raw==pub:counts['exact']+=1
   elif isinstance(raw,str)and isinstance(pub,str)and localize(raw)==localize(pub):counts['localized']+=1
   else:issues.append({'where':where,'kind':'changed-field','sourceHash':sha(json.dumps(raw,ensure_ascii=False)),'currentHash':sha(json.dumps(pub,ensure_ascii=False))})
 cat=read(OUT/'catalog.json');groups=read(CACHE/'api--home_courses.json');cc=collections.Counter();ci=[]
@@ -165,6 +169,7 @@ if args.verify_media:
    result=subprocess.run(['ffprobe','-v','error','-show_entries','format=duration,size:stream=codec_name,codec_type,width,height','-of','json',str(p)],capture_output=True,text=True)
    videos.append({'path':str(p.relative_to(ROOT)),'validContainer':result.returncode==0,'metadata':json.loads(result.stdout)if result.returncode==0 else{},'error':result.stderr.strip()})
    if result.returncode:issues.append({'invalidVideo':str(p.relative_to(ROOT))})
+ else:issues.append({'missingMediaValidator':'ffprobe','reason':'Cannot verify all video containers without ffprobe'})
  report['mediaValidation']={'counts':dict(counts),'formats':dict(formats),'videos':videos,'issues':issues,'method':'Pillow image verification, XML parsing and ffprobe container/stream inspection; video frames are not transcoded or exhaustively decoded.'}
  report['errors']+=issues
 # Publish per-asset hashes without claiming an absent independent source hash.
@@ -177,24 +182,38 @@ for local,origins in sorted(reverse.items()):
  if not p.is_file():report['errors'].append({'missingManifestAsset':local});continue
  b=p.read_bytes();raw=ROOT/'data/source/svg-assets'/p.name
  report['assetFiles'].append({'path':local,'size':len(b),'sha256':sha(b),'sourceUrls':[u for u in origins if external(u)],'independentRawSvgAvailable':raw.is_file()if p.suffix=='.svg'else False})
-if args.live:
+if args.live or args.live_all:
  paths=['/api/home_courses']+[f'/api/course/{c["course_no"]}/overview'for c in actual]
  for c in actual:
   no=c['course_no'];pages=[p for chapter in read(OUT/f'courses/{no}.json')['toc']['categories']for p in chapter.get('pages',[])]
   for p in [pages[0],pages[-1]]:paths.append(f'/api/course/{no}/page/{p["id"]}')
+ if args.live_all:
+  paths=sorted('/'+p.stem.replace('--','/') for p in CACHE.glob('*.json') if re.fullmatch(r'api--(?:home_courses|course--[0-9]+--(?:overview|page--[0-9]+)|knowledge--[0-9]+|challenge--(?:quiz--v2|code)--[0-9]+)',p.stem))
+  report['limitations'][0]='Every cached public content endpoint is freshly requested; source catalog and overview comparison detects additions/removals relative to the imported snapshot. Live transport failures and differences fail the audit.'
+ report['liveScope']='all-cached-public-endpoints' if args.live_all else 'catalog-overviews-first-last-pages'
  def fetch(api):
   record={'api':api};cached=CACHE/(api.strip('/').replace('/','--')+'.json')
   try:
    req=urllib.request.Request('https://edu.py2fun.com'+api,headers={'User-Agent':'Brclio-EDU public fidelity audit/1.0','Accept':'application/json'})
-   with urllib.request.urlopen(req,timeout=25)as response:payload=json.load(response)
+   for attempt in range(3):
+    try:
+     with urllib.request.urlopen(req,timeout=25)as response:payload=json.load(response)
+     break
+    except Exception:
+     if attempt==2:raise
+     time.sleep(attempt+1)
    if payload.get('code')!=0:raise ValueError('Public API code '+str(payload.get('code')))
-   current=payload['data'];old=read(cached);a=dict(scalar_walk(old));b=dict(scalar_walk(current));changes=[key for key in sorted(a.keys()|b.keys())if a.get(key)!=b.get(key)]
+   current=payload['data'];old=read(cached);changes=changed_fields(old,current)
    record.update(status='ok',cachedCanonicalSha256=sha(json.dumps(old,sort_keys=True,ensure_ascii=False)),liveCanonicalSha256=sha(json.dumps(current,sort_keys=True,ensure_ascii=False)),changedFields=changes)
    (ROOT/'data/source/fidelity-live').mkdir(exist_ok=True);(ROOT/'data/source/fidelity-live'/cached.name).write_text(json.dumps(current,ensure_ascii=False,separators=(',',':'))+'\n')
   except Exception as e:record.update(status='error',reason=str(e))
   return record
- with concurrent.futures.ThreadPoolExecutor(max_workers=4)as pool:report['live']=list(pool.map(fetch,paths))
-report['summary']={'courses':len(actual),'pages':report['rawComparison']['pages'],'challenges':report['rawComparison']['challenges'],'sourceScalarFields':report['rawComparison']['scalarFieldsCompared'],'sourceExactFields':report['rawComparison']['unchangedFields'],'sourceLocalizedFields':report['rawComparison']['localizedFields'],'frameExternalizations':report['rawComparison']['verifiedFrameExternalizations'],'sourceComparisonIssues':len(report['rawComparison']['issues'])+len(ci),'renderExternal':len(report['renderExternal']),'svgExternal':len(report['svgExternal']),'missingLocalReferences':len(report['localMissing']),'assetFilesHashed':len(report['assetFiles']),'fixtureAliases':len(fixture),'fixtureBodies':len(bybody),'errors':len(report['errors']),'liveRequests':len(report['live']),'liveChanged':sum(bool(r.get('changedFields'))for r in report['live']),'liveErrors':sum(r['status']=='error'for r in report['live'])}
+ with concurrent.futures.ThreadPoolExecutor(max_workers=args.live_workers)as pool:
+  for i,row in enumerate(pool.map(fetch,paths),1):
+   report['live'].append(row)
+   if i%100==0:print(f'Live content endpoints: {i}/{len(paths)}',flush=True)
+ report['liveExpectedRequests']=len(paths)
+report['summary']={'courses':len(actual),'pages':report['rawComparison']['pages'],'challenges':report['rawComparison']['challenges'],'sourceScalarFields':report['rawComparison']['scalarFieldsCompared'],'sourceExactFields':report['rawComparison']['unchangedFields'],'sourceLocalizedFields':report['rawComparison']['localizedFields'],'frameExternalizations':report['rawComparison']['verifiedFrameExternalizations'],'sourceComparisonIssues':len(report['rawComparison']['issues'])+len(ci),'renderExternal':len(report['renderExternal']),'svgExternal':len(report['svgExternal']),'missingLocalReferences':len(report['localMissing']),'assetFilesHashed':len(report['assetFiles']),'fixtureAliases':len(fixture),'fixtureBodies':len(bybody),'errors':len(report['errors']),'liveRequests':len(report['live']),'liveChanged':sum(r.get('status')=='ok' and r.get('cachedCanonicalSha256')!=r.get('liveCanonicalSha256')for r in report['live']),'liveErrors':sum(r['status']=='error'for r in report['live'])}
 (ROOT/'tests').mkdir(exist_ok=True)
 (ROOT/'tests/content-fidelity-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report['summary'],ensure_ascii=False,indent=2))
 raise SystemExit(bool(report['errors']or report['renderExternal']or report['svgExternal']or report['localMissing']or report['summary']['liveChanged']or report['summary']['liveErrors']))

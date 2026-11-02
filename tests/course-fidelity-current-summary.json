@@ -1,0 +1,201 @@
+{
+  "at": "2026-11-02T11:04:20.021Z",
+  "scope": "Current local repair and evidence inventory, not a claim of universal pixel/backend equivalence.",
+  "sourceFiles": {
+    "AnswerLocker.tsx": "121101ca69078e332927a3f25b606c92ca544202ba5a0f37c2943e5dc932e341",
+    "App.tsx": "4e77bcb3268cab77b92c92610b286f9d02cb3218e0474dda54a837f1af99f165",
+    "ArticleAnimation.tsx": "c5b67f505ecea8a0fbfc1781e17e552b6f4e6d95be29b2b1fe0f413816300d59",
+    "ArticleGlossary.tsx": "09c6b5e11cfbfb5d30b06d13eb640c0b6ec52bd10357398e4e66f3fa4497ce3b",
+    "ArticleImagePreview.tsx": "590d9389601f182152cc0779dffd5bb0a44765085140af833b47673b681361fa",
+    "ArticleLesson.tsx": "d2b2bf595f55d5dab9a7556b38cd1795b718081b6efebf080c0d575a755cfc50",
+    "ArticleMarkdownCode.tsx": "a379b0a7e0f7c03d99453722de45cd0c6eb7eadcdb109e3d39288cef70131f89",
+    "ArticleOverview.tsx": "bd2eaac172d33e8662d63668b3d6d720d6af64a944bb7ef059d39fd07b7ce699",
+    "ArticleQuiz.tsx": "8df8d71f6b8ed9a5eb4669493f78a009aa47e4a458ab8da80c1b703abdd93276",
+    "ArticleSpoiler.tsx": "eb2120f17cadb9255011baee00113a5df21ed7e5d38533619a8a65ca18c728f7",
+    "ChallengeDialog.tsx": "581e1743931586d1c1f08054adc7681c18fa133eaa74cff1cb05a670fb8422ea",
+    "Content.tsx": "ae05c6a1a81e31a770d0897d2433c95856962a388722875908f45233662ebaa3",
+    "CourseCatalog.tsx": "1b21f9694045bac6f3e53a50cabba136168c597cf9290214b778da816f36f08f",
+    "CourseOverview.tsx": "45992f5c0111f5457263f3034ca464ead0e65f4868f58e380a5764127e07591a",
+    "CourseSvg.tsx": "ae7359513fcdc70272b80b8cb26e9a84bfcf03bb4d1115eb83d87ecb7953ad43",
+    "EditorHelp.tsx": "38d9dafe8818be05cffbd9cba9562acbe3ee120d9fff60547ac53ecb1a92a50f",
+    "MindMap.tsx": "4d8565ed50ce55f09455404a15580fb9e572d97f5ba296d26ab1660820f3483c",
+    "QuizCode.tsx": "6d63f1c35222e17363e3255bea849e3b914ebd7d07d10b07f57c3742f2a23cff",
+    "SoloCompletion.tsx": "50897d91a8474d44b18085931f5b7edb8f11e2036df0dba6ec4409abffbb50da",
+    "SoloMarkdownCode.tsx": "74e87df51fdb41969d78a3e91b067ad2abc6a8e20932dc523bf4558b6e12c976",
+    "SourceEditor.tsx": "79cc4571f21ef4c745a6904f3f32f8ca63a47a77d7c53e97c7bf40471f728e44",
+    "SourceIcon.tsx": "2a62a627f5e61cd79400f3ce55f64fcf23a9e732c4d2ebeee729c51d0c4c2132",
+    "SourceWebPreview.tsx": "a736a3ea389343ae929de87cf0535abdd4a69fd642a45a6ebc4e6185a1cb8105",
+    "answer-locker.css": "16aea6efdaa055e73542b981367efdf7b934704b9d916e74fdeec29b6ff820bf",
+    "article-fidelity.css": "6c99e76eee4b2289fe247267c7d54eafb04d8bc1bb49903f82c89f8b23044ea3",
+    "article-glossary.css": "bc158a927e234ac4e396fb232884daa3a93e28a8aacb08eb7e4d5559fe354b23",
+    "article-image-preview.css": "d8cc941ebbbf9af54796ae52bf8c342cefd85a360d54eae73eeb01cd03cfb60a",
+    "article-quiz-icons.ts": "4a6575b62899efb94163b2d83fcbb27a642a380fd35d67567ba18191ff17efa9",
+    "article-quiz.css": "858a24d328e76d9f0a026a6b64850a8c3d500b4c43e4423485df8e5938a4ba31",
+    "article-spoiler.css": "a32340f34226793defd0d906c9ca07157efc3d30d108c5208f92a93987160be3",
+    "article.css": "99e0de4a18569fca111b9ee9f6fed041dddf658cdddd66afef1862efea5ddad0",
+    "challenge-dialog.css": "0cff950a9545c1f6909a2a5feb926cfd8f8f8460a1ff29c04514fdd36642c7ce",
+    "content-math.ts": "f7be4bdcb51da38c1646cdeafec03701e01956c2a411642bb0c6ca84dee70747",
+    "content-model.ts": "6ab8854b69d455b861bee7ab59fd29ca62cf680a78a4532604b97c22b8fce0e2",
+    "content-web.ts": "f461c63e7dbc431ec5bb6188c19f82a3817f19cb9c36451e5e6916fc330fc117",
+    "content-workspace.css": "9188487afd4e2dd99d4d05be88a15733b1db277b550d0ade228cabdaa8ca608d",
+    "content.css": "7cd3303cdc0ada6155745cb2d390122bda01ec28882b7a82a81851fe17b415f8",
+    "course-catalog.css": "f1f58c92be06f111ea57bbc2ad3cd8eb3e9f2be1607ad34491ae55c6c69a0262",
+    "course-overview.css": "88e547c53b829ad6647c11b6f9856b4abbbeffa7f7f61197972e1a59cd0404bc",
+    "editor-help.css": "30adace9302342f047ae70ab3293ac9896248a8a5c118ebbeab0bd8406f9c50b",
+    "execution.ts": "f62d9af88e0529bf96d48eb6084e6cb4d1d601a858313ee88ebad3b2a3209188",
+    "legacy-jsx.d.ts": "56246c9037119b14d3f20507317bf3527c3e668fdae39e3c90836ad59e7c10f9",
+    "main.tsx": "011349f54cb6f16a4717e2aee2b793750b7bd23caa8c9bcc76869b5b7cbbedd4",
+    "native-dialog-transform.ts": "988d6651cb779fe2ca04d38381d1d5805c2b3655891c48dd3bcc4bc219aeace4",
+    "native-web-dialogs.ts": "ec29aa2c680598f04cf701628c2eb36cfd614e4c251d8e774fe0c7cbc7566c32",
+    "prism.d.ts": "2e8973edd8424486542578676e66febb5d82b19141da6f41aad796eb2cd68247",
+    "progress.ts": "6063305bb27897ceeeb5a262839bf7b2a60ea1bc7ceea4b922f3f671b3a683df",
+    "python-worker.js": "e570838a5e28266b61971bc245fd4104ffec4fac6f72da1b314fe802e2f754f5",
+    "quiz.css": "f5b3f40718cb5408ba6055124c8c6514ef065fab56df8487bd7a2f39223fcb6d",
+    "rehype-course-katex.ts": "73ca0456473cffc8cdac6a9dfc409e43bd53fc1a2434836fbe9d654e4a745fa4",
+    "solo-completion.css": "9ca3ab46fbba336f207e914971adb5645a54a839e769fbc6132a455d0ae4a790",
+    "solo-fidelity.css": "f28239b731a8338080fa786a59062af2fe2f6b252e82148a808f2efda4ccc479",
+    "source-click-wave.css": "34c0e9010a63532ec47578ad92625b5f1ce434680847d21d83581dc931593749",
+    "source-editor.css": "67a39198d193b5315fbdcbc9c689489edb34f5555c0a361e866cdb64c0176d86",
+    "source-web-preview.css": "04330bceff4f498e26f2ff2c34e4f6acb77b35b382d69d5d7b006486c4269fef",
+    "styles.css": "79a47067beffebb0f9817b68d5fdb9fcf5c1ad37f1a2c4ff21febf3ffd639d1d",
+    "useSourceClickWave.ts": "7e1e78d7b1ec7f91cb8a7079a0222f35b3c8307d725a76287821c16ddbcbe65f"
+  },
+  "content": {
+    "courses": 28,
+    "pages": 1190,
+    "challenges": 479,
+    "sourceScalarFields": 345606,
+    "sourceExactFields": 343630,
+    "sourceLocalizedFields": 1976,
+    "frameExternalizations": 964,
+    "sourceComparisonIssues": 0,
+    "renderExternal": 0,
+    "svgExternal": 0,
+    "missingLocalReferences": 0,
+    "assetFilesHashed": 3055,
+    "fixtureAliases": 34,
+    "fixtureBodies": 27,
+    "errors": 0,
+    "liveRequests": 4024,
+    "liveChanged": 0,
+    "liveErrors": 0
+  },
+  "prose": {
+    "uniquePlanned": 6790,
+    "compared": 6786,
+    "pixelCompared": 6785,
+    "withinChannelTolerance10": 6779,
+    "textHeightImageDifferences": 0,
+    "sourceRendererErrors": [
+      {
+        "file": "public/content/pages/010-412.json",
+        "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading '30')\n    at a (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1295590)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553142)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at y (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549879)\n    at v (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549694)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553179)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at e.exports (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1546518)"
+      },
+      {
+        "file": "public/content/pages/010-415.json",
+        "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading '6')\n    at a (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1295590)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553142)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at y (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549879)\n    at v (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549694)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553179)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at e.exports (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1546518)"
+      },
+      {
+        "file": "public/content/pages/010-416.json",
+        "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading '14')\n    at a (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1295590)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553179)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at y (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549879)\n    at v (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549694)\n    at g (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549609)\n    at h (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549245)\n    at p (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549171)\n    at b (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549801)"
+      },
+      {
+        "file": "public/content/pages/010-488.json",
+        "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading '6')\n    at a (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1295590)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553142)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at y (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549879)\n    at v (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1549694)\n    at S (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553200)\n    at w (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1553179)\n    at Object.write (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1552749)\n    at e.exports (http://127.0.0.1:5176/output/article-reference/vendor.js:2:1546518)"
+      }
+    ],
+    "streamedVideoRowsSuperseded": 2
+  },
+  "quiz": {
+    "states": 924,
+    "captureErrors": 0,
+    "resourceErrors": 0,
+    "sourceScreenshotsUnchanged": true,
+    "sameSize": 924,
+    "strictPixelIdentical": 141,
+    "zeroPixelsOver16": 825,
+    "maximumOver16Percent": 0.5590452261306532
+  },
+  "quizFamilies": {
+    "states": 76,
+    "dimensionMismatches": 0,
+    "zeroDifferenceStates": 43,
+    "zeroDifferenceOver16States": 74,
+    "actualAppFeedbackStates": 4,
+    "actualAppFeedbackStrictZeroDifference": 4
+  },
+  "keyboard": {
+    "cases": 8,
+    "submissions": 16,
+    "errors": 0
+  },
+  "animation": {
+    "animations": 163,
+    "frames": 964,
+    "matchedFrames": 964,
+    "errors": 0,
+    "externalRequests": 0,
+    "sourceUnchanged": false,
+    "animationSourcesUnchanged": true
+  },
+  "spoiler": {
+    "states": 58,
+    "passed": true
+  },
+  "spoilerMotionPassed": true,
+  "animationClickWavePassed": true,
+  "nativeDialogs": {
+    "fixtures": 22,
+    "fixtureFailures": 0,
+    "additionalChecks": 4,
+    "errors": 0,
+    "externalRequests": 0,
+    "sourceUnchanged": true
+  },
+  "webExamples": {
+    "executed": 90,
+    "failedImages": [],
+    "blockedExternalRequests": 0,
+    "errors": 1,
+    "unexpectedErrors": 0,
+    "checks": 31,
+    "passedChecks": 31
+  },
+  "validation": {
+    "unitTests": {
+      "passed": 102,
+      "failed": 0
+    },
+    "productionBuild": "passed",
+    "diffCheck": "passed"
+  },
+  "fullyEquivalent": false,
+  "knownBoundaries": [
+    "Default-browser monospace fallback differs in one quiz screenshot; normalized-font comparison is separate and does not replace the original residual.",
+    "Small SVG/native-control antialiasing and video buffering-paint differences remain explicitly reported.",
+    "Four original published Markdown render attempts throw; local content is kept renderable.",
+    "Some unavailable original assets and third-party teaching responses are labeled reconstructions/adaptations.",
+    "Private source judge and AI services are not reproduced.",
+    "Native compilation uses an existing self-hosted Brclio service; this workstation lacks a Docker runtime for entirely offline native execution."
+  ],
+  "report": "docs/strict-course-fidelity.md",
+  "postVerificationFormatting": [
+    {
+      "file": "src/article-spoiler.css",
+      "previousSha256": "64876891ee84b534ec7fc7de932a0c3db98baec0de000adb9697a6ed8ab9d1e1",
+      "currentSha256": "a32340f34226793defd0d906c9ca07157efc3d30d108c5208f92a93987160be3",
+      "change": "Removed one extra trailing blank line; CSS rules unchanged. Historical visual reports retain their actual hashes."
+    }
+  ],
+  "commitValidation": {
+    "at": "2026-11-02T11:11:55.067011+00:00",
+    "unitTests": {
+      "passed": 102,
+      "failed": 0
+    },
+    "productionBuild": "passed",
+    "stagedWhitespaceCheck": "passed",
+    "vendoredEditorStagedFiles": 113,
+    "vendoredEditorByteChanges": 0
+  }
+}

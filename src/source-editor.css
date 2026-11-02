@@ -1,0 +1,15 @@
+.edu-source-editor{min-width:0;width:100%;position:relative;text-align:left;overflow:hidden}
+.edu-source-editor-full{height:100%}.edu-source-editor-readonly{min-height:24px}
+.edu-source-editor .CodeMirror{height:auto;font:16px/25.144px monospace;background:#272822;color:#f8f8f2}
+.edu-source-editor .CodeMirror-scroll{min-height:0}
+.edu-source-editor .CodeMirror-gutters{border-right:0;background:#272822}
+.edu-source-editor .CodeMirror-linenumber{color:#90908a}
+.edu-source-editor .CodeMirror pre.CodeMirror-line,.edu-source-editor .CodeMirror pre.CodeMirror-line-like{border:0;border-radius:0;background:transparent;margin:0;padding:0 4px;line-height:inherit;color:inherit;font:inherit;white-space:pre;overflow:visible}
+.edu-source-editor .monaco-editor,.edu-source-editor .monaco-editor *{box-sizing:content-box}
+.edu-source-editor .monaco-editor textarea{resize:none}
+.edu-source-editor .monaco-editor .inputarea{margin:0;padding:0;border:0;min-height:0}
+.article-content .edu-code-block>.edu-source-editor{max-height:720px;overflow:auto}
+/* CodeMirror 5's measured gutters include content-box padding, as on the source. */
+.edu-source-editor .CodeMirror,.edu-source-editor .CodeMirror *{box-sizing:content-box}
+.edu-source-editor .CodeMirror-linenumber{color:#d0d0d0}
+.edu-source-editor .edu-source-highlighted{background-color:hsla(0,0%,100%,.18)}

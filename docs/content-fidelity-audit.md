@@ -11,11 +11,11 @@
 | 课节、挑战、内联引用原始标量字段 | 345,606 个：343,630 原值一致，1,976 仅允许的路径本地化；0 个差异问题 | 全量本地原始 API 快照与发布 JSON；包含原始代码和答案 |
 | 目录及全部课程 overview | 21,519 个字段：21,184 一致，335 路径本地化；0 个问题 | 原站 65 个分类成员去重为 28 门课程，分类成员关系保留 |
 | 逐帧动画 | 163 个动画、964 帧，逐帧本地化后的预期 SVG 与文件字节相同 | 保留原始帧差异，非仅验证按钮或帧号切换；见 `tests/animation-data-audit.json` |
-| 新匿名源站请求 | 85 次成功、0 个变化字段 | 目录 1 次、28 个 overview、每门第一及最后一课 56 次；没有宣称重新请求全部 1,190 课 |
+| 新匿名源站请求 | 4,024 次成功、0 个变化端点、0 个最终请求错误 | 本轮全量：目录 1 个、28 个 overview、1,190 个课节、932 个知识、1,394 个测验、479 个代码挑战；每项规范化 SHA-256 相等 |
 | 本地资源引用 | 2,452 个不同路径、3,437 次引用，0 个缺失 | 当前课程发布数据中的路径及流式媒体分块 |
 | 当前渲染依赖 | 0 个外部媒体/脚本依赖，0 个 SVG 外部子图引用 | Markdown 媒体、HTML 示例、资源组件、SVG 内嵌 SVG；普通知识超链接及代码中的固定抓取 URL 单独处理 |
 
-媒体检查覆盖 1,292 张位图的 Pillow 格式校验、1,731 个 SVG 的 XML 解析，以及 9 个 MP4 的 ffprobe 容器和流信息检查，均无失败。没有声称逐像素检查所有图片或逐帧解码所有视频。3,055 个媒体索引本地文件记录了当前 SHA-256；没有独立原始副本的下载文件，不能仅凭现有哈希声称已与今天 CDN 再次逐字节比对。
+媒体检查覆盖 1,299 张位图的 Pillow 格式校验、1,732 个 SVG 的 XML 解析（含本轮新增的站点 UI 素材），以及 9 个 MP4 的 ffprobe 容器和流信息检查，均无失败。没有声称逐像素检查所有图片或逐帧解码所有视频。3,055 个媒体索引本地文件记录了当前 SHA-256；没有独立原始副本的下载文件，不能仅凭现有哈希声称已与今天 CDN 再次逐字节比对。
 
 两个超过部署单文件限制的视频分别为 32,061,947 和 89,678,385 字节。拼接 8 MiB 分块得到的 SHA-256 同时匹配索引和原始缓存，无转码或降清晰度。SVG 递归检查了 2,646 个内嵌 SVG 图像实例。
 
@@ -55,13 +55,13 @@
 
 ## 可复核文件与命令
 
-- `tests/content-fidelity-audit.json`：全量源字段、catalog、资源 SHA、85 次新请求、媒体、fixture 来源分类。
+- `tests/content-fidelity-audit.json`：全量源字段、catalog、资源 SHA、4,024 次全量新请求、媒体、fixture 来源分类。
 - `tests/content-import-reproduction.json`：隔离全导入结果及逐帧一致性。
 - `tests/content-css-dependency-audit.json`、`tests/content-teaching-links-audit.json`：真实浏览器 CSS 和本地教学链接证据。
 - `public/content/recovery-report.json`、`network-fixture-audit.json`、`biqukan-compat-audit.json`：每个恢复资源的位置、来源和限制。
 
 ```sh
-python3 scripts/audit-content-fidelity.py --live --verify-media
+python3 scripts/audit-content-fidelity.py --live-all --live-workers 8 --verify-media
 python3 tests/content-import-reproduction.py
 node --import tsx tests/content-css-dependency-audit.mjs
 node tests/content-teaching-links-audit.mjs

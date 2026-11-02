@@ -30,6 +30,7 @@ test('SQL compatibility returns the actual source query data after concat and vi
 });
 test('all 90 webpage previews run with 31 actual-result interaction assertions',async()=>{
  const web=JSON.parse(await fs.readFile('tests/runtime-web-audit.json','utf8'));assert.equal(web.coverage.examples,90);assert.equal(web.summary.executed,90);assert.equal(web.summary.unexpectedErrors,0);assert.equal(web.summary.checks,31);assert.equal(web.summary.passedChecks,31);assert.equal(web.sourceHashBefore,web.sourceHashAfter);assert.equal(web.sourceHashAfter,sha(await fs.readFile('src/content-web.ts')));
+ assert.equal(web.sourceUnchanged,true);assert.deepEqual(web.changedFiles,[]);for(const file of ['src/content-web.ts','src/native-dialog-transform.ts','src/native-web-dialogs.ts','src/SourceWebPreview.tsx','src/Content.tsx']){assert.equal(web.sourceFilesBefore[file],web.sourceFilesAfter[file]);assert.equal(web.sourceFilesAfter[file],sha(await fs.readFile(file)),file+' changed since the real webpage audit');}
  const expected=web.results.filter(r=>r.classification==='original-case-sensitivity-error');assert.equal(expected.length,1);assert.match(expected[0].errors.join('\n'),/X is not defined/);
  assert.equal(web.results.filter(r=>r.kind==='RunJS'&&r.checks.length===2&&r.checks.every(c=>c.passed)).length,7);
 });

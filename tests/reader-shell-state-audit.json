@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-11-02T10:05:12.651Z",
+  "checks": [
+    "desktop sidebar close/open persists across reload",
+    "source 414 breakpoint hides sidebar even when expanded; 415 shows it",
+    "multiple chapters can open; collapsing one keeps the current chapter open",
+    "TOC stores route anchor, aligns heading to pane top, survives reload and keeps clicked active state on manual scroll",
+    "TOC collapse and reopen",
+    "unchecking completion then next leaves page incomplete; previous returns to correct page",
+    "default next marks completed and paints noncurrent completed icon",
+    "last page has completion checkbox, updates/reverses status without navigation, retains current rocket",
+    "course progress floors 4/88 instead of rounding",
+    "Solo return moves white stepper back while furthest progress remains, including reload"
+  ],
+  "passed": true
+}

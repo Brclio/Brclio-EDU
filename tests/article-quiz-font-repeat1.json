@@ -1,0 +1,3651 @@
+{
+  "generatedAt": "2026-11-02T10:36:54.090Z",
+  "base": "http://127.0.0.1:5174",
+  "snapshotManifest": "tests/quiz-visual-snapshot.json",
+  "scope": "All 52 Article Quiz groups and all 231 public questions; original source components and actual local Content, 1280/390, blank and correct-submitted. The source-unreachable second question in a two-question group is also compared independently and identified.",
+  "groups": [
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "width": 1280,
+      "questions": 4,
+      "status": "passed"
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "width": 390,
+      "questions": 4,
+      "status": "passed"
+    }
+  ],
+  "rows": [
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 17,
+      "index": 0,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-390-blank-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-390-blank-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 17,
+      "index": 0,
+      "width": 1280,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-1280-blank-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-1280-blank-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 17,
+      "index": 0,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-1280-correct-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-1280-correct-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 17,
+      "index": 0,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-390-correct-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-0-390-correct-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 1280,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-1280-blank-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Courier",
+                "postScriptName": "Courier",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-1280-blank-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 796
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 796
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-390-blank-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-390-blank-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 852
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 852
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-1280-correct-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Courier",
+                "postScriptName": "Courier",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-1280-correct-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 18,
+      "index": 1,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-390-correct-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-1-390-correct-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [
+              {
+                "familyName": "Menlo",
+                "postScriptName": "Menlo-Regular",
+                "isCustomFont": false,
+                "glyphCount": 116
+              }
+            ],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 19,
+      "index": 2,
+      "width": 1280,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-1280-blank-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-1280-blank-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 19,
+      "index": 2,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-390-blank-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-390-blank-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 19,
+      "index": 2,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-1280-correct-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-1280-correct-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 19,
+      "index": 2,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-390-correct-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-2-390-correct-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 20,
+      "index": 3,
+      "width": 1280,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-1280-blank-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-1280-blank-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 20,
+      "index": 3,
+      "width": 390,
+      "state": "blank",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-390-blank-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-390-blank-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 20,
+      "index": 3,
+      "width": 1280,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-1280-correct-local.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-1280-correct-source.png",
+          "box": {
+            "x": 160,
+            "y": 32,
+            "width": 960,
+            "height": 1002
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 960,
+            "height": 1002
+          }
+        }
+      }
+    },
+    {
+      "file": "002-34.json",
+      "componentId": "319ed8f0f8ee11eb929c3af9d3c2d1d5",
+      "questionId": 20,
+      "index": 3,
+      "width": 390,
+      "state": "correct",
+      "sourceUiReachable": true,
+      "sides": {
+        "local": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-390-correct-local.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        },
+        "source": {
+          "path": "output/article-quiz-font-repeat1/002-34-319ed8f0f8ee11eb929c3af9d3c2d1d5-3-390-correct-source.png",
+          "box": {
+            "x": 16,
+            "y": 32,
+            "width": 358,
+            "height": 1288
+          },
+          "fonts": {
+            "platform": [],
+            "document": {
+              "ready": "loaded",
+              "check": true,
+              "faces": [
+                {
+                  "family": "KaTeX_AMS",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Caligraphic",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Fraktur",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Main",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Math",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_SansSerif",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Script",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size1",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size2",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size3",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Size4",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "KaTeX_Typewriter",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                },
+                {
+                  "family": "swiper-icons",
+                  "status": "unloaded"
+                }
+              ]
+            }
+          },
+          "image": {
+            "width": 358,
+            "height": 1288
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "resourceErrors": [],
+  "completedAt": "2026-11-02T10:37:04.452Z"
+}

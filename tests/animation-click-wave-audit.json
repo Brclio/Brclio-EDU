@@ -1,0 +1,170 @@
+{
+  "at": "2026-11-02T10:58:47.801Z",
+  "base": "http://127.0.0.1:5177",
+  "sourceDirectory": "/tmp/brclio-spoiler-final-20261102/src",
+  "implementationHashes": {
+    "ArticleAnimation.tsx": "c5b67f505ecea8a0fbfc1781e17e552b6f4e6d95be29b2b1fe0f413816300d59",
+    "useSourceClickWave.ts": "7e1e78d7b1ec7f91cb8a7079a0222f35b3c8307d725a76287821c16ddbcbe65f",
+    "source-click-wave.css": "34c0e9010a63532ec47578ad92625b5f1ce434680847d21d83581dc931593749"
+  },
+  "checks": [
+    {
+      "width": 1440,
+      "name": "next",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/1440-next-source.png",
+        "output/animation-click-wave/1440-next-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "name": "previous",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/1440-previous-source.png",
+        "output/animation-click-wave/1440-previous-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "name": "replay",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/1440-replay-source.png",
+        "output/animation-click-wave/1440-replay-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "next",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/390-next-source.png",
+        "output/animation-click-wave/390-next-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "previous",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/390-previous-source.png",
+        "output/animation-click-wave/390-previous-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "replay",
+      "elapsed": 160,
+      "sides": {
+        "source": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        },
+        "local": {
+          "wave": "true",
+          "opacity": "0.0943444",
+          "shadow": "rgb(102, 166, 255) 0px 0px 0px 5.56261px",
+          "radius": "50%"
+        }
+      },
+      "files": [
+        "output/animation-click-wave/390-replay-source.png",
+        "output/animation-click-wave/390-replay-local.png"
+      ],
+      "sameSize": true,
+      "changedOver10": 0,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

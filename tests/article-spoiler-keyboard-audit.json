@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-02T10:58:47.801Z",
+  "base": "http://127.0.0.1:5177",
+  "checks": [
+    {
+      "key": "Enter",
+      "sides": {
+        "source": {
+          "wave": "true",
+          "open": {
+            "height": 40,
+            "opacity": 1
+          },
+          "openLabel": "隐藏提示1",
+          "closed": {
+            "height": 0,
+            "opacity": 0
+          },
+          "closedLabel": "提示1"
+        },
+        "local": {
+          "wave": "true",
+          "open": {
+            "height": 40,
+            "opacity": 1
+          },
+          "openLabel": "隐藏提示1",
+          "closed": {
+            "height": 0,
+            "opacity": 0
+          },
+          "closedLabel": "提示1"
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "Space",
+      "sides": {
+        "source": {
+          "wave": "true",
+          "open": {
+            "height": 40,
+            "opacity": 1
+          },
+          "openLabel": "隐藏提示1",
+          "closed": {
+            "height": 0,
+            "opacity": 0
+          },
+          "closedLabel": "提示1"
+        },
+        "local": {
+          "wave": "true",
+          "open": {
+            "height": 40,
+            "opacity": 1
+          },
+          "openLabel": "隐藏提示1",
+          "closed": {
+            "height": 0,
+            "opacity": 0
+          },
+          "closedLabel": "提示1"
+        }
+      },
+      "pass": true
+    }
+  ],
+  "pass": true
+}

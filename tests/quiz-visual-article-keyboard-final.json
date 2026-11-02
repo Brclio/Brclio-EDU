@@ -1,0 +1,890 @@
+{
+  "generatedAt": "2026-11-02T10:55:53.521Z",
+  "base": "http://127.0.0.1:5173",
+  "snapshotManifest": "tests/quiz-keyboard-source-snapshot.json",
+  "scope": "Actual public source component implementations rendered in isolation; same questions, fonts, viewport, and controlled option order. Live source drag wrong-state evidence is separate.",
+  "rows": [
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 689.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-blank-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 689.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-blank-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 708.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-selected-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 708.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-selected-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 924.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-wrong-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案答案错误",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 924.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-wrong-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 924.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-correct-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案答案正确",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 924.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-1280-correct-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "blank",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D) a = float('three')提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 642.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-blank-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D)a = float('three')提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 642.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-blank-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "selected",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D) a = float('three')提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 661.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-selected-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D)a = float('three')提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 661.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-selected-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D) a = float('three')错误: 无法将字符串转换为浮点数提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 903.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-wrong-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D)a = float('three')错误: 无法将字符串转换为浮点数提交答案答案错误",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 903.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-wrong-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "state": "correct",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D) a = float('three')错误: 无法将字符串转换为浮点数提交答案",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 903.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-correct-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D)a = float('three')错误: 无法将字符串转换为浮点数提交答案答案正确",
+              "rect": {
+                "x": 160,
+                "y": 32,
+                "w": 960,
+                "h": 903.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-1280-correct-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 721.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-blank-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 721.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-blank-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 740.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-selected-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"B)'Hello\nWorld'C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 740.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-selected-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1084.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-wrong-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案答案错误",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1084.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-wrong-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "single_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1084.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-correct-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下列哪一种是编写多行字符串的惯用方法？A)\"Hello\\nWorld\"产生了多行字符串，但不是惯用方法。B)'Hello\nWorld'将无法解析。只有单行字符串。C)'''Hello\nWorld'''提交答案答案正确",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1084.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-single_choice-390-correct-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "blank",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D) a = float('three')提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 706.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-blank-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D)a = float('three')提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 706.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-blank-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "selected",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D) a = float('three')提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 725.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-selected-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3C)a = float(3)D)a = float('three')提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 725.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-selected-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "wrong",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D) a = float('three')错误: 无法将字符串转换为浮点数提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1096.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-wrong-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D)a = float('three')错误: 无法将字符串转换为浮点数提交答案答案错误",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1096.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-wrong-local.png"
+        }
+      }
+    },
+    {
+      "mode": "article",
+      "kind": "mult_choice",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "correct",
+      "sides": {
+        "source": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D) a = float('three')错误: 无法将字符串转换为浮点数提交答案",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1096.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-correct-source.png"
+        },
+        "local": {
+          "metrics": [
+            {
+              "text": "测验1下面哪几个选项将浮点数3赋值给了变量a(可能有多个答案)？A)a = 3.0B)a = 3a 是 int 类型C)a = float(3)D)a = float('three')错误: 无法将字符串转换为浮点数提交答案答案正确",
+              "rect": {
+                "x": 16,
+                "y": 32,
+                "w": 358,
+                "h": 1096.28125
+              },
+              "fontSize": "16px",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "lineHeight": "25.144px",
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(240, 240, 240)",
+              "shadow": "none",
+              "padding": "0px"
+            }
+          ],
+          "screenshot": "output/quiz-visual/article-mult_choice-390-correct-local.png"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "completedAt": "2026-11-02T10:56:21.081Z"
+}

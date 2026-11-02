@@ -1,0 +1,21 @@
+{
+  "source": "https://python2fun.oss-cn-beijing.aliyuncs.com/@quark-app/learn/assets/index-c6fcd669.js",
+  "sourceSnapshot": "data/source/index-c6fcd669.js",
+  "capturedAt": "2026-11-02",
+  "files": [
+    {
+      "name": "ai-assistant.png",
+      "size": 404,
+      "sha256": "3d27a923e8f3cfdd9987b086706312a0167556f6e6712f644285b7469005874c"
+    },
+    {
+      "name": "challenge-hint.svg",
+      "size": 487,
+      "sha256": "d7ac40ad1944d2b2b7bfaab449e2702791efb4c9caa80b4d5fec1c138448eecc"
+    }
+  ],
+  "notes": {
+    "ai-assistant.png": "exact vWt base64 asset decoded from source bundle",
+    "challenge-hint.svg": "public challenge500 hint SVG; added XML namespace for standalone image use"
+  }
+}

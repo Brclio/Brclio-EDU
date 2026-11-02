@@ -1,0 +1,77 @@
+{
+  "startedAt": "2026-11-02T10:07:06.131Z",
+  "checks": [
+    {
+      "name": "111 local Monaco assets match the pinned package; entry matches observed source bytes",
+      "files": 111
+    },
+    {
+      "name": "Monaco original options, read-only source, native undo/redo/find, Escape dismisses find without closing workspace",
+      "options": {
+        "value": "print('Hello world!')",
+        "language": "python",
+        "theme": "vs-dark",
+        "automaticLayout": true,
+        "readOnly": false,
+        "fontSize": 16,
+        "minimap": {
+          "enabled": false
+        },
+        "scrollBeyondLastLine": false,
+        "ariaLabel": "Editor content;Press Alt+F1 for Accessibility Options."
+      }
+    },
+    {
+      "name": "long article code retains source 720px scrolling viewport and 775px total block",
+      "height": 720,
+      "scrollHeight": 737,
+      "scrollTop": 17
+    },
+    {
+      "name": "CodeMirror exact version/options/159px source height and native undo",
+      "version": "5.65.3",
+      "options": {
+        "theme": "monokai",
+        "lineNumbers": true,
+        "mode": "python",
+        "styleSelectedText": true
+      },
+      "height": 159
+    },
+    {
+      "name": "real JavaScript language worker loads locally and returns syntax diagnostics",
+      "semantic": 0,
+      "syntactic": 0
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "runtimeRequests": [
+    "/runtime/monaco/vs/loader.js",
+    "/runtime/monaco/vs/editor/editor.main.js",
+    "/runtime/monaco/vs/editor/editor.main.css",
+    "/runtime/monaco/vs/editor/editor.main.nls.js",
+    "/runtime/monaco/vs/basic-languages/python/python.js",
+    "/runtime/monaco/vs/base/worker/workerMain.js",
+    "/runtime/monaco/vs/base/common/worker/simpleWorker.nls.js",
+    "/runtime/monaco/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+    "/runtime/monaco/vs/basic-languages/javascript/javascript.js",
+    "/runtime/monaco/vs/language/typescript/tsMode.js",
+    "/runtime/monaco/vs/base/worker/workerMain.js",
+    "/runtime/monaco/vs/base/worker/workerMain.js",
+    "/runtime/monaco/vs/base/common/worker/simpleWorker.nls.js",
+    "/runtime/monaco/vs/base/common/worker/simpleWorker.nls.js",
+    "/runtime/monaco/vs/language/typescript/tsWorker.js",
+    "/runtime/monaco/vs/basic-languages/html/html.js",
+    "/runtime/monaco/vs/language/html/htmlMode.js",
+    "/runtime/monaco/vs/basic-languages/css/css.js",
+    "/runtime/monaco/vs/language/css/cssMode.js",
+    "/runtime/monaco/vs/base/worker/workerMain.js",
+    "/runtime/monaco/vs/base/worker/workerMain.js",
+    "/runtime/monaco/vs/base/common/worker/simpleWorker.nls.js",
+    "/runtime/monaco/vs/base/common/worker/simpleWorker.nls.js",
+    "/runtime/monaco/vs/language/css/cssWorker.js",
+    "/runtime/monaco/vs/language/html/htmlWorker.js"
+  ],
+  "finishedAt": "2026-11-02T10:07:08.521Z"
+}

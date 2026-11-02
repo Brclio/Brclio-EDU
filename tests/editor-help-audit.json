@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-11-02T09:21:37.984Z",
+  "checks": [
+    "card help opens original shared three-tab shell, honestly marks unconfigured AI/teacher services, and saves real lesson notes",
+    "fullscreen editor help stays interactive in the native top layer and shares the same saved notes",
+    "notes survive reload and remain isolated between Solo and article lessons through existing progress storage",
+    "catalog challenge passes its exact lesson id into shared help; all help resources and notes stay local"
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T09:21:42.650Z",
+  "externalRequests": []
+}

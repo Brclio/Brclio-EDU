@@ -1,0 +1,7990 @@
+{
+  "at": "2026-11-02T10:15:03.157Z",
+  "evidence": "Every unique prose block rendered by the published original component and local component, same data and viewport. All blocks receive height/text/image checks; screenshots are retained for discrepancies and initial representatives. Not a claim that every pixel or backend interaction was audited.",
+  "groups": [
+    {
+      "mode": "article",
+      "type": "MarkdownEditor",
+      "instances": 2043,
+      "unique": 229,
+      "checks": [
+        {
+          "file": "public/content/pages/001-1.json",
+          "path": "components/11",
+          "hash": "32496b70253a",
+          "height": [
+            419.390625,
+            419.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 403200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/001-2.json",
+          "path": "components/0",
+          "hash": "220bbb394578",
+          "height": [
+            1234.25,
+            1234.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1185600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/001-2.json",
+          "path": "components/2",
+          "hash": "8ab6faa16832",
+          "height": [
+            90,
+            90
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 86400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-12.json",
+          "path": "components/4",
+          "hash": "a83a0535ecd4",
+          "height": [
+            145,
+            145
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 139200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-14.json",
+          "path": "components/0",
+          "hash": "2dfd7018f7da",
+          "height": [
+            859.578125,
+            859.578125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 825600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-15.json",
+          "path": "components/4",
+          "hash": "e5d9167c0b1f",
+          "height": [
+            33,
+            33
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 31680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-15.json",
+          "path": "components/10",
+          "hash": "6dbb3fa0b0b9",
+          "height": [
+            259,
+            259
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 248640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-16.json",
+          "path": "components/0",
+          "hash": "7dc53cf2e0a4",
+          "height": [
+            33,
+            33
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 31680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-16.json",
+          "path": "components/4",
+          "hash": "9a6f3f179b51",
+          "height": [
+            170,
+            170
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 163200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-17.json",
+          "path": "components/0",
+          "hash": "b192b4b465ff",
+          "height": [
+            200,
+            200
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 192000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-17.json",
+          "path": "components/8",
+          "hash": "aae35f50e59e",
+          "height": [
+            283.28125,
+            283.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 272640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-18.json",
+          "path": "components/0",
+          "hash": "df1d65edb439",
+          "height": [
+            408.796875,
+            408.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 392640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-24.json",
+          "path": "components/2",
+          "hash": "da919104855e",
+          "height": [
+            1358.484375,
+            1358.484375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1304640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-30.json",
+          "path": "components/0",
+          "hash": "15a311d6785f",
+          "height": [
+            143.796875,
+            143.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 138240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-31.json",
+          "path": "components/2",
+          "hash": "d8515ad1db77",
+          "height": [
+            563.5625,
+            563.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 541440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-31.json",
+          "path": "components/8",
+          "hash": "02f13b9d842d",
+          "height": [
+            206.390625,
+            206.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 198720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-33.json",
+          "path": "components/6",
+          "hash": "a9c1c6805afe",
+          "height": [
+            122,
+            122
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 117120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-37.json",
+          "path": "components/0",
+          "hash": "e5ae1ec77362",
+          "height": [
+            647.078125,
+            647.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 622080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-41.json",
+          "path": "components/0",
+          "hash": "f9039ebf2177",
+          "height": [
+            328.78125,
+            328.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 315840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-47.json",
+          "path": "components/0",
+          "hash": "9ad3f771bd45",
+          "height": [
+            197.796875,
+            197.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 190080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-49.json",
+          "path": "components/0",
+          "hash": "e0671488df35",
+          "height": [
+            745.1875,
+            745.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 716160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-60.json",
+          "path": "components/0",
+          "hash": "51cb97ba13d2",
+          "height": [
+            957.1875,
+            957.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 919680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-62.json",
+          "path": "components/2",
+          "hash": "4f5e98c40094",
+          "height": [
+            333.421875,
+            333.421875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 320640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-63.json",
+          "path": "components/0",
+          "hash": "8b491c4da909",
+          "height": [
+            317.1875,
+            317.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 305280,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-65.json",
+          "path": "components/0",
+          "hash": "4a565e508c86",
+          "height": [
+            399.796875,
+            399.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 384000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-65.json",
+          "path": "components/4",
+          "hash": "b469fd70c5d7",
+          "height": [
+            461.28125,
+            461.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 443520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-67.json",
+          "path": "components/0",
+          "hash": "0396ff8a337f",
+          "height": [
+            198.796875,
+            198.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 191040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/002-77.json",
+          "path": "components/0",
+          "hash": "ca343802ba33",
+          "height": [
+            141.796875,
+            141.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 136320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-102.json",
+          "path": "components/4",
+          "hash": "f4e55362ab4b",
+          "height": [
+            233,
+            233
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 223680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-104.json",
+          "path": "components/2",
+          "hash": "b1636cb10eec",
+          "height": [
+            658.359375,
+            658.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 632640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-110.json",
+          "path": "components/0",
+          "hash": "179b3c8fdfd1",
+          "height": [
+            269.390625,
+            269.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 259200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-112.json",
+          "path": "components/2",
+          "hash": "81e4b16e039f",
+          "height": [
+            1433.4375,
+            1433.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1376640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-87.json",
+          "path": "components/12",
+          "hash": "85355cc89252",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 30720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-88.json",
+          "path": "components/0",
+          "hash": "ea30a305d18c",
+          "height": [
+            351.390625,
+            351.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 337920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-88.json",
+          "path": "components/11",
+          "hash": "fd607a7b28d7",
+          "height": [
+            614.125,
+            614.125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 590400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-88.json",
+          "path": "components/14",
+          "hash": "70ee89a201b6",
+          "height": [
+            205.796875,
+            205.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 197760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/003-92.json",
+          "path": "components/2",
+          "hash": "9d1f4239ce00",
+          "height": [
+            487.640625,
+            487.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 468480,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-117.json",
+          "path": "components/14",
+          "hash": "b76c8618d7af",
+          "height": [
+            301,
+            301
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 288960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-118.json",
+          "path": "components/0",
+          "hash": "59333c4d6523",
+          "height": [
+            1056.171875,
+            1056.171875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1014720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-128.json",
+          "path": "components/4",
+          "hash": "0562d71d6da4",
+          "height": [
+            466.390625,
+            466.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 448320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-149.json",
+          "path": "components/2",
+          "hash": "0a0bea5bc4fa",
+          "height": [
+            163.140625,
+            163.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 157440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-149.json",
+          "path": "components/8",
+          "hash": "c25fbd243f88",
+          "height": [
+            25.140625,
+            25.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 24960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-159.json",
+          "path": "components/8",
+          "hash": "d2cfd372b35e",
+          "height": [
+            541.25,
+            541.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 520320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-162.json",
+          "path": "components/0",
+          "hash": "da0fd9713844",
+          "height": [
+            365.796875,
+            365.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 351360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-164.json",
+          "path": "components/0",
+          "hash": "7c3d92bc2614",
+          "height": [
+            358.84375,
+            358.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 344640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-164.json",
+          "path": "components/10",
+          "hash": "53a09b7840b5",
+          "height": [
+            131.6875,
+            131.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 126720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-165.json",
+          "path": "components/0",
+          "hash": "09f4dce3b70e",
+          "height": [
+            877.1875,
+            877.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 842880,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-170.json",
+          "path": "components/4",
+          "hash": "cad90df130e4",
+          "height": [
+            451.390625,
+            451.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 433920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-172.json",
+          "path": "components/0",
+          "hash": "be81e1ed490f",
+          "height": [
+            301.28125,
+            301.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 289920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-172.json",
+          "path": "components/14",
+          "hash": "ac9666b963e1",
+          "height": [
+            554.28125,
+            554.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 532800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-174.json",
+          "path": "components/0",
+          "hash": "1b970cd32508",
+          "height": [
+            201,
+            201
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 192960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-176.json",
+          "path": "components/6",
+          "hash": "75a0f8c94918",
+          "height": [
+            617,
+            617
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 592320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-178.json",
+          "path": "components/0",
+          "hash": "b94fd9465ef9",
+          "height": [
+            236,
+            236
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 226560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-179.json",
+          "path": "components/0",
+          "hash": "10c7222fc52f",
+          "height": [
+            858,
+            858
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 823680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-195.json",
+          "path": "components/0",
+          "hash": "ddb4a170e7fc",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 168960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/004-197.json",
+          "path": "components/0",
+          "hash": "f6b8c7406ab0",
+          "height": [
+            312,
+            312
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 299520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-204.json",
+          "path": "components/0",
+          "hash": "e32416bea06f",
+          "height": [
+            792.609375,
+            792.609375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 761280,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-204.json",
+          "path": "components/2",
+          "hash": "d59916d15ea4",
+          "height": [
+            554.390625,
+            554.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 532800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-206.json",
+          "path": "components/6",
+          "hash": "fc26ca5b664d",
+          "height": [
+            357.96875,
+            357.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 343680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-208.json",
+          "path": "components/3",
+          "hash": "34e054daa589",
+          "height": [
+            177,
+            177
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 169920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-208.json",
+          "path": "components/8",
+          "hash": "1305abec60e6",
+          "height": [
+            65,
+            65
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 62400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-209.json",
+          "path": "components/0",
+          "hash": "9bd8a2c04c1e",
+          "height": [
+            551.1875,
+            551.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 529920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-209.json",
+          "path": "components/2",
+          "hash": "4af925711509",
+          "height": [
+            123,
+            123
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 118080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-211.json",
+          "path": "components/0",
+          "hash": "5e7210208ed1",
+          "height": [
+            693.78125,
+            693.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 666240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-211.json",
+          "path": "components/2",
+          "hash": "a7b38ef251e3",
+          "height": [
+            372.1875,
+            372.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 358080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-211.json",
+          "path": "components/3",
+          "hash": "507fa86e3280",
+          "height": [
+            319.796875,
+            319.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 307200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-211.json",
+          "path": "components/5",
+          "hash": "f430fd13d4b7",
+          "height": [
+            229.796875,
+            229.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 220800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-212.json",
+          "path": "components/2",
+          "hash": "60a699603ddf",
+          "height": [
+            638.078125,
+            638.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 613440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-212.json",
+          "path": "components/5",
+          "hash": "91c1b85ad621",
+          "height": [
+            556.078125,
+            556.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 534720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-213.json",
+          "path": "components/1",
+          "hash": "21587cb4736e",
+          "height": [
+            229.796875,
+            229.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 220800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-213.json",
+          "path": "components/5",
+          "hash": "74fbb398cd10",
+          "height": [
+            334.078125,
+            334.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 321600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-213.json",
+          "path": "components/13",
+          "hash": "8673dea4da8d",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 30720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-221.json",
+          "path": "components/0",
+          "hash": "e6842aa5817e",
+          "height": [
+            546.1875,
+            546.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 525120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-222.json",
+          "path": "components/0",
+          "hash": "b676f7c4db35",
+          "height": [
+            227.796875,
+            227.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 218880,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-224.json",
+          "path": "components/10",
+          "hash": "92bb88304c3b",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 30720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-224.json",
+          "path": "components/11",
+          "hash": "dba1f63e1b82",
+          "height": [
+            245.6875,
+            245.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 236160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-226.json",
+          "path": "components/0",
+          "hash": "bc0345f396bf",
+          "height": [
+            1359.609375,
+            1359.609375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1305600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-228.json",
+          "path": "components/0",
+          "hash": "68a0ce1b6808",
+          "height": [
+            906.640625,
+            906.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 870720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-232.json",
+          "path": "components/0",
+          "hash": "5cd58e8591b6",
+          "height": [
+            173.796875,
+            173.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 167040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-232.json",
+          "path": "components/6",
+          "hash": "ace4248c2bb8",
+          "height": [
+            190.6875,
+            190.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 183360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-238.json",
+          "path": "components/0",
+          "hash": "823150fddcb2",
+          "height": [
+            1253.734375,
+            1253.734375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1203840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-238.json",
+          "path": "components/4",
+          "hash": "2f3ebc0f2d3e",
+          "height": [
+            228.796875,
+            228.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 219840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-240.json",
+          "path": "components/0",
+          "hash": "006520e654ed",
+          "height": [
+            85.796875,
+            85.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 82560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-243.json",
+          "path": "components/0",
+          "hash": "b4c1886057e3",
+          "height": [
+            85.796875,
+            85.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 82560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-244.json",
+          "path": "components/9",
+          "hash": "be455fe8900f",
+          "height": [
+            123,
+            123
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 118080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-245.json",
+          "path": "components/2",
+          "hash": "caf335d629fc",
+          "height": [
+            219.6875,
+            219.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 211200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-246.json",
+          "path": "components/0",
+          "hash": "811d93641f75",
+          "height": [
+            289.1875,
+            289.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 278400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-246.json",
+          "path": "components/6",
+          "hash": "27d1db537bb0",
+          "height": [
+            301.6875,
+            301.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 289920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-248.json",
+          "path": "components/0",
+          "hash": "7285ad76ccba",
+          "height": [
+            561.765625,
+            561.765625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 539520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-250.json",
+          "path": "components/0",
+          "hash": "63620aba94ac",
+          "height": [
+            1882.1875,
+            1882.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1807680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-252.json",
+          "path": "components/5",
+          "hash": "45e08cb4b8c4",
+          "height": [
+            32,
+            32
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 30720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-253.json",
+          "path": "components/0",
+          "hash": "ab4001e03e69",
+          "height": [
+            263.390625,
+            263.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 253440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-254.json",
+          "path": "components/0",
+          "hash": "a6af98480ac6",
+          "height": [
+            328.390625,
+            328.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 315840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/005-256.json",
+          "path": "components/0",
+          "hash": "2b92f0e82a78",
+          "height": [
+            197.796875,
+            197.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 190080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/6",
+          "hash": "f71129e9092d",
+          "height": [
+            446.5625,
+            446.5625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 429120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-263.json",
+          "path": "components/12",
+          "hash": "8ea3f9bd9bc8",
+          "height": [
+            88,
+            88
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 84480,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-264.json",
+          "path": "components/2",
+          "hash": "6c9f39725456",
+          "height": [
+            531.796875,
+            531.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 510720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-265.json",
+          "path": "components/2",
+          "hash": "440b9825ba17",
+          "height": [
+            475.796875,
+            475.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 456960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-266.json",
+          "path": "components/1",
+          "hash": "ffc8d123eee5",
+          "height": [
+            1372.890625,
+            1372.890625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1318080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-266.json",
+          "path": "components/3",
+          "hash": "f44f70859b5f",
+          "height": [
+            419.796875,
+            419.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 403200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-267.json",
+          "path": "components/0",
+          "hash": "47fba1af0d4d",
+          "height": [
+            766.796875,
+            766.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 736320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-267.json",
+          "path": "components/2",
+          "hash": "57731db1e11e",
+          "height": [
+            590.796875,
+            590.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 567360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-268.json",
+          "path": "components/2",
+          "hash": "9df57318253d",
+          "height": [
+            656.234375,
+            656.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 630720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-269.json",
+          "path": "components/1",
+          "hash": "6dbd2b5c48af",
+          "height": [
+            140.796875,
+            140.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 135360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-269.json",
+          "path": "components/2",
+          "hash": "4a9d9eba1307",
+          "height": [
+            486.234375,
+            486.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 467520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-270.json",
+          "path": "components/2",
+          "hash": "5707522cb1a9",
+          "height": [
+            544.234375,
+            544.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 523200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/006-271.json",
+          "path": "components/2",
+          "hash": "e98119aa13e2",
+          "height": [
+            483.796875,
+            483.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 464640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-296.json",
+          "path": "components/1",
+          "hash": "11194b2e5152",
+          "height": [
+            414.9375,
+            414.9375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 398400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-300.json",
+          "path": "components/0",
+          "hash": "97830cab55af",
+          "height": [
+            198.796875,
+            198.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 191040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-300.json",
+          "path": "components/3",
+          "hash": "8e95581d7da8",
+          "height": [
+            319.796875,
+            319.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 307200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-304.json",
+          "path": "components/3",
+          "hash": "178fba530188",
+          "height": [
+            368.796875,
+            368.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 354240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-304.json",
+          "path": "components/8",
+          "hash": "344564e739d9",
+          "height": [
+            141.796875,
+            141.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 136320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-305.json",
+          "path": "components/1",
+          "hash": "b27012e7140c",
+          "height": [
+            171.796875,
+            171.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 165120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-306.json",
+          "path": "components/0",
+          "hash": "f2e04ea951d0",
+          "height": [
+            375.703125,
+            375.703125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 360960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-308.json",
+          "path": "components/0",
+          "hash": "5fb1128886cb",
+          "height": [
+            349.796875,
+            349.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 336000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-311.json",
+          "path": "components/0",
+          "hash": "461dc6b19da9",
+          "height": [
+            140.796875,
+            140.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 135360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-312.json",
+          "path": "components/4",
+          "hash": "47e52deb75c8",
+          "height": [
+            229.796875,
+            229.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 220800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-316.json",
+          "path": "components/0",
+          "hash": "d412df30a1e0",
+          "height": [
+            262.390625,
+            262.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 252480,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-316.json",
+          "path": "components/12",
+          "hash": "41134d83c867",
+          "height": [
+            307.796875,
+            307.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 295680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-324.json",
+          "path": "components/0",
+          "hash": "2c7fb8f462fa",
+          "height": [
+            297.21875,
+            297.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 286080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-329.json",
+          "path": "components/1",
+          "hash": "8d6e9309f1c9",
+          "height": [
+            296.9375,
+            296.9375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 285120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-333.json",
+          "path": "components/0",
+          "hash": "a01def81a473",
+          "height": [
+            1167.390625,
+            1167.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1121280,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/007-336.json",
+          "path": "components/3",
+          "hash": "e34e526b719d",
+          "height": [
+            294,
+            294
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 282240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-340.json",
+          "path": "components/0",
+          "hash": "6d3e6aa1012c",
+          "height": [
+            1216.78125,
+            1216.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1168320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-341.json",
+          "path": "components/1",
+          "hash": "1b77ae2679f2",
+          "height": [
+            285.796875,
+            285.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 274560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-341.json",
+          "path": "components/9",
+          "hash": "d54fbb1e588d",
+          "height": [
+            180,
+            180
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 172800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-342.json",
+          "path": "components/0",
+          "hash": "6bc0572062db",
+          "height": [
+            748.796875,
+            748.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 719040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-345.json",
+          "path": "components/0",
+          "hash": "9d7e9927b5d4",
+          "height": [
+            230.796875,
+            230.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 221760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-345.json",
+          "path": "components/1",
+          "hash": "0bbd9d822026",
+          "height": [
+            816.203125,
+            816.203125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 784320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-346.json",
+          "path": "components/5",
+          "hash": "316ebf99c057",
+          "height": [
+            204.796875,
+            204.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 196800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-348.json",
+          "path": "components/2",
+          "hash": "20592f817c2e",
+          "height": [
+            269.796875,
+            269.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 259200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-353.json",
+          "path": "components/7",
+          "hash": "fe06e6985dd2",
+          "height": [
+            1438.890625,
+            1438.890625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1381440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-358.json",
+          "path": "components/7",
+          "hash": "dda2adfe560d",
+          "height": [
+            318.078125,
+            318.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 306240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-359.json",
+          "path": "components/2",
+          "hash": "46941dda8d45",
+          "height": [
+            511.84375,
+            511.84375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 491520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-362.json",
+          "path": "components/0",
+          "hash": "b636de601b16",
+          "height": [
+            705.078125,
+            705.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 677760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-362.json",
+          "path": "components/1",
+          "hash": "5252be844a26",
+          "height": [
+            282.5,
+            282.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 271680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-364.json",
+          "path": "components/5",
+          "hash": "0fc1d5ba47bc",
+          "height": [
+            511.796875,
+            511.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 491520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/008-366.json",
+          "path": "components/0",
+          "hash": "44cf206b7139",
+          "height": [
+            546.859375,
+            546.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 525120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-373.json",
+          "path": "components/0",
+          "hash": "e1d2da1bddca",
+          "height": [
+            496.796875,
+            496.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 477120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-374.json",
+          "path": "components/4",
+          "hash": "9f3207657152",
+          "height": [
+            292,
+            292
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 280320,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-374.json",
+          "path": "components/12",
+          "hash": "d580d1aea3e4",
+          "height": [
+            322.1875,
+            322.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 310080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-375.json",
+          "path": "components/10",
+          "hash": "5359d6c05506",
+          "height": [
+            276.6875,
+            276.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 265920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-375.json",
+          "path": "components/12",
+          "hash": "0bd3e8288320",
+          "height": [
+            133.6875,
+            133.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 128640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-375.json",
+          "path": "components/14",
+          "hash": "aaa52e74867c",
+          "height": [
+            419,
+            419
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 402240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-376.json",
+          "path": "components/0",
+          "hash": "b95677dfa825",
+          "height": [
+            375.796875,
+            375.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 360960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-376.json",
+          "path": "components/14",
+          "hash": "ce2f787de607",
+          "height": [
+            266,
+            266
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 255360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-378.json",
+          "path": "components/4",
+          "hash": "b5e1867a2a40",
+          "height": [
+            236,
+            236
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 226560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-380.json",
+          "path": "components/2",
+          "hash": "5f5d4a5268d5",
+          "height": [
+            420,
+            420
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 403200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-382.json",
+          "path": "components/0",
+          "hash": "8df00c69b88b",
+          "height": [
+            344.796875,
+            344.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 331200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-383.json",
+          "path": "components/2",
+          "hash": "07ad62b30e9c",
+          "height": [
+            1147,
+            1147
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1101120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-384.json",
+          "path": "components/4",
+          "hash": "bf28338b0783",
+          "height": [
+            264.390625,
+            264.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 254400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-384.json",
+          "path": "components/18",
+          "hash": "6efbd9bf1678",
+          "height": [
+            329.390625,
+            329.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 316800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-385.json",
+          "path": "components/0",
+          "hash": "53a36207509c",
+          "height": [
+            263.796875,
+            263.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 253440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-385.json",
+          "path": "components/2",
+          "hash": "ed0597f79fad",
+          "height": [
+            264.390625,
+            264.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 254400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-388.json",
+          "path": "components/2",
+          "hash": "b1c63ccd34a8",
+          "height": [
+            370.53125,
+            370.53125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 356160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-397.json",
+          "path": "components/10",
+          "hash": "9d9864357954",
+          "height": [
+            399.6875,
+            399.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 384000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-398.json",
+          "path": "components/2",
+          "hash": "2bb9e7597e9e",
+          "height": [
+            255.796875,
+            255.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 245760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-402.json",
+          "path": "components/2",
+          "hash": "b496a17ebcfb",
+          "height": [
+            669.390625,
+            669.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 643200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-402.json",
+          "path": "components/4",
+          "hash": "2239af768ea4",
+          "height": [
+            388.390625,
+            388.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 373440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/009-402.json",
+          "path": "components/6",
+          "hash": "d61133823a4d",
+          "height": [
+            427,
+            427
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 409920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-406.json",
+          "path": "components/0",
+          "hash": "73e3c67b3459",
+          "height": [
+            476.078125,
+            476.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 457920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-407.json",
+          "path": "components/0",
+          "hash": "108bf3901076",
+          "height": [
+            943.640625,
+            943.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 906240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-409.json",
+          "path": "components/0",
+          "hash": "bc5fca5d4274",
+          "height": [
+            820.859375,
+            820.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 788160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-410.json",
+          "path": "components/0",
+          "hash": "71c92012faab",
+          "height": [
+            2384.03125,
+            2384.03125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 2289600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-411.json",
+          "path": "components/2",
+          "hash": "73d0f082b42a",
+          "height": [
+            757.90625,
+            757.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 727680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-413.json",
+          "path": "components/0",
+          "hash": "888256d0859a",
+          "height": [
+            498.78125,
+            498.78125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 479040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-413.json",
+          "path": "components/2",
+          "hash": "759225c4b023",
+          "height": [
+            1805.71875,
+            1805.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1733760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/0",
+          "hash": "51500e3926d1",
+          "height": [
+            328.234375,
+            328.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 315840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/3",
+          "hash": "6420c84d78e7",
+          "height": [
+            256.484375,
+            256.484375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 246720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-414.json",
+          "path": "components/6",
+          "hash": "7c5672c5a6d8",
+          "height": [
+            1193.640625,
+            1193.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1146240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-428.json",
+          "path": "components/2",
+          "hash": "87ba55b8ae98",
+          "height": [
+            1079.140625,
+            1079.140625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1036800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-434.json",
+          "path": "components/1/content/comps/0",
+          "hash": "4554c7447163",
+          "height": [
+            88,
+            88
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 84480,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-441.json",
+          "path": "components/0",
+          "hash": "d9ef9c69db72",
+          "height": [
+            1227.71875,
+            1227.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1178880,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-443.json",
+          "path": "components/0",
+          "hash": "0bd7e7cb1f11",
+          "height": [
+            803.71875,
+            803.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 771840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-447.json",
+          "path": "components/0",
+          "hash": "8f0e6e3b29a9",
+          "height": [
+            859.71875,
+            859.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 825600,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-449.json",
+          "path": "components/0",
+          "hash": "1c4ea50094ad",
+          "height": [
+            751.328125,
+            751.328125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 721920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-453.json",
+          "path": "components/0",
+          "hash": "0ff55f3a0f4d",
+          "height": [
+            769.75,
+            769.75
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 739200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-454.json",
+          "path": "components/5",
+          "hash": "677f2cd0535b",
+          "height": [
+            131.6875,
+            131.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 126720,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-456.json",
+          "path": "components/1",
+          "hash": "4106538ac801",
+          "height": [
+            443.078125,
+            443.078125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 426240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-457.json",
+          "path": "components/0",
+          "hash": "9366459dc6db",
+          "height": [
+            1040.765625,
+            1040.765625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 999360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-458.json",
+          "path": "components/2",
+          "hash": "b2f225f820c0",
+          "height": [
+            243.6875,
+            243.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 234240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-467.json",
+          "path": "components/0",
+          "hash": "b48712315c4a",
+          "height": [
+            861.171875,
+            861.171875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 827520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-469.json",
+          "path": "components/2",
+          "hash": "a05792d1c117",
+          "height": [
+            146,
+            146
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 140160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-476.json",
+          "path": "components/0",
+          "hash": "2842c1016e83",
+          "height": [
+            355.1875,
+            355.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 341760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-476.json",
+          "path": "components/2",
+          "hash": "17935921d5e8",
+          "height": [
+            237.390625,
+            237.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 228480,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-476.json",
+          "path": "components/4",
+          "hash": "92d51207e37a",
+          "height": [
+            1097,
+            1097
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1053120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-477.json",
+          "path": "components/1",
+          "hash": "749b45b7b0aa",
+          "height": [
+            544.234375,
+            544.234375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 523200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-477.json",
+          "path": "components/3",
+          "hash": "79376ac9e320",
+          "height": [
+            195.796875,
+            195.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 188160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-478.json",
+          "path": "components/0",
+          "hash": "238b91b8d755",
+          "height": [
+            86.796875,
+            86.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 83520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-483.json",
+          "path": "components/2",
+          "hash": "fabbb7b38143",
+          "height": [
+            64,
+            64
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 61440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-485.json",
+          "path": "components/0",
+          "hash": "2177fe4b75c4",
+          "height": [
+            713.328125,
+            713.328125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 685440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-486.json",
+          "path": "components/2",
+          "hash": "87873654f164",
+          "height": [
+            445.96875,
+            445.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 428160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-488.json",
+          "path": "components/1/content/comps/0",
+          "hash": "a8a3202f5af7",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 168960,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-489.json",
+          "path": "components/1/content/comps/0",
+          "hash": "aec54e06ce8c",
+          "height": [
+            64,
+            64
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 61440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-489.json",
+          "path": "components/3/content/comps/0",
+          "hash": "04f8647205c3",
+          "height": [
+            64,
+            64
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 61440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-492.json",
+          "path": "components/0",
+          "hash": "aa487ceb650d",
+          "height": [
+            439.390625,
+            439.390625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 422400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/6",
+          "hash": "7c48e5e7e0fc",
+          "height": [
+            760.5,
+            760.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 730560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-493.json",
+          "path": "components/8",
+          "hash": "ea9cff2106ed",
+          "height": [
+            949.5,
+            949.5
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 912000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-496.json",
+          "path": "components/0",
+          "hash": "ed3bf32fb0ae",
+          "height": [
+            892.71875,
+            892.71875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 857280,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-497.json",
+          "path": "components/4",
+          "hash": "983163e2edf8",
+          "height": [
+            399.359375,
+            399.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 384000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-499.json",
+          "path": "components/2",
+          "hash": "23541218e452",
+          "height": [
+            458.96875,
+            458.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 440640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-499.json",
+          "path": "components/7",
+          "hash": "c08e9f863fd2",
+          "height": [
+            561.6875,
+            561.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 539520,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-501.json",
+          "path": "components/6",
+          "hash": "86c30603c267",
+          "height": [
+            493.96875,
+            493.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 474240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-505.json",
+          "path": "components/5",
+          "hash": "9f6232f89225",
+          "height": [
+            823.359375,
+            823.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 791040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-511.json",
+          "path": "components/6",
+          "hash": "df2acb8e9077",
+          "height": [
+            457.6875,
+            457.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 439680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-513.json",
+          "path": "components/0",
+          "hash": "4df0eddd3d9b",
+          "height": [
+            393.8125,
+            393.8125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 378240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-513.json",
+          "path": "components/2",
+          "hash": "00e581761813",
+          "height": [
+            228.28125,
+            228.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 219840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-514.json",
+          "path": "components/5",
+          "hash": "6fdc216031d8",
+          "height": [
+            64,
+            64
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 61440,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-514.json",
+          "path": "components/6",
+          "hash": "3241b8c134ae",
+          "height": [
+            332.96875,
+            332.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 319680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-515.json",
+          "path": "components/0",
+          "hash": "a89a66c414e2",
+          "height": [
+            883.515625,
+            883.515625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 848640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-516.json",
+          "path": "components/0",
+          "hash": "97583ae6388e",
+          "height": [
+            139.796875,
+            139.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 134400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-516.json",
+          "path": "components/1/content/comps/0",
+          "hash": "8b51dc9e8b07",
+          "height": [
+            272,
+            272
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 261120,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-516.json",
+          "path": "components/4",
+          "hash": "68db7b69cca0",
+          "height": [
+            269.96875,
+            269.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 259200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-517.json",
+          "path": "components/0",
+          "hash": "6d4ffab10508",
+          "height": [
+            139.796875,
+            139.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 134400,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-518.json",
+          "path": "components/7",
+          "hash": "8f3178ab42c5",
+          "height": [
+            747.96875,
+            747.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 718080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-519.json",
+          "path": "components/0",
+          "hash": "a40d52b405fd",
+          "height": [
+            260.1875,
+            260.1875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 250560,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-521.json",
+          "path": "components/2",
+          "hash": "adee484e0d90",
+          "height": [
+            845,
+            845
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 811200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-522.json",
+          "path": "components/2",
+          "hash": "b7f6abd2c699",
+          "height": [
+            908.25,
+            908.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 872640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/0",
+          "hash": "2ce2ce95988f",
+          "height": [
+            254.796875,
+            254.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 244800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/1",
+          "hash": "7f0cba4b9870",
+          "height": [
+            254.796875,
+            254.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 244800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/2",
+          "hash": "27e1f3bd4168",
+          "height": [
+            198.796875,
+            198.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 191040,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-523.json",
+          "path": "components/4",
+          "hash": "a0062cc5515b",
+          "height": [
+            947.828125,
+            947.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 910080,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-524.json",
+          "path": "components/0",
+          "hash": "9fb1b6d5d0af",
+          "height": [
+            393.015625,
+            393.015625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 378240,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-526.json",
+          "path": "components/2",
+          "hash": "30212bd9bd0e",
+          "height": [
+            670.640625,
+            670.640625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 644160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-527.json",
+          "path": "components/0",
+          "hash": "effa767f69b1",
+          "height": [
+            142.796875,
+            142.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 137280,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-527.json",
+          "path": "components/3",
+          "hash": "00016f701f07",
+          "height": [
+            853.546875,
+            853.546875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 819840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-528.json",
+          "path": "components/5",
+          "hash": "b9e35b0f04f9",
+          "height": [
+            1170.25,
+            1170.25
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1124160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-530.json",
+          "path": "components/2",
+          "hash": "8e189837edfb",
+          "height": [
+            178.28125,
+            178.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 171840,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/010-531.json",
+          "path": "components/0",
+          "hash": "f4264dfdf8d1",
+          "height": [
+            478.796875,
+            478.796875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 459840,
+            "changedOver10": 0
+          }
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:16:21.036Z"
+    },
+    {
+      "mode": "solo",
+      "type": "MarkdownEditor",
+      "instances": 4115,
+      "unique": 129,
+      "checks": [
+        {
+          "file": "public/content/pages/011-558.json",
+          "path": "components/1",
+          "hash": "45455e4b99c2",
+          "height": [
+            592.515625,
+            592.515625
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 180.515625
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 180.515625
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 378334,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-559.json",
+          "path": "components/1",
+          "hash": "01546f21941f",
+          "height": [
+            646.3125,
+            646.3125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 412786,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-559.json",
+          "path": "components/6",
+          "hash": "193feaf0ed22",
+          "height": [
+            888.875,
+            888.875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 567182,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-559.json",
+          "path": "components/7",
+          "hash": "fc6b7dbe3e1c",
+          "height": [
+            416,
+            416
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 265408,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-561.json",
+          "path": "components/3",
+          "hash": "b04e6a7b86b7",
+          "height": [
+            998,
+            998
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 636724,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-561.json",
+          "path": "components/9",
+          "hash": "4df9f91e087f",
+          "height": [
+            1034,
+            1034
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 659692,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-562.json",
+          "path": "components/0",
+          "hash": "96277e07233a",
+          "height": [
+            621.4375,
+            621.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 396836,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-562.json",
+          "path": "components/1",
+          "hash": "4fc519126946",
+          "height": [
+            1344.734375,
+            1344.734375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 400.734375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 400.734375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 858110,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-563.json",
+          "path": "components/1",
+          "hash": "d91800556f3b",
+          "height": [
+            528,
+            528
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 336864,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-563.json",
+          "path": "components/5",
+          "hash": "3edd73f7f347",
+          "height": [
+            712,
+            712
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 454256,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-563.json",
+          "path": "components/6",
+          "hash": "5f04e388d6a6",
+          "height": [
+            670,
+            670
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 427460,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-564.json",
+          "path": "components/3",
+          "hash": "0deaaaf633f5",
+          "height": [
+            704.15625,
+            704.15625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 449790,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-564.json",
+          "path": "components/5",
+          "hash": "88fdf57ccf84",
+          "height": [
+            680.15625,
+            680.15625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 434478,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-565.json",
+          "path": "components/1",
+          "hash": "e97d95c34eeb",
+          "height": [
+            500,
+            500
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 319000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-566.json",
+          "path": "components/5",
+          "hash": "b6abd9c17607",
+          "height": [
+            1358,
+            1358
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 866404,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-567.json",
+          "path": "components/1",
+          "hash": "f42ecf864d21",
+          "height": [
+            312,
+            312
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 199056,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-568.json",
+          "path": "components/1",
+          "hash": "547ca165dd3b",
+          "height": [
+            631.4375,
+            631.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 403216,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-568.json",
+          "path": "components/5",
+          "hash": "6705387cdc4d",
+          "height": [
+            868,
+            868
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 553784,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-568.json",
+          "path": "components/12",
+          "hash": "b1ded400385b",
+          "height": [
+            1183.96875,
+            1183.96875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 291.96875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 291.96875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 755392,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-569.json",
+          "path": "components/3",
+          "hash": "93bc3ee22e8d",
+          "height": [
+            1021.359375,
+            1021.359375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 269.921875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 269.921875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 652036,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-570.json",
+          "path": "components/5",
+          "hash": "8422a535c4fc",
+          "height": [
+            804,
+            804
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 512952,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-570.json",
+          "path": "components/8",
+          "hash": "658cfb15e3f7",
+          "height": [
+            1102.4375,
+            1102.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 703714,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-570.json",
+          "path": "components/9",
+          "hash": "ff0bd199d2be",
+          "height": [
+            899.4375,
+            899.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 574200,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-571.json",
+          "path": "components/0",
+          "hash": "e845a9ad6928",
+          "height": [
+            851.4375,
+            851.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 543576,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-571.json",
+          "path": "components/6",
+          "hash": "8957213fea21",
+          "height": [
+            1032,
+            1032
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 658416,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-575.json",
+          "path": "components/16",
+          "hash": "38ef50c01c88",
+          "height": [
+            1544,
+            1544
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 985072,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-576.json",
+          "path": "components/4",
+          "hash": "0055dfd6797f",
+          "height": [
+            528,
+            528
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 336864,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-577.json",
+          "path": "components/4",
+          "hash": "dc5249d00770",
+          "height": [
+            1081.59375,
+            1081.59375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 690316,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-581.json",
+          "path": "components/6",
+          "hash": "17d1d072c3ee",
+          "height": [
+            779.4375,
+            779.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 497640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-582.json",
+          "path": "components/7",
+          "hash": "990ac988c256",
+          "height": [
+            264,
+            264
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 168432,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-585.json",
+          "path": "components/1",
+          "hash": "3692281901f0",
+          "height": [
+            360,
+            360
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 229680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-585.json",
+          "path": "components/3",
+          "hash": "a38b8b5d0e85",
+          "height": [
+            220,
+            220
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 140360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-585.json",
+          "path": "components/4",
+          "hash": "979409dcb917",
+          "height": [
+            294,
+            294
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 187572,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-586.json",
+          "path": "components/5",
+          "hash": "5f1fea0a0bd8",
+          "height": [
+            310,
+            310
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 197780,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-587.json",
+          "path": "components/1",
+          "hash": "596d888d4c3e",
+          "height": [
+            1230,
+            1230
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 784740,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-588.json",
+          "path": "components/3",
+          "hash": "d024521825c3",
+          "height": [
+            322,
+            322
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 205436,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-588.json",
+          "path": "components/4",
+          "hash": "c9b90e88528d",
+          "height": [
+            454,
+            454
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 289652,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-588.json",
+          "path": "components/6",
+          "hash": "010346e33140",
+          "height": [
+            340,
+            340
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 216920,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-591.json",
+          "path": "components/1",
+          "hash": "cd19058c9e53",
+          "height": [
+            1106,
+            1106
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 705628,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/011-591.json",
+          "path": "components/2",
+          "hash": "89b1c28f4162",
+          "height": [
+            802,
+            802
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 511676,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-658.json",
+          "path": "components/2",
+          "hash": "7dce801d690f",
+          "height": [
+            587.546875,
+            587.546875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 227.546875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 227.546875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 375144,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-659.json",
+          "path": "components/1",
+          "hash": "d0c10481700d",
+          "height": [
+            1055.734375,
+            1055.734375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 311.734375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 311.734375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 673728,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-660.json",
+          "path": "components/0",
+          "hash": "00c2f3b5a1c7",
+          "height": [
+            724,
+            724
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 461912,
+            "changedOver10": 46
+          },
+          "screenshot": "solo-MarkdownEditor-42"
+        },
+        {
+          "file": "public/content/pages/013-663.json",
+          "path": "components/2",
+          "hash": "7a70bd66d783",
+          "height": [
+            724,
+            724
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 461912,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-663.json",
+          "path": "components/3",
+          "hash": "7094033f7ef9",
+          "height": [
+            630,
+            630
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 401940,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-663.json",
+          "path": "components/5",
+          "hash": "f95e6e1673e4",
+          "height": [
+            642,
+            642
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 409596,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-663.json",
+          "path": "components/25",
+          "hash": "a5b02417eb3c",
+          "height": [
+            936.15625,
+            936.15625
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 597806,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-665.json",
+          "path": "components/3",
+          "hash": "94ad45fb60cd",
+          "height": [
+            1370.734375,
+            1370.734375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 468.734375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 468.734375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 874698,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-665.json",
+          "path": "components/10",
+          "hash": "e017a51aaa69",
+          "height": [
+            1320,
+            1320
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 842160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-665.json",
+          "path": "components/16",
+          "hash": "0a60083e16e8",
+          "height": [
+            319.4375,
+            319.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 204160,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-668.json",
+          "path": "components/1",
+          "hash": "33427c2c5654",
+          "height": [
+            842,
+            842
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 537196,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-668.json",
+          "path": "components/5",
+          "hash": "3c46b516c480",
+          "height": [
+            1334,
+            1334
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 851092,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-670.json",
+          "path": "components/5",
+          "hash": "03a0c1a23cac",
+          "height": [
+            658,
+            658
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 419804,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-670.json",
+          "path": "components/7",
+          "hash": "56dcb0e850a7",
+          "height": [
+            1062.265625,
+            1062.265625
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 155.90625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 192.359375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 155.90625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 192.359375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 678194,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-671.json",
+          "path": "components/2",
+          "hash": "2560d7be6324",
+          "height": [
+            882,
+            882
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 562716,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-673.json",
+          "path": "components/1",
+          "hash": "16983e07e2be",
+          "height": [
+            779.578125,
+            779.578125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 395.578125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 395.578125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 497640,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-673.json",
+          "path": "components/3",
+          "hash": "5ba2f0c9b928",
+          "height": [
+            576,
+            576
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 367488,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-674.json",
+          "path": "components/0",
+          "hash": "3749a4adf95c",
+          "height": [
+            488.875,
+            488.875
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 311982,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/013-675.json",
+          "path": "components/5",
+          "hash": "2fc51846183c",
+          "height": [
+            1287.4375,
+            1287.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 821744,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/016-1009.json",
+          "path": "components/0/resolved/2",
+          "hash": "c469e1336cc6",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 112288,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/016-977.json",
+          "path": "components/0/resolved/0",
+          "hash": "a41b17158e2f",
+          "height": [
+            208,
+            208
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 132704,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/018-1059.json",
+          "path": "components/2/resolved/2",
+          "hash": "767ea7394b3a",
+          "height": [
+            98,
+            98
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 62524,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/019-1062.json",
+          "path": "components/0/resolved/2",
+          "hash": "5f53c44a27ae",
+          "height": [
+            188,
+            188
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 119944,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/019-1091.json",
+          "path": "components/1/resolved/0",
+          "hash": "79cb9a6af3d2",
+          "height": [
+            72,
+            72
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 45936,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/020-1110.json",
+          "path": "components/2/resolved/3",
+          "hash": "733e92f2a81f",
+          "height": [
+            100,
+            100
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 63800,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/021-1162.json",
+          "path": "components/0/resolved/0",
+          "hash": "93ba876d835e",
+          "height": [
+            346,
+            346
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 220748,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1180.json",
+          "path": "components/3/resolved/0",
+          "hash": "210487af5b1b",
+          "height": [
+            226,
+            226
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 144188,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1182.json",
+          "path": "components/1/resolved/0",
+          "hash": "e9d18747c0fa",
+          "height": [
+            246,
+            246
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 156948,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1182.json",
+          "path": "components/4/resolved/0",
+          "hash": "549dba5c3dba",
+          "height": [
+            572,
+            572
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 364936,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1204.json",
+          "path": "components/2/resolved/2",
+          "hash": "df94ff16bd0f",
+          "height": [
+            216,
+            216
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 137808,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1314.json",
+          "path": "components/0/resolved/0",
+          "hash": "48d91b6cbd40",
+          "height": [
+            288,
+            288
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 183744,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1315.json",
+          "path": "components/3/resolved/0",
+          "hash": "734720c939e8",
+          "height": [
+            626.328125,
+            626.328125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 438.328125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 438.328125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 400026,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1316.json",
+          "path": "components/0/resolved/0",
+          "hash": "58426be799ff",
+          "height": [
+            3946.875,
+            3946.875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 110.625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 270.625
+              },
+              {
+                "loaded": true,
+                "w": 622,
+                "h": 334.328125
+              },
+              {
+                "loaded": true,
+                "w": 622,
+                "h": 273.109375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 110.625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 270.625
+              },
+              {
+                "loaded": true,
+                "w": 622,
+                "h": 334.328125
+              },
+              {
+                "loaded": true,
+                "w": 622,
+                "h": 273.109375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 2518186,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1316.json",
+          "path": "components/0/resolved/6",
+          "hash": "4e39ad34f946",
+          "height": [
+            218.53125,
+            218.53125
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 139722,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1316.json",
+          "path": "components/0/resolved/8",
+          "hash": "3d1bdaf0ea6c",
+          "height": [
+            869,
+            869
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 925,
+                "h": 624
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 925,
+                "h": 624
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 554422,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1316.json",
+          "path": "components/1/resolved/4",
+          "hash": "b998e25bfdbb",
+          "height": [
+            412.4375,
+            412.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 263494,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1316.json",
+          "path": "components/1/resolved/8",
+          "hash": "7a5a96624637",
+          "height": [
+            782.90625,
+            782.90625
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 389.46875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 389.46875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 499554,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1318.json",
+          "path": "components/2/resolved/5",
+          "hash": "6c0ce43b961c",
+          "height": [
+            162,
+            162
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 103356,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1318.json",
+          "path": "components/2/resolved/17",
+          "hash": "4b9a7582a117",
+          "height": [
+            266,
+            266
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 169708,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1319.json",
+          "path": "components/0/resolved/6",
+          "hash": "4ec32378a8d6",
+          "height": [
+            104,
+            104
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 66352,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1321.json",
+          "path": "components/2/resolved/2",
+          "hash": "933da6bfa1bc",
+          "height": [
+            234,
+            234
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 149292,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1323.json",
+          "path": "components/0/resolved/0",
+          "hash": "f4efa86a3e91",
+          "height": [
+            828,
+            828
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 528264,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1323.json",
+          "path": "components/1/resolved/0",
+          "hash": "f47a6d5889bf",
+          "height": [
+            2266.859375,
+            2266.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 263.046875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 509.8125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 263.046875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 509.8125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1446346,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1324.json",
+          "path": "components/1/resolved/0",
+          "hash": "6fc7a49c8186",
+          "height": [
+            3753.453125,
+            3753.453125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 403.640625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 400.328125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 268.71875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 385.078125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 250.21875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 275.96875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 403.640625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 400.328125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 268.71875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 385.078125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 250.21875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 275.96875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 2395052,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1325.json",
+          "path": "components/0/resolved/2",
+          "hash": "f748c6223f90",
+          "height": [
+            378,
+            378
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 241164,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1325.json",
+          "path": "components/3/resolved/2",
+          "hash": "860156dc4925",
+          "height": [
+            928.265625,
+            928.265625
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 263.171875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 263.171875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 592702,
+            "changedOver10": 138
+          },
+          "screenshot": "solo-MarkdownEditor-85"
+        },
+        {
+          "file": "public/content/pages/024-1327.json",
+          "path": "components/0/resolved/0",
+          "hash": "0b52d9423f3c",
+          "height": [
+            634,
+            634
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 404492,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1327.json",
+          "path": "components/1/resolved/0",
+          "hash": "202196356787",
+          "height": [
+            874.6875,
+            874.6875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 236.6875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 236.6875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 558250,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1329.json",
+          "path": "components/0/resolved/0",
+          "hash": "5b413ebc43a0",
+          "height": [
+            2126.28125,
+            2126.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 366.796875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 358.796875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 312.6875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 366.796875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 358.796875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 312.6875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1357026,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1329.json",
+          "path": "components/1/resolved/0",
+          "hash": "727dac77d195",
+          "height": [
+            1826.28125,
+            1826.28125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 420.953125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 305.65625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 381.9375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 333.734375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 420.953125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 305.65625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 381.9375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 333.734375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1165626,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1329.json",
+          "path": "components/2/resolved/0",
+          "hash": "610fba2a6972",
+          "height": [
+            1681.109375,
+            1681.109375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 306.421875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 306.421875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1073116,
+            "changedOver10": 816
+          },
+          "screenshot": "solo-MarkdownEditor-90"
+        },
+        {
+          "file": "public/content/pages/024-1330.json",
+          "path": "components/0/resolved/6",
+          "hash": "fc8726f6ace2",
+          "height": [
+            610,
+            610
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 389180,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1330.json",
+          "path": "components/0/resolved/12",
+          "hash": "4a65093f5278",
+          "height": [
+            28,
+            28
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 17864,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1330.json",
+          "path": "components/1/resolved/2",
+          "hash": "dd55e9cb2836",
+          "height": [
+            1044.859375,
+            1044.859375
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 489.28125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 333.578125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 489.28125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 333.578125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 666710,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1331.json",
+          "path": "components/0/resolved/4",
+          "hash": "7a26c558a16a",
+          "height": [
+            30,
+            30
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 19140,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1332.json",
+          "path": "components/0/resolved/0",
+          "hash": "280b993f825d",
+          "height": [
+            268,
+            268
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 170984,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1334.json",
+          "path": "components/1/resolved/2",
+          "hash": "6e1783b38988",
+          "height": [
+            1279.828125,
+            1279.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 429.015625
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 429.015625
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 816640,
+            "changedOver10": 164
+          },
+          "screenshot": "solo-MarkdownEditor-96"
+        },
+        {
+          "file": "public/content/pages/024-1335.json",
+          "path": "components/1/resolved/2",
+          "hash": "8025d04faa1e",
+          "height": [
+            360,
+            360
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 229680,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1336.json",
+          "path": "components/3/resolved/2",
+          "hash": "86a613dd46d7",
+          "height": [
+            2044.828125,
+            2044.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 353.25
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 382.640625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 416.9375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 353.25
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 382.640625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 416.9375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1304710,
+            "changedOver10": 74
+          },
+          "screenshot": "solo-MarkdownEditor-98"
+        },
+        {
+          "file": "public/content/pages/024-1337.json",
+          "path": "components/0/resolved/2",
+          "hash": "b08317dac092",
+          "height": [
+            308,
+            308
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 196504,
+            "changedOver10": 32
+          },
+          "screenshot": "solo-MarkdownEditor-99"
+        },
+        {
+          "file": "public/content/pages/024-1338.json",
+          "path": "components/0/resolved/0",
+          "hash": "6ea36b23763e",
+          "height": [
+            370,
+            370
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 236060,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1342.json",
+          "path": "components/1/resolved/2",
+          "hash": "fb52a861ca9f",
+          "height": [
+            1857.703125,
+            1857.703125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 425.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 402.28125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 425.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 402.28125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1185404,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1344.json",
+          "path": "components/0/resolved/4",
+          "hash": "7aad34642bf9",
+          "height": [
+            926,
+            926
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 590788,
+            "changedOver10": 1276
+          },
+          "screenshot": "solo-MarkdownEditor-102"
+        },
+        {
+          "file": "public/content/pages/024-1347.json",
+          "path": "components/1/resolved/2",
+          "hash": "b2b021ad8baa",
+          "height": [
+            1818.8125,
+            1818.8125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 301.375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 264.984375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 346.453125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 301.375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 264.984375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 346.453125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1160522,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1347.json",
+          "path": "components/1/resolved/4",
+          "hash": "32523f038d73",
+          "height": [
+            1090.828125,
+            1090.828125
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 430.828125
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 430.828125
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 696058,
+            "changedOver10": 1276
+          },
+          "screenshot": "solo-MarkdownEditor-104"
+        },
+        {
+          "file": "public/content/pages/024-1347.json",
+          "path": "components/2/resolved/2",
+          "hash": "e62943f0440d",
+          "height": [
+            634,
+            634
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 404492,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1348.json",
+          "path": "components/0/resolved/0",
+          "hash": "313994eb769d",
+          "height": [
+            664,
+            664
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 423632,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/024-1349.json",
+          "path": "components/2/resolved/4",
+          "hash": "b501a586802f",
+          "height": [
+            1951.21875,
+            1951.21875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 509.578125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 425.296875
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 509.578125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 425.296875
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 1245376,
+            "changedOver10": 43962
+          },
+          "screenshot": "solo-MarkdownEditor-107"
+        },
+        {
+          "file": "public/content/pages/024-1350.json",
+          "path": "components/0/resolved/0",
+          "hash": "f40343654e0d",
+          "height": [
+            5852.171875,
+            5852.171875
+          ],
+          "textEqual": true,
+          "images": [
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 329.234375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 381.6875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 361.375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 440.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.828125
+              },
+              {
+                "loaded": true,
+                "w": 542,
+                "h": 367
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 363.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 361.953125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 532.265625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 446.234375
+              }
+            ],
+            [
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 329.234375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 381.6875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 361.375
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 440.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 331.828125
+              },
+              {
+                "loaded": true,
+                "w": 542,
+                "h": 367
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 363.421875
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 361.953125
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 532.265625
+              },
+              {
+                "loaded": true,
+                "w": 638,
+                "h": 446.234375
+              }
+            ]
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 3734214,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/026-1420.json",
+          "path": "components/0/resolved/6",
+          "hash": "47f20ab3e9e5",
+          "height": [
+            174,
+            174
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 111012,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/026-1421.json",
+          "path": "components/0/resolved/0",
+          "hash": "f9cd27454a66",
+          "height": [
+            116,
+            116
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 74008,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/026-1429.json",
+          "path": "components/0/resolved/1",
+          "hash": "1029e600b208",
+          "height": [
+            172,
+            172
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 109736,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/026-1429.json",
+          "path": "components/4/resolved/4",
+          "hash": "68379da330a1",
+          "height": [
+            150,
+            150
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 95700,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1437.json",
+          "path": "components/1/resolved/2",
+          "hash": "c7f2428b9b3f",
+          "height": [
+            500,
+            500
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 319000,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1439.json",
+          "path": "components/0/resolved/0",
+          "hash": "e9b1ed5aa77e",
+          "height": [
+            542,
+            542
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 345796,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1440.json",
+          "path": "components/0/resolved/2",
+          "hash": "55e79337f21e",
+          "height": [
+            264,
+            264
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 168432,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1475.json",
+          "path": "components/0/resolved/2",
+          "hash": "0287107ca0c0",
+          "height": [
+            144,
+            144
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 91872,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1498.json",
+          "path": "components/0/resolved/2",
+          "hash": "617525c6b816",
+          "height": [
+            74,
+            74
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 47212,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/027-1500.json",
+          "path": "components/0/resolved/2",
+          "hash": "9e0903a4bab5",
+          "height": [
+            176,
+            176
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 112288,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/034-1535.json",
+          "path": "components/13/resolved/4",
+          "hash": "a2d05a5cecca",
+          "height": [
+            144,
+            144
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 91872,
+            "changedOver10": 46
+          },
+          "screenshot": "solo-MarkdownEditor-119"
+        },
+        {
+          "file": "public/content/pages/034-1538.json",
+          "path": "components/0/resolved/2",
+          "hash": "c8f328237475",
+          "height": [
+            424,
+            424
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 270512,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/034-1541.json",
+          "path": "components/11/resolved/2",
+          "hash": "8418787d3f8e",
+          "height": [
+            264,
+            264
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 168432,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/034-1544.json",
+          "path": "components/14/resolved/2",
+          "hash": "e4539b39b275",
+          "height": [
+            347.4375,
+            347.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 222024,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/034-1546.json",
+          "path": "components/1/resolved/4",
+          "hash": "d3adede1d3be",
+          "height": [
+            412,
+            412
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 262856,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/035-1551.json",
+          "path": "components/0/resolved/0",
+          "hash": "10b0aa9ca776",
+          "height": [
+            304,
+            304
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 193952,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/035-1555.json",
+          "path": "components/1/resolved/4",
+          "hash": "c6f805b390e2",
+          "height": [
+            102,
+            102
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 65076,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/035-1560.json",
+          "path": "components/1/resolved/8",
+          "hash": "03f8c76b1fe5",
+          "height": [
+            232,
+            232
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 148016,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/035-1572.json",
+          "path": "components/33/resolved/0",
+          "hash": "4d77a40ff6c9",
+          "height": [
+            204,
+            204
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 130152,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/037-1620.json",
+          "path": "components/6/resolved/0",
+          "hash": "4323ebb429af",
+          "height": [
+            1034.4375,
+            1034.4375
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 660330,
+            "changedOver10": 1276
+          },
+          "screenshot": "solo-MarkdownEditor-128"
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:16:06.005Z"
+    },
+    {
+      "mode": "solo",
+      "type": "Note",
+      "instances": 945,
+      "unique": 6,
+      "checks": [
+        {
+          "file": "public/content/pages/016-1010.json",
+          "path": "components/3/resolved/5",
+          "hash": "8e82e8c7495b",
+          "height": [
+            124,
+            124
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 79112,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1204.json",
+          "path": "components/2/resolved/3",
+          "hash": "8a217ab5f1b3",
+          "height": [
+            520,
+            520
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 331760,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1210.json",
+          "path": "components/0/resolved/2",
+          "hash": "c61ae0c0ca86",
+          "height": [
+            268,
+            268
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 170984,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1212.json",
+          "path": "components/1/resolved/3",
+          "hash": "5cc6872499ef",
+          "height": [
+            196,
+            196
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 125048,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1218.json",
+          "path": "components/1/resolved/3",
+          "hash": "4e6d5f8c671f",
+          "height": [
+            220,
+            220
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 140360,
+            "changedOver10": 0
+          }
+        },
+        {
+          "file": "public/content/pages/022-1220.json",
+          "path": "components/0/resolved/1",
+          "hash": "fd4079ef2938",
+          "height": [
+            196,
+            196
+          ],
+          "textEqual": true,
+          "images": [
+            [],
+            []
+          ],
+          "reasons": [],
+          "pixel": {
+            "sameSize": true,
+            "total": 125048,
+            "changedOver10": 712
+          },
+          "screenshot": "solo-Note-5"
+        }
+      ],
+      "errors": [],
+      "finishedAt": "2026-11-02T10:15:06.585Z"
+    }
+  ],
+  "errors": [],
+  "sourceDirectory": "/var/folders/pz/9yfbvrfd445d507qpn2wnds80000gn/T/brclio-visual-snapshot-vhjrr9/src",
+  "sourceHashBefore": "5a7b9bf9f95fe35bcb67e7d694837d3d6890658cfceb26fd2cadfc9738bfb1bb",
+  "finishedAt": "2026-11-02T10:16:51.495Z",
+  "sourceHashAfter": "5a7b9bf9f95fe35bcb67e7d694837d3d6890658cfceb26fd2cadfc9738bfb1bb",
+  "sourceChangedDuringRun": false
+}

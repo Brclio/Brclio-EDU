@@ -1,5 +1,5 @@
 {
-  "startedAt": 1793598897.70431,
+  "startedAt": 1793606764.775181,
   "isolation": "temporary copy of scripts, public/content and anonymous source caches; node_modules linked read-only by the import process",
   "originalFixtureMapEntries": 34,
   "exitCode": 0,
@@ -32,5 +32,5 @@
     "liveChanged": 0,
     "liveErrors": 0
   },
-  "durationSeconds": 46.01
+  "durationSeconds": 55.0
 }

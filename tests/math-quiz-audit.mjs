@@ -6,7 +6,7 @@ import {chromium} from 'playwright';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
-import remarkMath from 'remark-math';
+import remarkMath from 'remark-math-solo';
 import {courseMathMarkdown} from '../src/content-math.ts';
 import {quizBlankKeys,quizExpectedBlank} from '../src/content-model.ts';
 const base=process.env.AUDIT_BASE||'http://127.0.0.1:5173';

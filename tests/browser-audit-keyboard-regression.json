@@ -1,0 +1,95 @@
+{
+  "startedAt": "2026-11-02T10:54:39.112Z",
+  "base": "http://127.0.0.1:5173",
+  "renderedSourceRoot": "/Users/huangjiabao/GitHub/Brclio-EDU",
+  "browser": "Chromium",
+  "contentHashBefore": "f6887e98d8ea14882422a579f4a22bfb65c8861db55b998f136540537bbcee54",
+  "coverage": {
+    "requestedPages": 1,
+    "requestedChallenges": 0
+  },
+  "results": [
+    {
+      "file": "/content/pages/010-413.json",
+      "title": "渐进分析和Big O介绍",
+      "worker": 0,
+      "quizChecks": [
+        {
+          "questionId": 178,
+          "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca:178",
+          "kind": "single_choice",
+          "status": "passed",
+          "negativeStatus": "passed",
+          "negativeVerdict": "答案错误",
+          "verdict": "答案正确",
+          "flow": "article-navigation-submit-reveal-refresh"
+        },
+        {
+          "questionId": 179,
+          "componentId": "cb5a7fb2-67be-4ca2-8f27-68b4e84119ca:179",
+          "kind": "single_choice",
+          "status": "passed",
+          "negativeStatus": "passed",
+          "sourceUiReachable": true,
+          "navigation": "keyboard-tab",
+          "sourceLimitation": "The original two-question group has no visible arrow navigation or touch swipe, but its second slide is reachable through Tab.",
+          "negativeVerdict": "答案错误",
+          "verdict": "答案正确",
+          "flow": "article-keyboard-tab-submit-reveal-refresh"
+        }
+      ],
+      "errors": [],
+      "pageScriptErrors": [],
+      "controls": {
+        "codeTabs": 0,
+        "webTabs": 0,
+        "animationFrames": 0,
+        "details": 0
+      },
+      "render": {
+        "mode": "article",
+        "objectStringLeak": false,
+        "errors": [],
+        "quizCount": 2,
+        "codeEditors": 0,
+        "animations": 0,
+        "placeholders": [],
+        "blankComponents": [],
+        "textLength": 3210
+      },
+      "elapsedMs": 3955
+    }
+  ],
+  "blockedExternalRequests": 0,
+  "limitations": [
+    "Uses the actual Content renderer in an isolated harness; the App route/step flow is not exercised for every lesson.",
+    "Known-answer quiz controls are tested against imported public answer metadata; this is not a comparison with the original server judge.",
+    "Code examples are rendered but never automatically executed by this audit.",
+    "Code language tabs and animation frame navigation are exercised; code execution and pixel equivalence are not claimed.",
+    "External network requests are blocked for deterministic rendering; image/video availability is audited separately.",
+    "No screenshot or pixel equivalence claim."
+  ],
+  "finishedAt": "2026-11-02T10:54:45.332Z",
+  "contentHashAfter": "f6887e98d8ea14882422a579f4a22bfb65c8861db55b998f136540537bbcee54",
+  "summary": {
+    "pages": 1,
+    "challenges": 0,
+    "renderErrors": 0,
+    "blankComponents": 0,
+    "placeholders": 0,
+    "quizChecks": 2,
+    "sourceUnreachableQuestions": 0,
+    "quizPassed": 2,
+    "quizFailed": 0,
+    "negativeChecks": 2,
+    "negativePassed": 2,
+    "controls": {
+      "codeTabs": 0,
+      "webTabs": 0,
+      "animationFrames": 0,
+      "details": 0
+    },
+    "pageScriptErrors": [],
+    "sourceChangedDuringRun": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-02T10:44:16.023Z",
+  "base": "http://127.0.0.1:5173",
+  "scope": "Actual application UI and Vite proxy; no intercepted responses or test relay.",
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5173/api/run",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "output": "6",
+  "passed": true
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';import os from'node:os';import path from'node:path';import{createHash}from'node:crypto';
+const root=process.cwd(),dir=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'brclio-visual-snapshot-')));
+await fs.cp('src',path.join(dir,'src'),{recursive:true});
+for(const f of['package.json','package-lock.json','tsconfig.json'])await fs.copyFile(f,path.join(dir,f));
+for(const name of['node_modules','public'])await fs.symlink(path.join(root,name),path.join(dir,name),'dir');
+await fs.mkdir(path.join(dir,'tests'));for(const f of['visual-content-harness.html','visual-content-harness.tsx'])await fs.copyFile('tests/'+f,path.join(dir,'tests',f));
+await fs.mkdir(path.join(dir,'output'));for(const name of['article-reference','reference-fonts'])await fs.cp('output/'+name,path.join(dir,'output',name),{recursive:true});
+await fs.mkdir(path.join(dir,'output/quiz-visual'));for(const f of['reference-harness.html','reference-components.js','source-solo.css'])await fs.copyFile('output/quiz-visual/'+f,path.join(dir,'output/quiz-visual',f));
+await fs.writeFile(path.join(dir,'vite.config.ts'),`import{defineConfig}from'vite';import react from'@vitejs/plugin-react';export default defineConfig({cacheDir:'.vite-cache',plugins:[react()],server:{host:'127.0.0.1',port:5176,strictPort:true,fs:{allow:[${JSON.stringify(dir)},${JSON.stringify(root)}]},watch:{ignored:['**/output/**','**/public/**']}}});`);
+const files=await fs.readdir(path.join(dir,'src'));const hashes={};for(const f of files)if(/\.(tsx?|css)$/.test(f))hashes[f]=createHash('sha256').update(await fs.readFile(path.join(dir,'src',f))).digest('hex');
+await fs.writeFile('output/prose-visual-snapshot.json',JSON.stringify({at:new Date().toISOString(),dir,files:hashes},null,2));console.log(dir);

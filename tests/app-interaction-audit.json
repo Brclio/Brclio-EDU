@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-01T16:29:04.647Z",
+  "startedAt": "2026-11-02T10:17:32.767Z",
   "base": "http://127.0.0.1:5173",
   "checks": [
-    "article TOC scroll keeps route",
+    "article TOC scroll updates original anchor route",
     {
-      "animation": "all five frame pixels change; reset and click-to-advance work",
+      "animation": "all five frame pixels and SVGs change; boundary controls and reset work; stage click does not advance, matching original",
       "sceneHashes": [
-        "32221898dba3d2945cea75dda1987e28ad701c746adce2b76cff48543c10ad7c",
-        "d73379ed09714a722952b02bd57b84e716f88b2c39782cbac4ba5a7bee81ce65",
-        "f7ca386fa28284e739eaec50232bb5ffc8e610c5e82661ddc2eb3f74fc786538",
-        "2d739d49df06b4f00ad10d3be7fff3ade54cc52458953a92ddc53dbb292d164e",
-        "1684c46e151fa9ffe1527f41a654534304c3cb6e287aef7314db4888c1ef64cd"
+        "4c49322f1fccb7fde43ac5787d4e9cc6f1bc8ba74f12386fe32172027484bd7b",
+        "6d031cc15adb6cb14e6416e2f0b7708bec7b65dfd30a865736ac5fe91e96d909",
+        "f73b1e1566bc325498df41a30d209c074a24a6c35749d2df86edd6505994efbc",
+        "f563d935212dfe13893c6dfccc18417a161fca12279f93c16c552ec48098fdd0",
+        "0359de2bf5b2177f45ce32c62c9adc33119564d06508e984ebe4f84b5adc37ad"
       ]
     },
     "article notes survive reload in anonymous local progress",
     "animation controls visible at 1280x577 with no fixed footer overlay",
-    "mobile drawer toggles and article has no horizontal overflow",
+    "original mobile <=414px sidebar remains hidden; toggle persists state; article has no horizontal overflow",
     "educative overview chapter collapse and course navigation"
   ],
   "errors": [],
-  "finishedAt": "2026-11-01T16:29:11.291Z"
+  "finishedAt": "2026-11-02T10:17:41.225Z"
 }

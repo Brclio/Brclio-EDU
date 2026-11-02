@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-02T09:30:34Z",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "dockerExecutable": null,
+  "defaultDockerPathExists": false,
+  "dockerDesktopInstalled": false,
+  "orbstackInstalled": false,
+  "dockerSocketExists": false,
+  "colimaExecutable": null,
+  "podmanExecutable": null,
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "brclio-edu-runner",
+      "languages": [
+        "bash",
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "java",
+        "javascript",
+        "php",
+        "python",
+        "ruby",
+        "rust",
+        "sh",
+        "sql",
+        "typescript"
+      ],
+      "unavailableLanguages": {
+        "swift": "Swift execution image is not configured."
+      },
+      "maxConcurrency": 1,
+      "wallTimeoutSeconds": 40
+    }
+  },
+  "execution": {
+    "status": 503,
+    "body": {
+      "error": "Execution service is unavailable."
+    }
+  },
+  "limitation": "HTTP service starts locally; isolated execution cannot run because no Docker runtime/toolchain image is installed on this Mac. Host compilers were not substituted for the isolated runner."
+}

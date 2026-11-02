@@ -1,0 +1,10 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { flushSync } from 'react-dom';
+import { ArticlePreviewImage } from '../src/ArticleImagePreview';
+import '../src/styles.css';
+const root = createRoot(document.getElementById('root')!);
+const css = document.createElement('style');
+css.textContent = 'body{margin:0;background:#fff;color:#000;font-family:-apple-system,"system-ui","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:16px;line-height:1.5715}#root{width:960px;margin:32px auto}.preview-harness-image{display:flex;justify-content:center;align-items:center;margin:24px 0}';
+document.head.append(css);
+(window as any).renderLocalImagePreview = (props: React.ComponentProps<typeof ArticlePreviewImage>) => flushSync(() => root.render(<div className="preview-harness-image"><ArticlePreviewImage {...props} /></div>));
