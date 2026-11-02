@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-11-02T05:39:59.827Z",
+  "targets": {
+    "http://api.pythontip.com/course/hello_html": "/content/fixtures/hello-html.html",
+    "http://api.pythontip.com/course/fake_baidu": "/content/fixtures/fake-baidu.html"
+  },
+  "changes": [
+    {
+      "file": "pages/024-1325.json",
+      "trail": "/components/3/resolved/question_text",
+      "sourceSha256": "1fe461ecce513b9dbf555f853a71a810925cb7828b4229b7b42bf86f3d5bffa1",
+      "localizedSha256": "57c52bac46cbba2718153b7cbadf7941d68e3692f47cca8597e7831ffebcc815",
+      "edits": [
+        {
+          "url": "http://api.pythontip.com/course/hello_html",
+          "local": "/content/fixtures/hello-html.html"
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1325.json",
+      "trail": "/components/3/resolved/question_text_html",
+      "sourceSha256": "846b4ef7bee25e9a14f594b405b40b730a7139becd87cf5603c8862b6eade34a",
+      "localizedSha256": "7f146ef342c90d69c3a042b11383d17919516062c178f68d06eefd22dd63f6ed",
+      "edits": [
+        {
+          "htmlLinks": true
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1326.json",
+      "trail": "/components/2/resolved/question_text",
+      "sourceSha256": "e2eb36925263cd47d95678aba88a5b09dffc5de285ed5e0802338eecf2fb56ee",
+      "localizedSha256": "88806266aac61aafc966623fa054bc952ca31782d6f97b935354ecb6aa2a165b",
+      "edits": [
+        {
+          "url": "http://api.pythontip.com/course/hello_html",
+          "local": "/content/fixtures/hello-html.html"
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1326.json",
+      "trail": "/components/2/resolved/question_text_html",
+      "sourceSha256": "6274259cbd7c1ef80bed952a89e36bacd8f3d5589f7231875ec04be182785c79",
+      "localizedSha256": "f3d68ca57c50b1566e5be08c59f6f079be7cdfe24bf276e8c934a9263512a71b",
+      "edits": [
+        {
+          "htmlLinks": true
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1327.json",
+      "trail": "/components/1/resolved/question_text",
+      "sourceSha256": "08dbf31d3916f7c22e2cf19c84aa4387ddbdebbcfba83e53341f7e57195058db",
+      "localizedSha256": "ad00efcff12d75340ff360969ebac889fed228f61041d7da8bc2a379ceb59ef6",
+      "edits": [
+        {
+          "url": "http://api.pythontip.com/course/fake_baidu",
+          "local": "/content/fixtures/fake-baidu.html"
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1327.json",
+      "trail": "/components/1/resolved/question_text_html",
+      "sourceSha256": "c74b3915796d44b72e8b1e920ed279627655bca1908534b70718fadd5cee4e62",
+      "localizedSha256": "a1208f86fff73ffcee780c38e35a8b415c83d40b86d2fe91cdb8a2db5af3e738",
+      "edits": [
+        {
+          "htmlLinks": true
+        }
+      ]
+    },
+    {
+      "file": "pages/024-1328.json",
+      "trail": "/components/1/resolved/question_text",
+      "sourceSha256": "885a06a2bba815cf16827906806178a00b1beb54638717d7e111a380458e829b",
+      "localizedSha256": "f265b7dd0f43cfe44a6d9c3fbba2350e62d0027d2e1a213e3216aba2f5cc5add",
+      "edits": [
+        {
+          "url": "http://api.pythontip.com/course/hello_html",
+          "local": "/content/fixtures/hello-html.html"
+        }
+      ]
+    }
+  ],
+  "changedFiles": 4,
+  "notes": [
+    "Only actual Markdown links, definitions and HTML anchor hrefs are changed. Fenced code, inline code, original URL labels and other reference links remain untouched.",
+    "hello_html is explicitly reconstructed; fake_baidu is exported from the complete original lesson HTML."
+  ]
+}

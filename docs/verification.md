@@ -1,4 +1,6 @@
-# 上线验收（2026-11-02）
+# 首轮上线验收（2026-11-02）
+
+第二轮已进一步对齐原站样式、结构与交互，当前部署为 `a1c48278-fe72-48b9-85e2-12e7b8bc65ac`。最新范围和仍存差异见[一致性复核](fidelity-verification.md)。下文保留首轮验收记录，不代表后续对照已没有差异。
 
 - 正式站点：https://edu.brclio.com/
 - 源码及课程文件：https://github.com/Brclio/Brclio-EDU

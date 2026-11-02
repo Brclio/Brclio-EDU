@@ -1,0 +1,42 @@
+/* Measured against the public article renderer (004/117), 2026-11-02.
+   Keep these rules scoped: the source uses a different design for solo lessons. */
+.article-reader{-webkit-font-smoothing:antialiased;line-height:1.5715;font-synthesis:weight style}
+.article-reading-pane{padding:32px 0;overflow-x:auto}
+.article-reading-body{width:960px;max-width:calc(100% - 20px);margin:0 auto}
+.article-page-heading p{line-height:1.5715;color:rgba(0,0,0,.45)}
+.article-toc{padding:0;border-radius:4px;line-height:1.5715}
+.article-toc summary{padding:16px 20px;gap:16px}
+.article-toc summary:before{display:none}
+.article-toc:not([open]) summary svg{transform:rotate(-90deg)}
+.article-toc ul{padding:0 12px 12px 14px;background:#f9f9f9}
+.article-toc li{padding:12px 0 12px 24px;margin:0;line-height:1.143;font-weight:600;color:#000}
+.article-toc li:first-child{color:inherit}
+.article-toc a{display:block}.article-toc a:hover{color:#1890ff}
+.article-content .edu-content{overflow-wrap:break-word;line-height:1.5715}
+.article-content .edu-markdown{margin:0}
+.article-content .edu-markdown p{margin:0 0 24px;line-height:32px;text-align:justify}
+.article-content .edu-markdown p:last-child{margin-bottom:24px}
+.article-content .edu-markdown h3{font-size:23px;line-height:1.4;margin:27.6px 0 11.5px}
+.article-content .edu-markdown h1+p,.article-content .edu-markdown h2+p,.article-content .edu-markdown h3+p,.article-content .edu-markdown h4+p{margin-top:0}
+.article-content .edu-markdown code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace;font-size:85%;color:#c7254e;background:#f9f2f4;margin:0 .2em;padding:.2em .4em .1em;border-radius:3px;line-height:32px}
+.article-content .edu-markdown :is(h1,h2,h3,h4,h5,h6) code{line-height:inherit}
+.article-content .edu-markdown pre code{color:inherit;background:none;margin:0;padding:0;line-height:inherit}
+.article-content .edu-markdown ul,.article-content .edu-markdown ol{margin:0 0 16px;padding:0}
+.article-content .edu-markdown li{margin:0 0 24px 20px;padding-left:4px;line-height:32px}
+.article-content .edu-markdown table{margin-bottom:32px;box-shadow:0 0 1px #0003}
+.article-content .edu-markdown th,.article-content .edu-markdown td{text-align:center;padding:8px 32px;white-space:pre-wrap;border-color:#0002}
+.article-content .edu-markdown th{background:#e7f0fe}
+.article-content .edu-animation{position:relative;border:1px solid #0000002e;padding:16px 0 24px;margin:32px 0 100px;overflow:visible}
+.article-content .edu-animation-stage{border:0;padding:0;display:block}
+.article-content .edu-animation-stage .edu-animation-image{max-height:none;height:var(--frame-height,400px);display:block}
+.article-content .edu-animation-controls{position:absolute;bottom:-64px;left:0;right:0;min-height:48px;height:48px;margin:0}
+.article-content .animation-counter{font-size:16px;line-height:25.144px;color:rgba(0,0,0,.45)}
+.article-content .edu-animation figcaption:empty{display:none}
+.article-navigation{border:0;padding:0;margin-top:64px;font-size:16px}
+.article-navigation button{min-height:32px;font-size:14px;padding:4px 15px;border-radius:2px}
+.article-navigation button:last-child{color:#000;background:#fff;border-color:#d9d9d9}
+.article-course-info{padding-bottom:28px}.article-back{height:48px}
+.article-chapter-toggle{padding-top:20px;padding-bottom:20px;gap:14px;line-height:25.144px}
+.article-chapter-items>a{padding-left:16px;gap:20px}
+@media(min-width:415px){.article-sidebar{width:300px}.article-sidebar-open .article-reading-pane{margin-left:300px}.article-page-heading h1{font-size:44px}.article-header{height:72px}.article-reading-pane{height:calc(100dvh - 72px)}}
+@media(max-width:414px){.article-header{height:72px}.article-sidebar{top:72px}.article-reading-pane{height:calc(100dvh - 72px);padding:16px}.article-reading-body{width:100%;max-width:none}.article-page-heading h1{font-size:44px}.article-content .edu-markdown h2{font-size:28px}.article-content .edu-animation-stage{padding:0}.article-navigation{margin-top:64px}}

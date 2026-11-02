@@ -1,0 +1,152 @@
+{
+  "source": {
+    "lang": "en",
+    "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "synthesis": "weight style small-caps",
+    "height": 28,
+    "title": "初识Python",
+    "images": [
+      {
+        "src": "https://cdn.py2fun.com/course_edu/course/assets/4529_G775kqt.jpg",
+        "display": "inline",
+        "verticalAlign": "baseline",
+        "parent": "<div class=\"container _image_1rohk_1\"><img src=\"//cdn.py2fun.com/course_edu/course/assets/4529_G775kqt.jpg\" alt=\"\" crossorigin=\"anonymous\" style=\"width: 100%;\"></div>",
+        "rect": {
+          "x": 401,
+          "y": 211.8125,
+          "width": 638,
+          "height": 212.65625,
+          "top": 211.8125,
+          "right": 1039,
+          "bottom": 424.46875,
+          "left": 401
+        },
+        "parentStyle": {
+          "lineHeight": "normal",
+          "padding": "24px 0px"
+        }
+      }
+    ]
+  },
+  "local": {
+    "lang": "zh-CN",
+    "font": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "synthesis": "none",
+    "height": 33,
+    "title": "初识Python",
+    "images": [
+      {
+        "src": "http://127.0.0.1:5173/content/assets/d9809aec4ecc7655b1dd.jpg",
+        "display": "block",
+        "verticalAlign": "baseline",
+        "parent": "<figure class=\"edu-image\"><img alt=\"课程插图\" loading=\"lazy\" src=\"/content/assets/d9809aec4ecc7655b1dd.jpg\" style=\"max-width: 600px;\"></figure>",
+        "rect": {
+          "x": 401,
+          "y": 216.8125,
+          "width": 638,
+          "height": 212.65625,
+          "top": 216.8125,
+          "right": 1039,
+          "bottom": 429.46875,
+          "left": 401
+        },
+        "parentStyle": {
+          "lineHeight": "normal",
+          "padding": "24px 0px"
+        }
+      }
+    ]
+  },
+  "experiments": [
+    {
+      "name": "exactFont",
+      "lang": "zh-CN",
+      "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "synthesis": "none",
+      "height": 33,
+      "title": "初识Python",
+      "images": [
+        {
+          "src": "http://127.0.0.1:5173/content/assets/d9809aec4ecc7655b1dd.jpg",
+          "display": "block",
+          "verticalAlign": "baseline",
+          "parent": "<figure class=\"edu-image\"><img alt=\"课程插图\" loading=\"lazy\" src=\"/content/assets/d9809aec4ecc7655b1dd.jpg\" style=\"max-width: 600px;\"></figure>",
+          "rect": {
+            "x": 401,
+            "y": 216.8125,
+            "width": 638,
+            "height": 212.65625,
+            "top": 216.8125,
+            "right": 1039,
+            "bottom": 429.46875,
+            "left": 401
+          },
+          "parentStyle": {
+            "lineHeight": "normal",
+            "padding": "24px 0px"
+          }
+        }
+      ]
+    },
+    {
+      "name": "synthesis",
+      "lang": "zh-CN",
+      "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "synthesis": "weight style small-caps",
+      "height": 33,
+      "title": "初识Python",
+      "images": [
+        {
+          "src": "http://127.0.0.1:5173/content/assets/d9809aec4ecc7655b1dd.jpg",
+          "display": "block",
+          "verticalAlign": "baseline",
+          "parent": "<figure class=\"edu-image\"><img alt=\"课程插图\" loading=\"lazy\" src=\"/content/assets/d9809aec4ecc7655b1dd.jpg\" style=\"max-width: 600px;\"></figure>",
+          "rect": {
+            "x": 401,
+            "y": 216.8125,
+            "width": 638,
+            "height": 212.65625,
+            "top": 216.8125,
+            "right": 1039,
+            "bottom": 429.46875,
+            "left": 401
+          },
+          "parentStyle": {
+            "lineHeight": "normal",
+            "padding": "24px 0px"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lang",
+      "lang": "en",
+      "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "synthesis": "weight style small-caps",
+      "height": 28,
+      "title": "初识Python",
+      "images": [
+        {
+          "src": "http://127.0.0.1:5173/content/assets/d9809aec4ecc7655b1dd.jpg",
+          "display": "block",
+          "verticalAlign": "baseline",
+          "parent": "<figure class=\"edu-image\"><img alt=\"课程插图\" loading=\"lazy\" src=\"/content/assets/d9809aec4ecc7655b1dd.jpg\" style=\"max-width: 600px;\"></figure>",
+          "rect": {
+            "x": 401,
+            "y": 211.8125,
+            "width": 638,
+            "height": 212.65625,
+            "top": 211.8125,
+            "right": 1039,
+            "bottom": 424.46875,
+            "left": 401
+          },
+          "parentStyle": {
+            "lineHeight": "normal",
+            "padding": "24px 0px"
+          }
+        }
+      ]
+    }
+  ]
+}

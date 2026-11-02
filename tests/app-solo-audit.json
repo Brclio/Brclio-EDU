@@ -1,14 +1,8 @@
 {
-  "startedAt": "2026-11-01T17:25:54.272Z",
+  "startedAt": "2026-11-02T06:05:31.827Z",
   "base": "http://127.0.0.1:5173",
-  "sourceHashBefore": "7ea6c74694e1e509315e1470bf2f13fa948fb1c167bdb5c81a34ec0547fbaad1",
+  "sourceHashBefore": "eb811c3c928320c068752e22a12f83281721c9c4494d3102225be5c64bf00526",
   "navigation": [
-    {
-      "course": "019",
-      "errors": [],
-      "lesson": "#/course/019/page/1061",
-      "heading": "进阶介绍"
-    },
     {
       "course": "015",
       "errors": [],
@@ -16,16 +10,22 @@
       "heading": "介绍"
     },
     {
-      "course": "002",
+      "course": "019",
       "errors": [],
-      "lesson": "#/course/002/page/11",
-      "heading": "什么是Python？"
+      "lesson": "#/course/019/page/1061",
+      "heading": "进阶介绍"
     },
     {
       "course": "018",
       "errors": [],
       "lesson": "#/course/018/page/1037",
       "heading": "什么是数据结构？"
+    },
+    {
+      "course": "002",
+      "errors": [],
+      "lesson": "#/course/002/page/11",
+      "heading": "什么是Python？"
     },
     {
       "course": "027",
@@ -40,28 +40,28 @@
       "heading": "课程介绍"
     },
     {
-      "course": "005",
-      "errors": [],
-      "lesson": "#/course/005/page/204",
-      "heading": "面向对象入门介绍"
-    },
-    {
       "course": "004",
       "errors": [],
       "lesson": "#/course/004/page/116",
       "heading": "数据结构与算法介绍"
     },
     {
-      "course": "011",
+      "course": "005",
       "errors": [],
-      "lesson": "#/course/011/page/558",
-      "heading": "如何学python"
+      "lesson": "#/course/005/page/204",
+      "heading": "面向对象入门介绍"
     },
     {
       "course": "010",
       "errors": [],
       "lesson": "#/course/010/page/404",
       "heading": "算法课介绍"
+    },
+    {
+      "course": "011",
+      "errors": [],
+      "lesson": "#/course/011/page/558",
+      "heading": "如何学python"
     },
     {
       "course": "013",
@@ -88,28 +88,28 @@
       "heading": "关于本课程"
     },
     {
-      "course": "006",
-      "errors": [],
-      "lesson": "#/course/006/page/261",
-      "heading": "什么是二分查找"
-    },
-    {
       "course": "007",
       "errors": [],
       "lesson": "#/course/007/page/295",
       "heading": "介绍"
     },
     {
-      "course": "001",
-      "errors": [],
-      "lesson": "#/course/001/page/1",
-      "heading": "Python Hello World"
-    },
-    {
       "course": "003",
       "errors": [],
       "lesson": "#/course/003/page/86",
       "heading": "计算机入门课程介绍"
+    },
+    {
+      "course": "006",
+      "errors": [],
+      "lesson": "#/course/006/page/261",
+      "heading": "什么是二分查找"
+    },
+    {
+      "course": "001",
+      "errors": [],
+      "lesson": "#/course/001/page/1",
+      "heading": "Python Hello World"
     },
     {
       "course": "020",
@@ -182,7 +182,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -198,7 +198,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -214,10 +214,10 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -233,11 +233,11 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -253,11 +253,11 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -273,11 +273,11 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
         "completion and last step survive reload"
@@ -293,7 +293,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -310,7 +310,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -327,11 +327,11 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -348,12 +348,12 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -370,12 +370,12 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -392,12 +392,12 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "mobile footer clickable; last answer clears footer",
         "correct unlocks continue",
         "last step marks actual stored lesson completed",
@@ -415,7 +415,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -429,7 +429,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -443,7 +443,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -457,7 +457,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -471,7 +471,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -485,7 +485,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -499,35 +499,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-562",
-      "id": "2da2933e-5c9f-3d41-9a64-2117e026695b",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-563",
-      "id": "4423f196-ab04-3e54-88f1-865396633dcc",
-      "step": 2,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -541,7 +513,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-562",
+      "id": "2da2933e-5c9f-3d41-9a64-2117e026695b",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -555,7 +541,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-563",
+      "id": "4423f196-ab04-3e54-88f1-865396633dcc",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -569,7 +569,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -583,21 +583,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-564",
-      "id": "05880f40-563d-3d56-8b74-fc88b98e9089",
-      "step": 9,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -611,7 +597,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-564",
+      "id": "05880f40-563d-3d56-8b74-fc88b98e9089",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -625,7 +625,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -639,21 +639,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-568",
-      "id": "52a941fe-2b28-32e9-b278-36c34477468e",
-      "step": 8,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -667,7 +653,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-568",
+      "id": "52a941fe-2b28-32e9-b278-36c34477468e",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -681,7 +681,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -695,7 +695,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -709,7 +709,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -723,7 +723,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -737,21 +737,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-571",
-      "id": "13eca131-4413-39a2-849d-6bf16d302469",
-      "step": 4,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -765,7 +751,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-571",
+      "id": "13eca131-4413-39a2-849d-6bf16d302469",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -779,21 +779,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-572",
-      "id": "d78a6255-14cf-3ac9-a57c-116a389ec6c8",
-      "step": 7,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -807,7 +793,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-572",
+      "id": "d78a6255-14cf-3ac9-a57c-116a389ec6c8",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -821,7 +821,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -835,7 +835,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -849,7 +849,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -863,7 +863,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -877,21 +877,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-580",
-      "id": "8baf3278-0788-3195-9807-0409aa797527",
-      "step": 10,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -905,35 +891,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "011-581",
-      "id": "bb929e1d-e8cc-33ff-ba63-ea73b1ad6601",
-      "step": 4,
+      "page": "011-580",
+      "id": "8baf3278-0788-3195-9807-0409aa797527",
+      "step": 10,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-582",
-      "id": "be4c2b4e-8c9d-3f13-b710-3ce7ab411c96",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -947,7 +919,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-581",
+      "id": "bb929e1d-e8cc-33ff-ba63-ea73b1ad6601",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -955,13 +941,13 @@
     },
     {
       "page": "011-582",
-      "id": "c366adb6-1c70-36d5-ab7d-c6fd93bb4e52",
-      "step": 8,
+      "id": "be4c2b4e-8c9d-3f13-b710-3ce7ab411c96",
+      "step": 3,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -975,7 +961,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-582",
+      "id": "c366adb6-1c70-36d5-ab7d-c6fd93bb4e52",
+      "step": 8,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -989,7 +989,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1003,7 +1003,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1017,21 +1017,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "011-588",
-      "id": "9a6f03d6-a95c-3375-9805-ae650b9e20e3",
-      "step": 2,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1045,21 +1031,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "011-590",
-      "id": "75d17a2e-ed95-3ab1-b2fd-99378a0cc99f",
-      "step": 6,
+      "page": "011-588",
+      "id": "9a6f03d6-a95c-3375-9805-ae650b9e20e3",
+      "step": 2,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1073,7 +1059,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "011-590",
+      "id": "75d17a2e-ed95-3ab1-b2fd-99378a0cc99f",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1087,7 +1087,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1101,7 +1101,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1115,7 +1115,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1129,21 +1129,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "013-663",
-      "id": "f0e0a44f-0c12-3f54-ad07-fd42a544adf7",
-      "step": 11,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1157,7 +1143,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-663",
+      "id": "f0e0a44f-0c12-3f54-ad07-fd42a544adf7",
+      "step": 11,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1171,7 +1171,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1185,21 +1185,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "013-665",
-      "id": "a68ccfa2-352f-3a5d-9c6b-33b9c59fede7",
-      "step": 15,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1213,7 +1199,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "013-665",
+      "id": "a68ccfa2-352f-3a5d-9c6b-33b9c59fede7",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1227,7 +1227,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1241,7 +1241,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1255,7 +1255,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1269,7 +1269,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1283,7 +1283,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1297,7 +1297,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1311,7 +1311,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1325,7 +1325,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1339,7 +1339,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1353,7 +1353,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1367,7 +1367,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1381,7 +1381,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1395,7 +1395,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1409,7 +1409,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1423,7 +1423,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1437,7 +1437,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1451,7 +1451,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1465,21 +1465,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "034-1534",
-      "id": "810ba243-c03f-3472-9eee-0cfdaa5c580b",
-      "step": 5,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1493,21 +1479,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "034-1535",
-      "id": "94ccd382-d117-3602-801b-8f4bbaf27319",
-      "step": 7,
+      "page": "034-1534",
+      "id": "810ba243-c03f-3472-9eee-0cfdaa5c580b",
+      "step": 5,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1521,7 +1507,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1529,13 +1515,13 @@
     },
     {
       "page": "034-1535",
-      "id": "60ee062f-8a95-3cfe-bec8-51c0409d0aa6",
-      "step": 9,
+      "id": "94ccd382-d117-3602-801b-8f4bbaf27319",
+      "step": 7,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1549,7 +1535,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1535",
+      "id": "60ee062f-8a95-3cfe-bec8-51c0409d0aa6",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1563,7 +1563,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1577,21 +1577,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "034-1537",
-      "id": "67810867-a581-3d7f-845f-02e948cbdf66",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1605,7 +1591,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1537",
+      "id": "67810867-a581-3d7f-845f-02e948cbdf66",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1619,7 +1619,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1633,21 +1633,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "034-1540",
-      "id": "a1cede24-b260-351d-b2a5-9f65009c5402",
-      "step": 2,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1661,7 +1647,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1540",
+      "id": "a1cede24-b260-351d-b2a5-9f65009c5402",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1675,21 +1675,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "034-1541",
-      "id": "1d18d4c7-6642-355b-bc41-f20350ea57e1",
-      "step": 6,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1703,7 +1689,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "034-1541",
+      "id": "1d18d4c7-6642-355b-bc41-f20350ea57e1",
+      "step": 6,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1717,7 +1717,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1731,7 +1731,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1745,7 +1745,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1759,7 +1759,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1773,7 +1773,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1787,7 +1787,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1801,7 +1801,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1815,7 +1815,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1829,7 +1829,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1843,7 +1843,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1857,7 +1857,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1871,7 +1871,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1885,7 +1885,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1899,21 +1899,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1557",
-      "id": "1790d393-b00a-36bd-a6a1-927c01557f12",
-      "step": 2,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1927,7 +1913,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1557",
+      "id": "1790d393-b00a-36bd-a6a1-927c01557f12",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1941,7 +1941,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1955,7 +1955,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1969,7 +1969,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1983,7 +1983,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -1997,7 +1997,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2011,21 +2011,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1561",
-      "id": "13846ff9-1990-3707-aaad-0502f34c2e9f",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2039,7 +2025,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1561",
+      "id": "13846ff9-1990-3707-aaad-0502f34c2e9f",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2053,7 +2053,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2067,35 +2067,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1565",
-      "id": "817648a5-af7a-32c3-b06e-dff0d845bd5b",
-      "step": 7,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1568",
-      "id": "c8398107-afbe-3032-b34e-73cd12523210",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2109,7 +2081,35 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1565",
+      "id": "817648a5-af7a-32c3-b06e-dff0d845bd5b",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1568",
+      "id": "c8398107-afbe-3032-b34e-73cd12523210",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2123,7 +2123,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2137,7 +2137,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2151,21 +2151,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1569",
-      "id": "99909cf3-5d98-350b-8d53-c9fac5588cd9",
-      "step": 15,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2179,7 +2165,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "99909cf3-5d98-350b-8d53-c9fac5588cd9",
+      "step": 15,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2193,21 +2193,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1569",
-      "id": "66f51392-cab3-3980-9401-cccd2588d4d8",
-      "step": 32,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2221,7 +2207,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1569",
+      "id": "66f51392-cab3-3980-9401-cccd2588d4d8",
+      "step": 32,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2235,35 +2235,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1570",
-      "id": "c88d8399-950a-3048-90d5-f6d0479c1787",
-      "step": 7,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1570",
-      "id": "c1bc704b-cdbc-3c32-89c5-2208a4a281b0",
-      "step": 16,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2277,7 +2249,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2285,13 +2257,27 @@
     },
     {
       "page": "035-1570",
-      "id": "1b08990e-59a2-3fee-a0da-b483e19744bf",
-      "step": 18,
+      "id": "c88d8399-950a-3048-90d5-f6d0479c1787",
+      "step": 7,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1570",
+      "id": "c1bc704b-cdbc-3c32-89c5-2208a4a281b0",
+      "step": 16,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2305,35 +2291,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "035-1571",
-      "id": "1dff5640-df8a-31c4-b95e-09dc696e4a12",
-      "step": 2,
+      "page": "035-1570",
+      "id": "1b08990e-59a2-3fee-a0da-b483e19744bf",
+      "step": 18,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1571",
-      "id": "f4708920-a65c-38c4-81b3-bfcc9dede662",
-      "step": 13,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2347,7 +2319,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2355,13 +2327,27 @@
     },
     {
       "page": "035-1571",
-      "id": "dabfbe04-7439-3d2d-989a-9905e3ff2a61",
-      "step": 18,
+      "id": "1dff5640-df8a-31c4-b95e-09dc696e4a12",
+      "step": 2,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "f4708920-a65c-38c4-81b3-bfcc9dede662",
+      "step": 13,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2375,7 +2361,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1571",
+      "id": "dabfbe04-7439-3d2d-989a-9905e3ff2a61",
+      "step": 18,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2389,7 +2389,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2403,7 +2403,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2417,7 +2417,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2431,7 +2431,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2445,7 +2445,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2459,21 +2459,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1575",
-      "id": "2b545584-6b76-369c-9910-58a72545bad3",
-      "step": 4,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2487,7 +2473,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2501,7 +2487,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1575",
+      "id": "2b545584-6b76-369c-9910-58a72545bad3",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2515,21 +2515,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1577",
-      "id": "e16f423e-6199-36e6-b387-cbd6c5ca1110",
-      "step": 2,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2543,7 +2529,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1577",
+      "id": "e16f423e-6199-36e6-b387-cbd6c5ca1110",
+      "step": 2,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2557,7 +2557,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2571,21 +2571,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1581",
-      "id": "1a1a2e3b-c3e9-3e41-8594-4a0bf2d7ea1c",
-      "step": 5,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2599,7 +2585,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2613,21 +2599,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "035-1582",
-      "id": "18061472-e402-3f49-a301-04c2a25db00d",
-      "step": 11,
+      "page": "035-1581",
+      "id": "1a1a2e3b-c3e9-3e41-8594-4a0bf2d7ea1c",
+      "step": 5,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2641,21 +2627,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "035-1586",
-      "id": "c4916d18-34fc-38b6-b221-f887467586a6",
-      "step": 4,
+      "page": "035-1582",
+      "id": "18061472-e402-3f49-a301-04c2a25db00d",
+      "step": 11,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2669,7 +2655,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1586",
+      "id": "c4916d18-34fc-38b6-b221-f887467586a6",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2683,7 +2683,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2697,7 +2697,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2711,7 +2711,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2725,7 +2725,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2739,7 +2739,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2753,7 +2753,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2767,7 +2767,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2781,21 +2781,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1594",
-      "id": "532a38e3-aa84-3d32-b110-bb38de4b2814",
-      "step": 7,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2809,21 +2795,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "035-1595",
-      "id": "20fa568d-4ba3-3ef4-85c4-246f92c8fe33",
-      "step": 6,
+      "page": "035-1594",
+      "id": "532a38e3-aa84-3d32-b110-bb38de4b2814",
+      "step": 7,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2837,21 +2823,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1596",
-      "id": "725e0b16-6f17-365a-b1fa-5137e62975ea",
-      "step": 5,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2865,21 +2837,35 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "035-1597",
-      "id": "6ffde6a3-dd5e-3d94-afbc-ede47e09931c",
-      "step": 4,
+      "page": "035-1595",
+      "id": "20fa568d-4ba3-3ef4-85c4-246f92c8fe33",
+      "step": 6,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1596",
+      "id": "725e0b16-6f17-365a-b1fa-5137e62975ea",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2893,7 +2879,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2907,7 +2893,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1597",
+      "id": "6ffde6a3-dd5e-3d94-afbc-ede47e09931c",
+      "step": 4,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2921,7 +2921,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2935,21 +2935,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1599",
-      "id": "69930e6a-d6e3-36b7-9f03-38d6188d7726",
-      "step": 9,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2963,7 +2949,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "035-1599",
+      "id": "69930e6a-d6e3-36b7-9f03-38d6188d7726",
+      "step": 9,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -2977,21 +2977,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "035-1601",
-      "id": "c21d26c2-7aa8-37b0-9251-f5c7ea853aa6",
-      "step": 11,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3005,35 +2991,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "037-1610",
-      "id": "a439491f-81f0-3892-936e-03a92a170d74",
-      "step": 3,
+      "page": "035-1601",
+      "id": "c21d26c2-7aa8-37b0-9251-f5c7ea853aa6",
+      "step": 11,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "037-1612",
-      "id": "d7d438ff-0305-38b4-b69f-99fb452ab7c0",
-      "step": 3,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3047,7 +3019,35 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1610",
+      "id": "a439491f-81f0-3892-936e-03a92a170d74",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1612",
+      "id": "d7d438ff-0305-38b4-b69f-99fb452ab7c0",
+      "step": 3,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3061,7 +3061,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3075,21 +3075,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "037-1614",
-      "id": "79295027-7bee-3ba4-8bdb-d2f9668b889b",
-      "step": 5,
-      "kind": "single_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3103,7 +3089,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1614",
+      "id": "79295027-7bee-3ba4-8bdb-d2f9668b889b",
+      "step": 5,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3117,7 +3117,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3131,21 +3131,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
-        "correct unlocks continue",
-        "correct answer advances actual App step"
-      ],
-      "errors": []
-    },
-    {
-      "page": "037-1619",
-      "id": "f25856c8-7ece-3d4a-b14c-00d4af199f5d",
-      "step": 4,
-      "kind": "mult_choice",
-      "checks": [
-        "unanswered cannot advance",
-        "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3159,21 +3145,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "037-1623",
-      "id": "4766e6a3-2513-3e6a-9bb9-0e955c603d37",
-      "step": 5,
-      "kind": "single_choice",
+      "page": "037-1619",
+      "id": "f25856c8-7ece-3d4a-b14c-00d4af199f5d",
+      "step": 4,
+      "kind": "mult_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3187,21 +3173,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
       "errors": []
     },
     {
-      "page": "037-1625",
-      "id": "ae9bcd65-da34-3278-b34d-f40b67495c39",
-      "step": 7,
+      "page": "037-1623",
+      "id": "4766e6a3-2513-3e6a-9bb9-0e955c603d37",
+      "step": 5,
       "kind": "single_choice",
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3215,7 +3201,21 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
+        "correct unlocks continue",
+        "correct answer advances actual App step"
+      ],
+      "errors": []
+    },
+    {
+      "page": "037-1625",
+      "id": "ae9bcd65-da34-3278-b34d-f40b67495c39",
+      "step": 7,
+      "kind": "single_choice",
+      "checks": [
+        "unanswered cannot advance",
+        "wrong stays on same question",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3229,7 +3229,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3243,7 +3243,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3257,7 +3257,7 @@
       "checks": [
         "unanswered cannot advance",
         "wrong stays on same question",
-        "retry clears answers and reshuffles",
+        "retry clears answers and restores shuffled options",
         "correct unlocks continue",
         "correct answer advances actual App step"
       ],
@@ -3269,8 +3269,8 @@
     "Full lesson flows start at step zero. The additional 204 QuestionRef cases seed only their saved __step to test each actual App gate directly.",
     "Every course catalog plus one first lesson is checked; this is not a full traversal of every lesson in the App."
   ],
-  "finishedAt": "2026-11-01T17:27:52.939Z",
-  "sourceHashAfter": "7ea6c74694e1e509315e1470bf2f13fa948fb1c167bdb5c81a34ec0547fbaad1",
+  "finishedAt": "2026-11-02T06:07:14.319Z",
+  "sourceHashAfter": "eb811c3c928320c068752e22a12f83281721c9c4494d3102225be5c64bf00526",
   "summary": {
     "fullFlows": 12,
     "flowFailures": 0,

@@ -1,0 +1,4032 @@
+{
+  "solo": [
+    {
+      "url": "https://edu.py2fun.com/learn#/course/015/page/936",
+      "rows": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "text": "初识Python",
+          "rect": {
+            "x": 401,
+            "y": 139.90625,
+            "width": 638,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "19.92px",
+            "marginBottom": "19.92px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "_markdown_1vxvn_1",
+          "text": "无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使得它受到世界上一些大",
+          "rect": {
+            "x": 401,
+            "y": 467.46875,
+            "width": 638,
+            "height": 128
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使得它受到世界上一些大",
+          "rect": {
+            "x": 401,
+            "y": 467.46875,
+            "width": 638,
+            "height": 84
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "在本课程中，我们将介绍Python的基本概念，构建实际项目，以及解决大量的编码挑战！",
+          "rect": {
+            "x": 401,
+            "y": 567.46875,
+            "width": 638,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "_note_1q6zq_1 _block_13h3c_32",
+          "text": "我们将学习Python 3，目前，它是Python的最常用版本。",
+          "rect": {
+            "x": 401,
+            "y": 619.46875,
+            "width": 638,
+            "height": 96
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "flex",
+            "marginTop": "24px",
+            "marginBottom": "0px",
+            "paddingTop": "18px",
+            "paddingBottom": "18px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "_markdown_1vxvn_1",
+          "text": "我们将学习Python 3，目前，它是Python的最常用版本。",
+          "rect": {
+            "x": 469,
+            "y": 637.46875,
+            "width": 406.578125,
+            "height": 60
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们将学习Python 3，目前，它是Python的最常用版本。",
+          "rect": {
+            "x": 469,
+            "y": 653.46875,
+            "width": 406.578125,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        }
+      ],
+      "fonts": {
+        "fonts": [
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUIDisplaySC-Bold",
+            "isCustomFont": false,
+            "glyphCount": 2
+          },
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Bold",
+            "isCustomFont": false,
+            "glyphCount": 6
+          }
+        ]
+      },
+      "samples": [],
+      "headings": []
+    },
+    {
+      "url": "http://127.0.0.1:5173/#/course/015/page/936",
+      "rows": [
+        {
+          "tag": "MAIN",
+          "classes": "lesson-main",
+          "text": "初识Python\n\n无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使",
+          "rect": {
+            "x": 401,
+            "y": 139.90625,
+            "width": 638,
+            "height": 735.5625
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "19.9062px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "160px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H1",
+          "classes": "",
+          "text": "初识Python",
+          "rect": {
+            "x": 401,
+            "y": 139.90625,
+            "width": 638,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "19.9062px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-content",
+          "text": "无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使得它受到世界上一些大",
+          "rect": {
+            "x": 401,
+            "y": 187.8125,
+            "width": 638,
+            "height": 527.65625
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "FIGURE",
+          "classes": "edu-image",
+          "text": "",
+          "rect": {
+            "x": 401,
+            "y": 187.8125,
+            "width": 638,
+            "height": 263.65625
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "24px",
+            "paddingBottom": "24px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使得它受到世界上一些大",
+          "rect": {
+            "x": 401,
+            "y": 467.46875,
+            "width": 638,
+            "height": 128
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "无论是建立网站，开发视频游戏，或者创建一个人工智能工具，Python全都可以。Python 是一种高级编程语言，被大量使用。它非常灵活，易于使用，这使得它受到世界上一些大",
+          "rect": {
+            "x": 401,
+            "y": 467.46875,
+            "width": 638,
+            "height": 84
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "在本课程中，我们将介绍Python的基本概念，构建实际项目，以及解决大量的编码挑战！",
+          "rect": {
+            "x": 401,
+            "y": 567.46875,
+            "width": 638,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "ASIDE",
+          "classes": "edu-note",
+          "text": "!\n\n我们将学习Python 3，目前，它是Python的最常用版本。",
+          "rect": {
+            "x": 401,
+            "y": 619.46875,
+            "width": 638,
+            "height": 96
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "display": "flex",
+            "marginTop": "24px",
+            "marginBottom": "0px",
+            "paddingTop": "18px",
+            "paddingBottom": "18px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "16px",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们将学习Python 3，目前，它是Python的最常用版本。",
+          "rect": {
+            "x": 469,
+            "y": 653.46875,
+            "width": 406.578125,
+            "height": 28
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "16px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "pre-wrap",
+            "wordBreak": "normal"
+          }
+        }
+      ],
+      "fonts": {
+        "fonts": [
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUIDisplaySC-Bold",
+            "isCustomFont": false,
+            "glyphCount": 2
+          },
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Bold",
+            "isCustomFont": false,
+            "glyphCount": 6
+          }
+        ]
+      },
+      "samples": [],
+      "headings": []
+    }
+  ],
+  "article": [
+    {
+      "url": "https://edu.py2fun.com/course/004/page/117",
+      "rows": [
+        {
+          "tag": "H1",
+          "classes": "ant-typography",
+          "text": "Stack堆栈入门",
+          "rect": {
+            "x": 390,
+            "y": 104,
+            "width": 960,
+            "height": 54.109375
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "44px",
+            "fontWeight": "600",
+            "lineHeight": "54.12px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "22px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography ant-typography-secondary",
+          "text": "本课介绍堆栈数据结构和它在 Python 中的实现，并在具体的问题中使用它。",
+          "rect": {
+            "x": 390,
+            "y": 180.109375,
+            "width": 960,
+            "height": 25.140625
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-divider ant-divider-horizontal",
+          "text": "",
+          "rect": {
+            "x": 390,
+            "y": 229.25,
+            "width": 960,
+            "height": 1
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "flex",
+            "marginTop": "24px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "study_anchor__3I1AE",
+          "text": "本节将介绍以下内容\n什么是堆栈？\n堆栈基本操作",
+          "rect": {
+            "x": 390,
+            "y": 254.25,
+            "width": 960,
+            "height": 155.703125
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "flex",
+            "marginTop": "0px",
+            "marginBottom": "32px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "在本课中，我们将学习堆栈Stack的使用场景以及它在Python中的实现。\n在随后的课程中，会更加深入的使用堆栈数据结构，以解决一些有趣的问题，并且后续课程将复用本课中p",
+          "rect": {
+            "x": 390,
+            "y": 441.953125,
+            "width": 960,
+            "height": 574.390625
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "在本课中，我们将学习堆栈Stack的使用场景以及它在Python中的实现。",
+          "rect": {
+            "x": 390,
+            "y": 441.953125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "在随后的课程中，会更加深入的使用堆栈数据结构，以解决一些有趣的问题，并且后续课程将复用本课中python完成堆栈数据结构的代码。",
+          "rect": {
+            "x": 390,
+            "y": 498.953125,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H3",
+          "classes": "ant-typography",
+          "text": "什么是堆栈？",
+          "rect": {
+            "x": 390,
+            "y": 596.546875,
+            "width": 960,
+            "height": 37.796875
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "37.8px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "33.6px",
+            "marginBottom": "14px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "首先，让我们描述一下什么是堆栈。根据这个名字，它应该是一个相对熟悉的概念。",
+          "rect": {
+            "x": 390,
+            "y": 648.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "假设我们有四本书，其标题都很吸引人。",
+          "rect": {
+            "x": 390,
+            "y": 704.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography",
+          "text": "A\nB\nC\nD",
+          "rect": {
+            "x": 390,
+            "y": 760.34375,
+            "width": 960,
+            "height": 200
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "A",
+          "rect": {
+            "x": 410,
+            "y": 760.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "B",
+          "rect": {
+            "x": 410,
+            "y": 816.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "C",
+          "rect": {
+            "x": 410,
+            "y": 872.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "D",
+          "rect": {
+            "x": 410,
+            "y": 928.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "目前，这些书是散落在地板上，我们想把它们整齐地堆起来。",
+          "rect": {
+            "x": 390,
+            "y": 984.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "canvas-animation_canvasAnimation__29VN0",
+          "text": "四本书散落在地上\n将书A放在最下面 \n回到我们的书堆中，拿起书B并把它放在放在书堆的最上面。\n拿着书C，把它放在B上，我们几乎完成了整理工作!\n现在我们拿起书D，把它放在",
+          "rect": {
+            "x": 390,
+            "y": 1048.34375,
+            "width": 960,
+            "height": 442
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "32px",
+            "marginBottom": "100px",
+            "paddingTop": "16px",
+            "paddingBottom": "24px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "现在我们有了一个漂亮整齐的书堆！如果想从这堆书中取回一本书，可以先取最上面的书(如果直接从底部取书，估计整个书堆都倒了😀)。因此，我们将取下最上面的一本书，然后阅读该书",
+          "rect": {
+            "x": 390,
+            "y": 1590.34375,
+            "width": 960,
+            "height": 973.234375
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "现在我们有了一个漂亮整齐的书堆！如果想从这堆书中取回一本书，可以先取最上面的书(如果直接从底部取书，估计整个书堆都倒了😀)。因此，我们将取下最上面的一本书，然后阅读该书",
+          "rect": {
+            "x": 390,
+            "y": 1590.34375,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "但如果想拿最下面的书A呢？现在，它在书堆的底部，所以需要取下书D，把它放下来，然后对书C和书B做同样的事情，然后就可以拿到书A了。",
+          "rect": {
+            "x": 390,
+            "y": 1678.34375,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "这就是堆栈的主要思想。数据结构堆栈Stack与你最熟悉的整齐书堆非常相似。堆栈数据结构允许我们在上面放置任何变量或对象，就像上图书堆允许把任何书放在上面。",
+          "rect": {
+            "x": 390,
+            "y": 1766.34375,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H3",
+          "classes": "ant-typography",
+          "text": "堆栈基本操作",
+          "rect": {
+            "x": 390,
+            "y": 1864.9375,
+            "width": 960,
+            "height": 37.796875
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "37.8px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "33.6px",
+            "marginBottom": "14px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H4",
+          "classes": "ant-typography",
+          "text": "进栈push",
+          "rect": {
+            "x": 390,
+            "y": 1930.328125,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "在堆栈中插入元素的操作被称为进栈push。当我们在堆栈中\bpush书时，我们把书放在之前的栈顶元素上，这意味着新书成为栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 1974.015625,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "这就是push操作用法：把元素插入栈中，最后一个被push进栈的元素就是栈中新的栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 2031.015625,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H4",
+          "classes": "ant-typography",
+          "text": "出栈pop",
+          "rect": {
+            "x": 390,
+            "y": 2090.609375,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "我们还可以对堆栈进行出栈pop操作。pop是指我们将堆栈中最顶层的书拿出来，并将其放下。意味着，当我们从堆栈中移除一个元素时，堆栈遵循 先入后出 的特性。即当执行pop操",
+          "rect": {
+            "x": 390,
+            "y": 2134.296875,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "进栈push和出栈pop是堆栈数据结构的两个基本操作。",
+          "rect": {
+            "x": 390,
+            "y": 2224.296875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H4",
+          "classes": "ant-typography",
+          "text": "查看peek",
+          "rect": {
+            "x": 390,
+            "y": 2284.890625,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "我们还可以做的另一件事是查看(peek)堆栈的栈顶元素，所以可以获取: \"最上面的元素是什么？\"",
+          "rect": {
+            "x": 390,
+            "y": 2328.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "但需注意peek操作并没有删除栈顶元素，只是返回栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 2385.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "另外，还可以检查堆栈是否为空，以及其他一些特性，这些都会在代码实现堆栈数据结构的过程中体现。",
+          "rect": {
+            "x": 390,
+            "y": 2442.578125,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "现在我们将写代码实现一个 堆栈类，该类的构造函数将初始化一个 Python 列表。Python 列表有很多我们所需要的特性，它将使我们很容易的 模拟出 堆栈的核心操作，比",
+          "rect": {
+            "x": 390,
+            "y": 2498.578125,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 2587.578125,
+            "width": 960,
+            "height": 214
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "首先在构造函数__init__中初始化一个空列表self.items=[]。\n现在定义堆栈的push方法:",
+          "rect": {
+            "x": 390,
+            "y": 2849.578125,
+            "width": 960,
+            "height": 90
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "首先在构造函数__init__中初始化一个空列表self.items=[]。",
+          "rect": {
+            "x": 390,
+            "y": 2849.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "现在定义堆栈的push方法:",
+          "rect": {
+            "x": 390,
+            "y": 2906.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 2963.578125,
+            "width": 960,
+            "height": 289.265625
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "push函数是类的成员方法，接受一个item作为参数。在我们的例子中，这个item便是书。类似把书的名字放到到堆栈的顶部。\nappend是 Python 列表的一个内置方",
+          "rect": {
+            "x": 390,
+            "y": 3300.84375,
+            "width": 960,
+            "height": 90
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "push函数是类的成员方法，接受一个item作为参数。在我们的例子中，这个item便是书。类似把书的名字放到到堆栈的顶部。",
+          "rect": {
+            "x": 390,
+            "y": 3300.84375,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "append是 Python 列表的一个内置方法，它将 item添加到列表的末尾。这正是我们想做的事情：将新的元素插入到栈顶。",
+          "rect": {
+            "x": 390,
+            "y": 3357.84375,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 3414.84375,
+            "width": 960,
+            "height": 365
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "需要实现的另一个方法是 pop。由于使用列表存储堆栈的元素，Python 列表刚好有一个隐含的 list.pop()方法可以返回并删除列表最后一个元素，刚好对应堆栈的出栈",
+          "rect": {
+            "x": 390,
+            "y": 3827.84375,
+            "width": 960,
+            "height": 122
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "需要实现的另一个方法是 pop。由于使用列表存储堆栈的元素，Python 列表刚好有一个隐含的 list.pop()方法可以返回并删除列表最后一个元素，刚好对应堆栈的出栈",
+          "rect": {
+            "x": 390,
+            "y": 3827.84375,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "我们还可以是增加一些其他方法(如判断堆栈是否为空)，但在这之前，先测试下上面的代码：",
+          "rect": {
+            "x": 390,
+            "y": 3917.84375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 3973.84375,
+            "width": 960,
+            "height": 666.375
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "我们新定义一个get_stack()的方法，他返回items列表，即堆栈中所有的元素。\n然后在第17行定义了一个堆栈对象myStack，并将A和B推入堆栈，第18-19行",
+          "rect": {
+            "x": 390,
+            "y": 4688.21875,
+            "width": 960,
+            "height": 180
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "我们新定义一个get_stack()的方法，他返回items列表，即堆栈中所有的元素。",
+          "rect": {
+            "x": 390,
+            "y": 4688.21875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "然后在第17行定义了一个堆栈对象myStack，并将A和B推入堆栈，第18-19行。在这些操作之后，打印myStack，输出结果是['A', 'B']。A在堆栈的底部，B",
+          "rect": {
+            "x": 390,
+            "y": 4745.21875,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "实现堆栈数据结构的核心操作后，可以在其中添加一些其他的方法，如is_empty的方法，它返回堆栈是否为空：",
+          "rect": {
+            "x": 390,
+            "y": 4835.21875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 4892.21875,
+            "width": 960,
+            "height": 591
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "运行代码得到 True。因为此时堆栈上没有元素，列表为空列表。如果push一些元素后并调用is_empty()，会得到False。可以自己试试。",
+          "rect": {
+            "x": 390,
+            "y": 5531.21875,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "运行代码得到 True。因为此时堆栈上没有元素，列表为空列表。如果push一些元素后并调用is_empty()，会得到False。可以自己试试。",
+          "rect": {
+            "x": 390,
+            "y": 5531.21875,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "code-runner_codeRunner__34vbn code-runner_bordered__2do5U",
+          "text": "1\n\"\"\"\n2\n堆栈数据结构\n3\n\"\"\"\n4\nclass Stack():\n5\n    def __init__(self):\n6\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 5620.21875,
+            "width": 960,
+            "height": 775
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "markdown_markdown__2qCx2",
+          "text": "现在，在第17行实现了peek方法，它将返回堆栈中最顶层的元素。\n如果peek方法在上面的代码中被调用，它应该返回D。peek方法在第18行检查stack是否为空，如果不",
+          "rect": {
+            "x": 390,
+            "y": 6443.21875,
+            "width": 960,
+            "height": 301
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "现在，在第17行实现了peek方法，它将返回堆栈中最顶层的元素。",
+          "rect": {
+            "x": 390,
+            "y": 6443.21875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "如果peek方法在上面的代码中被调用，它应该返回D。peek方法在第18行检查stack是否为空，如果不是，则返回列表的最后一个元素。在本例中，它是堆栈的顶部元素。在第1",
+          "rect": {
+            "x": 390,
+            "y": 6500.21875,
+            "width": 960,
+            "height": 99
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography",
+          "text": "注意：你也可以在之前实现的方法中检查堆栈是否为空。然而，为了保持简单，在其他方法中省略了这个步骤。",
+          "rect": {
+            "x": 390,
+            "y": 6623.21875,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "ant-typography markdown_markdownParagraph__2H6Xf",
+          "text": "来吧，创建一个堆栈对象，然后push一些数据，不必局限于字母或字符串，也可以是数字。玩玩这个数据结构，更加深入直观地了解一下它是如何工作的。",
+          "rect": {
+            "x": 390,
+            "y": 6679.21875,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        }
+      ],
+      "fonts": {
+        "fonts": [
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUITextSC-Regular",
+            "isCustomFont": false,
+            "glyphCount": 166
+          },
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUIDisplaySC-Semibold",
+            "isCustomFont": false,
+            "glyphCount": 6
+          },
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Regular",
+            "isCustomFont": false,
+            "glyphCount": 12
+          }
+        ]
+      },
+      "samples": [
+        {
+          "html": "在堆栈中插入元素的操作被称为<span class=\"ant-typography\"><strong>进栈<span class=\"ant-typography\"><code>push</code></span></strong></span>。当我们在堆栈中<span class=\"ant-typography\"><strong>\bpush</strong></span>书时，我们把书放在之前的<span class=\"ant-typography\"><strong>栈顶</strong></span>元素上，这意味着新书成为<span class=\"ant-typography\"><strong>栈顶</strong></span>元素。",
+          "text": "在堆栈中插入元素的操作被称为进栈push。当我们在堆栈中\bpush书时，我们把书放在之前的栈顶元素上，这意味着新书成为栈顶元素。",
+          "style": {
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          },
+          "codes": [
+            {
+              "html": "<strong>进栈<span class=\"ant-typography\"><code>push</code></span></strong>",
+              "width": 79.765625,
+              "font": "",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<code>push</code>",
+              "width": 43.640625,
+              "font": "",
+              "fontFamily": "source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+              "padding": "2.72px 5.44px 1.36px",
+              "margin": "0px 2.72px"
+            },
+            {
+              "html": "<strong>\bpush</strong>",
+              "width": 37.4375,
+              "font": "",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<strong>栈顶</strong>",
+              "width": 30.6875,
+              "font": "",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<strong>栈顶</strong>",
+              "width": 30.6875,
+              "font": "",
+              "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          ]
+        }
+      ],
+      "headings": [
+        {
+          "html": "<h4 class=\"ant-typography\">进栈<span class=\"ant-typography\"><code>push</code></span></h4>",
+          "height": 32.1875,
+          "code": {
+            "font": "",
+            "lineHeight": "27.37px"
+          }
+        },
+        {
+          "html": "<h4 class=\"ant-typography\">出栈<span class=\"ant-typography\"><code>pop</code></span></h4>",
+          "height": 32.1875,
+          "code": {
+            "font": "",
+            "lineHeight": "27.37px"
+          }
+        },
+        {
+          "html": "<h4 class=\"ant-typography\">查看<span class=\"ant-typography\"><code>peek</code></span></h4>",
+          "height": 32.1875,
+          "code": {
+            "font": "",
+            "lineHeight": "27.37px"
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:5173/#/course/004/page/117",
+      "rows": [
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "在本课中，我们将学习堆栈Stack的使用场景以及它在Python中的实现。\n\n在随后的课程中，会更加深入的使用堆栈数据结构，以解决一些有趣的问题，并且后续课程将复用本课中",
+          "rect": {
+            "x": 390,
+            "y": 441.953125,
+            "width": 960,
+            "height": 574.390625
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "在本课中，我们将学习堆栈Stack的使用场景以及它在Python中的实现。",
+          "rect": {
+            "x": 390,
+            "y": 441.953125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "在随后的课程中，会更加深入的使用堆栈数据结构，以解决一些有趣的问题，并且后续课程将复用本课中python完成堆栈数据结构的代码。",
+          "rect": {
+            "x": 390,
+            "y": 498.953125,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H2",
+          "classes": "",
+          "text": "什么是堆栈？",
+          "rect": {
+            "x": 390,
+            "y": 596.546875,
+            "width": 960,
+            "height": 37.796875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "37.8px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "33.6px",
+            "marginBottom": "14px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "首先，让我们描述一下什么是堆栈。根据这个名字，它应该是一个相对熟悉的概念。",
+          "rect": {
+            "x": 390,
+            "y": 648.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "假设我们有四本书，其标题都很吸引人。",
+          "rect": {
+            "x": 390,
+            "y": 704.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "UL",
+          "classes": "",
+          "text": "A\n\nB\n\nC\n\nD",
+          "rect": {
+            "x": 390,
+            "y": 760.34375,
+            "width": 960,
+            "height": 200
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "16px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "A",
+          "rect": {
+            "x": 410,
+            "y": 760.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "B",
+          "rect": {
+            "x": 410,
+            "y": 816.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "C",
+          "rect": {
+            "x": 410,
+            "y": 872.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "LI",
+          "classes": "",
+          "text": "D",
+          "rect": {
+            "x": 410,
+            "y": 928.34375,
+            "width": 940,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "list-item",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "目前，这些书是散落在地板上，我们想把它们整齐地堆起来。",
+          "rect": {
+            "x": 390,
+            "y": 984.34375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "FIGURE",
+          "classes": "edu-animation",
+          "text": "← 上一步\n1 / 5\n下一步 →\n⟳",
+          "rect": {
+            "x": 390,
+            "y": 1048.34375,
+            "width": 960,
+            "height": 442
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "32px",
+            "marginBottom": "100px",
+            "paddingTop": "16px",
+            "paddingBottom": "24px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "现在我们有了一个漂亮整齐的书堆！如果想从这堆书中取回一本书，可以先取最上面的书(如果直接从底部取书，估计整个书堆都倒了😀)。因此，我们将取下最上面的一本书，然后阅读该书",
+          "rect": {
+            "x": 390,
+            "y": 1590.34375,
+            "width": 960,
+            "height": 973.234375
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "现在我们有了一个漂亮整齐的书堆！如果想从这堆书中取回一本书，可以先取最上面的书(如果直接从底部取书，估计整个书堆都倒了😀)。因此，我们将取下最上面的一本书，然后阅读该书",
+          "rect": {
+            "x": 390,
+            "y": 1590.34375,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "但如果想拿最下面的书A呢？现在，它在书堆的底部，所以需要取下书D，把它放下来，然后对书C和书B做同样的事情，然后就可以拿到书A了。",
+          "rect": {
+            "x": 390,
+            "y": 1678.34375,
+            "width": 960,
+            "height": 64
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "这就是堆栈的主要思想。数据结构堆栈Stack与你最熟悉的整齐书堆非常相似。堆栈数据结构允许我们在上面放置任何变量或对象，就像上图书堆允许把任何书放在上面。",
+          "rect": {
+            "x": 390,
+            "y": 1766.34375,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H2",
+          "classes": "",
+          "text": "堆栈基本操作",
+          "rect": {
+            "x": 390,
+            "y": 1864.9375,
+            "width": 960,
+            "height": 37.796875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "37.8px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "33.6px",
+            "marginBottom": "14px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H3",
+          "classes": "",
+          "text": "进栈push",
+          "rect": {
+            "x": 390,
+            "y": 1930.328125,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "在堆栈中插入元素的操作被称为进栈push。当我们在堆栈中\bpush书时，我们把书放在之前的栈顶元素上，这意味着新书成为栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 1974.015625,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "这就是push操作用法：把元素插入栈中，最后一个被push进栈的元素就是栈中新的栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 2031.015625,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H3",
+          "classes": "",
+          "text": "出栈pop",
+          "rect": {
+            "x": 390,
+            "y": 2090.609375,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们还可以对堆栈进行出栈pop操作。pop是指我们将堆栈中最顶层的书拿出来，并将其放下。意味着，当我们从堆栈中移除一个元素时，堆栈遵循 先入后出 的特性。即当执行pop操",
+          "rect": {
+            "x": 390,
+            "y": 2134.296875,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "进栈push和出栈pop是堆栈数据结构的两个基本操作。",
+          "rect": {
+            "x": 390,
+            "y": 2224.296875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "H3",
+          "classes": "",
+          "text": "查看peek",
+          "rect": {
+            "x": 390,
+            "y": 2284.890625,
+            "width": 960,
+            "height": 32.1875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "600",
+            "lineHeight": "32.2px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "27.6px",
+            "marginBottom": "11.5px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们还可以做的另一件事是查看(peek)堆栈的栈顶元素，所以可以获取: \"最上面的元素是什么？\"",
+          "rect": {
+            "x": 390,
+            "y": 2328.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "但需注意peek操作并没有删除栈顶元素，只是返回栈顶元素。",
+          "rect": {
+            "x": 390,
+            "y": 2385.578125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "另外，还可以检查堆栈是否为空，以及其他一些特性，这些都会在代码实现堆栈数据结构的过程中体现。",
+          "rect": {
+            "x": 390,
+            "y": 2442.578125,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "现在我们将写代码实现一个 堆栈类，该类的构造函数将初始化一个 Python 列表。Python 列表有很多我们所需要的特性，它将使我们很容易的 模拟出 堆栈的核心操作，比",
+          "rect": {
+            "x": 390,
+            "y": 2498.578125,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n\"\"\"\n堆栈数据结构\n\"\"\"\nclass Stack():\n    def __init__(self):\n        self.items ",
+          "rect": {
+            "x": 390,
+            "y": 2587.578125,
+            "width": 960,
+            "height": 213.84375
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "首先在构造函数__init__中初始化一个空列表self.items=[]。\n\n现在定义堆栈的push方法:",
+          "rect": {
+            "x": 390,
+            "y": 2849.421875,
+            "width": 960,
+            "height": 90
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "首先在构造函数__init__中初始化一个空列表self.items=[]。",
+          "rect": {
+            "x": 390,
+            "y": 2849.421875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "现在定义堆栈的push方法:",
+          "rect": {
+            "x": 390,
+            "y": 2906.421875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n\"\"\"\n堆栈数据结构\n\"\"\"\nclass Stack():\n    def __init__(self):\n        self.",
+          "rect": {
+            "x": 390,
+            "y": 2963.421875,
+            "width": 960,
+            "height": 289.265625
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "push函数是类的成员方法，接受一个item作为参数。在我们的例子中，这个item便是书。类似把书的名字放到到堆栈的顶部。\n\nappend是 Python 列表的一个内置",
+          "rect": {
+            "x": 390,
+            "y": 3300.6875,
+            "width": 960,
+            "height": 90
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "push函数是类的成员方法，接受一个item作为参数。在我们的例子中，这个item便是书。类似把书的名字放到到堆栈的顶部。",
+          "rect": {
+            "x": 390,
+            "y": 3300.6875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "append是 Python 列表的一个内置方法，它将 item添加到列表的末尾。这正是我们想做的事情：将新的元素插入到栈顶。",
+          "rect": {
+            "x": 390,
+            "y": 3357.6875,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n\"\"\"\n堆栈数据结构\n\"\"\"\nclass Stack():\n    def __init__(self):\n    ",
+          "rect": {
+            "x": 390,
+            "y": 3414.6875,
+            "width": 960,
+            "height": 364.6875
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "需要实现的另一个方法是 pop。由于使用列表存储堆栈的元素，Python 列表刚好有一个隐含的 list.pop()方法可以返回并删除列表最后一个元素，刚好对应堆栈的出栈",
+          "rect": {
+            "x": 390,
+            "y": 3827.375,
+            "width": 960,
+            "height": 122
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "需要实现的另一个方法是 pop。由于使用列表存储堆栈的元素，Python 列表刚好有一个隐含的 list.pop()方法可以返回并删除列表最后一个元素，刚好对应堆栈的出栈",
+          "rect": {
+            "x": 390,
+            "y": 3827.375,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们还可以是增加一些其他方法(如判断堆栈是否为空)，但在这之前，先测试下上面的代码：",
+          "rect": {
+            "x": 390,
+            "y": 3917.375,
+            "width": 960,
+            "height": 32
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n\"\"\"\n堆栈数据结构\n\"\"\"\nclass S",
+          "rect": {
+            "x": 390,
+            "y": 3973.375,
+            "width": 960,
+            "height": 666.375
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "我们新定义一个get_stack()的方法，他返回items列表，即堆栈中所有的元素。\n\n然后在第17行定义了一个堆栈对象myStack，并将A和B推入堆栈，第18-19",
+          "rect": {
+            "x": 390,
+            "y": 4687.75,
+            "width": 960,
+            "height": 180
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "我们新定义一个get_stack()的方法，他返回items列表，即堆栈中所有的元素。",
+          "rect": {
+            "x": 390,
+            "y": 4687.75,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "然后在第17行定义了一个堆栈对象myStack，并将A和B推入堆栈，第18-19行。在这些操作之后，打印myStack，输出结果是['A', 'B']。A在堆栈的底部，B",
+          "rect": {
+            "x": 390,
+            "y": 4744.75,
+            "width": 960,
+            "height": 66
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "实现堆栈数据结构的核心操作后，可以在其中添加一些其他的方法，如is_empty的方法，它返回堆栈是否为空：",
+          "rect": {
+            "x": 390,
+            "y": 4834.75,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n\"\"\"\n堆栈数据结构\n\"\"\"\nclass Stack():\n ",
+          "rect": {
+            "x": 390,
+            "y": 4891.75,
+            "width": 960,
+            "height": 590.953125
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "运行代码得到 True。因为此时堆栈上没有元素，列表为空列表。如果push一些元素后并调用is_empty()，会得到False。可以自己试试。",
+          "rect": {
+            "x": 390,
+            "y": 5530.703125,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "运行代码得到 True。因为此时堆栈上没有元素，列表为空列表。如果push一些元素后并调用is_empty()，会得到False。可以自己试试。",
+          "rect": {
+            "x": 390,
+            "y": 5530.703125,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "edu-code-block ",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n\"\"\"\n堆栈数",
+          "rect": {
+            "x": 390,
+            "y": 5619.703125,
+            "width": 960,
+            "height": 792.078125
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "48px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "1px",
+            "borderBottomWidth": "1px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "edu-markdown",
+          "text": "现在，在第17行实现了peek方法，它将返回堆栈中最顶层的元素。\n\n如果peek方法在上面的代码中被调用，它应该返回D。peek方法在第18行检查stack是否为空，如果",
+          "rect": {
+            "x": 390,
+            "y": 6459.78125,
+            "width": 960,
+            "height": 349
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "现在，在第17行实现了peek方法，它将返回堆栈中最顶层的元素。",
+          "rect": {
+            "x": 390,
+            "y": 6459.78125,
+            "width": 960,
+            "height": 33
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "如果peek方法在上面的代码中被调用，它应该返回D。peek方法在第18行检查stack是否为空，如果不是，则返回列表的最后一个元素。在本例中，它是堆栈的顶部元素。在第1",
+          "rect": {
+            "x": 390,
+            "y": 6516.78125,
+            "width": 960,
+            "height": 99
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "BLOCKQUOTE",
+          "classes": "",
+          "text": "注意：你也可以在之前实现的方法中检查堆栈是否为空。然而，为了保持简单，在其他方法中省略了这个步骤。",
+          "rect": {
+            "x": 390,
+            "y": 6639.78125,
+            "width": 960,
+            "height": 84
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "25.144px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "20px",
+            "marginBottom": "20px",
+            "paddingTop": "14px",
+            "paddingBottom": "14px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        },
+        {
+          "tag": "P",
+          "classes": "",
+          "text": "来吧，创建一个堆栈对象，然后push一些数据，不必局限于字母或字符串，也可以是数字。玩玩这个数据结构，更加深入直观地了解一下它是如何工作的。",
+          "rect": {
+            "x": 390,
+            "y": 6743.78125,
+            "width": 960,
+            "height": 65
+          },
+          "style": {
+            "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "display": "block",
+            "marginTop": "0px",
+            "marginBottom": "24px",
+            "paddingTop": "0px",
+            "paddingBottom": "0px",
+            "borderTopWidth": "0px",
+            "borderBottomWidth": "0px",
+            "boxSizing": "border-box",
+            "gap": "normal",
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          }
+        }
+      ],
+      "fonts": {
+        "fonts": [
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUITextSC-Regular",
+            "isCustomFont": false,
+            "glyphCount": 166
+          },
+          {
+            "familyName": ".蘋方 UI-簡",
+            "postScriptName": ".PingFangUIDisplaySC-Semibold",
+            "isCustomFont": false,
+            "glyphCount": 6
+          },
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Regular",
+            "isCustomFont": false,
+            "glyphCount": 12
+          }
+        ]
+      },
+      "samples": [
+        {
+          "html": "在堆栈中插入元素的操作被称为<strong>进栈<code>push</code></strong>。当我们在堆栈中<strong>\bpush</strong>书时，我们把书放在之前的<strong>栈顶</strong>元素上，这意味着新书成为<strong>栈顶</strong>元素。",
+          "text": "在堆栈中插入元素的操作被称为进栈push。当我们在堆栈中\bpush书时，我们把书放在之前的栈顶元素上，这意味着新书成为栈顶元素。",
+          "style": {
+            "whiteSpace": "normal",
+            "wordBreak": "normal"
+          },
+          "codes": [
+            {
+              "html": "<strong>进栈<code>push</code></strong>",
+              "width": 79.765625,
+              "font": "600 16px / 32px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<code>push</code>",
+              "width": 43.640625,
+              "font": "600 13.6px / 32px source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+              "fontFamily": "source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+              "padding": "2.72px 5.44px 1.36px",
+              "margin": "0px 2.72px"
+            },
+            {
+              "html": "<strong>\bpush</strong>",
+              "width": 37.4375,
+              "font": "600 16px / 32px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<strong>栈顶</strong>",
+              "width": 30.6875,
+              "font": "600 16px / 32px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            },
+            {
+              "html": "<strong>栈顶</strong>",
+              "width": 30.6875,
+              "font": "600 16px / 32px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "fontFamily": "-apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          ]
+        }
+      ],
+      "headings": [
+        {
+          "html": "<h3>进栈<code>push</code></h3>",
+          "height": 32.1875,
+          "code": {
+            "font": "600 19.55px / 27.37px source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+            "lineHeight": "27.37px"
+          }
+        },
+        {
+          "html": "<h3>出栈<code>pop</code></h3>",
+          "height": 32.1875,
+          "code": {
+            "font": "600 19.55px / 27.37px source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+            "lineHeight": "27.37px"
+          }
+        },
+        {
+          "html": "<h3>查看<code>peek</code></h3>",
+          "height": 32.1875,
+          "code": {
+            "font": "600 19.55px / 27.37px source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace",
+            "lineHeight": "27.37px"
+          }
+        }
+      ]
+    }
+  ]
+}

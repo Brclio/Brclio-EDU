@@ -1,0 +1,226 @@
+[
+  {
+    "id": "solo",
+    "width": 1440,
+    "lang": "zh-CN",
+    "metrics": [
+      {
+        "selector": ".lesson-main>h1",
+        "x": 401,
+        "y": 139.90625,
+        "width": 638,
+        "height": 33
+      },
+      {
+        "selector": ".edu-image img",
+        "x": 401,
+        "y": 216.8125,
+        "width": 638,
+        "height": 212.65625
+      },
+      {
+        "selector": ".edu-note",
+        "x": 401,
+        "y": 624.46875,
+        "width": 638,
+        "height": 96
+      }
+    ]
+  },
+  {
+    "id": "solo",
+    "width": 1440,
+    "lang": "en",
+    "metrics": [
+      {
+        "selector": ".lesson-main>h1",
+        "x": 401,
+        "y": 139.90625,
+        "width": 638,
+        "height": 28
+      },
+      {
+        "selector": ".edu-image img",
+        "x": 401,
+        "y": 211.8125,
+        "width": 638,
+        "height": 212.65625
+      },
+      {
+        "selector": ".edu-note",
+        "x": 401,
+        "y": 619.46875,
+        "width": 638,
+        "height": 96
+      }
+    ]
+  },
+  {
+    "id": "article",
+    "width": 1440,
+    "lang": "zh-CN",
+    "metrics": [
+      {
+        "selector": ".article-page-heading h1",
+        "x": 390,
+        "y": 104,
+        "width": 960,
+        "height": 54.109375
+      },
+      {
+        "selector": ".article-content>.edu-content>.edu-markdown:nth-child(3)",
+        "x": 390,
+        "y": 1590.34375,
+        "width": 960,
+        "height": 1010.671875
+      },
+      {
+        "selector": ".edu-code-block",
+        "x": 390,
+        "y": 2625.015625,
+        "width": 960,
+        "height": 213.84375
+      }
+    ]
+  },
+  {
+    "id": "article",
+    "width": 1440,
+    "lang": "en",
+    "metrics": [
+      {
+        "selector": ".article-page-heading h1",
+        "x": 390,
+        "y": 104,
+        "width": 960,
+        "height": 54.109375
+      },
+      {
+        "selector": ".article-content>.edu-content>.edu-markdown:nth-child(3)",
+        "x": 390,
+        "y": 1590.34375,
+        "width": 960,
+        "height": 978.671875
+      },
+      {
+        "selector": ".edu-code-block",
+        "x": 390,
+        "y": 2593.015625,
+        "width": 960,
+        "height": 213.84375
+      }
+    ]
+  },
+  {
+    "id": "solo",
+    "width": 390,
+    "lang": "zh-CN",
+    "metrics": [
+      {
+        "selector": ".lesson-main>h1",
+        "x": 20,
+        "y": 140,
+        "width": 350,
+        "height": 33
+      },
+      {
+        "selector": ".edu-image img",
+        "x": 20,
+        "y": 216.90625,
+        "width": 350,
+        "height": 116.65625
+      },
+      {
+        "selector": ".edu-note",
+        "x": 20,
+        "y": 612.5625,
+        "width": 350,
+        "height": 124
+      }
+    ]
+  },
+  {
+    "id": "solo",
+    "width": 390,
+    "lang": "en",
+    "metrics": [
+      {
+        "selector": ".lesson-main>h1",
+        "x": 20,
+        "y": 140,
+        "width": 350,
+        "height": 28
+      },
+      {
+        "selector": ".edu-image img",
+        "x": 20,
+        "y": 211.90625,
+        "width": 350,
+        "height": 116.65625
+      },
+      {
+        "selector": ".edu-note",
+        "x": 20,
+        "y": 607.5625,
+        "width": 350,
+        "height": 124
+      }
+    ]
+  },
+  {
+    "id": "article",
+    "width": 390,
+    "lang": "zh-CN",
+    "metrics": [
+      {
+        "selector": ".article-page-heading h1",
+        "x": 16,
+        "y": 88,
+        "width": 358,
+        "height": 54.109375
+      },
+      {
+        "selector": ".article-content>.edu-content>.edu-markdown:nth-child(3)",
+        "x": 16,
+        "y": 1727.484375,
+        "width": 358,
+        "height": 1618.671875
+      },
+      {
+        "selector": ".edu-code-block",
+        "x": 16,
+        "y": 3370.15625,
+        "width": 358,
+        "height": 213.84375
+      }
+    ]
+  },
+  {
+    "id": "article",
+    "width": 390,
+    "lang": "en",
+    "metrics": [
+      {
+        "selector": ".article-page-heading h1",
+        "x": 16,
+        "y": 88,
+        "width": 358,
+        "height": 54.109375
+      },
+      {
+        "selector": ".article-content>.edu-content>.edu-markdown:nth-child(3)",
+        "x": 16,
+        "y": 1727.484375,
+        "width": 358,
+        "height": 1618.671875
+      },
+      {
+        "selector": ".edu-code-block",
+        "x": 16,
+        "y": 3370.15625,
+        "width": 358,
+        "height": 213.84375
+      }
+    ]
+  }
+]

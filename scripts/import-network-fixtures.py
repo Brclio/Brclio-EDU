@@ -66,6 +66,9 @@ mapfile=ROOT/'public/content/fixture-map.json';mapping=json.loads(mapfile.read_t
 for item in results:
  if item.get('status')==200 and item.get('path'):
   value={k:item[k] for k in ['path','contentType','sha256','capturedAt','bytes','finalUrl']};value.update(source=item.get('source',item['url']),recovered=True,capture=item.get('recoveryNote','Current anonymous public response; original historical layout is not assumed.'))
+  value['fidelity']='archived-original-response' if 'web.archive.org' in value['source'] else 'captured-current-public-response'
+  if recovery.get(item['url'],{}).get('adaptedEndpoint'):
+   value.update(adaptedEndpoint=True,fidelity='adapted-endpoint',historicalIdentityClaimed=False)
   for url in [item['url']]+item.get('aliases',[]):
    if mapping.get(url,{}).get('adapted'):mapping[url]['raw']=value
    else:mapping[url]=value

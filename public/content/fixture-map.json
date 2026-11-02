@@ -1,7 +1,8 @@
 {
   "http://api.pythontip.com/course/fake_baidu": {
     "path": "/content/fixtures/fake-baidu.html",
-    "source": "024-1327 / Code 385251ae-5d0c-3646-a8b6-e56dfe04bdff"
+    "source": "024-1327 / Code 385251ae-5d0c-3646-a8b6-e56dfe04bdff",
+    "fidelity": "exported-original-lesson-html-with-local-resource-urls"
   },
   "http://api.pythontip.com/course/hello_html": {
     "path": "/content/fixtures/hello-html.html",
@@ -10,7 +11,9 @@
     "evidence": [
       "/content/assets/3d15310d283264478709.png",
       "/content/assets/092b5a8fd988c6c75643.png"
-    ]
+    ],
+    "fidelity": "reconstructed-from-course-evidence",
+    "historicalIdentityClaimed": false
   },
   "https://baidu.com": {
     "path": "/content/fixtures/network/57dccbd875bb1b745520.html",
@@ -21,7 +24,9 @@
     "finalUrl": "https://www.baidu.com/",
     "source": "https://baidu.com",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/?view=cloud": {
     "path": "/content/fixtures/network/2375ec30725b4296b065.html",
@@ -32,7 +37,9 @@
     "finalUrl": "https://book.douban.com/tag/?view=cloud",
     "source": "https://book.douban.com/tag/?view=cloud",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://edu.py2fun.com/learn#/course/list": {
     "path": "/content/fixtures/network/f22d7ee2045b683bc73e.html",
@@ -43,7 +50,9 @@
     "finalUrl": "https://edu.py2fun.com/learn#/course/list",
     "source": "https://edu.py2fun.com/learn#/course/list",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/subject/26829016/": {
     "path": "/content/fixtures/network/5970c516d1ac8600a00d.html",
@@ -54,7 +63,9 @@
     "finalUrl": "https://book.douban.com/subject/26829016/",
     "source": "https://book.douban.com/subject/26829016/",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "http://sj.zol.com.cn": {
     "path": "/content/fixtures/network/48cef96d90b49575bd3b.html",
@@ -65,7 +76,9 @@
     "finalUrl": "https://sj.zol.com.cn/",
     "source": "http://sj.zol.com.cn",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "http://www.jd.com": {
     "path": "/content/fixtures/network/9c34a8a33e2143a2216a.html",
@@ -76,7 +89,9 @@
     "finalUrl": "https://www.jd.com/",
     "source": "http://www.jd.com",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T": {
     "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
@@ -87,7 +102,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/编程?start=0&type=T": {
     "path": "/content/fixtures/network/68ba14962af7a40c732f.html",
@@ -98,7 +115,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=0&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T": {
     "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
@@ -109,7 +128,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/编程?start=20&type=T": {
     "path": "/content/fixtures/network/2fbf4a6d52b6fd2257bb.html",
@@ -120,7 +141,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=20&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T": {
     "path": "/content/fixtures/network/278682050980f84c06b5.html",
@@ -131,7 +154,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/编程?start=40&type=T": {
     "path": "/content/fixtures/network/278682050980f84c06b5.html",
@@ -142,7 +167,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=40&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T": {
     "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
@@ -153,7 +180,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/编程?start=60&type=T": {
     "path": "/content/fixtures/network/3a59dae039fa7e712de2.html",
@@ -164,7 +193,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=60&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T": {
     "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
@@ -175,7 +206,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "https://book.douban.com/tag/编程?start=80&type=T": {
     "path": "/content/fixtures/network/fc96c77e52c294d97589.html",
@@ -186,7 +219,9 @@
     "finalUrl": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
     "source": "https://book.douban.com/tag/%E7%BC%96%E7%A8%8B?start=80&type=T",
     "recovered": true,
-    "capture": "Current anonymous public response; original historical layout is not assumed."
+    "capture": "Current anonymous public response; original historical layout is not assumed.",
+    "fidelity": "captured-current-public-response",
+    "historicalIdentityClaimed": false
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/1.html": {
     "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
@@ -197,7 +232,10 @@
     "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "recovered": true,
-    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html.",
+    "adaptedEndpoint": true,
+    "fidelity": "adapted-endpoint",
+    "historicalIdentityClaimed": false
   },
   "http://sj.zol.com.cn/bizhi/1080x1920": {
     "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
@@ -208,7 +246,10 @@
     "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "recovered": true,
-    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html.",
+    "adaptedEndpoint": true,
+    "fidelity": "adapted-endpoint",
+    "historicalIdentityClaimed": false
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/": {
     "path": "/content/fixtures/network/75c7853edbb997eb49f7.html",
@@ -219,7 +260,10 @@
     "finalUrl": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "source": "https://web.archive.org/web/20241205093925id_/https://sj.zol.com.cn/bizhi/1080x1920/",
     "recovered": true,
-    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html."
+    "capture": "Directory index snapshot reused for its first-page /1.html alias; original /1.html has no public archive. This is a documented first-page endpoint adaptation, not an exact historical response of /1.html.",
+    "adaptedEndpoint": true,
+    "fidelity": "adapted-endpoint",
+    "historicalIdentityClaimed": false
   },
   "http://sj.zol.com.cn/bizhi/detail_10981_121155.html": {
     "path": "/content/fixtures/network/efc1a4914aaae0c70d3a.html",
@@ -230,7 +274,8 @@
     "finalUrl": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
     "source": "https://web.archive.org/web/20211128141127id_/https://sj.zol.com.cn/bizhi/detail_10981_121155.html",
     "recovered": true,
-    "capture": "Exact original detail page bytes from public archive."
+    "capture": "Exact original detail page bytes from public archive.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/2.html": {
     "path": "/content/fixtures/network/5c4734ffbd0845242c1e.html",
@@ -241,7 +286,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
     "source": "https://web.archive.org/web/20200216102655id_/http://sj.zol.com.cn:80/bizhi/1080x1920/2.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/3.html": {
     "path": "/content/fixtures/network/f038c847f7012d5ad72f.html",
@@ -252,7 +298,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
     "source": "https://web.archive.org/web/20200216102700id_/http://sj.zol.com.cn:80/bizhi/1080x1920/3.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/4.html": {
     "path": "/content/fixtures/network/98ba8855c26e620fa318.html",
@@ -263,7 +310,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
     "source": "https://web.archive.org/web/20200216102706id_/http://sj.zol.com.cn:80/bizhi/1080x1920/4.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/5.html": {
     "path": "/content/fixtures/network/a7d90c777b22a856c21a.html",
@@ -274,7 +322,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
     "source": "https://web.archive.org/web/20200216102710id_/http://sj.zol.com.cn:80/bizhi/1080x1920/5.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/6.html": {
     "path": "/content/fixtures/network/87b77a0feb74f8c7f9b2.html",
@@ -285,7 +334,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
     "source": "https://web.archive.org/web/20200216102716id_/http://sj.zol.com.cn:80/bizhi/1080x1920/6.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/7.html": {
     "path": "/content/fixtures/network/f3180851fd1ece9bfd4f.html",
@@ -296,7 +346,8 @@
     "finalUrl": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
     "source": "https://web.archive.org/web/20200216102721id_/http://sj.zol.com.cn:80/bizhi/1080x1920/7.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/8.html": {
     "path": "/content/fixtures/network/5442ee4e9d59844d5162.html",
@@ -307,7 +358,8 @@
     "finalUrl": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
     "source": "https://web.archive.org/web/20190214220141id_/http://sj.zol.com.cn:80/bizhi/1080x1920/8.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/9.html": {
     "path": "/content/fixtures/network/1735e38a7bfe38cf5e6e.html",
@@ -318,7 +370,8 @@
     "finalUrl": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
     "source": "https://web.archive.org/web/20190213111045id_/http://sj.zol.com.cn:80/bizhi/1080x1920/9.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "http://sj.zol.com.cn/bizhi/1080x1920/10.html": {
     "path": "/content/fixtures/network/76afeb3a9439f60c905b.html",
@@ -329,7 +382,8 @@
     "finalUrl": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
     "source": "https://web.archive.org/web/20190214220136id_/http://sj.zol.com.cn:80/bizhi/1080x1920/10.html",
     "recovered": true,
-    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages."
+    "capture": "Original archived public HTML; snapshot date is encoded in source URL. Snapshot dates differ between pages.",
+    "fidelity": "archived-original-response"
   },
   "https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg": {
     "path": "/content/fixtures/network/bdcad9125dbbc4af245d.jpg",
@@ -340,7 +394,8 @@
     "finalUrl": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
     "source": "https://web.archive.org/web/20201123140617id_/https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/0E/07/ChMkKV-NICeIOAUKAEr-VrVkwWAAAD5UQDbYv8ASv5u449.jpg",
     "recovered": true,
-    "capture": "Exact archived original image, previously restored for this course."
+    "capture": "Exact archived original image, previously restored for this course.",
+    "fidelity": "archived-original-response"
   },
   "https://www.biqukan.cc/article/30067/": {
     "path": "/content/fixtures/network/biqukan-index-teaching-gbk.html",
@@ -371,7 +426,8 @@
         "Transcode UTF-8 source text to strict GBK; no replacement characters."
       ],
       "scope": "Exactly the 100 entries on this captured current index page; not the entire historical novel catalogue."
-    }
+    },
+    "fidelity": "adapted-teaching-response"
   },
   "https://www.biqukan.cc/article/30067/17748491.html": {
     "path": "/content/fixtures/network/biqukan-chapter-teaching-gbk.html",
@@ -402,6 +458,7 @@
         "Transcode UTF-8 source text to strict GBK; no replacement characters."
       ],
       "scope": "Only 第一章 狐女 第1页 captured at the exact original URL. The current website splits this chapter across pages; no missing paragraphs are invented."
-    }
+    },
+    "fidelity": "adapted-teaching-response"
   }
 }

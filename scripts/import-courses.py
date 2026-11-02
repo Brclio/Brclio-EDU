@@ -201,5 +201,6 @@ if not args.skip_assets:
  subprocess.run([sys.executable,str(ROOT/'scripts/import-svg-assets.py')],check=True)
  subprocess.run([sys.executable,str(ROOT/'scripts/import-finalize-resources.py')],check=True)
  subprocess.run([sys.executable,str(ROOT/'scripts/import-recover-resources.py')],check=True)
+ subprocess.run(['node',str(ROOT/'scripts/import-teaching-links.mjs')],check=True)
  manifest=json.loads((OUT/'manifest.json').read_text())
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('assets','failures')},ensure_ascii=False,indent=2),flush=True)

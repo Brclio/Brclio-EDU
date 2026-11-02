@@ -1,0 +1,34 @@
+{
+  "base": "https://edu.brclio.com",
+  "startedAt": "2026-11-02T06:39:29.765Z",
+  "checks": [
+    {
+      "catalog": 28,
+      "firstCard": {
+        "x": 270,
+        "y": 190,
+        "width": 282,
+        "height": 325
+      }
+    },
+    {
+      "articleHeading": {
+        "x": 390,
+        "y": 104,
+        "width": 960,
+        "height": 54.109375
+      }
+    },
+    {
+      "animation": "next and reset"
+    },
+    {
+      "soloCode": "read-only source, fullscreen, real Python, close, persisted edit"
+    },
+    {
+      "web": "three editors, explicit Run, rendered local preview, close"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T06:40:23.289Z"
+}

@@ -1,0 +1,36 @@
+{
+  "startedAt": 1793598897.70431,
+  "isolation": "temporary copy of scripts, public/content and anonymous source caches; node_modules linked read-only by the import process",
+  "originalFixtureMapEntries": 34,
+  "exitCode": 0,
+  "animationSummary": {
+    "animations": 163,
+    "frames": 964
+  },
+  "animationErrors": [],
+  "everyReproducedFrameMatchesSourceBytes": true,
+  "finalFixtureMapEntries": 34,
+  "lostFixtureUrls": [],
+  "changedFixtureBodies": [],
+  "reproducedFidelitySummary": {
+    "courses": 28,
+    "pages": 1190,
+    "challenges": 479,
+    "sourceScalarFields": 345606,
+    "sourceExactFields": 343630,
+    "sourceLocalizedFields": 1976,
+    "frameExternalizations": 964,
+    "sourceComparisonIssues": 0,
+    "renderExternal": 0,
+    "svgExternal": 0,
+    "missingLocalReferences": 0,
+    "assetFilesHashed": 2961,
+    "fixtureAliases": 34,
+    "fixtureBodies": 27,
+    "errors": 0,
+    "liveRequests": 0,
+    "liveChanged": 0,
+    "liveErrors": 0
+  },
+  "durationSeconds": 46.01
+}

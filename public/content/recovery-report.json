@@ -3,7 +3,8 @@
     "downloaded_original_files": 3,
     "exported_original_html": 1,
     "reconstructed_from_original_evidence": 2,
-    "unresolved_required_resources": 0
+    "unresolved_required_resources": 0,
+    "scope": "Six initially registered course resource recovery groups only; not all dynamically discoverable crawler targets or original bytes of reconstructed files."
   },
   "recovered": [
     {
@@ -112,6 +113,6 @@
       "evidence": "Chromium computed styles checked every original HTML example DOM element and ::before/::after; backgroundImage/listStyleImage/borderImageSource/maskImage/content/cursor contained zero URL usages. These icons are not used by the supplied author-introduction example."
     }
   ],
-  "external_web_scraping": "Live crawling examples keep original target URLs. Their target websites are not course assets; browser sandbox/runtime network support is a separate execution constraint.",
-  "reproduce": "python3 scripts/import-courses.py (full pipeline); python3 scripts/import-recover-resources.py (recover only, no course refetch); python3 scripts/import-verify.py (local integrity check)"
+  "external_web_scraping": "Fixed public GET responses are separately archived in fixture-map.json. Dynamic crawler targets and private-account examples remain outside that bounded archive; see docs/content-fidelity-audit.md.",
+  "reproduce": "python3 scripts/import-all.py (courses, fixed fixtures, datasets and browser runtime); python3 scripts/import-recover-resources.py (six recovery groups only); python3 scripts/import-verify.py (local integrity check)"
 }

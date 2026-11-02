@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T16:23:29.690Z",
+  "generatedAt": "2026-11-02T06:00:55.668Z",
   "scope": "all imported lesson pages and standalone challenges",
   "pages": [
     {
@@ -39232,7 +39232,7 @@
         }
       ],
       "correctOptions": [],
-      "textPreview": "我们内置了一个[爬虫学习欢迎](http://api.pythontip.com/course/hello_html)网页，浏览器打开展示如下:\n![](/content/assets/092b5a8fd988c6c75643.png)\n\n"
+      "textPreview": "我们内置了一个[爬虫学习欢迎](/content/fixtures/hello-html.html)网页，浏览器打开展示如下:\n![](/content/assets/092b5a8fd988c6c75643.png)\n\n代码右边中输出该网"
     },
     {
       "file": "/content/pages/024-1326.json",
@@ -39300,7 +39300,7 @@
         }
       ],
       "correctOptions": [],
-      "textPreview": "我们内置了一个[爬虫学习欢迎](http://api.pythontip.com/course/hello_html)网页，浏览器打开展示如下:\n![](/content/assets/092b5a8fd988c6c75643.png)\n\n"
+      "textPreview": "我们内置了一个[爬虫学习欢迎](/content/fixtures/hello-html.html)网页，浏览器打开展示如下:\n![](/content/assets/092b5a8fd988c6c75643.png)\n\n请使用`reque"
     },
     {
       "file": "/content/pages/024-1327.json",
@@ -39356,7 +39356,7 @@
         }
       ],
       "correctOptions": [],
-      "textPreview": "文章最后一个代码示例中的`html_content`其实是网址为[http://api.pythontip.com/course/fake_baidu](http://api.pythontip.com/course/fake_baidu)"
+      "textPreview": "文章最后一个代码示例中的`html_content`其实是网址为[http://api.pythontip.com/course/fake_baidu](/content/fixtures/fake-baidu.html)的源码内容。只不过"
     },
     {
       "file": "/content/pages/024-1328.json",
@@ -39426,7 +39426,7 @@
         }
       ],
       "correctOptions": [],
-      "textPreview": "请使用`requests`[请求网址](http://api.pythontip.com/course/hello_html)，并用`BeautifulSoup`解析网页，按行输出该网页中所有的`a`标签中的`href`网页地址。\n\n![]"
+      "textPreview": "请使用`requests`[请求网址](/content/fixtures/hello-html.html)，并用`BeautifulSoup`解析网页，按行输出该网页中所有的`a`标签中的`href`网页地址。\n\n![](/content"
     },
     {
       "file": "/content/pages/024-1329.json",
@@ -92930,8 +92930,8 @@
     "resolvedReferences": 2768,
     "referenceInstances": 2768,
     "scalarFieldsCompared": 345606,
-    "unchangedFields": 343632,
-    "localizedFields": 1974,
+    "unchangedFields": 343630,
+    "localizedFields": 1976,
     "verifiedFrameExternalizations": 964,
     "issues": [],
     "totalReferenceResources": 2805

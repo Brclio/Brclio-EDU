@@ -1,0 +1,37 @@
+/* The learn application uses a fixed 638 px centered lesson column. */
+.learning.solo{font-family:-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;color:#252933;-webkit-font-smoothing:antialiased;--purple:#575bfd}
+.solo .lesson-header{height:120px;border:0;position:relative;padding:0 max(24px,calc((100vw - 1296px)/2));gap:20px;justify-content:center}
+.solo .lesson-back{font-size:18px;font-weight:400;width:309px;gap:6px;padding:0;flex:1}
+.solo .lesson-back svg{width:24px;height:24px}
+.solo .lesson-progress{width:638px;max-width:638px;flex:none;margin:0;position:relative}
+.solo .lesson-progress small{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+.solo .lesson-progress .progress-track{background:#eaf0f3;height:10px}
+.solo .lesson-progress .progress-track i{position:relative;background:#575bfd}
+.solo .lesson-progress .progress-track i:after{content:'';width:8px;height:8px;border-radius:4px;position:absolute;right:1px;top:1px;background:#fff}
+.solo .lesson-tools{flex:1;margin:0;justify-content:flex-end}
+.solo .lesson-tools button{font-size:12px}
+.solo .lesson-main{margin:19.90625px auto 0;min-height:0;padding-bottom:160px}
+.solo .lesson-main>h1{font-size:24px;font-weight:700;line-height:normal;margin:0 0 19.90625px}
+.solo .edu-content{color:#252933;line-height:normal}
+.solo .edu-markdown{margin:0}
+.solo .edu-markdown p{font-size:16px;line-height:28px;color:#252933;white-space:pre-wrap;margin:16px 0}
+.solo .edu-markdown p:first-child{margin-top:16px}
+.solo .edu-markdown p:last-child{margin-bottom:16px}
+.solo .edu-markdown strong{font-weight:700}
+.solo .edu-markdown h2{font-size:26px;line-height:35px;margin:0 0 28px;color:#2d3846}
+.solo .edu-markdown ul{padding-left:16px}
+.solo .edu-image{margin:0;padding:24px 0}
+.solo .edu-image img{display:inline;width:100%;max-width:100%!important}
+.solo .edu-note{margin:24px 0 0;padding:18px 20px;min-height:80px;align-items:center;gap:16px;border:0;background:#f6e9c8;border-radius:4px}
+.solo .edu-note .edu-note-icon{flex:0 0 32px;width:32px;height:32px;display:grid;place-items:center;color:white;background:#ff9a00;border:2px solid #f6e9c8;border-radius:50%;font-size:23px;line-height:28px}
+.solo .edu-note .edu-markdown p{margin:16px 0!important}
+.solo .lesson-footer>div{height:119px;min-height:119px}
+.solo .lesson-footer .primary{min-width:167px;height:48px;min-height:48px;font-size:16px;font-weight:400;padding:0 20px;border-radius:6px;margin-left:auto}
+.solo .lesson-footer .primary svg,.solo .lesson-footer .previous svg{display:none}
+.solo .lesson-footer .previous{height:48px;width:167px;justify-content:center;border:1px solid #575bfd;color:#575bfd;border-radius:6px;font-size:16px}
+.solo .lesson-footer .previous:disabled{visibility:hidden}
+.solo .lesson-footer small:not(:has([role=status])){font-size:0}
+.solo .lesson-footer small{flex:1;text-align:center}
+.solo .edu-quiz{margin-top:28px}
+@media(max-width:1099px){.solo .lesson-header{padding:0 24px}.solo .lesson-back{width:auto}.solo .lesson-progress{width:min(638px,60vw)}.solo .lesson-tools span{display:none}}
+@media(max-width:700px){.solo .lesson-header{height:120px;flex-wrap:wrap;padding:20px;gap:16px;align-content:center}.solo .lesson-progress{order:3;width:100%;max-width:638px;flex-basis:100%}.solo .lesson-back{font-size:16px}.solo .lesson-main{margin-top:20px;padding:0 20px 160px}.solo .lesson-main>h1{font-size:24px}.solo .lesson-footer>div{padding:0 20px;gap:20px}.solo .lesson-footer .previous,.solo .lesson-footer .primary{width:calc((100vw - 60px)/2);min-width:0}.solo .lesson-footer small{display:none}.solo .edu-image{padding:24px 0}.solo .edu-content{font-size:16px}}

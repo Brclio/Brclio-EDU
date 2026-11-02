@@ -8,7 +8,8 @@
     "aliases": [
       "http://sj.zol.com.cn/bizhi/1080x1920",
       "http://sj.zol.com.cn/bizhi/1080x1920/"
-    ]
+    ],
+    "adaptedEndpoint": true
   },
   {
     "url": "http://sj.zol.com.cn/bizhi/1080x1920/10.html",

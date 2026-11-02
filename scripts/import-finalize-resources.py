@@ -95,6 +95,14 @@ for original,fixture in fixtures.items():
  content=fixture.pop('content')
  for url,local in resources.items():content=content.replace(url,local)
  (PUBLIC/fixture['path'].lstrip('/')).write_text(content)
+ fixture.update(contentType='text/html; charset=utf-8',bytes=len(content.encode()),sha256=hashlib.sha256(content.encode()).hexdigest(),fidelity='exported-original-lesson-html-with-local-resource-urls')
+# Re-running the content pass must not erase subsequently archived crawler
+# responses or their adaptation provenance. Only the HTML exported above is
+# replaced; unrelated exact URL mappings remain intact.
+fixture_file=OUT/'fixture-map.json'
+previous_fixtures=json.loads(fixture_file.read_text()) if fixture_file.exists() else {}
+for original,fixture in fixtures.items():previous_fixtures[original]={**previous_fixtures.get(original,{}),**fixture}
+fixtures=previous_fixtures
 (OUT/'fixture-map.json').write_text(json.dumps(fixtures,ensure_ascii=False,indent=2)+'\n')
 (OUT/'attachment-index.json').write_text(json.dumps({'attachment_instances':count,'files':attachments},ensure_ascii=False,indent=2)+'\n')
 # Known source-template endpoints cannot be copied when unavailable. Keep exact

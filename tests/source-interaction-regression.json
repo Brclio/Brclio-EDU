@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-11-02T05:55:08.596Z",
+  "checks": [
+    {
+      "name": "solo source is read-only; workspace edits persist, runs real Python, closes and restores",
+      "passed": true
+    },
+    {
+      "name": "drag word bank follows focused blank, hides used values, returns replaced value, advances focus",
+      "passed": true
+    },
+    {
+      "name": "multi-choice submit count matches source; wrong answer locks then retry clears",
+      "passed": true
+    },
+    {
+      "name": "animation image does not advance; next and reset control frames",
+      "passed": true
+    },
+    {
+      "name": "native code hints retain all original hints and close without changing code",
+      "passed": true
+    },
+    {
+      "name": "web workspace has HTML CSS JS plus result, waits for run, reruns edited source",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T05:55:13.923Z"
+}

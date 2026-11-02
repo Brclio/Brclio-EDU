@@ -1,0 +1,10 @@
+{
+  "startedAt": "2026-11-02T06:23:14.564Z",
+  "checks": [
+    "article reset restores original code and retains actual prior stdout",
+    "article reset terminates the active real Worker and restores runnable editor",
+    "reset clears actual passed judge results while restoring the original unfinished code"
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-02T06:23:19.408Z"
+}

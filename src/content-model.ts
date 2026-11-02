@@ -20,3 +20,33 @@ export function quizExpectedBlank(kind: string, options: QuizOption[], position:
 export function normalizeQuizAnswer(value: unknown) {
   return String(value ?? '').replace(/\r\n/g, '\n').trim();
 }
+
+export function validQuizOrder(value: unknown, length: number): value is number[] {
+  return Array.isArray(value) && value.length === length && new Set(value).size === length
+    && value.every(index => Number.isInteger(index) && index >= 0 && index < length);
+}
+export function shuffledQuizOrder(options: QuizOption[], reorder = false, random = Math.random) {
+  const order = options.map((_, index) => index);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  const expected = orderedQuizAnswers(options);
+  if (reorder && order.length > 1 && order.every((index, position) => options[index] === expected[position])) order.push(order.shift()!);
+  return order;
+}
+
+export function codeNeedsInput(language: string, code: string) {
+  const source = code.replace(/\/\*[\s\S]*?\*\/|\/\/[^\n]*|^\s*#[^\n]*/gm, '');
+  const patterns: Record<string, RegExp> = {
+    python: /\binput\s*\(|\bsys\.stdin\b/,
+    c: /\b(?:scanf|getchar|gets)\s*\(|\bf(?:gets|getc)\s*\([^;\n]*\bstdin\b/,
+    cpp: /\b(?:scanf|getchar|gets)\s*\(|\bcin\s*>>|\bgetline\s*\([^;\n]*\bcin\b/,
+    java: /\bSystem\.in\b/,
+    go: /\bfmt\.Scan(?:ln|f)?\s*\(|\bos\.Stdin\b/,
+    csharp: /\bConsole\.Read(?:Line|Key)?\s*\(/,
+    ruby: /\bgets\b|\bSTDIN\b/,
+    sh: /\bread\s+/, bash: /\bread\s+/,
+  };
+  return patterns[language]?.test(source) || false;
+}

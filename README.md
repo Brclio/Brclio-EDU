@@ -1,6 +1,6 @@
 # Brclio EDU
 
-[在线学习](https://edu.brclio.com/) · [上线验收](docs/verification.md) · [宝塔运行服务](docs/server-deployment.md)
+[在线学习](https://edu.brclio.com/) · [本轮一致性复核](docs/fidelity-verification.md) · [首轮上线验收](docs/verification.md) · [宝塔运行服务](docs/server-deployment.md)
 
 基于 edu.py2fun.com 公开课程数据的开放学习站。Cloudflare Workers + Static Assets 托管课程，访客无需登录；学习记录由 Worker 写入 GitHub 私有仓库。需要原生编译或多进程的程序使用独立的宝塔运行服务。
 
